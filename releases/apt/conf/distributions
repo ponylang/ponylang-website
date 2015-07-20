@@ -1,0 +1,17 @@
+Codename: ponyc
+Architectures: i386 amd64
+Components: main
+UDebComponents: main
+SignWith: Yes
+
+Codename: ponyc-avx2
+Architectures: i386 amd64
+Components: main
+UDebComponents: main
+SignWith: Yes
+
+Codename: ponyc-numa
+Architectures: i386 amd64
+Components: main
+UDebComponents: main
+SignWith: Yes

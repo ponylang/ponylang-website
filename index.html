@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Actor Model, Low Latency, High Performance, Programming, Capabilities, Data-race free">
+    <meta name="author" content="Causality Ltd.">
+
+    <title>Pony - High Performance Actor Programming</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="header clearfix">
+        <div class="pull-right">
+          <a aria-label="Star CausalityLtd/ponyc on GitHub" data-count-aria-label="# stargazers on GitHub" data-count-api="/repos/CausalityLtd/ponyc#stargazers_count" data-count-href="/CausalityLtd/ponyc/stargazers" data-style="mega" data-icon="octicon-star" href="https://github.com/CausalityLtd/ponyc" class="github-button">Star</a>
+          <a aria-label="Watch CausalityLtd/ponyc on GitHub" data-count-aria-label="# watchers on GitHub" data-count-api="/repos/CausalityLtd/ponyc#subscribers_count" data-count-href="/CausalityLtd/ponyc/watchers" data-style="mega" data-icon="octicon-eye" href="https://github.com/CausalityLtd/ponyc" class="github-button">Watch</a>
+        </div>
+      </div>
+
+      <div class="ribbon">
+        <a href="https://github.com/CausalityLtd/ponyc">Visit us on GitHub</a>
+      </div>
+
+      <div id="license" class="modal fade">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title">The BSD 2-Clause License</h4>
+            </div>
+            <div class="modal-body">
+              <pre>
+Copyright (c) 2014-2015, Causality Ltd.
+All rights reserved.
+
+Redistribution and use in source and binary forms, with or without
+modification, are permitted provided that the following conditions are met:
+
+1. Redistributions of source code must retain the above copyright notice, this
+   list of conditions and the following disclaimer.
+2. Redistributions in binary form must reproduce the above copyright notice,
+   this list of conditions and the following disclaimer in the documentation
+   and/or other materials provided with the distribution.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND
+ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED
+WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR
+ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES
+(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES;
+LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND
+ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
+(INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS
+SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+              </pre>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="jumbotron">
+        <h1>Pony</h1>
+        <p class="lead">Pony is an object-oriented, actor-model, capabilities-secure, high performance programming language.</p>
+        <p>
+          <div class="inlineblock"><a class="jumbobtn btn btn-lg btn-success" href="http://tutorial.ponylang.org/" role="button">Get started</a></div>
+          <div class="inlineblock"><a class="jumbobtn btn btn-lg btn-success" href="http://sandbox.ponylang.org/" role="button">&nbsp;&nbsp;Sandbox&nbsp;&nbsp;</a></div> 
+        </p>
+        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="benchmarks_all.pdf" role="button">Benchmarks</a></div>
+        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="#license" role="button" data-target="#license" data-toggle="modal">License</a></div>
+        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="mailto:ponydev@lists.ponylang.org" role="button">Get in touch</a></div>
+        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="http://www.causality.io" role="button">Commercial support</a></div>
+      </div>
+
+      <div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/KvLjy8w1G_U" frameborder="0" allowfullscreen></iframe></div>
+
+      <div class="row marketing">
+        <div class="col-lg-12">
+         <h4>Why Pony?</h4>
+          <p align="justify">Programming languages have been developed for over five decades and there are many of them. So, why Pony?</p>
+          <p align="justify">Developing high performance and scalable software systems has always been a very difficult task. With the introduction of multi-core processors, productivity using low-level languages such as C or C++ dramatically decreased. Substantial time had to be invested in debugging memory management related issues or data-race bugs. Manually synchronising concurrent memory accesses was an additional dimension programmers had to worry about, which ultimately distracted from the actual problem to be solved. Most importantly, the increase in performance, scalability and efficiency (if any) gained by programming for multiple cores was outweighed by the effort that had to be put in.</p>
+          <p align="justify">We believe that a programming language should be a high-level tool to express a problem to be solved by the computer. The runtime system should, with a little help and as unintrusively as possible, figure out how to map the program to the underlying hardware as efficiently as possible. The key is to have strong compile-time guarantees. Every single feature of Pony is designed to guarantee  correctness and to improve speed as well as simplicity.</p>
+          <p align="justify">The result is an actor-based language where programs cannot crash, where garbage collection is fully concurrent and non-blocking, and where programs are guaranteed to be data-race free. Applications can run on a virtually infinite processor count and on arbitrarily large clusters, without changing the source code.</p>
+        </div>
+        <div class="col-lg-6">
+          <h4>It's type safe!</h4>
+          <p align="justify">Pony is type safe. Really type safe. There's a mathematical <a href="papers/fast-cheap.pdf">proof</a> and everything.</p>
+
+          <h4>It's memory safe!</h4>
+          <p align="justify">There are no dangling pointers and no buffer overruns. The language doesn't even have the concept of null!</p>
+
+          <h4>It's exception safe!</h4>
+          <p align="justify">There are no runtime exceptions. All exceptions have defined semantics, and they are <b>always</b> caught.</p>
+
+          <h4>It's data-race free!</h4>
+          <p align="justify">Pony doesn't have locks or atomic operations or anything like that. Instead, the type system ensures at compile time that your concurrent program can never have data races. So you can write highly concurrent code and never get it wrong.</p>
+
+          <h4>It's deadlock free!</h4>
+          <p align="justify">This one is easy, because Pony has no locks at all! So they definitely don't deadlock, because they don't exist!</p>
+          
+          <h4>It's compiled!</h4>
+          <p align="justify">Pony is a ahead-of-time (AOT) compiled language. There is no interpreter or virtual machine.</p>
+   
+          <h4>It's compatible with C!</h4>
+          <p align="justify">Pony programs can natively call C libraries. Our compiler is able to generate a C-header file for Pony libraries. Consequently, C/C++ programs can natively call Pony programs!</p>
+        </div>
+        <div class="col-lg-6">
+          <h4>Standard Library</h4>
+          <p align="justify">The Pony standard library version 0.1.5 provides file handling, collection types, networking, http client and server, SSL/TLS, timers and timing, regular expressions, random numbers, and more.</p>
+
+          <h4>Benchmarks</h4>
+          <p align="justify">Recent benchmarks comparing Pony to Erlang, Scala, CAF, Charm++ and MPI are available <a href="benchmarks_all.pdf">here</a>. Among these, Pony is the only language that concurrently garbage collects actors.</p>
+
+          <h4>Tool Support</h4>
+          <p align="justify">There is a <a href="https://packagecontrol.io/packages/Pony%20Language">Sublime</a> and <a href="https://atom.io/packages/language-pony">Atom</a> plugin. Vim and Visual Studio support will be available soon. Pony programs can be debugged using <a href="http://lldb.llvm.org/">LLDB</a> and <a href="https://www.gnu.org/software/gdb/">GDB</a>.</p>
+
+          <h4>Tutorial</h4>
+          <p align="justify">A detailed tutorial to help you become a Pony expert is available <a href="http://tutorial.ponylang.org">here</a>.</p>
+
+          <h4>Mailing Lists</h4>
+          <p align="justify">You can always write to the <a href="http://lists.ponylang.org/listinfo/ponydev">developer's mailing list</a>. Whatever your question is, it isn't dumb, and we won't get annoyed. There is also a mailing list to keep you up to date on the most important Pony <a href="http://lists.ponylang.org/listinfo/ponyannounce">announcements</a>
+.</p>
+          <h4>Sandbox</h4>
+          <p align="justify">If you like to test Pony before installing anything or to browse through the standard library, have a look at our <a href="http://sandbox.ponylang.org">sandbox</a>.</p>
+        
+          <h4>Open Source & Research</h4>
+          <p align="justify">We share our work. Pony is open-source - and always will be. We have also published a <a href="papers/">collection of papers</a> - and more are on the way! A collection of talks is available <a href="talks/">here</a>.</p>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <p>&copy; 2014-2015 The Pony Developers</p>
+      </footer>
+
+    </div> <!-- /container -->
+    <script id="jquery" src="js/jquery-2.1.3.min.js"></script>
+    <script id="bootstrap" src="js/bootstrap.min.js"></script>
+    <script id="github-bjs" src="https://buttons.github.io/buttons.js"></script>
+  </body>
+</html>

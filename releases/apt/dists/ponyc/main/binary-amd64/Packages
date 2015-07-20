@@ -1,0 +1,42 @@
+Package: ponyc
+Version: 0.1.7
+Architecture: amd64
+Conflicts: ponyc-avx2,ponyc-numa
+Maintainer: Pony Buildbot <buildbot@lists.ponylang.org>
+Priority: optional
+Section: base
+Filename: pool/main/p/ponyc/ponyc_0.1.7_amd64.deb
+Size: 7652502
+SHA256: 915d529113430521cf9719dc8a333966c13a933452e37f7ecbc592018f0dbe0e
+SHA1: 039567284b5229fcea4a2768e00e8960f22f9e2b
+MD5sum: 9d08024fb6f5717f3f454f7d0a067381
+Description: The Pony Compiler
+
+Package: ponyc-avx2
+Version: 0.1.6
+Architecture: amd64
+Conflicts: ponyc,ponyc-numa
+Maintainer: Pony Buildbot <buildbot@lists.ponylang.org>
+Priority: optional
+Section: base
+Filename: pool/main/p/ponyc-avx2/ponyc-avx2_0.1.6_amd64.deb
+Size: 7650082
+SHA256: 93bc37284cb67aa577098544ca3020fced10dd98248ed2658137da2c67629298
+SHA1: 64bbf16b45dd18a1e791f27b1e92f3003f1c65bb
+MD5sum: dd394e3c7c9e4147116e06c41061ae06
+Description: The Pony Compiler for AVX2 platforms
+
+Package: ponyc-numa
+Version: 0.1.5
+Architecture: amd64
+Conflicts: ponyc,ponyc-avx2
+Maintainer: Pony Buildbot <buildbot@lists.ponylang.org>
+Priority: optional
+Section: base
+Filename: pool/main/p/ponyc-numa/ponyc-numa_0.1.5_amd64.deb
+Size: 7628006
+SHA256: 5dac364ae2024295ca7acb5b7a0cae8f715429c0e0472d3ac3e282b69154769b
+SHA1: b5f24cc5c3cbbfab76b265916ab92e77a20a29a1
+MD5sum: 1a8b655418eb41c43fec64c41cc5f363
+Description: The Pony Compiler for NUMA platforms
+

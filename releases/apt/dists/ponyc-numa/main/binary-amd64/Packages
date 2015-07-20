@@ -1,0 +1,14 @@
+Package: ponyc-numa
+Version: 0.1.3
+Architecture: amd64
+Conflicts: ponyc,ponyc-avx2
+Maintainer: Pony Buildbot <buildbot@lists.ponylang.org>
+Priority: optional
+Section: base
+Filename: pool/main/p/ponyc-numa/ponyc-numa_0.1.3_amd64.deb
+Size: 7618698
+SHA256: 4fd62a88ae8cd7b63d2ec851de64e57475f1f611589862ac59f2d6ddf3109eb7
+SHA1: b4df3086946d72c443b4672d9547ee3185d47ef2
+MD5sum: df8c532ac88c1390533cbfda98a5d349
+Description: The Pony Compiler for NUMA platforms
+

@@ -1,0 +1,6 @@
+[ponyc]
+name=The Pony Programming Language - ponyc
+baseurl=http://www.ponylang.org/releases/yum/
+enabled=1
+gpgcheck=1
+gpgkey=http://www.ponylang.org/releases/buildbot@lists.ponylang.org.gpg.key
