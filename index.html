@@ -78,30 +78,55 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
       <div class="jumbotron">
         <h1>Pony</h1>
-        <p class="lead">Pony is an object-oriented, actor-model, capabilities-secure, high performance programming language.</p>
+        <p class="lead">Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.</p>
         <p>
-          <div class="inlineblock"><a class="jumbobtn btn btn-lg btn-success" href="http://tutorial.ponylang.org/" role="button">Get started</a></div>
-          <div class="inlineblock"><a class="jumbobtn btn btn-lg btn-success" href="http://sandbox.ponylang.org/" role="button">&nbsp;&nbsp;Sandbox&nbsp;&nbsp;</a></div>
+          <div class="inlineblock"><a class="jumbobtn btn btn-lg btn-success" href="https://github.com/CausalityLtd/ponyc" role="button">Github</a></div>
+          <div class="inlineblock"><a class="jumbobtn btn btn-lg btn-success" href="http://tutorial.ponylang.org/" role="button">Tutorial</a></div>
+          <div class="inlineblock"><a class="jumbobtn btn btn-lg btn-success" href="http://sandbox.ponylang.org/" role="button">Sandbox</a></div>
         </p>
-        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="benchmarks_all.pdf" role="button">Benchmarks</a></div>
-        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="#license" role="button" data-target="#license" data-toggle="modal">License</a></div>
-        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="mailto:ponydev@lists.ponylang.org" role="button">Get in touch</a></div>
+        <div class="inlineblock"><a class="btn btn-sm btn-primary" href="mailto:ponydev@lists.ponylang.org" role="button">Mailing list</a></div>
         <div class="inlineblock"><a class="btn btn-sm btn-primary" href="http://www.causality.io" role="button">Commercial support</a></div>
       </div>
-
-      <div align="center"><iframe width="560" height="315" src="https://www.youtube.com/embed/KvLjy8w1G_U" frameborder="0" allowfullscreen></iframe></div>
-
 
       <div class="col-md-3 col-lg-12">
           <aside class="widget wow bounceInUp">
               <div class="widget-header">
-                  <h4>Recent news</h4>
+                  <h4>Upcoming talks</h4>
               </div>
+
               <ul class="post-list">
 
                 <li>
                     <div class="details">
-                        <h5 class="title"><a href="http://soft.vub.ac.be/AGERE15/" rel="bookmark">Causality CTO and Chief Scientist to present paper on Pony type system, "Deny Capabilities for Safe, Fast Actors" at Agere 2015 in Pittsburgh on October 26th</a>
+                        <h5 class="title"><a href="http://www.codemesh.io/codemesh2015/#programme" rel="bookmark">November 3: Darach Ennis (ThingK.io) will be giving a talk on Pony at CodeMesh 2015 in London</a>
+                </h5>
+
+                </li>
+
+
+                <li>
+                    <div class="details">
+                        <h5 class="title"><a href="http://soft.vub.ac.be/AGERE15/" rel="bookmark">October 26: Paper on Pony type system, "Deny Capabilities for Safe, Fast Actors" to be presented at Agere 2015 in Pittsburgh</a>
+      </h5>
+
+                </li>
+
+                <li>
+                    <div class="details">
+                        <h5 class="title"><a href="http://multicore.doc.ic.ac.uk/iPr0gram/" rel="bookmark">October 22: Part two of "Actor-based programming in Pony" at Imperial Programming Lectures in London</a>
+      </h5>
+
+                </li>
+              </ul>
+
+
+  <h4>Recent talks</h4>
+              <ul>
+
+
+                <li>
+                    <div class="details">
+                        <h5 class="title"><a href="https://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=aba3f8f7-f050-447c-91c9-61e092d61e85" rel="bookmark">October 15: "Actor-based programming in Pony" at Imperial Programming Lectures in London (slides for part one)</a>
       </h5>
 
                 </li>
@@ -110,75 +135,41 @@ SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
                 <li>
                     <div class="details">
-                        <h5 class="title"><a href="http://multicore.doc.ic.ac.uk/iPr0gram/" rel="bookmark">Causality CTO and Pony creator Sylvan Clebsch to speak about actor-based programming in Pony at Imperial Programming Lectures in London</a>
-      </h5>
+                        <h5 class="title"><a href="https://www.youtube.com/embed/KvLjy8w1G_U" rel="bookmark">July: Video of CurryOn presentation on Pony at ECOOP 2015 in Prague</a>
+                </h5>
 
                 </li>
 
 
+                <li>
+                    <div class="details">
+                        <h5 class="title"><a href="http://www.techcast.com/events/bigtechday8/pranner-1450/?q=pranner-1450" rel="bookmark">June: Video of Pony talk at TNG Big Tech Day 2015 in Munich</a>
+                </h5>
+
+                </li>
+
+                <li>
+                    <div class="details">
+                        <h5 class="title"><a href="http://www.doc.ic.ac.uk/~scd/Pony-WG2.16.pdf" rel="bookmark">May: Pony presentation by Prof. Sophia Drossopoulou at the IFIP WG 2.16 (Programming Language Design) in Athens</a>
+                </h5>
+
+                </li>
 
               </ul>
           </aside>
-      </div>
 
+          <h4>Research</h4>
+          <p align="justify">We have published a <a href="https://github.com/ponylang/ponylang.github.io/tree/master/papers">collection of papers</a>.</p>
 
-
-      <div class="row marketing">
-        <div class="col-lg-12">
-         <h4>Why Pony?</h4>
-          <p align="justify">Programming languages have been developed for over five decades and there are many of them. So, why Pony?</p>
-          <p align="justify">Developing high performance and scalable software systems has always been a very difficult task. With the introduction of multi-core processors, productivity using low-level languages such as C or C++ dramatically decreased. Substantial time had to be invested in debugging memory management related issues or data-race bugs. Manually synchronising concurrent memory accesses was an additional dimension programmers had to worry about, which ultimately distracted from the actual problem to be solved. Most importantly, the increase in performance, scalability and efficiency (if any) gained by programming for multiple cores was outweighed by the effort that had to be put in.</p>
-          <p align="justify">We believe that a programming language should be a high-level tool to express a problem to be solved by the computer. The runtime system should, with a little help and as unintrusively as possible, figure out how to map the program to the underlying hardware as efficiently as possible. The key is to have strong compile-time guarantees. Every single feature of Pony is designed to guarantee  correctness and to improve speed as well as simplicity.</p>
-          <p align="justify">The result is an actor-based language where programs cannot crash, where garbage collection is fully concurrent and non-blocking, and where programs are guaranteed to be data-race free. Applications can run on a virtually infinite processor count and on arbitrarily large clusters, without changing the source code.</p>
-        </div>
-        <div class="col-lg-6">
-          <h4>It's type safe!</h4>
-          <p align="justify">Pony is type safe. Really type safe. There's a mathematical <a href="papers/fast-cheap.pdf">proof</a> and everything.</p>
-
-          <h4>It's memory safe!</h4>
-          <p align="justify">There are no dangling pointers and no buffer overruns. The language doesn't even have the concept of null!</p>
-
-          <h4>It's exception safe!</h4>
-          <p align="justify">There are no runtime exceptions. All exceptions have defined semantics, and they are <b>always</b> caught.</p>
-
-          <h4>It's data-race free!</h4>
-          <p align="justify">Pony doesn't have locks or atomic operations or anything like that. Instead, the type system ensures at compile time that your concurrent program can never have data races. So you can write highly concurrent code and never get it wrong.</p>
-
-          <h4>It's deadlock free!</h4>
-          <p align="justify">This one is easy, because Pony has no locks at all! So they definitely don't deadlock, because they don't exist!</p>
-
-          <h4>It's compiled!</h4>
-          <p align="justify">Pony is a ahead-of-time (AOT) compiled language. There is no interpreter or virtual machine.</p>
-
-          <h4>It's compatible with C!</h4>
-          <p align="justify">Pony programs can natively call C libraries. Our compiler is able to generate a C-header file for Pony libraries. Consequently, C/C++ programs can natively call Pony programs!</p>
-        </div>
-        <div class="col-lg-6">
-          <h4>Standard Library</h4>
-          <p align="justify">The Pony standard library version 0.1.5 provides file handling, collection types, networking, http client and server, SSL/TLS, timers and timing, regular expressions, random numbers, and more.</p>
-
-          <h4>Benchmarks</h4>
-          <p align="justify">Recent benchmarks comparing Pony to Erlang, Scala, CAF, Charm++ and MPI are available <a href="benchmarks_all.pdf">here</a>. Among these, Pony is the only language that concurrently garbage collects actors.</p>
-
-          <h4>Tool Support</h4>
-          <p align="justify">There is a <a href="https://packagecontrol.io/packages/Pony%20Language">Sublime</a> and <a href="https://atom.io/packages/language-pony">Atom</a> plugin. Vim and Visual Studio support will be available soon. Pony programs can be debugged using <a href="http://lldb.llvm.org/">LLDB</a> and <a href="https://www.gnu.org/software/gdb/">GDB</a>.</p>
-
-          <h4>Tutorial</h4>
-          <p align="justify">A detailed tutorial to help you become a Pony expert is available <a href="http://tutorial.ponylang.org">here</a>.</p>
-
-          <h4>Mailing Lists</h4>
-          <p align="justify">You can always write to the <a href="http://lists.ponylang.org/listinfo/ponydev">developer's mailing list</a>. Whatever your question is, it isn't dumb, and we won't get annoyed. There is also a mailing list to keep you up to date on the most important Pony <a href="http://lists.ponylang.org/listinfo/ponyannounce">announcements</a>
-.</p>
-          <h4>Sandbox</h4>
-          <p align="justify">If you like to test Pony before installing anything or to browse through the standard library, have a look at our <a href="http://sandbox.ponylang.org">sandbox</a>.</p>
-
-          <h4>Open Source & Research</h4>
-          <p align="justify">We share our work. Pony is open-source - and always will be. We have also published a <a href="https://github.com/ponylang/ponylang.github.io/tree/master/papers">collection of papers</a> - and more are on the way!</p>
+          <img src="img/ipr0gram-1.jpg" width="49%">
+          <img src="img/ipr0gram-2.jpg" width="49%">
+          <p align="center"><i>The audience for "Actor-based programming in Pony" at Imperial College London</i></p>
         </div>
       </div>
+    </div>
 
       <footer class="footer">
-        <p>&copy; 2014-2015 The Pony Developers</p>
+        <p align="center">&copy; 2014-2015 The Pony Developers</p>
       </footer>
 
     </div> <!-- /container -->
