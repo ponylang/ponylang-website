@@ -47,7 +47,8 @@ body {
 }
 
 .inlineblock {
-  display: inline;
+  display: inline-block;
+  padding: 2px 0;
 }
 
 .marketing {
