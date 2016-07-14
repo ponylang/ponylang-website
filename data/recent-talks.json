@@ -1,0 +1,45 @@
+{
+    "items": [{
+        "title": "'Pony - A Language for Provably Safe Lockless Concurrency' - video from LinuxFest Northwest 2016",
+        "href": "https://www.linuxfestnorthwest.org/2016/sessions/pony-language-provably-safe-lockless-concurrency"
+    }, {
+        "title": "'Using Pony for Fintech' QCon video",
+        "href": "https://www.infoq.com/presentations/pony"
+    }, {
+        "title": "'Pony for Fintech' - slides from QCon London presentation",
+        "href": "https://qconlondon.com/system/files/presentation-slides/sylvanclebsch.pdf"
+    }, {
+        "title": "'Using the Actor-model Language Pony for FinTech' at InfoQ",
+        "href": "http://www.infoq.com/news/2016/03/pony-fintech"
+    }, {
+        "title": "'Deny Capabilities for Safe, Fast Actors' at the Morning Paper",
+        "href": "http://blog.acolyer.org/2016/02/17/deny-capabilities"
+    }, {
+        "title": "'Ownership and Reference Counting Based Garbage Collection in the Actor World' at the Morning Paper",
+        "href": "http://blog.acolyer.org/2016/02/18/ownership-and-reference-counting-based-garbage-collection-in-the-actor-world"
+    }, {
+        "title": "Video: Pony designer Sylvan Clebsch on the Actor-Model Language Pony, Garbage Collection, Capabilities, Concurrency at InfoQ",
+        "href": "http://www.infoq.com/interviews/clebsch-pony"
+    }, {
+        "title": "November 4: Presentation slides for \"My Little Pony\" talk at CodeMesh 2015 in London",
+        "href": "https://cdn.rawgit.com/darach/my_little_pony/master/my-little-pony.html"
+    }, {
+        "title": "October 26: Presentation slides for \"Deny Capabilities for Safe, Fast Actors,\" paper on Pony type system at Agere 2015 in Pittsburgh",
+        "href": "http://cdn.rawgit.com/sylvanc/pony-lecture/master/agere2015.html"
+    }, {
+        "title": "October 22: Part two of \"Actor-based programming in Pony\" at Imperial Programming Lectures in London (slides and recording)",
+        "href": "https://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=2e47f3d3-95e1-45c9-97fd-a9e4f35c66b3"
+    }, {
+        "title": "October 15: Part one of \"Actor-based programming in Pony\" at Imperial Programming Lectures in London (slides and recording)",
+        "href": "https://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=aba3f8f7-f050-447c-91c9-61e092d61e85"
+    }, {
+        "title": "July: Video of CurryOn presentation on Pony at ECOOP 2015 in Prague",
+        "href": "https://www.youtube.com/watch?v=KvLjy8w1G_U"
+    }, {
+        "title": "June: Video of Pony talk at TNG Big Tech Day 2015 in Munich",
+        "href": "http://www.techcast.com/events/bigtechday8/pranner-1450/?q=pranner-1450"
+    }, {
+        "title": "May: Pony presentation by Prof. Sophia Drossopoulou at the IFIP WG 2.16 (Programming Language Design) in Athens",
+        "href": "http://www.doc.ic.ac.uk/~scd/Pony-WG2.16.pdf"
+    }]
+}

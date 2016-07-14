@@ -1,0 +1,4 @@
+baseurl = "http://www.ponylang.org/"
+copyright = "Copyright (c) 2014 - 2016 Pony Developers"
+languageCode = "en"
+title = "Pony - High Performance Actor Programming"
