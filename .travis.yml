@@ -15,7 +15,7 @@ script:
 
 after_success:
     - echo "ponylang.org" > ./public/CNAME
-    - if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
+    - if [[ $TRAVIS_BRANCH == 'gh-pages-hugo' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
         rev=$(git rev-parse --short HEAD)
         git add -A
         git commit -m "Update to revision $rev"
