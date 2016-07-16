@@ -1,0 +1,24 @@
+language: go
+
+go:
+    - "1.5.1"
+
+branches:
+    only:
+        hg-pages-hugo
+
+before_script:
+    - go get -u -v github.com/spf13/hugo
+
+script:
+    - hugo
+
+after_success:
+    - echo "ponylang.org" > ./public/CNAME
+    - if [[ $TRAVIS_BRANCH == 'master' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
+        rev=$(git rev-parse --short HEAD)
+        git add -A
+        git commit -m "Update to revision $rev"
+        git push origin gh-pages-hugo
+        git subtree push --prefix=public $GH_TOKEN@github.com:ponylang/ponylang.github.io master
+      fi;
