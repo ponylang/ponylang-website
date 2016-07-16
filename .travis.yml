@@ -8,7 +8,7 @@ branches:
         gh-pages-hugo
 
 before_script:
-    - go get -u -v github.com/spf13/hugo
+    - apt-get install hugo
 
 script:
     - hugo
