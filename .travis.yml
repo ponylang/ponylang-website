@@ -13,14 +13,14 @@ after_success:
     - if [[ $TRAVIS_BRANCH == 'gh-pages-hugo' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
         rev=$(git rev-parse --short HEAD);
 
+        cd public;
+
         git init;
         git config user.name "Sean T. Allen";
         git config user.email "sean@monkeysnatchbanana.com";
         git remote add upstream "https://$GH_TOKEN@github.com/ponylang/ponylang.github.io";
         git fetch upstream;
         git reset upstream/master;
-
-        cd public;
 
         touch .;
 
