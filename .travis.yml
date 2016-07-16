@@ -9,22 +9,4 @@ script:
     - hugo
 
 after_success:
-    - echo "ponylang.org" > ./public/CNAME
-    - if [[ $TRAVIS_BRANCH == 'source' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
-        rev=$(git rev-parse --short HEAD);
-
-        cd public;
-
-        git init;
-        git config user.name "Sean T. Allen";
-        git config user.email "sean@monkeysnatchbanana.com";
-        git remote add upstream "https://$GH_TOKEN@github.com/ponylang/ponylang.github.io";
-        git fetch upstream;
-        git reset upstream/master;
-
-        touch .;
-
-        git add -A .;
-        git commit -m "rebuild website from revision ${rev} of source branch";
-        git push -q upstream HEAD:master;
-      fi;
+    - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "source" && bash deploy.sh
