@@ -3,14 +3,14 @@ install: go get -u -v github.com/spf13/hugo
 
 branches:
     only:
-        gh-pages-hugo
+        source
 
 script:
     - hugo
 
 after_success:
     - echo "ponylang.org" > ./public/CNAME
-    - if [[ $TRAVIS_BRANCH == 'gh-pages-hugo' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
+    - if [[ $TRAVIS_BRANCH == 'source' && $TRAVIS_PULL_REQUEST == 'false' ]]; then
         rev=$(git rev-parse --short HEAD);
 
         cd public;
