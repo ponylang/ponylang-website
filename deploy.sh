@@ -2,6 +2,10 @@
 
 echo -e "\033[0;32mDeploying updates to GitHub...\033[0m"
 
+set -o errexit -o nounset
+
+rev=$(git rev-parse --short HEAD)
+
 # Deploys the contents of public/ to the master branch
 cd public/
 
