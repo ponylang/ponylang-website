@@ -14,6 +14,8 @@ after_success:
         rev=$(git rev-parse --short HEAD);
 
         git init;
+        git config user.name "Sean T. Allen";
+        git config user.email "sean@monkeysnatchbanana.com";
         git remote add upstream "https://$GH_TOKEN@github.com/ponylang/ponylang.github.io";
         git fetch upstream;
         git reset upstream/master;
