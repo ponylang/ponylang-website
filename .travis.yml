@@ -1,14 +1,9 @@
 language: go
-
-go:
-    - "1.5.1"
+install: apt-get install hugo
 
 branches:
     only:
         gh-pages-hugo
-
-before_script:
-    - apt-get install hugo
 
 script:
     - hugo
