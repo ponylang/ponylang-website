@@ -25,6 +25,6 @@ after_success:
         touch .;
 
         git add -A .;
-        git commit -m "rebuild pages at ${rev}";
+        git commit -m "rebuild website from revision ${rev} of source branch";
         git push -q upstream HEAD:master;
       fi;
