@@ -1,7 +1,5 @@
 language: go
-install: sudo apt-get install hugo
-
-sudo: required
+install: go get -u -v github.com/spf13/hugo
 
 branches:
     only:
