@@ -1,5 +1,7 @@
 language: go
-install: apt-get install hugo
+install: sudo apt-get install hugo
+
+sudo: required
 
 branches:
     only:
