@@ -1,3 +1,15 @@
 .article {
-  font-size: 2.0em;
+  font-size: 16px;
+}
+
+.article h1 {
+  font-size: 28px;
+}
+
+.article h2 {
+  font-size: 24px;
+}
+
+.article h3 {
+  font-size: 18px;
 }
