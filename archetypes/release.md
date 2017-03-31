@@ -1,7 +1,6 @@
 +++
 draft = true
 author = "Author Name"
-description = "VERSION released"
 categories = [
     "Release",
 ]

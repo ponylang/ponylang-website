@@ -1,0 +1,51 @@
++++
+title = "Planet Pony"
++++
+We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw) 
+
+## 2017
+
+* [Pony Vug #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony](https://vimeo.com/202387915)
+* [Découverte du langage Pony](https://zestedesavoir.com/articles/1329/decouverte-du-langage-pony/)
+
+## 2016
+
+* [Pony Capabilities made simple](https://soyyomakesgames.wordpress.com/2016/10/10/ponys-capabilities-made-simple/)
+* [Pony VUG #7: Nick Pruhs: Designing an Actor Model Game Architecture with Pony ](https://vimeo.com/187451870)
+* [Pony - A Language for Provably Safe Lockless Concurrency](https://www.linuxfestnorthwest.org/2016/sessions/pony-language-provably-safe-lockless-concurrency)
+* [Pony: Co-Designing a Type System and a Runtime](https://www.youtube.com/watch?v=R6T8ytKV6dc)
+* [Pony VUG #6: Andrew Turley: The Art of Forgetting - Garbage Collection in Pony](https://vimeo.com/181099993)
+* [Reference Capabilites in Pony for everybody](https://zartstrom.github.io/pony/2016/08/28/reference-capabilities-in-pony.html)
+* [Pony VUG #5: George Steed: A Principled Design of Capabilities in Pony](https://vimeo.com/178522513)
+* [Pony VUG #4: Simple Value-Dependent Types in Pony](https://vimeo.com/175746403)
+* [Borrowing in Pony](https://bluishcoder.co.nz/2016/07/18/borrowing-in-pony.html)
+* [Push-parsing and Pony](http://maniagnosis.crsr.net/2016/07/push-parsing.html)
+* [Pony VUG #3: The Actor Model and Pony](https://vimeo.com/172129187)
+* [Pony VUG #2: Using the Pony FFI in Anger](https://vimeo.com/168247590)
+* [Using Pony for Fintech](https://www.infoq.com/presentations/pony)
+* [Using the Actor-model Language Pony for FinTech](http://www.infoq.com/news/2016/03/pony-fintech)
+* [Exploring actors in Pony](https://bluishcoder.co.nz/2016/05/11/exploring-actors-in-pony.html)
+* [Bang, Hat and Arrow in Pony](https://bluishcoder.co.nz/2016/05/04/bang-hat-and-arrow-in-pony.html)
+* [Pony VUG #1: Writing Generic Code](https://vimeo.com/163871856)
+* [Closures in Pony](https://bluishcoder.co.nz/2016/03/15/closures-in-pony.html)
+* [Safely Sharing Data: Reference Capabilities in Pony](http://jtfmumm.com/blog/2016/03/06/safely-sharing-data-pony-reference-capabilities/)
+* [Pony Patterns: Waiting](http://www.monkeysnatchbanana.com/2016/01/18/pony-patterns-waiting/)
+* [the morning paper: Ownership and Reference Counting Based Garbage Collection in the Actor World](http://blog.acolyer.org/2016/02/18/ownership-and-reference-counting-based-garbage-collection-in-the-actor-world/)
+* [the morning paper: Deny Capabilities for Safe, Fast Actors](http://blog.acolyer.org/2016/02/17/deny-capabilities/)
+
+## 2015 
+
+* [Pony designer Sylvan Clebsch on the Actor-Model Language Pony, Garbage Collection, Capabilities, Concurrency](http://www.infoq.com/interviews/clebsch-pony)
+* [Inside the Pony TCP Stack](http://www.monkeysnatchbanana.com/2015/12/19/inside-the-pony-tcp-stack/)
+* [Cross compile Pony programs for Android](https://bluishcoder.co.nz/2015/12/17/cross-compile-pony-programs-for-android.html)
+* [C linkable libraries with Pony](https://bluishcoder.co.nz/2015/12/16/c-linkable-libraries-with-pony.html)
+* [Deconstructing a Pony echo server](http://www.monkeysnatchbanana.com/2015/12/13/deconstructing-a-pony-echo-server/)
+* [Presentation slides for "My Little Pony" talk at CodeMesh 2015 in London](https://cdn.rawgit.com/darach/my_little_pony/master/my-little-pony.html)
+* [A quick look at the Pony Programming Language](https://bluishcoder.co.nz/2015/11/04/a-quick-look-at-pony.html)
+* [Presentation slides for "Deny Capabilities for Safe, Fast Actors" paper on Pony type system at Agere 2015 in Pittsburgh](http://cdn.rawgit.com/sylvanc/pony-lecture/master/agere2015.html)
+* [Part two of "Actor-based programming in Pony" at Imperial Programming Lectures in London](https://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=2e47f3d3-95e1-45c9-97fd-a9e4f35c66b3)
+* [Part one of "Actor-based programming in Pony" at Imperial Programming Lectures in London](https://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=aba3f8f7-f050-447c-91c9-61e092d61e85)
+* [Implementing chat application with Pony lang](http://www.piotrbuda.me/2015/05/implementing-chat-application-with-pony-lang.html)
+* [Video of CurryOn presentation on Pony at ECOOP 2015](https://www.youtube.com/watch?v=KvLjy8w1G_U)
+* [Video of Pony talk at TNG Big Tech Day 2015](http://www.techcast.com/events/bigtechday8/pranner-1450/?q=pranner-1450)
+* [Pony presentation by Prof. Sophia Drossopoulou at the IFIP WG 2.16 (Programming Language Design)](http://www.doc.ic.ac.uk/~scd/Pony-WG2.16.pdf)
