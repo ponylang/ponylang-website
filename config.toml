@@ -29,7 +29,7 @@ canonifyurls = true
 
 	[params.palette]
     	primary = "brown"
-    	accent  = "grey"
+    	accent  = "deep-orange"
 
     [params.font]
     	text = "Roboto"
