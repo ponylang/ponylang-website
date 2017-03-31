@@ -13,3 +13,20 @@
 .article h3 {
   font-size: 18px;
 }
+
+dl {
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+dt {
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+dd {
+  margin-top: 14px;
+  margin-left: 14px;
+  margin-right: 28px;
+  margin-bottom: 14px;
+}
