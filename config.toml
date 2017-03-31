@@ -40,28 +40,28 @@ canonifyurls = true
 	github  = "ponylang"
 
 [[menu.main]]
-	name   = "Home"
+	name   = "Pony"
 	url    = "/"
 	weight = 1
 
 [[menu.main]]
-	name   = "Discover"
+	name   = "New to Pony?"
 	url    = "discover/"
 	weight = 10
 
 [[menu.main]]
-	name   = "Learn"
+	name   = "Learning Pony?"
 	url    = "learn/"
 	weight = 20
 
 [[menu.main]]
-	name   = "Contribute"
-	url    = "contribute/"
+	name   = "Existing User?"
+	url    = "reference/"
 	weight = 30
 
 [[menu.main]]
-	name   = "Reference"
-	url    = "reference/"
+	name   = "Looking to contribute?"
+	url    = "contribute/"
 	weight = 40
 
 [[menu.main]]
