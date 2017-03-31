@@ -21,7 +21,7 @@ canonifyurls = true
 	permalink = "#"
 
 	# Custom assets
-	custom_css = []
+	custom_css = ["stylesheets/pony-material.css"]
 	custom_js  = []
 
 	# Syntax highlighting theme
