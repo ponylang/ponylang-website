@@ -32,8 +32,8 @@ canonifyurls = true
     	accent  = "grey"
 
     [params.font]
-    	text = "Ubuntu"
-    	code = "Ubuntu Mono"
+    	text = "Roboto"
+    	code = "Roboto Mono"
 
 [social]
 	twitter = "ponylang"
