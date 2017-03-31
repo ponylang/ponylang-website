@@ -5,7 +5,7 @@ title = "Discover"
 ## What makes Pony different?
 
 Pony is type safe
-: **Really type safe**. There's a mathematical [proof](/media/papers/fast-cheap.pdf) and everything.
+: *Really type safe*. There's a mathematical [proof](/media/papers/fast-cheap.pdf) and everything.
 
 Pony is memory safe
 : There are no dangling pointers and no buffer overruns. The language doesn't even have the concept of null!
