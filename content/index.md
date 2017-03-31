@@ -1,5 +1,5 @@
 +++
-type = "homepage"
+type = "index"
 +++
 Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language. 
 
