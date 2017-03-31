@@ -42,7 +42,7 @@ canonifyurls = true
 [[menu.main]]
 	name   = "Home"
 	url    = "/"
-	weight = 0
+	weight = 1
 
 [[menu.main]]
 	name   = "Discover"
