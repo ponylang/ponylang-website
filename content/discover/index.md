@@ -1,6 +1,9 @@
 +++
 title = "Discover"
 +++
+## What is Pony?
+
+Pony is an open-source, object-oriented, [actor-model](https://en.wikipedia.org/wiki/Actor_model), [capabilities-secure](https://en.wikipedia.org/wiki/Capability-based_security), high performance programming language. 
 
 ## What makes Pony different?
 
