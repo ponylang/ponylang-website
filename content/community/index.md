@@ -1,13 +1,16 @@
 +++
 title = "Community"
 +++
+
+## Code of Conduct
+
 We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic. Our [code of conduct]({{< relref "code-of-conduct.md" >}}) sets the standards for behavior in all official Pony forums.
 
 ## Getting Started
 
 The most important community resources for those who are new to Pony are:
 
-* #ponylang, our IRC channel on [freenode](https://freenode.net)
+* #ponylang, our IRC channel on [freenode](https://webchat.freenode.net/?channels=%23ponylang)
 * The [Users Mailing List](https://pony.groups.io/g/user) for discussion of all things Pony that don't involve the development of Pony itself
 
 If you are looking for help with Pony and can't get a response in #ponylang, we advise that you send an email to the Users Mailing List. 
