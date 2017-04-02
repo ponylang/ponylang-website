@@ -81,8 +81,6 @@ If you project is going to succeed or fail based on the size of community around
 
 There's a wide swath of tooling that some people have come to expect that isn't currently available for Pony. We don't have an IDE. You can use standard debuggers like gdb or lldb but the experience still has some rough edges. If you are comfortable working with a basic text editor and using lldb, vtune and other tools, you'll probably be ok. Just don't expect a full, robust ecosystem. We aren't there yet.
 
-### Conclusion
-
 If your project isn't going to get a great deal of benefit from any of Pony's strengths, then you shouldn't use Pony. If you are writing a single threaded application without any overriding performance concerns, and you need access to a large community and wealth of libraries then you're much better of selecting another language. However, we hope that you see enough potential in Pony to start playing around with it even if it isn't right for your current project. 
 
 ## The Pony Philosophy
