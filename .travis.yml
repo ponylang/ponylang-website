@@ -6,7 +6,8 @@ branches:
         source
 
 script:
-    - hugo
+    - hugo;
+    - ls -al public/discover;
 
 after_success:
     - test $TRAVIS_PULL_REQUEST == "false" && test $TRAVIS_BRANCH == "source" && bash deploy.sh
