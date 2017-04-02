@@ -2,24 +2,50 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learns on Pony</title>
-    <link>http://www.ponylang.org/learn/</link>
+    <link>http://www.ponylang.org/learn/index.xml</link>
     <description>Recent content in Learns on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    
-	<atom:link href="http://www.ponylang.org/learn/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://www.ponylang.org/learn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Learn</title>
-      <link>http://www.ponylang.org/learn/index/</link>
+      <link>http://www.ponylang.org/learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/learn/index/</guid>
-      <description>Ready to learn Pony? Awesome.
-Getting started We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online.
- Tutorial. Pony Patterns cookbook is in progress Standard library docs.  Getting help If you run into trouble while you are learning Pony, don&amp;rsquo;t worry, we&amp;rsquo;ve got you covered.</description>
+      <guid>http://www.ponylang.org/learn/</guid>
+      <description>
+
+&lt;p&gt;Ready to learn Pony? Awesome.&lt;/p&gt;
+
+&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+
+&lt;p&gt;We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;http://tutorial.ponylang.org&#34;&gt;Tutorial&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://patterns.ponylang.org&#34;&gt;Pony Patterns&lt;/a&gt; cookbook is in progress&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;http://ponylang.github.io/ponyc/&#34;&gt;Standard library docs&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;getting-help&#34;&gt;Getting help&lt;/h2&gt;
+
+&lt;p&gt;If you run into trouble while you are learning Pony, don&amp;rsquo;t worry, we&amp;rsquo;ve got you covered. You have a couple different options on how you can get help from the Pony community. If you are looking for an answer &amp;ldquo;right now&amp;rdquo;, we suggest you give our IRC channel a try. It&amp;rsquo;s #ponylang on Freenode. If you ask a question, be sure to hang around until you get an answer. If you don&amp;rsquo;t get one, or IRC isn&amp;rsquo;t your thing, we have a friendly mailing list you can try. Whatever your question is, it isn&amp;rsquo;t dumb, and we won&amp;rsquo;t get annoyed.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://pony.groups.io/g/user&#34;&gt;Mailing list&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;IRC&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Think you&amp;rsquo;ve found a bug? It&amp;rsquo;s quite possible. Pony is a relatively young language that is still changing at a rapid pace and bugs do happen. Your best bet. Write to the mailing list with your issue and verify that you are experiencing an issue. Once a more knowledge member of the community confirms you are experiencing a bug, open an issue.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/ponyc/issues&#34;&gt;Open an issue&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;The Pony community while small is very helpful and inviting. We think you&amp;rsquo;ll find interacting with us to be an ejoyable experience. You can find a lot more community related resources in the &lt;a href=&#34;http://www.ponylang.org/community&#34;&gt;community section&lt;/a&gt; of this site.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

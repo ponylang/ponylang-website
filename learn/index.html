@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>FAQ - Pony</title>
-    <meta name="generator" content="Hugo 0.20-DEV" />
+    <title>Learn - Pony</title>
+    <meta name="generator" content="Hugo 0.19" />
 
     
     <meta name="description" content="Pony - High Performance Actor Programming">
     
-    <link rel="canonical" href="http://www.ponylang.org/faq/index/">
+    <link rel="canonical" href="http://www.ponylang.org/learn/">
     
 
-    <meta property="og:url" content="http://www.ponylang.org/faq/index/">
+    <meta property="og:url" content="http://www.ponylang.org/learn/">
     <meta property="og:title" content="Pony">
     <meta property="og:image" content="http://www.ponylang.org/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Pony">
@@ -97,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        FAQ
+        Learn
       </div>
     </div>
 
@@ -203,11 +203,14 @@
 
 
 
-<a  title="Learning Pony?" href="http://www.ponylang.org/learn/">
+<a class="current" title="Learning Pony?" href="http://www.ponylang.org/learn/">
 	
 	Learning Pony?
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -317,25 +320,38 @@
 
 	<article class="article">
 		<div class="wrapper">
-			<h1>FAQ </h1>
+			<h1>Learn </h1>
 
 			
 
-<h2 id="compiling">Compiling</h2>
+<p>Ready to learn Pony? Awesome.</p>
 
-<h3 id="i-get-a-requires-dynamic-error-when-compiling-how-do-i-solve-it">I get a &ldquo;requires dynamic&rdquo; error when compiling, how do I solve it?</h3>
+<h2 id="getting-started">Getting started</h2>
 
-<pre><code class="language-bash">/usr/bin/ld.gold: error: ./fb.o: requires dynamic R_X86_64_32 
-  reloc against 'Array_String_val_Trace' which may 
-  overflow at runtime; recompile with -fPIC
-</code></pre>
+<p>We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online.</p>
 
-<p>try running <code>ponyc</code> with the <code>--pic</code> flag.</p>
+<ul>
+<li><a href="http://tutorial.ponylang.org">Tutorial</a>.</li>
+<li><a href="http://patterns.ponylang.org">Pony Patterns</a> cookbook is in progress</li>
+<li><a href="http://ponylang.github.io/ponyc/">Standard library docs</a>.</li>
+</ul>
 
-<p>For example:</p>
+<h2 id="getting-help">Getting help</h2>
 
-<pre><code class="language-bash">ponyc --pic examples/helloworld
-</code></pre>
+<p>If you run into trouble while you are learning Pony, don&rsquo;t worry, we&rsquo;ve got you covered. You have a couple different options on how you can get help from the Pony community. If you are looking for an answer &ldquo;right now&rdquo;, we suggest you give our IRC channel a try. It&rsquo;s #ponylang on Freenode. If you ask a question, be sure to hang around until you get an answer. If you don&rsquo;t get one, or IRC isn&rsquo;t your thing, we have a friendly mailing list you can try. Whatever your question is, it isn&rsquo;t dumb, and we won&rsquo;t get annoyed.</p>
+
+<ul>
+<li><a href="https://pony.groups.io/g/user">Mailing list</a>.</li>
+<li><a href="https://webchat.freenode.net/?channels=%23ponylang">IRC</a>.</li>
+</ul>
+
+<p>Think you&rsquo;ve found a bug? It&rsquo;s quite possible. Pony is a relatively young language that is still changing at a rapid pace and bugs do happen. Your best bet. Write to the mailing list with your issue and verify that you are experiencing an issue. Once a more knowledge member of the community confirms you are experiencing a bug, open an issue.</p>
+
+<ul>
+<li><a href="https://github.com/ponylang/ponyc/issues">Open an issue</a></li>
+</ul>
+
+<p>The Pony community while small is very helpful and inviting. We think you&rsquo;ll find interacting with us to be an ejoyable experience. You can find a lot more community related resources in the <a href="http://www.ponylang.org/community">community section</a> of this site.</p>
 
 
 			<aside class="copyright" role="note">

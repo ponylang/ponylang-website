@@ -2,15 +2,12 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>This Week In Pony on Pony</title>
-    <link>http://www.ponylang.org/categories/this-week-in-pony/</link>
+    <link>http://www.ponylang.org/categories/this-week-in-pony/index.xml</link>
     <description>Recent content in This Week In Pony on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <lastBuildDate>Tue, 28 Mar 2017 12:48:57 -0400</lastBuildDate>
-    
-	<atom:link href="http://www.ponylang.org/categories/this-week-in-pony/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://www.ponylang.org/categories/this-week-in-pony/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>This Week in Pony - March 28, 2017</title>
@@ -18,10 +15,55 @@
       <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
       
       <guid>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</guid>
-      <description>This Week In Pony is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out our website, our Twitter account @ponylang, or join us on IRC.
-Items of note Version 0.11.4 Released! Version 0.11.4 has been released, with the full release notes here
-News and Blog Posts  Pony Community Survey
- Hello Wallaroo! A brief introduction to Sendence&amp;rsquo;s Wallaroo, written in Pony.</description>
+      <description>
+
+&lt;p&gt;This Week In Pony is a weekly blog post to catch you up on the latest news for
+the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;items-of-note&#34;&gt;Items of note&lt;/h2&gt;
+
+&lt;h3 id=&#34;version-0-11-4-released&#34;&gt;Version 0.11.4 Released!&lt;/h3&gt;
+
+&lt;p&gt;Version 0.11.4 has been released, with the full &lt;a href=&#34;https://pony.groups.io/g/user/topic/pony_0_11_4_has_been_released/4652245?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,4652245&#34;&gt;release notes here&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&#34;news-and-blog-posts&#34;&gt;News and Blog Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLScBNr5dPPCVYchRukAm-sFR3wipndVJiua3xHr8CslohVFRlg/viewform?c=0&amp;amp;w=1&amp;amp;usp=send_form&#34;&gt;Pony Community Survey&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://engineering.sendence.com/2017/03/hello-wallaroo/&#34;&gt;Hello Wallaroo!&lt;/a&gt; A brief introduction to Sendence&amp;rsquo;s Wallaroo, written in Pony.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pony.groups.io/g/dev/files/Pony%20Sync/March%2022,%202017&#34;&gt;Developer Sync Meeting&lt;/a&gt; This weeks developer sync meeting.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rfcs&#34;&gt;RFCs&lt;/h2&gt;
+
+&lt;p&gt;Interested in making a change, or keeping up with changes to Pony? Check out the &lt;a href=&#34;https://github.com/ponylang/rfcs&#34;&gt;RFC repo&lt;/a&gt;. Contributors welcome!&lt;/p&gt;
+
+&lt;h3 id=&#34;approved-rfcs&#34;&gt;Approved RFCs&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/84&#34;&gt;Arrays As Sequences&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ready-for-vote&#34;&gt;Ready For Vote&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/82&#34;&gt;Explicit Partial Call&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;final-comment-period&#34;&gt;Final Comment Period&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/86&#34;&gt;Exhaustive Pattern Matching&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/85&#34;&gt;Add a TCPConnectNotify.received times parameter&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;new-rfcs&#34;&gt;New RFCs&lt;/h3&gt;
+
+&lt;p&gt;There have been no new RFCs this week.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

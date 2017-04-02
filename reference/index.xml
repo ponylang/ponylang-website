@@ -2,22 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>References on Pony</title>
-    <link>http://www.ponylang.org/reference/</link>
+    <link>http://www.ponylang.org/reference/index.xml</link>
     <description>Recent content in References on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    
-	<atom:link href="http://www.ponylang.org/reference/index.xml" rel="self" type="application/rss+xml" />
-    
+    <atom:link href="http://www.ponylang.org/reference/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Reference</title>
-      <link>http://www.ponylang.org/reference/index/</link>
+      <link>http://www.ponylang.org/reference/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/reference/index/</guid>
-      <description>Nothing to see here yet. Content will be coming soon.</description>
+      <guid>http://www.ponylang.org/reference/</guid>
+      <description>&lt;p&gt;Nothing to see here yet. Content will be coming soon.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

@@ -51,11 +51,11 @@
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/community/index/</loc>
+    <loc>http://www.ponylang.org/community/</loc>
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/contribute/index/</loc>
+    <loc>http://www.ponylang.org/contribute/</loc>
   </url>
   
   <url>
@@ -64,7 +64,7 @@
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/discover/index/</loc>
+    <loc>http://www.ponylang.org/discover/</loc>
   </url>
   
   <url>
@@ -73,7 +73,7 @@
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/faq/index/</loc>
+    <loc>http://www.ponylang.org/faq/</loc>
   </url>
   
   <url>
@@ -82,7 +82,7 @@
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/learn/index/</loc>
+    <loc>http://www.ponylang.org/learn/</loc>
   </url>
   
   <url>
@@ -101,7 +101,7 @@
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/index/</loc>
+    <loc>http://www.ponylang.org/</loc>
   </url>
   
   <url>
@@ -109,7 +109,7 @@
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/reference/index/</loc>
+    <loc>http://www.ponylang.org/reference/</loc>
   </url>
   
   <url>
@@ -126,11 +126,6 @@
   <url>
     <loc>http://www.ponylang.org/categories/state-of-the-stable/</loc>
     <lastmod>2016-03-12T12:48:57-04:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://www.ponylang.org/tags/</loc>
     <priority>0</priority>
   </url>
   
