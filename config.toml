@@ -74,6 +74,11 @@ canonifyurls = true
 	url    = "blog/"
 	weight = 60
 
+[[menu.main]]
+	name   = "Code of Conduct"
+	url    = "community/code-of-conduct/"
+	weight = 70
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
