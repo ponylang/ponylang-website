@@ -59,7 +59,7 @@ The code within a single actor is never run concurrently. This means that, withi
 
 By sharing only immutable data and exchanging only isolated data we can have safe concurrent programs without locks. The problem is that it's very difficult to do that correctly. If you accidentally hang on to a reference to some isolated data you've handed over or change something you've shared as immutable then everything goes wrong. What you need is for the compiler to force you to live up to your promises. Pony reference capabilities allow the compiler to do just that.
 
-If you ask us, pretty damn cool and a hell of a reason to give Pony a try.
+If you ask us, that's pretty damn cool and a hell of a reason to give Pony a try.
 
 ## Why not Pony?
 
