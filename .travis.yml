@@ -6,6 +6,7 @@ branches:
         source
 
 script:
+    - hugo version;
     - hugo;
     - ls -al public/discover;
 
