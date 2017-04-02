@@ -17,7 +17,7 @@
       <guid>http://www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
       <description>
 
-&lt;p&gt;If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binary with the Pony compiler.&lt;/p&gt;
+&lt;p&gt;If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binaries with the Pony compiler.&lt;/p&gt;
 
 &lt;p&gt;Prior to &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1794&#34;&gt;PR #1794&lt;/a&gt;, &lt;code&gt;ponyc&lt;/code&gt; would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (&lt;a href=&#34;https://github.com/ponylang/ponyc/commit/44b2d56c5618142fe0fd628eeadbd5975157d62f&#34;&gt;44b2d56&lt;/a&gt;) broke support for Visual Build Tools C++ 2015.&lt;/p&gt;
 
