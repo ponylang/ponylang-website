@@ -15,7 +15,7 @@ canonifyurls = true
 	provider = "GitHub"
 	repo_url = "https://github.com/ponylang/ponyc"
 
-	logo = "images/logo.png"
+	logo = "/images/logo.png"
 	favicon = ""
 
 	permalink = "#"
