@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Pony</title>
+    <title>Project Documentation - Pony</title>
     <meta name="generator" content="Hugo 0.20-DEV" />
 
     
     <meta name="description" content="Pony - High Performance Actor Programming">
     
-    <link rel="canonical" href="http://www.ponylang.org/">
+    <link rel="canonical" href="http://www.ponylang.org/contribute/project-documentation/">
     
 
-    <meta property="og:url" content="http://www.ponylang.org/">
+    <meta property="og:url" content="http://www.ponylang.org/contribute/project-documentation/">
     <meta property="og:title" content="Pony">
     <meta property="og:image" content="http://www.ponylang.org/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Pony">
@@ -69,9 +69,6 @@
     <script src="http://www.ponylang.org/javascripts/modernizr.js"></script>
 
     
-    <link href="http://www.ponylang.org/index.xml" rel="alternate" type="application/rss+xml" title="Pony" />
-    <link href="http://www.ponylang.org/index.xml" rel="feed" type="application/rss+xml" title="Pony" />
-    
 
   </head>
   <body class="palette-primary-brown palette-accent-deep-orange">
@@ -100,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Pony
+        Project Documentation
       </div>
     </div>
 
@@ -170,14 +167,11 @@
 
 
 
-<a class="current" title="Pony" href="http://www.ponylang.org/">
+<a  title="Pony" href="http://www.ponylang.org/">
 	
 	Pony
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -323,25 +317,41 @@
 
 	<article class="article">
 		<div class="wrapper">
+			<h1>Project Documentation </h1>
+
 			
-				<h1>Pony </h1>
 
-				
+<p>There&rsquo;s currently a small project underway to improve Pony documentation. We have a few initial aims</p>
 
-<p>Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.</p>
-
-<h2 id="getting-around">Getting around</h2>
-
-<p>We&rsquo;ve set up the website to be based on <em>who you are</em>.</p>
+<h2 id="standard-library-documentation-improvements">Standard Library Documentation Improvements</h2>
 
 <ul>
-<li>New to Pony? <a href="http://www.ponylang.org/discover/index/">Start here</a></li>
-<li>Learning Pony? <a href="http://www.ponylang.org/learn/index/">Start here</a></li>
-<li>Existing Pony User looking for stuff? <a href="http://www.ponylang.org/reference/index/">Start here</a></li>
-<li>Looking to Contribute to Pony? <a href="http://www.ponylang.org/contribute/index/">Start here</a></li>
+<li>Add documentation in the form of docstrings to the standard libraries</li>
+<li>Add examples of usage to package level docstrings</li>
 </ul>
 
-			
+<h2 id="generated-documentations-improvements">Generated Documentations Improvements</h2>
+
+<p>The current generated documentation is hard to parse and could use a facelift in terms of layout and formatting. In addition to changes that would impact the content layout itself,  the mkdocs theme that is currently used has issues with the sidebar functioning in a very frustrating fashion. It doesn&rsquo;t keep the sidebar focused on content you are viewing. It doesn&rsquo;t highlight the correct menu item if you deep link into documentation. And several other issues as well. Lastly, generated documentation isn&rsquo;t online. New pony users have to get pony installed and generate the documentation themselves. That results in multiple hurdles.</p>
+
+<p>We want to:</p>
+
+<ul>
+<li>Get docs building automatically on each commit and hosted at ReadTheDocs.</li>
+<li>Switch to the Read the docs theme that solves the sidebar issues (mkdocs is a pale imitation)</li>
+<li>Improve the layout and formatting of documentation itself.</li>
+</ul>
+
+<h2 id="improving-examples">Improving Examples</h2>
+
+<p>The examples that come with Pony are often not idiomatic. One of the ways people are going to learn is to copy code from examples into what they are trying to accomplish. It behooves us to make sure that the examples are of the highest quality. Idiomatic, with comments, without performance anti-patterns etc. We need to undertake a general cleanup of existing examples and writing up a guide for people looking to contribute other examples.</p>
+
+<h2 id="improving-the-tutorial">Improving the Tutorial</h2>
+
+<p>There&rsquo;s plenty that people bring up as needing improvement/missing from the Tutorial.</p>
+
+<p>If you are interested in working on this project, please contact Sean T Allen <a href="mailto:sean@monkeysnatchbanana.com">sean@monkeysnatchbanana.com</a></p>
+
 
 			<aside class="copyright" role="note">
 				

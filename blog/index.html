@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Pony</title>
+    <title>Blog - Pony</title>
     <meta name="generator" content="Hugo 0.20-DEV" />
 
     
     <meta name="description" content="Pony - High Performance Actor Programming">
     
-    <link rel="canonical" href="http://www.ponylang.org/">
+    <link rel="canonical" href="http://www.ponylang.org/blog/">
     
 
-    <meta property="og:url" content="http://www.ponylang.org/">
+    <meta property="og:url" content="http://www.ponylang.org/blog/">
     <meta property="og:title" content="Pony">
     <meta property="og:image" content="http://www.ponylang.org/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Pony">
@@ -69,8 +69,8 @@
     <script src="http://www.ponylang.org/javascripts/modernizr.js"></script>
 
     
-    <link href="http://www.ponylang.org/index.xml" rel="alternate" type="application/rss+xml" title="Pony" />
-    <link href="http://www.ponylang.org/index.xml" rel="feed" type="application/rss+xml" title="Pony" />
+    <link href="http://www.ponylang.org/blog/index.xml" rel="alternate" type="application/rss+xml" title="Pony" />
+    <link href="http://www.ponylang.org/blog/index.xml" rel="feed" type="application/rss+xml" title="Pony" />
     
 
   </head>
@@ -78,12 +78,12 @@
 
 
 
-	
-	
+  
+  
 
 
 <div class="backdrop">
-	<div class="backdrop-paper"></div>
+  <div class="backdrop-paper"></div>
 </div>
 
 <input class="toggle" type="checkbox" id="toggle-drawer">
@@ -91,7 +91,7 @@
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
 <header class="header">
-	<nav aria-label="Header">
+  <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
       <label class="toggle-button icon icon-menu" for="toggle-drawer">
@@ -100,7 +100,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Pony
+        Blog
       </div>
     </div>
 
@@ -135,8 +135,8 @@
 </header>
 
 <main class="main">
-	<div class="drawer">
-		<nav aria-label="Navigation">
+  <div class="drawer">
+    <nav aria-label="Navigation">
   <a href="https://github.com/ponylang/ponyc" class="project">
     <div class="banner">
       
@@ -170,14 +170,11 @@
 
 
 
-<a class="current" title="Pony" href="http://www.ponylang.org/">
+<a  title="Pony" href="http://www.ponylang.org/">
 	
 	Pony
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -281,11 +278,14 @@
 
 
 
-<a  title="Blog" href="http://www.ponylang.org/blog/">
+<a class="current" title="Blog" href="http://www.ponylang.org/blog/">
 	
 	Blog
 </a>
 
+
+<ul id="scrollspy">
+</ul>
 
 
   
@@ -319,55 +319,116 @@
   </div>
 </nav>
 
-	</div>
+  </div>
 
-	<article class="article">
-		<div class="wrapper">
-			
-				<h1>Pony </h1>
+  <article class="article">
+    <div class="wrapper">
+      <h1>Blog</h1>
 
-				
+      
+      <a href="http://www.ponylang.org/blog/2017/04/0.12.3-released/" title="0.12.3 released">
+        <h2>0.12.3 released</h2>
+      </a>
+      <div class="meta">Saturday, Apr 1, 2017</div>
 
-<p>Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.</p>
+      <br>
+        
+        <p>If you aren&rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binary with the Pony compiler.
+Prior to PR #1794, ponyc would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (44b2d56) broke support for Visual Build Tools C++ 2015.&hellip;</p>
+        
 
-<h2 id="getting-around">Getting around</h2>
+      <hr>
+      
+      <a href="http://www.ponylang.org/blog/2017/03/0.12.2-released/" title="0.12.2 released">
+        <h2>0.12.2 released</h2>
+      </a>
+      <div class="meta">Thursday, Mar 30, 2017</div>
 
-<p>We&rsquo;ve set up the website to be based on <em>who you are</em>.</p>
+      <br>
+        
+        <p> Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&rsquo;s only been a day since our last release, not a lot else in this one.
+Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew should be coming soon.
+[0.12.2] - 2017-03-30 Fixed  Fix extreme CPU use in scheduler on Windows (PR #1785) Fix broken ponytest &ldquo;only&rdquo; filter (PR #1780)  &hellip;</p>
+        
 
-<ul>
-<li>New to Pony? <a href="http://www.ponylang.org/discover/index/">Start here</a></li>
-<li>Learning Pony? <a href="http://www.ponylang.org/learn/index/">Start here</a></li>
-<li>Existing Pony User looking for stuff? <a href="http://www.ponylang.org/reference/index/">Start here</a></li>
-<li>Looking to Contribute to Pony? <a href="http://www.ponylang.org/contribute/index/">Start here</a></li>
-</ul>
+      <hr>
+      
+      <a href="http://www.ponylang.org/blog/2017/03/0.12.1-released/" title="0.12.1 released">
+        <h2>0.12.1 released</h2>
+      </a>
+      <div class="meta">Wednesday, Mar 29, 2017</div>
 
-			
+      <br>
+        
+        <p> This is a recommended update 0.12.0 broke ponytest. No tests will run using 0.12.0, therefore upgrading to 0.12.1 immediately is advised.
+[0.12.1] - 2017-03-29 Fixed  Bug in ponytest resulted in all tests being skipped (PR #1778) cd  &hellip;</p>
+        
 
-			<aside class="copyright" role="note">
-				
-				&copy; 2017 Pony Developers &ndash;
-				
-				Documentation built with
-				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
-				using the
-				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
-			</aside>
+      <hr>
+      
+      <a href="http://www.ponylang.org/blog/2017/03/0.12.0-released/" title="0.12.0 released">
+        <h2>0.12.0 released</h2>
+      </a>
+      <div class="meta">Wednesday, Mar 29, 2017</div>
 
-			<footer class="footer">
-				
+      <br>
+        
+        <p>Pony version 0.12.0 has been released. It&rsquo;s available via all the usual channels. This is a recommended update as PR #1768 fixed a memory related issue that could result in nastiness.
+The release also features a breaking change in the form of PR #1741 which implemented the &ldquo;Array as Sequences&rdquo; RFC. It changes the syntax for creating arrays from: ['a', 'b', 'c'] to: ['a'; 'b'; 'c'].
+Enjoy!
+[0.12.0] - 2017-03-29 Fixed  Don&rsquo;t ignore buffer length when printing (PR #1768) Ifdef out ANSITerm signal handler for SIGWINCH (PR #1763) Fix build error on 32 bits systems (PR #1762) Fix annotation-related compiler assertion failure (issue #1751) (PR #1757) Improve packaged Linux binary performance (PR #1755) Fix false positive test failure on 32 bits (PR #1749)  Added  Support XCode 8.&hellip;</p>
+        
 
-			</footer>
-		</div>
-	</article>
+      <hr>
+      
+      <a href="http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/" title="This Week in Pony - March 28, 2017">
+        <h2>This Week in Pony - March 28, 2017</h2>
+      </a>
+      <div class="meta">Tuesday, Mar 28, 2017</div>
 
-	<div class="results" role="status" aria-live="polite">
-		<div class="scrollable">
-			<div class="wrapper">
-				<div class="meta"></div>
-				<div class="list"></div>
-			</div>
-		</div>
-	</div>
+      <br>
+        
+        <p>This Week In Pony is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out our website, our Twitter account @ponylang, or join us on IRC.
+Items of note Version 0.11.4 Released! Version 0.11.4 has been released, with the full release notes here
+News and Blog Posts  Pony Community Survey
+ Hello Wallaroo! A brief introduction to Sendence&rsquo;s Wallaroo, written in Pony.&hellip;</p>
+        
+
+      <hr>
+      
+      <a href="http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/" title="State of the Stable 2016">
+        <h2>State of the Stable 2016</h2>
+      </a>
+      <div class="meta">Saturday, Mar 12, 2016</div>
+
+      <br>
+        
+        <p>Hi there and welcome to the summary of the Pony 2016 &ldquo;State of the Stable&rdquo; community survey. It was the first of what will hopefully become an annual tradition. We&rsquo;d like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing.&hellip;</p>
+        
+
+      <hr>
+      
+
+      <aside class="copyright" role="note">
+        
+        &copy; 2017 Pony Developers &ndash;
+        
+        Documentation built with
+        <a href="https://www.gohugo.io" target="_blank">Hugo</a>
+        using the
+        <a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+      </aside>
+    </div>
+  </article>
+
+  <div class="results" role="status" aria-live="polite">
+    <div class="scrollable">
+      <div class="wrapper">
+        <div class="meta"></div>
+        <div class="list"></div>
+      </div>
+    </div>
+  </div>
 </main>
 
     <script>

@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Pony</title>
+    <title>0.12.3 released - Pony</title>
     <meta name="generator" content="Hugo 0.20-DEV" />
 
     
     <meta name="description" content="Pony - High Performance Actor Programming">
     
-    <link rel="canonical" href="http://www.ponylang.org/">
+    <link rel="canonical" href="http://www.ponylang.org/blog/2017/04/0.12.3-released/">
     
 
-    <meta property="og:url" content="http://www.ponylang.org/">
+    <meta property="og:url" content="http://www.ponylang.org/blog/2017/04/0.12.3-released/">
     <meta property="og:title" content="Pony">
     <meta property="og:image" content="http://www.ponylang.org/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Pony">
@@ -69,21 +69,18 @@
     <script src="http://www.ponylang.org/javascripts/modernizr.js"></script>
 
     
-    <link href="http://www.ponylang.org/index.xml" rel="alternate" type="application/rss+xml" title="Pony" />
-    <link href="http://www.ponylang.org/index.xml" rel="feed" type="application/rss+xml" title="Pony" />
-    
 
   </head>
   <body class="palette-primary-brown palette-accent-deep-orange">
 
 
 
-	
-	
+  
+  
 
 
 <div class="backdrop">
-	<div class="backdrop-paper"></div>
+  <div class="backdrop-paper"></div>
 </div>
 
 <input class="toggle" type="checkbox" id="toggle-drawer">
@@ -91,7 +88,7 @@
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
 <header class="header">
-	<nav aria-label="Header">
+  <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
       <label class="toggle-button icon icon-menu" for="toggle-drawer">
@@ -100,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Pony
+        0.12.3 released
       </div>
     </div>
 
@@ -135,8 +132,8 @@
 </header>
 
 <main class="main">
-	<div class="drawer">
-		<nav aria-label="Navigation">
+  <div class="drawer">
+    <nav aria-label="Navigation">
   <a href="https://github.com/ponylang/ponyc" class="project">
     <div class="banner">
       
@@ -170,14 +167,11 @@
 
 
 
-<a class="current" title="Pony" href="http://www.ponylang.org/">
+<a  title="Pony" href="http://www.ponylang.org/">
 	
 	Pony
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -319,55 +313,86 @@
   </div>
 </nav>
 
-	</div>
+  </div>
 
-	<article class="article">
-		<div class="wrapper">
-			
-				<h1>Pony </h1>
+  <article class="article">
+    <div class="wrapper">
+      <h1>0.12.3 released</h1>
+      
+      <p>
+        by Sean T Allen<br/>
+        Saturday, Apr 1, 2017
+      </p>
+  </header>
 
-				
+  
 
-<p>Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.</p>
+<p>If you aren&rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binary with the Pony compiler.</p>
 
-<h2 id="getting-around">Getting around</h2>
+<p>Prior to <a href="https://github.com/ponylang/ponyc/pull/1794">PR #1794</a>, <code>ponyc</code> would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (<a href="https://github.com/ponylang/ponyc/commit/44b2d56c5618142fe0fd628eeadbd5975157d62f">44b2d56</a>) broke support for Visual Build Tools C++ 2015.</p>
 
-<p>We&rsquo;ve set up the website to be based on <em>who you are</em>.</p>
+<h2 id="0-12-3-2017-04-01">[0.12.3] - 2017-04-01</h2>
+
+<h3 id="fixed">Fixed</h3>
 
 <ul>
-<li>New to Pony? <a href="http://www.ponylang.org/discover/index/">Start here</a></li>
-<li>Learning Pony? <a href="http://www.ponylang.org/learn/index/">Start here</a></li>
-<li>Existing Pony User looking for stuff? <a href="http://www.ponylang.org/reference/index/">Start here</a></li>
-<li>Looking to Contribute to Pony? <a href="http://www.ponylang.org/contribute/index/">Start here</a></li>
+<li>Improve Visual Studio and Microsoft C++ Build Tools detection. (PR #1794)</li>
 </ul>
 
-			
 
-			<aside class="copyright" role="note">
-				
-				&copy; 2017 Pony Developers &ndash;
-				
-				Documentation built with
-				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
-				using the
-				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
-			</aside>
+      <aside class="copyright" role="note">
+        
+        &copy; 2017 Pony Developers &ndash;
+        
+        Documentation built with
+        <a href="https://www.gohugo.io" target="_blank">Hugo</a>
+        using the
+        <a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+      </aside>
 
-			<footer class="footer">
-				
+      <footer class="footer">
+        
 
-			</footer>
-		</div>
-	</article>
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="http://www.ponylang.org/blog/2017/03/0.12.2-released/" title="0.12.2 released">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              0.12.2 released
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
 
-	<div class="results" role="status" aria-live="polite">
-		<div class="scrollable">
-			<div class="wrapper">
-				<div class="meta"></div>
-				<div class="list"></div>
-			</div>
-		</div>
-	</div>
+  <div class="next">
+  
+  </div>
+</nav>
+
+
+
+      </footer>
+    </div>
+  </article>
+
+  <div class="results" role="status" aria-live="polite">
+    <div class="scrollable">
+      <div class="wrapper">
+        <div class="meta"></div>
+        <div class="list"></div>
+      </div>
+    </div>
+  </div>
 </main>
 
     <script>

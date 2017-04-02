@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contributes on Pony</title>
+    <link>http://www.ponylang.org/contribute/</link>
+    <description>Recent content in Contributes on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    
+	<atom:link href="http://www.ponylang.org/contribute/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Contribute</title>
+      <link>http://www.ponylang.org/contribute/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/contribute/index/</guid>
+      <description>Interested in helping develop Pony? Awesome. We could use the help. Here&amp;rsquo;s a list of projects that are currently underway that you can assist with. If none of them interest you, drop a note to the pony+dev mailing list and we should be able to find something that suits your interests.
+Note sure where to start?
+If you are new to Pony or don&amp;rsquo;t have a ton of time to devout to helping, we suggest you check out Project Documentation and helping to improve our docs.</description>
+    </item>
+    
+    <item>
+      <title>Project Documentation</title>
+      <link>http://www.ponylang.org/contribute/project-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/contribute/project-documentation/</guid>
+      <description>There&amp;rsquo;s currently a small project underway to improve Pony documentation. We have a few initial aims
+Standard Library Documentation Improvements  Add documentation in the form of docstrings to the standard libraries Add examples of usage to package level docstrings  Generated Documentations Improvements The current generated documentation is hard to parse and could use a facelift in terms of layout and formatting. In addition to changes that would impact the content layout itself, the mkdocs theme that is currently used has issues with the sidebar functioning in a very frustrating fashion.</description>
+    </item>
+    
+    <item>
+      <title>Triaging Ponyc</title>
+      <link>http://www.ponylang.org/contribute/triage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/contribute/triage/</guid>
+      <description>For anyone The vast majority of the triaging process can be done by any member of the community, all of the following steps require no special commit access to the ponyc repo.
+Request missing relevant information Has the user reported all information that might be needed to diagnose? It can be very hard to diagnose issues if relevant details are missing.
+Commonly needed information includes:
+ Source code that demonstrates the problem Did they installed from a package or source?</description>
+    </item>
+    
+  </channel>
+</rss>

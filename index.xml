@@ -1,13 +1,207 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pony - High Performance Actor Programming</title>
-    <link>http://www.ponylang.org/index.xml</link>
-    <description>Recent content on Pony - High Performance Actor Programming</description>
+    <title>Pony</title>
+    <link>http://www.ponylang.org/</link>
+    <description>Recent content on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2014 - 2016 Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    <lastBuildDate>Sat, 01 Apr 2017 14:02:54 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.ponylang.org/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0.12.3 released</title>
+      <link>http://www.ponylang.org/blog/2017/04/0.12.3-released/</link>
+      <pubDate>Sat, 01 Apr 2017 14:02:54 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
+      <description>If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binary with the Pony compiler.
+Prior to PR #1794, ponyc would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (44b2d56) broke support for Visual Build Tools C++ 2015.</description>
+    </item>
+    
+    <item>
+      <title>0.12.2 released</title>
+      <link>http://www.ponylang.org/blog/2017/03/0.12.2-released/</link>
+      <pubDate>Thu, 30 Mar 2017 20:07:23 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/0.12.2-released/</guid>
+      <description> Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&amp;rsquo;s only been a day since our last release, not a lot else in this one.
+Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew should be coming soon.
+[0.12.2] - 2017-03-30 Fixed  Fix extreme CPU use in scheduler on Windows (PR #1785) Fix broken ponytest &amp;ldquo;only&amp;rdquo; filter (PR #1780)  </description>
+    </item>
+    
+    <item>
+      <title>0.12.1 released</title>
+      <link>http://www.ponylang.org/blog/2017/03/0.12.1-released/</link>
+      <pubDate>Wed, 29 Mar 2017 23:27:25 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
+      <description> This is a recommended update 0.12.0 broke ponytest. No tests will run using 0.12.0, therefore upgrading to 0.12.1 immediately is advised.
+[0.12.1] - 2017-03-29 Fixed  Bug in ponytest resulted in all tests being skipped (PR #1778) cd  </description>
+    </item>
+    
+    <item>
+      <title>0.12.0 released</title>
+      <link>http://www.ponylang.org/blog/2017/03/0.12.0-released/</link>
+      <pubDate>Wed, 29 Mar 2017 20:03:10 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/0.12.0-released/</guid>
+      <description>Pony version 0.12.0 has been released. It&amp;rsquo;s available via all the usual channels. This is a recommended update as PR #1768 fixed a memory related issue that could result in nastiness.
+The release also features a breaking change in the form of PR #1741 which implemented the &amp;ldquo;Array as Sequences&amp;rdquo; RFC. It changes the syntax for creating arrays from: [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;] to: [&#39;a&#39;; &#39;b&#39;; &#39;c&#39;].
+Enjoy!
+[0.12.0] - 2017-03-29 Fixed  Don&amp;rsquo;t ignore buffer length when printing (PR #1768) Ifdef out ANSITerm signal handler for SIGWINCH (PR #1763) Fix build error on 32 bits systems (PR #1762) Fix annotation-related compiler assertion failure (issue #1751) (PR #1757) Improve packaged Linux binary performance (PR #1755) Fix false positive test failure on 32 bits (PR #1749)  Added  Support XCode 8.</description>
+    </item>
+    
+    <item>
+      <title>This Week in Pony - March 28, 2017</title>
+      <link>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</link>
+      <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</guid>
+      <description>This Week In Pony is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out our website, our Twitter account @ponylang, or join us on IRC.
+Items of note Version 0.11.4 Released! Version 0.11.4 has been released, with the full release notes here
+News and Blog Posts  Pony Community Survey
+ Hello Wallaroo! A brief introduction to Sendence&amp;rsquo;s Wallaroo, written in Pony.</description>
+    </item>
+    
+    <item>
+      <title>State of the Stable 2016</title>
+      <link>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</link>
+      <pubDate>Sat, 12 Mar 2016 12:48:57 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</guid>
+      <description>Hi there and welcome to the summary of the Pony 2016 &amp;ldquo;State of the Stable&amp;rdquo; community survey. It was the first of what will hopefully become an annual tradition. We&amp;rsquo;d like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing.</description>
+    </item>
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>http://www.ponylang.org/community/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/code-of-conduct/</guid>
+      <description>In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+In addition to having a code of conduct as an anti-harassment policy, we have a small set of social rules we follow.</description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://www.ponylang.org/community/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/index/</guid>
+      <description>Code of Conduct We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic. Our code of conduct sets the standards for behavior in all official Pony forums.
+Getting Started The most important community resources for those who are new to Pony are:
+ #ponylang, our IRC channel on freenode The Users Mailing List for discussion of all things Pony that don&amp;rsquo;t involve the development of Pony itself  If you are looking for help with Pony and can&amp;rsquo;t get a response in #ponylang, we advise that you send an email to the Users Mailing List.</description>
+    </item>
+    
+    <item>
+      <title>Contribute</title>
+      <link>http://www.ponylang.org/contribute/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/contribute/index/</guid>
+      <description>Interested in helping develop Pony? Awesome. We could use the help. Here&amp;rsquo;s a list of projects that are currently underway that you can assist with. If none of them interest you, drop a note to the pony+dev mailing list and we should be able to find something that suits your interests.
+Note sure where to start?
+If you are new to Pony or don&amp;rsquo;t have a ton of time to devout to helping, we suggest you check out Project Documentation and helping to improve our docs.</description>
+    </item>
+    
+    <item>
+      <title>Discover</title>
+      <link>http://www.ponylang.org/discover/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/discover/index/</guid>
+      <description>What is Pony? Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.
+What makes Pony different? Pony is type safe Really type safe. There&amp;rsquo;s a mathematical proof and everything.
+Pony is memory safe There are no dangling pointers and no buffer overruns. The language doesn&amp;rsquo;t even have the concept of null!
+Exception Safe There are no runtime exceptions. All exceptions have defined semantics, and they are always caught.</description>
+    </item>
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://www.ponylang.org/faq/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/faq/index/</guid>
+      <description> Compiling I get a &amp;ldquo;requires dynamic&amp;rdquo; error when compiling, how do I solve it? /usr/bin/ld.gold: error: ./fb.o: requires dynamic R_X86_64_32 reloc against &#39;Array_String_val_Trace&#39; which may overflow at runtime; recompile with -fPIC  try running ponyc with the --pic flag.
+For example:
+ponyc --pic examples/helloworld  </description>
+    </item>
+    
+    <item>
+      <title>Learn</title>
+      <link>http://www.ponylang.org/learn/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/learn/index/</guid>
+      <description>Ready to learn Pony? Awesome.
+Getting started We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online.
+ Tutorial. Pony Patterns cookbook is in progress Standard library docs.  Getting help If you run into trouble while you are learning Pony, don&amp;rsquo;t worry, we&amp;rsquo;ve got you covered.</description>
+    </item>
+    
+    <item>
+      <title>Planet Pony</title>
+      <link>http://www.ponylang.org/community/planet-pony/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/planet-pony/</guid>
+      <description>We don&amp;rsquo;t have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It&amp;rsquo;s like the early curated days of Yahoo!
+2017  Pony Vug #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony Découverte du langage Pony  2016  Pony Capabilities made simple Pony VUG #7: Nick Pruhs: Designing an Actor Model Game Architecture with Pony  Pony - A Language for Provably Safe Lockless Concurrency Pony: Co-Designing a Type System and a Runtime Pony VUG #6: Andrew Turley: The Art of Forgetting - Garbage Collection in Pony Reference Capabilites in Pony for everybody Pony VUG #5: George Steed: A Principled Design of Capabilities in Pony Pony VUG #4: Simple Value-Dependent Types in Pony Borrowing in Pony Push-parsing and Pony Pony VUG #3: The Actor Model and Pony Pony VUG #2: Using the Pony FFI in Anger Using Pony for Fintech Using the Actor-model Language Pony for FinTech Exploring actors in Pony Bang, Hat and Arrow in Pony Pony VUG #1: Writing Generic Code Closures in Pony Safely Sharing Data: Reference Capabilities in Pony Pony Patterns: Waiting the morning paper: Ownership and Reference Counting Based Garbage Collection in the Actor World the morning paper: Deny Capabilities for Safe, Fast Actors  2015  Pony designer Sylvan Clebsch on the Actor-Model Language Pony, Garbage Collection, Capabilities, Concurrency Inside the Pony TCP Stack Cross compile Pony programs for Android C linkable libraries with Pony Deconstructing a Pony echo server Presentation slides for &amp;ldquo;My Little Pony&amp;rdquo; talk at CodeMesh 2015 in London A quick look at the Pony Programming Language Presentation slides for &amp;ldquo;Deny Capabilities for Safe, Fast Actors&amp;rdquo; paper on Pony type system at Agere 2015 in Pittsburgh Part two of &amp;ldquo;Actor-based programming in Pony&amp;rdquo; at Imperial Programming Lectures in London Part one of &amp;ldquo;Actor-based programming in Pony&amp;rdquo; at Imperial Programming Lectures in London Implementing chat application with Pony lang Video of CurryOn presentation on Pony at ECOOP 2015 Video of Pony talk at TNG Big Tech Day 2015 Pony presentation by Prof.</description>
+    </item>
+    
+    <item>
+      <title>Pony</title>
+      <link>http://www.ponylang.org/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/index/</guid>
+      <description> Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.
+Getting around We&amp;rsquo;ve set up the website to be based on who you are.
+ New to Pony? Start here Learning Pony? Start here Existing Pony User looking for stuff? Start here Looking to Contribute to Pony? Start here  </description>
+    </item>
+    
+    <item>
+      <title>Project Documentation</title>
+      <link>http://www.ponylang.org/contribute/project-documentation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/contribute/project-documentation/</guid>
+      <description>There&amp;rsquo;s currently a small project underway to improve Pony documentation. We have a few initial aims
+Standard Library Documentation Improvements  Add documentation in the form of docstrings to the standard libraries Add examples of usage to package level docstrings  Generated Documentations Improvements The current generated documentation is hard to parse and could use a facelift in terms of layout and formatting. In addition to changes that would impact the content layout itself, the mkdocs theme that is currently used has issues with the sidebar functioning in a very frustrating fashion.</description>
+    </item>
+    
+    <item>
+      <title>Reference</title>
+      <link>http://www.ponylang.org/reference/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/reference/index/</guid>
+      <description>Nothing to see here yet. Content will be coming soon.</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>http://www.ponylang.org/community/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Triaging Ponyc</title>
+      <link>http://www.ponylang.org/contribute/triage/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/contribute/triage/</guid>
+      <description>For anyone The vast majority of the triaging process can be done by any member of the community, all of the following steps require no special commit access to the ponyc repo.
+Request missing relevant information Has the user reported all information that might be needed to diagnose? It can be very hard to diagnose issues if relevant details are missing.
+Commonly needed information includes:
+ Source code that demonstrates the problem Did they installed from a package or source?</description>
+    </item>
     
   </channel>
 </rss>

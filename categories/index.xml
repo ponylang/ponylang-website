@@ -1,13 +1,42 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Pony - High Performance Actor Programming</title>
-    <link>http://www.ponylang.org/categories/index.xml</link>
-    <description>Recent content in Categories on Pony - High Performance Actor Programming</description>
+    <title>Categories on Pony</title>
+    <link>http://www.ponylang.org/categories/</link>
+    <description>Recent content in Categories on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
-    <copyright>Copyright (c) 2014 - 2016 Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    
+	<atom:link href="http://www.ponylang.org/categories/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Release</title>
+      <link>http://www.ponylang.org/categories/release/</link>
+      <pubDate>Sat, 01 Apr 2017 14:02:54 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/categories/release/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>State Of The Stable</title>
+      <link>http://www.ponylang.org/categories/state-of-the-stable/</link>
+      <pubDate>Sat, 12 Mar 2016 12:48:57 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/categories/state-of-the-stable/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>This Week In Pony</title>
+      <link>http://www.ponylang.org/categories/this-week-in-pony/</link>
+      <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/categories/this-week-in-pony/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Faqs on Pony</title>
+    <link>http://www.ponylang.org/faq/</link>
+    <description>Recent content in Faqs on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    
+	<atom:link href="http://www.ponylang.org/faq/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>FAQ</title>
+      <link>http://www.ponylang.org/faq/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/faq/index/</guid>
+      <description> Compiling I get a &amp;ldquo;requires dynamic&amp;rdquo; error when compiling, how do I solve it? /usr/bin/ld.gold: error: ./fb.o: requires dynamic R_X86_64_32 reloc against &#39;Array_String_val_Trace&#39; which may overflow at runtime; recompile with -fPIC  try running ponyc with the --pic flag.
+For example:
+ponyc --pic examples/helloworld  </description>
+    </item>
+    
+  </channel>
+</rss>

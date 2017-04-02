@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Release on Pony</title>
+    <link>http://www.ponylang.org/categories/release/</link>
+    <description>Recent content in Release on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    <lastBuildDate>Sat, 01 Apr 2017 14:02:54 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.ponylang.org/categories/release/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>0.12.3 released</title>
+      <link>http://www.ponylang.org/blog/2017/04/0.12.3-released/</link>
+      <pubDate>Sat, 01 Apr 2017 14:02:54 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
+      <description>If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binary with the Pony compiler.
+Prior to PR #1794, ponyc would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (44b2d56) broke support for Visual Build Tools C++ 2015.</description>
+    </item>
+    
+    <item>
+      <title>0.12.2 released</title>
+      <link>http://www.ponylang.org/blog/2017/03/0.12.2-released/</link>
+      <pubDate>Thu, 30 Mar 2017 20:07:23 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/0.12.2-released/</guid>
+      <description> Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&amp;rsquo;s only been a day since our last release, not a lot else in this one.
+Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew should be coming soon.
+[0.12.2] - 2017-03-30 Fixed  Fix extreme CPU use in scheduler on Windows (PR #1785) Fix broken ponytest &amp;ldquo;only&amp;rdquo; filter (PR #1780)  </description>
+    </item>
+    
+    <item>
+      <title>0.12.1 released</title>
+      <link>http://www.ponylang.org/blog/2017/03/0.12.1-released/</link>
+      <pubDate>Wed, 29 Mar 2017 23:27:25 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
+      <description> This is a recommended update 0.12.0 broke ponytest. No tests will run using 0.12.0, therefore upgrading to 0.12.1 immediately is advised.
+[0.12.1] - 2017-03-29 Fixed  Bug in ponytest resulted in all tests being skipped (PR #1778) cd  </description>
+    </item>
+    
+    <item>
+      <title>0.12.0 released</title>
+      <link>http://www.ponylang.org/blog/2017/03/0.12.0-released/</link>
+      <pubDate>Wed, 29 Mar 2017 20:03:10 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/0.12.0-released/</guid>
+      <description>Pony version 0.12.0 has been released. It&amp;rsquo;s available via all the usual channels. This is a recommended update as PR #1768 fixed a memory related issue that could result in nastiness.
+The release also features a breaking change in the form of PR #1741 which implemented the &amp;ldquo;Array as Sequences&amp;rdquo; RFC. It changes the syntax for creating arrays from: [&#39;a&#39;, &#39;b&#39;, &#39;c&#39;] to: [&#39;a&#39;; &#39;b&#39;; &#39;c&#39;].
+Enjoy!
+[0.12.0] - 2017-03-29 Fixed  Don&amp;rsquo;t ignore buffer length when printing (PR #1768) Ifdef out ANSITerm signal handler for SIGWINCH (PR #1763) Fix build error on 32 bits systems (PR #1762) Fix annotation-related compiler assertion failure (issue #1751) (PR #1757) Improve packaged Linux binary performance (PR #1755) Fix false positive test failure on 32 bits (PR #1749)  Added  Support XCode 8.</description>
+    </item>
+    
+  </channel>
+</rss>

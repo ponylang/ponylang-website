@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Discovers on Pony</title>
+    <link>http://www.ponylang.org/discover/</link>
+    <description>Recent content in Discovers on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    
+	<atom:link href="http://www.ponylang.org/discover/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Discover</title>
+      <link>http://www.ponylang.org/discover/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/discover/index/</guid>
+      <description>What is Pony? Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.
+What makes Pony different? Pony is type safe Really type safe. There&amp;rsquo;s a mathematical proof and everything.
+Pony is memory safe There are no dangling pointers and no buffer overruns. The language doesn&amp;rsquo;t even have the concept of null!
+Exception Safe There are no runtime exceptions. All exceptions have defined semantics, and they are always caught.</description>
+    </item>
+    
+  </channel>
+</rss>

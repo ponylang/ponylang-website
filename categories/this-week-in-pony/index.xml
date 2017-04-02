@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>This Week In Pony on Pony</title>
+    <link>http://www.ponylang.org/categories/this-week-in-pony/</link>
+    <description>Recent content in This Week In Pony on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    <lastBuildDate>Tue, 28 Mar 2017 12:48:57 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.ponylang.org/categories/this-week-in-pony/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>This Week in Pony - March 28, 2017</title>
+      <link>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</link>
+      <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</guid>
+      <description>This Week In Pony is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out our website, our Twitter account @ponylang, or join us on IRC.
+Items of note Version 0.11.4 Released! Version 0.11.4 has been released, with the full release notes here
+News and Blog Posts  Pony Community Survey
+ Hello Wallaroo! A brief introduction to Sendence&amp;rsquo;s Wallaroo, written in Pony.</description>
+    </item>
+    
+  </channel>
+</rss>

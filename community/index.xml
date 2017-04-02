@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Communities on Pony</title>
+    <link>http://www.ponylang.org/community/</link>
+    <description>Recent content in Communities on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    
+	<atom:link href="http://www.ponylang.org/community/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Code of Conduct</title>
+      <link>http://www.ponylang.org/community/code-of-conduct/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/code-of-conduct/</guid>
+      <description>In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
+In addition to having a code of conduct as an anti-harassment policy, we have a small set of social rules we follow.</description>
+    </item>
+    
+    <item>
+      <title>Community</title>
+      <link>http://www.ponylang.org/community/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/index/</guid>
+      <description>Code of Conduct We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic. Our code of conduct sets the standards for behavior in all official Pony forums.
+Getting Started The most important community resources for those who are new to Pony are:
+ #ponylang, our IRC channel on freenode The Users Mailing List for discussion of all things Pony that don&amp;rsquo;t involve the development of Pony itself  If you are looking for help with Pony and can&amp;rsquo;t get a response in #ponylang, we advise that you send an email to the Users Mailing List.</description>
+    </item>
+    
+    <item>
+      <title>Planet Pony</title>
+      <link>http://www.ponylang.org/community/planet-pony/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/planet-pony/</guid>
+      <description>We don&amp;rsquo;t have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It&amp;rsquo;s like the early curated days of Yahoo!
+2017  Pony Vug #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony Découverte du langage Pony  2016  Pony Capabilities made simple Pony VUG #7: Nick Pruhs: Designing an Actor Model Game Architecture with Pony  Pony - A Language for Provably Safe Lockless Concurrency Pony: Co-Designing a Type System and a Runtime Pony VUG #6: Andrew Turley: The Art of Forgetting - Garbage Collection in Pony Reference Capabilites in Pony for everybody Pony VUG #5: George Steed: A Principled Design of Capabilities in Pony Pony VUG #4: Simple Value-Dependent Types in Pony Borrowing in Pony Push-parsing and Pony Pony VUG #3: The Actor Model and Pony Pony VUG #2: Using the Pony FFI in Anger Using Pony for Fintech Using the Actor-model Language Pony for FinTech Exploring actors in Pony Bang, Hat and Arrow in Pony Pony VUG #1: Writing Generic Code Closures in Pony Safely Sharing Data: Reference Capabilities in Pony Pony Patterns: Waiting the morning paper: Ownership and Reference Counting Based Garbage Collection in the Actor World the morning paper: Deny Capabilities for Safe, Fast Actors  2015  Pony designer Sylvan Clebsch on the Actor-Model Language Pony, Garbage Collection, Capabilities, Concurrency Inside the Pony TCP Stack Cross compile Pony programs for Android C linkable libraries with Pony Deconstructing a Pony echo server Presentation slides for &amp;ldquo;My Little Pony&amp;rdquo; talk at CodeMesh 2015 in London A quick look at the Pony Programming Language Presentation slides for &amp;ldquo;Deny Capabilities for Safe, Fast Actors&amp;rdquo; paper on Pony type system at Agere 2015 in Pittsburgh Part two of &amp;ldquo;Actor-based programming in Pony&amp;rdquo; at Imperial Programming Lectures in London Part one of &amp;ldquo;Actor-based programming in Pony&amp;rdquo; at Imperial Programming Lectures in London Implementing chat application with Pony lang Video of CurryOn presentation on Pony at ECOOP 2015 Video of Pony talk at TNG Big Tech Day 2015 Pony presentation by Prof.</description>
+    </item>
+    
+    <item>
+      <title>Talks</title>
+      <link>http://www.ponylang.org/community/talks/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/community/talks/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

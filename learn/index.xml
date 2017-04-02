@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Learns on Pony</title>
+    <link>http://www.ponylang.org/learn/</link>
+    <description>Recent content in Learns on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    
+	<atom:link href="http://www.ponylang.org/learn/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Learn</title>
+      <link>http://www.ponylang.org/learn/index/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.ponylang.org/learn/index/</guid>
+      <description>Ready to learn Pony? Awesome.
+Getting started We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online.
+ Tutorial. Pony Patterns cookbook is in progress Standard library docs.  Getting help If you run into trouble while you are learning Pony, don&amp;rsquo;t worry, we&amp;rsquo;ve got you covered.</description>
+    </item>
+    
+  </channel>
+</rss>

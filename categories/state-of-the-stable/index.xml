@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>State Of The Stable on Pony</title>
+    <link>http://www.ponylang.org/categories/state-of-the-stable/</link>
+    <description>Recent content in State Of The Stable on Pony</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Pony Developers</copyright>
+    <lastBuildDate>Sat, 12 Mar 2016 12:48:57 -0400</lastBuildDate>
+    
+	<atom:link href="http://www.ponylang.org/categories/state-of-the-stable/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>State of the Stable 2016</title>
+      <link>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</link>
+      <pubDate>Sat, 12 Mar 2016 12:48:57 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</guid>
+      <description>Hi there and welcome to the summary of the Pony 2016 &amp;ldquo;State of the Stable&amp;rdquo; community survey. It was the first of what will hopefully become an annual tradition. We&amp;rsquo;d like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing.</description>
+    </item>
+    
+  </channel>
+</rss>

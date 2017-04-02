@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Pony</title>
+    <title>0.12.0 released - Pony</title>
     <meta name="generator" content="Hugo 0.20-DEV" />
 
     
     <meta name="description" content="Pony - High Performance Actor Programming">
     
-    <link rel="canonical" href="http://www.ponylang.org/">
+    <link rel="canonical" href="http://www.ponylang.org/blog/2017/03/0.12.0-released/">
     
 
-    <meta property="og:url" content="http://www.ponylang.org/">
+    <meta property="og:url" content="http://www.ponylang.org/blog/2017/03/0.12.0-released/">
     <meta property="og:title" content="Pony">
     <meta property="og:image" content="http://www.ponylang.org/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Pony">
@@ -69,21 +69,18 @@
     <script src="http://www.ponylang.org/javascripts/modernizr.js"></script>
 
     
-    <link href="http://www.ponylang.org/index.xml" rel="alternate" type="application/rss+xml" title="Pony" />
-    <link href="http://www.ponylang.org/index.xml" rel="feed" type="application/rss+xml" title="Pony" />
-    
 
   </head>
   <body class="palette-primary-brown palette-accent-deep-orange">
 
 
 
-	
-	
+  
+  
 
 
 <div class="backdrop">
-	<div class="backdrop-paper"></div>
+  <div class="backdrop-paper"></div>
 </div>
 
 <input class="toggle" type="checkbox" id="toggle-drawer">
@@ -91,7 +88,7 @@
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
 <header class="header">
-	<nav aria-label="Header">
+  <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
       <label class="toggle-button icon icon-menu" for="toggle-drawer">
@@ -100,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Pony
+        0.12.0 released
       </div>
     </div>
 
@@ -135,8 +132,8 @@
 </header>
 
 <main class="main">
-	<div class="drawer">
-		<nav aria-label="Navigation">
+  <div class="drawer">
+    <nav aria-label="Navigation">
   <a href="https://github.com/ponylang/ponyc" class="project">
     <div class="banner">
       
@@ -170,14 +167,11 @@
 
 
 
-<a class="current" title="Pony" href="http://www.ponylang.org/">
+<a  title="Pony" href="http://www.ponylang.org/">
 	
 	Pony
 </a>
 
-
-<ul id="scrollspy">
-</ul>
 
 
   
@@ -319,55 +313,121 @@
   </div>
 </nav>
 
-	</div>
+  </div>
 
-	<article class="article">
-		<div class="wrapper">
-			
-				<h1>Pony </h1>
+  <article class="article">
+    <div class="wrapper">
+      <h1>0.12.0 released</h1>
+      
+      <p>
+        by Sean T. Allen<br/>
+        Wednesday, Mar 29, 2017
+      </p>
+  </header>
 
-				
+  
 
-<p>Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high performance programming language.</p>
+<p>Pony version 0.12.0 has been released. It&rsquo;s available via all the usual channels. This is a recommended update as <a href="https://github.com/ponylang/ponyc/pull/1768">PR #1768</a> fixed a memory related issue that could result in nastiness.</p>
 
-<h2 id="getting-around">Getting around</h2>
+<p>The release also features a breaking change in the form of <a href="https://github.com/ponylang/ponyc/pull/1741">PR #1741</a> which implemented the &ldquo;Array as Sequences&rdquo; RFC. It changes the syntax for creating arrays from: <code>['a', 'b', 'c']</code> to: <code>['a'; 'b'; 'c']</code>.</p>
 
-<p>We&rsquo;ve set up the website to be based on <em>who you are</em>.</p>
+<p>Enjoy!</p>
+
+<h2 id="0-12-0-2017-03-29">[0.12.0] - 2017-03-29</h2>
+
+<h3 id="fixed">Fixed</h3>
 
 <ul>
-<li>New to Pony? <a href="http://www.ponylang.org/discover/index/">Start here</a></li>
-<li>Learning Pony? <a href="http://www.ponylang.org/learn/index/">Start here</a></li>
-<li>Existing Pony User looking for stuff? <a href="http://www.ponylang.org/reference/index/">Start here</a></li>
-<li>Looking to Contribute to Pony? <a href="http://www.ponylang.org/contribute/index/">Start here</a></li>
+<li>Don&rsquo;t ignore buffer length when printing (<a href="https://github.com/ponylang/ponyc/pull/1768">PR #1768</a>)</li>
+<li>Ifdef out ANSITerm signal handler for SIGWINCH (<a href="https://github.com/ponylang/ponyc/pull/1763">PR #1763</a>)</li>
+<li>Fix build error on 32 bits systems (<a href="https://github.com/ponylang/ponyc/pull/1762">PR #1762</a>)</li>
+<li>Fix annotation-related compiler assertion failure (issue #1751) (<a href="https://github.com/ponylang/ponyc/pull/1757">PR #1757</a>)</li>
+<li>Improve packaged Linux binary performance (<a href="https://github.com/ponylang/ponyc/pull/1755">PR #1755</a>)</li>
+<li>Fix false positive test failure on 32 bits (<a href="https://github.com/ponylang/ponyc/pull/1749">PR #1749</a>)</li>
 </ul>
 
-			
+<h3 id="added">Added</h3>
 
-			<aside class="copyright" role="note">
-				
-				&copy; 2017 Pony Developers &ndash;
-				
-				Documentation built with
-				<a href="https://www.gohugo.io" target="_blank">Hugo</a>
-				using the
-				<a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
-			</aside>
+<ul>
+<li>Support XCode 8.3 and LLVM 3.9 (<a href="https://github.com/ponylang/ponyc/pull/1765">PR #1765</a>)</li>
+</ul>
 
-			<footer class="footer">
-				
+<h3 id="changed">Changed</h3>
 
-			</footer>
-		</div>
-	</article>
+<ul>
+<li>Arrays as sequences (<a href="https://github.com/ponylang/ponyc/pull/1741">PR #1741</a>)</li>
+</ul>
 
-	<div class="results" role="status" aria-live="polite">
-		<div class="scrollable">
-			<div class="wrapper">
-				<div class="meta"></div>
-				<div class="list"></div>
-			</div>
-		</div>
-	</div>
+
+      <aside class="copyright" role="note">
+        
+        &copy; 2017 Pony Developers &ndash;
+        
+        Documentation built with
+        <a href="https://www.gohugo.io" target="_blank">Hugo</a>
+        using the
+        <a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+      </aside>
+
+      <footer class="footer">
+        
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/" title="This Week in Pony - March 28, 2017">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              This Week in Pony - March 28, 2017
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+      <a href="http://www.ponylang.org/blog/2017/03/0.12.1-released/" title="0.12.1 released">
+        <span class="direction">
+          Next
+        </span>
+        <div class="page">
+          <div class="stretch">
+            <div class="title">
+              0.12.1 released
+            </div>
+          </div>
+          <div class="button button-next" role="button" aria-label="Next">
+            <i class="icon icon-forward"></i>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+</nav>
+
+
+
+      </footer>
+    </div>
+  </article>
+
+  <div class="results" role="status" aria-live="polite">
+    <div class="scrollable">
+      <div class="wrapper">
+        <div class="meta"></div>
+        <div class="list"></div>
+      </div>
+    </div>
+  </div>
 </main>
 
     <script>
