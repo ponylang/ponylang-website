@@ -24,7 +24,7 @@
 
   <article class="article">
     <div class="wrapper">
-      <h1>Ponylang {{ .Title | singularize }}</h1>
+      <h1>{{ .Title | singularize }}</h1>
 
       {{ range .Data.Pages }}
       <a href="{{ .Permalink }}" title="{{ .Title }}">
