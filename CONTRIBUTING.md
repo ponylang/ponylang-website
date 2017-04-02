@@ -6,7 +6,9 @@ Please note, that by submitting any content to the Pony Tutorial book you are ag
 
 ## Hugo
 
-The Pony website is generated using [Hugo]: a static website generator. If you are making larger changes to the site, you will need to install Hugo locally to verify your changes are working. 
+The Pony website is generated using [Hugo]: a static website generator. If you are making larger changes to the site, you will need to install Hugo locally to verify your changes are working.
+
+Because the site is deploying using a remote server, you should make sure you are developing using whatever version the deploy server is currently running. At the moment, that is the latest verison of hugo available via `homebrew`. Currently that is v0.19.
 
 ## How this repo is organized
 
