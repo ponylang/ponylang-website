@@ -46,37 +46,37 @@ canonifyurls = true
 
 [[menu.main]]
 	name   = "New to Pony?"
-	url    = "discover/"
+	url    = "/discover/"
 	weight = 10
 
 [[menu.main]]
 	name   = "Learning Pony?"
-	url    = "learn/"
+	url    = "/learn/"
 	weight = 20
 
 [[menu.main]]
 	name   = "Existing User?"
-	url    = "reference/"
+	url    = "/reference/"
 	weight = 30
 
 [[menu.main]]
 	name   = "Looking to contribute?"
-	url    = "contribute/"
+	url    = "/contribute/"
 	weight = 40
 
 [[menu.main]]
 	name   = "Community"
-	url    = "community/"
+	url    = "/community/"
 	weight = 50
 
 [[menu.main]]
 	name   = "Blog"
-	url    = "blog/"
+	url    = "/blog/"
 	weight = 60
 
 [[menu.main]]
 	name   = "Code of Conduct"
-	url    = "community/code-of-conduct/"
+	url    = "/community/code-of-conduct/"
 	weight = 70
 
 [blackfriday]
