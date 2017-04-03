@@ -12,7 +12,7 @@ Has the user reported all information that might be needed to diagnose? It can b
 Commonly needed information includes:
 
 * Source code that demonstrates the problem
-* Did they installed from a package or source?
+* Did they install from a package or source?
 * What version or commit are they using?
 * What platform are they on? Linux, FreeBSD, OSX?
 * What version of the platform? If Linux, what distribution?
