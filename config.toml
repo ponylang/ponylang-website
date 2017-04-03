@@ -88,3 +88,5 @@ canonifyurls = true
 [permalinks]
   blog = "/blog/:year/:month/:title/"
 
+[taxonomies]
+  category = "categories"
