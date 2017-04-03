@@ -392,23 +392,23 @@
       if(scrollspy) {
         
 
-        /* Add permanent link next to the headers */
-        var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
-
-        for(var i = 0; i < headers.length; i++) {
-            if (headers[i].id) {
-              var a = document.createElement("a");
-              a.setAttribute("class", "headerlink");
-              a.setAttribute("href", "#" + headers[i].id);
-              a.setAttribute("title", "Permanent link")
-              a.innerHTML = "#";
-              headers[i].appendChild(a);
-            }
-        }
-
         
           scrollspy.parentElement.removeChild(scrollspy)
         
+      }
+
+      /* Add permanent link next to the headers */
+      var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
+
+      for(var i = 0; i < headers.length; i++) {
+          if (headers[i].id) {
+            var a = document.createElement("a");
+            a.setAttribute("class", "headerlink");
+            a.setAttribute("href", "#" + headers[i].id);
+            a.setAttribute("title", "Permanent link")
+            a.innerHTML = "#";
+            headers[i].appendChild(a);
+          }
       }
     </script>
 
