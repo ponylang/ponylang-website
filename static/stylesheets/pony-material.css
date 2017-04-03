@@ -29,7 +29,7 @@ dl {
 
 dt {
   font-weight: bold;
-  font-size: 1.1em;
+  font-size: 16px;
 }
 
 dd {
@@ -43,6 +43,21 @@ dd {
   text-indent: -9999px;
   visibility: hidden;
   display: none;
+}
+
+.admonition.warning {
+  background: #d50000;
+}
+
+/* author related info */
+
+section.author .meta {
+  font-size: 12px;
+  line-height: 19px;
+  font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  color: #bbbbbb;
+  padding-top: 7px;
+  margin-left: 108px;
 }
 
 /* author related info */
