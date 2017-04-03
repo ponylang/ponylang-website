@@ -36,6 +36,9 @@
         } else {
           scrollspy.parentElement.removeChild(scrollspy)
         }
+      {{ else }}
+        scrollspy.parentElement.removeChild(scrollspy)
+      {{ end }}
 
         {{ "/* Add permanent link next to the headers */" | safeJS }}
         var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
@@ -49,9 +52,6 @@
             headers[i].appendChild(a);
         }
       }
-    {{ else }}
-      scrollspy.parentElement.removeChild(scrollspy)
-    {{ end }}
     </script>
 
     {{ with .Site.GoogleAnalytics }}
