@@ -427,12 +427,13 @@ cd</li>
     
 
     <script>
-    
       /* Add headers to scrollspy */
       var headers   = document.getElementsByTagName("h2");
       var scrollspy = document.getElementById('scrollspy');
 
+
       if(scrollspy) {
+        
         if(headers.length > 0) {
           for(var i = 0; i < headers.length; i++) {
             var li = document.createElement("li");
@@ -449,7 +450,7 @@ cd</li>
         } else {
           scrollspy.parentElement.removeChild(scrollspy)
         }
-      
+        
 
         /* Add permanent link next to the headers */
         var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
@@ -462,6 +463,8 @@ cd</li>
             a.innerHTML = "#";
             headers[i].appendChild(a);
         }
+
+        
       }
     </script>
 

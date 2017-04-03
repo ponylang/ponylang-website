@@ -384,9 +384,13 @@
     
 
     <script>
-    
-        scrollspy.parentElement.removeChild(scrollspy)
-      
+      /* Add headers to scrollspy */
+      var headers   = document.getElementsByTagName("h2");
+      var scrollspy = document.getElementById('scrollspy');
+
+
+      if(scrollspy) {
+        
 
         /* Add permanent link next to the headers */
         var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
@@ -399,6 +403,10 @@
             a.innerHTML = "#";
             headers[i].appendChild(a);
         }
+
+        
+          scrollspy.parentElement.removeChild(scrollspy)
+        
       }
     </script>
 
