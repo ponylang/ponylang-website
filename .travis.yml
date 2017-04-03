@@ -1,4 +1,3 @@
-language: go
 install: brew install hugo
 
 branches:
