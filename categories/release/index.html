@@ -330,8 +330,8 @@
 
       <br>
         
-        <p>If you aren&rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binaries with the Pony compiler.
-Prior to PR #1794, ponyc would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (44b2d56) broke support for Visual Build Tools C++ 2015.&hellip;</p>
+        <p><p>If you aren&rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binaries with the Pony compiler.
+</p>&hellip;</p>
         
 
       <hr>
@@ -343,9 +343,8 @@ Prior to PR #1794, ponyc would only look for a linker from the version of Visual
 
       <br>
         
-        <p> Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&rsquo;s only been a day since our last release, not a lot else in this one.
-Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew should be coming soon.
-[0.12.2] - 2017-03-30 Fixed  Fix extreme CPU use in scheduler on Windows (PR #1785) Fix broken ponytest &ldquo;only&rdquo; filter (PR #1780)  &hellip;</p>
+        <p><p>Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&rsquo;s only been a day since our last release, not a lot else in this one.
+</p>&hellip;</p>
         
 
       <hr>
@@ -357,8 +356,8 @@ Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew 
 
       <br>
         
-        <p> This is a recommended update 0.12.0 broke ponytest. No tests will run using 0.12.0, therefore upgrading to 0.12.1 immediately is advised.
-[0.12.1] - 2017-03-29 Fixed  Bug in ponytest resulted in all tests being skipped (PR #1778) cd  &hellip;</p>
+        <p><p>This is a recommended update 0.12.0 broke ponytest. No tests will run using 0.12.0, therefore upgrading to 0.12.1 immediately is advised.
+</p>&hellip;</p>
         
 
       <hr>
@@ -370,10 +369,8 @@ Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew 
 
       <br>
         
-        <p>Pony version 0.12.0 has been released. It&rsquo;s available via all the usual channels. This is a recommended update as PR #1768 fixed a memory related issue that could result in nastiness.
-The release also features a breaking change in the form of PR #1741 which implemented the &ldquo;Array as Sequences&rdquo; RFC. It changes the syntax for creating arrays from: ['a', 'b', 'c'] to: ['a'; 'b'; 'c'].
-Enjoy!
-[0.12.0] - 2017-03-29 Fixed  Don&rsquo;t ignore buffer length when printing (PR #1768) Ifdef out ANSITerm signal handler for SIGWINCH (PR #1763) Fix build error on 32 bits systems (PR #1762) Fix annotation-related compiler assertion failure (issue #1751) (PR #1757) Improve packaged Linux binary performance (PR #1755) Fix false positive test failure on 32 bits (PR #1749)  Added  Support XCode 8.&hellip;</p>
+        <p><p>Pony version 0.12.0 has been released. It&rsquo;s available via all the usual channels. This is a recommended update as <a href="https://github.com/ponylang/ponyc/pull/1768">PR #1768</a> fixed a memory related issue that could result in nastiness.
+</p>&hellip;</p>
         
 
       <hr>

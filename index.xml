@@ -16,9 +16,8 @@
       <pubDate>Sat, 01 Apr 2017 14:02:54 -0400</pubDate>
       
       <guid>http://www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
-      <description>
-
-&lt;p&gt;If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binaries with the Pony compiler.&lt;/p&gt;
+      <description>&lt;p&gt;If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binaries with the Pony compiler.
+&lt;/p&gt;
 
 &lt;p&gt;Prior to &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1794&#34;&gt;PR #1794&lt;/a&gt;, &lt;code&gt;ponyc&lt;/code&gt; would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (&lt;a href=&#34;https://github.com/ponylang/ponyc/commit/44b2d56c5618142fe0fd628eeadbd5975157d62f&#34;&gt;44b2d56&lt;/a&gt;) broke support for Visual Build Tools C++ 2015.&lt;/p&gt;
 
@@ -28,8 +27,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Improve Visual Studio and Microsoft C++ Build Tools detection. (PR #1794)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -38,9 +36,8 @@
       <pubDate>Thu, 30 Mar 2017 20:07:23 -0400</pubDate>
       
       <guid>http://www.ponylang.org/blog/2017/03/0.12.2-released/</guid>
-      <description>
-
-&lt;p&gt;Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&amp;rsquo;s only been a day since our last release, not a lot else in this one.&lt;/p&gt;
+      <description>&lt;p&gt;Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&amp;rsquo;s only been a day since our last release, not a lot else in this one.
+&lt;/p&gt;
 
 &lt;p&gt;Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew should be coming soon.&lt;/p&gt;
 
@@ -51,8 +48,7 @@
 &lt;ul&gt;
 &lt;li&gt;Fix extreme CPU use in scheduler on Windows (PR #1785)&lt;/li&gt;
 &lt;li&gt;Fix broken ponytest &amp;ldquo;only&amp;rdquo; filter (PR #1780)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -61,9 +57,8 @@
       <pubDate>Wed, 29 Mar 2017 23:27:25 -0400</pubDate>
       
       <guid>http://www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
-      <description>
-
-&lt;p&gt;This is a recommended update 0.12.0 broke ponytest. No tests will run using 0.12.0, therefore upgrading to 0.12.1 immediately is advised.&lt;/p&gt;
+      <description>&lt;p&gt;This is a recommended update 0.12.0 broke ponytest. No tests will run using 0.12.0, therefore upgrading to 0.12.1 immediately is advised.
+&lt;/p&gt;
 
 &lt;h2 id=&#34;0-12-1-2017-03-29&#34;&gt;[0.12.1] - 2017-03-29&lt;/h2&gt;
 
@@ -72,8 +67,7 @@
 &lt;ul&gt;
 &lt;li&gt;Bug in ponytest resulted in all tests being skipped (PR #1778)
 cd&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -82,9 +76,8 @@ cd&lt;/li&gt;
       <pubDate>Wed, 29 Mar 2017 20:03:10 -0400</pubDate>
       
       <guid>http://www.ponylang.org/blog/2017/03/0.12.0-released/</guid>
-      <description>
-
-&lt;p&gt;Pony version 0.12.0 has been released. It&amp;rsquo;s available via all the usual channels. This is a recommended update as &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1768&#34;&gt;PR #1768&lt;/a&gt; fixed a memory related issue that could result in nastiness.&lt;/p&gt;
+      <description>&lt;p&gt;Pony version 0.12.0 has been released. It&amp;rsquo;s available via all the usual channels. This is a recommended update as &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1768&#34;&gt;PR #1768&lt;/a&gt; fixed a memory related issue that could result in nastiness.
+&lt;/p&gt;
 
 &lt;p&gt;The release also features a breaking change in the form of &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1741&#34;&gt;PR #1741&lt;/a&gt; which implemented the &amp;ldquo;Array as Sequences&amp;rdquo; RFC. It changes the syntax for creating arrays from: &lt;code&gt;[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]&lt;/code&gt; to: &lt;code&gt;[&#39;a&#39;; &#39;b&#39;; &#39;c&#39;]&lt;/code&gt;.&lt;/p&gt;
 
@@ -113,8 +106,7 @@ cd&lt;/li&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Arrays as sequences (&lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1741&#34;&gt;PR #1741&lt;/a&gt;)&lt;/li&gt;
-&lt;/ul&gt;
-</description>
+&lt;/ul&gt;</description>
     </item>
     
     <item>
@@ -123,10 +115,9 @@ cd&lt;/li&gt;
       <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
       
       <guid>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</guid>
-      <description>
-
-&lt;p&gt;This Week In Pony is a weekly blog post to catch you up on the latest news for
-the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.&lt;/p&gt;
+      <description>&lt;p&gt;This Week In Pony is a weekly blog post to catch you up on the latest news for
+the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.
+&lt;/p&gt;
 
 &lt;h2 id=&#34;items-of-note&#34;&gt;Items of note&lt;/h2&gt;
 
@@ -170,8 +161,7 @@ the Pony programming language. To learn more about Pony check out &lt;a href=&#3
 
 &lt;h3 id=&#34;new-rfcs&#34;&gt;New RFCs&lt;/h3&gt;
 
-&lt;p&gt;There have been no new RFCs this week.&lt;/p&gt;
-</description>
+&lt;p&gt;There have been no new RFCs this week.&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -180,9 +170,8 @@ the Pony programming language. To learn more about Pony check out &lt;a href=&#3
       <pubDate>Sat, 12 Mar 2016 12:48:57 -0400</pubDate>
       
       <guid>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</guid>
-      <description>
-
-&lt;p&gt;Hi there and welcome to the summary of the Pony 2016 &amp;ldquo;State of the Stable&amp;rdquo; community survey. It was the first of what will hopefully become an annual tradition. We&amp;rsquo;d like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing. Open source software is often a thankless task and your words of encouragement mean a lot.&lt;/p&gt;
+      <description>&lt;p&gt;Hi there and welcome to the summary of the Pony 2016 &amp;ldquo;State of the Stable&amp;rdquo; community survey. It was the first of what will hopefully become an annual tradition. We&amp;rsquo;d like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing. Open source software is often a thankless task and your words of encouragement mean a lot.
+&lt;/p&gt;
 
 &lt;p&gt;We asked far more questions this year than we plan to ask in the future. In large part, because there were several basic questions that wanted to get answered. If you visit the &lt;a href=&#34;https://seantallen.wufoo.com/reports/state-of-the-stable/&#34;&gt;Wufoo report&lt;/a&gt;, you can see the answers to all the multiple choice questions as well as download the complete data set.&lt;/p&gt;
 
@@ -213,8 +202,7 @@ the Pony programming language. To learn more about Pony check out &lt;a href=&#3
 &lt;p&gt;We&amp;rsquo;d love your help. If you are interested in assisting, please join the &lt;a href=&#34;https://groups.io/g/pony+dev&#34;&gt;Pony+Dev mailing list&lt;/a&gt; and &lt;a href=&#34;http://www.ponylang.org/contribute/&#34;&gt;check out some of the ways that anyone can contribute&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;See y&amp;rsquo;all next year,
-The Pony core team&lt;/p&gt;
-</description>
+The Pony core team&lt;/p&gt;</description>
     </item>
     
     <item>
