@@ -102,7 +102,7 @@
 
 &lt;ul&gt;
 &lt;li&gt;Source code that demonstrates the problem&lt;/li&gt;
-&lt;li&gt;Did they installed from a package or source?&lt;/li&gt;
+&lt;li&gt;Did they install from a package or source?&lt;/li&gt;
 &lt;li&gt;What version or commit are they using?&lt;/li&gt;
 &lt;li&gt;What platform are they on? Linux, FreeBSD, OSX?&lt;/li&gt;
 &lt;li&gt;What version of the platform? If Linux, what distribution?&lt;/li&gt;
