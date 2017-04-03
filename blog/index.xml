@@ -65,8 +65,7 @@
 &lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
 
 &lt;ul&gt;
-&lt;li&gt;Bug in ponytest resulted in all tests being skipped (PR #1778)
-cd&lt;/li&gt;
+&lt;li&gt;Bug in ponytest resulted in all tests being skipped (PR #1778)&lt;/li&gt;
 &lt;/ul&gt;</description>
     </item>
     
