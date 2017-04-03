@@ -34,11 +34,11 @@
 
       <br>
         {{ if not .Description}}
-        <p>{{ .Summary }}&hellip;</p>
+        <p>{{ .Summary }}</p>
         {{ else }}
-        <p>{{ .Description | markdownify }}&hellip;</p>
+        <p>{{ .Description | markdownify }}</p>
         {{ end }}
-
+        <p class="readmore"><a href="{{ .Permalink }}">{{ .Site.Params.keepReadingStr }}Read more...</a></p>
       <hr>
       {{ end }}
 

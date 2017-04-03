@@ -6,5 +6,6 @@ categories = [
 ]
 +++
 ... overview ...
+<!--more-->
 
 ... changelog entry ...
