@@ -5,8 +5,6 @@ date = "2016-03-12T12:48:57-04:00"
 draft = false
 tags = []
 title = "State of the Stable 2016"
-type = "blog"
-
 +++
 Hi there and welcome to the summary of the Pony 2016 "State of the Stable" community survey. It was the first of what will hopefully become an annual tradition. We'd like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing. Open source software is often a thankless task and your words of encouragement mean a lot.
 <!--more-->
