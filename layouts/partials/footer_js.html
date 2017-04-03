@@ -14,12 +14,13 @@
     {{ end }}
 
     <script>
-    {{ if ne .Params.submenu "false" }}
       {{ "/* Add headers to scrollspy */" | safeJS }}
       var headers   = document.getElementsByTagName("h2");
       var scrollspy = document.getElementById('scrollspy');
 
+
       if(scrollspy) {
+        {{ if ne .Params.submenu "false" }}
         if(headers.length > 0) {
           for(var i = 0; i < headers.length; i++) {
             var li = document.createElement("li");
@@ -36,9 +37,7 @@
         } else {
           scrollspy.parentElement.removeChild(scrollspy)
         }
-      {{ else }}
-        scrollspy.parentElement.removeChild(scrollspy)
-      {{ end }}
+        {{ end }}
 
         {{ "/* Add permanent link next to the headers */" | safeJS }}
         var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6");
@@ -51,6 +50,10 @@
             a.innerHTML = {{ or .Site.Params.permalink "¶" }};
             headers[i].appendChild(a);
         }
+
+        {{ if eq .Params.submenu "false" }}
+          scrollspy.parentElement.removeChild(scrollspy)
+        {{ end }}
       }
     </script>
 
