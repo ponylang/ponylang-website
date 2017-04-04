@@ -21,8 +21,6 @@
 
 &lt;p&gt;Prior to &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1794&#34;&gt;PR #1794&lt;/a&gt;, &lt;code&gt;ponyc&lt;/code&gt; would only look for a linker from the version of Visual Studio with which it was compiled, and only looked at one registry key for install information. A recent change (&lt;a href=&#34;https://github.com/ponylang/ponyc/commit/44b2d56c5618142fe0fd628eeadbd5975157d62f&#34;&gt;44b2d56&lt;/a&gt;) broke support for Visual Build Tools C++ 2015.&lt;/p&gt;
 
-&lt;h2 id=&#34;0-12-3-2017-04-01&#34;&gt;[0.12.3] - 2017-04-01&lt;/h2&gt;
-
 &lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -41,8 +39,6 @@
 
 &lt;p&gt;Windows, Debian and RedHat packages are available via Bintray. OSX via Homebrew should be coming soon.&lt;/p&gt;
 
-&lt;h2 id=&#34;0-12-2-2017-03-30&#34;&gt;[0.12.2] - 2017-03-30&lt;/h2&gt;
-
 &lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
 
 &lt;ul&gt;
@@ -59,8 +55,6 @@
       <guid>http://www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
       <description>&lt;p&gt;This is a recommended update; 0.12.0 broke ponytest. No tests will run using 0.12.0. Upgrading to 0.12.1 immediately is advised.
 &lt;/p&gt;
-
-&lt;h2 id=&#34;0-12-1-2017-03-29&#34;&gt;[0.12.1] - 2017-03-29&lt;/h2&gt;
 
 &lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
 
@@ -81,8 +75,6 @@
 &lt;p&gt;The release also features a breaking change in the form of &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1741&#34;&gt;PR #1741&lt;/a&gt; which implemented the &amp;ldquo;Array as Sequences&amp;rdquo; RFC. It changes the syntax for creating arrays from: &lt;code&gt;[&#39;a&#39;, &#39;b&#39;, &#39;c&#39;]&lt;/code&gt; to: &lt;code&gt;[&#39;a&#39;; &#39;b&#39;; &#39;c&#39;]&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Enjoy!&lt;/p&gt;
-
-&lt;h2 id=&#34;0-12-0-2017-03-29&#34;&gt;[0.12.0] - 2017-03-29&lt;/h2&gt;
 
 &lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
 
