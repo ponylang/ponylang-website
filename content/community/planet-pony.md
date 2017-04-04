@@ -1,7 +1,7 @@
 +++
 title = "Planet Pony"
 +++
-We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw) 
+We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
 ## 2017
 
@@ -33,7 +33,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [the morning paper: Ownership and Reference Counting Based Garbage Collection in the Actor World](http://blog.acolyer.org/2016/02/18/ownership-and-reference-counting-based-garbage-collection-in-the-actor-world/)
 * [the morning paper: Deny Capabilities for Safe, Fast Actors](http://blog.acolyer.org/2016/02/17/deny-capabilities/)
 
-## 2015 
+## 2015
 
 * [Pony designer Sylvan Clebsch on the Actor-Model Language Pony, Garbage Collection, Capabilities, Concurrency](http://www.infoq.com/interviews/clebsch-pony)
 * [Inside the Pony TCP Stack](http://www.monkeysnatchbanana.com/2015/12/19/inside-the-pony-tcp-stack/)

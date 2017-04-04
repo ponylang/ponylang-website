@@ -15,6 +15,12 @@
   font-size: 18px;
 }
 
+section.blog-meta  h4 {
+  font-size: 16px;
+  font-style: normal;
+  color: #757575;
+}
+
 dl {
   margin-top: 32px;
 }
