@@ -26,20 +26,20 @@
     <div class="wrapper">
       <h1>{{ .Title }}</h1>
       {{ if .Params.subtitle }}<p class="subtitle">{{ .Params.subtitle }}</p>{{ end }}
-        {{ if .Params.categories }}
-      <section class="blog-meta">
-        <h4>
-          <strong>{{ .Date.Format "Monday, January 02, 2006" }}</strong> |
-        Posted in
-        {{ $ncats := sub (len .Params.categories) 1}}
-        {{ range $index, $tag := .Params.categories }}
-        {{ $url := printf "categories/%s" ( . | urlize) }}
-        <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
-        {{ end }}
-        {{ end }}
-        </h4>
-      </section>
 
+      <section class="blog-meta">
+      <h4>
+        <strong>{{ .Date.Format "Monday, January 02, 2006" }}</strong>
+        {{ if .Params.categories }}
+          | Posted in
+          {{ $ncats := sub (len .Params.categories) 1}}
+          {{ range $index, $tag := .Params.categories }}
+            {{ $url := printf "categories/%s" ( . | urlize) }}
+            <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
+          {{ end }}
+        {{ end }}
+      </h4>
+      </section>
 
   {{ .Content }}
 
