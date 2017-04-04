@@ -1,5 +1,5 @@
 +++
-author = "Colin O'Brien"
+author = "colinobrien"
 categories = ["This Week in Pony"]
 date = "2017-03-28T12:48:57-04:00"
 draft = false

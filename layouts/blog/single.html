@@ -35,12 +35,15 @@
             <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
           {{ end }}<br/>
         {{ end }}
-        {{ if .Params.author }}by {{ .Params.author }}<br/>{{ end }}
         {{ dateFormat "Monday, Jan 2, 2006" .Date }}
       </p>
   </header>
 
   {{ .Content }}
+
+  <hr>
+
+  {{ partial "author" . }}
 
       <aside class="copyright" role="note">
         {{ with .Site.Params.copyright }}

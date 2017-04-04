@@ -1,0 +1,8 @@
+<section class="author">
+    {{ $author_file :=  printf "/data/author/%s.json" .Params.author }}
+    {{ $author_json := getJSON $author_file }}
+    <div class="authorimage" style="background: url(/avatars/{{ $author_json.avatar }})"></div>
+    <p class="attr">AUTHOR</p>
+    <p class="name">{{ $author_json.name }}</p>
+    <p class="bio">{{  $author_json.bio | markdownify }}</p>
+</section>
