@@ -1,3 +1,4 @@
+@import url('//fonts.googleapis.com/css?subset=latin,cyrillic-ext,latin-ext,cyrillic&family=Open+Sans+Condensed:300|Open+Sans:400,600,400italic,600italic|Merriweather:400,300,300italic,400italic,700,700italic|Roboto+Slab:400,300');
 .article {
   font-size: 16px;
 }
@@ -28,4 +29,80 @@ dd {
   margin-left: 14px;
   margin-right: 28px;
   margin-bottom: 14px;
+}
+
+/* author related info */
+
+section.author .meta {
+  font-size: 12px;
+  line-height: 19px;
+  font-family: "Roboto Slab", "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  color: #bbbbbb;
+  padding-top: 7px;
+  margin-left: 108px;
+}
+
+section.author .meta a {
+  font-size: 12px;
+  color: #bbbbbb;
+}
+
+section.author {
+  width: 100%;
+  text-align: left;
+  text-transform: none;
+  margin-top: 24px;
+}
+
+section.author .name {
+  margin: 0;
+  padding-top: 4px;
+  padding-left: 99px;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: "Merriweather", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+}
+
+section.author p {
+  padding: 0;
+  margin: 0;
+}
+
+section.author h4 {
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  margin-bottom: 4px;
+}
+
+section.author p.attr {
+  font-size: 16px;
+  line-height: 20px;
+  text-transform: uppercase;
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+}
+
+
+section.author p.attr {
+  margin-bottom: 2px;
+}
+
+section.author p.bio {
+  font-size: 14px;
+  margin-left: 99px;
+  line-height: 1.2em;
+}
+
+div.authorimage {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  -webkit-background-size: cover !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  margin-right: 17px;
+  float: left;
+}
+
+section.author {
+  overflow: hidden;
 }
