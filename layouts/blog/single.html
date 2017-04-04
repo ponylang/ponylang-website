@@ -27,6 +27,14 @@
       <h1>{{ .Title }}</h1>
       {{ if .Params.subtitle }}<p class="subtitle">{{ .Params.subtitle }}</p>{{ end }}
       <p>
+        {{ if .Params.categories }}
+          Posted in
+          {{ $ncats := sub (len .Params.categories) 1}}
+          {{ range $index, $tag := .Params.categories }}
+            {{ $url := printf "categories/%s" ( . | urlize) }}
+            <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
+          {{ end }}<br/>
+        {{ end }}
         {{ if .Params.author }}by {{ .Params.author }}<br/>{{ end }}
         {{ dateFormat "Monday, Jan 2, 2006" .Date }}
       </p>
