@@ -30,7 +30,7 @@
       <a href="{{ .Permalink }}" title="{{ .Title }}">
         <h2>{{ .Title }}</h2>
       </a>
-      <div class="meta">{{ dateFormat "Monday, Jan 2, 2006" .Date }}</div>
+      <div class="meta">{{ .Date.Format "Monday, January 02, 2006" }}</div>
 
       <br>
         {{ if not .Description}}
