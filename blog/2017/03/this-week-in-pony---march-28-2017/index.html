@@ -87,7 +87,7 @@
 <input class="toggle" type="checkbox" id="toggle-search">
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
-<header class="header">
+<header class="header" id="blog-head">
   <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
@@ -389,8 +389,22 @@ the Pony programming language. To learn more about Pony check out <a href="ponyl
 <h3 id="new-rfcs">New RFCs</h3>
 
 <p>There have been no new RFCs this week.</p>
-
-  <hr>
+  <section class="share">
+    <p class="backtotop"><a data-scroll href="#blog-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#blog-head">back to top</a></p>
+    <p class="info prompt">share</p>
+    <a href="http://twitter.com/share?text=This%20Week%20in%20Pony%20-%20March%2028%2c%202017&url=http%3a%2f%2fwww.ponylang.org%2fblog%2f2017%2f03%2fthis-week-in-pony---march-28-2017%2f" title="Share on Twitter"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden">Twitter</span>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.ponylang.org%2fblog%2f2017%2f03%2fthis-week-in-pony---march-28-2017%2f" title="Share on Facebook"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden">Facebook</span>
+    </a>
+    <a href="https://plus.google.com/share?url=http%3a%2f%2fwww.ponylang.org%2fblog%2f2017%2f03%2fthis-week-in-pony---march-28-2017%2f" title="Share on Google+"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden">Google+</span>
+    </a>
+</section>
 
   <section class="author">
     
@@ -529,8 +543,18 @@ the Pony programming language. To learn more about Pony check out <a href="ponyl
 
     
 
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="http://www.ponylang.org/javascripts/smooth-scroll.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/languages/pony.min.js"></script>
+    <script>
+      smoothScroll.init({
+        speed: 800,
+        easing: 'easeInOutCubic',
+        updateURL: false,
+        offset: 125,
+      });
+    </script>
     <script>hljs.initHighlightingOnLoad();</script>
   </body>
 </html>
