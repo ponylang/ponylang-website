@@ -5,8 +5,9 @@ description = "This Week in Pony - MONTH DAY, YEAR"
 categories = [
     "This Week in Pony",
 ]
+slug = "last-week-in-pony"
 +++
-This Week In Pony is a weekly blog post to catch you up on the latest news for
+Last Week In Pony is a weekly blog post to catch you up on the latest news for
 the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang).
 <!--more-->
 
