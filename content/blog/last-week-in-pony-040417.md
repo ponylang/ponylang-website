@@ -46,6 +46,7 @@ There were several "point" releases last week. For a list of full releases see t
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### Approved RFCs
+
 - [Add a TCPConnectNotify.received times parameter](https://github.com/ponylang/rfcs/pull/85)
 - [Add RFC for exhaustive match.](https://github.com/ponylang/rfcs/pull/86)
 - [Explicit Partial Call](https://github.com/ponylang/rfcs/pull/82)
