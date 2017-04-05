@@ -86,7 +86,7 @@ canonifyurls = true
 	plainIDAnchors = true
 
 [permalinks]
-  blog = "/blog/:year/:month/:title/"
+  blog = "/blog/:year/:month/:slug/"
 
 [taxonomies]
   category = "categories"
