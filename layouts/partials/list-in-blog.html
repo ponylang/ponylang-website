@@ -44,13 +44,12 @@
       </h4>
       </section>
 
-      <br>
-        {{ if not .Description}}
-        <p>{{ .Summary }}</p>
-        {{ else }}
-        <p>{{ .Description | markdownify }}</p>
-        {{ end }}
-        <p class="readmore"><a href="{{ .Permalink }}">Read more...</a></p>
+      {{ if not .Description}}
+      <p>{{ .Summary }}</p>
+      {{ else }}
+      <p>{{ .Description | markdownify }}</p>
+      {{ end }}
+      <p class="readmore"><a href="{{ .Permalink }}">Read more...</a></p>
       <hr>
       {{ end }}
 
