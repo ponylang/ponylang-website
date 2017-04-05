@@ -10,6 +10,63 @@
     <atom:link href="http://www.ponylang.org/categories/this-week-in-pony/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>This Week in Pony - April 3, 2017</title>
+      <link>http://www.ponylang.org/blog/2017/04/this-week-in-pony---april-3-2017/</link>
+      <pubDate>Wed, 05 Apr 2017 10:43:57 -0400</pubDate>
+      
+      <guid>http://www.ponylang.org/blog/2017/04/this-week-in-pony---april-3-2017/</guid>
+      <description>&lt;p&gt;This Week In Pony is a weekly blog post to catch you up on the latest news for
+the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.
+&lt;/p&gt;
+
+&lt;h2 id=&#34;items-of-note&#34;&gt;Items of note&lt;/h2&gt;
+
+&lt;h3 id=&#34;version-0-12-3-released&#34;&gt;Version 0.12.3 Released!&lt;/h3&gt;
+
+&lt;p&gt;Version 0.12.3 has been released, &lt;a href=&#34;https://pony.groups.io/g/user/topic/0_12_3_has_been_released/4737546?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,4737546&#34;&gt;here&lt;/a&gt;
+  Update recommended for Windows users.&lt;/p&gt;
+
+&lt;p&gt;For a list of full releases see the &lt;a href=&#34;http://www.ponylang.org/categories/release/&#34;&gt;releases page&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;news-and-blog-posts&#34;&gt;News and Blog Posts&lt;/h2&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://docs.google.com/forms/d/e/1FAIpQLScBNr5dPPCVYchRukAm-sFR3wipndVJiua3xHr8CslohVFRlg/viewform?c=0&amp;amp;w=1&amp;amp;usp=send_form&#34;&gt;Pony Community Survey&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://www.ponylang.org/&#34;&gt;New Website Layout&lt;/a&gt; Ponylang.org got an update, as well as an official place for the &lt;a href=&#34;http://www.ponylang.org/blog/&#34;&gt;Pony blog&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;http://pony-playpen.lietar.net/&#34;&gt;Pony Play Pen!&lt;/a&gt; Pony now has a live, browser-accessible sandbox.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://pony.groups.io/g/dev/files/Pony%20Sync/March%2029,%202017&#34;&gt;Developer Sync Meeting&lt;/a&gt; This weeks developer sync meeting.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;&lt;a href=&#34;https://github.com/jtfmumm/acolyte&#34;&gt;Acolyte&lt;/a&gt; A procedurally generated RPG inspired by Rogue and written in Pony.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&#34;rfcs&#34;&gt;RFCs&lt;/h2&gt;
+
+&lt;p&gt;Interested in making a change, or keeping up with changes to Pony? Check out the &lt;a href=&#34;https://github.com/ponylang/rfcs&#34;&gt;RFC repo&lt;/a&gt;. Contributors welcome!&lt;/p&gt;
+
+&lt;h3 id=&#34;approved-rfcs&#34;&gt;Approved RFCs&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/85&#34;&gt;Add a TCPConnectNotify.received times parameter&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/86&#34;&gt;Add RFC for exhaustive match.&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/82&#34;&gt;Explicit Partial Call&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/86&#34;&gt;Exhaustive Pattern Matching&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&#34;ready-for-vote&#34;&gt;Ready For Vote&lt;/h3&gt;
+
+&lt;h3 id=&#34;final-comment-period&#34;&gt;Final Comment Period&lt;/h3&gt;
+
+&lt;h3 id=&#34;new-rfcs&#34;&gt;New RFCs&lt;/h3&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/issues/89&#34;&gt;Pipeline or Extension Methods?&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
+    
+    <item>
       <title>This Week in Pony - March 28, 2017</title>
       <link>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</link>
       <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
