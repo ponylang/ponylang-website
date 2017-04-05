@@ -13,11 +13,21 @@ the Pony programming language. To learn more about Pony check out [our website](
 
 ## Items of note
 
-### Version 0.12.3 Released!
-  Version 0.12.3 has been released, [here](https://pony.groups.io/g/user/topic/0_12_3_has_been_released/4737546?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,4737546)
-  Update recommended for Windows users.
+### Releases galore!
 
-  For a list of full releases see the [releases page](http://www.ponylang.org/categories/release/).
+There were several "point" releases last week. For a list of full releases see the [releases page](http://www.ponylang.org/categories/release/). If you are running on Windows, it is recommended that you update to [0.12.3](http://www.ponylang.org/blog/2017/04/0.12.3-released/) as soon as possible. For those on developing on other platforms, upgrading to at least [0.12.1](http://www.ponylang.org/blog/2017/04/0.12.1-released/) as soon as possible is recommended.
+
+[Version 0.12.3](http://www.ponylang.org/blog/2017/04/0.12.3-released/)
+: Update recommended for Windows users.
+  
+[Version 0.12.2](http://www.ponylang.org/blog/2017/04/0.12.2-released/)
+: Update recommended for Windows users.
+
+[Version 0.12.1](http://www.ponylang.org/blog/2017/04/0.12.1-released/)
+: Update recommended all users.
+
+[Version 0.12.0](http://www.ponylang.org/blog/2017/04/0.12.0-released/)
+: Update recommended for all users.
 
 ## News and Blog Posts
 
