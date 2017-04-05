@@ -1,13 +1,14 @@
 +++
 author = "colinobrien"
-categories = ["This Week in Pony"]
+categories = ["Last Week in Pony"]
 date = "2017-04-05T10:43:57-04:00"
 draft = false
 tags = []
-title = "This Week in Pony - April 3, 2017"
+title = "Last Week in Pony - April 3, 2017"
+slug = "last-week-in-pony"
 +++
-This Week In Pony is a weekly blog post to catch you up on the latest news for
-the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang).
+Last Week In Pony is a weekly blog post to catch you up on the latest news for
+the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang).
 <!--more-->
 
 ## Items of note
@@ -17,7 +18,6 @@ the Pony programming language. To learn more about Pony check out [our website](
   Update recommended for Windows users.
 
   For a list of full releases see the [releases page](http://www.ponylang.org/categories/release/).
-
 
 ## News and Blog Posts
 
@@ -40,10 +40,6 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 - [Add RFC for exhaustive match.](https://github.com/ponylang/rfcs/pull/86)
 - [Explicit Partial Call](https://github.com/ponylang/rfcs/pull/82)
 - [Exhaustive Pattern Matching](https://github.com/ponylang/rfcs/pull/86)
-
-### Ready For Vote
-  
-### Final Comment Period
 
 ### New RFCs
   

@@ -1,13 +1,14 @@
 +++
 author = "colinobrien"
-categories = ["This Week in Pony"]
+categories = ["Last Week in Pony"]
 date = "2017-03-28T12:48:57-04:00"
 draft = false
 tags = []
-title = "This Week in Pony - March 28, 2017"
+title = "Last Week in Pony - March 28, 2017"
+slug = "last-week-in-pony"
 +++
-This Week In Pony is a weekly blog post to catch you up on the latest news for
-the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang).
+Last Week In Pony is a weekly blog post to catch you up on the latest news for
+the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang).
 <!--more-->
 
 ## Items of note
