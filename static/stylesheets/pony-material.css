@@ -169,3 +169,26 @@ p.backtotop {
   text-align: left;
   float: left;
 }
+
+/* tags */
+
+.post-meta {
+  color: #95a5a6;
+  font-family: "Open Sans Condensed", "Open Sans", "Helvetica Neue", Helvetica, Arial, "Nimbus L", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 0.3em;
+  text-transform: uppercase;
+}
+
+.post-meta a {
+  border-bottom: 0px;
+}
+
+.tags {
+  font-size: 16px;
+  margin-bottom: 0.5em;
+  text-align: right;
+  padding-right: 6px;
+}
+

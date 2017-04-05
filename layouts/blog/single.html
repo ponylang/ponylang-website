@@ -42,6 +42,20 @@
       </section>
 
   {{ .Content }}
+
+      {{ if .Params.tags }}
+      <section class="post-tags">
+        <div class="post-meta tags">
+          <i class="fa fa-fw fa-tag"></i>
+          {{ $ntags := sub (len .Params.tags) 1}}
+          {{ range $index, $tag := .Params.tags }}
+            {{ $url := printf "tags/%s" ( . | urlize) }}
+            <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ntags }}, {{ end }}
+          {{ end }}
+        </div>
+      </section>
+      {{ end }}
+
   {{ partial "share" . }}
   {{ partial "author" . }}
 
