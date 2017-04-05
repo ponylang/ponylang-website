@@ -28,30 +28,8 @@
 
       {{ .Content }}
 
-      <aside class="copyright" role="note">
-        {{ with .Site.Params.copyright }}
-        &copy; {{ $.Now.Format "2006" }} {{ . }} &ndash;
-        {{ end }}
-        Documentation built with
-        <a href="https://www.gohugo.io" target="_blank">Hugo</a>
-        using the
-        <a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
-      </aside>
-
-      <footer class="footer">
-        {{ partial "footer" . }}
-      </footer>
+      {{ partial "article-footer" . }}
     </div>
   </article>
 
-  <div class="results" role="status" aria-live="polite">
-    <div class="scrollable">
-      <div class="wrapper">
-        <div class="meta"></div>
-        <div class="list"></div>
-      </div>
-    </div>
-  </div>
-</main>
-
-{{ partial "footer_js" . }}
+  {{ partial "page-footer" . }}

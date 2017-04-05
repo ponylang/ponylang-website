@@ -1,3 +1,14 @@
+<aside class="copyright" role="note">
+  {{ with .Site.Params.copyright }}
+  &copy; {{ $.Now.Format "2006" }} {{ . }} &ndash;
+  {{ end }}
+  Documentation built with
+  <a href="https://www.gohugo.io" target="_blank">Hugo</a>
+  using the
+  <a href="http://github.com/digitalcraftsman/hugo-material-docs" target="_blank">Material</a> theme.
+</aside>
+
+<footer class="footer">
 {{ if eq .Section "blog" }}
 {{ if .Prev | or .Next }}
 <nav class="pagination" aria-label="Footer">
@@ -43,3 +54,4 @@
 </nav>
 {{ end }}
 {{ end }}
+</footer>
