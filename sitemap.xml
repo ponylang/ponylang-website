@@ -2,7 +2,7 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.ponylang.org/blog/2017/04/this-week-in-pony---april-3-2017/</loc>
+    <loc>http://www.ponylang.org/blog/2017/04/last-week-in-pony---april-3-2017/</loc>
     <lastmod>2017-04-05T10:43:57-04:00</lastmod>
   </url>
   
@@ -27,7 +27,7 @@
   </url>
   
   <url>
-    <loc>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</loc>
+    <loc>http://www.ponylang.org/blog/2017/03/last-week-in-pony---march-28-2017/</loc>
     <lastmod>2017-03-28T12:48:57-04:00</lastmod>
   </url>
   
@@ -87,6 +87,12 @@
   </url>
   
   <url>
+    <loc>http://www.ponylang.org/categories/last-week-in-pony/</loc>
+    <lastmod>2017-04-05T10:43:57-04:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>http://www.ponylang.org/learn/</loc>
   </url>
   
@@ -136,12 +142,6 @@
   
   <url>
     <loc>http://www.ponylang.org/community/talks/</loc>
-  </url>
-  
-  <url>
-    <loc>http://www.ponylang.org/categories/this-week-in-pony/</loc>
-    <lastmod>2017-04-05T10:43:57-04:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>

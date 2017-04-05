@@ -11,23 +11,32 @@
     <atom:link href="http://www.ponylang.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>This Week in Pony - April 3, 2017</title>
-      <link>http://www.ponylang.org/blog/2017/04/this-week-in-pony---april-3-2017/</link>
+      <title>Last Week in Pony - April 3, 2017</title>
+      <link>http://www.ponylang.org/blog/2017/04/last-week-in-pony---april-3-2017/</link>
       <pubDate>Wed, 05 Apr 2017 10:43:57 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/04/this-week-in-pony---april-3-2017/</guid>
-      <description>&lt;p&gt;This Week In Pony is a weekly blog post to catch you up on the latest news for
-the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.
+      <guid>http://www.ponylang.org/blog/2017/04/last-week-in-pony---april-3-2017/</guid>
+      <description>&lt;p&gt;Last Week In Pony is a weekly blog post to catch you up on the latest news for
+the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, our &lt;a href=&#34;https://pony.groups.io/g/user&#34;&gt;users&amp;rsquo; mailing list&lt;/a&gt; or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;h2 id=&#34;items-of-note&#34;&gt;Items of note&lt;/h2&gt;
 
-&lt;h3 id=&#34;version-0-12-3-released&#34;&gt;Version 0.12.3 Released!&lt;/h3&gt;
+&lt;h3 id=&#34;releases-galore&#34;&gt;Releases galore!&lt;/h3&gt;
 
-&lt;p&gt;Version 0.12.3 has been released, &lt;a href=&#34;https://pony.groups.io/g/user/topic/0_12_3_has_been_released/4737546?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,4737546&#34;&gt;here&lt;/a&gt;
-  Update recommended for Windows users.&lt;/p&gt;
+&lt;p&gt;There were several &amp;ldquo;point&amp;rdquo; releases last week. For a list of full releases see the &lt;a href=&#34;http://www.ponylang.org/categories/release/&#34;&gt;releases page&lt;/a&gt;. If you are running on Windows, it is recommended that you update to &lt;a href=&#34;http://www.ponylang.org/blog/2017/04/0.12.3-released/&#34;&gt;0.12.3&lt;/a&gt; as soon as possible. For those on developing on other platforms, upgrading to at least &lt;a href=&#34;http://www.ponylang.org/blog/2017/04/0.12.1-released/&#34;&gt;0.12.1&lt;/a&gt; as soon as possible is recommended.&lt;/p&gt;
 
-&lt;p&gt;For a list of full releases see the &lt;a href=&#34;http://www.ponylang.org/categories/release/&#34;&gt;releases page&lt;/a&gt;.&lt;/p&gt;
+&lt;dl&gt;
+&lt;dt&gt;&lt;a href=&#34;http://www.ponylang.org/blog/2017/04/0.12.3-released/&#34;&gt;Version 0.12.3&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;Update recommended for Windows users.
+&lt;br /&gt;&lt;/dd&gt;
+&lt;dt&gt;&lt;a href=&#34;http://www.ponylang.org/blog/2017/04/0.12.2-released/&#34;&gt;Version 0.12.2&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;Update recommended for Windows users.&lt;/dd&gt;
+&lt;dt&gt;&lt;a href=&#34;http://www.ponylang.org/blog/2017/04/0.12.1-released/&#34;&gt;Version 0.12.1&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;Update recommended all users.&lt;/dd&gt;
+&lt;dt&gt;&lt;a href=&#34;http://www.ponylang.org/blog/2017/04/0.12.0-released/&#34;&gt;Version 0.12.0&lt;/a&gt;&lt;/dt&gt;
+&lt;dd&gt;Update recommended for all users.&lt;/dd&gt;
+&lt;/dl&gt;
 
 &lt;h2 id=&#34;news-and-blog-posts&#34;&gt;News and Blog Posts&lt;/h2&gt;
 
@@ -55,10 +64,6 @@ the Pony programming language. To learn more about Pony check out &lt;a href=&#3
 &lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/82&#34;&gt;Explicit Partial Call&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/rfcs/pull/86&#34;&gt;Exhaustive Pattern Matching&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-
-&lt;h3 id=&#34;ready-for-vote&#34;&gt;Ready For Vote&lt;/h3&gt;
-
-&lt;h3 id=&#34;final-comment-period&#34;&gt;Final Comment Period&lt;/h3&gt;
 
 &lt;h3 id=&#34;new-rfcs&#34;&gt;New RFCs&lt;/h3&gt;
 
@@ -158,13 +163,13 @@ the Pony programming language. To learn more about Pony check out &lt;a href=&#3
     </item>
     
     <item>
-      <title>This Week in Pony - March 28, 2017</title>
-      <link>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</link>
+      <title>Last Week in Pony - March 28, 2017</title>
+      <link>http://www.ponylang.org/blog/2017/03/last-week-in-pony---march-28-2017/</link>
       <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/this-week-in-pony---march-28-2017/</guid>
-      <description>&lt;p&gt;This Week In Pony is a weekly blog post to catch you up on the latest news for
-the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.
+      <guid>http://www.ponylang.org/blog/2017/03/last-week-in-pony---march-28-2017/</guid>
+      <description>&lt;p&gt;Last Week In Pony is a weekly blog post to catch you up on the latest news for
+the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, our &lt;a href=&#34;https://pony.groups.io/g/user&#34;&gt;users&amp;rsquo; mailing list&lt;/a&gt; or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.
 &lt;/p&gt;
 
 &lt;h2 id=&#34;items-of-note&#34;&gt;Items of note&lt;/h2&gt;
