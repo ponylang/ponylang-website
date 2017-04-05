@@ -37,7 +37,7 @@ There were several "point" releases last week. For a list of full releases see t
 
 - [Pony Play Pen!](http://pony-playpen.lietar.net/) Pony now has a live, browser-accessible sandbox.
 
-- [Developer Sync Meeting](https://pony.groups.io/g/dev/files/Pony%20Sync/March%2029,%202017) This weeks developer sync meeting.
+- [Developer Sync Meeting](https://pony.groups.io/g/dev/files/Pony%20Sync/March%2029,%202017) Audio from the March 29th Pony developer sync meeting.
 
 - [Acolyte](https://github.com/jtfmumm/acolyte) A procedurally generated RPG inspired by Rogue and written in Pony.
 
