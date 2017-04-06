@@ -9,7 +9,7 @@ We have a couple resources designed to help you learn, we suggest starting with 
 
 * [Tutorial](http://tutorial.ponylang.org).
 * [Pony Patterns](http://patterns.ponylang.org) cookbook is in progress
-* [Standard library docs](http://ponylang.github.io/ponyc/).
+* [Standard library docs](http://stdlib.ponylang.org/).
 
 ## Getting help
 
