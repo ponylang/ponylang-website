@@ -331,6 +331,42 @@
       <h1>Release</h1>
 
       
+      <a href="http://www.ponylang.org/blog/2017/04/0.13.0-released/" title="0.13.0 released">
+        <h2>0.13.0 released</h2>
+      </a>
+      <section class="blog-meta">
+      <h4>
+        <strong>Friday, April 07, 2017</strong>
+        
+          | Posted in
+          
+          
+            
+            <a href="http://www.ponylang.org/categories/release">Release</a>
+          
+        
+      </h4>
+      </section>
+
+      
+      <p><p>0.13.0 is a high priority release recommended for all Pony users. <a href="https://github.com/ponylang/ponyc/pull/1816">#1868</a> fixes a type system problem identified by Paul Liétar. Paul is currently working on verifying the Pony type system as part of his final year project at Imperial College. Expect to see more high priority releases as we fix problems that Paul identifies.</p>
+
+<p>There is also a breaking change in 0.13.0. <a href="https://github.com/ponylang/rfcs/blob/master/text/0041-tcp-connection-notify-received-times.md">RFC #41</a> was implemented and merged to master. The <code>received</code> method on <code>TCPConnectionNotify</code> now takes an additional parameter. For any of your code, if you previously had:</p>
+
+<pre><code class="language-pony">fun ref received(conn: TCPConnection ref, data: Array[U8] iso): Bool
+</code></pre>
+
+<p>You&rsquo;ll need to update your method signature to be:</p>
+
+<pre><code class="language-pony">fun ref received(conn: TCPConnection ref, data: Array[U8] iso, times: USize): Bool
+</code></pre>
+
+<p>It&rsquo;s safe to ignore the <code>times</code> parameter unless you need more fine-grained control over how a <code>TCPConnection</code> interacts with the Pony scheduler.
+</p></p>
+      
+      <p class="readmore"><a href="http://www.ponylang.org/blog/2017/04/0.13.0-released/">Read more...</a></p>
+      <hr>
+      
       <a href="http://www.ponylang.org/blog/2017/04/0.12.3-released/" title="0.12.3 released">
         <h2>0.12.3 released</h2>
       </a>

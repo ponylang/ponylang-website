@@ -9,16 +9,16 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1">
     <meta http-equiv="X-UA-Compatible" content="IE=10" />
-    <title>Categories - Pony</title>
+    <title>0.13.0 released - Pony</title>
     <meta name="generator" content="Hugo 0.19" />
 
     
     <meta name="description" content="Pony - High Performance Actor Programming">
     
-    <link rel="canonical" href="http://www.ponylang.org/categories/">
+    <link rel="canonical" href="http://www.ponylang.org/blog/2017/04/0.13.0-released/">
     
 
-    <meta property="og:url" content="http://www.ponylang.org/categories/">
+    <meta property="og:url" content="http://www.ponylang.org/blog/2017/04/0.13.0-released/">
     <meta property="og:title" content="Pony">
     <meta property="og:image" content="http://www.ponylang.org/images/logo.png">
     <meta name="apple-mobile-web-app-title" content="Pony">
@@ -69,9 +69,6 @@
     <script src="http://www.ponylang.org/javascripts/modernizr.js"></script>
 
     
-    <link href="http://www.ponylang.org/categories/index.xml" rel="alternate" type="application/rss+xml" title="Pony" />
-    <link href="http://www.ponylang.org/categories/index.xml" rel="feed" type="application/rss+xml" title="Pony" />
-    
 
   </head>
   <body class="palette-primary-brown palette-accent-deep-orange">
@@ -90,7 +87,7 @@
 <input class="toggle" type="checkbox" id="toggle-search">
 <label class="toggle-button overlay" for="toggle-drawer"></label>
 
-<header class="header">
+<header class="header" id="blog-head">
   <nav aria-label="Header">
   <div class="bar default">
     <div class="button button-menu" role="button" aria-label="Menu">
@@ -100,7 +97,7 @@
     </div>
     <div class="stretch">
       <div class="title">
-        Categories
+        0.13.0 released
       </div>
     </div>
 
@@ -328,25 +325,80 @@
 
   <article class="article">
     <div class="wrapper">
-      <h1>Categories </h1>
+      <h1>0.13.0 released</h1>
+      
 
-<div class="terms-list">
-  <ul>
+      <section class="blog-meta">
+      <h4>
+        <strong>Friday, April 07, 2017</strong>
         
+          | Posted in
+          
+          
+            
+            <a href="http://www.ponylang.org/categories/release">Release</a>
+          
         
-        
-        <li><a href="http://www.ponylang.org/categories/release">Release</a> 5</li>
-        
-        
-        <li><a href="http://www.ponylang.org/categories/last-week-in-pony">Last-Week-In-Pony</a> 2</li>
-        
-        
-        <li><a href="http://www.ponylang.org/categories/state-of-the-stable">State-Of-The-Stable</a> 1</li>
-        
-    </ul>
-</div>
+      </h4>
+      </section>
 
-    <aside class="copyright" role="note">
+  <p>0.13.0 is a high priority release recommended for all Pony users. <a href="https://github.com/ponylang/ponyc/pull/1816">#1868</a> fixes a type system problem identified by Paul Liétar. Paul is currently working on verifying the Pony type system as part of his final year project at Imperial College. Expect to see more high priority releases as we fix problems that Paul identifies.</p>
+
+<p>There is also a breaking change in 0.13.0. <a href="https://github.com/ponylang/rfcs/blob/master/text/0041-tcp-connection-notify-received-times.md">RFC #41</a> was implemented and merged to master. The <code>received</code> method on <code>TCPConnectionNotify</code> now takes an additional parameter. For any of your code, if you previously had:</p>
+
+<pre><code class="language-pony">fun ref received(conn: TCPConnection ref, data: Array[U8] iso): Bool
+</code></pre>
+
+<p>You&rsquo;ll need to update your method signature to be:</p>
+
+<pre><code class="language-pony">fun ref received(conn: TCPConnection ref, data: Array[U8] iso, times: USize): Bool
+</code></pre>
+
+<p>It&rsquo;s safe to ignore the <code>times</code> parameter unless you need more fine-grained control over how a <code>TCPConnection</code> interacts with the Pony scheduler.
+</p>
+
+<h3 id="fixed">Fixed</h3>
+
+<ul>
+<li>Do not allow capability subtyping when checking constraint subtyping. (PR #1816)</li>
+<li>Allow persistent map to use any hash function (PR #1799)</li>
+</ul>
+
+<h3 id="changed">Changed</h3>
+
+<ul>
+<li>Pass # of times called to TCPConnectionNotify.received (PR #1777)</li>
+</ul>
+
+      
+
+  <section class="share">
+    <p class="backtotop"><a data-scroll href="#blog-head"><i class="fa fa-lg fa-fw fa-angle-double-up"></i></a><a data-scroll class="backtotoptext" href="#blog-head">back to top</a></p>
+    <p class="info prompt">share</p>
+    <a href="http://twitter.com/share?text=0.13.0%20released&url=http%3a%2f%2fwww.ponylang.org%2fblog%2f2017%2f04%2f0.13.0-released%2f" title="Share on Twitter"
+        onclick="window.open(this.href, 'twitter-share', 'width=550,height=235');return false;">
+        <i class="fa fa-2x fa-fw fa-twitter-square"></i> <span class="hidden">Twitter</span>
+    </a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u=http%3a%2f%2fwww.ponylang.org%2fblog%2f2017%2f04%2f0.13.0-released%2f" title="Share on Facebook"
+        onclick="window.open(this.href, 'facebook-share','width=580,height=296');return false;">
+        <i class="fa fa-2x fa-fw fa-facebook-square" style="margin-left: -8px"></i> <span class="hidden">Facebook</span>
+    </a>
+    <a href="https://plus.google.com/share?url=http%3a%2f%2fwww.ponylang.org%2fblog%2f2017%2f04%2f0.13.0-released%2f" title="Share on Google+"
+       onclick="window.open(this.href, 'google-plus-share', 'width=490,height=530');return false;">
+        <i class="fa fa-2x fa-fw fa-google-plus-square" style="margin-left: -8px"></i> <span class="hidden">Google+</span>
+    </a>
+</section>
+
+  <section class="author">
+    
+    
+    <div class="authorimage" style="background: url(/avatars/seantallen.png)"></div>
+    <p class="attr">AUTHOR</p>
+    <p class="name">Sean T. Allen</p>
+    <p class="bio">Sean is a member of the Pony core team. His turn-ons include programming languages, distributed computing, Hiwatt amplifiers, and Fender Telecasters. His turn-offs include mayonnaise, stirring yogurt, and sloppy code. He is one of the authors of <a href="http://www.manning.com/sallen/">Storm Applied</a>.</p>
+</section>
+
+  <aside class="copyright" role="note">
   
   &copy; 2017 Pony Developers &ndash;
   
@@ -357,6 +409,34 @@
 </aside>
 
 <footer class="footer">
+
+
+<nav class="pagination" aria-label="Footer">
+  <div class="previous">
+  
+      <a href="http://www.ponylang.org/blog/2017/04/last-week-in-pony/" title="Last Week in Pony - April 3, 2017">
+        <span class="direction">
+          Previous
+        </span>
+        <div class="page">
+          <div class="button button-previous" role="button" aria-label="Previous">
+            <i class="icon icon-back"></i>
+          </div>
+          <div class="stretch">
+            <div class="title">
+              Last Week in Pony - April 3, 2017
+            </div>
+          </div>
+        </div>
+      </a>
+  
+  </div>
+
+  <div class="next">
+  
+  </div>
+</nav>
+
 
 </footer>
 

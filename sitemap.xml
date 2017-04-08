@@ -2,6 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.ponylang.org/blog/2017/04/0.13.0-released/</loc>
+    <lastmod>2017-04-07T19:09:58-04:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://www.ponylang.org/blog/2017/04/last-week-in-pony/</loc>
     <lastmod>2017-04-05T10:43:57-04:00</lastmod>
   </url>
@@ -38,7 +43,7 @@
   
   <url>
     <loc>http://www.ponylang.org/blog/</loc>
-    <lastmod>2017-04-05T10:43:57-04:00</lastmod>
+    <lastmod>2017-04-07T19:09:58-04:00</lastmod>
   </url>
   
   <url>
@@ -107,7 +112,7 @@
   
   <url>
     <loc>http://www.ponylang.org/</loc>
-    <lastmod>2017-04-05T10:43:57-04:00</lastmod>
+    <lastmod>2017-04-07T19:09:58-04:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -134,7 +139,7 @@
   
   <url>
     <loc>http://www.ponylang.org/categories/release/</loc>
-    <lastmod>2017-04-01T14:02:54-04:00</lastmod>
+    <lastmod>2017-04-07T19:09:58-04:00</lastmod>
     <priority>0</priority>
   </url>
   
