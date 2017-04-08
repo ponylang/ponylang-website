@@ -16,7 +16,8 @@
       <pubDate>Fri, 07 Apr 2017 19:09:58 -0400</pubDate>
       
       <guid>//www.ponylang.org/blog/2017/04/0.13.0-released/</guid>
-      <description>&lt;p&gt;0.13.0 is a high priority release recommended for all Pony users. &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1816&#34;&gt;#1868&lt;/a&gt; fixes a type system problem identified by Paul Liétar. Paul is currently working on verifying the Pony type system as part of his final year project at Imperial College. Expect to see more high priority releases as we fix problems that Paul identifies.&lt;/p&gt;
+      <description>&lt;p&gt;0.13.0 is a high priority release recommended for all Pony users. &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1816&#34;&gt;#1868&lt;/a&gt; fixes a type system problem identified by Paul Liétar. Paul is currently working on verifying the Pony type system as part of his final year project at Imperial College. Expect to see more high priority releases as we fix problems that Paul identifies.
+&lt;/p&gt;
 
 &lt;p&gt;There is also a breaking change in 0.13.0. &lt;a href=&#34;https://github.com/ponylang/rfcs/blob/master/text/0041-tcp-connection-notify-received-times.md&#34;&gt;RFC #41&lt;/a&gt; was implemented and merged to master. The &lt;code&gt;received&lt;/code&gt; method on &lt;code&gt;TCPConnectionNotify&lt;/code&gt; now takes an additional parameter. For any of your code, if you previously had:&lt;/p&gt;
 
@@ -28,8 +29,7 @@
 &lt;pre&gt;&lt;code class=&#34;language-pony&#34;&gt;fun ref received(conn: TCPConnection ref, data: Array[U8] iso, times: USize): Bool
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;p&gt;It&amp;rsquo;s safe to ignore the &lt;code&gt;times&lt;/code&gt; parameter unless you need more fine-grained control over how a &lt;code&gt;TCPConnection&lt;/code&gt; interacts with the Pony scheduler.
-&lt;/p&gt;
+&lt;p&gt;It&amp;rsquo;s safe to ignore the &lt;code&gt;times&lt;/code&gt; parameter unless you need more fine-grained control over how a &lt;code&gt;TCPConnection&lt;/code&gt; interacts with the Pony scheduler.&lt;/p&gt;
 
 &lt;h3 id=&#34;fixed&#34;&gt;Fixed&lt;/h3&gt;
 
