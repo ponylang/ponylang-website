@@ -1,4 +1,4 @@
-baseurl = "//www.ponylang.org"
+baseurl = "https://www.ponylang.org"
 languageCode = "en-us"
 title = "Pony"
 theme = "hugo-material-docs"
