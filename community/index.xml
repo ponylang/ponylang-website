@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Communities on Pony</title>
-    <link>http://www.ponylang.org/community/index.xml</link>
+    <link>//www.ponylang.org/community/index.xml</link>
     <description>Recent content in Communities on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/community/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/community/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Code of Conduct</title>
-      <link>http://www.ponylang.org/community/code-of-conduct/</link>
+      <link>//www.ponylang.org/community/code-of-conduct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/community/code-of-conduct/</guid>
+      <guid>//www.ponylang.org/community/code-of-conduct/</guid>
       <description>
 
 &lt;p&gt;In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.&lt;/p&gt;
@@ -94,15 +94,15 @@ professional setting&lt;/li&gt;
     
     <item>
       <title>Community</title>
-      <link>http://www.ponylang.org/community/</link>
+      <link>//www.ponylang.org/community/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/community/</guid>
+      <guid>//www.ponylang.org/community/</guid>
       <description>
 
 &lt;h2 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h2&gt;
 
-&lt;p&gt;We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic. Our &lt;a href=&#34;http://www.ponylang.org/community/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt; sets the standards for behavior in all official Pony forums.&lt;/p&gt;
+&lt;p&gt;We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic. Our &lt;a href=&#34;//www.ponylang.org/community/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt; sets the standards for behavior in all official Pony forums.&lt;/p&gt;
 
 &lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
 
@@ -118,7 +118,7 @@ professional setting&lt;/li&gt;
 &lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ponylang.org/blog&#34;&gt;News, blog, whatever you want to call it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.ponylang.org/blog&#34;&gt;News, blog, whatever you want to call it&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;talks-articles-and-more&#34;&gt;Talks, Articles and more&lt;/h2&gt;
@@ -127,7 +127,7 @@ professional setting&lt;/li&gt;
 but, that can come later.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ponylang.org/community/planet-pony/&#34;&gt;Planet Pony&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.ponylang.org/community/planet-pony/&#34;&gt;Planet Pony&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;chat&#34;&gt;Chat&lt;/h2&gt;
@@ -160,20 +160,20 @@ but, that can come later.&lt;/p&gt;
 
 &lt;h2 id=&#34;community-survey&#34;&gt;Community Survey&lt;/h2&gt;
 
-&lt;p&gt;We run a yearly community survey to find out what the Pony community currently looks like. So far, &amp;ldquo;yearly&amp;rdquo; means &amp;ldquo;once&amp;rdquo;. If you are interested in learning a bit more about the community you&amp;rsquo;ll be joining, check out the &lt;a href=&#34;http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/&#34;&gt;2016 State of the Stable&lt;/a&gt; community survey&lt;/p&gt;
+&lt;p&gt;We run a yearly community survey to find out what the Pony community currently looks like. So far, &amp;ldquo;yearly&amp;rdquo; means &amp;ldquo;once&amp;rdquo;. If you are interested in learning a bit more about the community you&amp;rsquo;ll be joining, check out the &lt;a href=&#34;//www.ponylang.org/blog/2016/03/state-of-the-stable-2016/&#34;&gt;2016 State of the Stable&lt;/a&gt; community survey&lt;/p&gt;
 
 &lt;h2 id=&#34;pony-development&#34;&gt;Pony Development&lt;/h2&gt;
 
-&lt;p&gt;If you are interested in helping to develop Pony, we have a &lt;a href=&#34;http://www.ponylang.org/contribute/&#34;&gt;variety of resources&lt;/a&gt; to get you started.&lt;/p&gt;
+&lt;p&gt;If you are interested in helping to develop Pony, we have a &lt;a href=&#34;//www.ponylang.org/contribute/&#34;&gt;variety of resources&lt;/a&gt; to get you started.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Planet Pony</title>
-      <link>http://www.ponylang.org/community/planet-pony/</link>
+      <link>//www.ponylang.org/community/planet-pony/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/community/planet-pony/</guid>
+      <guid>//www.ponylang.org/community/planet-pony/</guid>
       <description>
 
 &lt;p&gt;We don&amp;rsquo;t have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It&amp;rsquo;s like the &lt;a href=&#34;https://www.youtube.com/watch?v=TRAl48Ucgmw&#34;&gt;early curated days of Yahoo!&lt;/a&gt;&lt;/p&gt;
@@ -235,10 +235,10 @@ but, that can come later.&lt;/p&gt;
     
     <item>
       <title>Talks</title>
-      <link>http://www.ponylang.org/community/talks/</link>
+      <link>//www.ponylang.org/community/talks/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/community/talks/</guid>
+      <guid>//www.ponylang.org/community/talks/</guid>
       <description></description>
     </item>
     

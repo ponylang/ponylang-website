@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Discovers on Pony</title>
-    <link>http://www.ponylang.org/discover/index.xml</link>
+    <link>//www.ponylang.org/discover/index.xml</link>
     <description>Recent content in Discovers on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/discover/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/discover/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Discover</title>
-      <link>http://www.ponylang.org/discover/</link>
+      <link>//www.ponylang.org/discover/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/discover/</guid>
+      <guid>//www.ponylang.org/discover/</guid>
       <description>
 
 &lt;h2 id=&#34;what-is-pony&#34;&gt;What is Pony?&lt;/h2&gt;
@@ -25,7 +25,7 @@
 
 &lt;h3 id=&#34;pony-is-type-safe&#34;&gt;Pony is type safe&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;Really type safe&lt;/em&gt;. There&amp;rsquo;s a mathematical &lt;a href=&#34;http://www.ponylang.org/media/papers/fast-cheap.pdf&#34;&gt;proof&lt;/a&gt; and everything.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Really type safe&lt;/em&gt;. There&amp;rsquo;s a mathematical &lt;a href=&#34;//www.ponylang.org/media/papers/fast-cheap.pdf&#34;&gt;proof&lt;/a&gt; and everything.&lt;/p&gt;
 
 &lt;h3 id=&#34;pony-is-memory-safe&#34;&gt;Pony is memory safe&lt;/h3&gt;
 

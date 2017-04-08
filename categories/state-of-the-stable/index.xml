@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>State Of The Stable on Pony</title>
-    <link>http://www.ponylang.org/categories/state-of-the-stable/index.xml</link>
+    <link>//www.ponylang.org/categories/state-of-the-stable/index.xml</link>
     <description>Recent content in State Of The Stable on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/categories/state-of-the-stable/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/categories/state-of-the-stable/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>State of the Stable 2016</title>
-      <link>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</link>
+      <link>//www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</link>
       <pubDate>Sat, 12 Mar 2016 12:48:57 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</guid>
+      <guid>//www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</guid>
       <description>&lt;p&gt;Hi there and welcome to the summary of the Pony 2016 &amp;ldquo;State of the Stable&amp;rdquo; community survey. It was the first of what will hopefully become an annual tradition. We&amp;rsquo;d like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing. Open source software is often a thankless task and your words of encouragement mean a lot.
 &lt;/p&gt;
 
@@ -44,7 +44,7 @@
 &lt;li&gt;Distributed Pony&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We&amp;rsquo;d love your help. If you are interested in assisting, please join the &lt;a href=&#34;https://groups.io/g/pony+dev&#34;&gt;Pony+Dev mailing list&lt;/a&gt; and &lt;a href=&#34;http://www.ponylang.org/contribute/&#34;&gt;check out some of the ways that anyone can contribute&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;d love your help. If you are interested in assisting, please join the &lt;a href=&#34;https://groups.io/g/pony+dev&#34;&gt;Pony+Dev mailing list&lt;/a&gt; and &lt;a href=&#34;//www.ponylang.org/contribute/&#34;&gt;check out some of the ways that anyone can contribute&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;See y&amp;rsquo;all next year,
 The Pony core team&lt;/p&gt;</description>

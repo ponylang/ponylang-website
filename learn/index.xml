@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Learns on Pony</title>
-    <link>http://www.ponylang.org/learn/index.xml</link>
+    <link>//www.ponylang.org/learn/index.xml</link>
     <description>Recent content in Learns on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/learn/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/learn/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Learn</title>
-      <link>http://www.ponylang.org/learn/</link>
+      <link>//www.ponylang.org/learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/learn/</guid>
+      <guid>//www.ponylang.org/learn/</guid>
       <description>
 
 &lt;p&gt;Ready to learn Pony? Awesome.&lt;/p&gt;
@@ -44,7 +44,7 @@
 &lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/ponyc/issues&#34;&gt;Open an issue&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The Pony community while small is very helpful and inviting. We think you&amp;rsquo;ll find interacting with us to be an ejoyable experience. You can find a lot more community related resources in the &lt;a href=&#34;http://www.ponylang.org/community&#34;&gt;community section&lt;/a&gt; of this site.&lt;/p&gt;
+&lt;p&gt;The Pony community while small is very helpful and inviting. We think you&amp;rsquo;ll find interacting with us to be an ejoyable experience. You can find a lot more community related resources in the &lt;a href=&#34;//www.ponylang.org/community&#34;&gt;community section&lt;/a&gt; of this site.&lt;/p&gt;
 </description>
     </item>
     

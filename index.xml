@@ -2,20 +2,20 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Pony</title>
-    <link>http://www.ponylang.org/index.xml</link>
+    <link>//www.ponylang.org/index.xml</link>
     <description>Recent content on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
     <lastBuildDate>Fri, 07 Apr 2017 19:09:58 -0400</lastBuildDate>
-    <atom:link href="http://www.ponylang.org/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>0.13.0 released</title>
-      <link>http://www.ponylang.org/blog/2017/04/0.13.0-released/</link>
+      <link>//www.ponylang.org/blog/2017/04/0.13.0-released/</link>
       <pubDate>Fri, 07 Apr 2017 19:09:58 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/04/0.13.0-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/04/0.13.0-released/</guid>
       <description>&lt;p&gt;0.13.0 is a high priority release recommended for all Pony users. &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1816&#34;&gt;#1868&lt;/a&gt; fixes a type system problem identified by Paul Liétar. Paul is currently working on verifying the Pony type system as part of his final year project at Imperial College. Expect to see more high priority releases as we fix problems that Paul identifies.&lt;/p&gt;
 
 &lt;p&gt;There is also a breaking change in 0.13.0. &lt;a href=&#34;https://github.com/ponylang/rfcs/blob/master/text/0041-tcp-connection-notify-received-times.md&#34;&gt;RFC #41&lt;/a&gt; was implemented and merged to master. The &lt;code&gt;received&lt;/code&gt; method on &lt;code&gt;TCPConnectionNotify&lt;/code&gt; now takes an additional parameter. For any of your code, if you previously had:&lt;/p&gt;
@@ -47,10 +47,10 @@
     
     <item>
       <title>Last Week in Pony - April 3, 2017</title>
-      <link>http://www.ponylang.org/blog/2017/04/last-week-in-pony/</link>
+      <link>//www.ponylang.org/blog/2017/04/last-week-in-pony/</link>
       <pubDate>Wed, 05 Apr 2017 10:43:57 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/04/last-week-in-pony/</guid>
+      <guid>//www.ponylang.org/blog/2017/04/last-week-in-pony/</guid>
       <description>&lt;p&gt;&lt;em&gt;Last Week In Pony&lt;/em&gt; is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, our &lt;a href=&#34;https://pony.groups.io/g/user&#34;&gt;users&amp;rsquo; mailing list&lt;/a&gt; or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Got something you think should be featured? Drop us an email at &lt;a href=&#34;mailto:last.week.in.pony@gmail.com&#34;&gt;last.week.in.pony@gmail.com&lt;/a&gt;.
@@ -110,10 +110,10 @@
     
     <item>
       <title>0.12.3 released</title>
-      <link>http://www.ponylang.org/blog/2017/04/0.12.3-released/</link>
+      <link>//www.ponylang.org/blog/2017/04/0.12.3-released/</link>
       <pubDate>Sat, 01 Apr 2017 14:02:54 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
       <description>&lt;p&gt;If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binaries with the Pony compiler.
 &lt;/p&gt;
 
@@ -128,10 +128,10 @@
     
     <item>
       <title>0.12.2 released</title>
-      <link>http://www.ponylang.org/blog/2017/03/0.12.2-released/</link>
+      <link>//www.ponylang.org/blog/2017/03/0.12.2-released/</link>
       <pubDate>Thu, 30 Mar 2017 20:07:23 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/0.12.2-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/03/0.12.2-released/</guid>
       <description>&lt;p&gt;Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&amp;rsquo;s only been a day since our last release, not a lot else in this one.
 &lt;/p&gt;
 
@@ -147,10 +147,10 @@
     
     <item>
       <title>0.12.1 released</title>
-      <link>http://www.ponylang.org/blog/2017/03/0.12.1-released/</link>
+      <link>//www.ponylang.org/blog/2017/03/0.12.1-released/</link>
       <pubDate>Wed, 29 Mar 2017 23:27:25 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
       <description>&lt;p&gt;This is a recommended update; 0.12.0 broke ponytest. No tests will run using 0.12.0. Upgrading to 0.12.1 immediately is advised.
 &lt;/p&gt;
 
@@ -163,10 +163,10 @@
     
     <item>
       <title>0.12.0 released</title>
-      <link>http://www.ponylang.org/blog/2017/03/0.12.0-released/</link>
+      <link>//www.ponylang.org/blog/2017/03/0.12.0-released/</link>
       <pubDate>Wed, 29 Mar 2017 20:03:10 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/0.12.0-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/03/0.12.0-released/</guid>
       <description>&lt;p&gt;Pony version 0.12.0 has been released. It&amp;rsquo;s available via all the usual channels. This is a recommended update as &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1768&#34;&gt;PR #1768&lt;/a&gt; fixed a memory related issue that could result in nastiness.
 &lt;/p&gt;
 
@@ -200,10 +200,10 @@
     
     <item>
       <title>Last Week in Pony - March 28, 2017</title>
-      <link>http://www.ponylang.org/blog/2017/03/last-week-in-pony/</link>
+      <link>//www.ponylang.org/blog/2017/03/last-week-in-pony/</link>
       <pubDate>Tue, 28 Mar 2017 12:48:57 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/last-week-in-pony/</guid>
+      <guid>//www.ponylang.org/blog/2017/03/last-week-in-pony/</guid>
       <description>&lt;p&gt;&lt;em&gt;Last Week In Pony&lt;/em&gt; is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out &lt;a href=&#34;ponylang.org&#34;&gt;our website&lt;/a&gt;, our Twitter account &lt;a href=&#34;https://twitter.com/ponylang&#34;&gt;@ponylang&lt;/a&gt;, our &lt;a href=&#34;https://pony.groups.io/g/user&#34;&gt;users&amp;rsquo; mailing list&lt;/a&gt; or join us &lt;a href=&#34;https://webchat.freenode.net/?channels=%23ponylang&#34;&gt;on IRC&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;Got something you think should be featured? Drop us an email at &lt;a href=&#34;mailto:last.week.in.pony@gmail.com&#34;&gt;last.week.in.pony@gmail.com&lt;/a&gt;.
@@ -256,10 +256,10 @@
     
     <item>
       <title>State of the Stable 2016</title>
-      <link>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</link>
+      <link>//www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</link>
       <pubDate>Sat, 12 Mar 2016 12:48:57 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</guid>
+      <guid>//www.ponylang.org/blog/2016/03/state-of-the-stable-2016/</guid>
       <description>&lt;p&gt;Hi there and welcome to the summary of the Pony 2016 &amp;ldquo;State of the Stable&amp;rdquo; community survey. It was the first of what will hopefully become an annual tradition. We&amp;rsquo;d like to thank everyone who took time to answer the survey, especially those of you who took the time to answer the free form questions. There are some very thoughtful answers sprinkled through there. Also a big thank you to everyone who let us know they appreciate the work we are doing. Open source software is often a thankless task and your words of encouragement mean a lot.
 &lt;/p&gt;
 
@@ -289,7 +289,7 @@
 &lt;li&gt;Distributed Pony&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;We&amp;rsquo;d love your help. If you are interested in assisting, please join the &lt;a href=&#34;https://groups.io/g/pony+dev&#34;&gt;Pony+Dev mailing list&lt;/a&gt; and &lt;a href=&#34;http://www.ponylang.org/contribute/&#34;&gt;check out some of the ways that anyone can contribute&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We&amp;rsquo;d love your help. If you are interested in assisting, please join the &lt;a href=&#34;https://groups.io/g/pony+dev&#34;&gt;Pony+Dev mailing list&lt;/a&gt; and &lt;a href=&#34;//www.ponylang.org/contribute/&#34;&gt;check out some of the ways that anyone can contribute&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;See y&amp;rsquo;all next year,
 The Pony core team&lt;/p&gt;</description>
@@ -297,10 +297,10 @@ The Pony core team&lt;/p&gt;</description>
     
     <item>
       <title>Code of Conduct</title>
-      <link>http://www.ponylang.org/community/code-of-conduct/</link>
+      <link>//www.ponylang.org/community/code-of-conduct/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/community/code-of-conduct/</guid>
+      <guid>//www.ponylang.org/community/code-of-conduct/</guid>
       <description>
 
 &lt;p&gt;In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.&lt;/p&gt;
@@ -380,15 +380,15 @@ professional setting&lt;/li&gt;
     
     <item>
       <title>Community</title>
-      <link>http://www.ponylang.org/community/</link>
+      <link>//www.ponylang.org/community/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/community/</guid>
+      <guid>//www.ponylang.org/community/</guid>
       <description>
 
 &lt;h2 id=&#34;code-of-conduct&#34;&gt;Code of Conduct&lt;/h2&gt;
 
-&lt;p&gt;We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic. Our &lt;a href=&#34;http://www.ponylang.org/community/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt; sets the standards for behavior in all official Pony forums.&lt;/p&gt;
+&lt;p&gt;We are committed to providing a friendly, safe and welcoming environment for all, regardless of gender, sexual orientation, disability, ethnicity, religion, or similar personal characteristic. Our &lt;a href=&#34;//www.ponylang.org/community/code-of-conduct/&#34;&gt;code of conduct&lt;/a&gt; sets the standards for behavior in all official Pony forums.&lt;/p&gt;
 
 &lt;h2 id=&#34;getting-started&#34;&gt;Getting Started&lt;/h2&gt;
 
@@ -404,7 +404,7 @@ professional setting&lt;/li&gt;
 &lt;h2 id=&#34;news&#34;&gt;News&lt;/h2&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ponylang.org/blog&#34;&gt;News, blog, whatever you want to call it&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.ponylang.org/blog&#34;&gt;News, blog, whatever you want to call it&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;talks-articles-and-more&#34;&gt;Talks, Articles and more&lt;/h2&gt;
@@ -413,7 +413,7 @@ professional setting&lt;/li&gt;
 but, that can come later.&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;http://www.ponylang.org/community/planet-pony/&#34;&gt;Planet Pony&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href=&#34;//www.ponylang.org/community/planet-pony/&#34;&gt;Planet Pony&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h2 id=&#34;chat&#34;&gt;Chat&lt;/h2&gt;
@@ -446,20 +446,20 @@ but, that can come later.&lt;/p&gt;
 
 &lt;h2 id=&#34;community-survey&#34;&gt;Community Survey&lt;/h2&gt;
 
-&lt;p&gt;We run a yearly community survey to find out what the Pony community currently looks like. So far, &amp;ldquo;yearly&amp;rdquo; means &amp;ldquo;once&amp;rdquo;. If you are interested in learning a bit more about the community you&amp;rsquo;ll be joining, check out the &lt;a href=&#34;http://www.ponylang.org/blog/2016/03/state-of-the-stable-2016/&#34;&gt;2016 State of the Stable&lt;/a&gt; community survey&lt;/p&gt;
+&lt;p&gt;We run a yearly community survey to find out what the Pony community currently looks like. So far, &amp;ldquo;yearly&amp;rdquo; means &amp;ldquo;once&amp;rdquo;. If you are interested in learning a bit more about the community you&amp;rsquo;ll be joining, check out the &lt;a href=&#34;//www.ponylang.org/blog/2016/03/state-of-the-stable-2016/&#34;&gt;2016 State of the Stable&lt;/a&gt; community survey&lt;/p&gt;
 
 &lt;h2 id=&#34;pony-development&#34;&gt;Pony Development&lt;/h2&gt;
 
-&lt;p&gt;If you are interested in helping to develop Pony, we have a &lt;a href=&#34;http://www.ponylang.org/contribute/&#34;&gt;variety of resources&lt;/a&gt; to get you started.&lt;/p&gt;
+&lt;p&gt;If you are interested in helping to develop Pony, we have a &lt;a href=&#34;//www.ponylang.org/contribute/&#34;&gt;variety of resources&lt;/a&gt; to get you started.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Contribute</title>
-      <link>http://www.ponylang.org/contribute/</link>
+      <link>//www.ponylang.org/contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/contribute/</guid>
+      <guid>//www.ponylang.org/contribute/</guid>
       <description>
 
 &lt;p&gt;Interested in helping develop Pony? Awesome. We could use the help. Here&amp;rsquo;s a list of projects that are currently underway that you can assist with. If none of them interest you, drop a note to the &lt;a href=&#34;https://pony.groups.io/g/dev&#34;&gt;pony+dev mailing list&lt;/a&gt; and we should be able to find something that suits your interests.&lt;/p&gt;
@@ -488,10 +488,10 @@ but, that can come later.&lt;/p&gt;
     
     <item>
       <title>Discover</title>
-      <link>http://www.ponylang.org/discover/</link>
+      <link>//www.ponylang.org/discover/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/discover/</guid>
+      <guid>//www.ponylang.org/discover/</guid>
       <description>
 
 &lt;h2 id=&#34;what-is-pony&#34;&gt;What is Pony?&lt;/h2&gt;
@@ -502,7 +502,7 @@ but, that can come later.&lt;/p&gt;
 
 &lt;h3 id=&#34;pony-is-type-safe&#34;&gt;Pony is type safe&lt;/h3&gt;
 
-&lt;p&gt;&lt;em&gt;Really type safe&lt;/em&gt;. There&amp;rsquo;s a mathematical &lt;a href=&#34;http://www.ponylang.org/media/papers/fast-cheap.pdf&#34;&gt;proof&lt;/a&gt; and everything.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Really type safe&lt;/em&gt;. There&amp;rsquo;s a mathematical &lt;a href=&#34;//www.ponylang.org/media/papers/fast-cheap.pdf&#34;&gt;proof&lt;/a&gt; and everything.&lt;/p&gt;
 
 &lt;h3 id=&#34;pony-is-memory-safe&#34;&gt;Pony is memory safe&lt;/h3&gt;
 
@@ -657,10 +657,10 @@ but, that can come later.&lt;/p&gt;
     
     <item>
       <title>FAQ</title>
-      <link>http://www.ponylang.org/faq/</link>
+      <link>//www.ponylang.org/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/faq/</guid>
+      <guid>//www.ponylang.org/faq/</guid>
       <description>
 
 &lt;h2 id=&#34;compiling&#34;&gt;Compiling&lt;/h2&gt;
@@ -683,10 +683,10 @@ but, that can come later.&lt;/p&gt;
     
     <item>
       <title>Learn</title>
-      <link>http://www.ponylang.org/learn/</link>
+      <link>//www.ponylang.org/learn/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/learn/</guid>
+      <guid>//www.ponylang.org/learn/</guid>
       <description>
 
 &lt;p&gt;Ready to learn Pony? Awesome.&lt;/p&gt;
@@ -716,16 +716,16 @@ but, that can come later.&lt;/p&gt;
 &lt;li&gt;&lt;a href=&#34;https://github.com/ponylang/ponyc/issues&#34;&gt;Open an issue&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;The Pony community while small is very helpful and inviting. We think you&amp;rsquo;ll find interacting with us to be an ejoyable experience. You can find a lot more community related resources in the &lt;a href=&#34;http://www.ponylang.org/community&#34;&gt;community section&lt;/a&gt; of this site.&lt;/p&gt;
+&lt;p&gt;The Pony community while small is very helpful and inviting. We think you&amp;rsquo;ll find interacting with us to be an ejoyable experience. You can find a lot more community related resources in the &lt;a href=&#34;//www.ponylang.org/community&#34;&gt;community section&lt;/a&gt; of this site.&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Planet Pony</title>
-      <link>http://www.ponylang.org/community/planet-pony/</link>
+      <link>//www.ponylang.org/community/planet-pony/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/community/planet-pony/</guid>
+      <guid>//www.ponylang.org/community/planet-pony/</guid>
       <description>
 
 &lt;p&gt;We don&amp;rsquo;t have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It&amp;rsquo;s like the &lt;a href=&#34;https://www.youtube.com/watch?v=TRAl48Ucgmw&#34;&gt;early curated days of Yahoo!&lt;/a&gt;&lt;/p&gt;

@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Release on Pony</title>
-    <link>http://www.ponylang.org/categories/release/index.xml</link>
+    <link>//www.ponylang.org/categories/release/index.xml</link>
     <description>Recent content in Release on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/categories/release/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/categories/release/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>0.13.0 released</title>
-      <link>http://www.ponylang.org/blog/2017/04/0.13.0-released/</link>
+      <link>//www.ponylang.org/blog/2017/04/0.13.0-released/</link>
       <pubDate>Fri, 07 Apr 2017 19:09:58 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/04/0.13.0-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/04/0.13.0-released/</guid>
       <description>&lt;p&gt;0.13.0 is a high priority release recommended for all Pony users. &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1816&#34;&gt;#1868&lt;/a&gt; fixes a type system problem identified by Paul Liétar. Paul is currently working on verifying the Pony type system as part of his final year project at Imperial College. Expect to see more high priority releases as we fix problems that Paul identifies.&lt;/p&gt;
 
 &lt;p&gt;There is also a breaking change in 0.13.0. &lt;a href=&#34;https://github.com/ponylang/rfcs/blob/master/text/0041-tcp-connection-notify-received-times.md&#34;&gt;RFC #41&lt;/a&gt; was implemented and merged to master. The &lt;code&gt;received&lt;/code&gt; method on &lt;code&gt;TCPConnectionNotify&lt;/code&gt; now takes an additional parameter. For any of your code, if you previously had:&lt;/p&gt;
@@ -46,10 +46,10 @@
     
     <item>
       <title>0.12.3 released</title>
-      <link>http://www.ponylang.org/blog/2017/04/0.12.3-released/</link>
+      <link>//www.ponylang.org/blog/2017/04/0.12.3-released/</link>
       <pubDate>Sat, 01 Apr 2017 14:02:54 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/04/0.12.3-released/</guid>
       <description>&lt;p&gt;If you aren&amp;rsquo;t running Pony on Windows, you can ignore this version and stick with 0.12.2. Windows users are advised to upgrade as soon as possible if they are experiencing problems building binaries with the Pony compiler.
 &lt;/p&gt;
 
@@ -64,10 +64,10 @@
     
     <item>
       <title>0.12.2 released</title>
-      <link>http://www.ponylang.org/blog/2017/03/0.12.2-released/</link>
+      <link>//www.ponylang.org/blog/2017/03/0.12.2-released/</link>
       <pubDate>Thu, 30 Mar 2017 20:07:23 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/0.12.2-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/03/0.12.2-released/</guid>
       <description>&lt;p&gt;Thanks to Gordon Tisher for finding the cause of our extreme busy wait problem on Windows and issuing a fix for it. We consider that a high priority issue which means, release away. Since it&amp;rsquo;s only been a day since our last release, not a lot else in this one.
 &lt;/p&gt;
 
@@ -83,10 +83,10 @@
     
     <item>
       <title>0.12.1 released</title>
-      <link>http://www.ponylang.org/blog/2017/03/0.12.1-released/</link>
+      <link>//www.ponylang.org/blog/2017/03/0.12.1-released/</link>
       <pubDate>Wed, 29 Mar 2017 23:27:25 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/03/0.12.1-released/</guid>
       <description>&lt;p&gt;This is a recommended update; 0.12.0 broke ponytest. No tests will run using 0.12.0. Upgrading to 0.12.1 immediately is advised.
 &lt;/p&gt;
 
@@ -99,10 +99,10 @@
     
     <item>
       <title>0.12.0 released</title>
-      <link>http://www.ponylang.org/blog/2017/03/0.12.0-released/</link>
+      <link>//www.ponylang.org/blog/2017/03/0.12.0-released/</link>
       <pubDate>Wed, 29 Mar 2017 20:03:10 -0400</pubDate>
       
-      <guid>http://www.ponylang.org/blog/2017/03/0.12.0-released/</guid>
+      <guid>//www.ponylang.org/blog/2017/03/0.12.0-released/</guid>
       <description>&lt;p&gt;Pony version 0.12.0 has been released. It&amp;rsquo;s available via all the usual channels. This is a recommended update as &lt;a href=&#34;https://github.com/ponylang/ponyc/pull/1768&#34;&gt;PR #1768&lt;/a&gt; fixed a memory related issue that could result in nastiness.
 &lt;/p&gt;
 

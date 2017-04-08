@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Contributes on Pony</title>
-    <link>http://www.ponylang.org/contribute/index.xml</link>
+    <link>//www.ponylang.org/contribute/index.xml</link>
     <description>Recent content in Contributes on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/contribute/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/contribute/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>Contribute</title>
-      <link>http://www.ponylang.org/contribute/</link>
+      <link>//www.ponylang.org/contribute/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/contribute/</guid>
+      <guid>//www.ponylang.org/contribute/</guid>
       <description>
 
 &lt;p&gt;Interested in helping develop Pony? Awesome. We could use the help. Here&amp;rsquo;s a list of projects that are currently underway that you can assist with. If none of them interest you, drop a note to the &lt;a href=&#34;https://pony.groups.io/g/dev&#34;&gt;pony+dev mailing list&lt;/a&gt; and we should be able to find something that suits your interests.&lt;/p&gt;
@@ -43,10 +43,10 @@
     
     <item>
       <title>Project Documentation</title>
-      <link>http://www.ponylang.org/contribute/project-documentation/</link>
+      <link>//www.ponylang.org/contribute/project-documentation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/contribute/project-documentation/</guid>
+      <guid>//www.ponylang.org/contribute/project-documentation/</guid>
       <description>
 
 &lt;p&gt;There&amp;rsquo;s currently a small project underway to improve Pony documentation. We have a few initial aims&lt;/p&gt;
@@ -84,10 +84,10 @@
     
     <item>
       <title>Triaging Ponyc</title>
-      <link>http://www.ponylang.org/contribute/triage/</link>
+      <link>//www.ponylang.org/contribute/triage/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/contribute/triage/</guid>
+      <guid>//www.ponylang.org/contribute/triage/</guid>
       <description>
 
 &lt;h2 id=&#34;for-anyone&#34;&gt;For anyone&lt;/h2&gt;

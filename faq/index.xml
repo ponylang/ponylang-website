@@ -2,19 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Faqs on Pony</title>
-    <link>http://www.ponylang.org/faq/index.xml</link>
+    <link>//www.ponylang.org/faq/index.xml</link>
     <description>Recent content in Faqs on Pony</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>Pony Developers</copyright>
-    <atom:link href="http://www.ponylang.org/faq/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//www.ponylang.org/faq/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>FAQ</title>
-      <link>http://www.ponylang.org/faq/</link>
+      <link>//www.ponylang.org/faq/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>http://www.ponylang.org/faq/</guid>
+      <guid>//www.ponylang.org/faq/</guid>
       <description>
 
 &lt;h2 id=&#34;compiling&#34;&gt;Compiling&lt;/h2&gt;
