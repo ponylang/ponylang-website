@@ -1,9 +1,9 @@
-baseurl = "https://www.ponylang.org"
+baseurl = "//www.ponylang.org"
 languageCode = "en-us"
 title = "Pony"
 theme = "hugo-material-docs"
 metadataformat = "yaml"
-canonifyurls = true
+canonifyurls = false
 # Enable Google Analytics by entering your tracking id
 
 [params]
