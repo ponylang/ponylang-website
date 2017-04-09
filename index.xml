@@ -466,7 +466,7 @@ but, that can come later.&lt;/p&gt;
 
 &lt;p&gt;Note sure where to start?&lt;/p&gt;
 
-&lt;p&gt;If you are new to Pony or don&amp;rsquo;t have a ton of time to devout to helping, we suggest you check out Project Documentation and helping to improve our docs. Contributing to documentation is a great way to start learning Pony. Teaching a subject is an incredible way to learn the subject.&lt;/p&gt;
+&lt;p&gt;If you are new to Pony or don&amp;rsquo;t have a ton of time to devote to helping, we suggest you check out Project Documentation and helping to improve our docs. Contributing to documentation is a great way to start learning Pony. Teaching a subject is an incredible way to learn the subject.&lt;/p&gt;
 
 &lt;p&gt;If you are new to Pony and have more time to devote, check out the Low Hanging Fruit. Tackle stuff from that and if we run out, switch over to helping with documentation.&lt;/p&gt;
 
@@ -474,7 +474,7 @@ but, that can come later.&lt;/p&gt;
 
 &lt;h2 id=&#34;triage-incoming-issues&#34;&gt;Triage incoming issues&lt;/h2&gt;
 
-&lt;p&gt;Users regularly open issues against the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues&#34;&gt;ponyc repository&lt;/a&gt;. Staying on top of them and moving them along to conclusion is an important part of the development process. If you&amp;rsquo;d be interested in helping in this area, please check out our &lt;a href=&#34;triage&#34;&gt;triaging ponyc documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Users regularly open issues against the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues&#34;&gt;ponyc repository&lt;/a&gt;. Staying on top of them and moving them along to a conclusion is an important part of the development process. If you&amp;rsquo;d be interested in helping in this area, please check out our &lt;a href=&#34;triage&#34;&gt;triaging ponyc documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;project-documentation&#34;&gt;Project Documentation&lt;/h2&gt;
 
@@ -482,7 +482,7 @@ but, that can come later.&lt;/p&gt;
 
 &lt;h2 id=&#34;low-hanging-fruit&#34;&gt;Low Hanging Fruit&lt;/h2&gt;
 
-&lt;p&gt;When issues come in to the ponyc GitHub project, as part of our initial triaging of issues, some get marked as easy. The general idea behind the easy label to make it simple for people who want to contribute to Pony but don&amp;rsquo;t have much time or knowledge about Pony to be able to contribute. Low hanging fruit issues such as these are a great way to get started with contributing and start learning more about Pony. Check out the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues?q=is%3Aissue+is%3Aopen+label%3A%22difficulty%3A+1+-+easy%22&#34;&gt;Low Hanging Fruit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When issues come into the ponyc GitHub project, as part of our initial triaging of issues, some get marked as easy. The general idea behind the easy label to make it simple for people who want to contribute to Pony but don&amp;rsquo;t have much time or knowledge about Pony to be able to contribute. Low hanging fruit issues such as these are a great way to get started with contributing and start learning more about Pony. Check out the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues?q=is:issue+is:open+label:%22difficulty:+1+-+easy%22&#34;&gt;Low Hanging Fruit&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     

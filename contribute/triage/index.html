@@ -354,16 +354,16 @@
 <li>What CPU are they running on?</li>
 </ul>
 
-<p>Mind you, answers to every one of the questions isn&rsquo;t required. As you become a more knowledgeable triager, you&rsquo;ll develop a sense of which questions are required for different sorts of problems.</p>
+<p>Mind you, answers to every one of the questions aren&rsquo;t required. As you become a better at triaging, you&rsquo;ll develop a sense of which questions are required for different sorts of problems.</p>
 
 <h3 id="verify-the-issue">Verify the issue</h3>
 
 <p>Can you reproduce? It&rsquo;s an important first step. A user is going to be reporting a problem on a specific platform. Can you reproduce using that platform? Can you reproduce on another?</p>
 
-<p>If a Debian Linux user reports a bug, its very helpful to know if it impacts other platforms such as OSX. We want to find out how broad the bug is based on any of the following relevant factors:</p>
+<p>If a Debian Linux user reports a bug, it&rsquo;s very helpful to know if it impacts other platforms such as OSX. We want to find out how broad the bug is based on any of the following relevant factors:</p>
 
 <ul>
-<li>OS, distribution and version</li>
+<li>OS, distribution, and version</li>
 <li>LLVM version</li>
 <li>Pony version</li>
 <li>Compiler version</li>
@@ -377,9 +377,9 @@
 
 <h3 id="locate-the-regression-point">Locate the regression point</h3>
 
-<p>Not every problem a user reports will be caused by a bug introduced in <code>ponyc</code>. Some will be bugs in LLVM, clang, gcc, the OS and what not. However, many bugs will be in <code>ponyc</code>, for these bugs, locating the point the bug was introduced vastly speed up the time to diagnose and fix.</p>
+<p>Not every problem a user reports will be caused by a bug introduced in <code>ponyc</code>. Some will be bugs in LLVM, Clang, GCC, the OS and what not. However, many bugs will be in <code>ponyc</code>, for these bugs, locating the point the bug was introduced vastly speed up the time to diagnose and fix.</p>
 
-<p>Git-bisect is an amazing tool for tracking down when a regression was introduced. If you aren&rsquo;t familiar with git-bisect, its a great tool to learn and will serve you well as a developer. Even without git-bisect you can still locate a regression point. The process goes something like this:</p>
+<p>Git-bisect is an amazing tool for tracking down when a regression was introduced. If you aren&rsquo;t familiar with git-bisect, it&rsquo;s a great tool to learn and will serve you well as a developer. Even without git-bisect, you can still locate a regression point. The process goes something like this:</p>
 
 <ul>
 <li>Create a minimal example that easily demonstrates the problem.</li>
@@ -417,8 +417,8 @@
 <p>Common reasons for adding the label include:</p>
 
 <ul>
-<li>You are doing initial triaging on issue and are unsure of if its a bug or not.</li>
-<li>You are doing initial triaging, are certain its a bug but are unsure of what the fix is.</li>
+<li>You are doing initial triaging on an issue and are unsure of if its a bug or not.</li>
+<li>You are doing initial triaging, are certain it&rsquo;s a bug but are unsure of what the fix is.</li>
 <li>An action required comment has been addressed. For example, the user supplied additional requested information.</li>
 <li>You think the issue needs discussion at the sync</li>
 </ul>
@@ -432,7 +432,7 @@
 
 <h3 id="bug">bug - *</h3>
 
-<p>If it has been determined that the issue is in fact a bug, one of the following labels should be applied:</p>
+<p>If it has been determined that the issue is, in fact, a bug, one of the following labels should be applied:</p>
 
 <p><em>bug - needs investigation</em>: the cause of the bug is unknown. If the issue needs to be discussed during the sync, the &ldquo;needs discussion during sync&rdquo; label should also be added as well.</p>
 
@@ -444,11 +444,11 @@
 
 <h3 id="enhancement">enhancement - *</h3>
 
-<p>The issue isn&rsquo;t a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. Its important to explain why the enhancement requires a RFC. Be sure to add the &ldquo;turn into rfc&rdquo; label as well. If the enhancement doesn&rsquo;t require a RFC, the correct &ldquo;enhancement - *&rdquo; label should be applied.</p>
+<p>The issue isn&rsquo;t a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It&rsquo;s important to explain why the enhancement requires an RFC. Be sure to add the &ldquo;turn into rfc&rdquo; label as well. If the enhancement doesn&rsquo;t require an RFC, the correct &ldquo;enhancement - *&rdquo; label should be applied.</p>
 
-<p><em>enhancement - needs discussion</em> should be applied if additional conversation is required. If that discussion should happen not just on the issue but during the sync call, be sure to add the &ldquo;needs discussion during sync&rdquo; label.</p>
+<p><em>enhancement - needs discussion</em> should be applied if an additional conversation is required. If that discussion should happen not just on the issue but during the sync call, be sure to add the &ldquo;needs discussion during sync&rdquo; label.</p>
 
-<p><em>enhancement - ready for work</em> should be applied if the enhancement is already fully scoped and someone could start work on it. If you are able to, assign the proper difficulty and priority. If you aren&rsquo;t able to assign a difficulty and priority, add the &ldquo;needs discussion during sync&rdquo; label so difficulty and priorty can be discussed.</p>
+<p><em>enhancement - ready for work</em> should be applied if the enhancement is already fully scoped and someone could start work on it. If you are able to, assign the proper difficulty and priority. If you aren&rsquo;t able to assign a difficulty and priority, add the &ldquo;needs discussion during sync&rdquo; label so difficulty and priority can be discussed.</p>
 
 <h3 id="difficulty">difficulty - *</h3>
 
@@ -466,11 +466,11 @@
 
 <p><em>priority - low</em> is applied when there is no pressing need for the issue to be resolved. If it happens in a week, great. A month? ok. A year? alrighty!</p>
 
-<p>Generally most enhancements will be either medium or low priority.</p>
+<p>Generally, most enhancements will be either medium or low priority.</p>
 
 <h3 id="duplicate">duplicate</h3>
 
-<p>The bug is a duplicate of an existing issue. The issue number that it duplicates should be noted, the label applied and the issue closed. In general, its a good idea to get confirmation that the issue is actually a duplicate before closing.</p>
+<p>The bug is a duplicate of an existing issue. The issue number that it duplicates should be noted, the label applied and the issue closed. In general, it&rsquo;s a good idea to get confirmation that the issue is actually a duplicate before closing.</p>
 
 <h3 id="wont-fix">wont fix</h3>
 

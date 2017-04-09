@@ -21,7 +21,7 @@
 
 &lt;p&gt;Note sure where to start?&lt;/p&gt;
 
-&lt;p&gt;If you are new to Pony or don&amp;rsquo;t have a ton of time to devout to helping, we suggest you check out Project Documentation and helping to improve our docs. Contributing to documentation is a great way to start learning Pony. Teaching a subject is an incredible way to learn the subject.&lt;/p&gt;
+&lt;p&gt;If you are new to Pony or don&amp;rsquo;t have a ton of time to devote to helping, we suggest you check out Project Documentation and helping to improve our docs. Contributing to documentation is a great way to start learning Pony. Teaching a subject is an incredible way to learn the subject.&lt;/p&gt;
 
 &lt;p&gt;If you are new to Pony and have more time to devote, check out the Low Hanging Fruit. Tackle stuff from that and if we run out, switch over to helping with documentation.&lt;/p&gt;
 
@@ -29,7 +29,7 @@
 
 &lt;h2 id=&#34;triage-incoming-issues&#34;&gt;Triage incoming issues&lt;/h2&gt;
 
-&lt;p&gt;Users regularly open issues against the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues&#34;&gt;ponyc repository&lt;/a&gt;. Staying on top of them and moving them along to conclusion is an important part of the development process. If you&amp;rsquo;d be interested in helping in this area, please check out our &lt;a href=&#34;triage&#34;&gt;triaging ponyc documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Users regularly open issues against the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues&#34;&gt;ponyc repository&lt;/a&gt;. Staying on top of them and moving them along to a conclusion is an important part of the development process. If you&amp;rsquo;d be interested in helping in this area, please check out our &lt;a href=&#34;triage&#34;&gt;triaging ponyc documentation&lt;/a&gt;.&lt;/p&gt;
 
 &lt;h2 id=&#34;project-documentation&#34;&gt;Project Documentation&lt;/h2&gt;
 
@@ -37,7 +37,7 @@
 
 &lt;h2 id=&#34;low-hanging-fruit&#34;&gt;Low Hanging Fruit&lt;/h2&gt;
 
-&lt;p&gt;When issues come in to the ponyc GitHub project, as part of our initial triaging of issues, some get marked as easy. The general idea behind the easy label to make it simple for people who want to contribute to Pony but don&amp;rsquo;t have much time or knowledge about Pony to be able to contribute. Low hanging fruit issues such as these are a great way to get started with contributing and start learning more about Pony. Check out the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues?q=is%3Aissue+is%3Aopen+label%3A%22difficulty%3A+1+-+easy%22&#34;&gt;Low Hanging Fruit&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;When issues come into the ponyc GitHub project, as part of our initial triaging of issues, some get marked as easy. The general idea behind the easy label to make it simple for people who want to contribute to Pony but don&amp;rsquo;t have much time or knowledge about Pony to be able to contribute. Low hanging fruit issues such as these are a great way to get started with contributing and start learning more about Pony. Check out the &lt;a href=&#34;https://github.com/ponylang/ponyc/issues?q=is:issue+is:open+label:%22difficulty:+1+-+easy%22&#34;&gt;Low Hanging Fruit&lt;/a&gt;.&lt;/p&gt;
 </description>
     </item>
     
@@ -60,13 +60,13 @@
 
 &lt;h2 id=&#34;generated-documentations-improvements&#34;&gt;Generated Documentations Improvements&lt;/h2&gt;
 
-&lt;p&gt;The current generated documentation is hard to parse and could use a facelift in terms of layout and formatting. In addition to changes that would impact the content layout itself,  the mkdocs theme that is currently used has issues with the sidebar functioning in a very frustrating fashion. It doesn&amp;rsquo;t keep the sidebar focused on content you are viewing. It doesn&amp;rsquo;t highlight the correct menu item if you deep link into documentation. And several other issues as well. Lastly, generated documentation isn&amp;rsquo;t online. New pony users have to get pony installed and generate the documentation themselves. That results in multiple hurdles.&lt;/p&gt;
+&lt;p&gt;The current generated documentation is hard to parse and could use a facelift in terms of layout and formatting. In addition to changes that would impact the content layout itself,  the MkDocs theme that is currently used has issues with the sidebar functioning in a very frustrating fashion. It doesn&amp;rsquo;t keep the sidebar focused on content you are viewing. It doesn&amp;rsquo;t highlight the correct menu item if you deep link into documentation. And several other issues as well. Lastly, generated documentation isn&amp;rsquo;t online. New pony users have to get pony installed and generate the documentation themselves. That results in multiple hurdles.&lt;/p&gt;
 
 &lt;p&gt;We want to:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Get docs building automatically on each commit and hosted at ReadTheDocs.&lt;/li&gt;
-&lt;li&gt;Switch to the Read the docs theme that solves the sidebar issues (mkdocs is a pale imitation)&lt;/li&gt;
+&lt;li&gt;Switch to the Read the docs theme that solves the sidebar issues (MkDocs is a pale imitation)&lt;/li&gt;
 &lt;li&gt;Improve the layout and formatting of documentation itself.&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -115,16 +115,16 @@
 &lt;li&gt;What CPU are they running on?&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;Mind you, answers to every one of the questions isn&amp;rsquo;t required. As you become a more knowledgeable triager, you&amp;rsquo;ll develop a sense of which questions are required for different sorts of problems.&lt;/p&gt;
+&lt;p&gt;Mind you, answers to every one of the questions aren&amp;rsquo;t required. As you become a better at triaging, you&amp;rsquo;ll develop a sense of which questions are required for different sorts of problems.&lt;/p&gt;
 
 &lt;h3 id=&#34;verify-the-issue&#34;&gt;Verify the issue&lt;/h3&gt;
 
 &lt;p&gt;Can you reproduce? It&amp;rsquo;s an important first step. A user is going to be reporting a problem on a specific platform. Can you reproduce using that platform? Can you reproduce on another?&lt;/p&gt;
 
-&lt;p&gt;If a Debian Linux user reports a bug, its very helpful to know if it impacts other platforms such as OSX. We want to find out how broad the bug is based on any of the following relevant factors:&lt;/p&gt;
+&lt;p&gt;If a Debian Linux user reports a bug, it&amp;rsquo;s very helpful to know if it impacts other platforms such as OSX. We want to find out how broad the bug is based on any of the following relevant factors:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;OS, distribution and version&lt;/li&gt;
+&lt;li&gt;OS, distribution, and version&lt;/li&gt;
 &lt;li&gt;LLVM version&lt;/li&gt;
 &lt;li&gt;Pony version&lt;/li&gt;
 &lt;li&gt;Compiler version&lt;/li&gt;
@@ -138,9 +138,9 @@
 
 &lt;h3 id=&#34;locate-the-regression-point&#34;&gt;Locate the regression point&lt;/h3&gt;
 
-&lt;p&gt;Not every problem a user reports will be caused by a bug introduced in &lt;code&gt;ponyc&lt;/code&gt;. Some will be bugs in LLVM, clang, gcc, the OS and what not. However, many bugs will be in &lt;code&gt;ponyc&lt;/code&gt;, for these bugs, locating the point the bug was introduced vastly speed up the time to diagnose and fix.&lt;/p&gt;
+&lt;p&gt;Not every problem a user reports will be caused by a bug introduced in &lt;code&gt;ponyc&lt;/code&gt;. Some will be bugs in LLVM, Clang, GCC, the OS and what not. However, many bugs will be in &lt;code&gt;ponyc&lt;/code&gt;, for these bugs, locating the point the bug was introduced vastly speed up the time to diagnose and fix.&lt;/p&gt;
 
-&lt;p&gt;Git-bisect is an amazing tool for tracking down when a regression was introduced. If you aren&amp;rsquo;t familiar with git-bisect, its a great tool to learn and will serve you well as a developer. Even without git-bisect you can still locate a regression point. The process goes something like this:&lt;/p&gt;
+&lt;p&gt;Git-bisect is an amazing tool for tracking down when a regression was introduced. If you aren&amp;rsquo;t familiar with git-bisect, it&amp;rsquo;s a great tool to learn and will serve you well as a developer. Even without git-bisect, you can still locate a regression point. The process goes something like this:&lt;/p&gt;
 
 &lt;ul&gt;
 &lt;li&gt;Create a minimal example that easily demonstrates the problem.&lt;/li&gt;
@@ -178,8 +178,8 @@
 &lt;p&gt;Common reasons for adding the label include:&lt;/p&gt;
 
 &lt;ul&gt;
-&lt;li&gt;You are doing initial triaging on issue and are unsure of if its a bug or not.&lt;/li&gt;
-&lt;li&gt;You are doing initial triaging, are certain its a bug but are unsure of what the fix is.&lt;/li&gt;
+&lt;li&gt;You are doing initial triaging on an issue and are unsure of if its a bug or not.&lt;/li&gt;
+&lt;li&gt;You are doing initial triaging, are certain it&amp;rsquo;s a bug but are unsure of what the fix is.&lt;/li&gt;
 &lt;li&gt;An action required comment has been addressed. For example, the user supplied additional requested information.&lt;/li&gt;
 &lt;li&gt;You think the issue needs discussion at the sync&lt;/li&gt;
 &lt;/ul&gt;
@@ -193,7 +193,7 @@
 
 &lt;h3 id=&#34;bug&#34;&gt;bug - *&lt;/h3&gt;
 
-&lt;p&gt;If it has been determined that the issue is in fact a bug, one of the following labels should be applied:&lt;/p&gt;
+&lt;p&gt;If it has been determined that the issue is, in fact, a bug, one of the following labels should be applied:&lt;/p&gt;
 
 &lt;p&gt;&lt;em&gt;bug - needs investigation&lt;/em&gt;: the cause of the bug is unknown. If the issue needs to be discussed during the sync, the &amp;ldquo;needs discussion during sync&amp;rdquo; label should also be added as well.&lt;/p&gt;
 
@@ -205,11 +205,11 @@
 
 &lt;h3 id=&#34;enhancement&#34;&gt;enhancement - *&lt;/h3&gt;
 
-&lt;p&gt;The issue isn&amp;rsquo;t a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. Its important to explain why the enhancement requires a RFC. Be sure to add the &amp;ldquo;turn into rfc&amp;rdquo; label as well. If the enhancement doesn&amp;rsquo;t require a RFC, the correct &amp;ldquo;enhancement - *&amp;rdquo; label should be applied.&lt;/p&gt;
+&lt;p&gt;The issue isn&amp;rsquo;t a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It&amp;rsquo;s important to explain why the enhancement requires an RFC. Be sure to add the &amp;ldquo;turn into rfc&amp;rdquo; label as well. If the enhancement doesn&amp;rsquo;t require an RFC, the correct &amp;ldquo;enhancement - *&amp;rdquo; label should be applied.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;enhancement - needs discussion&lt;/em&gt; should be applied if additional conversation is required. If that discussion should happen not just on the issue but during the sync call, be sure to add the &amp;ldquo;needs discussion during sync&amp;rdquo; label.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;enhancement - needs discussion&lt;/em&gt; should be applied if an additional conversation is required. If that discussion should happen not just on the issue but during the sync call, be sure to add the &amp;ldquo;needs discussion during sync&amp;rdquo; label.&lt;/p&gt;
 
-&lt;p&gt;&lt;em&gt;enhancement - ready for work&lt;/em&gt; should be applied if the enhancement is already fully scoped and someone could start work on it. If you are able to, assign the proper difficulty and priority. If you aren&amp;rsquo;t able to assign a difficulty and priority, add the &amp;ldquo;needs discussion during sync&amp;rdquo; label so difficulty and priorty can be discussed.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;enhancement - ready for work&lt;/em&gt; should be applied if the enhancement is already fully scoped and someone could start work on it. If you are able to, assign the proper difficulty and priority. If you aren&amp;rsquo;t able to assign a difficulty and priority, add the &amp;ldquo;needs discussion during sync&amp;rdquo; label so difficulty and priority can be discussed.&lt;/p&gt;
 
 &lt;h3 id=&#34;difficulty&#34;&gt;difficulty - *&lt;/h3&gt;
 
@@ -227,11 +227,11 @@
 
 &lt;p&gt;&lt;em&gt;priority - low&lt;/em&gt; is applied when there is no pressing need for the issue to be resolved. If it happens in a week, great. A month? ok. A year? alrighty!&lt;/p&gt;
 
-&lt;p&gt;Generally most enhancements will be either medium or low priority.&lt;/p&gt;
+&lt;p&gt;Generally, most enhancements will be either medium or low priority.&lt;/p&gt;
 
 &lt;h3 id=&#34;duplicate&#34;&gt;duplicate&lt;/h3&gt;
 
-&lt;p&gt;The bug is a duplicate of an existing issue. The issue number that it duplicates should be noted, the label applied and the issue closed. In general, its a good idea to get confirmation that the issue is actually a duplicate before closing.&lt;/p&gt;
+&lt;p&gt;The bug is a duplicate of an existing issue. The issue number that it duplicates should be noted, the label applied and the issue closed. In general, it&amp;rsquo;s a good idea to get confirmation that the issue is actually a duplicate before closing.&lt;/p&gt;
 
 &lt;h3 id=&#34;wont-fix&#34;&gt;wont fix&lt;/h3&gt;
 
