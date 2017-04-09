@@ -334,16 +334,6 @@
 
 <p>Ready to learn Pony? Awesome.</p>
 
-<h2 id="getting-started">Getting started</h2>
-
-<p>We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online.</p>
-
-<ul>
-<li><a href="http://tutorial.ponylang.org">Tutorial</a>.</li>
-<li><a href="http://patterns.ponylang.org">Pony Patterns</a> cookbook is in progress</li>
-<li><a href="http://ponylang.github.io/ponyc/">Standard library docs</a>.</li>
-</ul>
-
 <h2 id="getting-help">Getting help</h2>
 
 <p>If you run into trouble while you are learning Pony, don&rsquo;t worry, we&rsquo;ve got you covered. You have a couple different options on how you can get help from the Pony community. If you are looking for an answer &ldquo;right now&rdquo;, we suggest you give our IRC channel a try. It&rsquo;s #ponylang on Freenode. If you ask a question, be sure to hang around until you get an answer. If you don&rsquo;t get one, or IRC isn&rsquo;t your thing, we have a friendly mailing list you can try. Whatever your question is, it isn&rsquo;t dumb, and we won&rsquo;t get annoyed.</p>
@@ -359,7 +349,66 @@
 <li><a href="https://github.com/ponylang/ponyc/issues">Open an issue</a></li>
 </ul>
 
-<p>The Pony community while small is very helpful and inviting. We think you&rsquo;ll find interacting with us to be an ejoyable experience. You can find a lot more community related resources in the <a href="/community">community section</a> of this site.</p>
+<p>The Pony community while small is very helpful and inviting. We think you&rsquo;ll find interacting with us to be an enjoyable experience. You can find a lot more community-related resources in the <a href="/community">community section</a> of this site.</p>
+
+<h2 id="getting-started">Getting started</h2>
+
+<p>We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online.</p>
+
+<ul>
+<li><a href="http://tutorial.ponylang.org">Tutorial</a>.</li>
+<li><a href="http://patterns.ponylang.org">Pony Patterns</a> cookbook is in progress</li>
+<li><a href="http://ponylang.github.io/ponyc/">Standard library docs</a>.</li>
+</ul>
+
+<h2 id="reference-capabilities">Reference capabilities</h2>
+
+<p>If you are like most people learning Pony, your biggest stumbling block is going to be <a href="https://tutorial.ponylang.org/capabilities/reference-capabilities.html">reference capabilities</a>. Reference capabilities look like a very foreign concept to most folks. This isn&rsquo;t surprising as they are one of the ideas that make Pony unique. Lots of folks get frustrated while learning reference capabilities and end up thinking that Pony has &ldquo;too much type system&rdquo; or is &ldquo;too hard&rdquo;. While we don&rsquo;t agree with such assessments, we will agree that they can be quite hard for some folks to get a handle on.</p>
+
+<h3 id="what-are-reference-capabilities">What are reference capabilities</h3>
+
+<p>Reference capabilities allow you the programmer to use Pony type system to guarantee that you are safely handling data in your application. If you try to do something unsafe, your program won&rsquo;t compile.</p>
+
+<h3 id="what-background-do-i-need">What background do I need?</h3>
+
+<p>We&rsquo;ve noticed that folks who have the easiest time with reference capabilities tend to have a couple things in common:</p>
+
+<ul>
+<li>Familiarity with at least one strongly types language</li>
+<li>Experience working in a highly concurrent, non-actor based language</li>
+</ul>
+
+<p>If you are coming from a dynamically typed background then reference capabilities are probably going to be doubly hard for you. Why? Well, you are going to be learning to navigate general type errors in general and then, you&rsquo;ll have the added overhead of reference capabilities related type errors. It&rsquo;s quite possible to get over the hump but just be aware you are in for a bit more work. More important that your type system background is your &ldquo;concurrency background&rdquo;.</p>
+
+<p>While reference capabilities might seem exotic, they aren&rsquo;t really. They codify in the type system safe data handling practices that many programmers have learned over the course of time. If you have previously worked in a highly-concurrent, thread-based programming language like Java or C++ then there&rsquo;s a chance that you have a leg up on learning reference capabilities.</p>
+
+<p>We&rsquo;re not going to pretend that all programmers know how to safely handle data when using threads. If they did, we wouldn&rsquo;t need Pony. The sad fact is, handling data correctly when you have many threads is hard. Even the most experienced programmer makes mistakes and they are really hard to go back and find. That said, if you are at least used to think about how different threads interact with data in your program, you have a leg up. Reference capabilities are all about describing for the compiler how data should be handled.</p>
+
+<p>So, if you are coming from a single-threaded language like Ruby or Python, odds are, you haven&rsquo;t thought a lot about many threads safely accessing your variables. That&rsquo;s ok, it just means you are going to have more work to do on understanding the concepts that the various reference capabilities represent.
+If you get hung up on something, don&rsquo;t worry. <a href="#getting-help">We&rsquo;re here to help</a>.</p>
+
+<h3 id="reference-capabilities-resources">Reference capabilities resources</h3>
+
+<div class="admonition note">
+<p class="admonition-title">A note about code samples</p>
+<p>All recommended resource are incredibly helpful but represent Pony at a given point in time. While the core concepts will remain static, it&rsquo;s possible that individual code examples will no longer compile with the latest versions of Pony. Pony is pre-1.0 and breaking changes are still quite common. If you run into code that doesn&rsquo;t work, reach out and <a href="#getting-help">get help</a>.</p>
+</div>
+
+<p>There are 3 primary resources that we currently recommend for understanding reference capabilities:</p>
+
+<ul>
+<li><a href="http://jtfmumm.com/blog/2016/03/06/safely-sharing-data-pony-reference-capabilities/">Safely Sharing Data: Reference Capabilities in Pony</a></li>
+<li><a href="https://vimeo.com/163871856">Pony VUG #1: Sylvan Clebsch - Writing Generic Code</a></li>
+<li><a href="https://bluishcoder.co.nz/2016/05/04/bang-hat-and-arrow-in-pony.html">Bang, Hat and Arrow in Pony</a></li>
+</ul>
+
+<p>We suggest you start with John Mumm&rsquo;s excellent overview &ldquo;<a href="http://jtfmumm.com/blog/2016/03/06/safely-sharing-data-pony-reference-capabilities/">Safely Sharing Data: Reference Capabilities in Pony</a>&rdquo;. It&rsquo;s a good general overview reference capabilities and why they exist. From there, continue on and what Sylvan&rsquo;s Pony Virtual Users&rsquo; Group presentation on &ldquo;<a href="https://vimeo.com/163871856">Writing Generic Code</a>&rdquo;. A lot of what you see and watch in that video is going to go over your head. Don&rsquo;t worry, that happens to everyone. We suggest that you pair it with &ldquo;<a href="https://bluishcoder.co.nz/2016/05/04/bang-hat-and-arrow-in-pony.html">Bang, Hat and Arrow in Pony</a>&rdquo;. It&rsquo;s an excellent write-up of the concepts introduced in the video.</p>
+
+<p>Generics and references capabilities are the hardest things to get a handle on while learning Pony so don&rsquo;t get frustrated. It&rsquo;s not just you. We all go through this. During the video, you&rsquo;ll hear one of our core team members, Sean T. Allen, commenting at numerous points that he was sort of following everything but not all of it. Sean now has a strong grasp on all the concepts. It takes time.</p>
+
+<p>Our recommendation is to <a href="https://vimeo.com/163871856">watch the video</a>, read &ldquo;<a href="https://bluishcoder.co.nz/2016/05/04/bang-hat-and-arrow-in-pony.html">Bang, Hat and Arrow in Pony</a>&rdquo; and then try writing code that uses generic classes like collections. Once you have a handle on using generic classes, move on to trying to write your own generic classes. All the while, repeatedly return to watching the video and reading the accompanying blog post.</p>
+
+<p>Don&rsquo;t worry. You will get it. And remember, the <a href="#getting-help">helpful Pony community</a> is waiting to assist.</p>
 
 
       <aside class="copyright" role="note">
