@@ -24,15 +24,15 @@ Commonly needed information includes:
 * Are they running debug version of their program?
 * What CPU are they running on?
 
-Mind you, answers to every one of the questions isn't required. As you become a more knowledgeable triager, you'll develop a sense of which questions are required for different sorts of problems.
+Mind you, answers to every one of the questions aren't required. As you become a better at triaging, you'll develop a sense of which questions are required for different sorts of problems.
 
 ### Verify the issue
 
 Can you reproduce? It's an important first step. A user is going to be reporting a problem on a specific platform. Can you reproduce using that platform? Can you reproduce on another?
 
-If a Debian Linux user reports a bug, its very helpful to know if it impacts other platforms such as OSX. We want to find out how broad the bug is based on any of the following relevant factors:
+If a Debian Linux user reports a bug, it's very helpful to know if it impacts other platforms such as OSX. We want to find out how broad the bug is based on any of the following relevant factors:
 
-* OS, distribution and version
+* OS, distribution, and version
 * LLVM version
 * Pony version
 * Compiler version 
@@ -45,9 +45,9 @@ Users will often provide source code to demonstrate the problem they are experie
 
 ### Locate the regression point
 
-Not every problem a user reports will be caused by a bug introduced in `ponyc`. Some will be bugs in LLVM, clang, gcc, the OS and what not. However, many bugs will be in `ponyc`, for these bugs, locating the point the bug was introduced vastly speed up the time to diagnose and fix.
+Not every problem a user reports will be caused by a bug introduced in `ponyc`. Some will be bugs in LLVM, Clang, GCC, the OS and what not. However, many bugs will be in `ponyc`, for these bugs, locating the point the bug was introduced vastly speed up the time to diagnose and fix.
 
-Git-bisect is an amazing tool for tracking down when a regression was introduced. If you aren't familiar with git-bisect, its a great tool to learn and will serve you well as a developer. Even without git-bisect you can still locate a regression point. The process goes something like this:
+Git-bisect is an amazing tool for tracking down when a regression was introduced. If you aren't familiar with git-bisect, it's a great tool to learn and will serve you well as a developer. Even without git-bisect, you can still locate a regression point. The process goes something like this:
 
 * Create a minimal example that easily demonstrates the problem.
 * Pick a commit from the past.
@@ -80,8 +80,8 @@ The agenda for each Pony development weekly sync is determined by looking for an
 
 Common reasons for adding the label include:
 
-* You are doing initial triaging on issue and are unsure of if its a bug or not.
-* You are doing initial triaging, are certain its a bug but are unsure of what the fix is.
+* You are doing initial triaging on an issue and are unsure of if its a bug or not.
+* You are doing initial triaging, are certain it's a bug but are unsure of what the fix is.
 * An action required comment has been addressed. For example, the user supplied additional requested information.
 * You think the issue needs discussion at the sync
 
@@ -92,7 +92,7 @@ Common reasons for removing the tag include:
 
 ### bug - *
 
-If it has been determined that the issue is in fact a bug, one of the following labels should be applied:
+If it has been determined that the issue is, in fact, a bug, one of the following labels should be applied:
 
 _bug - needs investigation_: the cause of the bug is unknown. If the issue needs to be discussed during the sync, the "needs discussion during sync" label should also be added as well.
 
@@ -104,11 +104,11 @@ _bug - in progress_: someone has already started working on fixing the issue.
 
 ### enhancement - *
 
-The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. Its important to explain why the enhancement requires a RFC. Be sure to add the "turn into rfc" label as well. If the enhancement doesn't require a RFC, the correct "enhancement - *" label should be applied. 
+The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It's important to explain why the enhancement requires an RFC. Be sure to add the "turn into rfc" label as well. If the enhancement doesn't require an RFC, the correct "enhancement - *" label should be applied. 
 
-_enhancement - needs discussion_ should be applied if additional conversation is required. If that discussion should happen not just on the issue but during the sync call, be sure to add the "needs discussion during sync" label.
+_enhancement - needs discussion_ should be applied if an additional conversation is required. If that discussion should happen not just on the issue but during the sync call, be sure to add the "needs discussion during sync" label.
 
-_enhancement - ready for work_ should be applied if the enhancement is already fully scoped and someone could start work on it. If you are able to, assign the proper difficulty and priority. If you aren't able to assign a difficulty and priority, add the "needs discussion during sync" label so difficulty and priorty can be discussed.
+_enhancement - ready for work_ should be applied if the enhancement is already fully scoped and someone could start work on it. If you are able to, assign the proper difficulty and priority. If you aren't able to assign a difficulty and priority, add the "needs discussion during sync" label so difficulty and priority can be discussed.
 
 ### difficulty - *
 
@@ -126,11 +126,11 @@ _priority - medium_ should be applied to issues we would like to handled in the 
 
 _priority - low_ is applied when there is no pressing need for the issue to be resolved. If it happens in a week, great. A month? ok. A year? alrighty! 
 
-Generally most enhancements will be either medium or low priority.
+Generally, most enhancements will be either medium or low priority.
 
 ### duplicate
 
-The bug is a duplicate of an existing issue. The issue number that it duplicates should be noted, the label applied and the issue closed. In general, its a good idea to get confirmation that the issue is actually a duplicate before closing.
+The bug is a duplicate of an existing issue. The issue number that it duplicates should be noted, the label applied and the issue closed. In general, it's a good idea to get confirmation that the issue is actually a duplicate before closing.
 
 ### wont fix
 

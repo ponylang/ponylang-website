@@ -10,12 +10,12 @@ There's currently a small project underway to improve Pony documentation. We hav
 
 ## Generated Documentations Improvements
 
-The current generated documentation is hard to parse and could use a facelift in terms of layout and formatting. In addition to changes that would impact the content layout itself,  the mkdocs theme that is currently used has issues with the sidebar functioning in a very frustrating fashion. It doesn't keep the sidebar focused on content you are viewing. It doesn't highlight the correct menu item if you deep link into documentation. And several other issues as well. Lastly, generated documentation isn't online. New pony users have to get pony installed and generate the documentation themselves. That results in multiple hurdles.
+The current generated documentation is hard to parse and could use a facelift in terms of layout and formatting. In addition to changes that would impact the content layout itself,  the MkDocs theme that is currently used has issues with the sidebar functioning in a very frustrating fashion. It doesn't keep the sidebar focused on content you are viewing. It doesn't highlight the correct menu item if you deep link into documentation. And several other issues as well. Lastly, generated documentation isn't online. New pony users have to get pony installed and generate the documentation themselves. That results in multiple hurdles.
 
 We want to:
 
 * Get docs building automatically on each commit and hosted at ReadTheDocs.
-* Switch to the Read the docs theme that solves the sidebar issues (mkdocs is a pale imitation)
+* Switch to the Read the docs theme that solves the sidebar issues (MkDocs is a pale imitation)
 * Improve the layout and formatting of documentation itself.
 
 ## Improving Examples
@@ -27,4 +27,3 @@ The examples that come with Pony are often not idiomatic. One of the ways people
 There's plenty that people bring up as needing improvement/missing from the Tutorial.
 
 If you are interested in working on this project, please contact Sean T Allen <sean@monkeysnatchbanana.com> 
-
