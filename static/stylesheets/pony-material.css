@@ -49,6 +49,9 @@ dd {
   background: #d50000;
 }
 
+.admonition.note {
+  background: #2962ff;
+}
 /* author related info */
 
 section.author .meta {
