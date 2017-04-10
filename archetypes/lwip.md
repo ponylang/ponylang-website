@@ -3,7 +3,7 @@ draft = true
 author = "Author Name"
 description = "This Week in Pony - MONTH DAY, YEAR"
 categories = [
-    "This Week in Pony",
+    "Last Week in Pony",
 ]
 slug = "last-week-in-pony"
 +++
