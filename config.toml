@@ -75,9 +75,14 @@ canonifyurls = false
 	weight = 60
 
 [[menu.main]]
+	name   = "FAQ"
+	url    = "/faq/"
+	weight = 70
+
+[[menu.main]]
 	name   = "Code of Conduct"
 	url    = "/community/code-of-conduct/"
-	weight = 70
+	weight = 80
 
 [blackfriday]
 	smartypants	= true
