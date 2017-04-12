@@ -3,7 +3,7 @@ author: colinobrien
 categories:
 - Last Week in Pony
 date: 2017-04-10T21:34:01-04:00
-description: Last Week in Pony - April 10, 2017
+description: Last week's Pony news, reported this week.
 draft: false
 title: Last Week in Pony - April 10, 2017
 ---

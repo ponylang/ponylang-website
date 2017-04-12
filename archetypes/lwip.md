@@ -1,7 +1,7 @@
 +++
 draft = true
 author = "Author Name"
-description = "Last Week in Pony - MONTH DAY, YEAR"
+description = "Last week's Pony news, reported this week."
 categories = [
     "Last Week in Pony",
 ]
