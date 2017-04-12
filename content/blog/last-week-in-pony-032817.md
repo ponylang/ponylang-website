@@ -5,7 +5,6 @@ date = "2017-03-28T12:48:57-04:00"
 draft = false
 tags = []
 title = "Last Week in Pony - March 28, 2017"
-slug = "last-week-in-pony"
 +++
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
