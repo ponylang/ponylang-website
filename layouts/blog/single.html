@@ -35,7 +35,7 @@
           {{ $ncats := sub (len .Params.categories) 1}}
           {{ range $index, $tag := .Params.categories }}
             {{ $url := printf "categories/%s" ( . | urlize) }}
-            <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
+            <a href="{{ $url | relURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
           {{ end }}
         {{ end }}
       </h4>
@@ -50,7 +50,7 @@
           {{ $ntags := sub (len .Params.tags) 1}}
           {{ range $index, $tag := .Params.tags }}
             {{ $url := printf "tags/%s" ( . | urlize) }}
-            <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ntags }}, {{ end }}
+            <a href="{{ $url | relURL }}">{{ . }}</a>{{if ne $index $ntags }}, {{ end }}
           {{ end }}
         </div>
       </section>

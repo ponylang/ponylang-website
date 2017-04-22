@@ -8,9 +8,9 @@
     {{ end }}
     </script>
 
-    <script src="{{ "javascripts/application.js" | absURL }}"></script>
+    <script src="{{ "javascripts/application.js" | relURL }}"></script>
     {{ range .Site.Params.custom_js }}
-    <script src="{{ . | absURL }}"></script>
+    <script src="{{ . | relURL }}"></script>
     {{ end }}
 
     <script>
@@ -94,7 +94,7 @@
     {{ end }}
 
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="{{ "javascripts/smooth-scroll.min.js" | absURL }}"></script>
+    <script src="{{ "javascripts/smooth-scroll.min.js" | relURL }}"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.8.0/highlight.min.js"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.10.0/languages/pony.min.js"></script>
     <script>

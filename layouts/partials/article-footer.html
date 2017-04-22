@@ -14,7 +14,7 @@
 <nav class="pagination" aria-label="Footer">
   <div class="previous">
   {{ if .PrevInSection }}
-      <a href="{{ .PrevInSection.Permalink }}" title="{{ .PrevInSection.Title }}">
+      <a href="{{ .PrevInSection.RelPermalink }}" title="{{ .PrevInSection.Title }}">
         <span class="direction">
           Previous
         </span>
@@ -34,7 +34,7 @@
 
   <div class="next">
   {{ if .NextInSection }}
-      <a href="{{ .NextInSection.Permalink }}" title="{{ .NextInSection.Title }}">
+      <a href="{{ .NextInSection.RelPermalink }}" title="{{ .NextInSection.Title }}">
         <span class="direction">
           Next
         </span>
