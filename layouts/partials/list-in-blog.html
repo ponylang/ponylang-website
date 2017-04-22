@@ -27,7 +27,7 @@
       <h1>{{ .Title | singularize }}</h1>
 
       {{ range .Data.Pages }}
-      <a href="{{ .Permalink }}" title="{{ .Title }}">
+      <a href="{{ .RelPermalink }}" title="{{ .Title }}">
         <h2>{{ .Title }}</h2>
       </a>
       <section class="blog-meta">
@@ -38,7 +38,7 @@
           {{ $ncats := sub (len .Params.categories) 1}}
           {{ range $index, $tag := .Params.categories }}
             {{ $url := printf "categories/%s" ( . | urlize) }}
-            <a href="{{ $url | absURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
+            <a href="{{ $url | relURL }}">{{ . }}</a>{{if ne $index $ncats }}, {{ end }}
           {{ end }}
         {{ end }}
       </h4>
@@ -49,7 +49,7 @@
       {{ else }}
       <p>{{ .Description | markdownify }}</p>
       {{ end }}
-      <p class="readmore"><a href="{{ .Permalink }}">Read more...</a></p>
+      <p class="readmore"><a href="{{ .RelPermalink }}">Read more...</a></p>
       <hr>
       {{ end }}
 
