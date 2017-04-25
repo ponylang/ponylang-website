@@ -1,7 +1,6 @@
 baseurl = "//www.ponylang.org"
 languageCode = "en-us"
 title = "Pony"
-theme = "hugo-material-docs"
 metadataformat = "yaml"
 canonifyurls = false
 # Enable Google Analytics by entering your tracking id
