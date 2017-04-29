@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 author = "Author Name"
 description = "Last week's Pony news, reported this week."
 categories = [

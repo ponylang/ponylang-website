@@ -1,5 +1,5 @@
 +++
-draft = true
+draft = false
 author = "Author Name"
 categories = [
     "Release",
