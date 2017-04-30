@@ -34,4 +34,4 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### Final Comment Period
   
-The ["More persistent collections"](https://github.com/ponylang/rfcs/pull/88) RFC has entered final comment period. Expect a vote soon.
+- The ["More persistent collections"](https://github.com/ponylang/rfcs/pull/88) RFC has entered final comment period. Expect a vote soon.
