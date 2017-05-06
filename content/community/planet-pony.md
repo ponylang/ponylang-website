@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* [An Early History of Pony](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/)
 * [Pony Vug #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony](https://vimeo.com/202387915)
 * [Découverte du langage Pony](https://zestedesavoir.com/articles/1329/decouverte-du-langage-pony/)
 
