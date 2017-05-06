@@ -21,7 +21,7 @@
     {{ end }}
 
     <meta property="og:url" content="{{ .RelPermalink }}">
-    {{ with .Site.Title }}<meta property="og:title" content="{{ . }}">{{ end }}
+    <meta property="og:title" content="{{ .Title }}{{ if not .IsHome }} - {{ .Site.Title }}{{ end }}">
     {{ with .Site.Params.logo }}<meta property="og:image" content="{{ . | relURL }}">{{ end }}
     {{ with .Site.Title }}<meta name="apple-mobile-web-app-title" content="{{ . }}">{{ end }}
     <meta name="apple-mobile-web-app-capable" content="yes">
