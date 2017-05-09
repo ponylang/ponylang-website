@@ -70,7 +70,7 @@ That's right! We did it. We built the thing. We started in June 2014 and by Sept
 
 When we did, I sent Sean a note telling him that I had built a thing. He wrote back. That turned out to be a _really_ big deal. Really big.
 
-We continued to do research at the same time, refining the type system and the various runtime protocols. Juliana Franco started doing some of her Ph.D. work around the Pony garbage collector. Two more Imperial students, George Steed and Luke Cheeseman, did extensive projects. Tobias Wrigstad and Dave Cunningham made the decision to base _their_ language, Encore, on the Pony runtime.
+We continued to do research at the same time, refining the type system and the various runtime protocols. Juliana Franco started doing some of her Ph.D. work around the Pony garbage collector. Two more Imperial students, George Steed and Luke Cheeseman, did extensive projects. Tobias Wrigstad and Dave Clarke made the decision to base _their_ language, Encore, on the Pony runtime.
 
 Unfortunately, a start-up based on a programming language is a notoriously bad idea. I'm not saying it's impossible - but there isn't a great track record for them, and unfortunately, Causality went the same way.
 
