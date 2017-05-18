@@ -36,7 +36,7 @@ Reference capabilities allow you the programmer to use Pony type system to guara
 
 We've noticed that folks who have the easiest time with reference capabilities tend to have a couple things in common:
 
-- Familiarity with at least one strongly types language
+- Familiarity with at least one strongly-typed language
 - Experience working in a highly concurrent, non-actor based language
 
 If you are coming from a dynamically typed background then reference capabilities are probably going to be doubly hard for you. Why? Well, you are going to be learning to navigate general type errors in general and then, you'll have the added overhead of reference capabilities related type errors. It's quite possible to get over the hump but just be aware you are in for a bit more work. More important that your type system background is your "concurrency background".
