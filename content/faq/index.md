@@ -10,7 +10,7 @@ Check out ["An Early History of Pony"](https://www.ponylang.org/blog/2017/05/an-
 
 ### Why's it called "Pony"?
 
-Interesting question. We here that a lot. If you read enough of ["An Early History of Pony"](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/), you'll get your answer.
+Interesting question. We hear that a lot. If you read enough of ["An Early History of Pony"](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/), you'll get your answer.
 
 ### What makes Pony different?
 
