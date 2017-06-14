@@ -5,6 +5,8 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* [What's Next for Our Programming Languages? (QCon London)](https://www.infoq.com/presentations/panel-languages-future)
+* [Pony: Co-designing a Type-system and a Runtime (QCon London)](https://www.infoq.com/presentations/pony-type-system)
 * [Learning Pony](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/)
 * [An Early History of Pony](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/)
 * [Pony Vug #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony](https://vimeo.com/202387915)
