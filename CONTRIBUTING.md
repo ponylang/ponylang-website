@@ -10,13 +10,17 @@ The Pony website is generated using [Hugo]: a static website generator. If you a
 
 Because the site is deploying using a remote server, you should make sure you are developing using whatever version the deploy server is currently running. At the moment, that is the latest verison of hugo available via `homebrew`. Currently that is v0.19.
 
-## How this repo is organized
+## Ponylang.org hosting
 
-All Hugo source content is stored in the `source` branch in this repo. All generated content is stored in the `master` branch. No human should ever be making changes to the `master` branch.
+Ponylang.org is hosted using [Netlify].
 
 ## Deploying the website
 
-Any push to the `source` branch, including merging of PRs, will cause [TravisCI] to build the website using Hugo and will deploy the final content to the `master` branch where it will be served via GitHub pages. You, as a human, should never attempt to manually deploy the website. If you are interested how the process works, check out the `.travis.yml` and `deploy.sh` files.
+Any update to the `master` branch kicks off a build process on Netlify that will result in the website being updated. Previews of changes are available via our PR process. 
+
+Netlify offers "deploy previews" that allow you to view the results of a PR before it goes live. Each PR will kick off the creation of a preview that can be view changes before merging. The Netlify preview is available as part of the PR as a "check". 
+
+To see the preview, on the PR page select `Show all checks` and then click `Details` next to `deploy/netlify - Deploy preview is ready!`
 
 ## Developing locally with Hugo
 
@@ -46,5 +50,9 @@ Be sure to keep your PR to a single topic or logical change. If you are working 
 
 If your PR is for a single logical change (which is should be) but spans multiple commits, we'll ask you to squash them into a single commit before we merge. Steve Klabnik wrote a handy guide for that: [How to squash commits in a GitHub pull request](http://blog.steveklabnik.com/posts/2012-11-08-how-to-squash-commits-in-a-github-pull-request).
 
+## Relative vs Absolute links
+
+Favor relative links for any content on ponylang.org. Absolute links that point to `https://www.ponylang.org` don't play well with Netlify deploy previews. Absolute links will redirect you off the preview website and onto the live website. For this reason, relative links are preferred.
+
 [Hugo]: https://gohugo.io
-[TravisCI]: https://travis-ci.org
+[Netlify]: https://www.netlify.com/.
