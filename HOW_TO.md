@@ -80,3 +80,56 @@ Collect any content submitted from the current GitHub issue. Organize it in a wa
 Once you have your content complete, commit your changes on the branch and open a PR. As part of the PR process, Netlify will run and a preview of the deploy will be available. 
 
 After the PR is open, close the current "Last Week in Pony" issue and open a new one. **Remember to add the `last-week-in-pony` label**. Without that label, the "submit content" link in the blog post will point to nothing.
+
+## Release blog post
+
+Each pony release is accompanied by a corresponding "Release" blog post. The purpose of the blog post is to inform the community of what changes were in a release. We announce the release by linking to the blog post. 
+
+### Creating a "Release" file
+
+Although you can create a new "Release" by hand, we recommend installing Hugo. Please see [Contributing](CONTRIBUTING.md) for more information on basic development setup and processes.
+
+1. Checkout the `master` branch and make sure you are up to date.
+2. Create a new branch for the "Release". If you were creating one for the release of 0.15.0:
+
+`git checkout -b release-0.15.0`
+
+3. Run Hugo to generate a new  entry from the "Release" archetype:
+
+`hugo new --kind release blog/0.15.0-released.md`
+
+Note that the version released is part of the file name.
+
+### "Release" metadata
+
+Each generated blog post includes some Hugo metadata at the top. It looks something like:
+
+```
+author: Author Name
+categories:
+- Release
+date: 2017-06-22T06:32:55-04:00
+draft: false
+title: 0.15.0 released
+```
+
+Each "Release" requires a couple of changes to the generated metadata. 
+
+1. Update `author` from `Author Name` to your author name. For example, `seantallen`. You'll need to have set up your author info before this will work.
+2. Change `date` from whatever value it has to the date the "Release" should be published. If you are doing the release notes the same day you are publishing, you can leave this as is.
+
+### "Release" content
+
+If this is your first release, review previous release posts to get a feel for the general style we are aiming for. You can see examples of past releases [on the website](https://www.ponylang.org/categories/release).
+
+Points you want to highlight:
+
+- High priority fixes
+- Significant changes of note (this is subjective)
+- Breaking changes
+
+In the case of breaking changes, you should provide examples of how to upgrade existing code to work with the breaking change. See the [0.14.0 released](https://www.ponylang.org/blog/2017/05/0.14.0-released/) post for an example.
+
+### Preparing to publish
+
+Once you have your content complete, commit your changes on the branch and open a PR. As part of the PR process, Netlify will run and a preview of the deploy will be available. 
