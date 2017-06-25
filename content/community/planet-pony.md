@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* [Pony: 714 Days Later (Curry On Barcelona)](https://www.youtube.com/watch?v=HGDSnOZaU7Y)
 * [What's Next for Our Programming Languages? (QCon London)](https://www.infoq.com/presentations/panel-languages-future)
 * [Pony: Co-designing a Type-system and a Runtime (QCon London)](https://www.infoq.com/presentations/pony-type-system)
 * [Learning Pony](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/)
