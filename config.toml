@@ -1,7 +1,7 @@
 baseurl = "https://www.ponylang.org"
 languageCode = "en-us"
 title = "Pony"
-metadataformat = "toml"
+metadataformat = "TOML"
 canonifyurls = false
 # Enable Google Analytics by entering your tracking id
 

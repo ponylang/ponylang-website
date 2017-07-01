@@ -56,13 +56,14 @@ Note that the date of the post is part of the file name. It should be in the for
 Each generated blog post includes some Hugo metadata at the top. It looks something like:
 
 ```
-author: Author Name
-categories:
-- Last Week in Pony
-date: 2017-06-17T07:11:02-04:00
-description: Last week's Pony news, reported this week.
-draft: false
-title: Last Week in Pony - Month Day, Year
+draft = false
+author = "Author Name"
+description = "Last week's Pony news, reported this week."
+categories = [
+    "Last Week in Pony",
+]
+title = "Last Week in Pony - Month Day, Year"
+date = "2017-07-01T15:54:19-04:00"
 ```
 
 Each "Last Week in Pony" requires a couple of changes to the generated metadata. 
@@ -105,12 +106,13 @@ Note that the version released is part of the file name.
 Each generated blog post includes some Hugo metadata at the top. It looks something like:
 
 ```
-author: Author Name
-categories:
-- Release
-date: 2017-06-22T06:32:55-04:00
-draft: false
-title: 0.15.0 released
+draft = false
+author = "Author Name"
+categories = [
+    "Release",
+]
+date = "2017-07-01T15:54:24-04:00"
+title = "0.14.3 Released"
 ```
 
 Each "Release" requires a couple of changes to the generated metadata. 

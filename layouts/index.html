@@ -32,7 +32,7 @@
 
       <aside class="copyright" role="note">
         {{ with .Site.Params.copyright }}
-        &copy; {{ $.Now.Format "2006" }} {{ . }}
+        &copy; {{ now.Format "2006" }} {{ . }}
         {{ end }}
       </aside>
 
