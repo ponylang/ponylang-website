@@ -51,7 +51,7 @@ If you get hung up on something, don't worry. [We're here to help]({{< relref "#
 ### Reference capabilities resources
 
 {{< note title="A note about code samples" >}}
-All recommended resource are incredibly helpful but represent Pony at a given point in time. While the core concepts will remain static, it's possible that individual code examples will no longer compile with the latest versions of Pony. Pony is pre-1.0 and breaking changes are still quite common. If you run into code that doesn't work, reach out and [get help]({{< relref "#getting-help" >}}).
+All recommended resources are incredibly helpful but represent Pony at a given point in time. While the core concepts will remain static, it's possible that individual code examples will no longer compile with the latest versions of Pony. Pony is pre-1.0 and breaking changes are still quite common. If you run into code that doesn't work, reach out and [get help]({{< relref "#getting-help" >}}).
 {{< /note >}}
 
 There are 3 primary resources that we currently recommend for understanding reference capabilities:
