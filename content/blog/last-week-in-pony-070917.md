@@ -13,6 +13,11 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
+## 0.15.0 has been released!
+
+Tons of bug fixes, lots of new features, a couple breaking changes. It's advisted you update as soon as possible. Check out the [release notes](https://www.ponylang.org/blog/2017/07/0.15.0-released/) for full details.
+
+
 ## Items of note
 
 Infoq did a podcast interview with Sylvan Clebsch, the designer of Pony. Check out [Pony Language Designer Sylvan Clebsch on Pony’s Design, Garbage Collection, and Formal Verification](https://www.infoq.com/podcasts/sylvan-clebsch-pony-formal-verification).
