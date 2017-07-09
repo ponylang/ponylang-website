@@ -1,6 +1,6 @@
 ---
 date: 2017-07-09T16:55:40-04:00
-title: An Early History of Pony
+title: My First Pony
 author: kevinhoffman
 categories:
 - My First Pony
