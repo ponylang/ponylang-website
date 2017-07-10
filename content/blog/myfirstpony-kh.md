@@ -108,7 +108,7 @@ fun ref connected(listen: TCPListener ref): TCPConnectionNotify iso^ =>
 
 When the TCP listener tells my class that someone connected, it returns a new `Server`. These things are `iso`, so _there can only be one_ of them (The Pony team may have missed an opportunity to call `iso` someting like `highlander` instead). In the sample above, `_cm` is an actor I created to hold the list of all connected clients.
 
-Because actors are passed around as opaque tags, I don't have to worry about transmitting references to them (this is a _huge_ advantage, with subtle but powerful consequences). It was looking at how to send messages to actors, and the use of `consume` and `recover` and `tag` that I started to get my first appreciation for how amazing the reference capabilities system is (and how much more reading I need to do on it).
+Because actors are passed around as opaque tags, I don't have to worry about transmitting references to them (this is a _huge_ advantage, with subtle but powerful consequences). It was looking at how to send messages to actors, and the use of `consume` and `recover` and `tag` that led to my first appreciation for how amazing the reference capabilities system is (and how much more reading I need to do on it).
 
 I put my connection manager actor in its own file. My favorite part of this actor is this one line of code, declaring the `_players` variable:
 
@@ -116,11 +116,13 @@ I put my connection manager actor in its own file. My favorite part of this acto
 let _players: MapIs[TCPConnection, Player]
 ```
 
-Tags can be compared with the `is` keyword. This means that every instance of every actor in the system can be compared for equality, _regardless of the alias holding that reference_. Again, _this is huge_. As someone who lost many hair follicles working with Akka, I love this.
+Here `let` indicates that I'm leaving the value un-initialized, but that the constructor is _required_ to initialize that value. (Remember there are no nulls in Pony).
+
+Tags can be compared with the `is` keyword. This means that every instance of every actor in the system can be compared for equality, _regardless of the alias holding that reference_. Again, _this is huge_. As someone who lost many hair follicles working with Akka, I love this behavior.
 
 `MapIs` (thanks to the folks on the IRC channel for this tip) lets me _directly_ map `TCPConnection`s (they are actors!) to players (also actors). You can think of the `_players` variable as a tag-to-tag mapping. Tags are the least burdensome of things to reference and send.
 
-So now when I get a notification that text came in from a particular connection, my connection manager knows how to dispatch that text to a player for input parsing:
+So now when I get a notification that text came in from a particular connection, my connection manager knows how to dispatch that text to a player actor for input parsing:
 
 ```pony
 be cmdreceived(conn: TCPConnection, cmd: String) =>
@@ -130,9 +132,9 @@ be cmdreceived(conn: TCPConnection, cmd: String) =>
     end 
 ```
 
-With some really useful help from the community and digging through docs and experimenting in the [Pony playground](http://playground.ponylang.org/), I was able to get a fully functioning multi-user telnet chat server running in Pony. It took me twice as long long to do that with my first exposure to Java a few centuries ago, and the code was exponentially more ugly.
+With some really helpful tips from the community and digging through docs and experimenting in the [Pony playground](http://playground.ponylang.org/), I was able to get a fully functioning multi-user telnet chat server running in Pony. It would've taken me twice as long to do that with a language that I already know, let alone one I'm just barely starting to learn.
 
-This little bit here was so satisfying to do after just a few quick hours of learning:
+This little bit here was so satisfying to do after just a few quick hours of tinkering:
 
 ```terminal
 $ telnet localhost 53598
@@ -150,6 +152,6 @@ Kevin typed 'Hello!'
 ## Summary
 After just a weekend (and only a few hours of it, really) with Pony, I am _hooked_. I now have a hobby backlog of a dozen projects I'd like to try out with Pony, and I'm probably going to continue messing with my chat sample to see how far down the rabbit hole I can go before I run into high-friction areas of the language.
 
-A friend of mine once said you can't really call yourself a (insert language here) programmer unless you can name 3 things you hate about it.
+A friend of mine once said you can't really call yourself a (insert language here) programmer unless you can name 3 things you hate about the language.
 
 So my new goal is to keep playing with Pony until I find something I don't like about it... and then see if I can fix it :)
