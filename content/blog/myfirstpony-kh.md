@@ -36,17 +36,20 @@ When you approach a new language, there are usually a couple of "wow!" moments. 
 If you have enough of those moments, you might continue learning. If you don't, you walk away with your tail between your legs and go back to your old standby languages.
 
 Things that stuck out during my first weekend with Pony:
-* Compilation to a single, statically-linked binary
-    * This was __huge__. Any language positioning itself near Go needs to have this or it's a non-starter.
-* Generics
-* Strongly-typed, generics-aware Actors (more on this in a bit)
-* Reference Capabilities
-* Pattern Matching
-* Classes - as a **gopher** and a learner of **Rust**, I initially saw this as a negative. I had to struggle to keep my mind open on this.
-* Structural types (e.g. go-style interfaces)
-* Traits that can carry default implementations (like Rust or Scala traits)
-* Partial application, anonymous functions, lambdas, etc.
-* No data-races
+
+- Compilation to a single, native binary
+    - This was __huge__. Any language positioning itself near Go needs to have this or it's a non-starter.
+    - Apparently it requires some shared libraries, but I suspect this will get better over time.
+- Generics
+- Strongly-typed, generics-aware Actors (more on this in a bit)
+- Reference Capabilities
+- Pattern Matching
+- Classes - as a **gopher** and a learner of **Rust**, I initially saw this as a negative. I had to struggle to keep my mind open on this.
+- Structural types (e.g. go-style interfaces)
+- Traits that can carry default implementations (like Rust or Scala traits)
+    - Interfaces can carry default implementations as well!
+- Partial application, anonymous functions, lambdas, etc.
+- No data-races
 
 As I mentioned, I've been learning **Rust**. Rust promises a lack of data races and safe memory utilization. It does so through the _borrow checker_, an entity I consider my arch nemesis. After weeks of spending my spare time in Rust, I still hate that damn thing and building _anything_ in Rust feels very high-friction.
 
@@ -131,7 +134,7 @@ With some really useful help from the community and digging through docs and exp
 
 This little bit here was so satisfying to do after just a few quick hours of learning:
 
-```
+```terminal
 $ telnet localhost 53598
 Trying ::1...
 Connected to localhost.
