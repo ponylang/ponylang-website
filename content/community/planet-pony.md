@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* [Composition over Inheritance in Pony](https://medium.com/@KevinHoffman/composition-over-inheritance-in-pony-33bbe107914)
 * InfoQ podcast interview with Sylvan Clebsch - [Pony Language Designer Sylvan Clebsch on Pony’s Design, Garbage Collection, and Formal Verification](https://www.infoq.com/podcasts/sylvan-clebsch-pony-formal-verification)
 * [Pony: 714 Days Later (Curry On Barcelona)](https://www.youtube.com/watch?v=HGDSnOZaU7Y)
 * [What's Next for Our Programming Languages? (QCon London)](https://www.infoq.com/presentations/panel-languages-future)
