@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* [The Promise of Pony's Future](https://medium.com/@KevinHoffman/the-promise-of-ponys-future-44040a0b64ff)
 * [Rolling the Dice with Pony](https://medium.com/@KevinHoffman/rolling-the-dice-with-pony-b7a32a69267b)
 * [Composition over Inheritance in Pony](https://medium.com/@KevinHoffman/composition-over-inheritance-in-pony-33bbe107914)
 * [My First Pony](https://www.ponylang.org/blog/2017/07/my-first-pony/)
