@@ -54,13 +54,14 @@ If you get hung up on something, don't worry. [We're here to help]({{< relref "#
 All recommended resources are incredibly helpful but represent Pony at a given point in time. While the core concepts will remain static, it's possible that individual code examples will no longer compile with the latest versions of Pony. Pony is pre-1.0 and breaking changes are still quite common. If you run into code that doesn't work, reach out and [get help]({{< relref "#getting-help" >}}).
 {{< /note >}}
 
-There are 3 primary resources that we currently recommend for understanding reference capabilities:
+There are 4 primary resources that we currently recommend for understanding reference capabilities:
 
 - [Safely Sharing Data: Reference Capabilities in Pony][SAFELY-SHARING-DATA]
+- [Reference Capabilities, Consume and Recover in Pony][CONSUME-RECOVER]
 - [Pony VUG #1: Sylvan Clebsch - Writing Generic Code][VUG1]
 - [Bang, Hat and Arrow in Pony][BANG-HAT-ARROW]
 
-We suggest you start with John Mumm's excellent overview "[Safely Sharing Data: Reference Capabilities in Pony][SAFELY-SHARING-DATA]". It's a good general overview reference capabilities and why they exist. From there, continue on and what Sylvan's Pony Virtual Users' Group presentation on "[Writing Generic Code][VUG1]". A lot of what you see and watch in that video is going to go over your head. Don't worry, that happens to everyone. We suggest that you pair it with "[Bang, Hat and Arrow in Pony][BANG-HAT-ARROW]". It's an excellent write-up of the concepts introduced in the video. If you are looking for a slightly more academic take, [Adrian Colyer](https://twitter.com/adriancolyer) did an excellent write up of [Deny Capabilities for Safe, Fast Actors](https://blog.acolyer.org/2016/02/17/deny-capabilities/). It's an overview of Pony's reference capabilities.
+We suggest you start with John Mumm's excellent overview "[Safely Sharing Data: Reference Capabilities in Pony][SAFELY-SHARING-DATA]" and Chris Double's "[Reference Capabilities, Consume and Recover in Pony][CONSUME-RECOVER]". They are both good general overviews of reference capabilities and why they exist. From there, continue on and what Sylvan's Pony Virtual Users' Group presentation on "[Writing Generic Code][VUG1]". A lot of what you see and watch in that video is going to go over your head. Don't worry, that happens to everyone. We suggest that you pair it with "[Bang, Hat and Arrow in Pony][BANG-HAT-ARROW]". It's an excellent write-up of the concepts introduced in the video. If you are looking for a slightly more academic take, [Adrian Colyer](https://twitter.com/adriancolyer) did an excellent write up of [Deny Capabilities for Safe, Fast Actors](https://blog.acolyer.org/2016/02/17/deny-capabilities/). It's an overview of Pony's reference capabilities.
 
 Generics and references capabilities are the hardest things to get a handle on while learning Pony so don't get frustrated. It's not just you. We all go through this. During the video, you'll hear one of our core team members, Sean T. Allen, commenting at numerous points that he was sort of following everything but not all of it. Sean now has a strong grasp on all the concepts. It takes time. 
 
@@ -71,3 +72,4 @@ Don't worry. You will get it. And remember, the [helpful Pony community]({{< rel
 [SAFELY-SHARING-DATA]: http://jtfmumm.com/blog/2016/03/06/safely-sharing-data-pony-reference-capabilities/
 [VUG1]: https://vimeo.com/163871856
 [BANG-HAT-ARROW]: https://bluishcoder.co.nz/2016/05/04/bang-hat-and-arrow-in-pony.html 
+[CONSUME-RECOVER]: https://bluishcoder.co.nz/2017/07/31/reference_capabilities_consume_recover_in_pony.html
