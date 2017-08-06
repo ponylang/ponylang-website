@@ -52,6 +52,13 @@ If you'd like to attend an in-person meetup, sign up for the mailing list to be 
 
 If you are interested in setting up a users' group in your area and would like to host the mailing list on groups.io, drop us a line and we'll get you set up.
 
+## Stickers
+
+Show your love for Pony. We have two stickers available via Sticker Mule. Both are sold at cost; or put another way... we aren't making any money off of these.
+
+- [Main](https://www.stickermule.com/marketplace/12903-main) the Pony Mascot
+- [Pony Logo](https://www.stickermule.com/marketplace/12904-pony-logo)
+
 ## Community Survey
 
 We run a yearly community survey to find out what the Pony community currently looks like. So far, "yearly" means "once". If you are interested in learning a bit more about the community you'll be joining, check out the [2016 State of the Stable]({{< relref "state-of-the-stable-2016.md" >}}) community survey
