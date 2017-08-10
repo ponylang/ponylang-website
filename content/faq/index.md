@@ -2,27 +2,27 @@
 title = "FAQ"
 +++
 
-## About Pony
+## About Pony {#about-pony}
 
-### How'd Pony come to be?
+### How'd Pony come to be? {#early-history}
 
 Check out ["An Early History of Pony"](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/).
 
-### Why's it called "Pony"?
+### Why's it called "Pony"? {#why-the-name-pony}
 
 Interesting question. We hear that a lot. If you read enough of ["An Early History of Pony"](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/), you'll get your answer.
 
-### What makes Pony different?
+### What makes Pony different? {#how-is-pony-different}
 
 See the ["What makes Pony different"]({{< relref "discover/index.md#what-makes-pony-different" >}}) section of ["Discover"]({{< relref "discover/index.md" >}}).
 
-### Why would I use Pony instead of language X?
+### Why would I use Pony instead of language X? {#why-pony-instead-of-x}
 
 That's a hard question to answer. Language X is probably very compelling for some problems. It's probably less compelling for others. Such is computers. In the end, the best we can do is tell you what Pony is good at and you can make the decision for yourself. To learn more about Pony, we suggest checking out the ["Discover"]({{< relref "discover/index.md" >}}) section of the website. There's a portion of that section called ["Why Pony"]({{< relref "discover/index.md#why-pony" >}}) that might answer your question.
 
-## Code
+## Code {#code}
 
-### What does `Foo()` do if my `Foo` class has both `create()` and `apply()` methods? Does it call both?
+### What does `Foo()` do if my `Foo` class has both `create()` and `apply()` methods? Does it call both? {#Foo()-create-apply}
 
 Yes, it calls both. However perhaps not in the way you imagine. 
 
@@ -57,9 +57,9 @@ Check out [the example program in the [Pony Playground](https://playground.ponyl
 
 For more information see the [Sugar](https://tutorial.ponylang.org/expressions/sugar.html) section of the the tutorial.
 
-## Compiling
+## Compiling {#compiling}
 
-### I get a "requires dynamic" error when compiling, how do I solve it?
+### I get a "requires dynamic" error when compiling, how do I solve it? {#pic-compile-error}
 
 ```bash
 /usr/bin/ld.gold: error: ./fb.o: requires dynamic R_X86_64_32 
