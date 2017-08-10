@@ -74,3 +74,10 @@ For example:
 ```bash
 ponyc --pic examples/helloworld
 ```
+
+As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic` automatically set for you. When building `ponyc`, run the following `make` command and your generated `ponyc` binary will always supply `--pic` without you having to set it.
+
+```bash
+make default_pic=true
+```
+
