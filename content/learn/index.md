@@ -10,6 +10,8 @@ If you run into trouble while you are learning Pony, don't worry, we've got you 
 * [Mailing list](https://pony.groups.io/g/user).
 * [IRC](https://webchat.freenode.net/?channels=%23ponylang).
 
+Many folks encounter the same issues or have the same questions, be sure to give the [frequently asked questions](({{< relref "faq/index.md">}}) section of this website a read.
+
 Think you've found a bug? It's quite possible. Pony is a relatively young language that is still changing at a rapid pace and bugs do happen. Your best bet. Write to the mailing list with your issue and verify that you are experiencing an issue. Once a more knowledge member of the community confirms you are experiencing a bug, open an issue.
 
 * [Open an issue](https://github.com/ponylang/ponyc/issues)
