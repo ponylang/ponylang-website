@@ -5,6 +5,8 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* Video: [Why Pony? Bleeding edge technology for your concurrency woes (Polyconf'17)](https://eventil.com/presentations/XrsemV)
+* Slides: [Why Pony? Bleeding edge technology for your concurrency woes (Polyconf'17)](https://speakerdeck.com/seantallen/why-pony)
 * [Reference Capabilities, Consume and Recover in Pony](https://bluishcoder.co.nz/2017/07/31/reference_capabilities_consume_recover_in_pony.html)
 * [The Promise of Pony's Future](https://medium.com/@KevinHoffman/the-promise-of-ponys-future-44040a0b64ff)
 * [Rolling the Dice with Pony](https://medium.com/@KevinHoffman/rolling-the-dice-with-pony-b7a32a69267b)
