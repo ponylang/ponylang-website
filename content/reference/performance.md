@@ -6,10 +6,17 @@ title = "Pony Performance Cheatsheet"
 
 If you know what you are doing, Pony can make it easy to write high-performance code. Pony isn't, however, a performance panacea. There are plenty of things that you as a programmer can do to hurt performance.
 
-Martin Thompson's [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU)
+Most of the advice in this document can be categorized as either "know how computers work" or "know how Pony works". The former is applicable across any programming language. What you learn here is quite possibly applicable in other languages that you use everyday.
 
-### Mind the hot path
+Martin Thompson has an excellent talk [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU) that talks about writing performance sensitive code in the large. We strongly advice you watching it. Performance tuning can be a massive rabbit hole, If the topic really excites you, put ["mechanical sympathy"](https://duckduckgo.com/?q=mechanical+sympathy) into your favorite search engine; you'll come up for air in a few months knowing a ton.
 
+All of this is to say, performance is complicated. It's more art than science. What we are presenting here is rules of thumb. Many are not always good or always bad. Like most things in engineering, there are tradeoffs involved. Be mindful. Be empirical. Be sure to measure the performance of your code before and after you change anything based on this document.
+
+It's our belief that the best way to get to awesome performance is [baby steps](https://www.youtube.com/watch?v=ncFCdCjBqcE). Don't try to make a ton of changes at once. Make a small performmance oriented change. Measure the impact. Repeat. Take one tiny step at a time towards better performance.
+
+And remember, invest your time where its valuable. Worrying about possible performance problems in code that runs once at startup won't get you anything. You need to "mind the hot path". Performance tune your code that gets executed all the time. For example, if you are writing an HTTP server and want to make it high-performance, you definitely should focus on the performance of your HTTP parser, it's going to get executed on every single request.
+
+If you get stuck, fear not, we have a [welcoming community](https://www.ponylang.org/learn/#getting-help) that can assist you. 
 
 ### It's probably your design
 
@@ -164,7 +171,7 @@ Our union type version contains additional logic that will be executed on every 
 
 How do you know which is the best version? Well, there is no best version. There is only a version that will work better based on the inputs you are expecting. Pick wisely. Here's our general rule of thumb. If it's in hot path code, and you are talking about `error` happening in terms that are less than 1 in millions, you probably want the union type. But again, the only way to know is to test.
 
-By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word]({#boxing-machine-words}). If `zero_is_bad` was returning a `(Bool | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
+By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word]({#boxing-machine-words}). If `zero_is_bad` was returning a `(FooClass | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
 
 ### Mind the garbage collector {#garbage-collector}
 
