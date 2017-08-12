@@ -344,7 +344,7 @@ One of those things is reserving CPUs for our programs. The benefits are two fol
 - Our application never loses CPU time to some other process
 - Another process using the CPU doesn't evict our data from CPU caches
 
-If your operating system support process pining, we suggest you do it. What you want to do is set your operating system and all "non-essential" programs to share 1, perhaps 2 CPUs; this frees up all your remaining CPUs for use by your Pony program. 
+If your operating system support process pinning, we suggest you do it. What you want to do is set your operating system and all "non-essential" programs to share 1, perhaps 2 CPUs; this frees up all your remaining CPUs for use by your Pony program. 
 
 On Linux, you'll want to use [cset](https://rt.wiki.kernel.org/index.php/Cpuset_Management_Utility/tutorial) to pin your Pony programs. Let's have a look at an example:
 
