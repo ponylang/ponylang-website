@@ -316,7 +316,71 @@ In addition to the queue costs you pay with a message send, depending on the con
 
 ### Mind the garbage collector {#garbage-collector}
 
+#### Things you should know about the Pony garbage collector
 
+- Each actor has its own heap
+- Actors might GC after each behavior call (never during one)
+- Effectively, Pony programs are constantly, concurrently collecting garbage
+- Garbage collection for an actor's heap uses a Mark and Sweep algorithm
+- There are no garbage collection generations 
+- When an object is sent from one actor to another, additional messages related to garbage collection have to be sent
+- If you send an object allocated in actor 1 to actor 2 and from there to actor 3, garbage collection messages will flow between actors 1, 2, and 3
+
+#### Performance implications
+
+There are two ways that Pony's garbage collection can impact your performance:
+
+1. Time spent garbage collecting 
+2. Time spent sending garbage collection messages between actors
+
+To minimize the impact of garbage collection on your application, you'll need to address anything that results in longer garbage collection times, and you'll want to reduce the number of garbage collection messages generated.
+
+#### Advice:
+
+- Watch you allocations!
+
+If you don't allocate, you don't have to collect the garbage. Yaya, we [mention this already]({#avoid-allocations}). But really, it's an important component of your application's performance profile. 
+
+- Avoid sending objects between actors when you can
+
+Remember our earlier [primitive obsession](#primitive-obsession) conversation? Here's another example of where primitive obsession can be your performance friend. Sending a "money tuple" like
+
+```pony
+// "money tuple"
+type Dollars is U64
+type Cents is U8
+type Money is (Dollars, Cents)
+```
+
+from one actor to another will have no garbage collection overhead. Sending a "money class" such as
+
+```pony
+class Money
+  let _dollars: U64
+  let _cents: U8
+
+  new create(dollars: U64, cents: U8) =>
+    _dollars = dollars
+    _cents = cents
+```
+
+will result in some garbage collection overhead. In the small, it won't make much of a difference, but in a hot-path? Look out. It can make a big difference. If you can send machine words instead of classes, do it.
+
+- Avoid passing objects along long chains of actors
+
+Sending 2 objects from Actor A to Actor B results in fewer garbage collection messages being generated than sending 1 object from Actor A to Actor B to Actor C. The can lead to some counter-intuitive performance improvements. For some applications that send objects down a long line of actors, it might make sense to create a copy of the object along the way and send the copy. Eventually, the cost of the memory allocation and copying will be less than the overhead from garbage collection messages. 
+
+Please note, this is not an issue that is going to impact most applications. It is, however, something you should be aware of.
+
+- Avoid holding on to objects that were allocated by another actor
+
+Pony's garbage collector is a non-generational mark and sweep collector. It will perform best when the heap size is kept small. The larger the heap, the longer a garbage collection cycle will take. All mark and sweep collectors share this trait. The complexity of generational garbage collection was added to address problems with larger heap sizes.
+
+Issues with larger heap sizes interact interestingly with certain types of Pony applications. Take, for example, a network server. Clients open connections to it over TCP and exchange data. On the server side, data received from clients is allocated in the incoming TCP actors and then sent to other actors as an object or objects of some sort.
+
+If our receiving actors hold onto the objects allocated in the TCP actors for an extended period, the size of their heaps will grow. As the heaps grow, garbage collection times will increase. 
+
+Some applications might benefit from having receiving actors copy data once they get it from an incoming TCP actor rather than holding on to the data allocated by the TCP actor. Odds are, your application won't need to do this, but it's something to keep in mind.
 
 ### Maybe you have too many threads {#ponythreads}
 
