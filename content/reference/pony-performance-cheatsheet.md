@@ -339,7 +339,7 @@ To minimize the impact of garbage collection on your application, you'll need to
 
 - Watch you allocations!
 
-If you don't allocate, you don't have to collect the garbage. Yaya, we [mentioned this already]({#avoid-allocations}). But really, it's an important component of your application's performance profile. 
+If you don't allocate it, you don't have to collect it. Yaya, we [mentioned this already]({#avoid-allocations}); but really, it's an important component of your application's performance profile. 
 
 - Avoid sending objects between actors when you can
 
