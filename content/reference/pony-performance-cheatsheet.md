@@ -442,7 +442,7 @@ Depending on what your program does, tuning your operating system might yield go
 
 Now, warning aside, there's plenty you can learn about tuning your operating system, and it can sometimes have a large impact on your application. Just remember, mindlessly turning knobs you don't understand isn't likely to make things better. Do your research. Understand what you are doing. Be empirical; measure and then measure again.
 
-### Build the compiler from source {#build-from-source}
+### Build from source {#build-from-source}
 
 The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should build your compiler from source. By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try:
 
