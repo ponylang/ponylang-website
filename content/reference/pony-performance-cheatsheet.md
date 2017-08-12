@@ -20,11 +20,18 @@ If you get stuck, fear not, we have a [welcoming community](https://www.ponylang
 
 ## Pony performance tips
 
-### It's probably your design
+### It's probably your design {#design-for-performance}
 
+A poor design can kill your performance before you ever write a line of code. One of the fastest ways to hurt your performance is by inserting bottlenecks. As an example, imagine a system where you have X number of "processing actors" and 1 "aggregating actor." Work is farmed out to each of the processing actors to undertake which in turn send their results to the aggregating actor. Can you spot the possible bottleneck? Our performance is going to be bound by the performance of the single aggregating actor. We haven't written a line of code yet, and we already have a performance problem.
 
-### Watch the asynchrony! {#e-too-many-actors}
+This pattern plays out over and over in our software systems. For a variety of well-intentioned reasons, we introduce bottlenecks into our designs. And you know what? That's ok. It's about trade-offs. Sometimes the performance loss is worth whatever we are gaining. However, we need to be aware of the trade-offs we are making. If we are going to consciously lower our performance, we need to get something at least as valuable in return.
 
+Fast code is highly concurrent. Fast code avoids coordination. Fast code relies on local knowledge instead of global knowledge. Fast code is willing to trade the illusion of consistency for availability and performance. Fast code does this **by design**.
+
+There's a lot of material out there about writing high-performance, highly concurrent code. More than most people have time to absorb. Our advice? At least watch the Martin Thompson, and Peter Bailis talks below, then if you are hungry for more, ask the [community](https://www.ponylang.org/learn/#getting-help) what more you can learn.
+
+- [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU)
+- [Silence is Golden: Coordination-Avoiding Systems Design ](https://www.youtube.com/watch?v=EYJnWttrC9k)
 
 ### Watch your allocations {#avoid-allocations}
 
@@ -148,7 +155,7 @@ Just remember, if you want to maximise performance:
 - You need to know when code you call is allocating new objects.
 - You need to know when code you call results in memory copies
 
-Some of you probably looked at the `String` performance enhancement above and thought, "doesn't the JVM do that for you?" You'd be right. That's a standard optimization in many languages. It's an optimization we are adding to Pony. However, the basic pattern applies. Be aware of triggering extra allocations that you don't need to. Your compiler and runtime can add many optimizations to avoid allocations, but it's not going to do everything for you. You still need to understand your allocations. They're called "your allocations" because in the end, you end owning them and they end up owning your performance.
+Some of you probably looked at the `String` performance enhancement above and thought, "doesn't the JVM do that for you?" You'd be right. That's a standard optimization in many languages. It's an optimization we are adding to Pony. However, the basic pattern applies. Be aware of triggering extra allocations that you don't need to. Your compiler and runtime can add many optimizations to avoid allocations, but it's not going to do everything for you. You still need to understand your allocations. They're called "your allocations" because in the end, you end up owning them and they end up owning your performance.
 
 ### Give in to your "primitive obsession" {#primitive-obsession}
 
@@ -298,6 +305,14 @@ Our union type version contains additional logic that will be executed on every 
 How do you know which is the best version? Well, there is no best version. There is only a version that will work better based on the inputs you are expecting. Pick wisely. Here's our general rule of thumb. If it's in hot path code, and you are talking about `error` happening in terms that are less than 1 in millions, you probably want the union type. But again, the only way to know is to test.
 
 By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word](#boxing-machine-words). If `zero_is_bad` was returning a `(FooClass | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
+
+### Watch the asynchrony! {#e-too-many-actors}
+
+Actors are awesome. We love them. We wouldn't be using Pony if we didn't. However, we do see people getting a little too excited about them. Yes, actors are a unit of concurrency. However, you don't need to make everything an actor.
+
+Sending a message from one actor to another is pretty fast; note the "pretty fast." A message send isn't free. The message has to be placed in the mailbox for the receiving actor which in turn needs to retrieve it. The multi-producer, single-consumer queue that powers actor mailboxes is highly tuned, but, it's still a queue. Sometimes you don't need another actor; you just need a class.
+
+In addition to the queue costs you pay with a message send, depending on the contents of your message, you might be incurring additional garbage collection costs as well.
 
 ### Mind the garbage collector {#garbage-collector}
 
