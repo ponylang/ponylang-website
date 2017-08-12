@@ -125,7 +125,7 @@ fun ref reserve(len: USize) =>
     end
     _ptr = _ptr._realloc(_alloc)
   end  
-`` 
+```
 
 `String.append` will make sure that it has enough room to copy the new data onto the string by calling `reserve`. `String.reserve` will result in a new allocation if you are trying to reserve more memory than you've already allocated. So...
 
