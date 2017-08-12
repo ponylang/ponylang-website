@@ -8,13 +8,13 @@ If you know what you are doing, Pony can make it easy to write high-performance 
 
 We'd categorize most of the information in this document as either "know how computers work" or "know how Pony works." The former applies to any programming language. What you learn here is probably applicable in other languages that you use every day.
 
-Martin Thompson has an excellent talk [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU) that talks about writing performance sensitive code in the large. We firmly advise you to watch it. Performance tuning can be a massive rabbit hole If the topic excites you, put ["mechanical sympathy"](https://duckduckgo.com/?q=mechanical+sympathy) into your favorite search engine; you'll come up for air in a few months knowing a ton.
+Martin Thompson has an excellent talk [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU) that talks about writing performance sensitive code in the large. We firmly advise you to watch it. Performance tuning can be a massive rabbit hole. If the topic excites you, put ["mechanical sympathy"](https://duckduckgo.com/?q=mechanical+sympathy) into your favorite search engine; you'll come up for air in a few months knowing a ton.
 
-All of this is to say; performance is complicated. It's more art than science. What we are presenting here is rules of thumb. Many are not always good or always bad. Like most things in engineering, there are tradeoffs involved. Be mindful. Be empirical. Be sure to measure the performance of your code before and after you change anything based on this document.
+All of this is to say: performance is complicated. It's more art than science. What we are presenting here is rules of thumb. Many are not always good or always bad. Like most things in engineering, there are tradeoffs involved. Be mindful. Be empirical. Be sure to measure the performance of your code before and after you change anything based on this document.
 
 It's our belief that the best way to get to awesome performance is [baby steps](https://www.youtube.com/watch?v=ncFCdCjBqcE). Don't try to make a ton of changes at once. Make a small performance oriented change. Measure the impact. Repeat. Take one tiny step at a time towards better performance.
 
-And remember, invest your time where it's valuable. Worrying about possible performance problems in code that get executed once at startup won't get you anything. You need to "mind the hot path." Performance tune your code that gets executed all the time. For example, if you are writing an HTTP server and want to make it high-performance, you definitely should focus on the performance of your HTTP parser, it's going to get executed on every single request.
+And remember, invest your time where it's valuable. Worrying about possible performance problems in code that gets executed once at startup won't get you anything. You need to "mind the hot path." Performance tune your code that gets executed all the time. For example, if you are writing an HTTP server and want to make it high-performance, you definitely should focus on the performance of your HTTP parser, it's going to get executed on every single request.
 
 If you get stuck, fear not, we have a [welcoming community](https://www.ponylang.org/learn/#getting-help) that can assist you. 
 
