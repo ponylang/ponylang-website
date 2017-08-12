@@ -8,4 +8,4 @@ title = "Reference"
 
 ## Performance
 
-[Performance Cheatsheet]({{< relref "performance.md" >}})
+[Pony Performance Cheatsheet]({{< relref "pony-performance-cheatsheet.md" >}})
