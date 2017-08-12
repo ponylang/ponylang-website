@@ -322,12 +322,12 @@ Let's talk about the Pony scheduler for a moment. When you start up a Pony progr
 
 Pony schedulers use a work-stealing algorithm that allows idle schedulers to take work from other schedulers. In a loaded system, the work stealing algorithm can keep all the CPUs busy. However, when CPUs are underutilized, performance can suffer. Based on your program, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponythreads=X` option to indicate how many scheduler threads the program will create. For some programs, the best choice is `--ponythreads=1`; this will turn off work-stealing, and it will keep all work on a single CPU which can sometimes provide a nice performance boost based on CPU caches.
 
-We suggest you try to following:
+We suggest you try the following:
 
 - Run your program under your expected workload. 
 - Start with 1 scheduler thread and work your way up to the number of CPUs you have available. 
-- Measure your performance with `ponythread` setting
-- Use the number of schedulers that gives you the best performance.
+- Measure your performance with `ponythread` setting.
+- Use the number of scheduler threads that gives you the best performance.
 
 Work is ongoing to improve the work-stealing scheduler. Feel free to check in on the [developer mailing list](https://www.ponylang.org/contribute/) to get an update.
 
