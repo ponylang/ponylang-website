@@ -23,9 +23,6 @@ If you get stuck, fear not, we have a [welcoming community](https://www.ponylang
 ### It's probably your design
 
 
-### Watch the asynchrony! {#e-too-many-actors}
-
-
 ### Watch your allocations {#avoid-allocations}
 
 Comparatively, creating new objects is expensive. Each object requires some amount of memory to be allocated. Allocations are expensive. The Pony runtime uses a pool allocator so creating a bunch of `String`s is cheaper than if you had to `malloc` each one. Allocation is not, however, free. In hot paths, it can get quite expensive.
@@ -298,6 +295,14 @@ Our union type version contains additional logic that will be executed on every 
 How do you know which is the best version? Well, there is no best version. There is only a version that will work better based on the inputs you are expecting. Pick wisely. Here's our general rule of thumb. If it's in hot path code, and you are talking about `error` happening in terms that are less than 1 in millions, you probably want the union type. But again, the only way to know is to test.
 
 By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word](#boxing-machine-words). If `zero_is_bad` was returning a `(FooClass | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
+
+### Watch the asynchrony! {#e-too-many-actors}
+
+Actors are awesome. We love them. We wouldn't be using Pony if we didn't. However, we do see people getting a little too excited about them. Yes, actors are a unit of concurrency. However, you don't need to make everything an actor.
+
+Sending a message from one actor to another is pretty fast; note the "pretty fast." A message send isn't free. The message has to be placed in the mailbox for the receiving actor which in turn needs to retrieve it. The multi-producer, single-consumer queue that powers actor mailboxes is highly tuned, but, it's still a queue. Sometimes you don't need another actor; you just need a class.
+
+In addition to the queue costs you pay with a message send, depending on the contents of your message, you might be incurring additional garbage collection costs as well.
 
 ### Mind the garbage collector {#garbage-collector}
 
