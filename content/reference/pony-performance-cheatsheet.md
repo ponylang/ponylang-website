@@ -374,11 +374,11 @@ Please note, this is not an issue that is going to impact most applications. It 
 
 - Avoid holding on to objects that were allocated by another actor
 
-Pony's garbage collector is a non-generational mark and don't sweep collector. It will perform best when the heap size is kept small. The larger the heap, the longer a garbage collection cycle will take. All mark and don't sweep collectors share this trait. The complexity of generational garbage collection was added to address problems with larger heap sizes.
+Pony's garbage collector is a non-generational mark and don't sweep collector. It will perform best when the number of objects in an actor's heap is kept low. The more objects on the heap, the longer a garbage collection cycle will take. All mark and don't sweep collectors share this trait. The complexity of generational garbage collection was added to address problems with long-lived objects.
 
 Issues with larger heap sizes interact interestingly with certain types of Pony applications. Take, for example, a network server. Clients open connections to it over TCP and exchange data. On the server side, data received from clients is allocated in the incoming TCP actors and then sent to other actors as an object or objects of some sort.
 
-If our receiving actors hold onto the objects allocated in the TCP actors for an extended period, the size of their heaps will grow. As the heaps grow, garbage collection times will increase. 
+If our receiving actors hold onto the objects allocated in the TCP actors for an extended period, the number of objects in their heaps will grow. As the objects held grows, garbage collection times will increase. 
 
 Some applications might benefit from having receiving actors copy data once they get it from an incoming TCP actor rather than holding on to the data allocated by the TCP actor. Odds are, your application won't need to do this, but it's something to keep in mind.
 
