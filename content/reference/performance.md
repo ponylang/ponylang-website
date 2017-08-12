@@ -176,7 +176,7 @@ Our union type version contains additional logic that will be executed on every 
 
 How do you know which is the best version? Well, there is no best version. There is only a version that will work better based on the inputs you are expecting. Pick wisely. Here's our general rule of thumb. If it's in hot path code, and you are talking about `error` happening in terms that are less than 1 in millions, you probably want the union type. But again, the only way to know is to test.
 
-By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word]({#boxing-machine-words}). If `zero_is_bad` was returning a `(FooClass | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
+By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word](#boxing-machine-words). If `zero_is_bad` was returning a `(FooClass | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
 
 ### Mind the garbage collector {#garbage-collector}
 
