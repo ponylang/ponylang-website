@@ -388,3 +388,5 @@ The pre-built Pony packages are quite conservative with the optimizations they a
 And last but not least, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
 
 ### Profile it! {#profiling}
+
+Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hotspots. You can use standard profiling tools like Instruments and VTune on your Pony application. At the moment, we don't have a handy guide to help you interpret the results you are getting, but we have one in the works. In the meantime, if you need help, the [community is waiting to help](https://www.ponylang.org/learn/#getting-help).
