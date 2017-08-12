@@ -148,6 +148,8 @@ Just remember, if you want to maximise performance:
 - You need to know when code you call is allocating new objects.
 - You need to know when code you call results in memory copies
 
+Some of you probably looked at the `String` performance enhancement above and thought, "doesn't the JVM do that for you?" You'd be right. That's a standard optimization in many languages. It's an optimization we are adding to Pony. However, the basic pattern applies. Be aware of triggering extra allocations that you don't need to. Your compiler and runtime can add many optimizations to avoid allocations, but it's not going to do everything for you. You still need to understand your allocations. They're called "your allocations" because in the end, you end owning them and they end up owning your performance.
+
 ### Give in to your "primitive obsession" {#primitive-obsession}
 
 Many collections of programming "best practices" teach you to avoid ["primitive obsession"](https://refactoring.guru/smells/primitive-obsession). This great advice, normally. It's not such great advice if you are worried about performance. Let's take two ways you can represent a short form American zip code:
