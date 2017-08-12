@@ -333,6 +333,42 @@ Work is ongoing to improve the work-stealing scheduler. Feel free to check in on
 
 ### Pin your scheduler threads
 
+Multitasking operating systems are wondrous things. Without one, I wouldn't be able to write up these tips while listening to obscure Beastie Boys remixes. For me, at this moment in time, having multiple programs running at once is an awesome thing. There are times though when multitasking operating systems can be annoying.
+
+Much like how the Pony scheduler schedules different actors, so they all get time to use a CPU, so your operating system does with various running programs. And this can be problematic for performance. If we want to get the best performance from Pony programs, we want them to have access to CPUs as much as possible. And, we want each scheduler thread to have sole access to its particular CPU.
+
+Modern CPU architectures feature a hierarchical layering of caches. The caches are used to hold data that the CPU needs. The closer the cache is to the CPU, the faster it can execute operations on that data. In our ideal world, the data we need is always in the caches the closest to the CPU. We don't live in an ideal world, but we can do things to bring us closer to our ideal world. 
+
+One of those things is reserving CPUs for our programs. The benefits are two fold:
+
+- Our application never loses CPU time to some other process
+- Another process using the CPU doesn't evict our data from CPU caches
+
+If your operating system support process pining, we suggest you do it. What you want to do is set your operating system and all "non-essential" programs to share 1, perhaps 2 CPUs; this frees up all your remaining CPUs for use by your Pony program. 
+
+On Linux, you'll want to use [cset](https://rt.wiki.kernel.org/index.php/Cpuset_Management_Utility/tutorial) to pin your Pony programs. Let's have a look at an example:
+
+```bash
+sudo cset proc -s user -e numactl -- -C 1-4,17 chrt -f 80 ./my-pony-program --ponythreads 4 --ponypinasio
+```
+
+This isn't a complete `cset` tutorial so I'm only going to focus on one option and I'll leave the rest to your investigation. Note the `-C 1-4,17`; this will make CPUs 1 to 4 plus CPU 17 available to our program `my-pony-program`.
+
+```bash
+--ponythreads 4 --ponypinasio
+```
+
+And those two additional options to our program? We've seen `--ponythreads` before. In this case, we are running with 4 scheduler threads. They will have exclusive access to CPUs 1 to 4. What about `--ponypinasio` and CPU 17? 
+
+In addition to scheduler threads, each Pony program also has an ASIO thread that handles asynchronous IO events. By supplying the `--ponypinasio` option, our ASIO thread will be pinned to a single CPU. Which CPU? Whichever available CPU has the highest number. To sum up:
+
+```bash
+// Set aside 5 CPUs for this program
+-C 1-4,17
+// Run 4 scheduler threads and pin the ASIO thread
+--ponythreads 4 --ponypinasio
+```
+
 ### Build the compiler from source
 
 The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should build your compiler from source. By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try building with [link time optimization on](https://github.com/ponylang/ponyc#building-with-link-time-optimisation-lto). And last but not least, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
