@@ -321,7 +321,7 @@ In addition to the queue costs you pay with a message send, depending on the con
 - Each actor has its own heap
 - Actors might GC after each behavior call (never during one)
 - Effectively, Pony programs are constantly, concurrently collecting garbage
-- Garbage collection for an actor's heap uses a Mark and Sweep algorithm
+- Garbage collection for an actor's heap uses a mark and dont sweep algorithm
 - There are no garbage collection generations 
 - When an object is sent from one actor to another, additional messages related to garbage collection have to be sent
 - If you send an object allocated in actor 1 to actor 2 and from there to actor 3, garbage collection messages will flow between actors 1, 2, and 3
@@ -337,7 +337,7 @@ To minimize the impact of garbage collection on your application, you'll need to
 
 #### Advice:
 
-- Watch you allocations!
+- Watch your allocations!
 
 If you don't allocate it, you don't have to collect it. Yaya, we [mentioned this already]({#avoid-allocations}); but really, it's an important component of your application's performance profile. 
 
@@ -374,7 +374,7 @@ Please note, this is not an issue that is going to impact most applications. It 
 
 - Avoid holding on to objects that were allocated by another actor
 
-Pony's garbage collector is a non-generational mark and sweep collector. It will perform best when the heap size is kept small. The larger the heap, the longer a garbage collection cycle will take. All mark and sweep collectors share this trait. The complexity of generational garbage collection was added to address problems with larger heap sizes.
+Pony's garbage collector is a non-generational mark and don't sweep collector. It will perform best when the heap size is kept small. The larger the heap, the longer a garbage collection cycle will take. All mark and don't sweep collectors share this trait. The complexity of generational garbage collection was added to address problems with larger heap sizes.
 
 Issues with larger heap sizes interact interestingly with certain types of Pony applications. Take, for example, a network server. Clients open connections to it over TCP and exchange data. On the server side, data received from clients is allocated in the incoming TCP actors and then sent to other actors as an object or objects of some sort.
 
