@@ -349,7 +349,8 @@ If your operating system support process pining, we suggest you do it. What you 
 On Linux, you'll want to use [cset](https://rt.wiki.kernel.org/index.php/Cpuset_Management_Utility/tutorial) to pin your Pony programs. Let's have a look at an example:
 
 ```bash
-sudo cset proc -s user -e numactl -- -C 1-4,17 chrt -f 80 ./my-pony-program --ponythreads 4 --ponypinasio
+sudo cset proc -s user -e numactl -- -C 1-4,17 chrt -f 80 \
+  ./my-pony-program --ponythreads 4 --ponypinasio
 ```
 
 This isn't a complete `cset` tutorial so I'm only going to focus on one option and I'll leave the rest to your investigation. Note the `-C 1-4,17`; this will make CPUs 1 to 4 plus CPU 17 available to our program `my-pony-program`.
