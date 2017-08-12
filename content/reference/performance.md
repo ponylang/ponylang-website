@@ -20,8 +20,18 @@ If you get stuck, fear not, we have a [welcoming community](https://www.ponylang
 
 ## Pony performance tips
 
-### It's probably your design
+### It's probably your design {#design-for-performance}
 
+A poor design can kill your performance before you ever write a line of code. One of the fastest ways to hurt your performance is by inserting bottlenecks. As an example, imagine a system where you have X number of "processing actors" and 1 "aggregating actor." Work is farmed out to each of the processing actors to undertake which in turn send their results to the aggregating actor. Can you spot the possible bottleneck? Our performance is going to be bound by the performance of the single aggregating actor. We haven't written a line of code yet, and we already have a performance problem.
+
+This pattern plays out over and over in our software systems. For a variety of well-intentioned reasons, we introduce bottlenecks into our designs. And you know what? That's ok. It's about trade-offs. Sometimes the performance loss is worth whatever we are gaining. However, we need to be aware of the trade-offs we are making. We need to consciously lower our performance to get something at least as valuable in return.
+
+Fast code is highly concurrent. Fast code avoids coordination. Fast code relies on local knowledge instead of global knowledge. Fast code is willing to trade the illusion of consistency for availability and performance. Fast code does this **by design**.
+
+There's a lot of material out there about writing high-performance, highly concurrent code. More than most people have time to absorb. Our advice? At least watch the Martin Thompson, and Peter Bailis talks below, then if you are hungry for more, ask the [community](https://www.ponylang.org/learn/#getting-help) what more you can learn.
+
+- [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU)
+- [Silence is Golden: Coordination-Avoiding Systems Design ](https://www.youtube.com/watch?v=EYJnWttrC9k)
 
 ### Watch your allocations {#avoid-allocations}
 
