@@ -57,7 +57,7 @@ type Money is (Dollars, Cents)
 
 ### Avoid boxing machine words {#boxing-machine-words}
 
-Machine words like U8, U16, U32, U64, etc. are going to be better for performance than classes. Machine words have less overhead then classes. However, if we aren't careful, we can end up "boxing" machine words and add cost. In hot path code, that boxing can have a large impact.
+Machine words like U8, U16, U32, U64, etc. are going to be better for performance than classes. Machine words have less overhead than classes. However, if we aren't careful, we can end up "boxing" machine words and add cost. In hot path code, that boxing can have a large impact.
 
 The easiest way to end up boxing a machine word is by including it in a union type. Take a look at the following code:
 
@@ -97,9 +97,14 @@ class Example
     -1
 ``` 
 
-You probably won't be proud of that code, but you'll be proud of the performance improvement you get. The `-1` idiom is one that should be quite familiar to folks with a C background. If you aren't familiar with C, you might be thinking: "Wait, that's a `USize`, an unsigned value. What on earth is `-1` there?" And that's a good question to ask. The answer is numeric types wrap overflow and wrap around. So `-1` is equivalent to the max value of a `U64`. Keep that in mind because if you find your value in index `18,446,744,073,709,551,615`, you'll be treating it as not-found. That might be problem but we doubt it.
+You probably won't be proud of that code, but you'll be proud of the performance improvement you get. The `-1` idiom is one that should be quite familiar to folks with a C background. If you aren't familiar with C, you might be thinking: "Wait, that's a `USize`, an unsigned value. What on earth is `-1` there?" And that's a good question to ask. The answer is numeric types wrap overflow and wrap around. So `-1` is equivalent to the max value of a `U64`. Keep that in mind because if you find your value in index `18,446,744,073,709,551,615`, you'll be treating it as not-found. That might be a problem, but we doubt it.
 
 ### Avoid `error` {#avoid-error}
+
+Pony's `error` is often confused with exceptions from languages like Java. `error` while having some similarities, isn't the same. Amongst other differences, `error` carries no runtime information like exception type. It's also cheaper to set up a Pony `error` than it is an exception in languages like Java. Many folks hear that and think, "I can use `error` without worrying about performance." Sadly, that isn't the case. 
+
+`error` has a cost. It's a good rule of thumb to avoid using `error` in hot path code. You should instead favor using union types where one value represents your "success" value, and the other represents your "error" value.
+Below you'll see two versions of a contrived `zero_is_bad` function. The first utilizes `error`; the second is implemented using a union type.
 
 #### Error version
 
@@ -152,6 +157,14 @@ class UsesFoo
       Debug("zero is bad")
     end
 ```
+
+Which is better for performance? Well, it depends. How often is the input to `zero_is_bad` going to be 0? The more often it is, the worse the error version will perform compared to the union type version. If the `i` parameter to `zero_is_bad` is rarely 0, then the error version will perform better than the union type version.
+
+Our union type version contains additional logic that will be executed on every single call. We have to match against the result of `zero_is_bad` to determine if you got a `U64` or `None`. You are going to pay that cost *every single time*. 
+
+How do you know which is the best version? Well, there is no best version. There is only a version that will work better based on the inputs you are expecting. Pick wisely. Here's our general rule of thumb. If it's in hot path code, and you are talking about `error` happening in terms that are less than 1 in millions, you probably want the union type. But again, the only way to know is to test.
+
+By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word]({#boxing-machine-words}). If `zero_is_bad` was returning a `(Bool | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
 
 ### Mind the garbage collector {#garbage-collector}
 
