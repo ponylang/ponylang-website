@@ -18,7 +18,7 @@ And remember, invest your time where it's valuable. Worrying about possible perf
 
 If you get stuck, fear not, we have a [welcoming community](https://www.ponylang.org/learn/#getting-help) that can assist you. 
 
-## Common performance problems
+## Pony performance tips
 
 ### It's probably your design
 
