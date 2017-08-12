@@ -370,6 +370,12 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 --ponythreads 4 --ponypinasio
 ```
 
+### Tune your operating system
+
+Depending on what your program does, tuning your operating system might yield good results. Operating systems like Linux exposes a variety of options that you can use to optimize them. The internet is awash in various documents purporting to give you settings that will lower network latency, raise network throughput or improve application latency. Beware of every single one of those documents. Even if they were written by a knowledgeable person, they weren't written with your specific hardware in mind, with your specific operating system in mind, with your particular application in mind. 
+
+Now, warning aside, there's plenty you can learn about tuning your operating system, and it can sometimes have a large impact on your application. Just remember, mindlessly turning knobs you don't understand isn't likely to make things better. Do your research. Understand what you are doing. Be empirical; measure and then measure again.
+
 ### Build the compiler from source
 
 The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should build your compiler from source. By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try building with [link time optimization on](https://github.com/ponylang/ponyc#building-with-link-time-optimisation-lto). And last but not least, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
