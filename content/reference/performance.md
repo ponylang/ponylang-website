@@ -28,6 +28,125 @@ If you get stuck, fear not, we have a [welcoming community](https://www.ponylang
 
 ### Watch your allocations {#avoid-allocations}
 
+Comparatively, creating new objects is expensive. Each object requires some amount of memory to be allocated. Allocations are expensive. The Pony runtime uses a pool allocator so creating a bunch of `String`s is cheaper than if you had to `malloc` each one. Allocation is not, however, free. In hot paths, it can get quite expensive.
+
+If you want to write high-performance Pony code, you are going to have to look at where you are allocating objects. For example:
+
+```pony
+let output = file_name + ":" + file_linenum + ":" + file_linepos + ": " + msg
+```
+
+How many allocations does it take to create `output`? You need to know. We'll give you a hint:
+
+```pony
+// String.add
+// commonly seen as "foo" + "bar"
+fun add(that: String box): String =>
+  """
+  Return a string that is a concatenation of this and that.
+  """
+  let len = _size + that._size
+  let s = recover String(len) end
+  (consume s)._append(this)._append(that)
+```
+
+The point of this isn't that you need to know that `+` on `String` calls `add` which in turn creates a new object. The point is, you need to know how many allocations your code and the code you are calling is going to trigger. The following code has far fewer allocations involved:
+
+```pony
+let output = recover String(file_name.size()
+  + file_linenum.size()
+  + file_linepos.size()
+  + msg.size()
+  + 4) end
+
+output.append(file_name)
+output.append(":")
+output.append(file_linenum)
+output.append(":")
+output.append(file_linepos)
+output.append(": ")
+output.append(msg)
+output
+```
+
+It's going to perform much better than the former. You might find yourself wondering about the first part of the code, what's going on with:
+
+```pony
+let output = recover String(file_name.size()
+  + file_linenum.size()
+  + file_linepos.size()
+  + msg.size()
+  + 4) end
+```
+
+The answer once again is in the source. In this case in the source for `String.append` and `String.reserve`.
+
+```pony
+fun ref append(seq: ReadSeq[U8], offset: USize = 0, len: USize = -1) =>
+  """
+  Append the elements from a sequence, starting from the given offset.
+  """
+  if offset >= seq.size() then
+    return
+  end
+
+  let copy_len = len.min(seq.size() - offset)
+  reserve(_size + copy_len)
+
+  match seq
+  | let s: (String box | Array[U8] box) =>
+    s._copy_to(_ptr, copy_len, offset, _size)
+    _size = _size + copy_len
+    _set(_size, 0)
+  else
+    let cap = copy_len + offset
+    var i = offset
+
+    try
+      while i < cap do
+        push(seq(i)?)
+        i = i + 1
+      end
+    end
+  end
+
+fun ref reserve(len: USize) =>
+  """
+  Reserve space for len bytes. An additional byte will be reserved 
+  for the null terminator.
+  """
+  if _alloc <= len then
+    let max = len.max_value() - 1
+    let min_alloc = len.min(max) + 1
+    if min_alloc <= (max / 2) then
+      _alloc = min_alloc.next_pow2()
+    else
+      _alloc = min_alloc.min(max)
+    end
+    _ptr = _ptr._realloc(_alloc)
+  end  
+`` 
+
+`String.append` will make sure that it has enough room to copy the new data onto the string by calling `reserve`. `String.reserve` will result in a new allocation if you are trying to reserve more memory than you've already allocated. So...
+
+```pony
+let output = recover String(file_name.size()
+  + file_linenum.size()
+  + file_linepos.size()
+  + msg.size()
+  + 4) end
+```
+
+reserves enough memory for our string ahead of time and avoids allocations. The same principle can apply to a variety of collections. If you know you need to put 256 items in a collection, allocate space for 256 from the get go, otherwise, as you add items to the collection, allocations will be triggered.
+
+"Limit allocations" doesn't only apply to knowing what happens in the code you are calling. You need to be aware of what your code is doing. You need to design your code to allocate as few objects as possible while triggering as few allocations from the pool allocator. 
+
+You can slaughter your performance if your object is growing in size and needs additional space and has to be copied into a newer roomier chunk of memory.
+
+Just remember, if you want to maximise performance:
+
+- You need to know when code you call is allocating new objects.
+- You need to know when code you call results in memory copies
 
 ### Give in to your "primitive obsession" {#primitive-obsession}
 
