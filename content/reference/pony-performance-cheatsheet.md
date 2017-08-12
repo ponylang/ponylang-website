@@ -318,6 +318,14 @@ In addition to the queue costs you pay with a message send, depending on the con
 
 ### Maybe you have too many threads {#ponythreads}
 
+Let's talk about the Pony scheduler for a moment. When you start up a Pony program, it will create one scheduler thread per available CPU. At least, that is what it does by default. Each of those scheduler threads will remain locked to a particular CPU. Without going into a ton of detail, this is usually the right thing to do for performance.
+
+Pony schedulers use a work-stealing algorithm that allows idle schedulers to take work from other schedulers. In a loaded system, the work stealing algorithm can keep all the CPUs busy. However, when CPUs are underutilized, performance can suffer. Based on your program, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponythreads=X` option to indicate how many scheduler threads the program will create. For many programs, the best choice is `--ponythreads=1`; this will turn off work-stealing, and it will keep all work on a single CPU which can sometimes provide a nice performance boost based on CPU caches.
+
+Work is ongoing to improve the work-stealing scheduler. Feel free to check in on the [developer mailing list](https://www.ponylang.org/contribute/) to get an update.
+
+### Pin your scheduler threads
+
 ### Build the compiler from source
 
 The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should build your compiler from source. By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try building with [link time optimization on](https://github.com/ponylang/ponyc#building-with-link-time-optimisation-lto). And last but not least, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
