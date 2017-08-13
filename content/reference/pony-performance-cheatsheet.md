@@ -436,7 +436,11 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 --ponythreads 4 --ponypinasio
 ```
 
-O, and one last thing. Let's talk for a moment about ["hyper-threads"](https://en.wikipedia.org/wiki/Hyper-threading). If you have hyper-threading on, your operating system might be seeing logical cores from hyper-threading as real physical cores. Don't be fooled. If you want to maximize performance by pinning threads to a CPU, you probably want to turn off hyperthreading. Be especially wary in environments like AWS that present "virtual CPUs" aka VCPUs. In the case of AWS, your 8 VCPUs are 4 real cores and 4 hyper-threads. You only want to be using the real cores, not the hyper-threads.
+### Hyper-threading {#hyperthreading}
+
+For some workloads, hyper-threading improves performance, for others, it can not affect or can hurt performance. You should test your application with hyper-threading enable and disabled. As a general rule of thumb, hyper-threading can often improve performance is your application is memory-bound and harm it if you are CPU-bound. If you aren't familiar with hyper-threading, the [hyper-threading Wikipedia entry](https://en.wikipedia.org/wiki/Hyper-threading) is a good place to start.
+
+If you are following our ["pin your scheduler threads"](#pin-your-threads) advice, you want to be especially aware of hyper-threading. If you have hyper-threading on, your operating system might be seeing logical cores from hyper-threading as real physical cores. Don't be fooled. If you want to maximize performance by pinning threads to a CPU, you probably want to turn off hyperthreading. Be especially wary in environments like AWS that present "virtual CPUs" aka VCPUs. In the case of AWS, your 8 VCPUs are 4 real cores and 4 hyper-threads. You only want to be using the real cores, not the hyper-threads.
 
 ### Tune your operating system {#tune-your-os}
 
