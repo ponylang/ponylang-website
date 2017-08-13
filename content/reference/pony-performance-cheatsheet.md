@@ -436,6 +436,8 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 --ponythreads 4 --ponypinasio
 ```
 
+O, and one last thing. Let's talk for a moment about ["hyperthreads"](https://en.wikipedia.org/wiki/Hyper-threading). If you have hyperthreading on, your operating system might be seeing logical cores from hyperthreading as real physical cores. Don't be fooled. If you want to maximize performance by pinning threads to a CPU, you probably want to turn off hyperthreading. Be especially wary in environments like AWS that present "virtual CPUs" aka VCPUs. In the case of AWS, your 8 VCPUs are 4 real cores and 4 hyperthreads. You only want to be using the real cores not the hyperthreads.
+
 ### Tune your operating system {#tune-your-os}
 
 Depending on what your program does, tuning your operating system might yield good results. Operating systems like Linux exposes a variety of options that you can use to optimize them. The internet is awash in various documents purporting to give you settings that will lower network latency, raise network throughput or improve application latency. Beware of every single one of those documents. Even if they were written by a knowledgeable person, they weren't written with your specific hardware in mind, with your specific operating system in mind, with your particular application in mind. 
