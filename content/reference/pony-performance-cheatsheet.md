@@ -159,7 +159,7 @@ Some of you probably looked at the `String` performance enhancement above and th
 
 ### Give in to your "primitive obsession" {#primitive-obsession}
 
-Many collections of programming "best practices" teach you to avoid ["primitive obsession"](https://refactoring.guru/smells/primitive-obsession). This great advice, normally. It's not such great advice if you are worried about performance. Let's take two ways you can represent a short form American zip code:
+Many collections of programming "best practices" teach you to avoid ["primitive obsession"](https://refactoring.guru/smells/primitive-obsession). This is great advice, normally. It's not such great advice if you are worried about performance. Let's take two ways you can represent a short form American zip code:
 
 ```pony
 // primitive obsession!
@@ -173,7 +173,7 @@ class ZipCode
     _zip = zip
 ```
 
-The problem with our right and proper OO version that avoids primitive obsession are that you are going to end up creating a new object. Do that in a hot path, and it will add up. As we said earlier, [watch you allocations](#avoid-allocations)!
+The problem with our right and proper OO version that avoids primitive obsession are that you are going to end up creating a new object. Do that in a hot path, and it will add up. As we said earlier, [watch your allocations](#avoid-allocations)!
 
 Perhaps our zip code example feels a little contrived? Here's another one. It's a somewhat familiar pattern to avoid using floating point numbers to represent monetary values. That's wise, floating point numbers are not good for accuracy, and most of us want our monetary calculations to be accurate. A standard solution to this problem might look like the `Money` class below:
 
@@ -321,7 +321,7 @@ In addition to the queue costs you pay with a message send, depending on the con
 - Each actor has its own heap
 - Actors might GC after each behavior call (never during one)
 - Effectively, Pony programs are constantly, concurrently collecting garbage
-- Garbage collection for an actor's heap uses a mark and dont sweep algorithm
+- Garbage collection for an actor's heap uses a mark and don't sweep algorithm
 - There are no garbage collection generations 
 - When an object is sent from one actor to another, additional messages related to garbage collection have to be sent
 - If you send an object allocated in actor 1 to actor 2 and from there to actor 3, garbage collection messages will flow between actors 1, 2, and 3
@@ -339,7 +339,7 @@ To minimize the impact of garbage collection on your application, you'll need to
 
 - Watch your allocations!
 
-If you don't allocate it, you don't have to collect it. Yaya, we [mentioned this already]({#avoid-allocations}); but really, it's an important component of your application's performance profile. 
+If you don't allocate it, you don't have to collect it. Yaya, we [mentioned this already](#avoid-allocations); but really, it's an important component of your application's performance profile. 
 
 - Avoid sending objects between actors when you can
 
@@ -438,7 +438,7 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 
 ### Hyper-threading {#hyperthreading}
 
-For some workloads, hyper-threading improves performance, for others, it can not affect or can hurt performance. You should test your application with hyper-threading enable and disabled. As a general rule of thumb, hyper-threading can often improve performance of your application if it's memory-bound and harm performance if it's CPU-bound. If you aren't familiar with hyper-threading, the [hyper-threading Wikipedia entry](https://en.wikipedia.org/wiki/Hyper-threading) is a good place to start.
+For some workloads, hyper-threading improves performance, for others, it can not affect or can hurt performance. You should test your application with hyper-threading enabled and disabled. As a general rule of thumb, hyper-threading can often improve performance of your application if it's memory-bound and harm performance if it's CPU-bound. If you aren't familiar with hyper-threading, the [hyper-threading Wikipedia entry](https://en.wikipedia.org/wiki/Hyper-threading) is a good place to start.
 
 If you are following our ["pin your scheduler threads"](#pin-your-threads) advice, you want to be especially aware of hyper-threading. If you have hyper-threading on, your operating system might be seeing logical cores from hyper-threading as real physical cores. Don't be fooled. If you want to maximize performance by pinning threads to a CPU, you probably want to turn off hyperthreading. Be especially wary in environments like AWS that present "virtual CPUs" aka VCPUs. In the case of AWS, your 8 VCPUs are 4 real cores and 4 hyper-threads. You only want to be using the real cores, not the hyper-threads.
 
