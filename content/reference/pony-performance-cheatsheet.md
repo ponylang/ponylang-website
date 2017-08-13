@@ -436,6 +436,12 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 --ponythreads 4 --ponypinasio
 ```
 
+### Hyper-threading {#hyperthreading}
+
+For some workloads, hyper-threading improves performance, for others, it can not affect or can hurt performance. You should test your application with hyper-threading enable and disabled. As a general rule of thumb, hyper-threading can often improve performance of your application if it's memory-bound and harm performance if it's are CPU-bound. If you aren't familiar with hyper-threading, the [hyper-threading Wikipedia entry](https://en.wikipedia.org/wiki/Hyper-threading) is a good place to start.
+
+If you are following our ["pin your scheduler threads"](#pin-your-threads) advice, you want to be especially aware of hyper-threading. If you have hyper-threading on, your operating system might be seeing logical cores from hyper-threading as real physical cores. Don't be fooled. If you want to maximize performance by pinning threads to a CPU, you probably want to turn off hyperthreading. Be especially wary in environments like AWS that present "virtual CPUs" aka VCPUs. In the case of AWS, your 8 VCPUs are 4 real cores and 4 hyper-threads. You only want to be using the real cores, not the hyper-threads.
+
 ### Tune your operating system {#tune-your-os}
 
 Depending on what your program does, tuning your operating system might yield good results. Operating systems like Linux exposes a variety of options that you can use to optimize them. The internet is awash in various documents purporting to give you settings that will lower network latency, raise network throughput or improve application latency. Beware of every single one of those documents. Even if they were written by a knowledgeable person, they weren't written with your specific hardware in mind, with your specific operating system in mind, with your particular application in mind. 
