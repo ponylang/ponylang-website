@@ -376,7 +376,7 @@ Please note, this is not an issue that is going to impact most applications. It 
 
 Pony's garbage collector is a non-generational mark and don't sweep collector. It will perform best when the number of objects in an actor's heap is kept low. The more objects on the heap, the longer a garbage collection cycle will take. All mark and don't sweep collectors share this trait. The complexity of generational garbage collection was added to address problems with long-lived objects.
 
-Issues with larger heap sizes interact interestingly with certain types of Pony applications. Take, for example, a network server. Clients open connections to it over TCP and exchange data. On the server side, data received from clients is allocated in the incoming TCP actors and then sent to other actors as an object or objects of some sort.
+Issues with high object count heaps interact interestingly with certain types of Pony applications. Take, for example, a network server. Clients open connections to it over TCP and exchange data. On the server side, data received from clients is allocated in the incoming TCP actors and then sent to other actors as an object or objects of some sort.
 
 If our receiving actors hold onto the objects allocated in the TCP actors for an extended period, the number of objects in their heaps will grow. As the objects held grows, garbage collection times will increase. 
 
@@ -386,13 +386,13 @@ Some applications might benefit from having receiving actors copy data once they
 
 Let's talk about the Pony scheduler for a moment. When you start up a Pony program, it will create one scheduler thread per available CPU. At least, that is what it does by default. Each of those scheduler threads will remain locked to a particular CPU. Without going into a ton of detail, this is usually the right thing to do for performance.
 
-Pony schedulers use a work-stealing algorithm that allows idle schedulers to take work from other schedulers. In a loaded system, the work stealing algorithm can keep all the CPUs busy. However, when CPUs are underutilized, performance can suffer. Based on your program, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponythreads=X` option to indicate how many scheduler threads the program will create. For some programs, the best choice is `--ponythreads=1`; this will turn off work-stealing, and it will keep all work on a single CPU which can sometimes provide a nice performance boost based on CPU caches.
+Pony schedulers use a work-stealing algorithm that allows idle schedulers to take work from other schedulers. In a loaded system, the work stealing algorithm can keep all the CPUs busy. However, when CPUs are underutilized, work-stealing can have a negative impact on performance. Based on your program, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponythreads=X` option to indicate how many scheduler threads the program will create. For some programs, the best choice is `--ponythreads=1`; this will turn off work-stealing, and it will keep all work on a single CPU which can sometimes provide a nice performance boost based on CPU caches.
 
 We suggest you try the following:
 
 - Run your program under your expected workload. 
 - Start with 1 scheduler thread and work your way up to the number of CPUs you have available. 
-- Measure your performance with `ponythread` setting.
+- Measure your performance with ecah `ponythread` setting.
 - Use the number of scheduler threads that gives you the best performance.
 
 Work is ongoing to improve the work-stealing scheduler. Feel free to check in on the [developer mailing list](https://www.ponylang.org/contribute/) to get an update.
