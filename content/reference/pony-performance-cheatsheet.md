@@ -392,7 +392,7 @@ We suggest you try the following:
 
 - Run your program under your expected workload. 
 - Start with 1 scheduler thread and work your way up to the number of CPUs you have available. 
-- Measure your performance with ecah `ponythread` setting.
+- Measure your performance with each `ponythread` setting.
 - Use the number of scheduler threads that gives you the best performance.
 
 Work is ongoing to improve the work-stealing scheduler. Feel free to check in on the [developer mailing list](https://www.ponylang.org/contribute/) to get an update.
