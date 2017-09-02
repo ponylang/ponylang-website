@@ -5,6 +5,8 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* Video: [Pony: How I learned to stop worrying and embrace an unproven technology (QCon New York)](https://www.infoq.com/presentations/pony-wallaroo)
+* Slides: [Pony: How I learned to stop worrying and embrace an unproven technology (QCon New York)](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology)
 * Pony: Actors and Objects from [PLISS'17](https://pliss2017.github.io/index.html). [Part 1](https://www.youtube.com/watch?v=FSu8mBm3iJs). [Part 2](https://www.youtube.com/watch?v=ypCF34YVtRE).
 * Video: [Why Pony? Bleeding edge technology for your concurrency woes (Polyconf'17)](https://eventil.com/presentations/XrsemV)
 * Slides: [Why Pony? Bleeding edge technology for your concurrency woes (Polyconf'17)](https://speakerdeck.com/seantallen/why-pony)
