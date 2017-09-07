@@ -81,3 +81,10 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
+## Runtime {#runtime}
+
+### Does Pony have green threads?
+
+The short answer is no. Pony doesn't have green threads. By default, the Pony scheduler starts 1 "actor thread" per available CPU. These threads are used to schedule actors. Each of these threads is a kernel thread.
+
+The longer answer is "it depends". Actors are Pony's unit of concurrency and many people when asking if Pony has green threads really are asking about how concurrency is modeled. You, as a Pony programmer, never interact with scheduler threads directly, you never interact with any sort of thread. You worry about actors and sending messages between them.
