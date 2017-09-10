@@ -81,6 +81,12 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
+## Ecosystem {#ecosystem}
+
+### Does Pony have a package manager?
+
+That would be yes and no. Package manager means different things to different people. What we have is a simple dependency manager called [pony-stable](https://github.com/ponylang/pony-stable) that we are planning on growing into a full featured tool. Whether that is a more full featured "dependency manager" or more full featured "package manager" depends on how you define the two terms.
+
 ## Runtime {#runtime}
 
 ### Does Pony have green threads?
