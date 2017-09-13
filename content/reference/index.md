@@ -6,6 +6,9 @@ title = "Reference"
 ## Debugging 
 
 - [Pony LLDB Cheatsheet]({{< relref "pony-lldb-cheatsheet.md" >}})
+- [Pony LLDB Extensions](https://github.com/aturley/pony-lldb)
+
+> A collection of LLDB extensions for working with the Pony programming language.
 
 ## Performance
 
@@ -14,6 +17,5 @@ title = "Reference"
 ## Other helpful tools
 
 - [Library Project Starter](https://github.com/ponylang/library-project-starter/blob/master/USAGE.md)
-
 
 > The Library Project Starter is designed to get you up and running with everything you need to start writing your own excellent Pony library.
