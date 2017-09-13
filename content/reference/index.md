@@ -6,6 +6,9 @@ title = "Reference"
 ## Debugging 
 
 - [Pony LLDB Cheatsheet]({{< relref "pony-lldb-cheatsheet.md" >}})
+
+> A quickstart for debugging Pony with LLDB
+
 - [Pony LLDB Extensions](https://github.com/aturley/pony-lldb)
 
 > A collection of LLDB extensions for working with the Pony programming language.
@@ -13,6 +16,8 @@ title = "Reference"
 ## Performance
 
 - [Pony Performance Cheatsheet]({{< relref "pony-performance-cheatsheet.md" >}})
+
+> How to get the best performance from your Pony code.
 
 ## Other helpful tools
 
