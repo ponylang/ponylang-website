@@ -24,3 +24,7 @@ title = "Reference"
 - [Library Project Starter](https://github.com/ponylang/library-project-starter/blob/master/USAGE.md)
 
 > The Library Project Starter is designed to get you up and running with everything you need to start writing your own excellent Pony library.
+
+- [Stable](https://github.com/ponylang/pony-stable)
+
+> Simple dependency manager for the Pony language.
