@@ -20,6 +20,14 @@ See the ["What makes Pony different"]({{< relref "discover/index.md#what-makes-p
 
 That's a hard question to answer. Language X is probably very compelling for some problems. It's probably less compelling for others. Such is computers. In the end, the best we can do is tell you what Pony is good at and you can make the decision for yourself. To learn more about Pony, we suggest checking out the ["Discover"]({{< relref "discover/index.md" >}}) section of the website. There's a portion of that section called ["Why Pony"]({{< relref "discover/index.md#why-pony" >}}) that might answer your question.
 
+### Where can I find the Pony roadmap?
+
+There is no official roadmap. Pony is a volunteer driven project. Unlike many programming languages, we don't have corporate backing. Our users add features and fix issues based on their needs. Pony users solve the problems that matter to them, and we all benefit.
+
+Many of us who are regular contributors share some general goals as we move towards an official 1.0 release. We are working towards making a Pony a stable, rock-solid platform for writing high-performance, concurrent applications.
+
+We invite you to join our small but growing community and help push Pony forward. We're still at an early stage, and new community members can have a huge influence on the language. Join us!
+
 ## Code {#code}
 
 ### What does `Foo()` do if my `Foo` class has both `create()` and `apply()` methods? Does it call both? {#Foo()-create-apply}
