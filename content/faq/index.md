@@ -95,6 +95,28 @@ make default_pic=true
 
 That would be yes and no. Package manager means different things to different people. What we have is a simple dependency manager called [pony-stable](https://github.com/ponylang/pony-stable) that we are planning on growing into a full featured tool. Whether that is a more full featured "dependency manager" or more full featured "package manager" depends on how you define the two terms.
 
+## Linking {#linking}
+
+### How can I supply custom linker parameters?
+
+So, you need to link your program to a custom library or otherwise pass a particular linker option? On non-Windows platforms, you can accomplish your goal using the  `ponyc` `--linker` option.
+
+You'll need to know what your current linker is. To get it, compile a pony program and pass `--verbose 3`. Then examine the output. You should see something like:
+
+```bash
+ld -execute -no_pie -dead_strip -arch x86_64 -macosx_version_min 10.8 -o ./timer ./timer.o -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/" -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../lib" -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../packages" -L"/usr/local/lib"  -lponyrt -lSystem
+```
+
+The `ld` is the linker command that is being used on MacOS. If I wanted to link in the library `Foo` and needed to pass `-lFoo` then I would compile my program as:
+
+`ponyc --linker="ld -lFoo"`
+
+That would change the linker command that `ponyc` runs to:
+
+```bash
+ld -lFoo -execute -no_pie -dead_strip -arch x86_64 -macosx_version_min 10.8 -o ./timer ./timer.o -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/" -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../lib" -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../packages" -L"/usr/local/lib"  -lponyrt -lSystem
+```
+
 ## Runtime {#runtime}
 
 ### Does Pony have green threads?
