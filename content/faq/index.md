@@ -99,7 +99,7 @@ That would be yes and no. Package manager means different things to different pe
 
 ### How can I supply custom linker parameters?
 
-So, you need to link your program to a custom library or otherwise pass a particular linker option? On non-Windows platforms, you can accomplish your goal using the  `ponyc` `--linker` option.
+So, you need to link your program to a custom library or otherwise pass a particular linker option? You can accomplish your goal using the  `ponyc` `--linker` option.
 
 You'll need to know what your current linker is. To get it, compile a pony program and pass `--verbose 3`. Then examine the output. You should see something like:
 
