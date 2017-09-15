@@ -108,7 +108,7 @@ ld -execute -no_pie -dead_strip -arch x86_64 -macosx_version_min 10.8
   -o ./timer ./timer.o -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/" 
   -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../lib" 
   -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../packages" 
-  -L"/usr/local/lib"  -lponyrt -lSystem
+  -L"/usr/local/lib" -lponyrt -lSystem
 ```
 
 The `ld` is the linker command that is being used on MacOS. If I wanted to link in the library `Foo` and needed to pass `-lFoo` then I would compile my program as:
@@ -122,7 +122,7 @@ ld -lFoo -execute -no_pie -dead_strip -arch x86_64 -macosx_version_min 10.8
   -o ./timer ./timer.o -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/" 
   -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../lib" 
   -L"/usr/local/lib/pony/0.9.0-e64bff88c/bin/../packages" 
-  -L"/usr/local/lib"  -lponyrt -lSystem
+  -L"/usr/local/lib" -lponyrt -lSystem
 ```
 
 ## Runtime {#runtime}
