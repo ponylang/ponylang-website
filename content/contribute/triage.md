@@ -110,23 +110,19 @@ _enhancement - needs discussion_ should be applied if an additional conversation
 
 _enhancement - ready for work_ should be applied if the enhancement is already fully scoped and someone could start work on it. If you are able to, assign the proper difficulty and priority. If you aren't able to assign a difficulty and priority, add the "needs discussion during sync" label so difficulty and priority can be discussed.
 
-### difficulty - *
+### complexity - *
 
-_difficulty - easy_ should be applied if the issue is one that someone with minimal knowledge of Pony can tackle.
+_complexity: beginner friendly_ should be applied if the issue is one that someone with minimal knowledge of Pony can tackle.
 
-_difficulty - hard_ should be applied if the issue is one that requires deep knowledge of some aspect of Pony and its runtime.
+_complexity: requires context_ should be applied if the issue needs you to either be familiar with that part of the codebase already, or you need to spend some time getting familiar with it, but after gaining that context, it's not very complex.
 
-_difficulty - medium_ should be applied if the issue doesn't meet the definition of easy or hard.
+_complexity: major effort_ should be applied if the issue is one where even somebody very familiar with that part of the codebase is going to spend a significant amount of time working through finding and implementing the correct solution.
 
-### priority - *
+### triggers release
 
-_priority - high_ should be applied if the resolution of the issue triggers a Pony release. This label is generally only applied to severe bugs.
+Should be applied if the resolution of the issue triggers a Pony release. This label is generally only applied to severe bugs. 
 
-_priority - medium_ should be applied to issues we would like to handled in the not so distant future.
-
-_priority - low_ is applied when there is no pressing need for the issue to be resolved. If it happens in a week, great. A month? ok. A year? alrighty! 
-
-Generally, most enhancements will be either medium or low priority.
+Generally, most issues will not have triggers release set.
 
 ### duplicate
 
