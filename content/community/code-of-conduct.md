@@ -1,6 +1,7 @@
 +++
 title = "Code of Conduct"
 +++
+
 In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.
 
 In addition to having a code of conduct as an anti-harassment policy, we have a small set of [social rules](https://www.recurse.com/manual#sub-sec-social-rules) we follow. We (the project maintainers) lifted these rules from the [Recurse Center](https://www.recurse.com). We've seen these rules in effect in other environments. We'd like Pony community to share a similar positive environment. These rules are intended to be lightweight, and to make more explicit certain social norms that  are normally implicit. Most of our social rules really boil down to “don't be a  jerk“ or “don't be annoying.” Of course, almost nobody sets out to be a jerk or annoying, so telling people not to be jerks isn't a very productive strategy.
