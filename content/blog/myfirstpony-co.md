@@ -1,7 +1,7 @@
 ---
 date: 2017-10-17T17:52:40-04:00
 title: My First Pony
-author: "codec-abc"
+author: "codecabc"
 categories:
 - My First Pony
 draft: false
