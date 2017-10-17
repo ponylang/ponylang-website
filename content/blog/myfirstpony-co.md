@@ -42,31 +42,37 @@ To sum up, what is appealing to me in Pony is:
 * The dependency management is a bit scary too in my opinion. I have not used pony stable yet but I am not confident about only using a wrapper for Git as a dependency tool would result in a very stable (no pun intended) and robust dependency management tool. I did not see anything about using already compiled libraries too. It may be a problem for commercial projects. Still, the language try to provide a solution to the dependency management problem which is a good thing since I don't think a language can succeed today with poor tooling.
 * The standard library documentation is useful but not easy to read. It would be nicer if there was a synthetic view as the top with link to each function. Moreover, a more pronounced delimitation between 2 functions would be easier on the eyes. Be able to fold a function would be a nice addition too.
 * The error management seems a bit verbose. While, the basics are here I would like to have functions defined on “Partial type” to avoid boilerplate instead of having to use the full ```try … else … end``` construct.
+
 ```pony
     myArray(i)?.or_none() 
     //or 
     myArray(i)?.with_default(...)
 ``` 
+
 * The language is missing namespace but has qualified import. Both would be neat.
 * I would really love to have more sugar and auto-inference into the language. For example, the following code does not compile:
+
 ```pony
 // Does not compile
 let listOfNumbers = List[U32].from([1; 2; 3; 4])
 let onlyOdd = listOfNumbers.filter({ n: => n % 2 == 1})
 ```
+
 we have to specify a part of the type (the input type but not the output type) for the lambda because it is not inferred by the compiler. 
+
 ```pony
 // Does compile
 let listOfNumbers = List[U32].from([1; 2; 3; 4])
 let onlyOdd = listOfNumbers.filter({(n: U32) => n % 2 == 1})
 ```
+
 With the help of extension method a la C# to add methods to type that does not have them by default, it could help reduce the boilerplate in some cases. Maybe Pony can come with a thing to help in that area.
 * The error messages are quite good for simple cases, but sometime a bit cryptic when mixing reference capabilities, generic and aliasing. An – explain option to the compiler to have an explanation of the issue with the possible solution would surely help beginners.
 
 ### Bad:
 
 * The tutorial is sometimes hard to follow. Often it uses a notion before introducing it later on. It could be better to introduce upfront the things that are easy to pick up for newcomers and leaving the more advanced stuff for later. In that regard, it is a bit odd that reference capabilites come before pattern matching. Plus, I wish the ribbon the left had one more level for titles. It would make the tutorial more easy to browse. I often had trouble to find things in the tutorial because I did not even know where to look for. As an example, It would be obvious that the lambda's paragraphs is in the  "Object Literals" section rather than in the "Methods" one. The tutorial lacks examples in some place too. Often, it explains something without showing a bit of code. Finally, a button that load the sample on the playground in a new page would be a nice addition to experiment with the language.
-* The collection is API is confusing. Some methods only exist for List while other are only for collections/persistent and Array have often not much in comparison. Loving LINQ, Pony has quite a bit to catch up in this area. Moreover, I did not understood if Array is a primitive type and can be used directly with FFI (for example using an Array[U8] as a parameter of a C function expecting a char*). While this can be understood since the language and the ecosystem is not mature yet, the tutorial could tell a bit more about it. Especially, List and Map are so commonly used that any non trivial project (even toys one) would need them. So a brief introduction to those 2 types in the tutorial would be a nice addition too.
+* The collection is API is confusing. Some methods only exist for List while other are only for collections/persistent and Array have often not much in comparison. Loving LINQ, Pony has quite a bit to catch up in this area. Moreover, I did not understood if Array is a primitive type and can be used directly with FFI (for example using an Array[U8] as a parameter of a C function expecting a char pointer). While this can be understood since the language and the ecosystem is not mature yet, the tutorial could tell a bit more about it. Especially, List and Map are so commonly used that any non trivial project (even toys one) would need them. So a brief introduction to those 2 types in the tutorial would be a nice addition too.
 * I don't think there is an auto-completion tool available for any IDE/Text editor yet. But this is quite understandable and I didn't miss it too much.
 
 ## General opinion about the language so far:
