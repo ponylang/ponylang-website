@@ -4,7 +4,7 @@ title: My First Pony
 author: codecabc
 categories:
 - My First Pony
-draft: true
+draft: false
 ---
 
 # Background & How I discovered Pony?
