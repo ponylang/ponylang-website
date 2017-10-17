@@ -9,9 +9,9 @@ draft: false
 
 # My First Pony
 
-Editor's note:
+**Editor's note:**
 
-This is the 2nd post in our "My First Pony" series. We ask new Pony user's to share their initial impressions. The good, the bad, the ugly and sometimes, and sometimes the factually wrong. We think we can all, as an industry, learn from how we all learn. So sit back and enjoy another issue of "My First Pony":
+_This is the 2nd post in our "My First Pony" series. We ask new Pony user's to share their initial impressions. The good, the bad, the ugly and sometimes, and sometimes the factually wrong. We think we can all, as an industry, learn from how we all learn. So sit back and enjoy another issue of "My First Pony":_
 
 ## Background & How I discovered Pony?
 
