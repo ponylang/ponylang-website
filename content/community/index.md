@@ -33,6 +33,7 @@ but, that can come later.
 * [Ownership and Reference Counting based Garbage Collection in the Actor World](/media/papers/OGC.pdf)
 * [Fully Concurrent Garbage Collection of Actors on Many-Core Machines](/media/papers/opsla237-clebsch.pdf)
 * [A String of Ponies: Transparent Distributed Programming with Actors](/media/papers/a_string_of_ponies.pdf)
+* [A Principled Design of Capabilities in Pony](/media/papers/a_prinicipled_design_of_capabilities_in_pony.pdf)
 
 ## Chat
 
