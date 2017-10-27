@@ -32,7 +32,7 @@ If you are like most people learning Pony, your biggest stumbling block is going
 
 ### What are reference capabilities
 
-Reference capabilities allow you the programmer to use Pony type system to guarantee that you are safely handling data in your application. If you try to do something unsafe, your program won't compile. 
+Reference capabilities allow you the programmer to use the Pony type system to guarantee that you are safely handling data in your application. If you try to do something unsafe, your program won't compile.
 
 ### What background do I need?
 
@@ -41,11 +41,11 @@ We've noticed that folks who have the easiest time with reference capabilities t
 - Familiarity with at least one strongly-typed language
 - Experience working in a highly concurrent, non-actor based language
 
-If you are coming from a dynamically typed background then reference capabilities are probably going to be doubly hard for you. Why? Well, you are going to be learning to navigate general type errors in general and then, you'll have the added overhead of reference capabilities related type errors. It's quite possible to get over the hump but just be aware you are in for a bit more work. More important that your type system background is your "concurrency background".
+If you are coming from a dynamically typed background then reference capabilities are probably going to be doubly hard for you. Why? Well, you are going to be learning to navigate general type errors in general and then, you'll have the added overhead of reference capabilities related type errors. It's quite possible to get over the hump but just be aware you are in for a bit more work. More important than your type system background is your "concurrency background".
 
 While reference capabilities might seem exotic, they aren't really. They codify in the type system safe data handling practices that many programmers have learned over the course of time. If you have previously worked in a highly-concurrent, thread-based programming language like Java or C++ then there's a chance that you have a leg up on learning reference capabilities. 
 
-We're not going to pretend that all programmers know how to safely handle data when using threads. If they did, we wouldn't need Pony. The sad fact is, handling data correctly when you have many threads is hard. Even the most experienced programmer makes mistakes and they are really hard to go back and find. That said, if you are at least used to think about how different threads interact with data in your program, you have a leg up. Reference capabilities are all about describing for the compiler how data should be handled.
+We're not going to pretend that all programmers know how to safely handle data when using threads. If they did, we wouldn't need Pony. The sad fact is, handling data correctly when you have many threads is hard. Even the most experienced programmer makes mistakes and they are really hard to go back and find. That said, if you are at least used to thinking about how different threads interact with data in your program, you have a leg up. Reference capabilities are all about describing for the compiler how data should be handled.
 
 So, if you are coming from a single-threaded language like Ruby or Python, odds are, you haven't thought a lot about many threads safely accessing your variables. That's ok, it just means you are going to have more work to do on understanding the concepts that the various reference capabilities represent. 
 If you get hung up on something, don't worry. [We're here to help]({{< relref "#getting-help" >}}).
