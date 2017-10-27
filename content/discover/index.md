@@ -13,7 +13,7 @@ If you are interested in the early history of Pony and how it came into existenc
 
 ### Pony is type safe
 
-*Really type safe*. There's a mathematical [proof](/media/papers/fast-cheap.pdf) and everything.
+*Really type safe*. There's a mathematical [proof](/media/papers/fast-cheap-with-proof.pdf) and everything.
 
 ### Pony is memory safe
 
