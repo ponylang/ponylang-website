@@ -26,4 +26,4 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 ## Whitequark
 
-[Whitequark](https://whitequark.org/) is kind enough to host the logs of our #ponylang freenode channel. He provides logging services for a number of channels. Pretty awesome if you ask us. 
+[Whitequark](https://whitequark.org/) is kind enough to host the logs of our #ponylang freenode channel. They provide logging services for a number of channels. Pretty awesome if you ask us. 
