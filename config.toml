@@ -83,6 +83,11 @@ canonifyurls = false
 	url    = "/community/code-of-conduct/"
 	weight = 80
 
+[[menu.main]]
+	name   = "Sponsors"
+	url    = "/sponsors/"
+	weight = 90
+
 [blackfriday]
 	smartypants	= true
 	fractions = true
