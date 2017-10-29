@@ -6,7 +6,7 @@ categories = [
     "Last Week in Pony",
 ]
 title = "Last Week in Pony - October 29, 2017"
-date = "2017-10-29T10:00:00+02:00"
+date = "2017-10-29T10:53:32+02:00"
 +++
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
