@@ -15,11 +15,11 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blogposts
 
-- Roberto Dip wrote a [A brief dive into the Pony programming language](https://monades.roperzh.com/pony-programming-language/) which also spawned some discussions on [Lobsters](https://lobste.rs/s/tloyu3/brief_dive_into_pony_programming) and [Reddit](https://www.reddit.com/r/programmingcirclejerk/comments/6tvwvj/in_pony_divide_by_zero_results_in_zero_from_a/) which is mostly about how division by zero (for integers) is handled in pony. As a small refresher, the tutorial section about [Divide by Zero](https://tutorial.ponylang.org/gotchas/divide-by-zero.html).
+- Roberto Dip wrote a [A brief dive into the Pony programming language](https://monades.roperzh.com/pony-programming-language/) which also spawned some discussions on [Lobsters](https://lobste.rs/s/tloyu3/brief_dive_into_pony_programming) and [Reddit](https://www.reddit.com/r/programmingcirclejerk/comments/6tvwvj/in_pony_divide_by_zero_results_in_zero_from_a/) which is mostly about how division by zero (for integers) is handled in Pony. As a small refresher, the tutorial section about [Divide by Zero](https://tutorial.ponylang.org/gotchas/divide-by-zero.html).
 
 ## Items of note
 
-- The Pony development sync from November 1st 2017 has been recorded for your listening pleasure and is available via [groups.io](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_11_01). Wanna enjoy the great wonders of how a ponyc PR is discussed and merged as if you stood right behind the one who did it? Then tune in.
+- The Pony development sync from November 1st 2017 has been recorded for your listening pleasure and is available via [groups.io](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_11_01). Wanna enjoy the great wonders of how a Pony PR is discussed and merged as if you stood right behind the one who did it? Then tune in.
 
 ## RFCs
 
