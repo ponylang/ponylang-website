@@ -5,6 +5,9 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* Video: [Pony - A Language for Provably Safe Lockless Concurrency (Øredev Malmö)](https://vimeo.com/242214036)
+* Slides: [Pony - A Language for Provably Safe Lockless Concurrency (Øredev Malmö)](https://github.com/jemc/slides-pony)
+* Video: [Dr. Strangecode or: How I Learned to Stop Worrying and Love the Type System.](https://www.youtube.com/watch?v=vVheDbrQBDk)
 * Video: [Pony: How I learned to stop worrying and embrace an unproven technology (QCon New York)](https://www.infoq.com/presentations/pony-wallaroo)
 * Slides: [Pony: How I learned to stop worrying and embrace an unproven technology (QCon New York)](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology)
 * Pony: Actors and Objects from [PLISS'17](https://pliss2017.github.io/index.html). [Part 1](https://www.youtube.com/watch?v=FSu8mBm3iJs). [Part 2](https://www.youtube.com/watch?v=ypCF34YVtRE).
