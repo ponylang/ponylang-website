@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2017
 
+* [Pony Considerations](https://gist.github.com/aturley/49b60c98306d90ffc2f981515827b005)
 * Video: [Pony - A Language for Provably Safe Lockless Concurrency (Øredev Malmö)](https://vimeo.com/242214036)
 * Slides: [Pony - A Language for Provably Safe Lockless Concurrency (Øredev Malmö)](https://github.com/jemc/slides-pony)
 * Video: [Dr. Strangecode or: How I Learned to Stop Worrying and Love the Type System.](https://www.youtube.com/watch?v=vVheDbrQBDk)
