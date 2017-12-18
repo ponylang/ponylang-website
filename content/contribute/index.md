@@ -1,15 +1,16 @@
 +++
 title = "Contribute"
 +++
+
 Interested in helping develop Pony? Awesome. We could use the help. Here's a list of projects that are currently underway that you can assist with. If none of them interest you, drop a note to the [pony+dev mailing list](https://pony.groups.io/g/dev) and we should be able to find something that suits your interests.
 
-Note sure where to start?
+Not sure where to start?
 
-If you are new to Pony or don't have a ton of time to devote to helping, we suggest you check out Project Documentation and helping to improve our docs. Contributing to documentation is a great way to start learning Pony. Teaching a subject is an incredible way to learn the subject.
+If you are new to Pony or don't have a ton of time to devote to helping, we suggest you check out Project Documentation and help to improve our docs. Contributing to documentation is a great way to start learning Pony. Teaching a subject is an incredible way to learn the subject.
 
 If you are new to Pony and have more time to devote, check out the Low Hanging Fruit. Tackle stuff from that and if we run out, switch over to helping with documentation.
 
-If are a bit more experienced with Pony then it might be time to get involved with triaging incoming issues. Not only will triaging help move the project forward but its a common first step towards becoming a Pony committer.
+If you are a bit more experienced with Pony then it might be time to get involved with triaging incoming issues. Not only will triaging help move the project forward but it's a common first step towards becoming a Pony committer.
 
 ## Triage incoming issues
 
@@ -17,7 +18,7 @@ Users regularly open issues against the [ponyc repository](https://github.com/po
 
 ## Project Documentation
 
-Documentation is the life blood of an Open Source project. It makes it easier for get new users up and running with the language. Our ability to grow Pony usage will be directly tied to the quality and breadth of our documentation. Assisting with adding documentation for Pony is a great way to get started helping out with Pony. Check out [Project Documentation](project-documentation).
+Documentation is the lifeblood of an Open Source project. It makes it easier to get new users up and running with the language. Our ability to grow Pony usage will be directly tied to the quality and breadth of our documentation. Assisting with adding documentation for Pony is a great way to get started helping out with Pony. Check out [Project Documentation](project-documentation).
 
 ## Low Hanging Fruit
 
