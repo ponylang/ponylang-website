@@ -30,10 +30,6 @@ The [Release Blog Post](https://www.ponylang.org/blog/2017/12/0.21.0-released/) 
 - Another Week, another Pony Development Sync Call. Those calls are public and if you'd like to join and bring up a burning topic, just join the [Dev Mailing List](https://pony.groups.io/g/dev) to get all the details. We'd love to have you on board to discuss your issues and/or ideas. Here is the [Recorded Audio for last weeks Call](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_12_20).
 
 
-## News and Blog Posts
-
-- The folks over at Wallaroo Labs have published a [blog post](https://blog.wallaroolabs.com/2017/12/dynamic-tracing-a-pony---python-program-with-dtrace/) by Scott Fritchie (also a Pony committer!) about using DTrace to get observability into Wallaroo Python applications. It's got a ton of resources on DTrace and SystemTap. It's also the best resource out there right now for observing Pony programs using DTrace: https://blog.wallaroolabs.com/2017/12/dynamic-tracing-a-pony---python-program-with-dtrace/
-
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
