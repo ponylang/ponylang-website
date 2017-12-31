@@ -32,7 +32,9 @@ This release comes with improved stability and memory consumption of the runtime
 
 - Due to the holidays there has been no Pony Development Sync this week. The next one is scheduled for Wednesday, January 3, 2017 at 03:30 PM (GMT-05:00) America/New York via zoom. Join the [Dev Mailing List](https://pony.groups.io/g/dev) to get all the details. We'd love to have you there.
 
-## RFCs
+## New RFCs
+
+- There is a new RFC out for [Class and Actor field Docstrings](https://github.com/ponylang/rfcs/pull/115).
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
