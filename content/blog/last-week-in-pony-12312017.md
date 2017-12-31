@@ -20,9 +20,13 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 We got lucky this christmas and have been gifted with two new releases!
 
 [0.21.1](https://www.ponylang.org/blog/2017/12/0.21.1-released/) brought us
-[Dynamic scheduler thread scaling based on workload](https://github.com/ponylang/ponyc/pull/2386) and [Support setting the binary executable name with --bin-name](https://github.com/ponylang/ponyc/pull/2430). This release comes with improved stability and memory consumption of the runtime, so updating is recommended.
 
-[0.21.2](https://www.ponylang.org/blog/2017/12/0.21.2-released/) is a bugfix release for Dynamic Thread Scheduling, and thus it deserves our love even more.
+* [Dynamic scheduler thread scaling based on workload](https://github.com/ponylang/ponyc/pull/2386) and 
+* [Support setting the binary executable name with --bin-name](https://github.com/ponylang/ponyc/pull/2430). 
+
+This release comes with improved stability and memory consumption of the runtime, so updating is recommended.
+
+[0.21.2](https://www.ponylang.org/blog/2017/12/0.21.2-released/) is a bugfix release for Dynamic Thread Scheduling, and thus it deserves our gratefulness even more.
 
 ## Items of note
 
