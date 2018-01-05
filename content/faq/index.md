@@ -89,8 +89,9 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
-### ponyc reports error: "unable to link" and you see output such as "undefinded reference to":
-```
+### ponyc reports error: "unable to link" and you see output such as "undefinded reference to SSL_":
+
+```bash
 Linking ./stdlib
 ./stdlib.o(.text+0xd1474): error: undefined reference to 'EVP_MD_CTX_create'
 ./stdlib.o(.text+0xd1538): error: undefined reference to 'EVP_MD_CTX_cleanup'
@@ -129,13 +130,17 @@ Warning: environment variable $CC undefined, using cc as the linker
 Error:
 unable to link: cc -o ./stdlib -O3 -march=native -mcx16 -latomic -fuse-ld=gold ./stdlib.o -L"/home/wink/prgs/pony/ponyc/build/release/" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/" -L"/home/wink/prgs/pony/ponyc/build/release/../../packages" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/../../packages" -L"/usr/local/lib" -Wl,-rpath,"/usr/local/lib" -Wl,--start-group -l"rt" -l"crypto" -l"pcre2-8" -l"ssl" -Wl,--end-group  -lpthread  -lponyrt-pic -ldl -lm -Wl,--export-dynamic-symbol=__PonyDescTablePtr -Wl,--export-dynamic-symbol=__PonyDescTableSize
 ```
+
 This means your OS has openssl 1.1 installed, for example Arch Linux. When using the ponyc Makefile and targeting the tests that are using crypto or ssl add "OPENSSL=-Dopenssl_1.1.0" to the "make" command line:
+
 ```bash
-make OPENSSL=-Dopenssl_1.1.0 test
+make OPENSSL=-Dopenssl_1.1.0
 ```
+
 When compiling with ponyc directly add "-Dopenssl_1.1.0" to the command line. For instance, to compile stdlib tests:
+
 ```bash
-./build/release/ponyc -Dopenssl_1.1.0 packages/stdlib
+./build/release/ponyc -Dopenssl_1.1.0
 ```
 
 ## Ecosystem {#ecosystem}
