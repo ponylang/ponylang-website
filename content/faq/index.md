@@ -89,7 +89,7 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
-### ponyc reports error: "unable to link" and you see output such as "undefinded reference to SSL_":
+### How do I fix ponyc reporting "unable to link" along with "undefinded reference to SSL_"?
 
 ```bash
 Linking ./stdlib
