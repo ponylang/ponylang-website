@@ -131,14 +131,13 @@ Error:
 unable to link: cc -o ./stdlib -O3 -march=native -mcx16 -latomic -fuse-ld=gold ./stdlib.o -L"/home/wink/prgs/pony/ponyc/build/release/" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/" -L"/home/wink/prgs/pony/ponyc/build/release/../../packages" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/../../packages" -L"/usr/local/lib" -Wl,-rpath,"/usr/local/lib" -Wl,--start-group -l"rt" -l"crypto" -l"pcre2-8" -l"ssl" -Wl,--end-group  -lpthread  -lponyrt-pic -ldl -lm -Wl,--export-dynamic-symbol=__PonyDescTablePtr -Wl,--export-dynamic-symbol=__PonyDescTableSize
 ```
 
-By default, the Pony standard library uses OpenSSL 0.9 for various cryptography functions. This mean your OS has a non-default SSL library installed, you'll have to let ponyc know. For example Arch Linux has OpenSSL 1.1 installed. On such a system, when compiling your application, add `-Dopenssl_1.1.0` to the `ponyc` command:
+By default, the Pony standard library uses OpenSSL 0.9 for various cryptography functions. This means if your OS has a non-default SSL library installed, you'll have to let ponyc know. For example Arch Linux has OpenSSL 1.1 installed. On such a system, when compiling your application, add `-Dopenssl_1.1.0` to the `ponyc` command:
 
 ```bash
 ponyc -Dopenssl_1.1.0
 ```
 
-You can also encounter this problem if you try to build Pony standard library tests via the ponyc Makefile. This can be addressed 
- When using the ponyc Makefile and targeting the tests that are using crypto or ssl add `OPENSSL=-Dopenssl_1.1.` to the `make` command line:
+You can also encounter this problem if you try to build the Pony standard library tests via the ponyc Makefile. This can be addressed by adding `OPENSSL=-Dopenssl_1.1.` to the `make` command line:
 
 ```bash
 make OPENSSL=-Dopenssl_1.1.0 test
