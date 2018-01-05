@@ -89,6 +89,55 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
+### ponyc reports error: "unable to link" and you see output such as "undefinded reference to":
+```
+Linking ./stdlib
+./stdlib.o(.text+0xd1474): error: undefined reference to 'EVP_MD_CTX_create'
+./stdlib.o(.text+0xd1538): error: undefined reference to 'EVP_MD_CTX_cleanup'
+./stdlib.o(.text+0xd15f4): error: undefined reference to 'EVP_MD_CTX_cleanup'
+./stdlib.o(.text+0xd165b): error: undefined reference to 'EVP_MD_CTX_create'
+./stdlib.o(.text+0xd1710): error: undefined reference to 'EVP_MD_CTX_cleanup'
+./stdlib.o(.text+0xf7834): error: undefined reference to 'SSL_load_error_strings'
+./stdlib.o(.text+0xf783b): error: undefined reference to 'SSL_library_init'
+./stdlib.o(.text+0xf7842): error: undefined reference to 'CRYPTO_num_locks'
+./stdlib.o(.text+0xf785a): error: undefined reference to 'CRYPTO_set_locking_callback'
+./stdlib.o(.text+0xf7874): error: undefined reference to 'SSL_load_error_strings'
+./stdlib.o(.text+0xf787b): error: undefined reference to 'SSL_library_init'
+./stdlib.o(.text+0xf7882): error: undefined reference to 'CRYPTO_num_locks'
+./stdlib.o(.text+0xf789a): error: undefined reference to 'CRYPTO_set_locking_callback'
+./stdlib.o(.text+0x1006e2): error: undefined reference to 'EVP_MD_CTX_cleanup'
+./stdlib.o(.text+0x10079d): error: undefined reference to 'EVP_MD_CTX_create'
+./stdlib.o(.text+0x1007ed): error: undefined reference to 'EVP_MD_CTX_create'
+./stdlib.o(.text+0x11cbd7): error: undefined reference to 'SSLv23_method'
+./stdlib.o(.text+0x12542b): error: undefined reference to 'SSLv23_method'
+./stdlib.o(.text+0x13536d): error: undefined reference to 'sk_pop'
+./stdlib.o(.text+0x1356e5): error: undefined reference to 'sk_pop'
+./stdlib.o(.text+0x1356fe): error: undefined reference to 'sk_free'
+./stdlib.o(.text+0x1357ed): error: undefined reference to 'sk_pop'
+./stdlib.o(.text+0x135b65): error: undefined reference to 'sk_pop'
+./stdlib.o(.text+0x135b7e): error: undefined reference to 'sk_free'
+./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'SSL_load_error_strings'
+./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'SSL_library_init'
+./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'CRYPTO_num_locks'
+./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'CRYPTO_set_locking_callback'
+./stdlib.o:stdlib:function main: error: undefined reference to 'SSL_load_error_strings'
+./stdlib.o:stdlib:function main: error: undefined reference to 'SSL_library_init'
+./stdlib.o:stdlib:function main: error: undefined reference to 'CRYPTO_num_locks'
+./stdlib.o:stdlib:function main: error: undefined reference to 'CRYPTO_set_locking_callback'
+collect2: error: ld returned 1 exit status
+Warning: environment variable $CC undefined, using cc as the linker
+Error:
+unable to link: cc -o ./stdlib -O3 -march=native -mcx16 -latomic -fuse-ld=gold ./stdlib.o -L"/home/wink/prgs/pony/ponyc/build/release/" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/" -L"/home/wink/prgs/pony/ponyc/build/release/../../packages" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/../../packages" -L"/usr/local/lib" -Wl,-rpath,"/usr/local/lib" -Wl,--start-group -l"rt" -l"crypto" -l"pcre2-8" -l"ssl" -Wl,--end-group  -lpthread  -lponyrt-pic -ldl -lm -Wl,--export-dynamic-symbol=__PonyDescTablePtr -Wl,--export-dynamic-symbol=__PonyDescTableSize
+```
+This means your OS has openssl 1.1 installed, for example Arch Linux. When using the ponyc Makefile and targeting the tests that are using crypto or ssl add "OPENSSL=-Dopenssl_1.1.0" to the "make" command line:
+```bash
+make OPENSSL=-Dopenssl_1.1.0 test
+```
+When compiling with ponyc directly add "-Dopenssl_1.1.0" to the command line. For instance, to compile stdlib tests:
+```bash
+./build/release/ponyc -Dopenssl_1.1.0 packages/stdlib
+```
+
 ## Ecosystem {#ecosystem}
 
 ### Does Pony have a package manager?
