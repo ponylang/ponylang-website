@@ -82,6 +82,17 @@ Once you have your content complete, commit your changes on the branch and open 
 
 After the PR is open, close the current "Last Week in Pony" issue and open a new one. **Remember to add the `last-week-in-pony` label**. Without that label, the "submit content" link in the blog post will point to nothing.
 
+### Publish
+
+The current publishing process is as follows, feel free to change it if need be:
+
+- Submit as new link on [/r/ponylang](https://www.reddit.com/r/ponylang/).
+- Tweet about it as [@ponylang](https://twitter.com/ponylang).
+- Announce on IRC in `#ponylang`.
+- Tell all of your friends.
+
+If you can't do a step by yourself, ask one of the elders of ponylang to do it for you.
+
 ## Release blog post
 
 Each pony release is accompanied by a corresponding "Release" blog post. The purpose of the blog post is to inform the community of what changes were in a release. We announce the release by linking to the blog post. 
