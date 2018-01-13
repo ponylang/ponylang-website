@@ -16,13 +16,13 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- The [Pony library starter pack](https://github.com/ponylang/library-project-starter) has gotten an update.
-  
-  Now includes CircleCI instead of TravisCI for default CI setup. The CircleCI configuration involves fewer manual setup steps so we decided to move to it for the default.
+The [Pony library starter pack](https://github.com/ponylang/library-project-starter) has gotten an update. 
+
+It now includes CircleCI instead of TravisCI for default CI setup. The CircleCI configuration involves fewer manual setup steps so we decided to move to it for the default.
 
 ## Pony Development Sync
 
-Another Sync call happened! Check out the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_01_10).
+Another Sync call took place on Wednesday January 10, 2018. Check out the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_01_10).
 
 The next one is scheduled for Wednesday, January 17, 2018 at 03:30 PM (GMT-05:00) America/New York via zoom. Join the [Dev Mailing List](https://pony.groups.io/g/dev) to get all the details. We'd love to have you there.
 
