@@ -25,7 +25,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Talks
 
-Kristoffer Grönlund is talking about Pony at linux.conf.au on January 24: [Everybody gets a pony!](https://rego.linux.conf.au)
+Kristoffer Grönlund is talking about Pony at [linux.conf.au](https://linux.conf.au/) on January 24, 2018: [Everybody gets a pony!](https://rego.linux.conf.au/schedule/presentation/47/)
 
 ## Pony Development Sync
 
