@@ -16,9 +16,16 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-The [Pony library starter pack](https://github.com/ponylang/library-project-starter) has gotten an update. 
+- [pony-fmt](https://github.com/krig/pony-fmt), an alternate string formatting library for pony. Kristoffer, its author, is looking for feedback.
+- [pony-benchmark](https://github.com/Theodus/pony-benchmark) is the new micro-benchmark framework, written by [Theodus](https://github.com/Theodus). For those of you not in the know, [PonyBench](https://stdlib.ponylang.org/ponybench--index) is/was a micro-benchmarking framework for Pony and [pony-benchmark](https://github.com/Theodus/pony-benchmark) is going to be its successor. Theo had this to say about the new version:
+  
+  > I've finished most of the work on a new micro-benchmark framework to replace ponybench. The new framework allows benchmarks to be run with GC and provides more fine-grained control over the statistics generated. See the bottom of the README for charts created from the CSV output.
+  
+- The [Pony library starter pack](https://github.com/ponylang/library-project-starter) has gotten an update. It now includes CircleCI instead of TravisCI for default CI setup. The CircleCI configuration involves fewer manual setup steps so we decided to move to it for the default.
 
-It now includes CircleCI instead of TravisCI for default CI setup. The CircleCI configuration involves fewer manual setup steps so we decided to move to it for the default.
+## Talks
+
+Kristoffer Grönlund is talking about Pony at linux.conf.au on January 24: [Everybody gets a pony!](https://rego.linux.conf.au)
 
 ## Pony Development Sync
 
