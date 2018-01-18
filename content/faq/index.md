@@ -137,10 +137,24 @@ By default, the Pony standard library uses OpenSSL 0.9 for various cryptography 
 ponyc -Dopenssl_1.1.0
 ```
 
-You can also encounter this problem if you try to build the Pony standard library tests via the ponyc Makefile. This can be addressed by adding `OPENSSL=-Dopenssl_1.1.` to the `make` command line:
+You can compile Pony from source and set OpenSSL 1.1 as the default. Pass `default_openssl=openssl_1.1.0` to the `make` command:
 
 ```bash
-make OPENSSL=-Dopenssl_1.1.0 test
+make default_openssl=openssl_1.1.0
+```
+
+By setting OpenSSL 1.1 as the default, you no longer have to pass `-Dopenssl_1.1.0` to `ponyc`. Regardless of what version of OpenSSL was set as the default when you built Pony, you can always override it by using the appropriate define when compiling your Pony programs. 
+
+For OpenSSL 0.9:
+
+```bash
+ponyc -Dopenssl_0.9.0
+```
+
+For OpenSSL 1.1:
+
+```bash
+ponyc -Dopenssl_1.1.0
 ```
 
 ## Ecosystem {#ecosystem}
