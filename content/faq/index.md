@@ -137,10 +137,10 @@ By default, the Pony standard library uses OpenSSL 0.9 for various cryptography 
 ponyc -Dopenssl_1.1.0
 ```
 
-You can compile Pony from source and set OpenSSL 1.1 as the default. Pass `default_openssl=openssl_1.1.0` to the `make` command:
+You can compile Pony from source and set OpenSSL 1.1 as the default. Pass `default_ssl=openssl_1.1.0` to the `make` command:
 
 ```bash
-make default_openssl=openssl_1.1.0
+make default_ssl=openssl_1.1.0
 ```
 
 By setting OpenSSL 1.1 as the default, you no longer have to pass `-Dopenssl_1.1.0` to `ponyc`. Regardless of what version of OpenSSL was set as the default when you built Pony, you can always override it by using the appropriate define when compiling your Pony programs. 
