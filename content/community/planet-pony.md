@@ -3,6 +3,10 @@ title = "Planet Pony"
 +++
 We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
+## 2018
+
+* Video: [Everyone gets a pony! (linux.conf.au)](https://www.youtube.com/watch?v=e0197aoljGQ)
+
 ## 2017
 
 * [Pony Considerations](https://gist.github.com/aturley/49b60c98306d90ffc2f981515827b005)
