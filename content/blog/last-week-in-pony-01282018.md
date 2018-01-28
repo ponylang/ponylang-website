@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "mwahl"
-description = "Last week's Pony news for January 28, 2018."
+description = "Last week's Pony news."
 categories = [
     "Last Week in Pony",
 ]
@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Talks
 
-- Kristoffer Grönlunds talk *Everyone gets a Pony!* at [linux.conf.au](https://linux.conf.au/) on January 24, 2018 has been [recorded](https://www.youtube.com/watch?v=e0197aoljGQ). And is also listed on [Planet Pony](https://www.ponylang.org/community/planet-pony/).
+- Kristoffer Grönlunds talk [Everyone gets a Pony!* (linux.conf.au)](https://linux.conf.au/) on January 24, 2018 has been recorded and [posted to Youtube](https://www.youtube.com/watch?v=e0197aoljGQ). It is also listed on [Planet Pony](https://www.ponylang.org/community/planet-pony/).
 
 ## Pony Development Sync
 
@@ -44,7 +44,7 @@ The next one is scheduled for Wednesday, January 31, 2018 at 03:30 PM (GMT-05:00
 
 ### Active (Waiting for Implementation)
 
-- [Class and Actor field Docstrings](https://github.com/ponylang/rfcs/pull/115) has been merged and awaits its implementation.
+- [Class and Actor field Docstrings](https://github.com/ponylang/rfcs/pull/115)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
