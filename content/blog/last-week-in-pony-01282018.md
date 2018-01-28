@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Talks
 
-- Kristoffer Grönlunds talk [Everyone gets a Pony!* (linux.conf.au)](https://linux.conf.au/) on January 24, 2018 has been recorded and [posted to Youtube](https://www.youtube.com/watch?v=e0197aoljGQ). It is also listed on [Planet Pony](https://www.ponylang.org/community/planet-pony/).
+- Kristoffer Grönlunds talk [Everyone gets a Pony!](https://linux.conf.au/) at  linux.conf.au on January 24, 2018 has been recorded and [posted to Youtube](https://www.youtube.com/watch?v=e0197aoljGQ). It is also listed on [Planet Pony](https://www.ponylang.org/community/planet-pony/).
 
 ## Pony Development Sync
 
