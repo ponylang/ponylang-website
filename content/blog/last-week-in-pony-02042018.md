@@ -5,7 +5,7 @@ description = "Last week's Pony news."
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - February 02, 2018"
+title = "Last Week in Pony - February 04, 2018"
 date = "2018-02-04T18:00:00+01:00"
 +++
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
