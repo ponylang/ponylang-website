@@ -20,6 +20,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - A new JSON parser for Pony has been announced on reddit: https://github.com/Krognol/ponyjson
 
+- [PR #2439](https://github.com/ponylang/ponyc/pull/2439) for embedding source code listings into generated documentation has been merged to master. With this change, we now own a new theme for mkdocs, [mkdocs-ponylang](https://github.com/mfelsche/ponylang-mkdocs-theme). We needed this to make the necessary changes for [PR #2439](https://github.com/ponylang/ponyc/pull/2439) but we are far from happy with its current state (visually and code-wise). We want to reach out to you folks for help on this project. In case you are interested, please drop us a line via IRC on `#ponylang` on freenode or the [Pony mailing list](https://pony.groups.io/g/user/). Any help is much appreciated!
+
+
 ## Pony Development Sync
 
 Another Sync call took place on Wednesday January 31, 2018. Check out the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_01_31).
