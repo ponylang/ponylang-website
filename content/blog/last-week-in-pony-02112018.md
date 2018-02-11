@@ -13,6 +13,9 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
+## Items of Note
+
+- [Pony-MQTT](https://github.com/epiceric/pony-mqtt), a notify-based implementation of an MQTT client has been announced on [reddit](https://www.reddit.com/r/ponylang/).
 
 ## Pony Development Sync
 
