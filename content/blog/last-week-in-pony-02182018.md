@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Not much happened this week, no progress on RFCs, not even a Pony Development Sync took place. So this nearly would have been a rather sad post. 
 
-But hey, let's all take the time to watch the following gif of a work-in-progress Pony VSCOde Intellisense implementation at least 65535 times and cheer in anticipation and gratefulness for the hard work of IRC user patroclos:
+But hey, let's all take the time to watch the following gif of a work-in-progress **Pony VSCode Intellisense** implementation at least 65535 times and cheer in anticipation and gratefulness for the hard work of IRC user patroclos:
 
 <br />
 
