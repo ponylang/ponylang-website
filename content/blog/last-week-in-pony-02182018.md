@@ -21,7 +21,7 @@ But hey, let's all take the time to watch the following gif of a work-in-progres
 
 <br />
 
-<div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/AccurateHonestEeve' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
+<div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/AccurateHonestEeve?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
 
 [Via](https://gfycat.com/AccurateHonestEeve).
 
