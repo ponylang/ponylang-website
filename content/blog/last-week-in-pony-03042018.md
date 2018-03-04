@@ -33,7 +33,7 @@ No matter what, share it! There is no good or bad or simple or advanced.
 
 As I just invented this crazy section, I am taking the freedom to post the first link:
 
-[Last Weeks Playground](http://playground.ponylang.org/?gist=0e31414bb350a315509df5c08850618f)
+#### [Last Weeks Playground](http://playground.ponylang.org/?gist=0e31414bb350a315509df5c08850618f)
 
 This one is about generic primitives.
 
