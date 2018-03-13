@@ -24,7 +24,7 @@ That's a hard question to answer. Language X is probably very compelling for som
 
 There is no official roadmap. Pony is a volunteer driven project. Unlike many programming languages, we don't have corporate backing. Our users add features and fix issues based on their needs. Pony users solve the problems that matter to them, and we all benefit.
 
-Many of us who are regular contributors share some general goals as we move towards an official 1.0 release. We are working towards making a Pony a stable, rock-solid platform for writing high-performance, concurrent applications.
+Many of us who are regular contributors share some general goals as we move towards an official 1.0 release. We are working towards making Pony a stable, rock-solid platform for writing high-performance, concurrent applications.
 
 We invite you to join our small but growing community and help push Pony forward. We're still at an early stage, and new community members can have a huge influence on the language. Join us!
 
@@ -67,7 +67,7 @@ For more information see the [Sugar](https://tutorial.ponylang.org/expressions/s
 
 ### How can I write code that works for every kind of Number in Pony? {#code-for-all-numbers}
 
-If you want to support all kinds of numeric types Pony supports there is three ways to approach this problem:
+If you want to support all kinds of numeric types for which Pony supports there are three ways to approach this problem:
 
 1. **Via Inheritance:**
 
