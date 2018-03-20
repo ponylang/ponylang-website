@@ -6,7 +6,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 ## 2018
 
 * [How to train your Pony: Introduction](https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/)
-* Video: [The Wide World of Actors or, Can I Have an Erlang Pony?](https://www.youtube.com/watch?v=uv-3ptTD8hg&feature=youtu.be)
+* Video: [The Wide World of Actors or, Can I Have an Erlang Pony?](https://www.youtube.com/watch?v=uv-3ptTD8hg&feature=youtu.be) and also the [talk's slides (PDF)](https://github.com/slfritchie/wide-world-of-actors)
 * Video: [Everyone gets a pony! (linux.conf.au)](https://www.youtube.com/watch?v=e0197aoljGQ)
 
 ## 2017
