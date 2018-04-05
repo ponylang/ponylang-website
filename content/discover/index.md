@@ -25,7 +25,7 @@ There are no runtime exceptions. All exceptions have defined semantics, and they
 
 ### Data-race Free
 
-Pony doesn't have locks or atomic operations or anything like that. Instead, the type system ensures at compile time that your concurrent program can never have data races. So you can write highly concurrent code and never get it wrong.
+Pony doesn't have locks nor atomic operations or anything like that. Instead, the type system ensures at compile time that your concurrent program can never have data races. So you can write highly concurrent code and never get it wrong.
 
 ### Deadlock-Free
 
@@ -33,7 +33,7 @@ This one is easy because Pony has no locks at all! So they definitely don't dead
 
 ### Native Code
 
-Pony is an ahead-of-time (AOT) compiled language. There is no interpreter or virtual machine.
+Pony is an ahead-of-time (AOT) compiled language. There is no interpreter nor virtual machine.
 
 ### Compatible with C
 
@@ -41,11 +41,11 @@ Pony programs can natively call C libraries. Our compiler is able to generate a 
 
 ## Why Pony?
 
-There's plenty to love about Pony, but more than anything else, what we love most is that Pony makes it easy to write fast, safe, efficient, highly concurrent programs. How? The Pony type system introduces a novel concept: "reference capabilities". [Reference capabilities](https://tutorial.ponylang.org/capabilities/reference-capabilities.html) allow you to label different bits of data based on how that data can be shared. The Pony compiler will then verify that you are in fact correctly using the data based on the labels you provide. Reference capabilities combined with Pony's actor model of concurrency are a powerful pairing. Let's dig in a take a quick look:
+There's plenty to love about Pony, but more than anything else, what we love most is that Pony makes it easy to write fast, safe, efficient, highly concurrent programs. How? The Pony type system introduces a novel concept: "reference capabilities". [Reference capabilities](https://tutorial.ponylang.org/capabilities/reference-capabilities.html) allow you to label different bits of data based on how that data can be shared. The Pony compiler will then verify that you are in fact correctly using the data based on the labels you provide. Reference capabilities combined with Pony's actor model of concurrency makes for a powerful pairing. Let's dig in and take a quick look:
 
 ### Mutable state is hard
 
-The problem with concurrency is shared mutable data. If two different threads have access to the same piece of data then they might try to update it at the same time. At best this can lead to the two threads having different versions of the data. At worst the updates can interact badly resulting in the data being overwritten with garbage. The standard way to avoid these problems is to use locks to prevent data updates from happening at the same time. This causes big performance hits and is very difficult to get right, so it causes lots of bugs.
+The problem with concurrency is shared mutable data. If two different threads have access to the same piece of data then they might try to update it at the same time. At best this can lead to those two threads having different versions of the data. At worst the updates can interact badly resulting in the data being overwritten with garbage. The standard way to avoid these problems is to use locks to prevent data updates from happening at the same time. This causes big performance hits and is very difficult to get right, so it causes lots of bugs.
 
 ### Immutable data can be safely shared
 
