@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 There have been so many releases this week, we got one for everybody!
 
-### 0.22.0 - [Release Notes](https://www.ponylang.org/blog/2018/05/0.22.0-released/))
+### 0.22.0 - [Release Notes](https://www.ponylang.org/blog/2018/05/0.22.0-released/)
 
 We do have a new Pony release with lots and lots of goodness added and badness fixed: [**0.22.0**](https://www.ponylang.org/blog/2018/05/0.22.0-released/). Upgrading is highly recommended, but you might need to adapt your codebase as it contains some breaking changes. For full details check out the [Release notes](https://www.ponylang.org/blog/2018/05/0.22.0-released/).
 
