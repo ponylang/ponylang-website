@@ -14,7 +14,8 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 <!--more-->
 
 
-### Pony 0.22.3 - [Release Notes](https://www.ponylang.org/blog/2018/05/0.22.3-released/)
+
+## Pony 0.22.3 - [Release Notes](https://www.ponylang.org/blog/2018/05/0.22.3-released/)
 
 Once the release train is a-rollin', ain't nobody gonna stop it!
 
@@ -28,7 +29,7 @@ This time we have two small bug fixes and a lot of improvement on our new releas
 
 - Github user [ergl](https://github.com/ergl) updated the offline stdlib viewer, [pony-docset](https://github.com/ergl/pony-docset), to support Pony 0.22 as well as the new documentation theme.
 - [Matthias Wahl](https://github.com/mfelsche/) (That's me!!!) joined the Ponylang Core Team. Yay!
-- We just wanted to let you know about the latest [pony-stable]() release 0.1.3 ([Release Notes](https://www.ponylang.org/blog/2018/06/pony-stable-0.1.3-released/). It does not contain any user-facing changes but validates our new release process is working nicely. Upgrading is not necessary.
+- We just wanted to let you know about the latest [pony-stable](https://github.com/ponylang/pony-stable) release 0.1.3 ([Release Notes](https://www.ponylang.org/blog/2018/06/pony-stable-0.1.3-released/). It does not contain any user-facing changes but validates our new release process is working nicely. Upgrading is not necessary.
 
 ## RFCs
 
