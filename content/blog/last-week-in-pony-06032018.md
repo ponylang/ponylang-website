@@ -21,6 +21,8 @@ Once the release train is a-rollin', ain't nobody gonna stop it!
 
 This time we have two small bug fixes and a lot of improvement on our new release process. Thus upgrading is recommended.
 
+Thanks Dipin Hora, for taking care of this!
+
 ## News and Blog Posts
 
 - [Introduction to the Pony programming language](https://opensource.com/article/18/5/pony) by Sean T. Allen
