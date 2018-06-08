@@ -3,7 +3,7 @@ title = "Discover"
 +++
 ## What is Pony?
 
-Pony is an open-source, object-oriented, [actor-model](https://en.wikipedia.org/wiki/Actor_model), [capabilities-secure](https://en.wikipedia.org/wiki/Capability-based_security), high-performance programming language. 
+Pony is an open-source, object-oriented, [actor-model](https://en.wikipedia.org/wiki/Actor_model), [capabilities-secure](https://en.wikipedia.org/wiki/Capability-based_security), high-performance programming language.
 
 If you are looking to jump in and get started with Pony *right now*, you can try it in your browser using the [Pony Playground](http://playground.ponylang.org). Keep reading if you are interested in what makes Pony different and why you should consider using it.
 
@@ -75,7 +75,7 @@ There are many valid reasons to not use Pony. Amongst these are:
 
 ### API stability
 
-Pony is pre-1.0. We regularly have releases that involve breaking changes. This lack of stability is plenty of reason for many projects to avoid using Pony. 
+Pony is pre-1.0. We regularly have releases that involve breaking changes. This lack of stability is plenty of reason for many projects to avoid using Pony.
 
 ### Batteries required
 
@@ -85,7 +85,7 @@ If your project is going to succeed or fail based on the size of community aroun
 
 There's a wide swath of tooling that some people have come to expect that isn't currently available for Pony. We don't have an IDE. You can use standard debuggers like GDB or LLDB but the experience still has some rough edges. If you are comfortable working with a basic text editor and using LLDB, VTune and other tools, you'll probably be ok. Just don't expect a full, robust ecosystem. We aren't there yet.
 
-If your project isn't going to get a great deal of benefit from any of Pony's strengths, then you shouldn't use Pony. If you are writing a single threaded application without any overriding performance concerns, and you need access to a large community and wealth of libraries then you're much better off selecting another language. However, we hope that you see enough potential in Pony to start playing around with it even if it isn't right for your current project. 
+If your project isn't going to get a great deal of benefit from any of Pony's strengths, then you shouldn't use Pony. If you are writing a single threaded application without any overriding performance concerns, and you need access to a large community and wealth of libraries then you're much better off selecting another language. However, we hope that you see enough potential in Pony to start playing around with it even if it isn't right for your current project.
 
 ## The Pony Philosophy
 
