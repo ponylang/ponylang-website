@@ -45,23 +45,23 @@ use "debug"
 class Foo
   new create() =>
     Debug("create called")
-    
+
   fun apply() =>
     Debug("apply called")
-    
+
 actor Main
   new create(env: Env) =>
     Debug("call Foo()")
     Foo()
-    
+
     Debug("call Foo")
     let foo = Foo
-    
+
     Debug("call foo()")
     foo()
 ```
 
-Check out [the example program in the [Pony Playground](https://playground.ponylang.org/?gist=26fce9986dd82a58f8bcd5197e22121f).
+Check out [the example program in the Pony Playground](https://playground.ponylang.org/?gist=26fce9986dd82a58f8bcd5197e22121f).
 
 For more information see the [Sugar](https://tutorial.ponylang.org/expressions/sugar.html) section of the the tutorial.
 
