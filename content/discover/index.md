@@ -79,7 +79,7 @@ Pony is pre-1.0. We regularly have releases that involve breaking changes. This 
 
 ### Batteries required
 
-If your project is going to succeed or fail based on the size of community around the tools you are using, Pony is not a good choice for you. While it's possible to write stable, high-performance applications using Pony, you will have to do a decent amount of work. The pool of open source, ready to use Pony libraries is very small. If it's not in the standard library than odds are you are going to have to add it yourself, either by writing it from scratch in Pony or by wrapping an existing C library using Pony's excellent [C-FFI](https://tutorial.ponylang.org/c-ffi/) functionality.
+If your project is going to succeed or fail based on the size of community around the tools you are using, Pony is not a good choice for you. While it's possible to write stable, high-performance applications using Pony, you will have to do a decent amount of work. The pool of open source, ready to use Pony libraries is very small. If it's not in the standard library then odds are you are going to have to add it yourself, either by writing it from scratch in Pony or by wrapping an existing C library using Pony's excellent [C-FFI](https://tutorial.ponylang.org/c-ffi/) functionality.
 
 ### Tooling
 
