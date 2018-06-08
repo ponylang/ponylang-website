@@ -32,7 +32,7 @@ We invite you to join our small but growing community and help push Pony forward
 
 ### What does `Foo()` do if my `Foo` class has both `create()` and `apply()` methods? Does it call both? {#Foo()-create-apply}
 
-Yes, it calls both. However perhaps not in the way you imagine. 
+Yes, it calls both. However perhaps not in the way you imagine.
 
 - `Foo` creates a new object instance using `create()`
 - `()` is the `apply` call on the newly created `Foo` instance
@@ -125,8 +125,8 @@ primitive OneForAllCombined
 ### I get a "requires dynamic" error when compiling, how do I solve it? {#pic-compile-error}
 
 ```bash
-/usr/bin/ld.gold: error: ./fb.o: requires dynamic R_X86_64_32 
-  reloc against 'Array_String_val_Trace' which may 
+/usr/bin/ld.gold: error: ./fb.o: requires dynamic R_X86_64_32
+  reloc against 'Array_String_val_Trace' which may
   overflow at runtime; recompile with -fPIC
 ```
 
@@ -198,7 +198,7 @@ You can compile Pony from source and set OpenSSL 1.1 as the default. Pass `defau
 make default_ssl=openssl_1.1.0
 ```
 
-By setting OpenSSL 1.1 as the default, you no longer have to pass `-Dopenssl_1.1.0` to `ponyc`. Regardless of what version of OpenSSL was set as the default when you built Pony, you can always override it by using the appropriate define when compiling your Pony programs. 
+By setting OpenSSL 1.1 as the default, you no longer have to pass `-Dopenssl_1.1.0` to `ponyc`. Regardless of what version of OpenSSL was set as the default when you built Pony, you can always override it by using the appropriate define when compiling your Pony programs.
 
 For OpenSSL 0.9:
 
