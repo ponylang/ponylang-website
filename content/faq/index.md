@@ -144,7 +144,7 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
-### How do I fix ponyc reporting "unable to link" along with "undefinded reference to SSL_*"? {#opensll-1.1-error}
+### How do I fix ponyc reporting "unable to link" along with "undefined reference to SSL_*"? {#opensll-1.1-error}
 
 ```bash
 Linking ./stdlib
