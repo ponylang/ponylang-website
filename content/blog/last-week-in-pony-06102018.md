@@ -25,20 +25,20 @@ Two small bugfixes around union types with the same elements and the `cli` packa
 
 ### Pony 0.22.5 - [Release Notes](https://www.ponylang.org/blog/2018/06/0.22.5-released/)
 
-High-priority bugfix for system with NUMA enabled. Upgrading highly recommended. 
+High-priority bugfix for systems with NUMA enabled. Upgrading is highly recommended. 
 
 ### Pony 0.22.6 - [Release Notes](https://www.ponylang.org/blog/2018/06/0.22.6-released/)
 
-This one fixes a performance regression introduced in the 0.22.X series and fixed a bug in tuple handling that could cause crashes during compilation. Upgrading recommended.
+This one fixes a performance regression introduced in the 0.22.X series and fixes a bug in tuple handling that could cause crashes during compilation. Here too, we recommend to upgrade.
 
 ### Pony 0.23.0 - [Release Notes](https://www.ponylang.org/blog/2018/06/0.23.0-released/)
 
-Whoa! Minor version increase. Why is that? Breaking Change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/master/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bugfix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
+Whoa! Minor version increase. Why is that? Breaking change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/master/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bugfix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
 
 
-## New Distribution Channels
+## New Distribution Channels: PPA and COPR
 
-We are very proud to present you two new distribution channels for both [ponyc](https://github.com/ponylang/ponyc) and [pony-stable](https://github.com/ponylang/pony-stable): We now distribute via [Fedora COPR](https://copr.fedorainfracloud.org/coprs/ponylang/ponylang/) and [Ubuntu Launchpad PPA](https://launchpad.net/%7Eponylang/+archive/ubuntu/ponylang).
+We are very proud to present you two new distribution channels for both [ponyc](https://github.com/ponylang/ponyc) and [pony-stable](https://github.com/ponylang/pony-stable): We now also distribute via [Fedora COPR](https://copr.fedorainfracloud.org/coprs/ponylang/ponylang/) and [Ubuntu Launchpad PPA](https://launchpad.net/%7Eponylang/+archive/ubuntu/ponylang).
 
 ### Install `ponyc`:
 
@@ -52,9 +52,9 @@ We are very proud to present you two new distribution channels for both [ponyc](
 
 ## News and Blog Posts
 
-- [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html) by Matthias Wahl (That's me!!!)
-
 - Sean Allen and Sylvan Clebsch will be doing a [Pony tutorial at CodeMesh London](https://codesync.global/conferences/code-mesh-2018/training) on *November 7th*. Attend if you can! This is peak Pony teaching!
+
+- [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html) by Matthias Wahl (That's me!!!)
 
 ## Pony Development Sync
 
