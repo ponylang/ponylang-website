@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony Releases
 
-Yes, indeed, we have a section for this now. And yes, it is plural. And yes, maybe we do it to prove we have tighter release cycles than java, now they switched to time-based versioning, because this is what it's all about after all, isn't it?
+Yes, indeed, we have a section for this now. And yes, it is plural. And yes, maybe we release this often to prove we have tighter release cycles than java, now they switched to time-based versioning, because this is what it's all about after all, isn't it?
 
 So, as with every good story, lets start at the beginning:
 
