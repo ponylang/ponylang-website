@@ -17,7 +17,8 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - [Stephan Renatus](https://github.com/srenatus) is now a committer for [stable](https://github.com/ponylang/pony-stable). Welcome to the team, Stephan!
 
-- [stable](https://github.com/ponylang/pony-stable), the Pony dependency manager, had a new version released: [Release Notes for 0.1.4](https://www.ponylang.org/blog/2018/06/pony-stable-0.1.4-released/). [stable](https://github.com/ponylang/pony-stable) now supports fetching dependencies from GitLab for all those folks who are #movingtogitlab.
+- [stable](https://github.com/ponylang/pony-stable), the Pony dependency manager, had a new version released: [0.1.4](https://www.ponylang.org/blog/2018/06/pony-stable-0.1.4-released/).
+  Now it supports fetching dependencies from GitLab for all those folks who are #movingtogitlab.
 
 - The [`net/http`](https://stdlib.ponylang.org/net-http--index) package containing code for creating HTTP/1 clients and servers, parsing, building and manipulating URLs is about to be removed from the standard library with the next Pony minor release.
   It will live in its own repository at https://github.com/ponylang/http and will be called `http`. It is already available as of now.
