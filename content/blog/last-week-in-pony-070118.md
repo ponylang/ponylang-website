@@ -23,7 +23,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Andrew Turley is doing a [Pony tutorial at ICFP](https://icfp18.sigplan.org/event/icfp-2018-tutorials-writing-a-chat-system-in-pony) this year. Come to St. Louis and learn some Pony. It's a wonderful city year round but it is especially lovely in September.
 
-- Can't stop won't stop! Andrew Turley is also doing a [Pony Tutoria](https://ponylang101.splashthat.com/) in the New York City area on July 11th.
+- Can't stop won't stop! Andrew Turley is also doing a [Pony Tutorial](https://ponylang101.splashthat.com/) in the New York City area on July 11th.
 
 ## News and Blog Posts
 
@@ -41,10 +41,10 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
-### New RFCs
+### Accepted RFCs
 
-- [RFC 57: SSL ALPN has been accepted.](https://github.com/ponylang/rfcs/blob/master/text/0057-ssl-alpn.md)
+- [RFC 57: SSL ALPN](https://github.com/ponylang/rfcs/blob/master/text/0057-ssl-alpn.md)
 
-- [RFC 58: Partial Arithmetic has been accepted.](https://github.com/ponylang/ponyc/issues/2814)
+- [RFC 58: Partial Arithmetic](https://github.com/ponylang/ponyc/issues/2814)
 
-- [RFC 59 "Formal Viewpoint Adaptation" has been accepted](https://github.com/ponylang/rfcs/blob/master/text/0059-formal-viewpoint-adaptation.md)
+- [RFC 59 "Formal Viewpoint Adaptation"](https://github.com/ponylang/rfcs/blob/master/text/0059-formal-viewpoint-adaptation.md)
