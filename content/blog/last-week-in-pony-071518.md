@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- A new beginner-friendly issue has landed for the Pony compiler? Want to give it a shot: [Pony Issue 2821](https://github.com/ponylang/ponyc/issues/2821)
+- A new beginner-friendly issue has landed for the Pony compiler! Want to give it a shot: [Pony Issue 2821](https://github.com/ponylang/ponyc/issues/2821)
 
 - Due to confusion caused by its name, we are going to rename our little package manager pony-stable to a new name. Got a name to nominate? Want to vote on options? Chime in on the issue: [Pony-Stable #75](https://github.com/ponylang/pony-stable/issues/75)
 
@@ -42,6 +42,6 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 > The failing builds might be a good way for folks to get involved (although the issues may or may not be "beginner friendly").
 
-- I've been working on material for a Pony workshop that I've been giving (and will present at ICFP in September). It is now in a state where I think it is useful, and I'd love to get feedback on it. [Pony Workshop](https://github.com/aturley/pony-workshop)
+- I've been working on material for a Pony workshop that I've been giving (and will present at ICFP in September). It is now in a state where I think it is useful, and I'd love to get feedback on it. [Pony Workshop By Andrew Turley](https://github.com/aturley/pony-workshop)
 
-- Apparently, Brian Callahan has Pony working on OpenBSD. Here's to hoping he opens a PR at some point. [Brian Callahan Tweet](https://twitter.com/__briancallahan/status/1018263079816134657)
+- Apparently, Brian Callahan has Pony working on OpenBSD. Here's to hoping he opens a PR at some point. [Brian Callahans Tweet](https://twitter.com/__briancallahan/status/1018263079816134657)
