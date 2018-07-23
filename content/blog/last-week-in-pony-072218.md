@@ -30,5 +30,3 @@ Writing a chat system in Pony:
 This tutorial is currently at the Early Bird rate, which expires on 9 August 2018!
 
 For more information, or to book your place: [Code Mesh](https://codesync.global/conferences/code-mesh-2018/training)
-
-Link to any interesting items of note such as Pony releases, large website updates, interesting community applications released etc.
