@@ -122,6 +122,18 @@ primitive OneForAllCombined
 
 ## Compiling {#compiling}
 
+### What are Pony's supported CPU platforms?
+
+- Full support for 64-bit platforms
+  - x86 and ARM CPUs only
+- Experimental, incomplete, and/or buggy support for 32-bit platforms
+  - x86 and ARM CPUs only
+  - See GitHub issues
+    [#2836](https://github.com/ponylang/ponyc/issues/2836)
+    and
+    [#1576](https://github.com/ponylang/ponyc/issues/1576)
+    for more information.
+
 ### I get a "requires dynamic" error when compiling, how do I solve it? {#pic-compile-error}
 
 ```bash
