@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Audio from the September 12, 2018 Pony development sync is now available
 
-> [Pony Sync September 12, 2018](https://pony.groups.io/g/dev/files/Pony%Sync/2018_09_12)
+> [Pony Sync September 12, 2018](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_09_12)
 
 ## News and Blog Posts
 
