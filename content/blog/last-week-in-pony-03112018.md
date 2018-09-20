@@ -30,7 +30,7 @@ Alex notes:
 >
 > This allows types to be easily declared as "opposites" of each other
 
-[Trait Subtyping](https://playground.ponylang.io/?gist=dc16ebcb1b75682bd385b7b9c078fb46)
+[Trait Subtyping](https://playground.ponylang.org/?gist=dc16ebcb1b75682bd385b7b9c078fb46)
 
 ## RFCs
 

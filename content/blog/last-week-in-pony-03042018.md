@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 I hereby celebrate the creation of the weekly Pony `Last Weeks Playground` section. 
 
-You have a wicked [Pony Playground](https://playground.ponylang.io) example that you want to share? Some cool language feature you just found out about and want let people know it exists? Some surprising behavior that you find interesting? Some weird bug, that gives you a headache? Or just something really elegant that wouldn't be possible to express in other languages? 
+You have a wicked [Pony Playground](https://playground.ponylang.org) example that you want to share? Some cool language feature you just found out about and want let people know it exists? Some surprising behavior that you find interesting? Some weird bug, that gives you a headache? Or just something really elegant that wouldn't be possible to express in other languages? 
 
 No matter what, share it! There is no good or bad or simple or advanced. 
 
@@ -35,7 +35,7 @@ No matter what, share it! There is no good or bad or simple or advanced.
 
 As I just invented this crazy section, I am taking the freedom to post the first link:
 
-#### [Last Weeks Playground](http://playground.ponylang.io/?gist=0e31414bb350a315509df5c08850618f)
+#### [Last Weeks Playground](http://playground.ponylang.org/?gist=0e31414bb350a315509df5c08850618f)
 
 This one is about generic primitives.
 
