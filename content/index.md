@@ -14,7 +14,7 @@ Welcome! This is the website for the Pony programming language. Pony is an open-
 - [Installation](https://github.com/ponylang/ponyc/blob/master/README.md#installation)
 - [Get started learning Pony](https://www.ponylang.io/learn/)
 - [Tutorial](https://tutorial.ponylang.io/)
-- [Standard Library Documentation](https://stdlib.ponylang.io/)
+- [Standard Library Documentation](https://stdlib.ponylang.org/)
 - [Getting help](https://www.ponylang.io/learn/#getting-help)
 - [Existing user reference]({{< relref "reference/index.md">}})
 - [Community resources]({{< relref "reference/index.md">}})

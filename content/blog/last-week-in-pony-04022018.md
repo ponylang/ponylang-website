@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## News And Blog Posts
 
 * User Borja announced an offline API browser for the Pony stdlib documentation: [pony-docset](https://github.com/ergl/pony-docset). ([original announcement](https://pony.groups.io/g/user/message/1619))
-* Version 0.3.0 of [ponycheck](https://github.com/mfelsche/ponycheck), the property based testing library has been released. It is now possible to define asynchronous properties. With this release ponycheck is en par with the API provided by [ponytest](https://stdlib.ponylang.io/ponytest--index). [Release Notes](https://github.com/mfelsche/ponycheck/releases/tag/0.3.0)
+* Version 0.3.0 of [ponycheck](https://github.com/mfelsche/ponycheck), the property based testing library has been released. It is now possible to define asynchronous properties. With this release ponycheck is en par with the API provided by [ponytest](https://stdlib.ponylang.org/ponytest--index). [Release Notes](https://github.com/mfelsche/ponycheck/releases/tag/0.3.0)
 
 ## Pony Development Sync
 

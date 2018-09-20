@@ -24,7 +24,7 @@ We have a couple resources designed to help you learn, we suggest starting with 
 
 * [Tutorial](http://tutorial.ponylang.io).
 * [Pony Patterns](http://patterns.ponylang.io) cookbook is in progress
-* [Standard library docs](http://stdlib.ponylang.io/).
+* [Standard library docs](http://stdlib.ponylang.org/).
 * [Cheat Sheet](/media/cheatsheet/pony-cheat-sheet.pdf).
 
 ## Reference capabilities
