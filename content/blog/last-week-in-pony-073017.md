@@ -31,7 +31,7 @@ At this time this "Last Week in Pony" was published, we were in [the process of 
 ## News and Blog Posts
   
 - [The Promise of Pony's Future](https://medium.com/@KevinHoffman/the-promise-of-ponys-future-44040a0b64ff)
-- New Pony Pattern! [Interrogating Actors with Promises](https://patterns.ponylang.io/async/actorpromise.html)
+- New Pony Pattern! [Interrogating Actors with Promises](https://patterns.ponylang.org/async/actorpromise.html)
 
 ## RFCs
 
