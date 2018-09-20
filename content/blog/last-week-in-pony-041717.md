@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- After a bit of DNS wrangling and drama, the standard library documentation is back online at its new official home: [http://stdlib.ponylang.org](http://stdlib.ponylang.org)
+- After a bit of DNS wrangling and drama, the standard library documentation is back online at its new official home: [http://stdlib.ponylang.io](http://stdlib.ponylang.io)
 
 - Several new ["easy to get started with"](https://github.com/ponylang/ponyc/issues?q=is:issue+is:open+label:%22difficulty:+1+-+easy%22) issues have recently been opened. They are a great way to get started with contributing to Pony. Interested in taking on one? Let us know on the issue.
 
