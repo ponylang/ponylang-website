@@ -8,14 +8,14 @@ categories = [
 title = "Last Week in Pony - November 5, 2017"
 date = "2017-11-05T10:00:00+01:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
 ## News and Blogposts
 
-- Roberto Dip wrote a [A brief dive into the Pony programming language](https://monades.roperzh.com/pony-programming-language/) which also spawned some discussions on [Lobsters](https://lobste.rs/s/tloyu3/brief_dive_into_pony_programming) and [Reddit](https://www.reddit.com/r/programmingcirclejerk/comments/6tvwvj/in_pony_divide_by_zero_results_in_zero_from_a/) which is mostly about how division by zero (for integers) is handled in Pony. As a small refresher, the tutorial section about [Divide by Zero](https://tutorial.ponylang.org/gotchas/divide-by-zero.html).
+- Roberto Dip wrote a [A brief dive into the Pony programming language](https://monades.roperzh.com/pony-programming-language/) which also spawned some discussions on [Lobsters](https://lobste.rs/s/tloyu3/brief_dive_into_pony_programming) and [Reddit](https://www.reddit.com/r/programmingcirclejerk/comments/6tvwvj/in_pony_divide_by_zero_results_in_zero_from_a/) which is mostly about how division by zero (for integers) is handled in Pony. As a small refresher, the tutorial section about [Divide by Zero](https://tutorial.ponylang.io/gotchas/divide-by-zero.html).
 
 ## Items of note
 

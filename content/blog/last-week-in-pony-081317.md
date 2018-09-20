@@ -8,19 +8,19 @@ categories = [
 title = "Last Week in Pony - August 13, 2017"
 date = "2017-08-13T07:00:00-04:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
 ## Pony Performance Cheatsheet
 
-Yesterday we added the first revision of the [Pony Performance Cheatsheet](https://www.ponylang.org/reference/pony-performance-cheatsheet/) to the website. There's a **ton** of valuable information. Even if you aren't a Pony programmer, we think you'll get something out of it. And you Pony programmers who are interested in performance? It's a must read for you.
+Yesterday we added the first revision of the [Pony Performance Cheatsheet](https://www.ponylang.io/reference/pony-performance-cheatsheet/) to the website. There's a **ton** of valuable information. Even if you aren't a Pony programmer, we think you'll get something out of it. And you Pony programmers who are interested in performance? It's a must read for you.
 
 ## Items of note
 
 - [Pony Stable](https://github.com/ponylang/pony-stable) our little dependency manager that could now runs on Windows. Thank you Gordon Tisher! This is a big deal, it's the first step in stable's eventual conquest of the Pony universe.
-- The ["Interrogating Actors with Promises" Pony Pattern](https://patterns.ponylang.org/async/actorpromise.html) updated to take advantage of new Promises methods introduced in [RFC #35](https://github.com/ponylang/rfcs/blob/master/text/0035-more-promise-methods.md).
+- The ["Interrogating Actors with Promises" Pony Pattern](https://patterns.ponylang.io/async/actorpromise.html) updated to take advantage of new Promises methods introduced in [RFC #35](https://github.com/ponylang/rfcs/blob/master/text/0035-more-promise-methods.md).
 - Audio from the [August 9, 2017 Pony development sync](https://pony.groups.io/g/dev/files/Pony%20Sync/August%209,%202017) is available for your listening pleasure. If you wait til the end there's some interesting garbage collection stuff. Earlier, there is talk of documentation generation and code formatting tools along with the usual business. There's also some interesting discussion related to the ["Fix overly restrictive field reference rule in recover expressions" PR](https://github.com/ponylang/ponyc/pull/2043). There's a lot of good stuff at the end is what we are saying. Listen to the whole thing.
 
 ## News and Blog Posts

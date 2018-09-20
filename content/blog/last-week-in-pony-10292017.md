@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - October 29, 2017"
 date = "2017-10-29T10:53:32+02:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -25,7 +25,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - The Pony development sync audio from last week is available right [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_10_25), right now! Amongst other stuff it features Sylvan sharing pretty exciting ideas about the future of the Pony GC and thus the typ system itself.
 
-- George Steed's Thesis "A Principled Design of Capabilities in Pony" is now available in the Papers section of the Pony website as well: https://www.ponylang.org/community/#papers. Last year George did a Virtual Users' Group presentation on his thesis as well: https://vimeo.com/178522513
+- George Steed's Thesis "A Principled Design of Capabilities in Pony" is now available in the Papers section of the Pony website as well: https://www.ponylang.io/community/#papers. Last year George did a Virtual Users' Group presentation on his thesis as well: https://vimeo.com/178522513
 
 ## RFCs
 

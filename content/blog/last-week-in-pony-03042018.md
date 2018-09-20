@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - March 04, 2018"
 date = "2018-03-04T21:00:00+01:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 I hereby celebrate the creation of the weekly Pony `Last Weeks Playground` section. 
 
-You have a wicked [Pony Playground](https://playground.ponylang.org) example that you want to share? Some cool language feature you just found out about and want let people know it exists? Some surprising behavior that you find interesting? Some weird bug, that gives you a headache? Or just something really elegant that wouldn't be possible to express in other languages? 
+You have a wicked [Pony Playground](https://playground.ponylang.io) example that you want to share? Some cool language feature you just found out about and want let people know it exists? Some surprising behavior that you find interesting? Some weird bug, that gives you a headache? Or just something really elegant that wouldn't be possible to express in other languages? 
 
 No matter what, share it! There is no good or bad or simple or advanced. 
 
@@ -35,7 +35,7 @@ No matter what, share it! There is no good or bad or simple or advanced.
 
 As I just invented this crazy section, I am taking the freedom to post the first link:
 
-#### [Last Weeks Playground](http://playground.ponylang.org/?gist=0e31414bb350a315509df5c08850618f)
+#### [Last Weeks Playground](http://playground.ponylang.io/?gist=0e31414bb350a315509df5c08850618f)
 
 This one is about generic primitives.
 

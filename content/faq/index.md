@@ -6,11 +6,11 @@ title = "FAQ"
 
 ### How'd Pony come to be? {#early-history}
 
-Check out ["An Early History of Pony"](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/).
+Check out ["An Early History of Pony"](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/).
 
 ### Why's it called "Pony"? {#why-the-name-pony}
 
-Interesting question. We hear that a lot. If you read enough of ["An Early History of Pony"](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/), you'll get your answer.
+Interesting question. We hear that a lot. If you read enough of ["An Early History of Pony"](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/), you'll get your answer.
 
 ### What makes Pony different? {#how-is-pony-different}
 
@@ -61,9 +61,9 @@ actor Main
     foo()
 ```
 
-Check out [the example program in the Pony Playground](https://playground.ponylang.org/?gist=26fce9986dd82a58f8bcd5197e22121f).
+Check out [the example program in the Pony Playground](https://playground.ponylang.io/?gist=26fce9986dd82a58f8bcd5197e22121f).
 
-For more information see the [Sugar](https://tutorial.ponylang.org/expressions/sugar.html) section of the the tutorial.
+For more information see the [Sugar](https://tutorial.ponylang.io/expressions/sugar.html) section of the the tutorial.
 
 ### How can I write code that works for every kind of Number in Pony? {#code-for-all-numbers}
 

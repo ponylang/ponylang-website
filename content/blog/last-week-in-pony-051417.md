@@ -8,7 +8,7 @@ draft: false
 title: Last Week in Pony - May 14, 2017
 ---
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -28,7 +28,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
   
-- "Funky Bob" aka Curtis Maloney has recently started learning Pony and has a [short blog post about his experience so far](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/). He's regularly in the [Pony IRC channel](https://www.ponylang.org/community/#chat) if you want to chat about his experiences with him.
+- "Funky Bob" aka Curtis Maloney has recently started learning Pony and has a [short blog post about his experience so far](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/). He's regularly in the [Pony IRC channel](https://www.ponylang.io/community/#chat) if you want to chat about his experiences with him.
 
 ## RFCs
 

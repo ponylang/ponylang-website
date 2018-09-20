@@ -9,13 +9,13 @@ title = "Last Week in Pony - July 1, 2018"
 date = "2018-07-01T23:46:51-04:00"
 +++
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang).
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 
 ## Items of note
 
-- [Pony 0.24.0 has been released!](https://www.ponylang.org/blog/2018/06/0.24.0-released/). Pony 0.24.0 includes high-priority bug fixes. Updating as soon as possible is recommended. The release also contains breaking changes, please refer to the release notes for more details.
+- [Pony 0.24.0 has been released!](https://www.ponylang.io/blog/2018/06/0.24.0-released/). Pony 0.24.0 includes high-priority bug fixes. Updating as soon as possible is recommended. The release also contains breaking changes, please refer to the release notes for more details.
 
 - Audio from the [June 20, 2018, Pony Development Sync](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_06_20) is now available. Check it out!
 

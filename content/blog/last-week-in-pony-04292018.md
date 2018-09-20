@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - April 29, 2018"
 date = "2018-04-29T09:30:19-04:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -27,7 +27,7 @@ And there's a ton more as well. Stop by the [developer mailing list](https://pon
 
 ## Items of Note
 
-- [Detecting end of incoming actor messages](https://www.reddit.com/r/ponylang/comments/8eelbs/detecting_end_of_incoming_actor_messages/) discussion on [/r/ponylang](https://www.reddit.com/r/ponylang/). Got anything to add? Join in. Also, this question has come up before. We'd love to see someone write up a [Pony Pattern](https://patterns.ponylang.org/) for addressing this scenario.
+- [Detecting end of incoming actor messages](https://www.reddit.com/r/ponylang/comments/8eelbs/detecting_end_of_incoming_actor_messages/) discussion on [/r/ponylang](https://www.reddit.com/r/ponylang/). Got anything to add? Join in. Also, this question has come up before. We'd love to see someone write up a [Pony Pattern](https://patterns.ponylang.io/) for addressing this scenario.
 
 - Work is underway to vendor LLVM into Pony. As you might know, the only version of LLVM listed as support by the Pony team is LLVM 3.9.1. LLVM 5 and 6 are experimental only. Why? LLVM 5 and 6 have bugs that we need to get fixed. All-in-all, our current LLVM support story isn't working out well. During the [April 18th Pony developer sync call](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_04_18), we decided that we needed to support a single version of LLVM that we could patch and periodically upstream. This would make Pony's LLVM usage a lot more like the model used by Rust. Interested in helping with the effort? Wink has been working on the effort for a while. Stop by his [pull request](https://github.com/ponylang/ponyc/pull/2663) and see how you might assist.
 

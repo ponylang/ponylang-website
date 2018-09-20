@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - January 14, 2018"
 date = "2018-01-14T12:00:00+01:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## Items of note
 
 - [pony-fmt](https://github.com/krig/pony-fmt), an alternate string formatting library for pony. Kristoffer, its author, is looking for feedback.
-- [pony-benchmark](https://github.com/Theodus/pony-benchmark) is the new micro-benchmark framework, written by [Theodus](https://github.com/Theodus). For those of you not in the know, [PonyBench](https://stdlib.ponylang.org/ponybench--index) is/was a micro-benchmarking framework for Pony and [pony-benchmark](https://github.com/Theodus/pony-benchmark) is going to be its successor. Theo had this to say about the new version:
+- [pony-benchmark](https://github.com/Theodus/pony-benchmark) is the new micro-benchmark framework, written by [Theodus](https://github.com/Theodus). For those of you not in the know, [PonyBench](https://stdlib.ponylang.io/ponybench--index) is/was a micro-benchmarking framework for Pony and [pony-benchmark](https://github.com/Theodus/pony-benchmark) is going to be its successor. Theo had this to say about the new version:
   
   > I've finished most of the work on a new micro-benchmark framework to replace ponybench. The new framework allows benchmarks to be run with GC and provides more fine-grained control over the statistics generated. See the bottom of the README for charts created from the CSV output.
   

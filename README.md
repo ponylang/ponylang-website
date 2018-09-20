@@ -1,6 +1,6 @@
 # ponylang.github.io
 
-Source content for the Pony website. You can see the final product at http://www.ponylang.org/.
+Source content for the Pony website. You can see the final product at http://www.ponylang.io/.
 
 ## Interested in contributing?
 

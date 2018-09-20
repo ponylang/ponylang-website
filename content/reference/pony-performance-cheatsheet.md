@@ -16,7 +16,7 @@ It's our belief that the best way to get to awesome performance is [baby steps](
 
 And remember, invest your time where it's valuable. Worrying about possible performance problems in code that gets executed once at startup won't get you anything. You need to "mind the hot path." Performance tune your code that gets executed all the time. For example, if you are writing an HTTP server and want to make it high-performance, you definitely should focus on the performance of your HTTP parser, it's going to get executed on every single request.
 
-If you get stuck, fear not, we have a [welcoming community](https://www.ponylang.org/learn/#getting-help) that can assist you.
+If you get stuck, fear not, we have a [welcoming community](https://www.ponylang.io/learn/#getting-help) that can assist you.
 
 ## Pony performance tips
 
@@ -28,7 +28,7 @@ This pattern plays out over and over in our software systems. For a variety of w
 
 Fast code is highly concurrent. Fast code avoids coordination. Fast code relies on local knowledge instead of global knowledge. Fast code is willing to trade the illusion of consistency for availability and performance. Fast code does this **by design**.
 
-There's a lot of material out there about writing high-performance, highly concurrent code. More than most people have time to absorb. Our advice? At least watch the Martin Thompson, and Peter Bailis talks below, then if you are hungry for more, ask the [community](https://www.ponylang.org/learn/#getting-help) what more you can learn.
+There's a lot of material out there about writing high-performance, highly concurrent code. More than most people have time to absorb. Our advice? At least watch the Martin Thompson, and Peter Bailis talks below, then if you are hungry for more, ask the [community](https://www.ponylang.io/learn/#getting-help) what more you can learn.
 
 - [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU)
 - [Silence is Golden: Coordination-Avoiding Systems Design ](https://www.youtube.com/watch?v=EYJnWttrC9k)
@@ -425,7 +425,7 @@ We suggest you rely on the detault behavior where Pony scheduler threads automag
 - Measure your performance with each `ponythread` setting with scheduler thread suspension disabled.
 - Use the number of scheduler threads that gives you the best performance.
 
-Work is ongoing to improve the work-stealing scheduler. Feel free to check in on the [developer mailing list](https://www.ponylang.org/contribute/) to get an update.
+Work is ongoing to improve the work-stealing scheduler. Feel free to check in on the [developer mailing list](https://www.ponylang.io/contribute/) to get an update.
 
 ### Isolate and pin your scheduler threads {#pin-your-threads}
 
@@ -491,4 +491,4 @@ And last but not least, make sure you build a `release` version of the compiler 
 
 ### Profile it! {#profiling}
 
-Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hotspots. You can use standard profiling tools like Instruments and VTune on your Pony application. At the moment, we don't have a handy guide to help you interpret the results you are getting, but we have one in the works. In the meantime, if you need help, the [community is waiting to help](https://www.ponylang.org/learn/#getting-help).
+Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hotspots. You can use standard profiling tools like Instruments and VTune on your Pony application. At the moment, we don't have a handy guide to help you interpret the results you are getting, but we have one in the works. In the meantime, if you need help, the [community is waiting to help](https://www.ponylang.io/learn/#getting-help).
