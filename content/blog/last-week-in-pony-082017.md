@@ -8,14 +8,14 @@ categories = [
 title = "Last Week in Pony - August 20, 2017"
 date = "2017-08-20T07:00:00-04:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is:issue+is:open+label:last-week-in-pony).
 <!--more-->
 
 ## 0.18.0 Released!
 
-Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the compiler. Upgrading as soon as possible is recommended. Please note amongst the other changes is a small breaking standard library change, so we advise [reading the release notes](https://www.ponylang.org/blog/2017/08/0.18.0-released/) before you proceed.
+Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the compiler. Upgrading as soon as possible is recommended. Please note amongst the other changes is a small breaking standard library change, so we advise [reading the release notes](https://www.ponylang.io/blog/2017/08/0.18.0-released/) before you proceed.
 
 ## Items of note
 

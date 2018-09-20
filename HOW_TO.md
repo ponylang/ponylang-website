@@ -1,10 +1,10 @@
 # How to...
 
-This document contains an overview of how to do various Ponylang.org website tasks.
+This document contains an overview of how to do various Ponylang.io website tasks.
 
 ## Setup your author information for the website
 
-Blog posts contain information about the author at the bottom. Check out any blog post on ponylang.org and you'll see it.
+Blog posts contain information about the author at the bottom. Check out any blog post on ponylang.io and you'll see it.
 
 Author information includes:
 
@@ -30,7 +30,7 @@ After you have updated the author info, before opening your PR, you'll also need
 
 ## "Last Week in Pony"
 
-"Last Week in Pony" is a weekly synopsis of the previous week's Pony news. It's generally released every Sunday. Have a look through [previous versions](https://www.ponylang.org/categories/last-week-in-pony) to get an idea for the content that is common across weeks.
+"Last Week in Pony" is a weekly synopsis of the previous week's Pony news. It's generally released every Sunday. Have a look through [previous versions](https://www.ponylang.io/categories/last-week-in-pony) to get an idea for the content that is common across weeks.
 
 Each week, we open a new [GitHub issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony) to collect submissions for the next "Last Week in Pony". Feel free to submit items of interest to the Pony community.
 
@@ -134,7 +134,7 @@ Each "Release" requires a couple of changes to the generated metadata.
 
 ### "Release" content
 
-If this is your first release, review previous release posts to get a feel for the general style we are aiming for. You can see examples of past releases [on the website](https://www.ponylang.org/categories/release).
+If this is your first release, review previous release posts to get a feel for the general style we are aiming for. You can see examples of past releases [on the website](https://www.ponylang.io/categories/release).
 
 Points you want to highlight:
 
@@ -142,7 +142,7 @@ Points you want to highlight:
 - Significant changes of note (this is subjective)
 - Breaking changes
 
-In the case of breaking changes, you should provide examples of how to upgrade existing code to work with the breaking change. See the [0.14.0 released](https://www.ponylang.org/blog/2017/05/0.14.0-released/) post for an example.
+In the case of breaking changes, you should provide examples of how to upgrade existing code to work with the breaking change. See the [0.14.0 released](https://www.ponylang.io/blog/2017/05/0.14.0-released/) post for an example.
 
 ### Preparing to publish
 

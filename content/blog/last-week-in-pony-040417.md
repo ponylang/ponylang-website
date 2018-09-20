@@ -7,7 +7,7 @@ tags = []
 title = "Last Week in Pony - April 3, 2017"
 description = "Last week's Pony news, reported this week."
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -16,25 +16,25 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ### Releases galore!
 
-There were several "point" releases last week. For a list of full releases see the [releases page](http://www.ponylang.org/categories/release/). If you are running on Windows, it is recommended that you update to [0.12.3](http://www.ponylang.org/blog/2017/04/0.12.3-released/) as soon as possible. For those on developing on other platforms, upgrading to at least [0.12.1](http://www.ponylang.org/blog/2017/04/0.12.1-released/) as soon as possible is recommended.
+There were several "point" releases last week. For a list of full releases see the [releases page](http://www.ponylang.io/categories/release/). If you are running on Windows, it is recommended that you update to [0.12.3](http://www.ponylang.io/blog/2017/04/0.12.3-released/) as soon as possible. For those on developing on other platforms, upgrading to at least [0.12.1](http://www.ponylang.io/blog/2017/04/0.12.1-released/) as soon as possible is recommended.
 
-[Version 0.12.3](http://www.ponylang.org/blog/2017/04/0.12.3-released/)
+[Version 0.12.3](http://www.ponylang.io/blog/2017/04/0.12.3-released/)
 : Update recommended for Windows users.
   
-[Version 0.12.2](http://www.ponylang.org/blog/2017/04/0.12.2-released/)
+[Version 0.12.2](http://www.ponylang.io/blog/2017/04/0.12.2-released/)
 : Update recommended for Windows users.
 
-[Version 0.12.1](http://www.ponylang.org/blog/2017/04/0.12.1-released/)
+[Version 0.12.1](http://www.ponylang.io/blog/2017/04/0.12.1-released/)
 : Update recommended all users.
 
-[Version 0.12.0](http://www.ponylang.org/blog/2017/04/0.12.0-released/)
+[Version 0.12.0](http://www.ponylang.io/blog/2017/04/0.12.0-released/)
 : Update recommended for all users.
 
 ## News and Blog Posts
 
 - [Pony Community Survey](https://docs.google.com/forms/d/e/1FAIpQLScBNr5dPPCVYchRukAm-sFR3wipndVJiua3xHr8CslohVFRlg/viewform?c=0&w=1&usp=send_form)
 
-- [New Website Layout](http://www.ponylang.org/) Ponylang.org got an update, as well as an official place for the [Pony blog](http://www.ponylang.org/blog/)
+- [New Website Layout](http://www.ponylang.io/) ponylang.io got an update, as well as an official place for the [Pony blog](http://www.ponylang.io/blog/)
 
 - [Pony Play Pen!](http://pony-playpen.lietar.net/) Pony now has a live, browser-accessible sandbox.
 

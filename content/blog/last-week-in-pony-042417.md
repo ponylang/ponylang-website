@@ -8,14 +8,14 @@ draft: false
 title: Last Week in Pony - April 23, 2017
 ---
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
 ## Pony 0.13.1 released
 
-0.13.1 is a high priority release that everyone is encouraged to update as soon as possible. PR #1842 fixed a garbage collection bug that resulted in GC running too often and in turn could have a large impact on performance for some applications. Full details can be found in the [release notes](https://www.ponylang.org/blog/2017/04/0.13.1-released/).
+0.13.1 is a high priority release that everyone is encouraged to update as soon as possible. PR #1842 fixed a garbage collection bug that resulted in GC running too often and in turn could have a large impact on performance for some applications. Full details can be found in the [release notes](https://www.ponylang.io/blog/2017/04/0.13.1-released/).
 
 ## Items of note
 

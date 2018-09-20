@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - September 17, 2017"
 date = "2017-09-17T07:11:57-04:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.19.1 Released
 
-Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** includes a hot new feature so we think you should update soon. The highlight of 0.19.1 is definitely the implementation of [RFC #45: "Lambda and Array Inference"](https://github.com/ponylang/rfcs/blob/master/text/0045-lambda-and-array-inference.md). It's an incredibly useful feature that greatly improves Pony's programmer ergonomics. Check out the [blog post announcing the release](https://www.ponylang.org/blog/2017/09/0.19.1-released/) for full details.
+Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** includes a hot new feature so we think you should update soon. The highlight of 0.19.1 is definitely the implementation of [RFC #45: "Lambda and Array Inference"](https://github.com/ponylang/rfcs/blob/master/text/0045-lambda-and-array-inference.md). It's an incredibly useful feature that greatly improves Pony's programmer ergonomics. Check out the [blog post announcing the release](https://www.ponylang.io/blog/2017/09/0.19.1-released/) for full details.
 
 ## Items of note
 

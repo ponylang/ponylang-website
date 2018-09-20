@@ -8,7 +8,7 @@ draft: false
 title: Last Week in Pony - April 30, 2017
 ---
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -17,7 +17,7 @@ It was a bit of a quiet week in terms of public activity but there's plenty brew
 
 ## Pony 0.13.2 released
 
-0.13.2 is an incremental bug fix release focused mostly on edges of the type system. As usual, [release notes](https://www.ponylang.org/blog/2017/04/0.13.2-released/) are available on the website for your perusal.
+0.13.2 is an incremental bug fix release focused mostly on edges of the type system. As usual, [release notes](https://www.ponylang.io/blog/2017/04/0.13.2-released/) are available on the website for your perusal.
 
 ## Items of note
 

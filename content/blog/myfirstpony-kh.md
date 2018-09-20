@@ -132,7 +132,7 @@ be cmdreceived(conn: TCPConnection, cmd: String) =>
     end 
 ```
 
-With some really helpful tips from the community and digging through docs and experimenting in the [Pony playground](http://playground.ponylang.org/), I was able to get a fully functioning multi-user telnet chat server running in Pony. It would've taken me twice as long to do that with a language that I already know, let alone one I'm just barely starting to learn.
+With some really helpful tips from the community and digging through docs and experimenting in the [Pony playground](http://playground.ponylang.io/), I was able to get a fully functioning multi-user telnet chat server running in Pony. It would've taken me twice as long to do that with a language that I already know, let alone one I'm just barely starting to learn.
 
 This little bit here was so satisfying to do after just a few quick hours of tinkering:
 

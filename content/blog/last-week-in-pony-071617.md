@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - July 16, 2017"
 date = "2017-07-16T06:00:00+02:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -20,7 +20,7 @@ It was the week of Kevin Hoffman. Kevin's a new addition to the Pony community. 
 
 ## My First Pony
 
-This past week, we launched what we hope is a regular series of blog posts on Ponylang.org from members of the community. "My First Pony" will feature posts from community members about their early experiences using Pony. Ideally, written "in the moment". If you are interested in participating, email Sean T. Allen at [sean@monkeysnatchbanana.com](email:sean@monkeysnatchbanana). 
+This past week, we launched what we hope is a regular series of blog posts on ponylang.io from members of the community. "My First Pony" will feature posts from community members about their early experiences using Pony. Ideally, written "in the moment". If you are interested in participating, email Sean T. Allen at [sean@monkeysnatchbanana.com](email:sean@monkeysnatchbanana). 
 
 The only caveat for "My First Pony" is that we ask you keep things positive. No talking down on other languages and tools. We're here to celebrate Pony and discuss its flaws. We can do that without running down other languages. We're building an upbeat, welcoming, positive community and we want "My First Pony" to reflect that spirit.
 
@@ -31,7 +31,7 @@ The only caveat for "My First Pony" is that we ask you keep things positive. No 
 
 ## News and Blog Posts
   
-- [My First Pony](https://www.ponylang.org/blog/2017/07/my-first-pony/) by Kevin Hoffman
+- [My First Pony](https://www.ponylang.io/blog/2017/07/my-first-pony/) by Kevin Hoffman
 - [Composition over Inheritance in Pony](https://medium.com/@KevinHoffman/composition-over-inheritance-in-pony-33bbe107914) by Kevin Hoffman
 - [Rolling the Dice with Pony](https://medium.com/p/rolling-the-dice-with-pony-b7a32a69267b) by Kevin Hoffman
 

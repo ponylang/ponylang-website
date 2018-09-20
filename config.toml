@@ -1,4 +1,4 @@
-baseurl = "https://www.ponylang.org"
+baseurl = "https://www.ponylang.io"
 languageCode = "en-us"
 title = "Pony"
 metadataformat = "TOML"
