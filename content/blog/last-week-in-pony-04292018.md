@@ -27,7 +27,7 @@ And there's a ton more as well. Stop by the [developer mailing list](https://pon
 
 ## Items of Note
 
-- [Detecting end of incoming actor messages](https://www.reddit.com/r/ponylang/comments/8eelbs/detecting_end_of_incoming_actor_messages/) discussion on [/r/ponylang](https://www.reddit.com/r/ponylang/). Got anything to add? Join in. Also, this question has come up before. We'd love to see someone write up a [Pony Pattern](https://patterns.ponylang.org/) for addressing this scenario.
+- [Detecting end of incoming actor messages](https://www.reddit.com/r/ponylang/comments/8eelbs/detecting_end_of_incoming_actor_messages/) discussion on [/r/ponylang](https://www.reddit.com/r/ponylang/). Got anything to add? Join in. Also, this question has come up before. We'd love to see someone write up a [Pony Pattern](https://patterns.ponylang.io/) for addressing this scenario.
 
 - Work is underway to vendor LLVM into Pony. As you might know, the only version of LLVM listed as support by the Pony team is LLVM 3.9.1. LLVM 5 and 6 are experimental only. Why? LLVM 5 and 6 have bugs that we need to get fixed. All-in-all, our current LLVM support story isn't working out well. During the [April 18th Pony developer sync call](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_04_18), we decided that we needed to support a single version of LLVM that we could patch and periodically upstream. This would make Pony's LLVM usage a lot more like the model used by Rust. Interested in helping with the effort? Wink has been working on the effort for a while. Stop by his [pull request](https://github.com/ponylang/ponyc/pull/2663) and see how you might assist.
 

@@ -20,7 +20,7 @@ Yesterday we added the first revision of the [Pony Performance Cheatsheet](https
 ## Items of note
 
 - [Pony Stable](https://github.com/ponylang/pony-stable) our little dependency manager that could now runs on Windows. Thank you Gordon Tisher! This is a big deal, it's the first step in stable's eventual conquest of the Pony universe.
-- The ["Interrogating Actors with Promises" Pony Pattern](https://patterns.ponylang.org/async/actorpromise.html) updated to take advantage of new Promises methods introduced in [RFC #35](https://github.com/ponylang/rfcs/blob/master/text/0035-more-promise-methods.md).
+- The ["Interrogating Actors with Promises" Pony Pattern](https://patterns.ponylang.io/async/actorpromise.html) updated to take advantage of new Promises methods introduced in [RFC #35](https://github.com/ponylang/rfcs/blob/master/text/0035-more-promise-methods.md).
 - Audio from the [August 9, 2017 Pony development sync](https://pony.groups.io/g/dev/files/Pony%20Sync/August%209,%202017) is available for your listening pleasure. If you wait til the end there's some interesting garbage collection stuff. Earlier, there is talk of documentation generation and code formatting tools along with the usual business. There's also some interesting discussion related to the ["Fix overly restrictive field reference rule in recover expressions" PR](https://github.com/ponylang/ponyc/pull/2043). There's a lot of good stuff at the end is what we are saying. Listen to the whole thing.
 
 ## News and Blog Posts
