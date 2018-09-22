@@ -22,14 +22,14 @@ The Pony community while small is very helpful and inviting. We think you'll fin
 
 We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online. The cheat sheet is meant to serve as a quick reference for the main ideas that you'll encounter as you begin to learn Pony.
 
-* [Tutorial](http://tutorial.ponylang.org).
+* [Tutorial](http://tutorial.ponylang.io).
 * [Pony Patterns](http://patterns.ponylang.org) cookbook is in progress
 * [Standard library docs](http://stdlib.ponylang.io/).
 * [Cheat Sheet](/media/cheatsheet/pony-cheat-sheet.pdf).
 
 ## Reference capabilities
 
-If you are like most people learning Pony, your biggest stumbling block is going to be [reference capabilities](https://tutorial.ponylang.org/capabilities/reference-capabilities.html). Reference capabilities look like a very foreign concept to most folks. This isn't surprising as they are one of the ideas that make Pony unique. Lots of folks get frustrated while learning reference capabilities and end up thinking that Pony has "too much type system" or is "too hard". While we don't agree with such assessments, we will agree that they can be quite hard for some folks to get a handle on.
+If you are like most people learning Pony, your biggest stumbling block is going to be [reference capabilities](https://tutorial.ponylang.io/capabilities/reference-capabilities.html). Reference capabilities look like a very foreign concept to most folks. This isn't surprising as they are one of the ideas that make Pony unique. Lots of folks get frustrated while learning reference capabilities and end up thinking that Pony has "too much type system" or is "too hard". While we don't agree with such assessments, we will agree that they can be quite hard for some folks to get a handle on.
 
 ### What are reference capabilities
 

@@ -63,7 +63,7 @@ actor Main
 
 Check out [the example program in the Pony Playground](https://playground.ponylang.org/?gist=26fce9986dd82a58f8bcd5197e22121f).
 
-For more information see the [Sugar](https://tutorial.ponylang.org/expressions/sugar.html) section of the the tutorial.
+For more information see the [Sugar](https://tutorial.ponylang.io/expressions/sugar.html) section of the the tutorial.
 
 ### How can I write code that works for every kind of Number in Pony? {#code-for-all-numbers}
 
