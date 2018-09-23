@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 * There is a brand new blog post from the folks at [WallarooLabs](http://www.wallaroolabs.com/) about how their Python API works with Pony: https://blog.wallaroolabs.com/2018/04/the-snake-and-the-horse-how-wallaroos-python-api-works-with-pony/
 * A new package for *Linear Algebra in Pony* by github user dougmacdoug has been released: [linal](https://github.com/dougmacdoug/ponylang-linal) ([The original Announcement](https://pony.groups.io/g/user/topic/linal_linear_algebra/16887194?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,16887194)).
-* Due to [Github removing anonymous gist creation](https://blog.github.com/2018-02-18-deprecation-notice-removing-anonymous-gist-creation/) it was not possible to create gists on the [Pony Playground](https://playground.ponylang.org/) for some days. But paul stepped in and fixed that. Thank you!
+* Due to [Github removing anonymous gist creation](https://blog.github.com/2018-02-18-deprecation-notice-removing-anonymous-gist-creation/) it was not possible to create gists on the [Pony Playground](https://playground.ponylang.io/) for some days. But paul stepped in and fixed that. Thank you!
 
 ## Last Week's Playground
 
@@ -25,7 +25,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 This Playground link showcases a tool to execute your pony source code directly on linux systems using binfmt_misc or a shebang:
 
-[Last Weeks Playground - April 08, 2018](https://playground.ponylang.org/?gist=4e93446ff4dc4283e98b0a08db1a78ae)
+[Last Weeks Playground - April 08, 2018](https://playground.ponylang.io/?gist=4e93446ff4dc4283e98b0a08db1a78ae)
 
 In case you want to submit one (which I highly recommend), just add it as a comment to the current [Last Week in Pony Issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony) and let people vote with `+1` reactions. The one with the most votes is presented (Or i just present them all. Depends on my Sunday evening mood).
 

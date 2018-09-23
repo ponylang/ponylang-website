@@ -23,7 +23,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 This week I am going to present you the `with` expression in Pony. *The `with` expression???*, you ask? 
 Yes, this undocumented gem that definitely needs more coverage in the tutorial.
 
-Here is the playground link: http://playground.ponylang.org/?gist=c8d70a175b7fde58d42f021e88595a89
+Here is the playground link: http://playground.ponylang.io/?gist=c8d70a175b7fde58d42f021e88595a89
 
 In case you want to submit one (which I highly recommend), just add it as a comment to the current [Last Week in Pony Issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony) and let people vote with `+1` reactions. The one with the most votes is presented (Or i just present them all. Depends on my Sunday evening mood).
 

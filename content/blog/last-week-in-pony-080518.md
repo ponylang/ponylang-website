@@ -21,7 +21,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Last Week's Playground:
 
-- [Isolates and Tuples](https://playground.ponylang.org/?gist=16c4ae4851efea2d7903c4f5173fd12a)
+- [Isolates and Tuples](https://playground.ponylang.io/?gist=16c4ae4851efea2d7903c4f5173fd12a)
 
 > Working with isolates and tuples can be challenging given the extreme restriction of an iso capability. This playground covers putting isolates into a tuple, as well as extracting them back out.
 
