@@ -21,7 +21,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 > [Rmsbolt extension adds Pony Support](https://pony.groups.io/g/user/message/1776)
 
-- Audio for the September 26, 2018 Pony development sync is available. It went up as usually on the 26th but wasn't reported to Last Week in Pony. D'oh!
+- Audio for the September 26, 2018 Pony development sync is available. It went up as usual on the 26th but wasn't reported to Last Week in Pony. D'oh!
 
 > [Audio 09-26-2018](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_09_26/pony_development_sync_2018_09_26.m4a)
 
@@ -31,7 +31,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- Every week, the Pony committers have a meeting to discuss open issue, PRs etc. For the last couple years, it has been on Wednesdays at 3:30 PM Eastern time. Starting Tuesday October 9, the meeting will be every Tuesday at noon Eastern time.
+- Every week, the Pony committers have a meeting to discuss open issues, PRs etc. For the last couple years, it has been on Wednesdays at 3:30 PM Eastern time. Starting Tuesday October 9, the meeting will be every Tuesday at noon Eastern time.
 
 ## RFCs
 
