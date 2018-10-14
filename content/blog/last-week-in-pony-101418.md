@@ -5,7 +5,7 @@ description = "Last week's Pony news, reported this week."
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - October 21, 2018"
+title = "Last Week in Pony - October 14, 2018"
 date = "2018-10-14T18:25:00-04:00"
 +++
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
@@ -42,7 +42,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 > The PR to be merged is [here](https://github.com/ponylang/ponyc/pull/2748). There's also a couple PRs prior to that were fits and starts before Wink and all the Pony committers could agree on the right approach. So again, from everyone on the Pony core team. Thank you. Thank you very much. You are awesome.
 
-> Getting this merged is very timely as ponyc`is the last homebrew formula using LLVM 3.9.1 and they will be removing that LLVM formula when the next LLVM release comes out. That would mean, no more easy brew install ponyc`for Mac users. Definitely something we want to avoid.
+> Getting this merged is very timely as `ponyc` is the last homebrew formula using LLVM 3.9.1 and they will be removing that LLVM formula when the next LLVM release comes out. That would mean, no more easy `brew install ponyc` for Mac users. Definitely something we want to avoid.
 
 ## RFCs
 
