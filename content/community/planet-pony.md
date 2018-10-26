@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2018
 
+* Video: [Pony: How I learned to stop worrying and embrace an unproven technology](https://youtu.be/GigBhej1gfI) and [slides](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology-oscon-2018)
 * [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html)
 * [Introduction to the Pony programming language](https://opensource.com/article/18/5/pony)
 * [How to train your Pony: Introduction](https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/)
