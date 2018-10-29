@@ -16,7 +16,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Video of Sean T. Allen's talk from OSCON 2018 is now available ["Pony: How I learned to stop worrying and embrace an unproven technology"](https://youtu.be/GigBhej1gfI).
+Video of Sean T. Allen's talk from OSCON 2018 is now available.
+
+ ["Pony: How I learned to stop worrying and embrace an unproven technology"](https://youtu.be/GigBhej1gfI).
 
 ## RFCs
 
