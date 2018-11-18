@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - The first Berlin Ponylang Meetup has been announced for 4th of December [Sign Up Here](https://www.meetup.com/de-DE/Berlin-Ponylang-Meetup/events/256466874/) 
 
-- Go sign up, only 50 spots are available!
+> Go sign up, only 50 spots are available!
 
 ## RFCs
 
