@@ -49,7 +49,7 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 ### Travis CI
 
-[Travis CI](https://travis-ci.org/) runs our continuous integration tests on MacOS. They support a ton of open source projects. Great project.
+[Travis CI](https://travis-ci.org/) runs our continuous integration tests on both Linux and MacOS. They support a ton of open source projects. Great project.
 
 ### Whitequark
 
