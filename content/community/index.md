@@ -53,7 +53,7 @@ If you are interested in finding out when our Virtual Users' Group is meeting or
 
 ## Users' Groups
 
-We currently know of 3 User Groups. We also have a [Virtual Users' Group](https://pony.groups.io/g/vug) which didn't meet in quite some time now, In general, it meets about once a month via [Zoom](https://zoom.us). If you would be interested, join and drop us a line, we would be happy to revive that tradition.
+We currently know of 3 User Groups. We also have a [Virtual Users' Group](https://pony.groups.io/g/vug) which didn't meet in quite some time now. In general, it meets about once a month via [Zoom](https://zoom.us). If you would be interested, join and drop us a line, we would be happy to revive that tradition.
 [Videos](https://vimeo.com/search/sort:latest?q=pony-vug) of past presentations are available.
 
 If you'd like to attend an in-person meetup, sign up for the mailing list or join the meetup group to be informed the next time a meeting is occuring:
