@@ -27,6 +27,10 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 ## Services Sponsors
 The following companies kindly donate resources to Pony. We are incredibly grateful for their support. We love using their services and think you would as well.
 
+### 1Password
+
+[1Password](https://1password.com) hosts our shared secrets for free as part of their [open source support](https://github.com/1Password/1password-teams-open-source). It solves quite a few problems for us.
+
 ### Appveyor
 
 [Appveyor](https://www.appveyor.com/) runs our continuous integration tests on Windows. They support a ton of open source projects. Wonderful service.
