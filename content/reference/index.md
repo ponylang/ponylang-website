@@ -17,9 +17,7 @@ title = "Reference"
 
 How to obtain coverage for runs of pony programs or test executions
 
-- [Pony Coverage]({{< relref "pony-coverage.md" >}})
-
-- There is no coverage tool exclusive to Pony. But it is possible to use [kcov](https://github.com/SimonKagstrom/kcov) to generate coverage report from Pony applications compiled with `--debug`. Just run the
+- [Coverage Reports for Pony]({{< relref "pony-coverage.md" >}})
 
 ## Performance
 
