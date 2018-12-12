@@ -18,6 +18,10 @@ Think you've found a bug? It's quite possible. Pony is a relatively young langua
 
 The Pony community while small is very helpful and inviting. We think you'll find interacting with us to be an enjoyable experience. You can find a lot more community-related resources in the [community section](/community) of this site.
 
+## Installing Pony
+
+Ready to dive into Pony? Excellent! Please checkout the [installation instructions](https://github.com/ponylang/ponyc/blob/master/README.md#installation) for the ponyc compiler.
+
 ## Getting started
 
 We have a couple resources designed to help you learn, we suggest starting with the tutorial and from there, moving on to the Pony Patterns book. Additionally, standard library documentation is available online. The cheat sheet is meant to serve as a quick reference for the main ideas that you'll encounter as you begin to learn Pony.
