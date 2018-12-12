@@ -60,6 +60,7 @@ If you'd like to attend an in-person meetup, sign up for the mailing list to be 
 
 * [London Users' Group](https://pony.groups.io/g/london)
 * [New York City Users' Group](https://pony.groups.io/g/nyc)
+* [Berlin Users' Group](https://www.meetup.com/de-DE/Berlin-Ponylang-Meetup/)
 
 If you are interested in setting up a users' group in your area and would like to host the mailing list on groups.io, drop us a line and we'll get you set up.
 
