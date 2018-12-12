@@ -31,6 +31,10 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [Appveyor](https://www.appveyor.com/) runs our continuous integration tests on Windows. They support a ton of open source projects. Wonderful service.
 
+### CircleCI
+
+[CircleCI](https://circleci.com/) runs our continuous integration tests on Linux. It lets us test our code on manifold configurations and architectures. They support several open source projects. Amazing solution.
+
 ### Groups.io
 
 [Groups.io](https://groups.io/) hosts our mailing lists. They have some additional "forum-like" features including calendars and file hosting. We take advantage of both for hosting the recordings of our weekly development sync. If you are looking for a replacement for Google Groups, check them out.
