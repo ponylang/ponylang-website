@@ -13,6 +13,14 @@ title = "Reference"
 
 > A collection of LLDB extensions for working with the Pony programming language.
 
+## Coverage
+
+How to obtain coverage for runs of pony programs or test executions
+
+- [Pony Coverage]({{< relref "pony-coverage.md" >}})
+
+- There is no coverage tool exclusive to Pony. But it is possible to use [kcov](https://github.com/SimonKagstrom/kcov) to generate coverage report from Pony applications compiled with `--debug`. Just run the
+
 ## Performance
 
 - [Pony Performance Cheatsheet]({{< relref "pony-performance-cheatsheet.md" >}})
