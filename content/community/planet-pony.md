@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2018
 
+* Video: [Pony: How I learned to stop worrying and embrace an unproven technology](https://youtu.be/GigBhej1gfI) and [slides](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology-oscon-2018)
 * [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html)
 * [Introduction to the Pony programming language](https://opensource.com/article/18/5/pony)
 * [How to train your Pony: Introduction](https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/)
@@ -26,13 +27,13 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [The Promise of Pony's Future](https://medium.com/@KevinHoffman/the-promise-of-ponys-future-44040a0b64ff)
 * [Rolling the Dice with Pony](https://medium.com/@KevinHoffman/rolling-the-dice-with-pony-b7a32a69267b)
 * [Composition over Inheritance in Pony](https://medium.com/@KevinHoffman/composition-over-inheritance-in-pony-33bbe107914)
-* [My First Pony](https://www.ponylang.org/blog/2017/07/my-first-pony/)
+* [My First Pony](https://www.ponylang.io/blog/2017/07/my-first-pony/)
 * InfoQ podcast interview with Sylvan Clebsch - [Pony Language Designer Sylvan Clebsch on Pony’s Design, Garbage Collection, and Formal Verification](https://www.infoq.com/podcasts/sylvan-clebsch-pony-formal-verification)
 * [Pony: 714 Days Later (Curry On Barcelona)](https://www.youtube.com/watch?v=HGDSnOZaU7Y)
 * [What's Next for Our Programming Languages? (QCon London)](https://www.infoq.com/presentations/panel-languages-future)
 * [Pony: Co-designing a Type-system and a Runtime (QCon London)](https://www.infoq.com/presentations/pony-type-system)
 * [Learning Pony](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/)
-* [An Early History of Pony](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/)
+* [An Early History of Pony](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/)
 * [Pony Vug #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony](https://vimeo.com/202387915)
 * [Découverte du langage Pony](https://zestedesavoir.com/articles/1329/decouverte-du-langage-pony/)
 

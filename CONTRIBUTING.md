@@ -11,9 +11,9 @@ The Pony website is generated using [Hugo]: a static website generator. If you a
 Because the site is deploying using a remote server, you should make sure you are developing using whatever version the deploy server is currently running. 
 The site is currently built for production deploy using v0.24.1.
 
-## Ponylang.org hosting
+## Ponylang.io hosting
 
-Ponylang.org is hosted using [Netlify].
+Ponylang.io is hosted using [Netlify].
 
 ## Deploying the website
 
@@ -53,7 +53,7 @@ If your PR is for a single logical change (which is should be) but spans multipl
 
 ## Relative vs Absolute links
 
-Favor relative links for any content on ponylang.org. Absolute links that point to `https://www.ponylang.org` don't play well with Netlify deploy previews. Absolute links will redirect you off the preview website and onto the live website. For this reason, relative links are preferred.
+Favor relative links for any content on ponylang.io. Absolute links that point to `https://www.ponylang.io` don't play well with Netlify deploy previews. Absolute links will redirect you off the preview website and onto the live website. For this reason, relative links are preferred.
 
 [Hugo]: https://gohugo.io
 [Netlify]: https://www.netlify.com/.

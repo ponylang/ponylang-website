@@ -8,7 +8,7 @@ draft: false
 title: Last Week in Pony - May 7, 2017
 ---
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## An Early History of Pony
 
-Over the last year or two, many folks have asked some variation on "how did Pony come to be?". Well dear interlocutors, ask no more. Sylvan Clebsch published [An Early History of Pony](https://www.ponylang.org/blog/2017/05/an-early-history-of-pony/). Question no more. Go forth and spread the word, for ye, it is good.
+Over the last year or two, many folks have asked some variation on "how did Pony come to be?". Well dear interlocutors, ask no more. Sylvan Clebsch published [An Early History of Pony](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/). Question no more. Go forth and spread the word, for ye, it is good.
 
 ## Items of Note
   

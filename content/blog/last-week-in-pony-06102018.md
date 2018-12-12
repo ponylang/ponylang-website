@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - June 10, 2018"
 date = "2018-06-10T20:30:00+02:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -19,19 +19,19 @@ Yes, indeed, we have a section for this now. And yes, it is plural. And yes, may
 
 So, as with every good story, lets start at the beginning:
 
-### Pony 0.22.4 - [Release Notes](https://www.ponylang.org/blog/2018/06/0.22.4-released/)
+### Pony 0.22.4 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.4-released/)
 
 Two small bugfixes around union types with the same elements and the `cli` package.
 
-### Pony 0.22.5 - [Release Notes](https://www.ponylang.org/blog/2018/06/0.22.5-released/)
+### Pony 0.22.5 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.5-released/)
 
 High-priority bugfix for systems with NUMA enabled. Upgrading is highly recommended. 
 
-### Pony 0.22.6 - [Release Notes](https://www.ponylang.org/blog/2018/06/0.22.6-released/)
+### Pony 0.22.6 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.6-released/)
 
 This one fixes a performance regression introduced in the 0.22.X series and fixes a bug in tuple handling that could cause crashes during compilation. Here too, we recommend to upgrade.
 
-### Pony 0.23.0 - [Release Notes](https://www.ponylang.org/blog/2018/06/0.23.0-released/)
+### Pony 0.23.0 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.23.0-released/)
 
 Whoa! Minor version increase. Why is that? Breaking change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/master/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bugfix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
 

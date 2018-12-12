@@ -5,7 +5,7 @@ title = "Discover"
 
 Pony is an open-source, object-oriented, [actor-model](https://en.wikipedia.org/wiki/Actor_model), [capabilities-secure](https://en.wikipedia.org/wiki/Capability-based_security), high-performance programming language.
 
-If you are looking to jump in and get started with Pony *right now*, you can try it in your browser using the [Pony Playground](http://playground.ponylang.org). Keep reading if you are interested in what makes Pony different and why you should consider using it.
+If you are looking to jump in and get started with Pony *right now*, you can try it in your browser using the [Pony Playground](http://playground.ponylang.io). Keep reading if you are interested in what makes Pony different and why you should consider using it.
 
 If you are interested in the early history of Pony and how it came into existence, you're in luck: ["An Early History of Pony"](/blog/2017/05/an-early-history-of-pony/).
 
@@ -41,7 +41,7 @@ Pony programs can natively call C libraries. Our compiler is able to generate a 
 
 ## Why Pony?
 
-There's plenty to love about Pony, but more than anything else, what we love most is that Pony makes it easy to write fast, safe, efficient, highly concurrent programs. How? The Pony type system introduces a novel concept: "reference capabilities". [Reference capabilities](https://tutorial.ponylang.org/capabilities/reference-capabilities.html) allow you to label different bits of data based on how that data can be shared. The Pony compiler will then verify that you are in fact correctly using the data based on the labels you provide. Reference capabilities combined with Pony's actor model of concurrency makes for a powerful pairing. Let's dig in and take a quick look:
+There's plenty to love about Pony, but more than anything else, what we love most is that Pony makes it easy to write fast, safe, efficient, highly concurrent programs. How? The Pony type system introduces a novel concept: "reference capabilities". [Reference capabilities](https://tutorial.ponylang.io/capabilities/reference-capabilities.html) allow you to label different bits of data based on how that data can be shared. The Pony compiler will then verify that you are in fact correctly using the data based on the labels you provide. Reference capabilities combined with Pony's actor model of concurrency makes for a powerful pairing. Let's dig in and take a quick look:
 
 ### Mutable state is hard
 
@@ -79,7 +79,7 @@ Pony is pre-1.0. We regularly have releases that involve breaking changes. This 
 
 ### Batteries required
 
-If your project is going to succeed or fail based on the size of community around the tools you are using, Pony is not a good choice for you. While it's possible to write stable, high-performance applications using Pony, you will have to do a decent amount of work. The pool of open source, ready to use Pony libraries is very small. If it's not in the standard library then odds are you are going to have to add it yourself, either by writing it from scratch in Pony or by wrapping an existing C library using Pony's excellent [C-FFI](https://tutorial.ponylang.org/c-ffi/) functionality.
+If your project is going to succeed or fail based on the size of community around the tools you are using, Pony is not a good choice for you. While it's possible to write stable, high-performance applications using Pony, you will have to do a decent amount of work. The pool of open source, ready to use Pony libraries is very small. If it's not in the standard library then odds are you are going to have to add it yourself, either by writing it from scratch in Pony or by wrapping an existing C library using Pony's excellent [C-FFI](https://tutorial.ponylang.io/c-ffi/) functionality.
 
 ### Tooling
 

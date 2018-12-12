@@ -1,4 +1,4 @@
-baseurl = "https://www.ponylang.org"
+baseurl = "https://www.ponylang.io"
 languageCode = "en-us"
 title = "Pony"
 metadataformat = "TOML"
@@ -77,6 +77,11 @@ canonifyurls = false
 	name   = "FAQ"
 	url    = "/faq/"
 	weight = 70
+
+[[menu.main]]
+	name   = "Become a Supporter"
+	url    = "/sponsors/"
+	weight = 75
 
 [[menu.main]]
 	name   = "Code of Conduct"

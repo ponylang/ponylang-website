@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - August 6, 2017"
 date = "2017-08-06T07:00:00-04:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.org), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -17,12 +17,12 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Last Sunday, we released Pony 0.16.1. It featured a couple of high-priority bug fixes. As such we recommend upgrading as soon as possible. However, 0.16.0 featured a large breaking change so we suggest you check out the release notes for both before proceeding.
 
-- [0.16.1](https://www.ponylang.org/blog/2017/07/0.16.1-released/)
-- [0.16.0](https://www.ponylang.org/blog/2017/07/0.16.0-released/)
+- [0.16.1](https://www.ponylang.io/blog/2017/07/0.16.1-released/)
+- [0.16.0](https://www.ponylang.io/blog/2017/07/0.16.0-released/)
 
 Yesterday, we released Pony 0.17.0. It is highlighted by support for GCC 7 on Linux. Prior to this release, you weren't able to build Pony with GCC 7 due to a GCC bug. That isn't all you get with this release though. There's some nice additional features in there. Check it out!
 
-- [0.17.0](https://www.ponylang.org/blog/2017/08/0.17.0-released/)
+- [0.17.0](https://www.ponylang.io/blog/2017/08/0.17.0-released/)
 
 ## Items of note
 
