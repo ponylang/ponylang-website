@@ -1,5 +1,5 @@
 +++
-title = Coverage Reports for Pony
+title = "Coverage Reports for Pony"
 +++
 
 ## Using kcov to create Coverage Reports
