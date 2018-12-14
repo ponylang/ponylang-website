@@ -418,7 +418,7 @@ Pony schedulers use a work-stealing algorithm that allows idle schedulers to tak
 
 Depending on the workload and concurrency characteristics of a partiticular application, it might be worth tuning how things function. In some instances, where efficiency isn't a concern, you can specify `--ponyminthreads=X` to match `--ponythreads=X` in order to disable scheduler thread suspension by indicating that the minimum active scheduler threads required is the same as the total number of scheduler threads. This, however, can lead to work-stealing having a negative impact on performance due to CPU cache thrashing. In such cases, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponythreads=X` option to indicate how many scheduler threads the program will create.
 
-We suggest you rely on the detault behavior where Pony scheduler threads automagically adjust to the workload. However, if you want to squeeze as much performance as possible, we suggest the following:
+We suggest you rely on the default behavior where Pony scheduler threads automagically adjust to the workload. However, if you want to squeeze as much performance as possible, we suggest the following:
 
 - Run your program under your expected workload.
 - Start with 1 scheduler thread and work your way up to the number of CPUs you have available.
