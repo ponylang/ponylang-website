@@ -21,7 +21,7 @@ Domain change coming! Hi all, for a while now, we've been trying to get the pony
 
 As part of that migration, we'll be redirecting as much as we can so that going to https://www.ponylang.org will get you redirected to https://www.ponylang.io. The plan is to do the same with tutorial.ponylang.org and patterns.ponylang.org.
 
-There might be some bumps along the way and sometimes, the redirect might be kind of primitive. Please bear with us through the switch and if you get any weird errors, please email sean@ponylang.io and let him know the problem. Thanks!
+There might be some bumps along the way and sometimes, the redirect might be kind of primitive. Please bear with us through the switch and if you get any weird errors, please email sean.allen@ponylang.io and let him know the problem. Thanks!
 
 Please check https://pony.groups.io/g/user/topic/25782868#1763 for updates.
 
