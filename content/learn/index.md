@@ -9,6 +9,7 @@ If you run into trouble while you are learning Pony, don't worry, we've got you 
 
 * [Mailing list](https://pony.groups.io/g/user).
 * [IRC](https://webchat.freenode.net/?channels=%23ponylang).
+* [Slack](https://www.ponylang.io/get-slack-invite)
 
 Many folks encounter the same issues or have the same questions, be sure to give the [frequently asked questions]({{< relref "faq/index.md">}}) section of this website a read.
 

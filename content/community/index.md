@@ -11,10 +11,11 @@ We are committed to providing a friendly, safe and welcoming environment for all
 The most important community resources for those who are new to Pony are:
 
 * #ponylang, our IRC channel on [freenode](https://webchat.freenode.net/?channels=%23ponylang)
+* Pony [community slack](https://www.ponylang.io/get-slack-invite)
 * The [Users Mailing List](https://pony.groups.io/g/user) for discussion of all things Pony that don't involve the development of Pony itself
 * The [frequently asked questions]({{< relref "faq/index.md">}}) section of this website.
 
-If you are looking for help with Pony and can't get a response in #ponylang, we advise that you send an email to the Users Mailing List. 
+If you are looking for help with Pony and can't get a response in #ponylang or Slack, we advise that you send an email to the Users Mailing List. 
 
 ## News
 
@@ -39,7 +40,10 @@ but, that can come later.
 
 ## Chat
 
-If you are interested in having a real time conversation about Pony, your best bet is the #ponylang IRC channel on [freenode](https://freenode.net). [Public logs for #ponylang](https://irclog.whitequark.org/ponylang/) are available if you need to catch up on conversation. 
+If you are interested in having a real time conversation about Pony, you have two options:
+
+- The #ponylang IRC channel on [freenode](https://freenode.net). [Public logs for #ponylang](https://irclog.whitequark.org/ponylang/) are available if you need to catch up on conversation. 
+- The Pony [community slack](https://www.ponylang.io/get-slack-invite)
 
 ## Mailing Lists
 
