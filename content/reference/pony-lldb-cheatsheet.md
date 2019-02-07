@@ -65,16 +65,19 @@ If you would like to limit the size of the backtrace (for example, when you are 
 
 ```bash
 (lldb) thread backtrace --count 5
-(lldb) b -c 5
+(lldb) bt 5
 ```
 
 ### Stepping
 
 ```bash
 (lldb) thread step-in
+(lldb) s
+(lldb) sif funToStepInto
 (lldb) thread step-over
+(lldb) n
 (lldb) thread step-out
-(lldb) thread step-into
+(lldb) finish
 (lldb) thread until LINE
 ```
 
