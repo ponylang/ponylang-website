@@ -124,6 +124,8 @@ primitive OneForAllCombined
 
 ### What are Pony's supported CPU platforms?
 
+As of `ponyc` release `0.26.0`, we provide the following support:
+
 - Full support for 64-bit platforms
   - x86 and ARM CPUs only
 - Experimental, incomplete, and/or buggy support for 32-bit platforms
