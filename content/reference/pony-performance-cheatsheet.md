@@ -387,7 +387,8 @@ Some applications might benefit from having receiving actors copy data once they
 #### Things you should know about the Pony cycle detector
 
 * The `cycle detector`s job is to identify and reap dead actors (including cycles of actors that are all dead)
-* Every actor will send `block` messages to the `cycle detector` when it thinks it has no work left to do
+* The `cycle detector` will periodically ask actors if they are blocked
+* Every actor will respond with a `block` message to the `cycle detector` when it thinks it has no work left to do
 * Every actor will send `unblock` messages to the `cycle detector` when it receives new work after it has already sent a block message
 * The `cycle detector` will use the `block` and `unblock` messages along with actor dependencies tracked by the garbage collector to determine which actors or cycles of actors are dead and can never receive new work
 * Once the `cycle detector` identifies dead actors, it will finalize and reap them freeing any memory used by them to be reused for other purposes
@@ -396,7 +397,7 @@ Some applications might benefit from having receiving actors copy data once they
 
 There are two ways that Pony's `cycle detector` can impact your performance:
 
-1. Normal actors have to send `block`/`unblock` messages and respond to `conf` messages from the `cycle detector` with `ack` messages.
+1. Normal actors have to respond to the `cycle detector` queries about whether they are blocked and send `block`/`unblock` messages and respond to `conf` messages from the `cycle detector` with `ack` messages.
 2. Time spent running the `cycle detector` to find cycles.
 
 #### Advice:
@@ -407,12 +408,12 @@ This can be accomplished by passing `--ponynoblock` option to the application.
 
 Disabling the `cycle detector`:
 
-1. Disables sending of `block`/`unblock` messages from normal actors to the `cycle detector`.
-2. Disables running the `cycle detector` because it is never sent any messages.
+1. Disables running the `cycle detector` because it is never sent any messages.
+2. Disables sending of `block`/`unblock` messages from normal actors to the `cycle detector` because the `cycle detector` never queries actors to ask if they are blocked.
 
 ### Maybe you have too many threads {#ponythreads}
 
-Let's talk about the Pony scheduler for a moment. When you start up a Pony program, it will create one scheduler thread per available CPU. At least, that is what it does by default. Each of those scheduler threads will remain locked to a particular CPU. The scheduler threads can be suspended if there isn't enough work to do. Without going into a ton of detail, this is usually the right thing to do for performance and efficiency.
+Let's talk about the Pony scheduler for a moment. When you start up a Pony program, it will create one scheduler thread per available CPU. At least, that is what it does by default. These scheduler threads will not be locked to particular CPUs by default. The default of having different scheduler threads unlocked is not ideal for performance. We can tell Pony to instead lock scheduler threads to particular CPUs by passing the `--ponypin` argument. Additionally, the scheduler threads can be suspended if there isn't enough work to do. Without going into a ton of detail, this is usually the right thing to do for performance and efficiency.
 
 Pony schedulers use a work-stealing algorithm that allows idle schedulers to take work from other schedulers. In a loaded system, the work stealing algorithm can keep all the CPUs busy. When CPUs are underutilized, unused scheduler threads are suspended until there is enough work for them. In most cases, scheduler thread suspend/resume will have minimal negative impact on performance but significant positive impact on resource efficiency.
 
@@ -421,6 +422,7 @@ Depending on the workload and concurrency characteristics of a partiticular appl
 We suggest you rely on the default behavior where Pony scheduler threads automagically adjust to the workload. However, if you want to squeeze as much performance as possible, we suggest the following:
 
 - Run your program under your expected workload.
+- Run your program with `--ponypin` to lock scheduler threads to particular CPUs.
 - Start with 1 scheduler thread and work your way up to the number of CPUs you have available.
 - Measure your performance with each `ponythread` setting with scheduler thread suspension disabled.
 - Use the number of scheduler threads that gives you the best performance.
@@ -431,7 +433,7 @@ Work is ongoing to improve the work-stealing scheduler. Feel free to check in on
 
 Multitasking operating systems are wondrous things. Without one, I wouldn't be able to write up these tips while listening to obscure Beastie Boys remixes. For me, at this moment in time, having multiple programs running at once is an awesome thing. There are times though when multitasking operating systems can be annoying.
 
-Much like how the Pony scheduler schedules different actors, so they all get time to use a CPU, so your operating system does with various running programs. And this can be problematic for performance. If we want to get the best performance from Pony programs, we want them to have access to CPUs as much as possible. And, we want each scheduler thread to have sole access to its particular CPU.
+Much like how the Pony scheduler schedules different actors, so they all get time to use a CPU, so your operating system does with various running programs. And this can be problematic for performance. If we want to get the best performance from Pony programs, we want them to have access to CPUs as much as possible. And, we want each scheduler thread to be assigned to a particular CPU and to have sole access to its particular CPU.
 
 Modern CPU architectures feature a hierarchical layering of caches. The caches are used to hold data that the CPU needs. The closer the cache is to the CPU, the faster it can execute operations on that data. In our ideal world, the data we need is always in the caches the closest to the CPU. We don't live in an ideal world, but we can do things to bring us closer to our ideal world.
 
@@ -446,16 +448,16 @@ On Linux, you'll want to use [cset](https://rt.wiki.kernel.org/index.php/Cpuset_
 
 ```bash
 sudo cset proc -s user -e numactl -- -C 1-4,17 chrt -f 80 \
-  ./my-pony-program --ponythreads 4 --ponypinasio
+  ./my-pony-program --ponythreads 4 --ponypin --ponypinasio
 ```
 
 This isn't a complete `cset` or `numactl` tutorial so I'm only going to focus on one option of each and I'll leave the rest to your investigation. Note the `-s user` option to `cset`; this tells `cset` to use the `user` process isolation zone where no system processes are allowed to run. Similarly, note the `-C 1-4,17` option to `numactl`; this will make only CPUs 1 to 4 plus CPU 17 available to our program `my-pony-program`.
 
 ```bash
---ponythreads 4 --ponypinasio
+--ponythreads 4 --ponypin --ponypinasio
 ```
 
-And those two additional options to our program? We've seen `--ponythreads` before. In this case, we are running with 4 scheduler threads. They will have exclusive access to CPUs 1 to 4. What about `--ponypinasio` and CPU 17?
+And those three additional options to our program? We've seen `--ponythreads` and `--ponypin` before. In this case, we are running with 4 scheduler threads. They will have exclusive access to CPUs 1 to 4 with each scheduler thread assigned to a particular CPU. What about `--ponypinasio` and CPU 17?
 
 In addition to scheduler threads, each Pony program also has an ASIO thread that handles asynchronous IO events. By supplying the `--ponypinasio` option, our ASIO thread will be pinned to a single CPU. Which CPU? Whichever available CPU is next after all scheduler threads have been assigned cpus which in this case is CPU 17. To sum up:
 
@@ -464,8 +466,8 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 -s user
 // Set aside 5 CPUs for this program
 -C 1-4,17
-// Run 4 scheduler threads and pin the ASIO thread
---ponythreads 4 --ponypinasio
+// Run 4 scheduler threads and pin the scheduler threads and the ASIO thread
+--ponythreads 4 --ponypin --ponypinasio
 ```
 
 ### Hyper-threading {#hyperthreading}
