@@ -7,18 +7,18 @@ Welcome! This is the website for the Pony programming language. Pony is an open-
 
 ## Quicklinks
 
-- [What is Pony?](https://www.ponylang.io/discover/#what-is-pony)
+- [What is Pony?]({{< relref "discover/index.md">}})
 - [Frequently asked questions]({{< relref "faq/index.md">}})
 - [Try it in your browser](https://playground.ponylang.io/)
 - [Example Pony applications](https://github.com/ponylang/ponyc/tree/master/examples)
 - [Installation](https://github.com/ponylang/ponyc/blob/master/README.md#installation)
-- [Get started learning Pony](https://www.ponylang.io/learn/)
+- [Get started learning Pony]({{< relref "learn/index.md">}})
 - [Tutorial](https://tutorial.ponylang.io/)
 - [Standard Library Documentation](https://stdlib.ponylang.io/)
-- [Getting help](https://www.ponylang.io/learn/#getting-help)
+- [Getting help]({{< relref "learn/index.md">}}#getting-help)
 - [Existing user reference]({{< relref "reference/index.md">}})
-- [Community resources]({{< relref "reference/index.md">}})
-- [Code of conduct](https://www.ponylang.io/community/code-of-conduct/)
+- [Community resources]({{< relref "community/index.md">}})
+- [Code of conduct]({{< relref "community/code-of-conduct.md">}})
 - [How to contribute]({{< relref "contribute/index.md">}})
 - [Releases](https://www.ponylang.io/categories/release)
 
