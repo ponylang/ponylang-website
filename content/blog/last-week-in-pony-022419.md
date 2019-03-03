@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the February 24, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_02_19/pony_sync_february_19_2019.m4a).
+- Audio for the February 19, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_02_19/pony_sync_february_19_2019.m4a).
 
 ## News and Blog Posts
 
