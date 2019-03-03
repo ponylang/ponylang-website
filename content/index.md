@@ -7,7 +7,7 @@ Welcome! This is the website for the Pony programming language. Pony is an open-
 
 ## Quicklinks
 
-- [What is Pony?]({{< relref "discover/index.md">#what-is-pony}})
+- [What is Pony?]({{< relref "discover/index.md">}}#what-is-pony)
 - [Frequently asked questions]({{< relref "faq/index.md">}})
 - [Try it in your browser](https://playground.ponylang.io/)
 - [Example Pony applications](https://github.com/ponylang/ponyc/tree/master/examples)
