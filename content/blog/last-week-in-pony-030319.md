@@ -16,19 +16,19 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.27.0 has been released.
+- Pony 0.27.0 has been [released](https://www.ponylang.io/blog/2019/03/0.27.0-released/).
 
 - Audio for the February 26, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_02_26/pony_sync_february_26_2019.m4a).
 
 - Carl Quinn, also known as @cquinn, has been invited to become a Pony committer. Everyone welcome Carl to the team!
 
-- Version 0.2.2 of flycheck-pony has been released and is available via melpa and melpa-stable.
+- [Version 0.2.2](https://github.com/SeanTAllen/flycheck-pony/releases/tag/0.2.2) of flycheck-pony has been released and is available via melpa and melpa-stable.
 
-- The tutorial now has built-in full-text-search.
+- The [tutorial](https://tutorial.ponylang.io/) now has built-in full-text-search.
 
     If anyone with more experience in CSS and JS than me ( @mfelsche ) wants to lend a hand in improving the codebase, we would be enormously grateful. Think of the current setup as jquery and good intentions. How does one even set up a frontend project properly, nowadays? You know? Stuff like this.
 
-    If you are interested in assisting, please stop by the #tutorial channel of our Slack community.
+    If you are interested in assisting, please stop by the #tutorial channel of [our Slack community](https://www.ponylang.io/get-slack-invite).
 
 - Today, we are announcing that we are "deprecating" our IRC channel. Since we opened up a Slack community, IRC usage has plummeted. Overall community engagement has shot up since we started the Slack. So, the core team recently made the decision to "shut down" the IRC channel. It will continue to exist to prevent squatting but we ask everyone to visit the Slack community instead.
 
