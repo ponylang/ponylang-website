@@ -120,7 +120,7 @@ Here `let` indicates that I'm leaving the value un-initialized, but that the con
 
 Tags can be compared with the `is` keyword. This means that every instance of every actor in the system can be compared for equality, _regardless of the alias holding that reference_. Again, _this is huge_. As someone who lost many hair follicles working with Akka, I love this behavior.
 
-`MapIs` (thanks to the folks on the IRC channel for this tip) lets me _directly_ map `TCPConnection`s (they are actors!) to players (also actors). You can think of the `_players` variable as a tag-to-tag mapping. Tags are the least burdensome of things to reference and send.
+`MapIs` lets me _directly_ map `TCPConnection`s (they are actors!) to players (also actors). You can think of the `_players` variable as a tag-to-tag mapping. Tags are the least burdensome of things to reference and send.
 
 So now when I get a notification that text came in from a particular connection, my connection manager knows how to dispatch that text to a player actor for input parsing:
 

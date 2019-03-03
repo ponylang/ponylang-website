@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - April 29, 2018"
 date = "2018-04-29T09:30:19-04:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user) or join us [on IRC](https://webchat.freenode.net/?channels=%23ponylang). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [users' mailing list](https://pony.groups.io/g/user). 
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -23,7 +23,7 @@ We could use help moving Pony forward. Interested in helping? Here's a few ideas
 - Help grow the content on [Pony Patterns](https://github.com/ponylang/pony-patterns/) website.
 - Help push the [library-starter-project](https://github.com/ponylang/library-project-starter/issues) forward.
 
-And there's a ton more as well. Stop by the [developer mailing list](https://pony.groups.io/g/dev/) or [IRC](https://webchat.freenode.net/?channels=%23ponylang), we'll help you figure out a way that you can contribute.
+And there's a ton more as well. Stop by the [developer mailing list](https://pony.groups.io/g/dev/), we'll help you figure out a way that you can contribute.
 
 ## Items of Note
 

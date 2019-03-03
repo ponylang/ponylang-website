@@ -5,10 +5,9 @@ Ready to learn Pony? Awesome.
 
 ## Getting help {#getting-help}
 
-If you run into trouble while you are learning Pony, don't worry, we've got you covered. You have a couple different options on how you can get help from the Pony community. If you are looking for an answer "right now", we suggest you give our IRC channel a try. It's #ponylang on Freenode. If you ask a question, be sure to hang around until you get an answer. If you don't get one, or IRC isn't your thing, we have a friendly mailing list you can try. Whatever your question is, it isn't dumb, and we won't get annoyed.
+If you run into trouble while you are learning Pony, don't worry, we've got you covered. You have a couple different options on how you can get help from the Pony community. If you are looking for an answer "right now", we suggest you give our Slack community a try. If you ask a question, be sure to hang around until you get an answer. If you don't get one, or Slack isn't your thing, we have a friendly mailing list you can try. Whatever your question is, it isn't dumb, and we won't get annoyed.
 
 * [Mailing list](https://pony.groups.io/g/user).
-* [IRC](https://webchat.freenode.net/?channels=%23ponylang).
 * [Slack](https://www.ponylang.io/get-slack-invite)
 
 Many folks encounter the same issues or have the same questions, be sure to give the [frequently asked questions]({{< relref "faq/index.md">}}) section of this website a read.
