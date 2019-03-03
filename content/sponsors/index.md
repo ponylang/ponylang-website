@@ -54,7 +54,3 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 ### Travis CI
 
 [Travis CI](https://travis-ci.org/) runs our continuous integration tests on both Linux and MacOS. They support a ton of open source projects. Great project.
-
-### Whitequark
-
-[Whitequark](https://whitequark.org/) is kind enough to host the logs of our #ponylang freenode channel. They provide logging services for a number of channels. Pretty awesome if you ask us. 
