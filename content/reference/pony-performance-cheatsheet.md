@@ -239,6 +239,43 @@ class Example
 
 You probably won't be proud of that code, but you'll be proud of the performance improvement you get. The `-1` idiom is one that should be quite familiar to folks with a C background. If you aren't familiar with C, you might be thinking: "Wait, that's a `USize`, an unsigned value. What on earth is `-1` there?" And that's a good question to ask. The answer is numeric types wrap overflow and wrap around. So `-1` is equivalent to the max value of a `U64`. Keep that in mind because if you find your value in index `18,446,744,073,709,551,615`, you'll be treating it as not-found. That might be a problem, but we doubt it.
 
+But what if it is likely that your function returns `-1`? You could, in this case, put your return value in a tuple, alongside with a `Bool` value, which will work as an indicator for your functions success. Here is such an example:
+
+```pony
+primitive Divisor
+  fun divide_by(a: F64, b: F64): (F64, Bool) =>
+    if b == 0 then
+      (0, false)
+    else
+      (a / b, true)
+    end
+```
+
+You can see that our function returns `(0, false)` if it runs into an error case, and otherwise returns its result, alongside a `true` value.
+When running this code, you will only have to check if the function succeeded:
+
+```pony
+use "debug"
+
+class Student
+  fun do_math_exercises() =>
+    let a = Divisor.divide_by(4, 2)
+    if a._2 then
+      Debug("4/2 makes " + a._1.string())
+    else
+      Debug("Couldn't calculate 4/2?!")
+    end
+
+    let b = Divisor.divide_by(4, 0)
+    if a._2 then
+      Debug("4/2 makes " + a._1.string() + "?!")
+    else
+      Debug("Couldn't calculate 4/0")
+    end
+```
+
+We avoided boxing machine word, thanks to tuples!
+
 ### Avoid `error` {#avoid-error}
 
 Pony's `error` is often confused with exceptions from languages like Java. `error` while having some similarities, isn't the same. Amongst other differences, `error` carries no runtime information like exception type. It's also cheaper to set up a Pony `error` than it is an exception in languages like Java. Many folks hear that and think, "I can use `error` without worrying about performance." Sadly, that isn't the case.
