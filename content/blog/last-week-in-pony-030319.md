@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - March 3, 2019"
 date = "2019-03-03T10:58:13-05:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user), or our [Slack community](https://www.ponylang.io/get-slack-invite).
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), our [users' mailing list](https://pony.groups.io/g/user), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -28,11 +28,11 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     If anyone with more experience in CSS and JS than me ( @mfelsche ) wants to lend a hand in improving the codebase, we would be enormously grateful. Think of the current setup as jquery and good intentions. How does one even set up a frontend project properly, nowadays? You know? Stuff like this.
 
-    If you are interested in assisting, please stop by the #tutorial channel of [our Slack community](https://www.ponylang.io/get-slack-invite).
+    If you are interested in assisting, please stop by the #tutorial channel of [our Zulip community](https://ponylang.zulipchat.com).
 
-- Today, we are announcing that we are "deprecating" our IRC channel. Since we opened up a Slack community, IRC usage has plummeted. Overall community engagement has shot up since we started the Slack. So, the core team recently made the decision to "shut down" the IRC channel. It will continue to exist to prevent squatting but we ask everyone to visit the Slack community instead.
+- Today, we are announcing that we are "deprecating" our IRC channel. Since we opened up a Zulip community, IRC usage has plummeted. Overall community engagement has shot up since we started the Slack. So, the core team recently made the decision to "shut down" the IRC channel. It will continue to exist to prevent squatting but we ask everyone to visit the Zulip community instead.
 
-    Get an invite to join here: https://www.ponylang.io/get-slack-invite
+    Get an invite to join here: https://ponylang.zulipchat.com
 
 ## News and Blog Posts
 

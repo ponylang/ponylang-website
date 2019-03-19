@@ -10,11 +10,11 @@ We are committed to providing a friendly, safe and welcoming environment for all
 
 The most important community resources for those who are new to Pony are:
 
-* Pony [community slack](https://www.ponylang.io/get-slack-invite)
+* Pony [community Zulip](https://ponylang.zulipchat.com)
 * The [Users Mailing List](https://pony.groups.io/g/user) for discussion of all things Pony that don't involve the development of Pony itself
 * The [frequently asked questions]({{< relref "faq/index.md">}}) section of this website.
 
-If you are looking for help with Pony and can't get a response in Slack, we advise that you send an email to the Users Mailing List. 
+If you are looking for help with Pony and can't get a response in Zulip, we advise that you send an email to the Users Mailing List. 
 
 ## News
 
@@ -39,7 +39,7 @@ but, that can come later.
 
 ## Chat
 
-If you are interested in having a real time conversation about Pony, check out the Pony [community slack](https://www.ponylang.io/get-slack-invite).
+If you are interested in having a real time conversation about Pony, check out the Pony [community Zulip](https://ponylang.zulipchat.com).
 
 ## Mailing Lists
 
