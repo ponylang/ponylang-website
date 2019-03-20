@@ -88,7 +88,7 @@ The current publishing process is as follows, feel free to change it if need be:
 
 - Submit as new link on [/r/ponylang](https://www.reddit.com/r/ponylang/).
 - Tweet about it as [@ponylang](https://twitter.com/ponylang).
-- Announce in the Slack community.
+- Announce in the Zulip community.
 - Write to the [Pony Users Mailinglist](https://pony.groups.io/g/user).
 - Tell all of your friends.
 
