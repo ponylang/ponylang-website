@@ -246,9 +246,9 @@ ponyc -Dopenssl_1.1.0
 
 Only 64-bit Windows is supported.
 
-This error occurs when ponyc is compiled in Developer Command Prompt that is launched from 32-bit Visual Studio. 
+Make sure you're running a cmd.exe/powershell.exe that does not include 32-bit VS environment variables. 
 
-Make sure you're running pure cmd.exe/powershell.exe, that is not contaminated with VS's 32-bit env variables.
+This error occurs when ponyc is compiled in a 32-bit Visual Studio Developer Command Prompt.
 
 ## Ecosystem {#ecosystem}
 
