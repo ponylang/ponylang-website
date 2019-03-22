@@ -242,6 +242,14 @@ For OpenSSL 1.1:
 ponyc -Dopenssl_1.1.0
 ```
 
+### On Windows I get "fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'"
+
+Only 64-bit Windows is supported.
+
+Make sure you're running a cmd.exe/powershell.exe that does not include 32-bit VS environment variables. 
+
+This error occurs when ponyc is compiled in a 32-bit Visual Studio Developer Command Prompt.
+
 ## Ecosystem {#ecosystem}
 
 ### Does Pony have a package manager?
