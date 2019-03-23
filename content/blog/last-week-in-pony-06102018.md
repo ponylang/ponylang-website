@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - June 10, 2018"
 date = "2018-06-10T20:30:00+02:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [users' mailing list](https://pony.groups.io/g/user). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -60,7 +60,7 @@ We are very proud to present you two new distribution channels for both [ponyc](
 
 The Pony developers met on their weekly sync call on Wednesday, June 6, 2018. Check out the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_06_06).
 
-The next one is scheduled for Wednesday, June 13, 2018, at 03:30 PM (GMT-04:00) America/New York via zoom. Join the [Dev Mailing List](https://pony.groups.io/g/dev) to get all the details. We'd love to have you there.
+The next one is scheduled for Wednesday, June 13, 2018, at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
 
 ## RFCs
 

@@ -8,7 +8,7 @@ draft: false
 title: Last Week in Pony - April 10, 2017
 ---
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [users' mailing list](https://pony.groups.io/g/user).
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -41,7 +41,6 @@ ponylang.io was moved from being hosted on GitHub pages to being on Netlify: HTT
 - [Audio from the April 5th Pony Developer Sync](https://pony.groups.io/g/dev/files/Pony%20Sync/April%205,%202017) is available
 
 Interested in how Pony gets developed? What's going on? What the developers are up to? Check out audio from our weekly meeting. Btw, it open to the public!
-There's a [calendar](https://pony.groups.io/g/dev/calendar) and everything.
 
 ## RFCs
 

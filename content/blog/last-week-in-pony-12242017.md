@@ -8,7 +8,7 @@ categories = [
 title = "Last Week in Pony - December 24, 2017"
 date = "2017-12-24T00:00:00+01:00"
 +++
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [users' mailing list](https://pony.groups.io/g/user). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -27,7 +27,7 @@ The [Release Blog Post](https://www.ponylang.io/blog/2017/12/0.21.0-released/) c
 
 - [Ponycheck](https://github.com/mfelsche/ponycheck) [0.2.0](https://github.com/mfelsche/ponycheck/releases/tag/0.2.0) has been released. Ponycheck is a library for property based testing for Pony. With this release Ponycheck supports compositional shrinking. If you ask yourself what the heck that means (like me), check out the [Release Notes](https://github.com/mfelsche/ponycheck/releases/tag/0.2.0)
 
-- Another Week, another Pony Development Sync Call. Those calls are public and if you'd like to join and bring up a burning topic, just join the [Dev Mailing List](https://pony.groups.io/g/dev) to get all the details. We'd love to have you on board to discuss your issues and/or ideas. Here is the [Recorded Audio for last weeks Call](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_12_20).
+- Another Week, another Pony Development Sync Call. Those calls are public and if you'd like to join and bring up a burning topic, just We'd love to have you on board to discuss your issues and/or ideas. Here is the [Recorded Audio for last weeks Call](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_12_20).
 
 
 ## RFCs
