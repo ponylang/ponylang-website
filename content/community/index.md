@@ -11,10 +11,7 @@ We are committed to providing a friendly, safe and welcoming environment for all
 The most important community resources for those who are new to Pony are:
 
 * Pony [community Zulip](https://ponylang.zulipchat.com)
-* The [Users Mailing List](https://pony.groups.io/g/user) for discussion of all things Pony that don't involve the development of Pony itself
 * The [frequently asked questions]({{< relref "faq/index.md">}}) section of this website.
-
-If you are looking for help with Pony and can't get a response in Zulip, we advise that you send an email to the Users Mailing List. 
 
 ## News
 
@@ -41,28 +38,26 @@ but, that can come later.
 
 If you are interested in having a real time conversation about Pony, check out the Pony [community Zulip](https://ponylang.zulipchat.com).
 
-## Mailing Lists
+## Zulip Community
 
-We host all our mailing lists with [groups.io](https://groups.io). You'll need a [groups.io account](https://groups.io/register) to sign up for any of our mailing lists. By joining any of the Pony mailing lists, you will also be automatically added to [an announce only broadcast list](https://pony.groups.io/g/pony).
+Most Pony community interactions happen in our [Zulip community](https://ponylang.zulipchat.com). Zulip is kind of like Slack but, better. Well we think it's better anyway. One of the big differences how Zulip organizes conversations. You can learn more about that in their [Steams and topics documentation](https://zulipchat.com/help/about-streams-and-topics).
 
-If you are a Pony user looking for assistance or to  discuss writing Pony code, you'll want to join the [Users' mailing list](https://pony.groups.io/g/user).
+Once you join our Zulip, there are a number of streams that you'll be subscribed to by default. Some key streams you might be interested in are:
 
-If you are looking to contribute to Pony, you'll want to join the [Developers' mailing list](https://pony.groups.io/g/dev).
+If you are a Pony user looking for assistance or to  discuss writing Pony code, you'll want to join the [beginner help steam in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help).
 
-If you are interested in finding out when our Virtual Users' Group is meeting or when new videos are posted, you should join the [Virtual Users' Group mailing list](https://pony.groups.io/g/vug).
+If you are looking to contribute to Pony, you'll want to join the [contrinute to Pony stream in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony).
+
+If you are interested in finding out when our Virtual Users' Group is meeting or when new videos are posted, you should join [announce stream in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/VUG).
 
 ## Users' Groups
 
-We currently know of 3 User Groups. We also have a [Virtual Users' Group](https://pony.groups.io/g/vug) which didn't meet in quite some time now. In general, it meets about once a month via [Zoom](https://zoom.us). If you would be interested, join and drop us a line, we would be happy to revive that tradition.
+We currently know of 1 User Group. We also have a Virtual Users' Group which didn't meet in quite some time now. In general, it meets about once a month via [Zoom](https://zoom.us). If you would be interested, join and drop us a line, we would be happy to revive that tradition.
 [Videos](https://vimeo.com/search/sort:latest?q=pony-vug) of past presentations are available.
 
 If you'd like to attend an in-person meetup, sign up for the mailing list or join the meetup group to be informed the next time a meeting is occuring:
 
-* [London Users' Group](https://pony.groups.io/g/london)
-* [New York City Users' Group](https://pony.groups.io/g/nyc)
 * [Berlin Users' Group](https://www.meetup.com/de-DE/Berlin-Ponylang-Meetup/)
-
-If you are interested in setting up a users' group in your area and would like to host the mailing list on groups.io, drop us a line and we'll get you set up.
 
 ## Community Survey
 

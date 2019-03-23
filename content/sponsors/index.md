@@ -39,10 +39,6 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [CircleCI](https://circleci.com/) runs our continuous integration tests on Linux. It lets us test our code on manifold configurations and architectures. They support several open source projects. Amazing solution.
 
-### Groups.io
-
-[Groups.io](https://groups.io/) hosts our mailing lists. They have some additional "forum-like" features including calendars and file hosting. We take advantage of both for hosting the recordings of our weekly development sync. If you are looking for a replacement for Google Groups, check them out.
-
 ### JFrog
 
 [JFrog](https://www.jfrog.com/) hosts our release artifacts on [Bintray](https://bintray.com/). They are some of the nicest people we've ever dealt with. We initially set up our bintray in a way that was using way too much space. They worked with us to solve the problem **AND** set us up with a free [Artifactory](https://www.jfrog.com/artifactory/) account as well.

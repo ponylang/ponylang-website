@@ -8,7 +8,7 @@ draft: false
 title: Last Week in Pony - April 17, 2017
 ---
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [users' mailing list](https://pony.groups.io/g/user). 
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
@@ -30,7 +30,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
   
-- Audio from the April 12th Pony developer's sync is available at [https://pony.groups.io/g/dev/files/Pony%20Sync/April%2012,%202017](https://pony.groups.io/g/dev/files/Pony%20Sync/April%2012,%202017). The call was devoted mostly to addressing older issues that had started to back up. If you'd like to get involved with Pony development, feel free to stop by. We meet [weekly](https://pony.groups.io/g/dev/calendar).
+- Audio from the April 12th Pony developer's sync is available at [https://pony.groups.io/g/dev/files/Pony%20Sync/April%2012,%202017](https://pony.groups.io/g/dev/files/Pony%20Sync/April%2012,%202017). The call was devoted mostly to addressing older issues that had started to back up. If you'd like to get involved with Pony development, feel free to stop by. We meet [weekly](https://calendar.google.com/calendar?cid=NTlqY3J1NmY1MG1ycHFibTdlbTRpY2xua2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
 
 - Core team member [Sean T. Allen](https://twitter.com/seantallen) announced that he'll be giving two different Pony talks in the coming months. One at [PolyConf](https://polyconf.com) in July, the other at [QConNewYork](https://qconnewyork.com/ny2017/presentation/pony-fintech-experience-report) in June.
 

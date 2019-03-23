@@ -2,7 +2,7 @@
 title = "Contribute"
 +++
 
-Interested in helping develop Pony? Awesome. We could use the help. Here's a list of projects that are currently underway that you can assist with. If none of them interest you, drop a note to the [pony+dev mailing list](https://pony.groups.io/g/dev) and we should be able to find something that suits your interests.
+Interested in helping develop Pony? Awesome. We could use the help. Here's a list of projects that are currently underway that you can assist with. If none of them interest you, drop a note to the [Zulip community](https://ponylang.zulipchat.com) and we should be able to find something that suits your interests.
 
 Not sure where to start?
 
