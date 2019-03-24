@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Pony 0.27.0 has been [released](https://www.ponylang.io/blog/2019/03/0.27.0-released/).
 
-- Audio for the February 26, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_02_26/pony_sync_february_26_2019.m4a).
+- Audio for the February 26, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_02_26.m4a).
 
 - Carl Quinn, also known as @cquinn, has been invited to become a Pony committer. Everyone welcome Carl to the team!
 

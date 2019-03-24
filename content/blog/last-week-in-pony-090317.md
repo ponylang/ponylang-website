@@ -20,7 +20,7 @@ Yesterday Pony 0.19.0 was released. The release contains breaking changes. If yo
 ## Items of note
 
 - The ["Improve `Iterools` API" RFC](https://github.com/ponylang/rfcs/blob/master/text/0049-improved-itertools-api.md) has been implemented and released. See the [Pony 0.19.0 release notes](https://www.ponylang.io/blog/2017/09/0.19.0-released/) for how to update for the breaking API change.
-- Audio from the [August 30, 2017, Pony development sync](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_08_30) is available for your listening pleasure.
+- Audio from the [August 30, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_08_30.m4a) is available for your listening pleasure.
 - Andrew Turley has started a [project](https://github.com/aturley/pony-lldb) that collects together helpful commands for usage with Pony and LLDB. Check it out and contribute today!
 
 ## News and Blog Posts

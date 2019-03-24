@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio from the [May 31st Pony Development Sync](https://pony.groups.io/g/dev/files/Pony%20Sync/May%2031,%202017) is available for your listening pleasure. Unlike the previous week where we mostly stuck to one subject, we were back to our more usual freewheeling style. If variety is your bag, you'll enjoy this sync call.
+- Audio from the [May 31st Pony Development Sync](https://sync-recordings.ponylang.io/r/2017_05_31.m4a) is available for your listening pleasure. Unlike the previous week where we mostly stuck to one subject, we were back to our more usual freewheeling style. If variety is your bag, you'll enjoy this sync call.
 
 
 ## News and Blog Posts

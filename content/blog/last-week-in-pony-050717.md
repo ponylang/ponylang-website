@@ -23,7 +23,7 @@ Over the last year or two, many folks have asked some variation on "how did Pony
 
 ## Items of Note
   
-Audio from the [May 3rd Pony development sync meeting](https://pony.groups.io/g/dev/files/Pony%20Sync/May%203,%202017) is available for your listening pleasure.
+Audio from the [May 3rd Pony development sync meeting](https://sync-recordings.ponylang.io/r/2017_05_03.m4a) is available for your listening pleasure.
 
 ## RFCs
 

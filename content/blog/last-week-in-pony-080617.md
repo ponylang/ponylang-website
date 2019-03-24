@@ -32,7 +32,7 @@ Yesterday, we released Pony 0.17.0. It is highlighted by support for GCC 7 on Li
 
 - [RFC #46: "More Random Methods"](https://github.com/ponylang/rfcs/blob/master/text/0046-more-random-methods.md) was both approved and implemented this quick. Joe Eli McIlvain is to thank for the quick turn around on that one.
 
-- Audio from the [August 2nd, 2017 Pony development sync](https://pony.groups.io/g/dev/files/Pony%20Sync/August%202,%202017) is now available.
+- Audio from the [August 2nd, 2017 Pony development sync](https://sync-recordings.ponylang.io/r/2017_08_02.m4a) is now available.
 
 ## News and Blog Posts
   

@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony Development Sync
 
-The Pony developers met on their weekly sync call on Wednesday, May 2, 2018. Check out the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_05_02).
+The Pony developers met on their weekly sync call on Wednesday, May 2, 2018. Check out the [recorded audio](https://sync-recordings.ponylang.io/r/2018_05_02.m4a).
 
 The next one is scheduled for Wednesday, May 9, 2018, at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
 

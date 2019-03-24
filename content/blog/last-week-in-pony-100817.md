@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- The Pony development sync call from *October 4th 2017* has been recorded and uploaded for you to enjoy. Get the audio [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_10_04) while it is fresh.
+- The Pony development sync call from *October 4th 2017* has been recorded and uploaded for you to enjoy. Get the audio [here](https://sync-recordings.ponylang.io/r/2017_10_04.m4a) while it is fresh.
 
 - Pony takes part in [Hacktoberfest](https://hacktoberfest.digitalocean.com/). So if you'd like to contribute and level up your hacktoberfest score, we assembled [a neat little package of issues](https://github.com/search?utf8=%E2%9C%93&q=type%3Aissue+label%3Ahacktoberfest+user%3Aponylang) that are perfectly suited for getting started with Pony. Any kind of Contribution is more than welcome!
 

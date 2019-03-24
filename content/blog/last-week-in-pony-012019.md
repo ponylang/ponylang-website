@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the January 15, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_01_15/pony_sync_january_15_2019.m4a).
+- Audio for the January 15, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_01_15.m4a).
 
 
 We now have a public Zulip community. The Zulip community originally started as a way for Sean and Sylvan to chat and eventually got expanded out to being for core team members and committers. We've decided to open it to the public. Interested in joining us? You can get an invite at: https://ponylang.zulipchat.com.

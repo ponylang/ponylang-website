@@ -21,7 +21,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Due to confusion caused by its name, we are going to rename our little package manager pony-stable to a new name. Got a name to nominate? Want to vote on options? Chime in on the issue: [Pony-Stable #75](https://github.com/ponylang/pony-stable/issues/75)
 
-- Audio from the July 11th Pony Development Sync call is now available: [Pony Sync 07-11-2018](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_07_11)
+- Audio from the July 11th Pony Development Sync call is now available: [Pony Sync 07-11-2018](https://sync-recordings.ponylang.io/r/2018_07_11.m4a)
 
 - A new beginner friendly issue with our little dependency manager that could "pony-stable". Interested in contributing? We have a flakey integration test, could you be the person to fix it? We think you could be: [Pony-Stable 76](https://github.com/ponylang/pony-stable/issues/76)
 

@@ -18,6 +18,6 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - The Pony standard library now includes a persistent set class. It [was merged](https://github.com/ponylang/ponyc/pull/1925) as part of the work being done on [RFC 42](https://github.com/ponylang/rfcs/blob/master/text/0042-more-persistent-collections.md).
 
-- Audio from the [May 24, 2017, Pony development sync meeting](https://pony.groups.io/g/dev/files/Pony%20Sync/May%2024,%202017) is available. Lots of conversation during the development sync about [Joe's RFC to improve the performance characteristics of string concatention](https://github.com/ponylang/rfcs/pull/90). We also had a good discussing arising from the [stateful exceptions RFC](https://github.com/ponylang/rfcs/pull/76).
+- Audio from the [May 24, 2017, Pony development sync meeting](https://sync-recordings.ponylang.io/r/2017_05_24.m4a) is available. Lots of conversation during the development sync about [Joe's RFC to improve the performance characteristics of string concatention](https://github.com/ponylang/rfcs/pull/90). We also had a good discussing arising from the [stateful exceptions RFC](https://github.com/ponylang/rfcs/pull/76).
 
 

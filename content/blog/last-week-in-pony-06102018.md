@@ -58,7 +58,7 @@ We are very proud to present you two new distribution channels for both [ponyc](
 
 ## Pony Development Sync
 
-The Pony developers met on their weekly sync call on Wednesday, June 6, 2018. Check out the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_06_06).
+The Pony developers met on their weekly sync call on Wednesday, June 6, 2018. Check out the [recorded audio](https://sync-recordings.ponylang.io/r/2018_06_06.m4a).
 
 The next one is scheduled for Wednesday, June 13, 2018, at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
 

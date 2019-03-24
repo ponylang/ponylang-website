@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the January 8, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_01_08/pony_sync_january_08_2019.m4a)
+- Audio for the January 8, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_01_08.m4a)
 
 ## News and Blog Posts
 

@@ -22,7 +22,7 @@ It was a bit of a quiet week in terms of public activity but there's plenty brew
 ## Items of note
 
 - The Pony core team has started a conversation about no longer creating pre-built Linux binaries for each release. Full details are available in [an email](https://pony.groups.io/g/user/topic/we_re_considering_dropping/4993866?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,4993866) that I sent to the mailing list.
-- Audio from the [Pony Development Sync for April 26](https://pony.groups.io/g/dev/files/Pony%20Sync/April%2026,%202017) is available for your listening pleasure. Lots of discussion of various type system implementation edge cases and issues.
+- Audio from the [Pony Development Sync for April 26](https://sync-recordings.ponylang.io/r/2017_04_26.m4a) is available for your listening pleasure. Lots of discussion of various type system implementation edge cases and issues.
 
 ## News
 

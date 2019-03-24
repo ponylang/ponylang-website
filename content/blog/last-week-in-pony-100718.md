@@ -23,11 +23,11 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Audio for the September 26, 2018 Pony development sync is available. It went up as usual on the 26th but wasn't reported to Last Week in Pony. D'oh!
 
-> [Audio 09-26-2018](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_09_26/pony_development_sync_2018_09_26.m4a)
+> [Audio 09-26-2018](https://sync-recordings.ponylang.io/r/2018_09_26.m4a)
 
 - Audio for the October 3, 2018 Pony development sync is available.
 
-> [Audio 10-03-2018](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_10_03/pony_sync_october_3_2018.m4a)
+> [Audio 10-03-2018](https://sync-recordings.ponylang.io/r/2018_10_03.m4a)
 
 ## News and Blog Posts
 
