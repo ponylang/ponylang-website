@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 - Yesterday, Sean T. Allen created a starter kit for Pony library projects. The project is available at [https://github.com/ponylang/library-project-starter](https://github.com/ponylang/library-project-starter). Full details on features is available in its [USAGE.md](https://github.com/ponylang/library-project-starter/blob/master/USAGE.md).
 - Academic papers relating to Pony are back on the website after a long absence. Currently, they live in the [community section](https://www.ponylang.io/community/#papers) of the website. 
 
-- Audio from the [September 6, 2017, Pony development sync](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_09_06) is available for your listening pleasure.
+- Audio from the [September 6, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_09_06.m4a) is available for your listening pleasure.
 
 ## News and Blog Posts
  

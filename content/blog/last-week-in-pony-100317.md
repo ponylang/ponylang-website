@@ -35,7 +35,7 @@ And the GitHub repo is here: https://github.com/wallaroolabs/wallaroo
   
 - The Pony Kafka client [pony-kafka](https://github.com/wallaroolabs/pony-kafka) from WallarooLabs has been updated to be compatible with the latest ponyc.
 
-- Another week, another pony development sync call. The call from *September 27th 2017* has been recorded for your listening pleasure. Get the audio [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_09_27). It features a Sean being Sean again and a light-headed promise to start a *Guided Tour of the Standard Library* in the tutorial.
+- Another week, another pony development sync call. The call from *September 27th 2017* has been recorded for your listening pleasure. Get the audio [here](https://sync-recordings.ponylang.io/r/2017_09_27.m4a). It features a Sean being Sean again and a light-headed promise to start a *Guided Tour of the Standard Library* in the tutorial.
 
 - We just discovered Paul Liétars report on formalizing generics in Pony is available online from imperial college. [Check it out](http://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/student-projects/Paul-Li%C3%A9tar---Formalizing-Generics-for-Pony.pdf)
 

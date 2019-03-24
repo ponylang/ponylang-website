@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the March 12, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_03_12/pony_sync_march_12_2019.m4a).
+- Audio for the March 12, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_03_12.m4a).
 
 - Did you know we have a calendar you can subscribe to for the Pony Development Sync? Well, whether you did or not, it's moving! Previously it was on groups.io. We have a new one that you can subscribe to:
     https://calendar.google.com/calendar?cid=NTlqY3J1NmY1MG1ycHFibTdlbTRpY2xua2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ

@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the November 6, 2018 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_11_06/pony_sync_november_6_2018.m4a)
+- Audio for the November 6, 2018 Pony sync is [here](https://sync-recordings.ponylang.io/r/2018_11_06.m4a)
 
 ## RFCs
 

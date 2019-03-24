@@ -25,7 +25,7 @@ Version 0.11.4 has been released, with the full [release notes here](https://pon
 
 - [Hello Wallaroo!](http://engineering.sendence.com/2017/03/hello-wallaroo/) A brief introduction to Sendence's Wallaroo, written in Pony.
 
-- [Developer Sync Meeting](https://pony.groups.io/g/dev/files/Pony%20Sync/March%2022,%202017) This weeks developer sync meeting.
+- [Developer Sync Meeting](https://sync-recordings.ponylang.io/r/2017_03_22.m4a) This weeks developer sync meeting.
 
 ## RFCs
 

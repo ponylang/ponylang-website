@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- You know, there was Thanksgiving in the US and all. But nevertheless did the fearless Pony developers meet up to sync and discuss the state of Pony, process Issues, merge PRs and discuss whatever folks think needs discussion. Go and sneak a peek while listening to the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_11_22). This meeting is public and you are very welcome to join us. Just join the [Pony+dev mailing list](https://groups.io/g/pony+dev). We meet every Wednesday at 03:30 PM (GMT-05:00) America/New York via zoom.
+- You know, there was Thanksgiving in the US and all. But nevertheless did the fearless Pony developers meet up to sync and discuss the state of Pony, process Issues, merge PRs and discuss whatever folks think needs discussion. Go and sneak a peek while listening to the [recorded audio](https://sync-recordings.ponylang.io/r/2017_11_22.m4a). This meeting is public and you are very welcome to join us. Just join the [Pony+dev mailing list](https://groups.io/g/pony+dev). We meet every Wednesday at 03:30 PM (GMT-05:00) America/New York via zoom.
 
 ## RFCs
 

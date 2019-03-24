@@ -19,9 +19,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Pony sync recordings are available for the following dates:
 
-  > [November 20](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_11_20/pony_sync_november_20_2018.m4a)
+  > [November 20](https://sync-recordings.ponylang.io/r/2018_11_20.m4a)
 
-  > [November 27](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_11_27/pony_sync_november_27_2018.m4a)
+  > [November 27](https://sync-recordings.ponylang.io/r/2018_11_27.m4a)
 
 ## News and Blog Posts
 

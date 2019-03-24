@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio from the August 8, 2018 Pony Development Sync is now available: [Pony Development Sync 8/8/2018](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_08_08)
+- Audio from the August 8, 2018 Pony Development Sync is now available: [Pony Development Sync 8/8/2018](https://sync-recordings.ponylang.io/r/2018_08_08.m4a)
 
 - There was an internet kerfuffle about Integer division by zero in Pony returning zero as a result. Sean T. Allen is planning on writing a blog post about the practical reasons why this decision was made - a decision that every member of the core team wishes didn't have to be made. That post will involve lots of fun "things you might not know about computers" content. In the meantime, a large "is that mathmatically sound" kerfuffle also broke out on the Internet. Hillel Wayne has a nice write up:
 

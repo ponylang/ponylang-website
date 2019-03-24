@@ -31,7 +31,7 @@ In case you want to submit one (which I highly recommend), just add it as a comm
 
 ## Pony Development Sync
 
-The Pony developers met on their weekly sync call on Wednesday April 04, 2018. Check out the [recorded audio](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_04_04).
+The Pony developers met on their weekly sync call on Wednesday April 04, 2018. Check out the [recorded audio](https://sync-recordings.ponylang.io/r/2018_04_04.m4a).
 
 The next one is scheduled for Wednesday, April 11, 2018 at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
 

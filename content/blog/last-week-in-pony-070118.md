@@ -17,9 +17,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - [Pony 0.24.0 has been released!](https://www.ponylang.io/blog/2018/06/0.24.0-released/). Pony 0.24.0 includes high-priority bug fixes. Updating as soon as possible is recommended. The release also contains breaking changes, please refer to the release notes for more details.
 
-- Audio from the [June 20, 2018, Pony Development Sync](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_06_20) is now available. Check it out!
+- Audio from the [June 20, 2018, Pony Development Sync](https://sync-recordings.ponylang.io/r/2018_06_20.m4a) is now available. Check it out!
 
-- Audio from the [June 27, 2018, Pony Development Sync](https://pony.groups.io/g/dev/files/Pony%20Sync/2018_06_27) is now available. 2 development syncs in this super-sized LWIP!
+- Audio from the [June 27, 2018, Pony Development Sync](https://sync-recordings.ponylang.io/r/2018_06_27.m4a) is now available. 2 development syncs in this super-sized LWIP!
 
 - Andrew Turley is doing a [Pony tutorial at ICFP](https://icfp18.sigplan.org/event/icfp-2018-tutorials-writing-a-chat-system-in-pony) this year. Come to St. Louis and learn some Pony. It's a wonderful city year round but it is especially lovely in September.
 

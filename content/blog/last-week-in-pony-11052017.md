@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- The Pony development sync from November 1st 2017 has been recorded for your listening pleasure and is available via [groups.io](https://pony.groups.io/g/dev/files/Pony%20Sync/2017_11_01). Wanna enjoy the great wonders of how a Pony PR is discussed and merged as if you stood right behind the one who did it? Then tune in.
+- The Pony development sync from November 1st 2017 has been recorded for your listening pleasure and is available via [groups.io](https://sync-recordings.ponylang.io/r/2017_11_01.m4a). Wanna enjoy the great wonders of how a Pony PR is discussed and merged as if you stood right behind the one who did it? Then tune in.
 
 ## RFCs
 

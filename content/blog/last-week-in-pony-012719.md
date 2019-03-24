@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Pony 0.26.0 has been released. This release contains a number of bug fixes. Upgrading when you can is recommended. [Release Notes](https://www.ponylang.io/blog/2019/01/0.26.0-released/)
 
-- Audio for the January 22, 2019 Pony sync is [here](https://pony.groups.io/g/dev/files/Pony%20Sync/2019_01_22/pony_sync_january_22_2019.m4a).
+- Audio for the January 22, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_01_22.m4a).
 
 ## News and Blog Posts
 
