@@ -46,7 +46,7 @@ Once you join our Zulip, there are a number of streams that you'll be subscribed
 
 If you are a Pony user looking for assistance or to  discuss writing Pony code, you'll want to join the [beginner help steam in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help).
 
-If you are looking to contribute to Pony, you'll want to join the [contrinute to Pony stream in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony).
+If you are looking to contribute to Pony, you'll want to join the [contribute to Pony stream in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony).
 
 If you are interested in finding out when our Virtual Users' Group is meeting or when new videos are posted, you should join [announce stream in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/VUG).
 
