@@ -38,3 +38,39 @@ How to obtain coverage for runs of pony programs or test executions
 - [Stable](https://github.com/ponylang/pony-stable)
 
 > Simple dependency manager for the Pony language.
+
+- Deploy Pony as a Unikernel
+
+>  A unikernel is a deployment methodology that allows you to build your
+  pony application as a vm instead of deploying on top of linux. This
+  makes it run much faster and safer and takes a very 'no ops' approach
+towards running applications. A side benefit is that being a tiny vm it
+allows you to run your pony applications on osx with no
+cross-compilation.
+
+>  OPS is a unikernel builder/orchestrator that will build the vm and
+  allow you to spin it up on various cloud providers.
+
+>  First get obtain OPS - the unikernel builder/ochestrator:
+  ```bash
+  curl https://ops.city/get.sh -sSfL | sh
+  ```
+
+>  Compile your pony application normally:
+  ```bash
+  ponyc .
+  ```
+>  Create a simple config.json. This should just contain the name of the
+pony program. :
+  ```bash
+  {
+    "Args": ["my_program"]
+  }
+  ```
+  Build and Run it:
+  ```bash
+  ops run -c config.json my_program
+  ```
+
+>  You've just built a deployable VM with nothing in it except your Pony
+application.
