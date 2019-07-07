@@ -3,6 +3,10 @@ title = "Planet Pony"
 +++
 We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
+## 2019
+
+* Video: [The wide world of almost-actors: comparing Pony to BEAM languages](https://www.youtube.com/watch?v=_0m0_qtfzLs)
+
 ## 2018
 
 * Video: [Pony: How I learned to stop worrying and embrace an unproven technology](https://youtu.be/GigBhej1gfI) and [slides](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology-oscon-2018)
