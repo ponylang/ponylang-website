@@ -5,7 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2019
 
-* Video: [The wide world of almost-actors: comparing Pony to BEAM languages](https://www.youtube.com/watch?v=_0m0_qtfzLs)
+* Video: [The wide world of almost-actors: comparing Pony to BEAM languages](https://www.youtube.com/watch?v=_0m0_qtfzLs) and [slides (PDF)](https://www.codesync.global/uploads/media/activity_slides/0001/02/592b6c97090c38237ce1dab9a161c1350b9ca2ae.pdf)
 
 ## 2018
 
