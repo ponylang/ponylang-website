@@ -132,7 +132,7 @@ primitive OneForAllCombined
 Yes! Here's a few projects we regularly point people towards:
 
 - [Jylis](https://github.com/jemc/jylis) - A distributed in-memory database for Conflict-free Replicated Data Types
-- [Novitiate](https://github.com/jtfmumm/novitiate) - A procedurally generated RPG inspired by Rogue and written in Pony. 
+- [Novitiate](https://github.com/jtfmumm/novitiate) - A procedurally generated RPG inspired by Rogue and written in Pony.
 - [Ponycheck](https://github.com/mfelsche/ponycheck) - Property Based Testing for Pony
 - [Wallaroo](https://github.com/wallaroolabs/wallaroo) - Distributed Stream Processor written in Pony
 
@@ -174,79 +174,11 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
-### How do I fix ponyc reporting "unable to link" along with "undefined reference to SSL_*"? {#opensll-1.1-error}
-
-```bash
-Linking ./stdlib
-./stdlib.o(.text+0xd1474): error: undefined reference to 'EVP_MD_CTX_create'
-./stdlib.o(.text+0xd1538): error: undefined reference to 'EVP_MD_CTX_cleanup'
-./stdlib.o(.text+0xd15f4): error: undefined reference to 'EVP_MD_CTX_cleanup'
-./stdlib.o(.text+0xd165b): error: undefined reference to 'EVP_MD_CTX_create'
-./stdlib.o(.text+0xd1710): error: undefined reference to 'EVP_MD_CTX_cleanup'
-./stdlib.o(.text+0xf7834): error: undefined reference to 'SSL_load_error_strings'
-./stdlib.o(.text+0xf783b): error: undefined reference to 'SSL_library_init'
-./stdlib.o(.text+0xf7842): error: undefined reference to 'CRYPTO_num_locks'
-./stdlib.o(.text+0xf785a): error: undefined reference to 'CRYPTO_set_locking_callback'
-./stdlib.o(.text+0xf7874): error: undefined reference to 'SSL_load_error_strings'
-./stdlib.o(.text+0xf787b): error: undefined reference to 'SSL_library_init'
-./stdlib.o(.text+0xf7882): error: undefined reference to 'CRYPTO_num_locks'
-./stdlib.o(.text+0xf789a): error: undefined reference to 'CRYPTO_set_locking_callback'
-./stdlib.o(.text+0x1006e2): error: undefined reference to 'EVP_MD_CTX_cleanup'
-./stdlib.o(.text+0x10079d): error: undefined reference to 'EVP_MD_CTX_create'
-./stdlib.o(.text+0x1007ed): error: undefined reference to 'EVP_MD_CTX_create'
-./stdlib.o(.text+0x11cbd7): error: undefined reference to 'SSLv23_method'
-./stdlib.o(.text+0x12542b): error: undefined reference to 'SSLv23_method'
-./stdlib.o(.text+0x13536d): error: undefined reference to 'sk_pop'
-./stdlib.o(.text+0x1356e5): error: undefined reference to 'sk_pop'
-./stdlib.o(.text+0x1356fe): error: undefined reference to 'sk_free'
-./stdlib.o(.text+0x1357ed): error: undefined reference to 'sk_pop'
-./stdlib.o(.text+0x135b65): error: undefined reference to 'sk_pop'
-./stdlib.o(.text+0x135b7e): error: undefined reference to 'sk_free'
-./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'SSL_load_error_strings'
-./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'SSL_library_init'
-./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'CRYPTO_num_locks'
-./stdlib.o:stdlib:function stdlib_primitives_init: error: undefined reference to 'CRYPTO_set_locking_callback'
-./stdlib.o:stdlib:function main: error: undefined reference to 'SSL_load_error_strings'
-./stdlib.o:stdlib:function main: error: undefined reference to 'SSL_library_init'
-./stdlib.o:stdlib:function main: error: undefined reference to 'CRYPTO_num_locks'
-./stdlib.o:stdlib:function main: error: undefined reference to 'CRYPTO_set_locking_callback'
-collect2: error: ld returned 1 exit status
-Warning: environment variable $CC undefined, using cc as the linker
-Error:
-unable to link: cc -o ./stdlib -O3 -march=native -mcx16 -latomic -fuse-ld=gold ./stdlib.o -L"/home/wink/prgs/pony/ponyc/build/release/" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/" -L"/home/wink/prgs/pony/ponyc/build/release/../../packages" -Wl,-rpath,"/home/wink/prgs/pony/ponyc/build/release/../../packages" -L"/usr/local/lib" -Wl,-rpath,"/usr/local/lib" -Wl,--start-group -l"rt" -l"crypto" -l"pcre2-8" -l"ssl" -Wl,--end-group  -lpthread  -lponyrt-pic -ldl -lm -Wl,--export-dynamic-symbol=__PonyDescTablePtr -Wl,--export-dynamic-symbol=__PonyDescTableSize
-```
-
-By default, the Pony standard library uses OpenSSL 0.9 for various cryptography functions. This means if your OS has a non-default SSL library installed, you'll have to let ponyc know. For example Arch Linux has OpenSSL 1.1 installed. On such a system, when compiling your application, add `-Dopenssl_1.1.0` to the `ponyc` command:
-
-```bash
-ponyc -Dopenssl_1.1.0
-```
-
-You can compile Pony from source and set OpenSSL 1.1 as the default. Pass `default_ssl=openssl_1.1.0` to the `make` command:
-
-```bash
-make default_ssl=openssl_1.1.0
-```
-
-By setting OpenSSL 1.1 as the default, you no longer have to pass `-Dopenssl_1.1.0` to `ponyc`. Regardless of what version of OpenSSL was set as the default when you built Pony, you can always override it by using the appropriate define when compiling your Pony programs.
-
-For OpenSSL 0.9:
-
-```bash
-ponyc -Dopenssl_0.9.0
-```
-
-For OpenSSL 1.1:
-
-```bash
-ponyc -Dopenssl_1.1.0
-```
-
 ### On Windows I get "fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'"
 
 Only 64-bit Windows is supported.
 
-Make sure you're running a cmd.exe/powershell.exe that does not include 32-bit VS environment variables. 
+Make sure you're running a cmd.exe/powershell.exe that does not include 32-bit VS environment variables.
 
 This error occurs when ponyc is compiled in a 32-bit Visual Studio Developer Command Prompt.
 
@@ -255,6 +187,10 @@ This error occurs when ponyc is compiled in a 32-bit Visual Studio Developer Com
 ### Does Pony have a package manager?
 
 That would be yes and no. Package manager means different things to different people. What we have is a simple dependency manager called [pony-stable](https://github.com/ponylang/pony-stable) that we are planning on growing into a full featured tool. Whether that is a more full featured "dependency manager" or more full featured "package manager" depends on how you define the two terms.
+
+### Is there SSL support?
+
+Yes! There used to be SSL support in the Pony standard library, but it's been moved out [into its own library](https://github.com/ponylang/net-ssl).
 
 ## Linking {#linking}
 
