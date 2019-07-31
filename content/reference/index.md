@@ -3,7 +3,7 @@ title = "Reference"
 +++
 
 
-## Debugging 
+## Debugging
 
 - [Pony LLDB Cheatsheet]({{< relref "pony-lldb-cheatsheet.md" >}})
 
@@ -12,6 +12,10 @@ title = "Reference"
 - [Pony LLDB Extensions](https://github.com/aturley/pony-lldb)
 
 > A collection of LLDB extensions for working with the Pony programming language.
+
+### Visual Studio Code
+
+In order to debug programs in the Visual Studio Code debugger (either on Windows or with GDB or LLDB on Unix), you need to set the `debug.allowBreakpointsEverywhere` setting to `true`, so you can set breakpoints in `.pony` files.  Then make a launch configuration that runs your program.
 
 ## Coverage
 
