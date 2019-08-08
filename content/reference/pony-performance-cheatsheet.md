@@ -349,7 +349,7 @@ Actors are awesome. We love them. We wouldn't be using Pony if we didn't. Howeve
 
 Sending a message from one actor to another is pretty fast; note the "pretty fast." A message send isn't free. The message has to be placed in the mailbox for the receiving actor which in turn needs to retrieve it. The multi-producer, single-consumer queue that powers actor mailboxes is highly tuned, but, it's still a queue. Sometimes you don't need another actor; you just need a class.
 
-In addition to the queue costs you pay with a message send, depending on the contents of your message, you might be incurring additional garbage collection costs as well.
+In addition to the queue costs you pay with a message send, depending on the contents of your message, you might be incurring additional garbage collection costs as well, and even more overhead from scheduling actors in the Pony runtime when it uses more threads than available cores.
 
 ### Mind the garbage collector {#garbage-collector}
 
