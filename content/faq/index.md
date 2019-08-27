@@ -34,7 +34,7 @@ We invite you to join our small but growing community and help push Pony forward
 
 Generally, you can't.
 
-A `ref` may have any number of untracked mutable aliases, so it can't be declared immutable. If you start with `iso` or `trn` instead, you can guarantee that by consuming it you are destroying the only mutable reference, hence allowing it to become immutable. See [the capabilities section of the tutorial] for more information
+A `ref` may have any number of untracked mutable aliases, so it can't be declared immutable. If you start with `iso` or `trn` instead, you can guarantee that by consuming it you are destroying the only mutable reference, hence allowing it to become immutable. See [the capabilities section of the tutorial](https://tutorial.ponylang.io/reference-capabilities/reference-capabilities.html) for more information.
 
 Similarly, a `ref` may sometimes be "lifted" to a `val` capability if it was created in the isolated region formed by a `recover` block, from which the compiler guarantees that no mutable references can leak. See [the recover section of the tutorial](https://tutorial.ponylang.io/capabilities/recovering-capabilities.html) for more information.
 
