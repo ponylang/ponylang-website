@@ -43,6 +43,10 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [Cirrus CI](https://cirrus-ci.org/) provide us with free services to run our FreeBSD and MacOS CI jobs, like they do to all open source projects. Simply brilliant.
 
+### Cloudsmith
+
+[Cloudsmith](https://cloudsmith.io/) is providing free hosting for our nightly builds. That's incredibly awesome and they are great folks.
+
 ### JFrog
 
 [JFrog](https://www.jfrog.com/) hosts our release artifacts on [Bintray](https://bintray.com/). They are some of the nicest people we've ever dealt with. We initially set up our bintray in a way that was using way too much space. They worked with us to solve the problem **AND** set us up with a free [Artifactory](https://www.jfrog.com/artifactory/) account as well.
@@ -58,3 +62,4 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 ### Zulip
 
 [Zulip](https://zulipchat.com/) powers and hosts [our team chat service](https://ponylang.zulipchat.com/), thanks to their [open-source hosting plan](https://zulipchat.com/for/open-source/). We're very happy with it!
+
