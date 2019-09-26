@@ -464,8 +464,6 @@ We suggest you rely on the default behavior where Pony scheduler threads automag
 - Measure your performance with each `ponythread` setting with scheduler thread suspension disabled.
 - Use the number of scheduler threads that gives you the best performance.
 
-Work is ongoing to improve the work-stealing scheduler. Feel free to check in on the [developer mailing list](https://www.ponylang.io/contribute/) to get an update.
-
 ### Isolate and pin your scheduler threads {#pin-your-threads}
 
 Multitasking operating systems are wondrous things. Without one, I wouldn't be able to write up these tips while listening to obscure Beastie Boys remixes. For me, at this moment in time, having multiple programs running at once is an awesome thing. There are times though when multitasking operating systems can be annoying.
