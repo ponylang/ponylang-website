@@ -454,7 +454,7 @@ Let's talk about the Pony scheduler for a moment. When you start up a Pony progr
 
 Pony schedulers use a work-stealing algorithm that allows idle schedulers to take work from other schedulers. In a loaded system, the work stealing algorithm can keep all the CPUs busy. When CPUs are underutilized, unused scheduler threads are suspended until there is enough work for them. In most cases, scheduler thread suspend/resume will have minimal negative impact on performance but significant positive impact on resource efficiency.
 
-Depending on the workload and concurrency characteristics of a partiticular application, it might be worth tuning how things function. In some instances, where efficiency isn't a concern, you can specify `--ponynoscale` in order to disable scheduler thread suspension by indicating that the minimum active scheduler threads required is the same as the total number of scheduler threads. This, however, can lead to work-stealing having a negative impact on performance due to CPU cache thrashing. In such cases, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponythreads=X` option to indicate how many scheduler threads the program will create.
+Depending on the workload and concurrency characteristics of a partiticular application, it might be worth tuning how things function. In some instances, where efficiency isn't a concern, you can specify `--ponynoscale` in order to disable scheduler thread suspension by indicating that the minimum active scheduler threads required is the same as the total number of scheduler threads. This, however, can lead to work-stealing having a negative impact on performance due to CPU cache thrashing. In such cases, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponymaxthreads=X` option to indicate the maximal number of scheduler threads the program will create.
 
 We suggest you rely on the default behavior where Pony scheduler threads automagically adjust to the workload. However, if you want to squeeze as much performance as possible, we suggest the following:
 
@@ -483,16 +483,16 @@ On Linux, you'll want to use [cset](https://rt.wiki.kernel.org/index.php/Cpuset_
 
 ```bash
 sudo cset proc -s user -e numactl -- -C 1-4,17 chrt -f 80 \
-  ./my-pony-program --ponythreads 4 --ponypin --ponypinasio
+  ./my-pony-program --ponymaxthreads 4 --ponypin --ponypinasio
 ```
 
 This isn't a complete `cset` or `numactl` tutorial so I'm only going to focus on one option of each and I'll leave the rest to your investigation. Note the `-s user` option to `cset`; this tells `cset` to use the `user` process isolation zone where no system processes are allowed to run. Similarly, note the `-C 1-4,17` option to `numactl`; this will make only CPUs 1 to 4 plus CPU 17 available to our program `my-pony-program`.
 
 ```bash
---ponythreads 4 --ponypin --ponypinasio
+--ponymaxthreads 4 --ponypin --ponypinasio
 ```
 
-And those three additional options to our program? We've seen `--ponythreads` and `--ponypin` before. In this case, we are running with 4 scheduler threads. They will have exclusive access to CPUs 1 to 4 with each scheduler thread assigned to a particular CPU. What about `--ponypinasio` and CPU 17?
+And those three additional options to our program? We've seen `--ponymaxthreads` and `--ponypin` before. In this case, we are running with 4 scheduler threads. They will have exclusive access to CPUs 1 to 4 with each scheduler thread assigned to a particular CPU. What about `--ponypinasio` and CPU 17?
 
 In addition to scheduler threads, each Pony program also has an ASIO thread that handles asynchronous IO events. By supplying the `--ponypinasio` option, our ASIO thread will be pinned to a single CPU. Which CPU? Whichever available CPU is next after all scheduler threads have been assigned cpus which in this case is CPU 17. To sum up:
 
@@ -502,7 +502,7 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 // Set aside 5 CPUs for this program
 -C 1-4,17
 // Run 4 scheduler threads and pin the scheduler threads and the ASIO thread
---ponythreads 4 --ponypin --ponypinasio
+--ponymaxthreads 4 --ponypin --ponypinasio
 ```
 
 ### Hyper-threading {#hyperthreading}
