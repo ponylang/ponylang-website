@@ -266,7 +266,7 @@ class Student
       Debug("Couldn't calculate 4/2?!")
     end
 
-    let (result, success) = Divisor.divide_by(4, 0)
+    (let result, let success) = Divisor.divide_by(4, 0)
     if success then
       Debug("4/2 makes " + result.string() + "?!")
     else
