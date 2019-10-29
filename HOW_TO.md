@@ -66,7 +66,7 @@ title = "Last Week in Pony - Month Day, Year"
 date = "2017-07-01T15:54:19-04:00"
 ```
 
-Each "Last Week in Pony" requires a couple of changes to the generated metadata. 
+Each "Last Week in Pony" requires a couple of changes to the generated metadata.
 
 1. Update `author` from `Author Name` to your author name. For example, `seantallen`. You'll need to have set up your author info before this will work.
 2. Change `date` from whatever value it has to the date the "Last Week in Pony" should be published. For example, if the blog will be published on Sunday June 18, 2017 you should update the `date` to `2017-06-18T00:00:01-04:00`.
@@ -74,11 +74,11 @@ Each "Last Week in Pony" requires a couple of changes to the generated metadata.
 
 ### "Last Week in Pony" content
 
-Collect any content submitted from the current GitHub issue. Organize it in a way that makes sense to you. See previous posts for inspiration. Be sure to run the final content through a grammar checker. [Grammarly](http:www.grammarly.com) is a good online grammar checker that has a free option.
+Collect any content submitted from the current GitHub issue. Organize it in a way that makes sense to you. See previous posts for inspiration. Be sure to include a brief summary at the top, between the metadata and the `<!--more-->` divider. Run the final content through a grammar checker. [Grammarly](http:www.grammarly.com) is a good online grammar checker that has a free option.
 
 ### Preparing to publish
 
-Once you have your content complete, commit your changes on the branch and open a PR. As part of the PR process, Netlify will run and a preview of the deploy will be available. 
+Once you have your content complete, commit your changes on the branch and open a PR. As part of the PR process, Netlify will run and a preview of the deploy will be available.
 
 After the PR is open, close the current "Last Week in Pony" issue and open a new one. **Remember to add the `last-week-in-pony` label**. Without that label, the "submit content" link in the blog post will point to nothing.
 
@@ -95,7 +95,7 @@ If you can't do a step by yourself, ask one of the elders of ponylang to do it f
 
 ## Release blog post
 
-Each pony release is accompanied by a corresponding "Release" blog post. The purpose of the blog post is to inform the community of what changes were in a release. We announce the release by linking to the blog post. 
+Each pony release is accompanied by a corresponding "Release" blog post. The purpose of the blog post is to inform the community of what changes were in a release. We announce the release by linking to the blog post.
 
 ### Creating a "Release" file
 
@@ -126,7 +126,7 @@ date = "2017-07-01T15:54:24-04:00"
 title = "0.14.3 Released"
 ```
 
-Each "Release" requires a couple of changes to the generated metadata. 
+Each "Release" requires a couple of changes to the generated metadata.
 
 1. Update `author` from `Author Name` to your author name. For example, `seantallen`. You'll need to have set up your author info before this will work.
 2. Change `date` from whatever value it has to the date the "Release" should be published. If you are doing the release notes the same day you are publishing, you can leave this as is.
@@ -145,4 +145,4 @@ In the case of breaking changes, you should provide examples of how to upgrade e
 
 ### Preparing to publish
 
-Once you have your content complete, commit your changes on the branch and open a PR. As part of the PR process, Netlify will run and a preview of the deploy will be available. 
+Once you have your content complete, commit your changes on the branch and open a PR. As part of the PR process, Netlify will run and a preview of the deploy will be available.
