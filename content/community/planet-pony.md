@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2019
 
+* Video: [Learn Pony with Brian and Sean: Episode 2](https://www.youtube.com/watch?v=ODelwNLePRA)
 * Video: [Learn Pony with Brian and Sean: Episode 1](https://www.youtube.com/watch?v=ODelwNLePRA)
 * Video: [Safely Sharing Data: Reference Capabilities in the Pony Programming
   Language](https://www.youtube.com/watch?v=u1JfYa413fY)
