@@ -28,6 +28,14 @@ Many of us who are regular contributors share some general goals as we move towa
 
 We invite you to join our small but growing community and help push Pony forward. We're still at an early stage, and new community members can have a huge influence on the language. Join us!
 
+### Does Pony really prevent data races? {#data-race}
+
+So, this question usually comes in many different forms. And the question usually arises from a misunderstanding of the difference between a "data race" and a "race condition".
+
+Pony prevents data races. It can't stop you from writing race conditions into your program.
+
+To learn more about the differences between race conditions and data races, check out ["Race Condition vs. Data Race"](https://blog.regehr.org/archives/490) by John Regehr.
+
 ## Code {#code}
 
 ### How can I turn a `ref` into a `val`? {#ref-to-val}
