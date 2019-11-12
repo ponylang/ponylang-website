@@ -20,7 +20,7 @@ See the ["What makes Pony different"]({{< relref "discover/index.md#what-makes-p
 
 That's a hard question to answer. Language X is probably very compelling for some problems. It's probably less compelling for others. Such is computers. In the end, the best we can do is tell you what Pony is good at and you can make the decision for yourself. To learn more about Pony, we suggest checking out the ["Discover"]({{< relref "discover/index.md" >}}) section of the website. There's a portion of that section called ["Why Pony"]({{< relref "discover/index.md#why-pony" >}}) that might answer your question.
 
-### Where can I find the Pony roadmap?
+### Where can I find the Pony roadmap? {#roadmap}
 
 There is no official roadmap. Pony is a volunteer driven project. Unlike many programming languages, we don't have corporate backing. Our users add features and fix issues based on their needs. Pony users solve the problems that matter to them, and we all benefit.
 
@@ -138,7 +138,7 @@ Yes! Here's a few projects we regularly point people towards:
 
 ## Compiling {#compiling}
 
-### What are Pony's supported CPU platforms?
+### What are Pony's supported CPU platforms? {#supported-cpus}
 
 As of `ponyc` release `0.26.0`, we provide the following support:
 
@@ -174,7 +174,7 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
-### On Windows I get "fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'"
+### On Windows I get "fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'" {#lnk1112}
 
 Only 64-bit Windows is supported.
 
@@ -184,17 +184,17 @@ This error occurs when ponyc is compiled in a 32-bit Visual Studio Developer Com
 
 ## Ecosystem {#ecosystem}
 
-### Does Pony have a package manager?
+### Does Pony have a package manager? {#package-manager}
 
 That would be yes and no. Package manager means different things to different people. What we have is a simple dependency manager called [pony-stable](https://github.com/ponylang/pony-stable) that we are planning on growing into a full featured tool. Whether that is a more full featured "dependency manager" or more full featured "package manager" depends on how you define the two terms.
 
-### Is there SSL support?
+### Is there SSL support? {#ssl}
 
 Yes! There used to be SSL support in the Pony standard library, but it's been moved out [into its own library](https://github.com/ponylang/net-ssl).
 
 ## Linking {#linking}
 
-### How can I supply custom linker parameters?
+### How can I supply custom linker parameters? {#custom-linker-parameters}
 
 So, you need to link your program to a custom library or otherwise pass a particular linker option? You can accomplish your goal using the  `ponyc` `--linker` option.
 
@@ -249,7 +249,7 @@ To add options to the link command, I would compile my program as something like
 
 ## Runtime {#runtime}
 
-### Does Pony have green threads?
+### Does Pony have green threads? {#green-threads}
 
 The short answer is no. Pony doesn't have green threads. By default, the Pony scheduler starts 1 "actor thread" per available CPU. These threads are used to schedule actors. Each of these threads is a kernel thread.
 
