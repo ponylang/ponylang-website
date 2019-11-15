@@ -262,3 +262,11 @@ To add options to the link command, I would compile my program as something like
 The short answer is no. Pony doesn't have green threads. By default, the Pony scheduler starts 1 "actor thread" per available CPU. These threads are used to schedule actors. Each of these threads is a kernel thread.
 
 The longer answer is "it depends". Actors are Pony's unit of concurrency and many people when asking if Pony has green threads really are asking about how concurrency is modeled. You, as a Pony programmer, never interact with scheduler threads directly, you never interact with any sort of thread. You worry about actors and sending messages between them.
+
+### What is causal messaging? {#causal-messaging}
+
+When we say that Pony has causal **messaging**, we mean that the Pony runtime provides certain guarantees about message delivery order. Given two actors, actor A and actor B. All messages sent from actor A will arrive at actor B in the order they were sent by Actor A and will be processed by Actor B in the same order. The causal ordering between messages will be preserved as an invariant by the runtime.
+
+Causal messaging extends to a chain of actors. For example, if Actor B sends messages to Actor C in response to messages from Actor A, then there is a causal messaging chain from Actor A to Actor C. The cause of a message is a message from another actor and the ordering will be preserved.
+
+It is essential to understand that the causal ordering of messages only exists between the two actors who are the sender and recipient of those messages. So for example, if actors X and Y send to actor Z, there is no guarantee what order the messages will be processed by Z except that we can say, all messages sent by X will be processed in the order they were sent, as will all messages sent by Y. However, messages from X and Y can arrive at Z interleaved in any order that maintains the causal ordering of X to Z and Y to Z.
