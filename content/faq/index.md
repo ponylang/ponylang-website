@@ -45,6 +45,12 @@ Yes! Here's a few projects we regularly point people towards:
 - [Ponycheck](https://github.com/mfelsche/ponycheck) - Property Based Testing for Pony
 - [Wallaroo](https://github.com/wallaroolabs/wallaroo) - Distributed Stream Processor written in Pony
 
+### Does Pony have a formatter? {#code-formatter}
+
+At this time, no. There is no formatter for Pony code. The lack of a formatter doesn't indicate that the Pony core team is opposed to code formatters. There is strong interest in having a code formatter for Pony.
+
+An easy to maintain code formatter would share parsing code with the compiler. At this time, sharing said code is difficult. We are working towards making maintaining a code formatter and other parsing related tooling easier. We plan to introduce a code formatter in the future.
+
 ## Code {#code}
 
 ### How can I turn a `ref` into a `val`? {#ref-to-val}
