@@ -1,7 +1,5 @@
 {
-"name": "Theo Butler",
-
-"bio": "Theo is a Pony contributor and student at Drexel University. His interests include persistent data structures, programming languages, and blues rock.",
-
-"avatar": "theobutler.png"
+  "name": "Theo Butler",
+  "bio": "Theo is a member of the Pony core team and student at Drexel University. His interests include persistent data structures, programming languages, and writing software while listening to Swancore.",
+  "avatar": "theobutler.png"
 }
