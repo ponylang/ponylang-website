@@ -3,6 +3,10 @@ title = "Planet Pony"
 +++
 We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
+## 2020
+
+* [On Deny Capabilities for Safe, Fast Actors](https://www.seantallen.com/talks/deny-capabilities/)
+
 ## 2019
 
 * Video: [Learn Pony with Brian and Sean: Episode 2](https://www.youtube.com/watch?v=wBzPIYgfbdo)
