@@ -86,9 +86,8 @@ After the PR is open, close the current "Last Week in Pony" issue and open a new
 
 The current publishing process is as follows, feel free to change it if need be:
 
-- Submit as new link on [/r/ponylang](https://www.reddit.com/r/ponylang/).
-- Tweet about it as [@ponylang](https://twitter.com/ponylang).
 - Announce in the #announce stream of the Zulip community using the topic ["LWIP"](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/LWIP).
+- Tweet about it as [@ponylang](https://twitter.com/ponylang).
 - Tell all of your friends.
 
 If you can't do a step by yourself, ask one of the elders of ponylang to do it for you.
