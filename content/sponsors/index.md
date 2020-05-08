@@ -51,10 +51,6 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [Netlify](https://www.netlify.com/) hosts our website. They are an amazing service for hosting static websites. We take advantage of some [their features](https://www.netlify.com/features/). After using Netlify, we're not sure we'd ever want to use anything else.
 
-### Packet
-
-[Packet](https://www.packet.com/) has been really gracious and provided us credits for hosting our services, such as the Pony Playground. They're awesome people!
-
 ### Zulip
 
 [Zulip](https://zulipchat.com/) powers and hosts [our team chat service](https://ponylang.zulipchat.com/), thanks to their [open-source hosting plan](https://zulipchat.com/for/open-source/). We're very happy with it!
