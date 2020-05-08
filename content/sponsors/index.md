@@ -47,10 +47,6 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [Cloudsmith](https://cloudsmith.io/) is providing free hosting for our nightly builds. That's incredibly awesome and they are great folks.
 
-### JFrog
-
-[JFrog](https://www.jfrog.com/) hosts our release artifacts on [Bintray](https://bintray.com/). They are some of the nicest people we've ever dealt with. We initially set up our bintray in a way that was using way too much space. They worked with us to solve the problem **AND** set us up with a free [Artifactory](https://www.jfrog.com/artifactory/) account as well.
-
 ### Netlify
 
 [Netlify](https://www.netlify.com/) hosts our website. They are an amazing service for hosting static websites. We take advantage of some [their features](https://www.netlify.com/features/). After using Netlify, we're not sure we'd ever want to use anything else.
