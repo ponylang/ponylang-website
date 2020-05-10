@@ -35,10 +35,6 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [Appveyor](https://www.appveyor.com/) runs our continuous integration tests on Windows. They support a ton of open source projects. Wonderful service.
 
-### CircleCI
-
-[CircleCI](https://circleci.com/) runs our continuous integration tests on Linux. It lets us test our code on manifold configurations and architectures. They support several open source projects. Amazing solution.
-
 ### Cirrus CI
 
 [Cirrus CI](https://cirrus-ci.org/) provide us with free services to run our FreeBSD and MacOS CI jobs, like they do to all open source projects. Simply brilliant.
