@@ -34,6 +34,14 @@ list any interesting blog posts either on the website or from the community
 
 ...
 
+## Releases
+
+...
+
+list of any releases since the previous LWIP
+
+...
+
 ## RFCs
 
 ### Approved RFCs
