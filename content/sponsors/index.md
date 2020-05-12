@@ -31,10 +31,6 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [1Password](https://1password.com) hosts our shared secrets for free as part of their [open source support](https://github.com/1Password/1password-teams-open-source). It solves quite a few problems for us.
 
-### Appveyor
-
-[Appveyor](https://www.appveyor.com/) runs our continuous integration tests on Windows. They support a ton of open source projects. Wonderful service.
-
 ### Cirrus CI
 
 [Cirrus CI](https://cirrus-ci.org/) provide us with free services to run our FreeBSD and MacOS CI jobs, like they do to all open source projects. Simply brilliant.
