@@ -24,7 +24,7 @@ Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager
 
 - Ponyc release notes are moving!
 
-    Previously, release notes for Ponyc were posted to Ponylang website(https://www.ponylang.io/categories/release/). Starting today, they will be posted in the [release tab](https://github.com/ponylang/ponyc/releases) of the [ponyc repo](https://github.com/ponylang/ponyc).
+    Previously, release notes for Ponyc were posted to [Ponylang website](https://www.ponylang.io/categories/release/). Starting today, they will be posted in the [release tab](https://github.com/ponylang/ponyc/releases) of the [ponyc repo](https://github.com/ponylang/ponyc).
 
     As a result of this, there will be no RSS feed for releases. Releases will still be announced in Last Week in Pony which still has an RSS feed.
 
