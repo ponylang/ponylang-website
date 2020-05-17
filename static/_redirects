@@ -1,3 +1,6 @@
 https://www.ponylang.org/* https://www.ponylang.io/:splat 301!
 https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /get-slack-invite https://ponylang.zulipchat.com 301!
+
+# old release notes
+/blog/2017/03/0.12.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.12.0 301!
