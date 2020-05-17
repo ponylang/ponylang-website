@@ -67,5 +67,5 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 
 # send the "releases" category to ponyc GH releases tab
 # as that is most likely what someone wanted
-
 /categories/release/ https://github.com/ponylang/ponyc/releases 301!
+/categories/release/index.xml https://github.com/ponyc/releases/ https://github.com/ponylang/ponyc/releases.atom 301!
