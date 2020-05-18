@@ -39,6 +39,6 @@ How to obtain coverage for runs of pony programs or test executions
 
 > The Library Project Starter is designed to get you up and running with everything you need to start writing your own excellent Pony library.
 
-- [Stable](https://github.com/ponylang/pony-stable)
+- [Corral](https://github.com/ponylang/corral)
 
 > Simple dependency manager for the Pony language.
