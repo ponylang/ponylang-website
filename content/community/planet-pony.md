@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2020
 
+* [Sean T. Allen informal Pony presentation to HFPUG](https://onedrive.live.com/?authkey=%21AOnX%2D5R9yRcUoB8&cid=87ADE037DC99854B&id=87ADE037DC99854B%2144222&parId=87ADE037DC99854B%211035&o=OneUp)
 * [On Deny Capabilities for Safe, Fast Actors](https://www.seantallen.com/talks/deny-capabilities/)
 
 ## 2019
