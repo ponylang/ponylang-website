@@ -32,6 +32,7 @@ Damon Kwok has been doing a ton of awesome work on the Emacs ponylang-mode. Sean
 - Version 0.1.0 of main-actor-documentation-action has been released. See the [release notes](https://github.com/ponylang/main-actor-documentation-action/releases/tag/0.1.0) for more details.
 - Version 0.2.0 of changelog-bot-action has been released. See the [release notes](https://github.com/ponylang/changelog-bot-action/releases/tag/0.2.0) for more details.
 - Version 0.2.1 of http_server has been released. See the [release notes](https://github.com/ponylang/http_server/releases/tag/0.2.1) for more details.
+- Version 0.1.0 of ponylang-mode has been released. See the [release notes](https://github.com/ponylang/ponylang-mode/releases/tag/0.1.0) for more details.
 - Version 0.1.1 of ponylang-mode has been released. See the [release notes](https://github.com/ponylang/ponylang-mode/releases/tag/0.1.1) for more details.
 - Version 0.5.2 of ponyup has been released. See the [release notes](https://github.com/ponylang/ponyup/releases/tag/0.5.2) for more details.
 
