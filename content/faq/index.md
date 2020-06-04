@@ -156,6 +156,14 @@ primitive OneForAllCombined
 
 The answer is deep and complicated. Fortunately, Scott Fritchie went to a great deal of trouble answering it in his talk [The wide world of almost-actors: comparing the Pony to BEAM languages](https://www.youtube.com/watch?v=_0m0_qtfzLs).
 
+### Are pony actors lightweight like Elixir/Erlang's actors, or Go's goroutines? {#pony-actors-lightweight}
+
+Yes! In Pony, the overhead of an empty actor on a 64 bit system is roughly 240 bytes, depending on the size of a size_t on your system and alignment. That comes from having a message queue, per-actor heap, and GC bookkeeping. Of course, this number grows once the Actor actually uses its queue and heap. Actors do not have stacks, instead they use the stack of the running OS thread.
+
+For reference, at a ten thousand foot view, a Goroutine is 2KB, a BEAM process is 1.2KB, and an OS thread is >1MB. This info is provided as a mental model, and not as a comparison.
+
+The precise implementation of an actor can be found in the [source code](https://github.com/ponylang/ponyc/blob/master/src/libponyrt/actor/actor.h#L32).
+
 ## Compiling {#compiling}
 
 ### What are Pony's supported CPU platforms? {#supported-cpus}
