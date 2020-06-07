@@ -150,6 +150,12 @@ primitive OneForAllCombined
 
 **Nice!**
 
+## Comparisons to other languages {#comparisons}
+
+### How is Pony different than Erlang/Elixir? {#erlang-elixir-comparison}
+
+The answer is deep and complicated. Fortunately, Scott Fritchie went to a great deal of trouble answering it in his talk [The wide world of almost-actors: comparing the Pony to BEAM languages](https://www.youtube.com/watch?v=_0m0_qtfzLs).
+
 ## Compiling {#compiling}
 
 ### What are Pony's supported CPU platforms? {#supported-cpus}
