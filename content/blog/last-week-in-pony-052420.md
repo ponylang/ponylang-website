@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "theobutler"
-description = "Last week's Pony news, reported this week."
+description = "Damon Kwok has been doing a ton of awesome work on the Emacs ponylang-mode. Sean T Allen gave an informal presentation on Pony to the Houston Functional Programmers Users Group."
 categories = [
     "Last Week in Pony",
 ]

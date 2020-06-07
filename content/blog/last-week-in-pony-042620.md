@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "theobutler"
-description = "Last week's Pony news, reported this week."
+description = "Nightly builds of ponyc for FreeBSD 12.1 are available. pony-semver has moved into the ponylang organization. The past sync meeting discussed syntax changes for the call site of behaviours."
 categories = [
     "Last Week in Pony",
 ]
