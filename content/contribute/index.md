@@ -20,6 +20,6 @@ Users regularly open issues against the [ponyc repository](https://github.com/po
 
 Documentation is the lifeblood of an Open Source project. It makes it easier to get new users up and running with the language. Our ability to grow Pony usage will be directly tied to the quality and breadth of our documentation. Assisting with adding documentation for Pony is a great way to get started helping out with Pony. Check out [Project Documentation](project-documentation).
 
-## Low Hanging Fruit
+## Good First Issues
 
-When issues come into the ponyc GitHub project, as part of our initial triaging of issues, some get marked as easy. The general idea behind the easy label to make it simple for people who want to contribute to Pony but don't have much time or knowledge about Pony to be able to contribute. Low hanging fruit issues such as these are a great way to get started with contributing and start learning more about Pony. Check out the [Low Hanging Fruit](https://github.com/ponylang/ponyc/issues?q=is:issue+is:open+label:%22complexity:+beginner+friendly%22).
+When issues come into the ponyc GitHub project, as part of our initial triaging of issues, some get marked as good for outside contributors. The general idea behind this label is to make it simple for people who want to contribute to Pony but don't have much time or knowledge about Pony. These issues are a great way to get started with contributing and start learning more about Pony. Check out the [Good First Issues](https://github.com/ponylang/ponyc/issues?q=is:issue+is:open+label:%22good+first+issue%22).
