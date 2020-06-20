@@ -158,11 +158,9 @@ The answer is deep and complicated. Fortunately, Scott Fritchie went to a great 
 
 ### Are pony actors lightweight like Elixir/Erlang's actors, or Go's goroutines? {#pony-actors-lightweight}
 
-Yes! In Pony, the overhead of an empty actor on a 64 bit system is roughly 240 bytes, depending on the size of a size_t on your system and alignment. That comes from having a message queue, per-actor heap, and GC bookkeeping. Of course, this number grows once the Actor actually uses its queue and heap. Actors do not have stacks, instead they use the stack of the running OS thread.
+Yes! In Pony, the overhead of an empty actor on a 64-bit system is roughly 240 bytes -- depending on your system's `size_t` and alignment. Complete actor overhead includes a message queue, per-actor heap, and GC bookkeeping; therefore, memory use increases as an actor accumulates messages and grows its heap. Actors do not have individual stacks, rather they use the stack of the OS thread they are scheduled on.
 
-For reference, at a ten thousand foot view, a Goroutine is 2KB, a BEAM process is 1.2KB, and an OS thread is >1MB. This info is provided as a mental model, and not as a comparison.
-
-The precise implementation of an actor can be found in the [source code](https://github.com/ponylang/ponyc/blob/master/src/libponyrt/actor/actor.h#L32).
+Relatively, Elixir/Erlang actors use ~5x more memory and goroutines use ~8x more memory, but critically Elixir/Erlang and Go handle memory far differently than Pony. The memory management approach that is "best" is project-dependent -- Pony offers one more option you can consider for your particular needs.
 
 ## Compiling {#compiling}
 
