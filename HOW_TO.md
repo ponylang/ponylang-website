@@ -74,7 +74,7 @@ Each "Last Week in Pony" requires a couple of changes to the generated metadata.
 
 ### "Last Week in Pony" content
 
-Collect any content submitted from the current GitHub issue. Organize it in a way that makes sense to you. See previous posts for inspiration. Be sure to include a brief summary at the top, between the metadata and the `<!--more-->` divider. Run the final content through a grammar checker. [Grammarly](http:www.grammarly.com) is a good online grammar checker that has a free option.
+Collect any content submitted from the current GitHub issue. Organize it in a way that makes sense to you. See previous posts for inspiration. Be sure to include a brief summary at the top, between the metadata and the `<!--more-->` divider. Also replace the default "description" with this summary. Run the final content through a grammar checker. [Grammarly](http:www.grammarly.com) is a good online grammar checker that has a free option.
 
 ### Preparing to publish
 
