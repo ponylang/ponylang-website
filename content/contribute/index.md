@@ -8,7 +8,7 @@ Not sure where to start?
 
 If you are new to Pony or don't have a ton of time to devote to helping, we suggest you check out Project Documentation and help to improve our docs. Contributing to documentation is a great way to start learning Pony. Teaching a subject is an incredible way to learn the subject.
 
-If you are new to Pony and have more time to devote, check out the Low Hanging Fruit. Tackle stuff from that and if we run out, switch over to helping with documentation.
+If you are new to Pony and have more time to devote, check out the [Good First Issues](#good-first-issues). Tackle stuff from that and if we run out, switch over to helping with documentation.
 
 If you are a bit more experienced with Pony then it might be time to get involved with triaging incoming issues. Not only will triaging help move the project forward but it's a common first step towards becoming a Pony committer.
 
