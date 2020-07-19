@@ -288,3 +288,17 @@ When we say that Pony has causal **messaging**, we mean that the Pony runtime pr
 Causal messaging extends to a chain of actors. For example, if Actor B sends messages to Actor C in response to messages from Actor A, then there is a causal messaging chain from Actor A to Actor C. The cause of a message is a message from another actor and the ordering will be preserved.
 
 It is essential to understand that the causal ordering of messages only exists between the two actors who are the sender and recipient of those messages. So for example, if actors X and Y send to actor Z, there is no guarantee what order the messages will be processed by Z except that we can say, all messages sent by X will be processed in the order they were sent, as will all messages sent by Y. However, messages from X and Y can arrive at Z interleaved in any order that maintains the causal ordering of X to Z and Y to Z.
+
+### When do programs exit? {#program-exit}
+
+Programs exit when they reach *quiescence*.
+
+Quiescence is perhaps a term you are unfamiliar with unless you have worked with actor systems previously. In short, quiescence is the state of being calm or otherwise inactive. In Pony, individual actors as well as the program can be quiescent. Because of this there is no need to explicitly exit your program, once no more work is being performed and no more work can be produced then the program will exit.
+
+An individual actor is quiescent when:
+
+- it has an empty message queue
+- it has no aliases remaining to it so cannot be sent new messages
+- it is not registered for events from the runtime via the ASIO subsystem
+
+Once all actors are quiescent, the program will terminate.
