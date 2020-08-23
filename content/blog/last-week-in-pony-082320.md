@@ -36,6 +36,9 @@ See the [release notes](https://github.com/ponylang/net_ssl/releases/tag/1.1.0) 
 - Version 1.1.0 of regex has been released.
 See the [release notes](https://github.com/ponylang/regex/releases/tag/1.1.0) for more details.
 
+- Version 0.6.0 of ponylang-mode has been released.
+See the [release notes](https://github.com/ponylang/ponylang-mode/releases/tag/0.6.0) for more details.
+
 ___
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
