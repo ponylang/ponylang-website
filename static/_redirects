@@ -69,3 +69,9 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 # as that is most likely what someone wanted
 /categories/release/ https://github.com/ponylang/ponyc/releases 301!
 /categories/release/index.xml https://github.com/ponylang/ponyc/releases.atom 301!
+
+# old last-week-in-pony issues
+/blog/2017/03/last-week-in-pony---march-28-2017/ https://github.com/ponylang/last-week-in-pony/releases/tag/20170328 301!
+/blog/2017/04/last-week-in-pony---april-3-2017/ https://github.com/ponylang/last-week-in-pony/releases/tag/20170403 301!
+/blog/2017/04/last-week-in-pony---april-10-2017/ https://github.com/ponylang/last-week-in-pony/releases/tag/20170410 301!
+/blog/2017/04/last-week-in-pony---april-17-2017/ https://github.com/ponylang/last-week-in-pony/releases/tag/20170417 301!
