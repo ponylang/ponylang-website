@@ -1,11 +1,11 @@
 # ponylang.github.io
 
-Source content for the Pony website. You can see the final product at http://www.ponylang.io/.
+Source content for the Pony website. Have a look at our final product design at our official website --->>> http://www.ponylang.io/. <<<---
 
 ## Interested in contributing?
 
-Please see our [contributing guidelines](CONTRIBUTING.md)
+Please refer to our contributing guidelines at --->>> [contributing guidelines](CONTRIBUTING.md)<<<---
 
-## Interacting with the community
+## Involve yourself with our sincere community
 
-Please make sure to read our [code of conduct](CODE_OF_CONDUCT.md).
+Please make sure to read our code of conduct --->>>[code of conduct](CODE_OF_CONDUCT.md).<<<---
