@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.19.1 Released
 
-Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** includes a hot new feature so we think you should update soon. The highlight of 0.19.1 is definitely the implementation of [RFC #45: "Lambda and Array Inference"](https://github.com/ponylang/rfcs/blob/master/text/0045-lambda-and-array-inference.md). It's an incredibly useful feature that greatly improves Pony's programmer ergonomics. Check out the [blog post announcing the release](https://www.ponylang.io/blog/2017/09/0.19.1-released/) for full details.
+Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** includes a hot new feature so we think you should update soon. The highlight of 0.19.1 is definitely the implementation of [RFC #45: "Lambda and Array Inference"](https://github.com/ponylang/rfcs/blob/main/text/0045-lambda-and-array-inference.md). It's an incredibly useful feature that greatly improves Pony's programmer ergonomics. Check out the [blog post announcing the release](https://www.ponylang.io/blog/2017/09/0.19.1-released/) for full details.
 
 ## Items of note
 
@@ -26,7 +26,7 @@ Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** incl
 - Audio from the [September 13, 2017 Pony development sync](https://sync-recordings.ponylang.io/r/2017_09_13.m4a) is available for your listening pleasure.
 
 ## News and Blog Posts
-  
+
 - [A Framework for Gradual Memory Management](https://drive.google.com/file/d/0B_4wx_3dTGICWG1Ddk81Rnh0YzA/view) proposes a way for a language's compiler to allow a single program to use multiple memory management strategies optimized for performance, with compile-time safety guarantees. The Pony community might be interested because it adopts Pony's reference capabilities as part of its proposed mechanisms.
 - Jorge Díaz wrote a blog post about his first experience with Pony- [Go through this concurrent world in the company of a Pony](https://medium.com/@jdia/go-through-this-concurrent-world-in-the-company-of-a-pony-f24bcf501855).
 

@@ -29,7 +29,7 @@ At this time this "Last Week in Pony" was published, we were in [the process of 
 - Audio from the [July 26, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_07_26.m4a) is available for your listening pleasure.
 
 ## News and Blog Posts
-  
+
 - [The Promise of Pony's Future](https://medium.com/@KevinHoffman/the-promise-of-ponys-future-44040a0b64ff)
 - New Pony Pattern! [Interrogating Actors with Promises](https://patterns.ponylang.io/async/actorpromise.html)
 
@@ -38,14 +38,14 @@ At this time this "Last Week in Pony" was published, we were in [the process of 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### Approved RFCs
-  
-- [Lambda and Array inference](https://github.com/ponylang/rfcs/blob/master/text/0045-lambda-and-array-inference.md)
-- [Match Iterator](https://github.com/ponylang/rfcs/blob/master/text/0044-match-iter.md)
+
+- [Lambda and Array inference](https://github.com/ponylang/rfcs/blob/main/text/0045-lambda-and-array-inference.md)
+- [Match Iterator](https://github.com/ponylang/rfcs/blob/main/text/0044-match-iter.md)
 
 ### Final Comment Period
-  
+
 - [More `Random` methods](https://github.com/ponylang/rfcs/pull/97)
 
 ### New RFCs
-  
+
 - [Change String.join to take an Iterable instead of a ReadSeq](https://github.com/ponylang/rfcs/pull/98)

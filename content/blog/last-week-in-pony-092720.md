@@ -31,7 +31,7 @@ https://sync-recordings.ponylang.io/r/2020_09_22.m4a
 
     If ponyup finds that you are running on a glibc distro it will prompt you to select from our list of supported glibc distros. If your distro isn't currently supported via prebuilts, you can either build ponyc from source or request that your distro be supported.
 
-    We will support building for any version of a Linux distro so long as it is a long term release that is still supported. Note, that we might ask for your assistance in crafting the Dockerfile that will be used as the build environment for said distro and version. For those who are curious, you can see our [existing builder environments](https://github.com/ponylang/ponyc/tree/master/.ci-dockerfiles) in the ponyc repo.
+    We will support building for any version of a Linux distro so long as it is a long term release that is still supported. Note, that we might ask for your assistance in crafting the Dockerfile that will be used as the build environment for said distro and version. For those who are curious, you can see our [existing builder environments](https://github.com/ponylang/ponyc/tree/main/.ci-dockerfiles) in the ponyc repo.
 
     ---
 

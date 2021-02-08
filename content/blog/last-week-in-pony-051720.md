@@ -42,7 +42,7 @@ Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager
 
 ### Approved RFCs
 
-- [RFC 65: env-root-not-optional](https://github.com/ponylang/rfcs/blob/master/text/0065-env-root-not-optional.md)
+- [RFC 65: env-root-not-optional](https://github.com/ponylang/rfcs/blob/main/text/0065-env-root-not-optional.md)
 
 ___
 

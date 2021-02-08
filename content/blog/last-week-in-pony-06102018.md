@@ -25,7 +25,7 @@ Two small bugfixes around union types with the same elements and the `cli` packa
 
 ### Pony 0.22.5 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.5-released/)
 
-High-priority bugfix for systems with NUMA enabled. Upgrading is highly recommended. 
+High-priority bugfix for systems with NUMA enabled. Upgrading is highly recommended.
 
 ### Pony 0.22.6 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.6-released/)
 
@@ -33,7 +33,7 @@ This one fixes a performance regression introduced in the 0.22.X series and fixe
 
 ### Pony 0.23.0 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.23.0-released/)
 
-Whoa! Minor version increase. Why is that? Breaking change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/master/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bugfix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
+Whoa! Minor version increase. Why is that? Breaking change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/main/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bugfix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
 
 
 ## New Distribution Channels: PPA and COPR

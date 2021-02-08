@@ -41,6 +41,6 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 [New Ponybench API](https://github.com/ponylang/ponyc/pull/2578)
 
 ### Approved RFCs
-  
-[Compile time expressions](https://github.com/ponylang/rfcs/blob/master/text/0053-compile-time-expression.md)
+
+[Compile time expressions](https://github.com/ponylang/rfcs/blob/main/text/0053-compile-time-expression.md)
 

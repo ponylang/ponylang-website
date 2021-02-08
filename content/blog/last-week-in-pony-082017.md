@@ -22,7 +22,7 @@ Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the co
 - Audio from the [August 16, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_08_16.m4a) is available. Includes some interesting conversations including a live "wtf is up with [issue #1513](https://github.com/ponylang/ponyc/issues/1513)"; the result of which was our 0.18.0 release.
 
 ## News and Blog Posts
-  
+
 - "Charles" stopped by during the week with a few questions and happened to mention a game he just started developing. Read ["Stars take-off"](http://www.charlesetc.com/stars-game-1.html) to learn more.
 
 ## RFCs
@@ -30,9 +30,9 @@ Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the co
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### Approved RFCs
-  
-- [RFC #48: Change `String.join` to take `Iterable`](https://github.com/ponylang/rfcs/blob/master/text/0048-change-String-join-to-take-iterable.md)
+
+- [RFC #48: Change `String.join` to take `Iterable`](https://github.com/ponylang/rfcs/blob/main/text/0048-change-String-join-to-take-iterable.md)
 
 ### Final Comment Period
-  
+
 - [RFC #101: Improved Itertools API](https://github.com/ponylang/rfcs/pull/101)

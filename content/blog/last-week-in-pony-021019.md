@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - GitHub user @kastiglione submitted his first [PR against the Pony website](https://github.com/ponylang/ponylang-website/pull/386): Improvements to the [LLDB cheatsheet](https://www.ponylang.io/reference/pony-lldb-cheatsheet/). Thanks @kastiglione
 
-- The implementation of [RFC 61: Add modulo and floored division operators](https://github.com/ponylang/rfcs/blob/master/text/0061-modulo-operator.md) has been [merged to master](https://github.com/ponylang/ponyc/pull/2997) and will be available in the next release.
+- The implementation of [RFC 61: Add modulo and floored division operators](https://github.com/ponylang/rfcs/blob/main/text/0061-modulo-operator.md) has been [merged to main](https://github.com/ponylang/ponyc/pull/2997) and will be available in the next release.
 
 - Pony stable, our little dependency manager that could, just had version 0.2.0 released: https://www.ponylang.io/blog/2019/02/pony-stable-0.2.0-released/.
 

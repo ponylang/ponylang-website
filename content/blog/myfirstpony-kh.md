@@ -18,7 +18,7 @@ So, in a deliberate effort to overcome this admitted bias, I asked on Twitter if
 I've been unable to track down the quote for attribution, but there's a phrase floating around that goes something like, "..._any sufficiently distributed system will eventually be thrown away and re-rewritten in Erlang_..."
 
 ## Hello, Pony
-After getting some inspiring replies on Twitter from **@ponylang** and the Pony community, I decided to give it a go. I started reading. 
+After getting some inspiring replies on Twitter from **@ponylang** and the Pony community, I decided to give it a go. I started reading.
 
 While walking around the house picking up after the tornado of toys my daughter leaves, I read through the tutorials and other getting started guides on my phone.
 
@@ -31,7 +31,7 @@ As an author, I am intimately familiar with how utterly useless "Hello, World" i
 Everything seemed pretty intuitive, but I hadn't gotten into anything complicated yet.
 
 ## Features that Intrigued Me
-When you approach a new language, there are usually a couple of "wow!" moments. You'll be reading along in a sample or some documentation and you're getting bored. Then, all of a sudden, something catches your eye and you think "that's pretty cool". 
+When you approach a new language, there are usually a couple of "wow!" moments. You'll be reading along in a sample or some documentation and you're getting bored. Then, all of a sudden, something catches your eye and you think "that's pretty cool".
 
 If you have enough of those moments, you might continue learning. If you don't, you walk away with your tail between your legs and go back to your old standby languages.
 
@@ -80,7 +80,7 @@ When learning a new language, I used to always ask myself: _can I write a game i
 
 When I read the Pony docs, I started getting that same inspired feeling I got from Go again. So I asked myself, _Could I write a [MUD](https://en.wikipedia.org/wiki/MUD) in this?_ (If you don't know what a MUD is, I'm old enough to be your ancestor).
 
-Remember, I'm still only about 3 hours into my Pony experience, so I expected this to go _horribly_ wrong. I adapted the **TCPListener** sample from the [examples directory](https://github.com/ponylang/ponyc/blob/master/examples/net/server.pony) to suit my needs.
+Remember, I'm still only about 3 hours into my Pony experience, so I expected this to go _horribly_ wrong. I adapted the **TCPListener** sample from the [examples directory](https://github.com/ponylang/ponyc/blob/main/examples/net/server.pony) to suit my needs.
 
 I started by emptying my **main.pony** file of everything except the main actor. I don't know if this is idiomatic Pony or not, but as a **gopher** I like my main files clean:
 
@@ -127,9 +127,9 @@ So now when I get a notification that text came in from a particular connection,
 ```pony
 be cmdreceived(conn: TCPConnection, cmd: String) =>
     _out.print("[CM] received command text.")
-    try 
-        _players(conn).parsecommand(cmd)        
-    end 
+    try
+        _players(conn).parsecommand(cmd)
+    end
 ```
 
 With some really helpful tips from the community and digging through docs and experimenting in the [Pony playground](http://playground.ponylang.io/), I was able to get a fully functioning multi-user telnet chat server running in Pony. It would've taken me twice as long to do that with a language that I already know, let alone one I'm just barely starting to learn.

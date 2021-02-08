@@ -18,9 +18,9 @@ The Flynn project aims to bring a Pony-like actor-model implementation to Swift 
 
 - Audio from the August, 25 2020 Pony Development sync is available: https://sync-recordings.ponylang.io/r/2020_08_25.m4a
 
-- The ["docker-builder" shared docker container](https://github.com/ponylang/shared-docker/tree/master/docker-builder) is being deprecated and not being replaced. If you are using for anything, be aware that there will be no further updates. The existing image will continue to work via being pulled from docker hub.
+- The ["docker-builder" shared docker container](https://github.com/ponylang/shared-docker/tree/main/docker-builder) is being deprecated and not being replaced. If you are using for anything, be aware that there will be no further updates. The existing image will continue to work via being pulled from docker hub.
 
-- [Flynn](https://github.com/KittyMac/flynn) aims to bring a Pony-like actor-model implementation to Swift. It is powered by a modified version of the [Pony Runtime](https://www.ponylang.io/faq/#runtime) and utilizes a [custom linter](https://github.com/KittyMac/flynn/blob/master/docs/FLYNNLINT.md) to enforce actor-model safety at compile time.
+- [Flynn](https://github.com/KittyMac/flynn) aims to bring a Pony-like actor-model implementation to Swift. It is powered by a modified version of the [Pony Runtime](https://www.ponylang.io/faq/#runtime) and utilizes a [custom linter](https://github.com/KittyMac/flynn/blob/main/docs/FLYNNLINT.md) to enforce actor-model safety at compile time.
 
 - We will no longer be announcing Pony compiler releases on Twitter.
 You can get information about releases either here in Last Week in Pony or by subscribing to the RSS feed for ponyc releases on GitHub: https://github.com/ponylang/ponyc/releases.atom

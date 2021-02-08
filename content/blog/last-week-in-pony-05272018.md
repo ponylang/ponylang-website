@@ -21,7 +21,7 @@ There have been so many releases this week, we got one for everybody!
 
 We do have a new Pony release with lots and lots of goodness added and badness fixed: [**0.22.0**](https://www.ponylang.io/blog/2018/05/0.22.0-released/). Upgrading is highly recommended, but you might need to adapt your codebase as it contains some breaking changes. For full details check out the [Release notes](https://www.ponylang.io/blog/2018/05/0.22.0-released/).
 
-Get your `ponyc` package via docker, rpm, deb, homebrew, gentoo ebuild or compile from source. Detailed installation instructions can be found in the [ponyc repo README](https://github.com/ponylang/ponyc/blob/master/README.md).
+Get your `ponyc` package via docker, rpm, deb, homebrew, gentoo ebuild or compile from source. Detailed installation instructions can be found in the [ponyc repo README](https://github.com/ponylang/ponyc/blob/main/README.md).
 
 ### 0.22.1 - [Release Notes](https://www.ponylang.io/blog/2018/05/0.22.1-released/)
 
@@ -42,7 +42,7 @@ That has been quite a busy week, especially for Sean T. Allen. Big thanks for do
 
 - Andrew Turley has been so kind to put together an incredibly useful [Pony Cheatsheet](https://www.ponylang.io/media/cheatsheet/pony-cheat-sheet.pdf), especially for learning Pony.
 
-- Version **0.1.2** of [Pony Stable](https://github.com/ponylang/pony-stable) has been released. It is a bugfix release that fixes a bug that could cause issues if you were using a dependency whose commit was on a non-master branch. Upgrading is recommended. [Release Notes](https://www.ponylang.io/blog/2018/05/pony-stable-0.1.2-released/).
+- Version **0.1.2** of [Pony Stable](https://github.com/ponylang/pony-stable) has been released. It is a bugfix release that fixes a bug that could cause issues if you were using a dependency whose commit was on a non-main branch. Upgrading is recommended. [Release Notes](https://www.ponylang.io/blog/2018/05/pony-stable-0.1.2-released/).
 
 
 ## Pony Development Sync

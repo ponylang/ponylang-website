@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 Over the last year or two, many folks have asked some variation on "how did Pony come to be?". Well dear interlocutors, ask no more. Sylvan Clebsch published [An Early History of Pony](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/). Question no more. Go forth and spread the word, for ye, it is good.
 
 ## Items of Note
-  
+
 Audio from the [May 3rd Pony development sync meeting](https://sync-recordings.ponylang.io/r/2017_05_03.m4a) is available for your listening pleasure.
 
 ## RFCs
@@ -31,8 +31,8 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### Finished
 
-The code implementing [RFC #23: "require programmer to implement network failure handling"](https://github.com/ponylang/rfcs/blob/master/text/0023-network-dont-provide-default-implementation-for-failures.md) was released as part of 0.14.0.
+The code implementing [RFC #23: "require programmer to implement network failure handling"](https://github.com/ponylang/rfcs/blob/main/text/0023-network-dont-provide-default-implementation-for-failures.md) was released as part of 0.14.0.
 
 ### Approved RFCs
-  
-[RFC 42: "more persistent collections"](https://github.com/ponylang/rfcs/blob/master/text/0042-more-persistent-collections.md)
+
+[RFC 42: "more persistent collections"](https://github.com/ponylang/rfcs/blob/main/text/0042-more-persistent-collections.md)

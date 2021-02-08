@@ -35,7 +35,7 @@ How to obtain coverage for runs of pony programs or test executions
 
 > Pony Patterns is a cookbook style collection of patterns for working with Pony. Most folks aren't familiar with writing actor-model based code. Even fewer are familiar with doing it in a typed language that features causal messaging. Wondering how to do something? Check out the patterns and see if there's one that solves your problem. Patterns is a curated community-driven project. Feel free to open an issue requesting a pattern on how to do X, or open a PR to contribute your own pattern.
 
-- [Library Scaffolding Generator](https://github.com/ponylang/library-scaffolding-generator/blob/master/README.md)
+- [Library Scaffolding Generator](https://github.com/ponylang/library-scaffolding-generator/blob/main/README.md)
 
 > Library Scaffolding Generator is designed to get you up and running with everything you need to start writing your own excellent Pony library.
 

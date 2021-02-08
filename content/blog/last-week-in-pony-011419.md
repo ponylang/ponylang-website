@@ -30,7 +30,7 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### Approved RFCs
 
-[Modulo Operator](https://github.com/ponylang/rfcs/blob/master/text/0061-modulo-operator.md)
+[Modulo Operator](https://github.com/ponylang/rfcs/blob/main/text/0061-modulo-operator.md)
 
 ### New RFCs
 

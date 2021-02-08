@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Audio from the August 22, 2018 Pony Development Sync is now available: [Pony Sync August 22, 2018](https://sync-recordings.ponylang.io/r/2018_08_22.m4a)
 
-- OpenBSD support was merged to master! Thank you Brian Callahan aka @ibara on GitHub.
+- OpenBSD support was merged to main! Thank you Brian Callahan aka @ibara on GitHub.
 
 ## RFCs
 

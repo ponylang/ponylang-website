@@ -40,7 +40,7 @@ Remember to set up your author information before creating a "Last Week in Pony"
 
 Although you can create a new "Last Week in Pony" by hand, we recommend installing Hugo. Please see [Contributing](CONTRIBUTING.md) for more information on basic development setup and processes.
 
-1. Checkout the `master` branch and make sure you are up to date.
+1. Checkout the `main` branch and make sure you are up to date.
 2. Create a new branch for the "Last Week in Pony". If you were creating one for June 18, 2017 you would run:
 
 `git checkout -b last-week-in-pony-061817`
@@ -100,7 +100,7 @@ Each pony release is accompanied by a corresponding "Release" blog post. The pur
 
 Although you can create a new "Release" by hand, we recommend installing Hugo. Please see [Contributing](CONTRIBUTING.md) for more information on basic development setup and processes.
 
-1. Checkout the `master` branch and make sure you are up to date.
+1. Checkout the `main` branch and make sure you are up to date.
 2. Create a new branch for the "Release". If you were creating one for the release of 0.15.0:
 
 `git checkout -b release-0.15.0`

@@ -44,6 +44,6 @@ The next one is scheduled for Wednesday, May 2, 2018, at 03:30 PM (GMT-04:00) Am
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### Approved RFCs
-  
-- [Subtyping Exclusion](https://github.com/ponylang/rfcs/blob/master/text/0054-subtyping-exclusion.md)
+
+- [Subtyping Exclusion](https://github.com/ponylang/rfcs/blob/main/text/0054-subtyping-exclusion.md)
 

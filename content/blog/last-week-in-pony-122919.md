@@ -18,7 +18,7 @@ The Pony compiler now has support for LLVM 9! Nightly builds of ponyc, corral, a
 
 - Version 0.4.0 of ponyup has been released. See the [release notes](https://github.com/ponylang/ponyup/releases/tag/0.4.0) for more details.
 
-- LLVM 9 support has been [merged to master](https://github.com/ponylang/ponyc/pull/3320). Thank you @kulibali and @mshockwave!
+- LLVM 9 support has been [merged to main](https://github.com/ponylang/ponyc/pull/3320). Thank you @kulibali and @mshockwave!
 
 - [corral](https://github.com/ponylang/corral) macOS nightly builds are now available via [Cloudsmith](https://cloudsmith.io/~ponylang/repos/nightlies/packages/). Please give them a try.
 

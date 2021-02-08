@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - A new version of [Ponylang-mode](https://github.com/SeanTAllen/ponylang-mode), the Emacs mode for Pony, was released. [Release notes](https://github.com/SeanTAllen/ponylang-mode/releases/tag/0.0.9) are available.
 - [Audio from the May 10, 2017, Pony Development Sync](https://sync-recordings.ponylang.io/r/2017_05_10.m4a) is available for your listening pleasure. Lots of type system and some wonderful discussion of the fun that is computers and dates.
-- [RFC:34 Bare methods and lambdas](https://github.com/ponylang/rfcs/blob/master/text/0034-bare-ffi-lambdas.md) has been [merged to master](https://github.com/ponylang/ponyc/pull/1858). RFC 34 is going to be a great boon to interfacing with some libraries via C-FFI that wasn't previously possible. Want to work with a C library that uses function pointers as callbacks? Awesome, because now we have you covered.
+- [RFC:34 Bare methods and lambdas](https://github.com/ponylang/rfcs/blob/main/text/0034-bare-ffi-lambdas.md) has been [merged to main](https://github.com/ponylang/ponyc/pull/1858). RFC 34 is going to be a great boon to interfacing with some libraries via C-FFI that wasn't previously possible. Want to work with a C library that uses function pointers as callbacks? Awesome, because now we have you covered.
 
 
 ## RFCs
@@ -30,5 +30,5 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### New RFCs
-  
+
 - [String concatenation syntax](https://github.com/ponylang/rfcs/pull/90): A new syntax for concatenating `String`s (and `Stringable`s) that generates efficient code for creating the final `String`.

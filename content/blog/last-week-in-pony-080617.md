@@ -26,16 +26,16 @@ Yesterday, we released Pony 0.17.0. It is highlighted by support for GCC 7 on Li
 
 ## Items of note
 
-- [RFC #35: "More Promise Methods"](https://github.com/ponylang/rfcs/blob/master/text/0035-more-promise-methods.md) has been implemented and is on master. It made Kevin Hoffman really happy. Hopefully he isn't the only one. Thank you Theo Butler for the implementation.
+- [RFC #35: "More Promise Methods"](https://github.com/ponylang/rfcs/blob/main/text/0035-more-promise-methods.md) has been implemented and is on main. It made Kevin Hoffman really happy. Hopefully he isn't the only one. Thank you Theo Butler for the implementation.
 
-- [RFC #44: "Match Iterator"](https://github.com/ponylang/rfcs/blob/master/text/0044-match-iter.md) has been implemented and is on master. Thanks to Kevin Hoffman for the implementation.
+- [RFC #44: "Match Iterator"](https://github.com/ponylang/rfcs/blob/main/text/0044-match-iter.md) has been implemented and is on main. Thanks to Kevin Hoffman for the implementation.
 
-- [RFC #46: "More Random Methods"](https://github.com/ponylang/rfcs/blob/master/text/0046-more-random-methods.md) was both approved and implemented this quick. Joe Eli McIlvain is to thank for the quick turn around on that one.
+- [RFC #46: "More Random Methods"](https://github.com/ponylang/rfcs/blob/main/text/0046-more-random-methods.md) was both approved and implemented this quick. Joe Eli McIlvain is to thank for the quick turn around on that one.
 
 - Audio from the [August 2nd, 2017 Pony development sync](https://sync-recordings.ponylang.io/r/2017_08_02.m4a) is now available.
 
 ## News and Blog Posts
-  
+
 - Chris Double has written some excellent Pony blogposts. His new one included: ["Reference Capabilities, Consume and Recover in Pony"](https://bluishcoder.co.nz/2017/07/31/reference_capabilities_consume_recover_in_pony.html). If you have trouble figuring out when and how to use `consume` and `recover`, give this post a read.
 
 - Video of Sophia Drossopoulou's PLISS'17 talk "Pony: Actors and Objects" is now available. It's split into two parts. [Part 1](https://www.youtube.com/watch?v=FSu8mBm3iJs). [Part 2](https://www.youtube.com/watch?v=ypCF34YVtRE).
@@ -45,9 +45,9 @@ Yesterday, we released Pony 0.17.0. It is highlighted by support for GCC 7 on Li
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### Approved RFCs
-  
-- [RFC #46: "More Random methods"](https://github.com/ponylang/rfcs/blob/master/text/0046-more-random-methods.md)
+
+- [RFC #46: "More Random methods"](https://github.com/ponylang/rfcs/blob/main/text/0046-more-random-methods.md)
 
 ### Final Comment Period
-  
+
 - [Change String.join to take an Iterable instead of a ReadSeq](https://github.com/ponylang/rfcs/pull/98)

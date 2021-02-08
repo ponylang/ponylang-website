@@ -43,8 +43,8 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### Accepted RFCs
 
-- [RFC 57: SSL ALPN](https://github.com/ponylang/rfcs/blob/master/text/0057-ssl-alpn.md)
+- [RFC 57: SSL ALPN](https://github.com/ponylang/rfcs/blob/main/text/0057-ssl-alpn.md)
 
 - [RFC 58: Partial Arithmetic](https://github.com/ponylang/ponyc/issues/2814)
 
-- [RFC 59 "Formal Viewpoint Adaptation"](https://github.com/ponylang/rfcs/blob/master/text/0059-formal-viewpoint-adaptation.md)
+- [RFC 59 "Formal Viewpoint Adaptation"](https://github.com/ponylang/rfcs/blob/main/text/0059-formal-viewpoint-adaptation.md)

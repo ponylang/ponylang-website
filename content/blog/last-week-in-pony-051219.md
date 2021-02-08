@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Recording of the May 7, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_05_07.m4a)
 
-- The implementation of [RFC #62](https://github.com/ponylang/rfcs/blob/master/text/0062-tcpconnection-hard-close.md) has been merged to master.
+- The implementation of [RFC #62](https://github.com/ponylang/rfcs/blob/main/text/0062-tcpconnection-hard-close.md) has been merged to main.
 
 ## RFCs
 

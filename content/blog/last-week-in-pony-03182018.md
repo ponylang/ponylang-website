@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Last Week's Playground
 
-This week I am going to present you the `with` expression in Pony. *The `with` expression???*, you ask? 
+This week I am going to present you the `with` expression in Pony. *The `with` expression???*, you ask?
 Yes, this undocumented gem that definitely needs more coverage in the tutorial.
 
 Here is the playground link: http://playground.ponylang.io/?gist=c8d70a175b7fde58d42f021e88595a89
@@ -32,6 +32,6 @@ In case you want to submit one (which I highly recommend), just add it as a comm
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### Approved RFCs
-  
-[Compile time expressions](https://github.com/ponylang/rfcs/blob/master/text/0053-compile-time-expression.md)
+
+[Compile time expressions](https://github.com/ponylang/rfcs/blob/main/text/0053-compile-time-expression.md)
 

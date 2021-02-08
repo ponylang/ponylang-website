@@ -28,4 +28,4 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### Approved RFCs
 
-- [RFC 64](https://github.com/ponylang/rfcs/blob/master/text/0064-llvm-cli-opts-integration.md) "LLVM command line options integrations" has been accepted. An issue to track this work has been opened at [https://github.com/ponylang/ponyc/issues/3327](https://github.com/ponylang/ponyc/issues/3327).
+- [RFC 64](https://github.com/ponylang/rfcs/blob/main/text/0064-llvm-cli-opts-integration.md) "LLVM command line options integrations" has been accepted. An issue to track this work has been opened at [https://github.com/ponylang/ponyc/issues/3327](https://github.com/ponylang/ponyc/issues/3327).

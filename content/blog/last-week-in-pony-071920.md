@@ -26,7 +26,7 @@ We have some nice improvements to the website FAQ and corral documentation. RFC 
 
 ### Approved RFCs
 
-[RFC 67](https://github.com/ponylang/rfcs/blob/master/text/0067-add-log-level-argument-to-logformatter.md), Add a log_level argument to logger.LogFormatter, was approved this week and Richard Kallos jumped right in to implement it before the week was out. Spot on Richard. Spot on.
+[RFC 67](https://github.com/ponylang/rfcs/blob/main/text/0067-add-log-level-argument-to-logformatter.md), Add a log_level argument to logger.LogFormatter, was approved this week and Richard Kallos jumped right in to implement it before the week was out. Spot on Richard. Spot on.
 
 ___
 

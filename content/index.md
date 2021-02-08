@@ -3,15 +3,15 @@ submenu = "false"
 type = "index"
 title = "Pony"
 +++
-Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language.  
+Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language.
 
 ## Quicklinks
 
 - [What is Pony?]({{< relref "discover/index.md">}}#what-is-pony)
 - [Frequently asked questions]({{< relref "faq/index.md">}})
 - [Try it in your browser](https://playground.ponylang.io/)
-- [Example Pony applications](https://github.com/ponylang/ponyc/tree/master/examples)
-- [Installation](https://github.com/ponylang/ponyc/blob/master/README.md#installation)
+- [Example Pony applications](https://github.com/ponylang/ponyc/tree/main/examples)
+- [Installation](https://github.com/ponylang/ponyc/blob/main/README.md#installation)
 - [Get started learning Pony]({{< relref "learn/index.md">}})
 - [Tutorial](https://tutorial.ponylang.io/)
 - [Standard Library Documentation](https://stdlib.ponylang.io/)

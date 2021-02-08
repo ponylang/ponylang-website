@@ -28,7 +28,7 @@ See the [release notes](https://github.com/ponylang/corral/releases/tag/0.3.1) f
 
 - The new CMake build system for PonyC has been merged.
 
-Requirements for building from source have changed; please see [BUILD.md](https://github.com/ponylang/ponyc/blob/master/BUILD.md) for updated details.
+Requirements for building from source have changed; please see [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md) for updated details.
 
 - The [Pony development sync recording for April 14, 2020 is now available](https://sync-recordings.ponylang.io/r/2020_04_14.m4a).
 

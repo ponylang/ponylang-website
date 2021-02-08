@@ -27,4 +27,4 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### Approved RFCs
 
-> [RFC #58](https://github.com/ponylang/rfcs/blob/master/text/0058-partial-arithmetic.md) aka "Partial Arithmetic" [has been merged to master](https://github.com/ponylang/ponyc/pull/2865) and will be in the next Pony release. That release is currently on hold as @mfelsche is still working on tutorial and documentation updates related to RFC #58.
+> [RFC #58](https://github.com/ponylang/rfcs/blob/main/text/0058-partial-arithmetic.md) aka "Partial Arithmetic" [has been merged to main](https://github.com/ponylang/ponyc/pull/2865) and will be in the next Pony release. That release is currently on hold as @mfelsche is still working on tutorial and documentation updates related to RFC #58.

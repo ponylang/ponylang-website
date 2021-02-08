@@ -40,4 +40,4 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### Approved RFCs
 
-- [RFC 62](https://github.com/ponylang/rfcs/blob/master/text/0062-tcpconnection-hard-close.md) for TCPConnection hard_close
+- [RFC 62](https://github.com/ponylang/rfcs/blob/main/text/0062-tcpconnection-hard-close.md) for TCPConnection hard_close

@@ -26,7 +26,7 @@ Upgrading as soon as possible is recommended.
 
 - *pony-fmt* which has been announces last week has been renamed to [pony-sform](https://github.com/krig/pony-sform), to not collide with the existing [ponyfmt](https://github.com/mfelsche/ponyfmt).
 - [pony-cbor](https://github.com/ii8/pony-cbor), a Pony implementation of the [Concise Binary Object Representation](http://cbor.io/) format has been [announced on the mailinglist](https://pony.groups.io/g/user/message/1560).
-- [OpenSSL 1.1 support](https://github.com/ponylang/ponyc/pull/2415) was merged to master. You'll see it in a release coming your way very soon.
+- [OpenSSL 1.1 support](https://github.com/ponylang/ponyc/pull/2415) was merged to main. You'll see it in a release coming your way very soon.
 
 ## Pony Development Sync
 

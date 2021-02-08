@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Interested in helping improve the Pony emacs mode? There's a few ["help wanted" issues open](https://github.com/SeanTAllen/ponylang-mode/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) if you want to dive in.
 
-- LLVM 7.0 support has been [merged to master](https://github.com/ponylang/ponyc/pull/2976). Great work by Joe and Gordon. Everyone should give them a virtual hand.
+- LLVM 7.0 support has been [merged to main](https://github.com/ponylang/ponyc/pull/2976). Great work by Joe and Gordon. Everyone should give them a virtual hand.
 
     Currently, LLVM 3.9.1 is still the recommended LLVM version to use with Pony. LLVM 5 and 6 both had work arounds for bugs and as such were "experimentally supported". However, LLVM 3.9.1 is being deprecated by a lot of distributions. Joe believes he has found the source of the LLVM 5 and 6 issues (which also impact on LLVM 7) and will be testing out a fix soon.
 
