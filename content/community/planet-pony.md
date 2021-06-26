@@ -3,6 +3,10 @@ title = "Planet Pony"
 +++
 We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
+## 2021
+
+* [CastXML2Pony, Automatically(ish) building Pony libraries to wrap C-FFI calls](https://vimeo.com/563948627)
+
 ## 2020
 
 * [Pony, Actors, Causality, Types, and Garbage Collection](https://www.infoq.com/presentations/pony-types-garbage-collection/)
