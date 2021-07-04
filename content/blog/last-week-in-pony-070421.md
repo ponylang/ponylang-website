@@ -30,7 +30,7 @@ See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.41.2) f
 
 ### New RFCs
 
-- Split FilePath constructor to guarantee constructor with AmbientAuth](https://github.com/ponylang/rfcs/pull/190)
+- [Split FilePath constructor to guarantee constructor with AmbientAuth](https://github.com/ponylang/rfcs/pull/190)
 
 ---
 
