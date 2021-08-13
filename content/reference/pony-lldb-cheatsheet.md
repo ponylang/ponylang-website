@@ -7,7 +7,7 @@ title = "Pony LLDB Cheatsheet"
 ### macOS Setup
 
 ```bash
-% brew install llvm@3.9
+% brew install llvm
 % sudo /usr/sbin/DevToolsSecurity --enable
 ```
 
