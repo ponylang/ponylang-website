@@ -9,7 +9,7 @@ title = "Reference"
 
 > A quickstart for debugging Pony with LLDB
 
-- [Pony LLDB Extensions](https://github.com/aturley/pony-lldb)
+- [Pony LLDB Extensions](https://github.com/ponylang/pony-lldb-extensions)
 
 > A collection of LLDB extensions for working with the Pony programming language.
 
