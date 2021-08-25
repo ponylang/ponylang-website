@@ -5,8 +5,9 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2021
 
-* [Pony vs. Rust - How they both drive you mad at compile time](https://vimeo.com/574893226)
-* [CastXML2Pony, Automatically(ish) building Pony libraries to wrap C-FFI calls](https://vimeo.com/563948627)
+* [Pony VUG #11: Pony via a GitHub REST API](https://vimeo.com/592434464)
+* [Pony VUG #10: Pony vs. Rust - How they both drive you mad at compile time](https://vimeo.com/574893226)
+* [Pony Vug #9: CastXML2Pony, Automatically(ish) building Pony libraries to wrap C-FFI calls](https://vimeo.com/563948627)
 
 ## 2020
 
