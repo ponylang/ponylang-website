@@ -10,9 +10,7 @@ date = "2020-08-16T19:34:38-04:00"
 +++
 
 We have new releases for crypto libraries and new bots to automate changelogs and release notes. The shared Docker containers for openssl and libressl builders are being replaced.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -25,39 +23,50 @@ We have new releases for crypto libraries and new bots to automate changelogs an
 ## Releases
 
 - Version 0.0.2 of ponylang/release-notes-reminder-bot-action has been released.
+
 See the [release notes](https://github.com/ponylang/release-notes-reminder-bot-action/releases/tag/0.0.2) for more details.
 
 - Version 0.1.0 of ponylang/release-notes-reminder-bot-action has been released.
+
 See the [release notes](https://github.com/ponylang/release-notes-reminder-bot-action/releases/tag/0.1.0) for more details.
 
 - Version 1.0.1 of ponylang/net_ssl has been released.
+
 See the [release notes](https://github.com/ponylang/net_ssl/releases/tag/1.0.1) for more details.
 
 - Version 1.0.1 of ponylang/regex has been released.
+
 See the [release notes](https://github.com/ponylang/regex/releases/tag/1.0.1) for more details.
 
 - Version 1.0.2 of ponylang/crypto has been released.
+
 See the [release notes](https://github.com/ponylang/crypto/releases/tag/1.0.2) for more details.
 
 - Version 0.2.1 of ponylang/release-bot-action has been released.
+
 See the [release notes](https://github.com/ponylang/release-bot-action/releases/tag/0.2.1) for more details.
 
 - Version 0.2.2 of ponylang/release-bot-action has been released.
+
 See the [release notes](https://github.com/ponylang/release-bot-action/releases/tag/0.2.2) for more details.
 
 - Version 0.3.0 of ponylang/release-bot-action has been released.
+
 See the [release notes](https://github.com/ponylang/release-bot-action/releases/tag/0.3.0) for more details.
 
 - Version 0.0.1 of ponylang/action-readme-version-updater has been released.
+
 See the [release notes](https://github.com/ponylang/action-readme-version-updater/releases/tag/0.0.1) for more details.
 
 - Version 0.2.2 of ponylang/changelog-bot-action has been released.
+
 See the [release notes](https://github.com/ponylang/changelog-bot-action/releases/tag/0.2.2) for more details.
 
 - Version 0.2.0 of ponylang/release-notes-bot-action has been released.
+
 See the [release notes](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.2.0) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

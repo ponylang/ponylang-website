@@ -28,7 +28,6 @@ The next one is scheduled for Wednesday, April 04, 2018 at 03:30 PM (GMT-04:00) 
 
 ### New and noteworthy
 
-- [Structural Subtyping Opt-Out](https://github.com/Praetonus/rfcs/blob/structural-subtyping-opt-out/text/0000-structural-subtyping-opt-out.md)
+* [Structural Subtyping Opt-Out](https://github.com/Praetonus/rfcs/blob/structural-subtyping-opt-out/text/0000-structural-subtyping-opt-out.md)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

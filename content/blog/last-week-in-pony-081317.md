@@ -13,9 +13,9 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-## Pony Performance Cheatsheet
+## Pony Performance Cheat Sheet
 
-Yesterday we added the first revision of the [Pony Performance Cheatsheet](https://www.ponylang.io/reference/pony-performance-cheatsheet/) to the website. There's a **ton** of valuable information. Even if you aren't a Pony programmer, we think you'll get something out of it. And you Pony programmers who are interested in performance? It's a must read for you.
+Yesterday we added the first revision of the [Pony Performance Cheat Sheet](https://www.ponylang.io/reference/pony-performance-cheatsheet/) to the website. There's a **ton** of valuable information. Even if you aren't a Pony programmer, we think you'll get something out of it. And you Pony programmers who are interested in performance? It's a must read for you.
 
 ## Items of note
 

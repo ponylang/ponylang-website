@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Last Week's Playground
 
-This week we got a great contribution by github user [EpicEric](https://github.com/EpicEric) showing us how Lambdas work in Pony (and it also has a reverse polish notation calculator !!1!11):
+This week we got a great contribution by GitHub user [EpicEric](https://github.com/EpicEric) showing us how Lambdas work in Pony (and it also has a reverse polish notation calculator !!1!11):
 
 [Last Weeks Playground - March 25, 2018](https://is.gd/VPkxXu)
 
@@ -34,4 +34,3 @@ The next one is scheduled for Wednesday, February 28, 2018 at 03:30 PM (GMT-04:0
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

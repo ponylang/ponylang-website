@@ -10,9 +10,7 @@ date = "2020-05-17T11:54:44-04:00"
 +++
 
 Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager that could, has been deprecated in favor of our new dependency manager, Corral.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -20,7 +18,7 @@ Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager
 
 - Stable, our little dependency manager that could, has been deprecated. It's being replaced by [Corral](https://github.com/ponylang/corral). The stable repo has been archived. No additional fixes, changes, or releases will be coming. Thank you to everyone who [contributed](https://github.com/ponylang/pony-stable/graphs/contributors).
 
-- Work started to bring Pony Language support to IntelliJ platforms such as IDEA and CLion. See roadmap and vision at https://github.com/niclash/pony-idea-plugin. Assistance greatly appreciated from Java developers to bring code navigation, code completion, quick fixes, intentions, doc lookup, debugger integration and much more.
+- Work started to bring Pony Language support to IntelliJ platforms such as IDEA and CLion. See roadmap and vision at [https://github.com/niclash/pony-idea-plugin](https://github.com/niclash/pony-idea-plugin). Assistance greatly appreciated from Java developers to bring code navigation, code completion, quick fixes, intentions, doc lookup, debugger integration and much more.
 
 - Ponyc release notes are moving!
 
@@ -44,7 +42,7 @@ Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager
 
 - [RFC 65: env-root-not-optional](https://github.com/ponylang/rfcs/blob/main/text/0065-env-root-not-optional.md)
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

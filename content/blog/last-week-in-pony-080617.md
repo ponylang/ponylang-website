@@ -36,7 +36,7 @@ Yesterday, we released Pony 0.17.0. It is highlighted by support for GCC 7 on Li
 
 ## News and Blog Posts
 
-- Chris Double has written some excellent Pony blogposts. His new one included: ["Reference Capabilities, Consume and Recover in Pony"](https://bluishcoder.co.nz/2017/07/31/reference_capabilities_consume_recover_in_pony.html). If you have trouble figuring out when and how to use `consume` and `recover`, give this post a read.
+- Chris Double has written some excellent Pony blog posts. His new one included: ["Reference Capabilities, Consume and Recover in Pony"](https://bluishcoder.co.nz/2017/07/31/reference_capabilities_consume_recover_in_pony.html). If you have trouble figuring out when and how to use `consume` and `recover`, give this post a read.
 
 - Video of Sophia Drossopoulou's PLISS'17 talk "Pony: Actors and Objects" is now available. It's split into two parts. [Part 1](https://www.youtube.com/watch?v=FSu8mBm3iJs). [Part 2](https://www.youtube.com/watch?v=ypCF34YVtRE).
 

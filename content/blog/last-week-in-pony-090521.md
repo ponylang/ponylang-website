@@ -10,13 +10,11 @@ date = "2021-09-05T10:02:19-04:00"
 +++
 
 Ponyc 0.44.0 has been released! Many other ponylang projects have had releases as well.
-
 <!--more-->
-
 
 ## Items of note
 
-- Audio from the August 31st Pony development sync meeting is available: https://sync-recordings.ponylang.io/r/2021_08_31.m4a
+- Audio from the August 31st Pony development sync meeting is available: [https://sync-recordings.ponylang.io/r/2021_08_31.m4a](https://sync-recordings.ponylang.io/r/2021_08_31.m4a)
 
 ## Releases
 
@@ -47,7 +45,7 @@ See the [release notes](https://github.com/ponylang/semver/releases/tag/0.2.2) f
 - Version 0.2.1 of ponylang/templates has been released.
 See the [release notes](https://github.com/ponylang/templates/releases/tag/0.2.1) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

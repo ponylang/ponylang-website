@@ -21,11 +21,11 @@ So, as with every good story, lets start at the beginning:
 
 ### Pony 0.22.4 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.4-released/)
 
-Two small bugfixes around union types with the same elements and the `cli` package.
+Two small bug fixes around union types with the same elements and the `cli` package.
 
 ### Pony 0.22.5 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.5-released/)
 
-High-priority bugfix for systems with NUMA enabled. Upgrading is highly recommended.
+High-priority bug fix for systems with NUMA enabled. Upgrading is highly recommended.
 
 ### Pony 0.22.6 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.6-released/)
 
@@ -33,14 +33,13 @@ This one fixes a performance regression introduced in the 0.22.X series and fixe
 
 ### Pony 0.23.0 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.23.0-released/)
 
-Whoa! Minor version increase. Why is that? Breaking change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/main/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bugfix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
-
+Whoa! Minor version increase. Why is that? Breaking change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/main/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bug fix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
 
 ## New Distribution Channels: PPA and COPR
 
 We are very proud to present you two new distribution channels for both [ponyc](https://github.com/ponylang/ponyc) and [pony-stable](https://github.com/ponylang/pony-stable): We now also distribute via [Fedora COPR](https://copr.fedorainfracloud.org/coprs/ponylang/ponylang/) and [Ubuntu Launchpad PPA](https://launchpad.net/%7Eponylang/+archive/ubuntu/ponylang).
 
-### Install `ponyc`:
+### Install `ponyc`
 
 * [via COPR](https://github.com/ponylang/ponyc/#linux-using-an-rpm-package-via-copr)
 * [via PPA](https://github.com/ponylang/ponyc/#ubuntu-linux-using-a-deb-package-via-launchpad-ppa)
@@ -52,9 +51,9 @@ We are very proud to present you two new distribution channels for both [ponyc](
 
 ## News and Blog Posts
 
-- Sean Allen and Sylvan Clebsch will be doing a [Pony tutorial at CodeMesh London](https://codesync.global/conferences/code-mesh-2018/training) on *November 7th*. Attend if you can! This is peak Pony teaching!
+* Sean Allen and Sylvan Clebsch will be doing a [Pony tutorial at CodeMesh London](https://codesync.global/conferences/code-mesh-2018/training) on *November 7th*. Attend if you can! This is peak Pony teaching!
 
-- [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html) by Matthias Wahl (That's me!!!)
+* [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html) by Matthias Wahl (That's me!!!)
 
 ## Pony Development Sync
 
@@ -66,16 +65,16 @@ The next one is scheduled for Wednesday, June 13, 2018, at 03:30 PM (GMT-04:00) 
 
 ### Accepted
 
-- [Remove HTTP libraries from the standard library](https://github.com/ponylang/rfcs/pull/117)
+* [Remove HTTP libraries from the standard library](https://github.com/ponylang/rfcs/pull/117)
 
-- [Change buffered.Reader.line to return String iso^](https://github.com/ponylang/rfcs/pull/126)
+* [Change buffered.Reader.line to return String iso^](https://github.com/ponylang/rfcs/pull/126)
 
 ### Final Comment Period
 
-- [Add operators for partial integer arithmetic](https://github.com/ponylang/rfcs/pull/125)
+* [Add operators for partial integer arithmetic](https://github.com/ponylang/rfcs/pull/125)
 
-- [Formal Viewpoint Adaptation](https://github.com/ponylang/rfcs/pull/122)
+* [Formal Viewpoint Adaptation](https://github.com/ponylang/rfcs/pull/122)
 
-- [SSL ALPN](https://github.com/ponylang/rfcs/pull/127)
+* [SSL ALPN](https://github.com/ponylang/rfcs/pull/127)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!

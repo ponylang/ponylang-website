@@ -13,13 +13,11 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Recording of the September 08, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_09_03.m4a).
 
 - The [library-project-starter](https://github.com/ponylang/library-project-starter) repo has been deprecated and archived. It has been replaced with the [library-scaffolding-generator](https://github.com/ponylang/library-scaffolding-generator).
-
 
     Expect an official, non-snapshot, release of the scaffolding generator by the end of September.
 

@@ -1,5 +1,5 @@
 +++
-title = "Pony LLDB Cheatsheet"
+title = "Pony LLDB Cheat Sheet"
 +++
 
 ## Setup
@@ -21,7 +21,7 @@ title = "Pony LLDB Cheatsheet"
 
 [http://lldb.llvm.org/lldb-gdb.html](http://lldb.llvm.org/lldb-gdb.html)
 
-### Building a Debuggable Executable
+### Building an Executable You Can Debug
 
 ```bash
 % ponyc --debug
@@ -39,7 +39,7 @@ title = "Pony LLDB Cheatsheet"
 
 ```bash
 (lldb) breakpoint set --file foo.c --line 12
-(lldb) breakpoint set --name foo 
+(lldb) breakpoint set --name foo
 (lldb) b foo.c:12
 (lldb) b Main_create
 (lldb) b map.pony:73
@@ -125,7 +125,7 @@ array_pointer[index]
 
 ## Examples
 
-###  Example: Examining an object
+### Example: Examining an object
 
 ```bash
 (lldb) frame variable
@@ -190,7 +190,7 @@ You can adjust the type (`long`) to appropriately print the types that correspon
 ### Method Name Mangling
 
 {{< warning title="Future breakage possible!" >}}
-While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static. 
+While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static.
 {{< /warning >}}
 
 Method names get mangled by the compiler. The general format for the mangling is:
@@ -199,44 +199,44 @@ Method names get mangled by the compiler. The general format for the mangling is
 
 In the above:
 
-package
+`package`
 : the name of the package (for methods brought in through use expressions)
 
-type
+`type`
 : the name of the type to which the method belongs
 
-typearg1, typearg2 …
+`typearg1, typearg2` …
 : the type parameters of the method (for methods that use type parameters)
 
-rcap
+`rcap`
 : the reference capability of the method
 
-methodname
+`methodname`
 : the name of the method
 
-mangling
+`mangling`
 : a mangling string where each character indicates the type of each method parameter and the method’s return type according to the following conversion:
 
 Type | Mangling
 ---|---
-object | o
-Bool   | b
-I8 | c
-I16 | s
-I32 | i
-I64 | w
-I128 | q
-ILong | l
-ISize | z
-U8 | C
-U16 | S
-U32 | I
-U64 | W
-U128 | Q
-ULong | L
-USize | Z
-F32 | f
-F64 | d
+`object` | o
+`Bool`   | b
+`I8` | c
+`I16` | s
+`I32` | i
+`I64` | w
+`I128` | q
+`ILong` | l
+`ISize` | z
+`U8` | C
+`U16` | S
+`U32` | I
+`U64` | W
+`U128` | Q
+`ULong` | L
+`USize` | Z
+`F32` | f
+`F64` | d
 
 These rules can be used to determine the name of function in order to specify that you would like to place a breakpoint on it. You can also type `b <characters><tab>` to see a tab-complete list of all the available functions that start with `<characters>`. To set a breakpoint on a function:
 

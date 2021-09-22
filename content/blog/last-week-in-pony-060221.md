@@ -13,12 +13,11 @@ date = "2021-06-02T13:08:49-04:00"
 
 <!--more-->
 
-
 ## Items of note
 
 - @redvers has published an [XML library for pony](https://github.com/redvers/pony-libxml2). Code review, bugs, issues, feature requests, PRs etc all welcome. The library exposes both a Pony API and a C API mapping to LibXML2. Check out the repo for more info.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

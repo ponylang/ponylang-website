@@ -10,13 +10,11 @@ date = "2020-07-19T17:53:04-04:00"
 +++
 
 We have some nice improvements to the website FAQ and corral documentation. RFC 67 has been approved and implemented!
-
 <!--more-->
-
 
 ## Items of note
 
-- The recording of the July 14, 2020 Pony Development Sync is now available: https://sync-recordings.ponylang.io/r/2020_07_14.m4a
+- The recording of the July 14, 2020 Pony Development Sync is now available: [https://sync-recordings.ponylang.io/r/2020_07_14.m4a](https://sync-recordings.ponylang.io/r/2020_07_14.m4a)
 
 - Ryan Hagenson has added a new FAQ to the website on [when Pony programs terminate](https://www.ponylang.io/faq/#program-exit). It's a question that comes up semi-regularly on the [Zulip](https://ponylang.zulipchat.com/#). Thanks Ryan for adding the FAQ.
 
@@ -26,9 +24,9 @@ We have some nice improvements to the website FAQ and corral documentation. RFC 
 
 ### Approved RFCs
 
-[RFC 67](https://github.com/ponylang/rfcs/blob/main/text/0067-add-log-level-argument-to-logformatter.md), Add a log_level argument to logger.LogFormatter, was approved this week and Richard Kallos jumped right in to implement it before the week was out. Spot on Richard. Spot on.
+[RFC 67](https://github.com/ponylang/rfcs/blob/main/text/0067-add-log-level-argument-to-logformatter.md), Add a log_level argument to `logger.LogFormatter`, was approved this week and Richard Kallos jumped right in to implement it before the week was out. Spot on Richard. Spot on.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

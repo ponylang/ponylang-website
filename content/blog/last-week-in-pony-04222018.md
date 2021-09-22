@@ -34,4 +34,3 @@ The next one is scheduled for Wednesday, April 25, 2018 at 03:30 PM (GMT-04:00) 
 - [Subtyping Exclusion](https://github.com/ponylang/rfcs/pull/121)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

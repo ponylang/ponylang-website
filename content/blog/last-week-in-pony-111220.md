@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "theobutler"
-description = "The ponylang/glob package has upgraded its ponylang/regex dependency to improve the installation exprience for Windows users."
+description = "The ponylang/glob package has upgraded its ponylang/regex dependency to improve the installation experience for Windows users."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,10 +9,8 @@ title = "Last Week in Pony - November 22, 2020"
 date = "2020-11-22T22:21:22-05:00"
 +++
 
-The ponylang/glob package has upgraded its ponylang/regex dependency to improve the installation exprience for Windows users.
-
+The ponylang/glob package has upgraded its ponylang/regex dependency to improve the installation experience for Windows users.
 <!--more-->
-
 
 ## Items of note
 
@@ -26,8 +24,7 @@ The ponylang/glob package has upgraded its ponylang/regex dependency to improve 
 - Version 1.0.1 of ponylang/glob has been released.
 See the [release notes](https://github.com/ponylang/glob/releases/tag/1.0.1) for more details.
 
-
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

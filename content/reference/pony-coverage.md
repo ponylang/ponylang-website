@@ -34,4 +34,3 @@ It is recommended to use absolute file paths for the include and exclude pattern
 Lines covered are marked green, lines not covered are marked red.
 
 If lines of your code are not marked at all, it means that these parts were not part of the binary. Pony strips away parts of your code during compilation that are never reached. So in this case it might be a good idea to write tests that cover these parts of your code.
-

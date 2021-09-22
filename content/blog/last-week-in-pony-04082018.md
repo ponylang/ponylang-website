@@ -15,13 +15,11 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News And Blog Posts
 
-* There is a brand new blog post from the folks at [WallarooLabs](http://www.wallaroolabs.com/) about how their Python API works with Pony: https://blog.wallaroolabs.com/2018/04/the-snake-and-the-horse-how-wallaroos-python-api-works-with-pony/
-* A new package for *Linear Algebra in Pony* by github user dougmacdoug has been released: [linal](https://github.com/dougmacdoug/ponylang-linal) ([The original Announcement](https://pony.groups.io/g/user/topic/linal_linear_algebra/16887194?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,16887194)).
-* Due to [Github removing anonymous gist creation](https://blog.github.com/2018-02-18-deprecation-notice-removing-anonymous-gist-creation/) it was not possible to create gists on the [Pony Playground](https://playground.ponylang.io/) for some days. But paul stepped in and fixed that. Thank you!
+* There is a brand new blog post from the folks at [WallarooLabs](http://www.wallaroolabs.com/) about how their Python API works with Pony: [https://blog.wallaroolabs.com/2018/04/the-snake-and-the-horse-how-wallaroos-python-api-works-with-pony/](https://blog.wallaroolabs.com/2018/04/the-snake-and-the-horse-how-wallaroos-python-api-works-with-pony/)
+* A new package for *Linear Algebra in Pony* by GitHub user @dougmacdoug has been released: [linal](https://github.com/dougmacdoug/ponylang-linal) ([The original Announcement](https://pony.groups.io/g/user/topic/linal_linear_algebra/16887194?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,16887194)).
+* Due to [GitHub removing anonymous gist creation](https://blog.github.com/2018-02-18-deprecation-notice-removing-anonymous-gist-creation/) it was not possible to create gists on the [Pony Playground](https://playground.ponylang.io/) for some days. But Paul stepped in and fixed that. Thank you!
 
 ## Last Week's Playground
-
-
 
 This Playground link showcases a tool to execute your pony source code directly on linux systems using binfmt_misc or a shebang:
 
@@ -39,7 +37,6 @@ The next one is scheduled for Wednesday, April 11, 2018 at 03:30 PM (GMT-04:00) 
 
 ### Under active discussion
 
-- [Structural Subtyping Opt-Out](https://github.com/Praetonus/rfcs/blob/structural-subtyping-opt-out/text/0000-structural-subtyping-opt-out.md)
+* [Structural Subtyping Opt-Out](https://github.com/Praetonus/rfcs/blob/structural-subtyping-opt-out/text/0000-structural-subtyping-opt-out.md)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

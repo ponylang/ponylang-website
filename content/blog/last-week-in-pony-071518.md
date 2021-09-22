@@ -12,7 +12,6 @@ date = "2018-07-15T13:55:55-04:00"
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
-
 <!--more-->
 
 ## Items of note
@@ -29,18 +28,18 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - With the merge of [Pull Request 2910](https://github.com/ponylang/ponyc/pull/2810), we now have automated CI for non x86-64 Linux platforms.
 
-> The current working/passing new CI builds are:
+The current working/passing new CI builds are:
 
-> - arm - LLVM 3.9.1, 4.01, 5.0.1, 6.0.0
-> - armhf - LLVM 3.9.1, 4.01, 5.0.1, 6.0.0
-> - aarch64 - LLVM 3.9.1, 4.01, 5.0.1
+    - arm - LLVM 3.9.1, 4.01, 5.0.1, 6.0.0
+    - armhf - LLVM 3.9.1, 4.01, 5.0.1, 6.0.0
+    - aarch64 - LLVM 3.9.1, 4.01, 5.0.1
 
-> And currently failing new CI builds (and are either marked as allow_failures or commented out in travis.yml) are:
+And currently failing new CI builds (and are either marked as allow_failures or commented out in `travis.yml`) are:
 
-> - i686 - LLVM 3.9.1, 4.01, 5.0.1, 6.0.0 (for all LLVM versions: segfault in optimized version of stdlib tests regardless of debug or release build of pony; [Pony Issue 1576](https://github.com/ponylang/ponyc/issues/1576) has some more info)
-> - aarch64 - LLVM 6.0.0 (Some sort of uncaught signal when running the debug stdlib tests; not sure what/why as I haven't dug into it)
+    - i686 - LLVM 3.9.1, 4.01, 5.0.1, 6.0.0 (for all LLVM versions: segfault in optimized version of stdlib tests regardless of debug or release build of pony; [Pony Issue 1576](https://github.com/ponylang/ponyc/issues/1576) has some more info)
+    - aarch64 - LLVM 6.0.0 (Some sort of uncaught signal when running the debug stdlib tests; not sure what/why as I haven't dug into it)
 
-> The failing builds might be a good way for folks to get involved (although the issues may or may not be "beginner friendly").
+The failing builds might be a good way for folks to get involved (although the issues may or may not be "beginner friendly").
 
 - I've been working on material for a Pony workshop that I've been giving (and will present at ICFP in September). It is now in a state where I think it is useful, and I'd love to get feedback on it. [Pony Workshop By Andrew Turley](https://github.com/aturley/pony-workshop)
 

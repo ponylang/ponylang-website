@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Recording of the September 17, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_09_17.m4a).
@@ -21,7 +20,6 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 - Pony training with Sylvan Clebsch and Sean T. Allen at Code Mesh LDN (06 Nov 2019)! [Learn more!](https://www2.codesync.global/l/23452/2019-09-19/6qrw1b)
 
 - Andrew Turley gave an unsession about Pony at Strange Loop. There were around 40 people there and lots of them asked good questions and seemed to have a good time.
-
 
 ## RFCs
 

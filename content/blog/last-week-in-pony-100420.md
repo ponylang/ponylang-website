@@ -10,9 +10,7 @@ date = "2020-10-04T20:30:04-04:00"
 +++
 
 There's a new meeting URL for the weekly Pony developer sync meeting.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -20,7 +18,7 @@ There's a new meeting URL for the weekly Pony developer sync meeting.
 
 - There's a new [meeting url](https://us02web.zoom.us/j/81413023569?pwd=ODRrQUJKNUFzNDdydzN6WTNpMEtaZz09) for the weekly Pony developer meeting. The google calendar has been updated as well. If you are syncing with the calendar, you should be good, but we wanted to let you know just in case.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

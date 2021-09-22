@@ -42,4 +42,3 @@ The next one is scheduled for Wednesday, February 14, 2018 at 03:30 PM (GMT-05:0
 - [Remove existing case functions implementation from Pony](https://github.com/ponylang/rfcs/pull/118) has been implemented by [Ponyc PR #2542](https://github.com/ponylang/ponyc/pull/2542) and [Tutorial PR #271](https://github.com/ponylang/pony-tutorial/pull/271) and will go out with the next Pony release.
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

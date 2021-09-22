@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Pony 0.27.0 has been [released](https://www.ponylang.io/blog/2019/03/0.27.0-released/).
@@ -22,17 +21,17 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Carl Quinn, also known as @cquinn, has been invited to become a Pony committer. Everyone welcome Carl to the team!
 
-- [Version 0.2.2](https://github.com/SeanTAllen/flycheck-pony/releases/tag/0.2.2) of flycheck-pony has been released and is available via melpa and melpa-stable.
+- [Version 0.2.2](https://github.com/SeanTAllen/flycheck-pony/releases/tag/0.2.2) of flycheck-pony has been released and is available via MELPA and MELPA-stable.
 
 - The [tutorial](https://tutorial.ponylang.io/) now has built-in full-text-search.
 
-    If anyone with more experience in CSS and JS than me ( @mfelsche ) wants to lend a hand in improving the codebase, we would be enormously grateful. Think of the current setup as jquery and good intentions. How does one even set up a frontend project properly, nowadays? You know? Stuff like this.
+    If anyone with more experience in CSS and JS than me ( @mfelsche ) wants to lend a hand in improving the codebase, we would be enormously grateful. Think of the current setup as jQuery and good intentions. How does one even set up a front end project properly, nowadays? You know? Stuff like this.
 
     If you are interested in assisting, please stop by the #tutorial channel of [our Zulip community](https://ponylang.zulipchat.com).
 
 - Today, we are announcing that we are "deprecating" our IRC channel. Since we opened up a Zulip community, IRC usage has plummeted. Overall community engagement has shot up since we started the Slack. So, the core team recently made the decision to "shut down" the IRC channel. It will continue to exist to prevent squatting but we ask everyone to visit the Zulip community instead.
 
-    Get an invite to join here: https://ponylang.zulipchat.com
+    Get an invite to join here: [https://ponylang.zulipchat.com](https://ponylang.zulipchat.com)
 
 ## News and Blog Posts
 

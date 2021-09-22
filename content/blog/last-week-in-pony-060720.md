@@ -10,9 +10,7 @@ date = "2020-06-07T11:16:04-04:00"
 +++
 
 This weeks sync meeting includes discussions about type system soundness and dependency management.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -28,7 +26,7 @@ This weeks sync meeting includes discussions about type system soundness and dep
 
 - Version 0.2.0 of release-bot-action has been released. See the [release notes](https://github.com/ponylang/release-bot-action/releases/tag/0.2.0) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

@@ -10,9 +10,7 @@ date = "2020-08-02T21:46:39-04:00"
 +++
 
 Pony 0.36.0 has been released! We recommend upgrading as soon as possible.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -22,7 +20,7 @@ Pony 0.36.0 has been released! We recommend upgrading as soon as possible.
 
 - Pony 0.36.0 has been released. We recommend upgrading as soon as possible. Full details are in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.36.0).
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

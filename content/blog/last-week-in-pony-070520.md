@@ -10,9 +10,7 @@ date = "2020-07-05T18:40:04-04:00"
 +++
 
 There is a new set of public Docker images for Pony with SSL system libraries installed. These will be replacing the previous "x86-64-unknown-linux-builder-with-ssl" image.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -24,7 +22,7 @@ There is a new set of public Docker images for Pony with SSL system libraries in
 
 - Version 0.5.2 of ponylang-mode has been released. See the [release notes](https://github.com/ponylang/ponylang-mode/releases/tag/0.5.2) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

@@ -10,9 +10,7 @@ date = "2020-02-02T12:13:58-05:00"
 +++
 
 Our community Zulip has over 500 members! Ryan A. Hagenson introduces pony-bio, a bioinformatics library for the Pony ecosystem.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -20,7 +18,8 @@ Our community Zulip has over 500 members! Ryan A. Hagenson introduces pony-bio, 
 
 - The Zulip got its 500th member this week. What an awesome milestone. Baby steps to programming language domination. [Baby steps](https://www.youtube.com/watch?v=ncFCdCjBqcE).
 
-___
+---
+
 ## @rhagenson's introduction to pony-bio
 
 There is growing interest in using Pony for Bioinformatics!
@@ -36,7 +35,8 @@ My personal philosophy is that a Bioinformatics library should make the routine 
 A special :tada: thank you :tada: to @adri326, who cleaned up my mess of an initial pony-bio draft.
 
 I invite anyone to contribute to pony-bio and help shape the future of Bioinformatics in Pony! :smiley: Anyone wishing to get involved can reach out to me on [Zulip](https://ponylang.zulipchat.com).
-___
+
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

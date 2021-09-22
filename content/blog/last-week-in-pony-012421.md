@@ -10,9 +10,7 @@ date = "2021-01-24T11:18:38-05:00"
 +++
 
 The Pony community is preparing to support Apple Silicon. Version 0.3.0 of ponylang/flycheck-pony has been released.
-
 <!--more-->
-
 
 ## Releases
 
@@ -38,7 +36,7 @@ If you are interested in seeing how collective monies are spent, everything is o
 
 Thanks again to all our donors and thanks to Joe and Borja for stepping up to be "the M1 support team". We'll see you "on the M1 side" of things in a while.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

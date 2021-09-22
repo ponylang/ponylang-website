@@ -10,9 +10,7 @@ date = "2020-06-28T11:52:03-04:00"
 +++
 
 Ponyup and ponylang-mode have new releases.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -26,7 +24,7 @@ Ponyup and ponylang-mode have new releases.
 
 - Version 0.5.1 of ponylang-mode has been released. See the [release notes](https://github.com/ponylang/ponylang-mode/releases/tag/0.5.1) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

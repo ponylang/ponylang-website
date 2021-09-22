@@ -10,9 +10,7 @@ date = "2021-05-10T00:17:55-04:00"
 +++
 
 New releases are available, including ponylang/ponyc 0.41.0 and seantallen-org/lori 0.1.0. Interested in helping maintain ponyup?
-
 <!--more-->
-
 
 ## Items of note
 
@@ -20,7 +18,6 @@ New releases are available, including ponylang/ponyc 0.41.0 and seantallen-org/l
 
 - Sean T. Allen writes: Theo Butler has, up until this point, been the primary maintainer of our "make it easy to install pony tools" tool `ponyup`. Theo is finishing up his degree and hasn't had much time in the last few months for anything Pony related. We are looking for someone to step in and work with core team members Theo and Sean and become the primary maintainer of Ponyup.
 Interested? We hope so. Please drop Theo or Sean a line on the [Zulip](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony/topic/ponyup).
-
 
 ## Releases
 
@@ -45,7 +42,7 @@ See the [release notes](https://github.com/ponylang/http/releases/tag/0.4.1) for
 - Version 0.3.1 of ponylang/http_server has been released.
 See the [release notes](https://github.com/ponylang/http_server/releases/tag/0.3.1) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

@@ -9,10 +9,9 @@ title = "Last Week in Pony - January 12, 2020"
 date = "2020-01-12T20:12:04-05:00"
 +++
 
-We've had a boatload of exciting new RFC proposals in the past few weeks! Check them out at https://github.com/ponylang/rfcs/pulls.
+We've had a boatload of exciting new RFC proposals in the past few weeks! Check them out at [https://github.com/ponylang/rfcs/pulls](https://github.com/ponylang/rfcs/pulls).
 
 <!--more-->
-
 
 ## Items of note
 
@@ -27,7 +26,8 @@ We've had a boatload of exciting new RFC proposals in the past few weeks! Check 
 - [IP Address Classes](https://github.com/ponylang/rfcs/pull/158)
 
 - [Env Root Not Optional](https://github.com/ponylang/rfcs/pull/159)
-___
+
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

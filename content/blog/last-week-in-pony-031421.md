@@ -10,13 +10,11 @@ date = "2021-03-14T21:58:45-04:00"
 +++
 
 We're migrating the Pony Tutorial and Pony Patterns to MkDocs-Material. There's a new tool for interactively exploring the Pony AST from a debugger. ponylang/http has been updated.
-
 <!--more-->
-
 
 ## Items of note
 
-- The [Pony Patterns website](https://patterns.ponylang.io/) and the [Pony tutorial website](https://tutorial.ponylang.io/) have been switched to being built using Hugo to Mkdocs. With Hugo, we were maintaining our own theme. With the switch to Mkdocs, we can use [mkdocs-material](https://github.com/squidfunk/mkdocs-material) that receives far more attention and love than our little handrolled Hugo one. Take a spin and check them out. (Did we mention "dark mode"?)
+- The [Pony Patterns website](https://patterns.ponylang.io/) and the [Pony tutorial website](https://tutorial.ponylang.io/) have been switched to being built using Hugo to MkDocs. With Hugo, we were maintaining our own theme. With the switch to MkDocs, we can use [MkDocs-material](https://github.com/squidfunk/MkDocs-material) that receives far more attention and love than our little hand rolled Hugo one. Take a spin and check them out. (Did we mention "dark mode"?)
 
 - [AST explorer](https://github.com/Trundle/pony-ast-explorer) is a new tool to interactively explore ponyc's *abstract syntax tree*. It visualizes the AST in your terminal and you can zoom out to parent nodes or follow data references. And it runs directly in GDB or LLDB, so you use it to step through any AST during compilation.
 
@@ -30,7 +28,7 @@ See the [release notes](https://github.com/ponylang/readme-version-updater-actio
 
 - Version 0.5.0 of ponylang/release-bot-action has been released. See the [release notes](https://github.com/ponylang/release-bot-action/releases/tag/0.5.0) for more details.
 
-___
+---
 
 @EpicEric writes:
 
@@ -38,7 +36,7 @@ Hi! We're working on migrating the Pony Tutorial and Pony Patterns to MkDocs-Mat
 
 As a base, you can use the [HighlightJS implementation of a Pony highlighter](https://github.com/highlightjs/highlight.js/blob/master/src/languages/pony.js), which is more up-to-date and still used/tested today, eg. for library docgen.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

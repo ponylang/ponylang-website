@@ -13,7 +13,7 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-## News and Blogposts
+## News and Blog Posts
 
 - [Gordon](https://github.com/kulibali) wrote a blog post about his [Configuration for Debugging the Pony Compiler in Visual Studio Code on Windows](http://balafon.net/?p=1683)!
 
@@ -32,4 +32,3 @@ This week we had 2 talks about pony:
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

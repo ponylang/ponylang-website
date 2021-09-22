@@ -13,14 +13,13 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
-- James Bracey wrote to the user list to let us all know about a [Pony Cassandra client](https://github.com/waratuman/pony-cql) he started. It's in early stages and it doesn't sound like he's planning on doing more work at this time, but he wanted to let folks know. Full mailing list message can be viewed at: https://pony.groups.io/g/user/message/1577
+- James Bracey wrote to the user list to let us all know about a [Pony Cassandra client](https://github.com/waratuman/pony-cql) he started. It's in early stages and it doesn't sound like he's planning on doing more work at this time, but he wanted to let folks know. Full mailing list message can be viewed at: [https://pony.groups.io/g/user/message/1577](https://pony.groups.io/g/user/message/1577)
 
 ## Talks
 
-- Kristoffer Grönlunds talk [Everyone gets a Pony!](https://linux.conf.au/) at  linux.conf.au on January 24, 2018 has been recorded and [posted to Youtube](https://www.youtube.com/watch?v=e0197aoljGQ). It is also listed on [Planet Pony](https://www.ponylang.io/community/planet-pony/).
+- Kristoffer Grönlund's talk [Everyone gets a Pony!](https://linux.conf.au/) at Linux Conf Australia on January 24, 2018 has been recorded and [posted to Youtube](https://www.youtube.com/watch?v=e0197aoljGQ). It is also listed on [Planet Pony](https://www.ponylang.io/community/planet-pony/).
 
 ## Pony Development Sync
 
@@ -47,4 +46,3 @@ The next one is scheduled for Wednesday, January 31, 2018 at 03:30 PM (GMT-05:00
 - [Class and Actor field Docstrings](https://github.com/ponylang/rfcs/pull/115)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

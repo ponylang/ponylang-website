@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Video of Sylvan's [Curry On](http://www.curry-on.org/2017/) talk ["Pony: 714 Days Later"](https://www.youtube.com/watch?v=HGDSnOZaU7Y) is now available. The talk is intended to be a followup to [his first Curry On talk about Pony](https://www.youtube.com/watch?v=KvLjy8w1G_U). "Pony: 714 Days Later" stands on its own. However, it is interesting to watch both and get a feel for what has changed with Pony over the two intervening years.

@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "theobutler"
-description = "Version 0.43.0 of ponylang/ponyc has been released. A video of the 10th edition of the Pony Virtual User Group (VUG) is available. libressl and openssl builder Docker images have been updated."
+description = "Version 0.43.0 of ponylang/ponyc has been released. A video of the 10th edition of the Pony Virtual User Group (VUG) is available. LibreSSL and OpenSSL builder Docker images have been updated."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,17 +9,15 @@ title = "Last Week in Pony - July 18, 2021"
 date = "2021-07-18T17:39:31-04:00"
 +++
 
-Version 0.43.0 of ponylang/ponyc has been released. A video of the 10th edition of the Pony Virtual User Group (VUG) is available. libressl and openssl builder Docker images have been updated.
-
+Version 0.43.0 of ponylang/ponyc has been released. A video of the 10th edition of the Pony Virtual User Group (VUG) is available. LibreSSL and OpenSSL builder Docker images have been updated.
 
 <!--more-->
-
 
 ## Items of note
 
 - Audio from the [July 13, 2021](https://sync-recordings.ponylang.io/r/2021-07-13.m4a) Pony development sync call is available.
 
-- On July 13th the 10th edition of the Pony Virtual User Group (VUG) took place. Check out the video here: https://vimeo.com/574893226
+- On July 13th the 10th edition of the Pony Virtual User Group (VUG) took place. Check out the video here: [https://vimeo.com/574893226](https://vimeo.com/574893226)
 
 - The [readme-version-updater-action](https://github.com/ponylang/readme-version-updater-action) has been deprecated. Its functionality is now available as a subcommand in the [release-bot-action](https://github.com/ponylang/release-bot-action).
 
@@ -41,7 +39,7 @@ See the [release notes](https://github.com/ponylang/release-bot-action/releases/
 - Version 0.2.2 of ergl/pony-protobuf has been released.
 See the [release notes](https://github.com/ergl/pony-protobuf/releases/tag/0.2.2) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

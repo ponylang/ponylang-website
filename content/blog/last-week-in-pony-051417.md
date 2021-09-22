@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - The Alpine Linux folks have offered to make Pony distributable via their normal channels. In order to take advantage of this, we need someone to step forward as a maintainer. Could it be you? We certainly hope so. See [the comments on PR #1844](https://github.com/ponylang/ponyc/pull/1844) for more details. If you are interested, drop us a line on the [developer mailing list](https://pony.groups.io/g/dev), [on twitter](https://twitter.com/ponylang), or leave a comment on [PR #1844](https://github.com/ponylang/ponyc/pull/1844).
@@ -22,9 +21,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - At a previous developer sync meeting, Theo Butler volunteered to take on the task of writing up a Pony style guide based on existing patterns in the standard library. He's opened a [PR](https://github.com/ponylang/ponyc/pull/1894) for feedback.
 
-- Carl Quinn opened a [PR](https://github.com/ponylang/ponyc/pull/1897) for initial feedback on [RFC #38](https://github.com/ponylang/rfcs/blob/main/text/0038-cli-format.md). It aims to replace the existing `Options` package and provide a standard command line argument syntax for Pony tools and other programs, and a corresponding package named cli to be provided in the standard library.
+- Carl Quinn opened a [PR](https://github.com/ponylang/ponyc/pull/1897) for initial feedback on [RFC #38](https://github.com/ponylang/rfcs/blob/main/text/0038-cli-format.md). It aims to replace the existing `Options` package and provide a standard command line argument syntax for Pony tools and other programs, and a corresponding package named `cli` to be provided in the standard library.
 
-- [Audio from the May 10, 2017 Pony Development Sync](https://sync-recordings.ponylang.io/r/2017_05_10.m4a) is available for your listening pleasure. We had a light attendence and as such, the meeting only ran about 30 minutes instead of the usual 60.
+- [Audio from the May 10, 2017 Pony Development Sync](https://sync-recordings.ponylang.io/r/2017_05_10.m4a) is available for your listening pleasure. We had a light attendance and as such, the meeting only ran about 30 minutes instead of the usual 60.
 
 ## News and Blog Posts
 

@@ -13,7 +13,7 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-## We need you!
+## We need you
 
 We could use help moving Pony forward. Interested in helping? Here's a few ideas:
 
@@ -31,13 +31,11 @@ And there's a ton more as well. Stop by the [developer mailing list](https://pon
 
 - Work is underway to vendor LLVM into Pony. As you might know, the only version of LLVM listed as support by the Pony team is LLVM 3.9.1. LLVM 5 and 6 are experimental only. Why? LLVM 5 and 6 have bugs that we need to get fixed. All-in-all, our current LLVM support story isn't working out well. During the [April 18th Pony developer sync call](https://sync-recordings.ponylang.io/r/2018_04_18.m4a), we decided that we needed to support a single version of LLVM that we could patch and periodically upstream. This would make Pony's LLVM usage a lot more like the model used by Rust. Interested in helping with the effort? Wink has been working on the effort for a while. Stop by his [pull request](https://github.com/ponylang/ponyc/pull/2663) and see how you might assist.
 
-
 ## Pony Development Sync
 
 The Pony developers met on their weekly sync call on Wednesday, April 25, 2018. Check out the [recorded audio](https://sync-recordings.ponylang.io/r/2018_04_25.m4a).
 
 The next one is scheduled for Wednesday, May 2, 2018, at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
-
 
 ## RFCs
 
@@ -46,4 +44,3 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 ### Approved RFCs
 
 - [Subtyping Exclusion](https://github.com/ponylang/rfcs/blob/main/text/0054-subtyping-exclusion.md)
-

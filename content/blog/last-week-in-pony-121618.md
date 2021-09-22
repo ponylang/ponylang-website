@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Audio for the December 11, 2018 Pony sync is [here](https://sync-recordings.ponylang.io/r/2018_12_11.m4a)
@@ -22,11 +21,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - The Advent of Code continues!
 
-  > [kulibali Advent of Code](https://github.com/kulibali/advent_of_code_2018)
-
-  > [aturley Advent of Code](https://github.com/aturley/advent-of-code-2018)
-
-  > [aturley's stream on twitch](https://www.twitch.tv/aturls)
+  - [kulibali Advent of Code](https://github.com/kulibali/advent_of_code_2018)
+  - [aturley Advent of Code](https://github.com/aturley/advent-of-code-2018)
+  - [aturley's stream on twitch](https://www.twitch.tv/aturls)
 
 ## RFCs
 

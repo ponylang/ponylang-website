@@ -1,4 +1,4 @@
-# How to...
+# How to administer this repository
 
 This document contains an overview of how to do various Ponylang.io website tasks.
 
@@ -40,12 +40,12 @@ Remember to set up your author information before creating a "Last Week in Pony"
 
 Although you can create a new "Last Week in Pony" by hand, we recommend installing Hugo. Please see [Contributing](CONTRIBUTING.md) for more information on basic development setup and processes.
 
-1. Checkout the `main` branch and make sure you are up to date.
-2. Create a new branch for the "Last Week in Pony". If you were creating one for June 18, 2017 you would run:
+- Checkout the `main` branch and make sure you are up to date.
+- Create a new branch for the "Last Week in Pony". If you were creating one for June 18, 2017 you would run:
 
 `git checkout -b last-week-in-pony-061817`
 
-3. Run Hugo to generate a new blog entry from the "Last Week in Pony" archetype:
+- Run Hugo to generate a new blog entry from the "Last Week in Pony" archetype:
 
 `hugo new --kind lwip blog/last-week-in-pony-061817.md`
 
@@ -55,7 +55,7 @@ Note that the date of the post is part of the file name. It should be in the for
 
 Each generated blog post includes some Hugo metadata at the top. It looks something like:
 
-```
+```markdown
 draft = false
 author = "Author Name"
 description = "Last week's Pony news, reported this week."
@@ -100,12 +100,12 @@ Each pony release is accompanied by a corresponding "Release" blog post. The pur
 
 Although you can create a new "Release" by hand, we recommend installing Hugo. Please see [Contributing](CONTRIBUTING.md) for more information on basic development setup and processes.
 
-1. Checkout the `main` branch and make sure you are up to date.
-2. Create a new branch for the "Release". If you were creating one for the release of 0.15.0:
+- Checkout the `main` branch and make sure you are up to date.
+- Create a new branch for the "Release". If you were creating one for the release of 0.15.0:
 
 `git checkout -b release-0.15.0`
 
-3. Run Hugo to generate a new  entry from the "Release" archetype:
+- Run Hugo to generate a new  entry from the "Release" archetype:
 
 `hugo new --kind release blog/0.15.0-released.md`
 
@@ -115,7 +115,7 @@ Note that the version released is part of the file name.
 
 Each generated blog post includes some Hugo metadata at the top. It looks something like:
 
-```
+```markdown
 draft = false
 author = "Author Name"
 categories = [

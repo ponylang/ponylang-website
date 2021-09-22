@@ -10,9 +10,7 @@ date = "2021-01-31T19:03:50-05:00"
 +++
 
 Version 0.38.3 of ponyc and 0.4.1 of corral have been released!
-
 <!--more-->
-
 
 ## Items of note
 
@@ -35,7 +33,7 @@ See the [release notes](https://github.com/ponylang/library-documentation-action
 - Version 0.1.2 of ponylang/library-documentation-action has been released.
 See the [release notes](https://github.com/ponylang/library-documentation-action/releases/tag/0.1.2) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

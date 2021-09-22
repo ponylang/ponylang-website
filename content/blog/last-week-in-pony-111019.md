@@ -11,7 +11,6 @@ date = "2019-11-10T11:09:26-05:00"
 Last week has seen a ton of improvements to our CI and release automation thanks to Sean T. Allen. We have also been working toward making ponyup the default for installing and managing the Pony compiler and tools. Three new members have been inducted into the Pony core team.
 <!--more-->
 
-
 ## Items of note
 
 - Audio from the November 5, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_11_05.m4a).
@@ -20,7 +19,7 @@ Last week has seen a ton of improvements to our CI and release automation thanks
 
 - This week, the Pony Zulip crossed the 400 member barrier. 500 members, here we come! Not a member already? It's the place to get help with Pony and as a bonus, there's streams where you can follow along with Pony development conversations. Can't beat that with a stick! [Come join us](https://ponylang.zulipchat.com/#).
 
-## 3 New Core Team Members!
+## 3 New Core Team Members
 
 Pony gets 3 new core team members!
 
@@ -32,7 +31,7 @@ And last, but not least, Gordon Tisher is joining the core team. Most folks usua
 
 Welcome aboard @theodus, @aturley, and @kulibali!
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

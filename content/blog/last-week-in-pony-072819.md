@@ -11,8 +11,8 @@ date = "2019-07-28T14:03:00+02:00"
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
-<!--more-->
 
+<!--more-->
 
 ## Items of note
 
@@ -38,7 +38,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     Hi all, I'm looking at setting up an all day "learn you some Pony" workshop some weekend in October in NYC. I would be myself and Jonathan Brown running the workshop, if you are interested in attending, let me know. I'm trying to gauge interest. You can reach me on the [Pony Zulip](https://ponylang.zulipchat.com/) or via email at [sean@monkeysnatchbanana.com](mailto:sean@monkeysnatchbanana.com)
 
-- Check out Josh Horwitz's talk on Pony from Jun 29th, 2019 at Detroit Tech Watch conference: https://www.youtube.com/watch?v=WlGSpYFntUU
+- Check out Josh Horwitz's talk on Pony from Jun 29th, 2019 at Detroit Tech Watch conference: [https://www.youtube.com/watch?v=WlGSpYFntUU](https://www.youtube.com/watch?v=WlGSpYFntUU)
 
 ## RFCs
 

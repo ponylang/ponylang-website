@@ -25,5 +25,3 @@ The examples that come with Pony are often not idiomatic. One of the ways people
 ## Improving the Tutorial
 
 There's plenty that people bring up as needing improvement/missing from the Tutorial.
-
-If you are interested in working on this project, please contact Sean T Allen <sean@monkeysnatchbanana.com> 

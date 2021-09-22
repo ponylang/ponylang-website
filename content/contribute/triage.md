@@ -3,7 +3,7 @@ title = "Triaging Ponyc"
 +++
 ## For anyone
 
-The vast majority of the triaging process can be done by any member of the community, all of the following steps require no special commit access to the `ponyc` repo.
+The vast majority of the triaging process can be done by any member of the community, all of the following steps require no special commit access to the `ponyc` repository.
 
 ### Request missing relevant information
 
@@ -14,9 +14,8 @@ Commonly needed information includes:
 * Source code that demonstrates the problem
 * Did they install from a package or source?
 * What version or commit are they using?
-* What platform are they on? Linux, FreeBSD, OSX?
+* What platform are they on? FreeBSD? Linux? macOS? Windows?
 * What version of the platform? If Linux, what distribution?
-* What version of LLVM are they using?
 * What compiler including version?
 * What linker including version?
 * If they built from source, what options did they use?
@@ -30,12 +29,12 @@ Mind you, answers to every one of the questions aren't required. As you become a
 
 Can you reproduce? It's an important first step. A user is going to be reporting a problem on a specific platform. Can you reproduce using that platform? Can you reproduce on another?
 
-If a Debian Linux user reports a bug, it's very helpful to know if it impacts other platforms such as OSX. We want to find out how broad the bug is based on any of the following relevant factors:
+If a Debian Linux user reports a bug, it's very helpful to know if it impacts other platforms such as Windows. We want to find out how broad the bug is based on any of the following relevant factors:
 
 * OS, distribution, and version
 * LLVM version
 * Pony version
-* Compiler version 
+* Compiler version
 * Linker version
 * CPU
 
@@ -60,10 +59,10 @@ Through the above process, you can often find when a regression was introduced. 
 
 ### Find related issues
 
-There might be existing open or closed issues that relevant to this issue. 
+There might be existing open or closed issues that relevant to this issue.
 
 * If the problem has already been fixed in a later version, you can note that on the issue.
-* If workaround documentation exists, point the user to that documentation. 
+* If workaround documentation exists, point the user to that documentation.
 * If there are open (or closed) issues that you think are similar and they might shed light on the issue, note those issues (with issue numbers).
 
 ### @ domain experts
@@ -72,11 +71,11 @@ Do you know of someone who should be able to help diagnose the problem? @ them o
 
 ## For committers
 
-There's only one additional step that committers can perform to help move the triaging process forward. Provide the proper labels on the issue. Below, we discuss the important triaging related labels. 
+There's only one additional step that committers can perform to help move the triaging process forward. Provide the proper labels on the issue. Below, we discuss the important triaging related labels.
 
-### needs discussion during sync
+### needs discussion
 
-The agenda for each Pony development weekly sync is determined by looking for any issues, PRs etc that have the "needs discussion during sync" label. Anytime something happens with an issue that makes it one we should discuss during the sync, apply this label. By the same token, if an update was made to the issue that eliminates the need for discussion, remove the label.
+The agenda for each Pony development weekly sync is determined by looking for any issues, Pull Requests etc that have the "needs discussion" label. Anytime something happens with an issue that makes it one we should discuss during the sync, apply this label. By the same token, if an update was made to the issue that eliminates the need for discussion, remove the label.
 
 Common reasons for adding the label include:
 
@@ -98,13 +97,13 @@ _bug - needs investigation_: the cause of the bug is unknown. If the issue needs
 
 _bug - needs discussion_: the cause of the bug is known and discussion is needed to come up with a fix. If the discussion should happen during the sync as well as on the issue, the "needs discussion during sync" label should be added as well.
 
-_bug - ready for work_: someone could start working on fixing the issue. 
+_bug - ready for work_: someone could start working on fixing the issue.
 
-_bug - in progress_: someone has already started working on fixing the issue. 
+_bug - in progress_: someone has already started working on fixing the issue.
 
 ### enhancement - *
 
-The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It's important to explain why the enhancement requires an RFC. Be sure to add the "turn into rfc" label as well. If the enhancement doesn't require an RFC, the correct "enhancement - *" label should be applied. 
+The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It's important to explain why the enhancement requires an RFC.
 
 _enhancement - needs discussion_ should be applied if an additional conversation is required. If that discussion should happen not just on the issue but during the sync call, be sure to add the "needs discussion during sync" label.
 
@@ -120,7 +119,7 @@ _complexity: major effort_ should be applied if the issue is one where even some
 
 ### triggers release
 
-Should be applied if the resolution of the issue triggers a Pony release. This label is generally only applied to severe bugs. 
+Should be applied if the resolution of the issue triggers a Pony release. This label is generally only applied to severe bugs.
 
 Generally, most issues will not have triggers release set.
 

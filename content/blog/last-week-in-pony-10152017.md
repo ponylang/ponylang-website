@@ -26,9 +26,8 @@ Call this a bug fix release. Lots of bugs fixed. Runtime bugs, compiler bugs, bu
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### RFC issues opened
-  
+
 Most of the time, an RFC starts its life as a pull request. Sometimes though, we open issues to get more input when we aren't sure enough about something to do an RFC. We expect that RFCs will often change from when they are opened. You can think of issues for RFCS as "hey, let's talk about this". Last week, we had two:
 
 - [Type parameter constraint syntax for safe matches](https://github.com/ponylang/rfcs/issues/105)
 - [Add docstrings for class/actor members](https://github.com/ponylang/rfcs/issues/106)
-

@@ -31,9 +31,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 > I have been working on a Win32 wrapper over the last couple weeks, and it's far enough along, that I thought I would mention it here.
 > There is a lot of boilerplate you need to get working, just to display a window in the Win32 API, and so this code does it all for you. I've got it to a point where you can create basic windows and controls now, and it has an example on how you can do message and event handling (compile with ponyc -d to see the messages). There is an example of drawing to the window using Cairo too (the required DLL is in the winCairo directory), and I got wide character support working as well. So it should be enough for anyone interested in playing around with the API. I'll be wrapping more of it as time goes on.
-
-> https://github.com/BrianOtto/pony-win32 (ISC License)
-
+>
+> [https://github.com/BrianOtto/pony-win32](https://github.com/BrianOtto/pony-win32) (ISC License)
+>
 > Cheers!
 > Brian
 

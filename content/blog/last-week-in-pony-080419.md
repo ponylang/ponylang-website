@@ -13,14 +13,13 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Recording of the July 30, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_07_30.m4a).
 
 - [Version 0.3.0](https://github.com/ponylang/changelog-tool/releases/tag/0.3.0) of the Pony [changelog-tool](https://github.com/ponylang/changelog-tool) has been released.
 
-- [Version 0.2.2](https://github.com/ponylang/http/releases/tag/0.2.2) of the [http library](https://github.com/ponylang/http) has been released. This release contains a bugfix and compatibility with ponyc 0.30.0.
+- [Version 0.2.2](https://github.com/ponylang/http/releases/tag/0.2.2) of the [http library](https://github.com/ponylang/http) has been released. This release contains a bug fix and compatibility with ponyc 0.30.0.
 
 - @rkallos is now a Pony committer! Welcome to the team Richard.
 
@@ -44,7 +43,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     The nightlies are available in this temporary testing repo and once will be moved to a more official one later. In the meantime, please help out and give em a try:
 
-    https://cloudsmith.io/~main-pony/repos/pony-nightlies/packages/
+    [https://cloudsmith.io/~main-pony/repos/pony-nightlies/packages/](https://cloudsmith.io/~main-pony/repos/pony-nightlies/packages/)
 
     New packages are uploaded every day around midnight UTC.
 
@@ -56,7 +55,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     main.actor needs you! Yes, you! (If you are a JS/CSS wielding lover of Pony)
 
-    main.actor, our package discovery website (kind of like Ruby gems) is going to go live with an early version in August. The site is powered by a gatsby website that @ChristopherBiscardi put together. It's an excellent starting point. Going forward, we are going to want to add a lot of additional functionality and features.
+    main.actor, our package discovery website (kind of like Ruby gems) is going to go live with an early version in August. The site is powered by a Gatsby website that @ChristopherBiscardi put together. It's an excellent starting point. Going forward, we are going to want to add a lot of additional functionality and features.
 
     Most of the active Pony committers are not JavaScript people. We could really use a couple of CSS/JavaScript people who are interested in becoming Pony committers and working on main.actor. If you are interested, let's talk. We really need you. You will be making a massive contribution to the Pony community and go down in history as a righteous person. I know there's got to be at least a couple of CSS/JS folks here who want to join in.
 
@@ -64,7 +63,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- John Mumm's CurryOn London talk "Safely Sharing Data: Reference Capabilities in Pony" has gone up on YouTube here https://www.youtube.com/watch?v=u1JfYa413fY.
+- John Mumm's CurryOn London talk "Safely Sharing Data: Reference Capabilities in Pony" has gone up on YouTube here [https://www.youtube.com/watch?v=u1JfYa413fY](https://www.youtube.com/watch?v=u1JfYa413fY).
 
 ## RFCs
 

@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Audio from the October 1st, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_10_01.m4a). This call is a little different than our usual sync calls. We didn't discuss any open issues, PRs, and whatnot. Instead, we discussed some issues around how we are going to handle LLVM going forward.

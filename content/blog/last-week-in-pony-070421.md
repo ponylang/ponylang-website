@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "theobutler"
-description = "Pony 0.41.2 of ponylang/ponyc has been released! Andy Turley is leaving the core team. There's a new RFC related to the FilePath constructor and AmbientAuth."
+description = "Pony 0.41.2 of ponylang/ponyc has been released! Andy Turley is leaving the core team. There's a new RFC related to the `FilePath` constructor and AmbientAuth."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,11 +9,9 @@ title = "Last Week in Pony - July 4, 2021"
 date = "2021-07-04T10:32:33-04:00"
 +++
 
-Pony 0.41.2 of ponylang/ponyc has been released! Andy Turley is leaving the core team. There's a new RFC related to the FilePath constructor and AmbientAuth.
-
+Pony 0.41.2 of ponylang/ponyc has been released! Andy Turley is leaving the core team. There's a new RFC related to the `FilePath` constructor and AmbientAuth.
 
 <!--more-->
-
 
 ## Items of note
 
@@ -30,15 +28,15 @@ See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.41.2) f
 
 ### New RFCs
 
-- [Split FilePath constructor to guarantee constructor with AmbientAuth](https://github.com/ponylang/rfcs/pull/190)
+- [Split `FilePath` constructor to guarantee constructor with `AmbientAuth`](https://github.com/ponylang/rfcs/pull/190)
 
 ---
 
 Andy Turley writes:
 
-Hey all, I wanted to announce that I'm leaving the Pony core team. I've been working with Pony since early 2016 and it's a great language and great community. But my job has shifted away from using Pony, and I've had some events in my life over the last year or so (some good, some less good) that have impacted my ability to commit the time that I think is necessary to being a core team member. I'll still be in zulip, and I'll try to contribute to Pony where I can. I'll always be an evangelist, and if we're ever in the same place I'd love to talk to you about refcaps and actors and all the other good stuff. Thank you all for making this a great experience.
+Hey all, I wanted to announce that I'm leaving the Pony core team. I've been working with Pony since early 2016 and it's a great language and great community. But my job has shifted away from using Pony, and I've had some events in my life over the last year or so (some good, some less good) that have impacted my ability to commit the time that I think is necessary to being a core team member. I'll still be in Zulip, and I'll try to contribute to Pony where I can. I'll always be an evangelist, and if we're ever in the same place I'd love to talk to you about refcaps and actors and all the other good stuff. Thank you all for making this a great experience.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

@@ -21,8 +21,6 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - There a new release coming soon but we are currently waiting to close out a couple of issues. See [https://github.com/ponylang/ponyc/issues/1976](https://github.com/ponylang/ponyc/issues/1976) for more details.
 
-
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-
