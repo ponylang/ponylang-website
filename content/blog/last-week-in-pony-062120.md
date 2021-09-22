@@ -10,9 +10,7 @@ date = "2020-06-21T13:11:43-04:00"
 +++
 
 We have new releases for ponyup, ponylang-mode, and release-notes-bot-action.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -26,7 +24,7 @@ We have new releases for ponyup, ponylang-mode, and release-notes-bot-action.
 
 - Version 0.1.0 of release-notes-bot-action has been released. See the [release notes](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.1.0) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

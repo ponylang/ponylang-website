@@ -10,9 +10,7 @@ date = "2021-03-21T19:19:25-04:00"
 +++
 
 Version 0.6.3 of ponylang/ponyup has been released. The first recording is available for implementing RoaringBitmap in Pony.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -26,15 +24,15 @@ See the [release notes](https://github.com/ponylang/ponyup/releases/tag/0.6.2) f
 - Version 0.6.3 of ponylang/ponyup has been released.
 See the [release notes](https://github.com/ponylang/ponyup/releases/tag/0.6.3) for more details.
 
-___
+---
 
 @mfelsche writes:
 
-We started our first session of implementing the [RoaringBitmap](https://www.roaringbitmap.org/) in Pony. We recorded the whole thing, where you can see me type. We didnt get much done, but covered quite a few pony basics: [The recording](https://sync-recordings.ponylang.io/roaring-bitmap/2021_03_18.mp4).
+We started our first session of implementing the [RoaringBitmap](https://www.roaringbitmap.org/) in Pony. We recorded the whole thing, where you can see me type. We didn't get much done, but covered quite a few pony basics: [The recording](https://sync-recordings.ponylang.io/roaring-bitmap/2021_03_18.mp4).
 
-We are planning on doing another session next thursday, March the 25th at 10 PM CET, where we lay some more groundwork and then branch out for working on it in parallel. So we gonna code and we gonna plan. Join our [Zulip Stream](https://ponylang.zulipchat.com/#narrow/stream/190363-projects/topic/RoaringBitmap) for more info!
+We are planning on doing another session next Thursday, March the 25th at 10 PM CET, where we lay some more groundwork and then branch out for working on it in parallel. So we gonna code and we gonna plan. Join our [Zulip Stream](https://ponylang.zulipchat.com/#narrow/stream/190363-projects/topic/RoaringBitmap) for more info!
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

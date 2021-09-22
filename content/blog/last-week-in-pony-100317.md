@@ -15,29 +15,29 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.19.2 Released
 
-On sunday Pony 0.19.2 has been released. It is a bugfix release which contains a fix for a high priority bug that leads to segfaults in serialization. Upgrading is highly recommended. Have a look at the [release blog post](https://www.ponylang.io/blog/2017/09/0.19.2-released/)
+On sunday Pony 0.19.2 has been released. It is a bug fix release which contains a fix for a high priority bug that leads to segfaults in serialization. Upgrading is highly recommended. Have a look at the [release blog post](https://www.ponylang.io/blog/2017/09/0.19.2-released/)
 
-## Wallarooooooooo!
+## Wallaroo
 
 The folks over at WallarooLabs have open sourced their *"ultrafast and elastic data processing engine"* Wallaroo. As many of you might have heard, Wallaroo is written in Pony. It's an excellent chance to explore a real world Pony codebase.
 
-The release announcement is here: https://blog.wallaroolabs.com/2017/09/open-sourcing-wallaroo/
+The release announcement is here: [https://blog.wallaroolabs.com/2017/09/open-sourcing-wallaroo/](https://blog.wallaroolabs.com/2017/09/open-sourcing-wallaroo/)
 
-And the GitHub repo is here: https://github.com/wallaroolabs/wallaroo
+And the GitHub repo is here: [https://github.com/wallaroolabs/wallaroo](https://github.com/wallaroolabs/wallaroo)
 
 ## Items of note
 
-- Stewart Gebbie announced a StatsD client for Pony on the [mailing list](https://pony.groups.io/g/user/message/1388). 
+- Stewart Gebbie announced a StatsD client for Pony on the [mailing list](https://pony.groups.io/g/user/message/1388).
 
   > This library provides the basic mechanisms for producing StatsD telemetry from Pony programme.
-  
-  Go check it out on [Github](https://github.com/sgebbie/pony-statsd).
-  
+
+  Go check it out on [GitHub](https://github.com/sgebbie/pony-statsd).
+
 - The Pony Kafka client [pony-kafka](https://github.com/wallaroolabs/pony-kafka) from WallarooLabs has been updated to be compatible with the latest ponyc.
 
 - Another week, another pony development sync call. The call from *September 27th 2017* has been recorded for your listening pleasure. Get the audio [here](https://sync-recordings.ponylang.io/r/2017_09_27.m4a). It features a Sean being Sean again and a light-headed promise to start a *Guided Tour of the Standard Library* in the tutorial.
 
-- We just discovered Paul Liétars report on formalizing generics in Pony is available online from imperial college. [Check it out](http://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/student-projects/Paul-Li%C3%A9tar---Formalizing-Generics-for-Pony.pdf)
+- We just discovered Paul Liétar's report on formalizing generics in Pony is available online from imperial college. [Check it out](http://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/student-projects/Paul-Li%C3%A9tar---Formalizing-Generics-for-Pony.pdf)
 
 ## RFCs
 

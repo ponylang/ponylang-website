@@ -8,7 +8,6 @@ Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com
 
 <a href="https://opencollective.com/ponyc#backers" target="_blank"><img src="https://opencollective.com/ponyc/backers.svg?width=890"></a>
 
-
 ## Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/ponyc#sponsor)]
@@ -25,6 +24,7 @@ Support this project by becoming a sponsor. Your logo will show up here with a l
 <a href="https://opencollective.com/ponyc/sponsor/9/website" target="_blank"><img src="https://opencollective.com/ponyc/sponsor/9/avatar.svg"></a>
 
 ## Services Sponsors
+
 The following companies kindly donate resources to Pony. We are incredibly grateful for their support. We love using their services and think you would as well.
 
 ### 1Password
@@ -46,4 +46,3 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 ### Zulip
 
 [Zulip](https://zulipchat.com/) powers and hosts [our team chat service](https://ponylang.zulipchat.com/), thanks to their [open-source hosting plan](https://zulipchat.com/for/open-source/). We're very happy with it!
-

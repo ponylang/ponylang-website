@@ -13,14 +13,13 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Audio for the March 7, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_03_07.m4a).
 
 - We have a new release for [ponycheck](https://github.com/mfelsche/ponycheck), the property-based-testing library for pony! Check out the [release notes](https://github.com/mfelsche/ponycheck/releases/tag/0.5.0).
 
-- There's an IRCd with [IRCv3](https://ircv3.net/) features being developed: https://github.com/CandleCandle/posse. Some of the core features exist, and work, go try it out for yourself if you're interested!
+- There's an IRCd with [IRCv3](https://ircv3.net/) features being developed: [https://github.com/CandleCandle/posse](https://github.com/CandleCandle/posse). Some of the core features exist, and work, go try it out for yourself if you're interested!
 
 ## RFCs
 

@@ -7,7 +7,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 * [Pony VUG #11: Pony via a GitHub REST API](https://vimeo.com/592434464)
 * [Pony VUG #10: Pony vs. Rust - How they both drive you mad at compile time](https://vimeo.com/574893226)
-* [Pony Vug #9: CastXML2Pony, Automatically(ish) building Pony libraries to wrap C-FFI calls](https://vimeo.com/563948627)
+* [Pony VUG #9: CastXML2Pony, Automatically(ish) building Pony libraries to wrap C-FFI calls](https://vimeo.com/563948627)
 
 ## 2020
 
@@ -31,7 +31,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [Introduction to the Pony programming language](https://opensource.com/article/18/5/pony)
 * [How to train your Pony: Introduction](https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/)
 * Video: [The Wide World of Actors or, Can I Have an Erlang Pony?](https://www.youtube.com/watch?v=uv-3ptTD8hg&feature=youtu.be) and also the [talk's slides (PDF)](https://github.com/slfritchie/wide-world-of-actors)
-* Video: [Everyone gets a pony! (linux.conf.au)](https://www.youtube.com/watch?v=e0197aoljGQ)
+* Video: [Everyone gets a pony!](https://www.youtube.com/watch?v=e0197aoljGQ)
 
 ## 2017
 
@@ -55,24 +55,24 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [Pony: Co-designing a Type-system and a Runtime (QCon London)](https://www.infoq.com/presentations/pony-type-system)
 * [Learning Pony](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/)
 * [An Early History of Pony](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/)
-* [Pony Vug #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony](https://vimeo.com/202387915)
+* [Pony VUG #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony](https://vimeo.com/202387915)
 * [Découverte du langage Pony](https://zestedesavoir.com/articles/1329/decouverte-du-langage-pony/)
 
 ## 2016
 
 * [Pony Capabilities made simple](https://soyyomakesgames.wordpress.com/2016/10/10/ponys-capabilities-made-simple/)
-* [Pony VUG #7: Nick Pruhs: Designing an Actor Model Game Architecture with Pony ](https://vimeo.com/187451870)
+* [Pony VUG #7: Nick Pruhs: Designing an Actor Model Game Architecture with Pony](https://vimeo.com/187451870)
 * [Pony - A Language for Provably Safe Lockless Concurrency](https://www.linuxfestnorthwest.org/2016/sessions/pony-language-provably-safe-lockless-concurrency)
 * [Pony: Co-Designing a Type System and a Runtime](https://www.youtube.com/watch?v=R6T8ytKV6dc)
 * [Pony VUG #6: Andrew Turley: The Art of Forgetting - Garbage Collection in Pony](https://vimeo.com/181099993)
-* [Reference Capabilites in Pony for everybody](https://zartstrom.github.io/pony/2016/08/28/reference-capabilities-in-pony.html)
+* [Reference Capabilities in Pony for everybody](https://zartstrom.github.io/pony/2016/08/28/reference-capabilities-in-pony.html)
 * [Pony VUG #5: George Steed: A Principled Design of Capabilities in Pony](https://vimeo.com/178522513)
 * [Pony VUG #4: Simple Value-Dependent Types in Pony](https://vimeo.com/175746403)
 * [Borrowing in Pony](https://bluishcoder.co.nz/2016/07/18/borrowing-in-pony.html)
 * [Push-parsing and Pony](http://maniagnosis.crsr.net/2016/07/push-parsing.html)
 * [Pony VUG #3: The Actor Model and Pony](https://vimeo.com/172129187)
 * [Pony VUG #2: Using the Pony FFI in Anger](https://vimeo.com/168247590)
-* [Using Pony for Fintech](https://www.infoq.com/presentations/pony)
+* [Using Pony for FinTech](https://www.infoq.com/presentations/pony)
 * [Using the Actor-model Language Pony for FinTech](http://www.infoq.com/news/2016/03/pony-fintech)
 * [Exploring actors in Pony](https://bluishcoder.co.nz/2016/05/11/exploring-actors-in-pony.html)
 * [Bang, Hat and Arrow in Pony](https://bluishcoder.co.nz/2016/05/04/bang-hat-and-arrow-in-pony.html)

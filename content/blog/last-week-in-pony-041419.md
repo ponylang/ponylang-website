@@ -22,10 +22,10 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 Matthias, a Pony core team member, writes:
 
 > We would kindly ask everybody to help us with a particular blindspot in our existing test suites for ponyc: interacting with the process environment (reading from stdin, writing to stdout/stderr, environment variables, cli arguments, signal handling ...).
-
-> We set up a github issue to track and discuss ideas: https://github.com/ponylang/ponyc/issues/3128
+>
+> We set up a github issue to track and discuss ideas: [https://github.com/ponylang/ponyc/issues/3128](https://github.com/ponylang/ponyc/issues/3128)
 If you would like to help, add a comment on the issue and/or join our discussion on [zulip](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony/topic/Process.20Environment.20Tests/near/162372861).
-
+>
 > Any kind of help is very much appreciated.
 
 ## RFCs

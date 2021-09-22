@@ -11,15 +11,12 @@ date = "2021-08-15T19:06:02-04:00"
 
 There's a new public calendar for the Pony Virtual Users' Group meetings, and a new one is scheduled for Wednesday, August 25th at 15:00 US Eastern. A gist has been created that shows how to integrate VSCode and lldb for UI-based debugging of Pony code. A Pony project indexing site, ponyhub.org, has been updated to version 0.4.0.
 
-
 <!--more-->
-
 
 ## Items of note
 
 - There's a new public calendar for the Pony Virtual Users' Group meetings.
-You can subscribe via the ical link at https://calendar.google.com/calendar/ical/042ceam97bfg4eseqt3sagq1rk%40group.calendar.google.com/public/basic.ics
-
+You can subscribe via the iCal link at [https://calendar.google.com/calendar/iCal/042ceam97bfg4eseqt3sagq1rk%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/iCal/042ceam97bfg4eseqt3sagq1rk%40group.calendar.google.com/public/basic.ics)
 
 - A [gist](https://gist.github.com/tednaleid/47dcce6e1bc178b63180953cd654651c) has been created that shows how to integrate VSCode and `lldb` for UI-based debugging of Pony code, including:
   - breakpoints in the UI (including conditional ones)
@@ -29,9 +26,9 @@ You can subscribe via the ical link at https://calendar.google.com/calendar/ical
   - a debug target that pre-compiles a `ponyc --debug` before launching
 ![end result](https://gist.githubusercontent.com/tednaleid/47dcce6e1bc178b63180953cd654651c/raw/0e595669920e1bc75da850d14010c6002b6d4091/2_end_result.gif)
 
-- Indexing site https://ponyhub.org was updated to version 0.4.0 on 2021-08-10. PonyHub indexes GitHub repositories that are marked with `ponylang` or `pony-language` tags as well as manually entered projects. The requirement is a `corral.json` in the top-level location. Indexes are backed by ElasticSearch. Written in Java (grrr!), suggestions, bug reports and other feedback is most welcome. [Source code](https://github.com/niclash/pony-hub).
+- Indexing site [https://ponyhub.org](https://ponyhub.org) was updated to version 0.4.0 on 2021-08-10. PonyHub indexes GitHub repositories that are marked with `ponylang` or `pony-language` tags as well as manually entered projects. The requirement is a `corral.json` in the top-level location. Indexes are backed by ElasticSearch. Written in Java (grrr!), suggestions, bug reports and other feedback is most welcome. [Source code](https://github.com/niclash/pony-hub).
 
-___
+---
 
 Upcoming Pony Virtual Users' Group meeting...
 
@@ -47,7 +44,7 @@ Additionally, Sean will be demonstrating the new `flatten_next` functionality th
 
 The GitHub repository is [ponylang/github_rest_api](https://github.com/ponylang/github_rest_api). Work is currently being done on the `initial` branch.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

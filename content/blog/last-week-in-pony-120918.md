@@ -22,11 +22,11 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - The Advent of Code continues!
 
-  > [kulibali Advent of Code](https://github.com/kulibali/advent_of_code_2018)
+  - [kulibali Advent of Code](https://github.com/kulibali/advent_of_code_2018)
 
-  > [aturley Advent of Code](https://github.com/aturley/advent-of-code-2018)
+  - [aturley Advent of Code](https://github.com/aturley/advent-of-code-2018)
 
-  > [aturley's stream on twitch](https://www.twitch.tv/aturls)
+  - [aturley's stream on twitch](https://www.twitch.tv/aturls)
 
 ## RFCs
 

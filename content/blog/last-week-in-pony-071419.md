@@ -13,14 +13,13 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Recording of the July 9, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_07_09.m4a). Highlights include:
     - Changing how releases are done
     - Changing release artifact formats
     - Kicking SSL and regex support out of the standard library
-    - ARMv6 support
+    - Armv6 support
 
 - @EpicEric has added a new pattern to the Pony Patterns book: [Single Use Object Capabilities](https://patterns.ponylang.io/object-capabilities/single-use.html)
 

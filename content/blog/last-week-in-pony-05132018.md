@@ -19,7 +19,6 @@ The Pony developers met on their weekly sync call on Wednesday, May 9, 2018. Che
 
 The next one is scheduled for Wednesday, May 16, 2018, at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
 
-
 ## RFCs
 
 ### Just so you know what is still in the pipeline

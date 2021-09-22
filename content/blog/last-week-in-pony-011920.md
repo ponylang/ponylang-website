@@ -10,9 +10,7 @@ date = "2020-01-19T10:50:42-05:00"
 +++
 
 Sean T. Allen's recent PWL on Deny Capabilities for Safe, Fast Actors Talk is available. Microsoft's Project Verona is now open source.
-
 <!--more-->
-
 
 ## News and Blog Posts
 
@@ -22,11 +20,11 @@ Sean T. Allen's recent PWL on Deny Capabilities for Safe, Fast Actors Talk is av
 
 ## Project Verona
 
-Verona is a research language for exploring a new programming model for concurrent ownership. The language and runtime are designed around data-race freedom, concurrent owners, and linear regions. In this model, concurrent mutation is given up in order to provide scalable memory management. This is achieved through immutable regions that may be shared or isolated regions that may haver their ownership transferred. This transfer of isolated regions between concurrent owners is similar to sending objects with the `iso` capability in Pony. There is no restriction on topology within a region and an entire isolated region is collected when the owning reference is no longer reachable. Systematic testing is also embedded into the runtime, allowing developers to thoroughly test and debug concurrent algorithms.
+Verona is a research language for exploring a new programming model for concurrent ownership. The language and runtime are designed around data-race freedom, concurrent owners, and linear regions. In this model, concurrent mutation is given up in order to provide scalable memory management. This is achieved through immutable regions that may be shared or isolated regions that may have their ownership transferred. This transfer of isolated regions between concurrent owners is similar to sending objects with the `iso` capability in Pony. There is no restriction on topology within a region and an entire isolated region is collected when the owning reference is no longer reachable. Systematic testing is also embedded into the runtime, allowing developers to thoroughly test and debug concurrent algorithms.
 
 Pony core team members are very excited to integrate some of the ideas from Verona into the Pony language and runtime. Verona, as a language, is in a very early stage of development and we encourage everyone to learn from it and keep an eye on how it develops.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

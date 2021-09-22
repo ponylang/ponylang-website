@@ -10,17 +10,15 @@ date = "2020-05-24T10:33:53-04:00"
 +++
 
 Damon Kwok has been doing a ton of awesome work on the Emacs ponylang-mode. Sean T Allen gave an informal presentation on Pony to the Houston Functional Programmers Users Group.
-
 <!--more-->
-
 
 ## Items of note
 
-- Audio from the May 19th, 2020 Pony development sync is now available. https://sync-recordings.ponylang.io/r/2020_05_19.m4a
+- Audio from the May 19th, 2020 Pony development sync is now available. [https://sync-recordings.ponylang.io/r/2020_05_19.m4a](https://sync-recordings.ponylang.io/r/2020_05_19.m4a)
 
 - Damon Kwok is now a maintainer for [ponylang-mode](https://github.com/ponylang/ponylang-mode/). Welcome to the team Damon!
 
-- @damon-kwok is closing issues on [ponylang-mode](https://github.com/ponylang/ponylang-mode) faster than you can say "Gosh, I sure do love Emacs!". If you are using melpa-latest, you should already have a bunch of changes. If you use melpa-stable, don't worry, a new release is coming soon! Thanks @damon-kwok! We love all that you are doing.
+- @damon-kwok is closing issues on [ponylang-mode](https://github.com/ponylang/ponylang-mode) faster than you can say "Gosh, I sure do love Emacs!". If you are using MELPA-latest, you should already have a bunch of changes. If you use MELPA-stable, don't worry, a new release is coming soon! Thanks @damon-kwok! We love all that you are doing.
 
 - The ["Pony Considerations" gist](https://gist.github.com/aturley/49b60c98306d90ffc2f981515827b005) has been updated with new information for folks who are interested in learning Pony.
 
@@ -42,7 +40,7 @@ Damon Kwok has been doing a ton of awesome work on the Emacs ponylang-mode. Sean
 
 - [Add maybe to itertools](https://github.com/ponylang/rfcs/pull/161)
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

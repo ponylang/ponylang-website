@@ -11,9 +11,7 @@ date = "2021-06-27T15:12:51-04:00"
 
 Version 0.5.1 of ponylang/corral has been released. Jorge Díaz wrote an article this week about programming languages and coffee, in which one of the programming languages featured was Pony.
 
-
 <!--more-->
-
 
 ## Items of note
 
@@ -24,8 +22,7 @@ Version 0.5.1 of ponylang/corral has been released. Jorge Díaz wrote an article
 - Version 0.5.1 of ponylang/corral has been released.
 See the [release notes](https://github.com/ponylang/corral/releases/tag/0.5.1) for more details.
 
-
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

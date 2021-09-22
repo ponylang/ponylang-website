@@ -15,9 +15,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News And Blog Posts
 
-Github user [EpicEric](https://github.com/EpicEric) completely refurbished the theme for the Ponylang stdlib documentation (which can also be used for documenting any Pony package). This one will be out with the next release, which we are all impatiently waiting for. If you want a little preview of the glory to come, check out [this example documentation](https://epiceric.github.io/) . If you want to track the development, report issues or even contribute, we host our new theme at: 
+GitHub user [EpicEric](https://github.com/EpicEric) completely refurbished the theme for the Ponylang stdlib documentation (which can also be used for documenting any Pony package). This one will be out with the next release, which we are all impatiently waiting for. If you want a little preview of the glory to come, check out [this example documentation](https://epiceric.github.io/) . If you want to track the development, report issues or even contribute, we host our new theme at:
 
-  [https://github.com/ponylang/mkdocs-theme](https://github.com/ponylang/mkdocs-theme).
+  [https://github.com/ponylang/MkDocs-theme](https://github.com/ponylang/MkDocs-theme).
 
 ## Pony Development Sync
 
@@ -32,4 +32,3 @@ The next one is scheduled for Wednesday, April 18, 2018 at 03:30 PM (GMT-04:00) 
 - [Structural Subtyping Opt-Out](https://github.com/Praetonus/rfcs/blob/structural-subtyping-opt-out/text/0000-structural-subtyping-opt-out.md)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

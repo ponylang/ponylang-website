@@ -1,5 +1,5 @@
 +++
-title = "Pony Performance Cheatsheet"
+title = "Pony Performance Cheat Sheet"
 +++
 
 ## Performance, it's a word in the dictionary
@@ -10,7 +10,7 @@ We'd categorize most of the information in this document as either "know how com
 
 Martin Thompson has an excellent talk [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU) that talks about writing performance sensitive code in the large. We firmly advise you to watch it. Performance tuning can be a massive rabbit hole. If the topic excites you, put ["mechanical sympathy"](https://duckduckgo.com/?q=mechanical+sympathy) into your favorite search engine; you'll come up for air in a few months knowing a ton.
 
-All of this is to say: performance is complicated. It's more art than science. What we are presenting here is rules of thumb. Many are not always good or always bad. Like most things in engineering, there are tradeoffs involved. Be mindful. Be empirical. Be sure to measure the performance of your code before and after you change anything based on this document.
+All of this is to say: performance is complicated. It's more art than science. What we are presenting here is rules of thumb. Many are not always good or always bad. Like most things in engineering, there are trade-offs involved. Be mindful. Be empirical. Be sure to measure the performance of your code before and after you change anything based on this document.
 
 It's our belief that the best way to get to awesome performance is [baby steps](https://www.youtube.com/watch?v=ncFCdCjBqcE). Don't try to make a ton of changes at once. Make a small performance oriented change. Measure the impact. Repeat. Take one tiny step at a time towards better performance.
 
@@ -31,7 +31,7 @@ Fast code is highly concurrent. Fast code avoids coordination. Fast code relies 
 There's a lot of material out there about writing high-performance, highly concurrent code. More than most people have time to absorb. Our advice? At least watch the Martin Thompson, and Peter Bailis talks below, then if you are hungry for more, ask the [community](https://www.ponylang.io/learn/#getting-help) what more you can learn.
 
 - [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU)
-- [Silence is Golden: Coordination-Avoiding Systems Design ](https://www.youtube.com/watch?v=EYJnWttrC9k)
+- [Silence is Golden: Coordination-Avoiding Systems Design](https://www.youtube.com/watch?v=EYJnWttrC9k)
 
 ### Watch your allocations {#avoid-allocations}
 
@@ -201,7 +201,7 @@ Machine words like U8, U16, U32, U64, etc. are going to be better for performanc
 
 The easiest way to end up boxing a machine word is by including it in a union type. Take a look at the following code:
 
-```
+```pony
 class Example
   let _array: Array[U64] = _array.create()
 
@@ -220,7 +220,7 @@ class Example
 
 This code is excellent and quite reasonable. The return type is very clear. We either get a `USize` or `None`. The problem here is that we need to box the `USize` that we return and it's going to have a performance impact. For hot path code, you should give in to your inner C programmer and write the following:
 
-```
+```pony
 class Example
   let _array: Array[U64] = _array.create()
 
@@ -372,7 +372,7 @@ There are two ways that Pony's garbage collection can impact your performance:
 
 To minimize the impact of garbage collection on your application, you'll need to address anything that results in longer garbage collection times, and you'll want to reduce the number of garbage collection messages generated.
 
-#### Advice:
+#### Advice
 
 - Watch your allocations!
 
@@ -423,12 +423,12 @@ Some applications might benefit from having receiving actors copy data once they
 
 #### Things you should know about the Pony cycle detector
 
-* The `cycle detector`s job is to identify and reap dead actors (including cycles of actors that are all dead)
-* The `cycle detector` will periodically ask actors if they are blocked
-* Every actor will respond with a `block` message to the `cycle detector` when it thinks it has no work left to do
-* Every actor will send `unblock` messages to the `cycle detector` when it receives new work after it has already sent a block message
-* The `cycle detector` will use the `block` and `unblock` messages along with actor dependencies tracked by the garbage collector to determine which actors or cycles of actors are dead and can never receive new work
-* Once the `cycle detector` identifies dead actors, it will finalize and reap them freeing any memory used by them to be reused for other purposes
+- The `cycle detector`s job is to identify and reap dead actors (including cycles of actors that are all dead)
+- The `cycle detector` will periodically ask actors if they are blocked
+- Every actor will respond with a `block` message to the `cycle detector` when it thinks it has no work left to do
+- Every actor will send `unblock` messages to the `cycle detector` when it receives new work after it has already sent a block message
+- The `cycle detector` will use the `block` and `unblock` messages along with actor dependencies tracked by the garbage collector to determine which actors or cycles of actors are dead and can never receive new work
+- Once the `cycle detector` identifies dead actors, it will finalize and reap them freeing any memory used by them to be reused for other purposes
 
 #### Performance implications
 
@@ -454,7 +454,7 @@ Let's talk about the Pony scheduler for a moment. When you start up a Pony progr
 
 Pony schedulers use a work-stealing algorithm that allows idle schedulers to take work from other schedulers. In a loaded system, the work stealing algorithm can keep all the CPUs busy. When CPUs are underutilized, unused scheduler threads are suspended until there is enough work for them. In most cases, scheduler thread suspend/resume will have minimal negative impact on performance but significant positive impact on resource efficiency.
 
-Depending on the workload and concurrency characteristics of a partiticular application, it might be worth tuning how things function. In some instances, where efficiency isn't a concern, you can specify `--ponynoscale` in order to disable scheduler thread suspension by indicating that the minimum active scheduler threads required is the same as the total number of scheduler threads. This, however, can lead to work-stealing having a negative impact on performance due to CPU cache thrashing. In such cases, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponymaxthreads=X` option to indicate the maximal number of scheduler threads the program will create.
+Depending on the workload and concurrency characteristics of a particular application, it might be worth tuning how things function. In some instances, where efficiency isn't a concern, you can specify `--ponynoscale` in order to disable scheduler thread suspension by indicating that the minimum active scheduler threads required is the same as the total number of scheduler threads. This, however, can lead to work-stealing having a negative impact on performance due to CPU cache thrashing. In such cases, running with fewer threads might result in better performance. When you run your pony program, you can pass the `--ponymaxthreads=X` option to indicate the maximal number of scheduler threads the program will create.
 
 We suggest you rely on the default behavior where Pony scheduler threads automagically adjust to the workload. However, if you want to squeeze as much performance as possible, we suggest the following:
 
@@ -479,7 +479,7 @@ One of those things is reserving CPUs for our programs. The benefits are two fol
 
 If your operating system supports process isolation and pinning, we suggest you use them. What you want to do is set your operating system and all "non-essential" programs to share 1, perhaps 2 CPUs; this frees up all your remaining CPUs for use by your Pony program.
 
-On Linux, you'll want to use [cset](https://rt.wiki.kernel.org/index.php/Cpuset_Management_Utility/tutorial) to isolate your Pony programs and then use [numactl](https://linux.die.net/man/8/numactl) or [taskset](https://linux.die.net/man/1/taskset) to pin it to specific cpus. Let's have a look at an example:
+On Linux, you'll want to use [cset](https://rt.wiki.kernel.org/index.php/Cpuset_Management_Utility/tutorial) to isolate your Pony programs and then use [numactl](https://linux.die.net/man/8/numactl) or [taskset](https://linux.die.net/man/1/taskset) to pin it to specific CPUs. Let's have a look at an example:
 
 ```bash
 sudo cset proc -s user -e numactl -- -C 1-4,17 chrt -f 80 \
@@ -494,7 +494,7 @@ This isn't a complete `cset` or `numactl` tutorial so I'm only going to focus on
 
 And those three additional options to our program? We've seen `--ponymaxthreads` and `--ponypin` before. In this case, we are running with 4 scheduler threads. They will have exclusive access to CPUs 1 to 4 with each scheduler thread assigned to a particular CPU. What about `--ponypinasio` and CPU 17?
 
-In addition to scheduler threads, each Pony program also has an ASIO thread that handles asynchronous IO events. By supplying the `--ponypinasio` option, our ASIO thread will be pinned to a single CPU. Which CPU? Whichever available CPU is next after all scheduler threads have been assigned cpus which in this case is CPU 17. To sum up:
+In addition to scheduler threads, each Pony program also has an ASIO thread that handles asynchronous IO events. By supplying the `--ponypinasio` option, our ASIO thread will be pinned to a single CPU. Which CPU? Whichever available CPU is next after all scheduler threads have been assigned CPUs which in this case is CPU 17. To sum up:
 
 ```bash
 // Use "user" process isolation space
@@ -528,4 +528,4 @@ And last but not least, make sure you build a `release` version of the compiler 
 
 ### Profile it! {#profiling}
 
-Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hotspots. You can use standard profiling tools like Instruments and VTune on your Pony application. At the moment, we don't have a handy guide to help you interpret the results you are getting, but we have one in the works. In the meantime, if you need help, the [community is waiting to help](https://www.ponylang.io/learn/#getting-help).
+Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hot spots. You can use standard profiling tools like Instruments and VTune on your Pony application. At the moment, we don't have a handy guide to help you interpret the results you are getting, but we have one in the works. In the meantime, if you need help, the [community is waiting to help](https://www.ponylang.io/learn/#getting-help).

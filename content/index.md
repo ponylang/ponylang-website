@@ -5,7 +5,7 @@ title = "Pony"
 +++
 Welcome! This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language.
 
-## Quicklinks
+## Quick links
 
 - [What is Pony?]({{< relref "discover/index.md">}}#what-is-pony)
 - [Frequently asked questions]({{< relref "faq/index.md">}})
@@ -21,4 +21,3 @@ Welcome! This is the website for the Pony programming language. Pony is an open-
 - [Code of conduct]({{< relref "community/code-of-conduct.md">}})
 - [How to contribute]({{< relref "contribute/index.md">}})
 - [Releases](https://www.ponylang.io/categories/release)
-

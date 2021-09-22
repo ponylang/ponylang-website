@@ -18,26 +18,19 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## Items of note
 
 - Pony sync recordings are available for the following dates:
-
-  > [November 20](https://sync-recordings.ponylang.io/r/2018_11_20.m4a)
-
-  > [November 27](https://sync-recordings.ponylang.io/r/2018_11_27.m4a)
+  - [November 20](https://sync-recordings.ponylang.io/r/2018_11_20.m4a)
+  - [November 27](https://sync-recordings.ponylang.io/r/2018_11_27.m4a)
 
 ## News and Blog Posts
 
 - Advent of Code is among us!
-
-> [kulibali Advent of Code](https://github.com/kulibali/advent_of_code_2018)
-
-> [aturley Advent of Code](https://github.com/aturley/advent-of-code-2018)
-
-> [/r/ponylang topic for Advent of Code in Pony](https://www.reddit.com/r/ponylang/comments/a29vne/advent_of_code_repositories/)
-
-> [Advent of Code topic in mailing list](https://pony.groups.io/g/user/topic/advent_of_code_2018/28557391)
+  - [kulibali Advent of Code](https://github.com/kulibali/advent_of_code_2018)
+  - [aturley Advent of Code](https://github.com/aturley/advent-of-code-2018)
+  - [/r/ponylang topic for Advent of Code in Pony](https://www.reddit.com/r/ponylang/comments/a29vne/advent_of_code_repositories/)
+  - [Advent of Code topic in mailing list](https://pony.groups.io/g/user/topic/advent_of_code_2018/28557391)
 
 - aturley will also be streaming work on Advent of Code puzzles from 3-4PM Eastern Standard Time on Monday, Wednesday and Friday.
-
-> [Watch on twitch](https://www.twitch.tv/aturls)
+  - [Watch on twitch](https://www.twitch.tv/aturls)
 
 ## RFCs
 

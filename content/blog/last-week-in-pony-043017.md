@@ -33,5 +33,5 @@ It was a bit of a quiet week in terms of public activity but there's plenty brew
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### Final Comment Period
-  
+
 - The ["More persistent collections"](https://github.com/ponylang/rfcs/pull/88) RFC has entered final comment period. Expect a vote soon.

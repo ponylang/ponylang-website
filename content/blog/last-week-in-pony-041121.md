@@ -10,14 +10,11 @@ date = "2021-04-11T19:47:40-04:00"
 +++
 
 New versions of the ponylang crypto, http, http_server, and net_ssl packages are available.
-
 <!--more-->
-
 
 ## Items of note
 
 - Audio from the [April 06, 2021](https://sync-recordings.ponylang.io/r/2021_04_06.m4a) Pony development sync call is available.
-
 
 ## Releases
 
@@ -36,7 +33,7 @@ See the [release notes](https://github.com/ponylang/http_server/releases/tag/0.3
 - Version 1.1.5 of ponylang/net_ssl has been released.
 See the [release notes](https://github.com/ponylang/net_ssl/releases/tag/1.1.5) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

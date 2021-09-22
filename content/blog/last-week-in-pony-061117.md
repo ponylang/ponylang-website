@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Style Guide! We finally have [an official style guide for the Pony standard library](https://github.com/ponylang/ponyc/blob/main/STYLE_GUIDE.md). No longer will contributors have to examine the existing code to try and figure out "what is acceptable" formatting. Big props to Theo Butler for driving the style guide to completion *AND* updating the standard library to match.

@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "theobutler"
-description = "Version 0.40.0 of ponylang/ponyc has been released! Also, the 'Add String.add iso proposal' RFC is now in final comment period."
+description = "Version 0.40.0 of ponylang/ponyc has been released! Also, the 'Add String.add `iso` proposal' RFC is now in final comment period."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,10 +9,8 @@ title = "Last Week in Pony - May 3, 2021"
 date = "2021-05-03T12:27:38-04:00"
 +++
 
-Version 0.40.0 of ponylang/ponyc has been released! Also, the 'Add String.add iso proposal' RFC is now in final comment period.
-
+Version 0.40.0 of ponylang/ponyc has been released! Also, the 'Add String.add `iso` proposal' RFC is now in final comment period.
 <!--more-->
-
 
 ## Items of note
 
@@ -36,10 +34,10 @@ See the [release notes](https://github.com/ponylang/release-notes-bot-action/rel
 
 ### Final Comment Period
 
-- The 'Add String.add iso proposal' RFC has been updated to 'final comment period'
+- The 'Add String.add `iso` proposal' RFC has been updated to 'final comment period'
 See the [RFC](https://github.com/ponylang/rfcs/pull/185) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

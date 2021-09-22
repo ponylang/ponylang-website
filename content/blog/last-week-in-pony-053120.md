@@ -10,9 +10,7 @@ date = "2020-05-31T10:40:52-04:00"
 +++
 
 A bunch of updates to ponylang-mode. The Pony Zulip now has a 'jobs' stream for posting Pony-related job opportunities. The 'Add maybe to itertools' RFC will be voted on in the next sync meeting.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -35,9 +33,10 @@ A bunch of updates to ponylang-mode. The Pony Zulip now has a 'jobs' stream for 
 ### Ready For Vote
 
 - The 'Add maybe to itertools' RFC has been updated to 'ready for vote'
+
 See the [RFC](https://github.com/ponylang/rfcs/pull/161) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

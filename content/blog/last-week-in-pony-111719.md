@@ -11,7 +11,6 @@ date = "2019-11-17T15:52:40-05:00"
 The Pony Playground is back (mostly) after being down for a few weeks. Groxio has started a new course on Pony with a free intro video available on YouTube.
 <!--more-->
 
-
 ## Items of note
 
 - Audio from the November 12, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_11_12.m4a).
@@ -30,7 +29,7 @@ The Pony Playground is back (mostly) after being down for a few weeks. Groxio ha
 
 - [Pony RT options passing](https://github.com/ponylang/rfcs/pull/155)
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

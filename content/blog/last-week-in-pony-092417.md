@@ -15,8 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony Stable 0.1.0 Released
 
-[Pony-stable](https://github.com/ponylang/pony-stable), the Pony dependency mananger, hit its first release *0.1.0* and is now available for convenient installation on your package manager of choice. Find out more in the [release blog post](https://www.ponylang.io/blog/2017/09/pony-stable-0.1.0-released/).
-
+[Pony-stable](https://github.com/ponylang/pony-stable), the Pony dependency manager, hit its first release *0.1.0* and is now available for convenient installation on your package manager of choice. Find out more in the [release blog post](https://www.ponylang.io/blog/2017/09/pony-stable-0.1.0-released/).
 
 ## Items of note
 

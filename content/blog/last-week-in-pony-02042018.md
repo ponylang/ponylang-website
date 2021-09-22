@@ -11,17 +11,16 @@ date = "2018-02-04T18:00:00+01:00"
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
-<!--more-->
 
+<!--more-->
 
 ## Items of note
 
-- The folks over at Wallaroo Labs have a post about why they decided to write their own [Kafka client in Pony](https://github.com/WallarooLabs/pony-kafka) rather than simply wrapping the C library. While Wallaroo specific, the general thinking could apply to your Pony project as well: https://blog.wallaroolabs.com/2018/01/why-we-wrote-our-kafka-client-in-pony/
+- The folks over at Wallaroo Labs have a post about why they decided to write their own [Kafka client in Pony](https://github.com/WallarooLabs/pony-kafka) rather than simply wrapping the C library. While Wallaroo specific, the general thinking could apply to your Pony project as well: [https://blog.wallaroolabs.com/2018/01/why-we-wrote-our-kafka-client-in-pony/](https://blog.wallaroolabs.com/2018/01/why-we-wrote-our-kafka-client-in-pony/)
 
-- A new JSON parser for Pony has been announced on reddit: https://github.com/Krognol/ponyjson
+- A new JSON parser for Pony has been announced on Reddit: [https://github.com/Krognol/ponyjson](https://github.com/Krognol/ponyjson)
 
-- [PR #2439](https://github.com/ponylang/ponyc/pull/2439) for embedding source code listings into generated documentation has been merged to main. With this change, we now own a new theme for mkdocs, [mkdocs-ponylang](https://github.com/mfelsche/ponylang-mkdocs-theme). We needed this to make the necessary changes for [PR #2439](https://github.com/ponylang/ponyc/pull/2439) but we are not yet happy with its current state (visually and code-wise). We want to reach out to you folks for help on this project. In case you are interested, please drop us a line via the [Zulip community](https://ponylang.zulipchat.com/#narrow/stream/190361-main.2Eactor). Any help is much appreciated!
-
+- [PR #2439](https://github.com/ponylang/ponyc/pull/2439) for embedding source code listings into generated documentation has been merged to main. With this change, we now own a new theme for MkDocs, [MkDocs-ponylang](https://github.com/mfelsche/ponylang-MkDocs-theme). We needed this to make the necessary changes for [PR #2439](https://github.com/ponylang/ponyc/pull/2439) but we are not yet happy with its current state (visually and code-wise). We want to reach out to you folks for help on this project. In case you are interested, please drop us a line via the [Zulip community](https://ponylang.zulipchat.com/#narrow/stream/190361-main.2Eactor). Any help is much appreciated!
 
 ## Pony Development Sync
 
@@ -48,4 +47,3 @@ The next one is scheduled for Wednesday, February 7, 2018 at 03:30 PM (GMT-05:00
 - [Class and Actor field Docstrings](https://github.com/ponylang/rfcs/pull/115)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

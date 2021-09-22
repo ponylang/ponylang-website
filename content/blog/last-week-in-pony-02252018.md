@@ -8,6 +8,7 @@ categories = [
 title = "Last Week in Pony - February 25, 2018"
 date = "2018-02-25T21:00:00+01:00"
 +++
+
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
@@ -18,7 +19,6 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 The Pony developers met on their weekly sync call on Wednesday February 21, 2018. Check out the [recorded audio](https://sync-recordings.ponylang.io/r/2018_02_21.m4a).
 
 The next one is scheduled for Wednesday, February 28, 2018 at 03:30 PM (GMT-05:00) America/New York via zoom. We'd love to have you there.
-
 
 ## RFCs
 
@@ -38,6 +38,4 @@ The next one is scheduled for Wednesday, February 28, 2018 at 03:30 PM (GMT-05:0
 
 - [Class and Actor field Docstrings](https://github.com/ponylang/rfcs/pull/115) is implemented by [PR 2543](https://github.com/ponylang/ponyc/pull/2543) and is impatiently waiting to be reviewed.
 
-
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

@@ -13,7 +13,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Recording of the June 18, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_06_18.m4a).

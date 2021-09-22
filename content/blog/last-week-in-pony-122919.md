@@ -10,9 +10,7 @@ date = "2019-12-29T10:40:55-05:00"
 +++
 
 The Pony compiler now has support for LLVM 9! Nightly builds of ponyc, corral, and ponyup are also available for macOS now.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -28,7 +26,7 @@ The Pony compiler now has support for LLVM 9! Nightly builds of ponyc, corral, a
 
 - [Behaviour call syntax](https://github.com/ponylang/rfcs/pull/156)
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

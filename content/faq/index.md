@@ -100,7 +100,7 @@ For more information see the [Sugar](https://tutorial.ponylang.io/expressions/su
 
 If you want to support all kinds of numeric types for which Pony supports there are three ways to approach this problem:
 
-1. **Via Inheritance:**
+- **Via Inheritance:**
 
 You pick the trait or interface that satisfies the operations you need from those numbers (e.g. support for `sub` is defined in `trait val Real[A: Real[A] val]`) and use this as a type or type parameter in Generics. This works fine for a lot of cases. But e.g. literal inference will not work here, as this example shows:
 
@@ -117,9 +117,9 @@ primitive OneForAllInheritance
 
 . Why is that? Literal inference only works for the built-in primitive types, but  `Integer[T] val` could be extended by further not yet known classes.
 
-2. **Via Type Expressions:**
+- **Via Type Expressions:**
 
-There are plenty of pre-defined union types for all classes of numbers in Pony. E.g. `type Signed is (I8 | I16 | I32 | I64 | I128 | ILong | ISize)`. There is also `Unsigned`, `Int`, `Float` and `Number`. Just pick what you need as your type.
+There are plenty of predefined union types for all classes of numbers in Pony. E.g. `type Signed is (I8 | I16 | I32 | I64 | I128 | ILong | ISize)`. There is also `Unsigned`, `Int`, `Float` and `Number`. Just pick what you need as your type.
 
 ```pony
 // does not compile
@@ -134,7 +134,7 @@ primitive OneForAllTypeExpressions
 
 But there is a problem with this approach. Not only do we state that `T` could be any element of `Int`. It could even be a combination of them. e.g. `( U8 | I16 )` and how you use `t` and `T` here must work for all possible instantiations of `Int`, that is every possible combination.
 
-3. **Via Type Expressions AND Inheritance:**
+- **Via Type Expressions AND Inheritance:**
 
 To get rid of the literal inference problem and to make sure only single numeric types are accepted, not unions of them, in order to use the methods on the different integer types for our generic problem, we need to combine both the type unions and inheritance to get to a safe solution: `(Int & Integer[T] val)`. The reason why this works is that `Integer[T] val` can only be instantiated by a single concrete `Int` element, so we get rid of the combinations and at the same time make the literal inference work as we lock our generic `T` down to single concrete types being part of `Int`:
 
@@ -164,7 +164,7 @@ Relatively, Elixir/Erlang actors use ~5x more memory and goroutines use ~8x more
 
 ## Compiling {#compiling}
 
-### What are Pony's supported CPU platforms? {#supported-cpus}
+### What are Pony's supported CPU platforms? {#supported-CPUs}
 
 As of `ponyc` release `0.26.0`, we provide the following support:
 
@@ -200,11 +200,11 @@ As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic`
 make default_pic=true
 ```
 
-### On Windows I get "fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'" {#lnk1112}
+### On Windows I get `fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'` {#lnk1112}
 
 Only 64-bit Windows is supported.
 
-Make sure you're running a cmd.exe/powershell.exe that does not include 32-bit VS environment variables.
+Make sure you're running a `cmd.exe`/`powershell.exe` that does not include 32-bit VS environment variables.
 
 This error occurs when ponyc is compiled in a 32-bit Visual Studio Developer Command Prompt.
 
@@ -256,7 +256,7 @@ ld -lFoo -execute -no_pie -dead_strip -arch x86_64 -macosx_version_min 10.8
 
 Compiling a pony program with `--verbose 3` will produce something like:
 
-```
+```powershell
 cmd /C ""C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.11.25503\bin\HostX64\x64\link.exe"
   /DEBUG /NOLOGO /MACHINE:X64 /OUT:.\helloworld.exe .\helloworld.obj
   /LIBPATH:"C:\Program Files (x86)\Windows Kits\10\Lib\10.0.15063.0\ucrt\x64"

@@ -20,4 +20,3 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

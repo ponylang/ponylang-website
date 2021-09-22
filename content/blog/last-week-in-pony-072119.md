@@ -13,12 +13,12 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Recording of the July 16, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_07_16.m4a).
 
 - Four "new" Pony libraries came into exist this week. Really, they've existed for a while, but they are now "off on their own". The four new libraries are:
+
     - [crypto](https://github.com/ponylang/crypto)
     - [glob](https://github.com/ponylang/glob)
     - [net-ssl](https://github.com/ponylang/net-ssl)
@@ -29,6 +29,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
     If you are interested in more details now, you can check out the Pony development sync from July 9, 2019 for more details.
 
 - Sean T. Allen has transferred control of his 4 Emacs related Pony repositories to the Ponylang organization. If you are interested in contributing to them, please let us know in the Pony community Zulip. The repositories in question are:
+
     - [flycheck-pony](https://github.com/ponylang/flycheck-pony)
     - [pony-snippets](https://github.com/ponylang/pony-snippets)
     - [ponylang-mode](https://github.com/ponylang/ponylang-mode)

@@ -13,21 +13,18 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Audio from the [May 31st Pony Development Sync](https://sync-recordings.ponylang.io/r/2017_05_31.m4a) is available for your listening pleasure. Unlike the previous week where we mostly stuck to one subject, we were back to our more usual freewheeling style. If variety is your bag, you'll enjoy this sync call.
 
-
 ## News and Blog Posts
-  
-- Patiency Shyu was introduced to Pony during a recent summer school experience and wrote up some of her initial impressions. [What I Learned at Summer School](http://patiences.github.io/blog/pony).
 
+- Patiency Shyu was introduced to Pony during a recent summer school experience and wrote up some of her initial impressions. [What I Learned at Summer School](http://patiences.github.io/blog/pony).
 
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
 
 ### New RFCs
-  
-- I introduced a new RFC titled ["Send arbitrary messages to notify classes"](https://github.com/ponylang/rfcs/pull/91) that attempts to address a current shortcoming in several standard library classes. It's not a great long term solution but provides a nice, non-breaking stopgap. From the summary: "Update existing standard library classes that have "notify" classes that allow for programmer specialization, for example, `TCPConnnection` with its `TCPConnectionNotify` class, to allow to arbitrary messages and data to be sent to the notify class." 
+
+- I introduced a new RFC titled ["Send arbitrary messages to notify classes"](https://github.com/ponylang/rfcs/pull/91) that attempts to address a current shortcoming in several standard library classes. It's not a great long term solution but provides a nice, non-breaking stopgap. From the summary: "Update existing standard library classes that have "notify" classes that allow for programmer specialization, for example, `TCPConnnection` with its `TCPConnectionNotify` class, to allow to arbitrary messages and data to be sent to the notify class."

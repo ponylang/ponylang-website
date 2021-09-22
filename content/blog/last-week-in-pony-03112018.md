@@ -26,7 +26,7 @@ Alex notes:
 
 > My submission is quite simple, but I hadn't ever seen anything like this in any other language and I thought it was cool that Pony can do this.
 >
-> This snippet demonstrates adding a method to primtives via trait subtyping that overloads the "not" operator to return a specific primitive.
+> This snippet demonstrates adding a method to primitives via trait subtyping that overloads the "not" operator to return a specific primitive.
 >
 > This allows types to be easily declared as "opposites" of each other
 
@@ -43,4 +43,3 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 ### Approved RFCs
 
 [Compile time expressions](https://github.com/ponylang/rfcs/blob/main/text/0053-compile-time-expression.md)
-

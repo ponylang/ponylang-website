@@ -13,7 +13,7 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-## News and Blogposts
+## News and Blog Posts
 
 - Roberto Dip wrote a [A brief dive into the Pony programming language](https://monades.roperzh.com/pony-programming-language/) which also spawned some discussions on [Lobsters](https://lobste.rs/s/tloyu3/brief_dive_into_pony_programming) and [Reddit](https://www.reddit.com/r/programmingcirclejerk/comments/6tvwvj/in_pony_divide_by_zero_results_in_zero_from_a/) which is mostly about how division by zero (for integers) is handled in Pony. As a small refresher, the tutorial section about [Divide by Zero](https://tutorial.ponylang.io/gotchas/divide-by-zero.html).
 
@@ -24,4 +24,3 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

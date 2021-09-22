@@ -2,10 +2,9 @@
 title = "Reference"
 +++
 
-
 ## Debugging
 
-- [Pony LLDB Cheatsheet]({{< relref "pony-lldb-cheatsheet.md" >}})
+- [Pony LLDB Cheat Sheet]({{< relref "pony-lldb-cheatsheet.md" >}})
 
 > A quickstart for debugging Pony with LLDB
 
@@ -25,7 +24,7 @@ How to obtain coverage for runs of pony programs or test executions
 
 ## Performance
 
-- [Pony Performance Cheatsheet]({{< relref "pony-performance-cheatsheet.md" >}})
+- [Pony Performance Cheat Sheet]({{< relref "pony-performance-cheatsheet.md" >}})
 
 > How to get the best performance from your Pony code.
 

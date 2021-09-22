@@ -31,7 +31,7 @@ but, that can come later.
 * [Fully Concurrent Garbage Collection of Actors on Many-Core Machines](/media/papers/opsla237-clebsch.pdf)
 * [A String of Ponies: Transparent Distributed Programming with Actors](/media/papers/a_string_of_ponies.pdf)
 * [A Principled Design of Capabilities in Pony](/media/papers/a_prinicipled_design_of_capabilities_in_pony.pdf)
-* [Orca: GC and Type System Co-Design for Actor Languages](/media/papers/orca_gc_and_type_system_co-design_for_actor_languages.pdf)
+* [ORCA: GC and Type System Co-Design for Actor Languages](/media/papers/orca_gc_and_type_system_co-design_for_actor_languages.pdf)
 * [Formalizing Generics for Pony](/media/papers/formalizing-generics-for-pony.pdf)
 
 ## Chat
@@ -55,7 +55,7 @@ If you are interested in finding out when our Virtual Users' Group is meeting or
 We currently know of 1 User Group. We also have a Virtual Users' Group which didn't meet in quite some time now. In general, it meets about once a month via [Zoom](https://zoom.us). If you would be interested, join and drop us a line, we would be happy to revive that tradition.
 [Videos](https://vimeo.com/search/sort:latest?q=pony-vug) of past presentations are available.
 
-If you'd like to attend an in-person meetup, sign up for the mailing list or join the meetup group to be informed the next time a meeting is occuring:
+If you'd like to attend an in-person meetup, sign up for the mailing list or join the meetup group to be informed the next time a meeting is occurring:
 
 * [Berlin Users' Group](https://www.meetup.com/de-DE/Berlin-Ponylang-Meetup/)
 

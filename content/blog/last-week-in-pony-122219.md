@@ -10,9 +10,7 @@ date = "2019-12-22T12:25:05-05:00"
 +++
 
 We have quite a lot of exciting announcements this week. Releases for Ponyup and Corral are hot off the presses, we have a new committer, and more!
-
 <!--more-->
-
 
 ## Items of note
 
@@ -32,25 +30,25 @@ We have quite a lot of exciting announcements this week. Releases for Ponyup and
 
 - The most well-known Pony project is [Wallaroo](https://github.com/wallaroolabs/wallaroo); a high-performance distributed stream processing framework written in Pony. AdExchanger recently published a [short case study](https://adexchanger.com/platforms/pubmatic-slashes-infrastructure-costs-with-wallaroo-labs/) about work that Wallaroo Labs did building a data processing system for Pubmatic based on Wallaroo. If you are looking to get a Pony project off the ground at work, the Pubmatic study could make for a nice pairing with the [Why we used Pony to write Wallaroo](https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/) blog post that Wallaroo Labs published a couple of years ago.
 
-___
+---
 
 macOS Pony users, we need your help!
 
 Can you download the .tar.gz and give it a spin? If you run into any issues, please report on this issue:
 
-https://github.com/ponylang/ponyc/issues/3432
+[https://github.com/ponylang/ponyc/issues/3432](https://github.com/ponylang/ponyc/issues/3432)
 
 If you *don't* run, into any issues, can you stop by the Zulip and comment on this topic that it worked for you on whatever particular version of macOS that you are using?
 
-https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/macOS.20users-.20we.20need.20you.20for.20testing
+[https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/macOS.20users-.20we.20need.20you.20for.20testing](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/macOS.20users-.20we.20need.20you.20for.20testing)
 
 Download page:
 
-https://cloudsmith.io/~ponylang/repos/nightlies/packages/detail/raw/ponyc-x86-64-apple-darwin.tar.gz/20191221/
+[https://cloudsmith.io/~ponylang/repos/nightlies/packages/detail/raw/ponyc-x86-64-apple-darwin.tar.gz/20191221/](https://cloudsmith.io/~ponylang/repos/nightlies/packages/detail/raw/ponyc-x86-64-apple-darwin.tar.gz/20191221/)
 
 Thanks everyone.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

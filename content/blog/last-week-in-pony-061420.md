@@ -10,9 +10,7 @@ date = "2020-06-14T11:00:57-04:00"
 +++
 
 We have some new RFCs and more updates to the Emacs ponylang-mode. This week's sync meeting includes a discussion about build systems and package management.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -33,9 +31,9 @@ We have some new RFCs and more updates to the Emacs ponylang-mode. This week's s
 
 - The 'Add RFC for assign param syntax' RFC has been updated to 'new'. See the [RFC](https://github.com/ponylang/rfcs/pull/174) for more details.
 
-- The 'Add log_level argument to LogFormatter.apply()' RFC has been updated to 'new'. See the [RFC](https://github.com/ponylang/rfcs/pull/175) for more details.
+- The 'Add log_level argument to `LogFormatter.apply()`' RFC has been updated to 'new'. See the [RFC](https://github.com/ponylang/rfcs/pull/175) for more details.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

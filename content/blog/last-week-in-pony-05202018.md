@@ -15,17 +15,17 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of Note
 
-* Github User [d-led](https://github.com/d-led) provided an example for [Vaughn Vernons Domain Driven Design with Actors](https://github.com/VaughnVernon/DDDwithActors) in [Pony](https://github.com/d-led/DDDwithActorsPony). This is a quite good comparison between the different actor system languages and libraries out there.
+* GitHub User [d-led](https://github.com/d-led) provided an example for [Vaughn Vernons Domain Driven Design with Actors](https://github.com/VaughnVernon/DDDwithActors) in [Pony](https://github.com/d-led/DDDwithActorsPony). This is a quite good comparison between the different actor system languages and libraries out there.
 * A new version of [ponycheck](https://github.com/mfelsche/ponycheck), the property-based testing library for Pony, has been released. Version [0.4.0](https://github.com/mfelsche/ponycheck/releases/tag/0.4.0) brings partial Generators and some simplification of the Generator API, for more details, see the [Release Notes](https://github.com/mfelsche/ponycheck/releases/tag/0.4.0).
 
 ## RFCs
 
 ### Under Discussion
 
-- [Formal Viewpoint Adaptation](https://github.com/ponylang/rfcs/pull/122)
+* [Formal Viewpoint Adaptation](https://github.com/ponylang/rfcs/pull/122)
 
-- [Use Site Variance and Implicit Interfaces for Generic Types.](https://github.com/ponylang/rfcs/pull/123)
+* [Use Site Variance and Implicit Interfaces for Generic Types.](https://github.com/ponylang/rfcs/pull/123)
 
-- [Trust boundary specification](https://github.com/ponylang/rfcs/pull/124)
+* [Trust boundary specification](https://github.com/ponylang/rfcs/pull/124)
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!

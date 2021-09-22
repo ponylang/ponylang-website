@@ -10,9 +10,7 @@ date = "2021-02-22T10:11:11-05:00"
 +++
 
 Ponycheck has become an official Ponylang project. @ergl has opened a new RFC related to FFI declarations. We also have notes from Sean T. Allen and Theo Butler on how to start contributing to Pony.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -36,7 +34,7 @@ A note from Sean T. Allen:
 
 Recently on the [Zulip](https://ponylang.zulipchat.com/), @mfelsche made a comment:
 
-> "I dont have too much time either, but i would love to see this in pony and am ready to invest some time to team up. (Think 1h per day tops)"
+> "I don't have too much time either, but i would love to see this in pony and am ready to invest some time to team up. (Think 1h per day tops)"
 
 I wanted to point out that as a volunteer project, if we got 4 to 5 hours a week from volunteers to work on features, improve documentation etc. it would really move Pony forward. There's so much to do with a programming language and its ecosystem and I know folks might not feel like they can contribute much with the time they have, but less than an hour per day will over time lead to massive improvements.
 
@@ -46,7 +44,7 @@ I love Pony, I love the community and at times, I get a little sad that we aren'
 
 If this post gets even a couple people to do a bit of contributing on a regular basis, I'll feel like it was a tremendous success.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

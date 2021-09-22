@@ -10,9 +10,7 @@ date = "2020-04-26T11:00:11-04:00"
 +++
 
 Nightly builds of ponyc for FreeBSD 12.1 are available. pony-semver has moved into the ponylang organization. The past sync meeting discussed syntax changes for the call site of behaviours.
-
 <!--more-->
-
 
 ## Items of note
 
@@ -22,8 +20,7 @@ Nightly builds of ponyc for FreeBSD 12.1 are available. pony-semver has moved in
 
 - [pony-semver](https://github.com/ponylang/pony-semver), a project started by [@btab](https://github.com/btab/), has become an official Ponylang organization project. pony-semver is a semantic versioning library for Pony. It is being used in the [corral dependency manager](https://github.com/ponylang/corral) project.
 
-- Hydraconf is all online this July and they are looking for a Pony talk. Interested? Submit your talk today at: https://speakers.hydraconf.com/. The deadline to submit is May 1st, 2020.
-
+- Hydraconf is all online this July and they are looking for a Pony talk. Interested? Submit your talk today at: [https://speakers.hydraconf.com/](https://speakers.hydraconf.com/). The deadline to submit is May 1st, 2020.
 
 ## RFCs
 
@@ -37,7 +34,7 @@ Nightly builds of ponyc for FreeBSD 12.1 are available. pony-semver has moved in
 
 - [Add RFC for adding the maybe library to stdlib](https://github.com/ponylang/rfcs/pull/161)
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

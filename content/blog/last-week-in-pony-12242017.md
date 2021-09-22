@@ -17,9 +17,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ***Merry Christmas everybody!***
 
-We managed to slip the new Release [0.21.0](https://github.com/ponylang/ponyc/releases/tag/0.21.0) of Ponyc into your christmas stocking.
+We managed to slip the new Release [0.21.0](https://github.com/ponylang/ponyc/releases/tag/0.21.0) of Ponyc into your Christmas stocking.
 
-This is one of the biggest releases so far, containing tons of bugfixes, some really sweet additions and even some breaking changes. So unwrapping ... errrh ... updating is highly recommended. But the greatest feature of them all in this release is definitely the [Generalised Runtime Backpressure](https://stdlib.ponylang.io/backpressure--index).
+This is one of the biggest releases so far, containing tons of bug fixes, some really sweet additions and even some breaking changes. So unwrapping ... errr ... updating is highly recommended. But the greatest feature of them all in this release is definitely the [Generalised Runtime Backpressure](https://stdlib.ponylang.io/backpressure--index).
 
 The [Release Blog Post](https://www.ponylang.io/blog/2017/12/0.21.0-released/) contains all the gory details.
 
@@ -29,8 +29,6 @@ The [Release Blog Post](https://www.ponylang.io/blog/2017/12/0.21.0-released/) c
 
 - Another Week, another Pony Development Sync Call. Those calls are public and if you'd like to join and bring up a burning topic, just We'd love to have you on board to discuss your issues and/or ideas. Here is the [Recorded Audio for last weeks Call](https://sync-recordings.ponylang.io/r/2017_12_20.m4a).
 
-
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
-

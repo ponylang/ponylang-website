@@ -10,15 +10,13 @@ date = "2021-02-07T19:36:37-05:00"
 +++
 
 @ergl, also know as Borja o'Cook on the Ponylang Zulip, has become a Pony committer. Also, we have started the process of renaming the default branches on our repos from master to main.
-
 <!--more-->
-
 
 ## Items of note
 
 - @ergl, also know as Borja o'Cook on the Ponylang Zulip, has become a Pony committer. Being a Pony committer means that you have a high-level of access to all the Ponylang GitHub repositories with the ability to merge PRs and what-not. Welcome to the team Borja!
 
-- Audio from the February 2nd, 2021 Pony development sync is available: https://sync-recordings.ponylang.io/r/2021_02_02.m4a
+- Audio from the February 2nd, 2021 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2021_02_02.m4a](https://sync-recordings.ponylang.io/r/2021_02_02.m4a)
 
 ## Releases
 
@@ -40,7 +38,7 @@ See the [release notes](https://github.com/ponylang/regex/releases/tag/1.1.1) fo
 - Version 0.4.0 of ponylang/release-bot-action has been released.
 See the [release notes](https://github.com/ponylang/release-bot-action/releases/tag/0.4.0) for more details.
 
-___
+---
 
 ## The great default branch renaming
 
@@ -48,7 +46,7 @@ A while ago, GitHub switched the default branch for newly created repos to be `m
 
 The renaming will start this week. It will be a slow roll-out. If you visit a repo after its branch has been changed, you will be prompted with a notice on what you need to do to adapt.
 
-```
+```bash
 git branch -m master main
 git fetch origin
 git branch -u origin/main main
@@ -56,7 +54,7 @@ git branch -u origin/main main
 
 Should pretty much be what you have to do. We'll be announcing the changed repos as they happen in the [administrative stream](https://ponylang.zulipchat.com/#narrow/stream/200978-administrative) on Zulip and also in upcoming issues of Last Week in Pony.
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

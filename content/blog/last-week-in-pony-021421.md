@@ -10,16 +10,13 @@ date = "2021-02-14T21:47:46-05:00"
 +++
 
 The supported version of FreeBSD is moving from 12.1 to 12.2. The Apple M1 support team has an initial report. The documentation site website, main.actor, is being shut down. The default branch renaming is underway. Interested in contributing to Corral or other Pony tools?
-
 <!--more-->
-
 
 ## Items of note
 
 - ponyc, corral, and ponyup are all switching the supported version of FreeBSD from 12.1 to 12.2. Everything should continue to work fine on 12.1, but all testing will be done with 12.2 and all release binaries will target 12.2.
 
 - Sean T. Allen writes in to report that he is going to be doing a lot of work on Corral and some other Pony ecosystem tools and he's looking for assistance. If you'd be interested in learning Pony and perhaps some design alongside of Sean, stop by the Zulip "#contribute to pony" stream and let him know on [this topic](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony/topic/Corral).
-
 
 ## Releases
 
@@ -41,8 +38,8 @@ See the [release notes](https://github.com/ponylang/http_server/releases/tag/0.2
 - Version 0.1.5 of ponylang/library-documentation-action has been released.
 See the [release notes](https://github.com/ponylang/library-documentation-action/releases/tag/0.1.5) for more details.
 
-- Version 0.2.8 of ponylang/mkdocs-theme has been released.
-See pypi for more details: [Package mkdocs-ponylang](https://pypi.org/project/mkdocs-ponylang/)
+- Version 0.2.8 of ponylang/MkDocs-theme has been released.
+See PyPI for more details: [Package MkDocs-ponylang](https://pypi.org/project/MkDocs-ponylang/)
 
 - Version 0.1.1 of ponylang/peg has been released.
 See the [release notes](https://github.com/ponylang/peg/releases/tag/0.1.1) for more details.
@@ -56,7 +53,7 @@ See the [release notes](https://github.com/ponylang/semver/releases/tag/0.2.1) f
 - Version 0.5.1 of ponylang/valbytes has been released.
 See the [release notes](https://github.com/ponylang/valbytes/releases/tag/0.5.1) for more details.
 
-___
+---
 
 The "M1 team" has returned with an initial report.
 
@@ -68,7 +65,7 @@ You can follow along with more of the M1 adventure in the [M1 stream on our Zuli
 
 There's more information specific to the varargs calling convention change in a [topic in the RFC stream](https://ponylang.zulipchat.com/#narrow/stream/189959-RFCs/topic/Distinguish.20FFI.20varargs).
 
-___
+---
 
 Our "one documentation site to rule them all" website main.actor is being shut down. It might come back in another form, but its current form didn't work out.
 
@@ -78,7 +75,7 @@ In the meantime, you can note that most of the ponylang organization libraries n
 
 The tooling use to create the documentation is available for any Pony library projects to use, including yours. Except a write up of some form in the future once we have it all fully fleshed out.
 
-___
+---
 
 The great "main as default branch" migration is underway. So far we've switched the following repositories to having `main` as the default branch:
 
@@ -97,7 +94,7 @@ The great "main as default branch" migration is underway. So far we've switched 
 - library-documentation-action
 - library-scaffolding-generator
 - net_ssl
-- mkdocs-theme
+- MkDocs-theme
 - peg
 - ponyc
 - ponylang-mode
@@ -120,7 +117,7 @@ The great "main as default branch" migration is underway. So far we've switched 
 - stdlib.ponylang.io
 - valbytes
 
-___
+---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 

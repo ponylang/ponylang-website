@@ -13,12 +13,11 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!--more-->
 
-
 ## Items of note
 
 - Audio from the October 8, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_10_08.m4a).
 
-- Did you know that nightly builds of Pony for glibc and musl are available for Linux? Check out our "nightlies" repo hosted by Cloudsmith: https://cloudsmith.io/~ponylang/repos/nightlies/packages/. If you are using a musl based Linux distro, please give them a try and report any issues you might encounter.
+- Did you know that nightly builds of Pony for glibc and musl are available for Linux? Check out our "nightlies" repo hosted by Cloudsmith: [https://cloudsmith.io/~ponylang/repos/nightlies/packages/](https://cloudsmith.io/~ponylang/repos/nightlies/packages). If you are using a musl based Linux distro, please give them a try and report any issues you might encounter.
 
 - On Friday, @bketelsen started learning Pony with an assist from @SeanTAllen. A [recording of the first session](https://www.youtube.com/watch?v=ODelwNLePRA&feature=youtu.be) is available.
 
