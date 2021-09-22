@@ -12,6 +12,9 @@ title = "Reference"
 
 > A collection of LLDB extensions for working with the Pony programming language.
 
+- [Making pony track memory usage]({{< relref "pony.md >}})
+> Steps to build pony runtime to track memory consumption.
+
 ### Visual Studio Code
 
 In order to debug programs in the Visual Studio Code debugger (either on Windows or with GDB or LLDB on Unix), you need to set the `debug.allowBreakpointsEverywhere` setting to `true`, so you can set breakpoints in `.pony` files.  Then make a launch configuration that runs your program.
