@@ -12,8 +12,8 @@ title = "Reference"
 
 > A collection of LLDB extensions for working with the Pony programming language.
 
-- [Making pony track memory usage]({{< relref "pony.md >}})
-> Steps to build pony runtime to track memory consumption.
+- [Making Pony track memory usage]({{< relref "pony-track-memory-usage.md >}})
+> Steps to build Pony runtime to track memory consumption.
 
 ### Visual Studio Code
 
