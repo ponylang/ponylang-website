@@ -78,9 +78,8 @@ This is a two step process
 
     - For Makefile based builds, passing appropriate arguments to the make [invocation](https://github.com/ponylang/ponyc/blob/Makefile)
 
-   There after, we run [configure command as usual](https://github.com/ponylang/ponyc/blob/main/BUILD.md)
+   There after, we run the [configure command as usual](https://github.com/ponylang/ponyc/blob/main/BUILD.md)
 
 - Build
   
   After the `configure` step we build pony from source as per the platform. We get `ponyc` enabled with tracking memory in the folder `build/release-memtrack_messages` folder.
-
