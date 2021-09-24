@@ -55,6 +55,7 @@ Later, this function can be used to figure out the total memory used by an actor
     let size = @ponyint_actor_total_mem_size(this)
     env.out.print("my size = " + size.string())
 ```
+
 or,
 
 ```pony
@@ -62,7 +63,6 @@ or,
     let size = @ponyint_actor_total_mem_size(some_actor)
     env.out.print("size of some actor " + size.string())
 ```
-
 
 ### Building ponyc to track memory usage
 Tracking memory is a costly affair and is not enabled by default. Pony runtime needs to be built separately to track memory usage.
