@@ -70,7 +70,7 @@ Tracking memory is a costly affair and is not enabled by default. Pony runtime n
 
 This is a two step process
 
--  Configuring Pony
+- Configuring Pony
 
    We need to ensure that at the time of configure step, `-DPONY_USE_MEMTRACK=true -DPONY_USE_MEMTRACK_MESSAGES=true` are passed to the cmake at the configure step.
 
