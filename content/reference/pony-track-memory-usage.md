@@ -65,6 +65,7 @@ or,
 ```
 
 ### Building ponyc to track memory usage
+
 Tracking memory is a costly affair and is not enabled by default. Pony runtime needs to be built separately to track memory usage.
 
 This is a two step process
@@ -74,7 +75,8 @@ This is a two step process
    We need to ensure that at the time of configure step, `-DPONY_USE_MEMTRACK=true -DPONY_USE_MEMTRACK_MESSAGES=true` are passed to the cmake at the configure step.
 
     - For windows, this implies adding the `-DPONY_USE_MEMTRACK=true -DPONY_USE_MEMTRACK_MESSAGES=true` in the [configure](https://github.com/ponylang/ponyc/blob/make.ps1) section of make.ps1
-   - For Makefile based builds, passing appropriate arguments to the make [invocation](https://github.com/ponylang/ponyc/blob/Makefile)
+
+    - For Makefile based builds, passing appropriate arguments to the make [invocation](https://github.com/ponylang/ponyc/blob/Makefile)
 
    There after, we run [configure command as usual](https://github.com/ponylang/ponyc/blob/main/BUILD.md)
 
