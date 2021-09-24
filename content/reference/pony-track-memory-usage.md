@@ -32,7 +32,7 @@ returns the size of the given actor.given an actor, this function returns the si
 
 returns the size of the memory pool allocated to the given actor.
 
-- `ponyint_actor_total_mem_size` 
+- `ponyint_actor_total_mem_size`
 
 returns the memory that is actively used by the runtime for the given actor.
 
