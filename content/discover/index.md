@@ -37,7 +37,7 @@ Pony is an ahead-of-time (AOT) compiled language. There is no interpreter nor vi
 
 ### Compatible with C
 
-Pony programs can natively call C libraries. Our compiler is able to generate a C-header file for Pony libraries. Consequently, C/C++ programs can natively call Pony programs!
+Pony programs can natively call C libraries using the foreign function interface.
 
 ## Why Pony?
 
