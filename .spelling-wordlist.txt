@@ -252,6 +252,7 @@ Netlify
 nightlies
 Nikolaus
 NUMA
+numerics
 o'Cook
 observability
 ok
