@@ -140,11 +140,11 @@ array_pointer[index]
 (lldb) frame variable *types->_data
 (String) *types->_data = (_size = 2, _alloc = 3, _ptr = ",f")
 
-(ponytest_TestHelper *) this = 0x0000000110ff5020
+(pony_test_TestHelper *) this = 0x0000000110ff5020
 (lldb) p this
-(ponytest_TestHelper *) $2 = 0x0000000110ff5020
+(pony_test_TestHelper *) $2 = 0x0000000110ff5020
 (lldb) p *$2
-(ponytest_TestHelper) $3 = {
+(pony_test_TestHelper) $3 = {
   _runner = 0x0000000110ff7200
   env = 0x0000000108ffec00
 }
