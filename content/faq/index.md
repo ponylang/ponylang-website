@@ -42,7 +42,6 @@ Yes! Here's a few projects we regularly point people towards:
 
 - [Jylis](https://github.com/jemc/jylis) - A distributed in-memory database for Conflict-free Replicated Data Types
 - [Novitiate](https://github.com/jtfmumm/novitiate) - A procedurally generated RPG inspired by Rogue and written in Pony.
-- [Ponycheck](https://github.com/mfelsche/ponycheck) - Property Based Testing for Pony
 - [Wallaroo](https://github.com/wallaroolabs/wallaroo) - Distributed Stream Processor written in Pony
 
 ### Does Pony have a formatter? {#code-formatter}
