@@ -14,6 +14,7 @@ date = "{{ .Date }}"
 Brief overview of the content and what is happing in the Pony community.
 
 ...
+
 <!--more-->
 
 ## Items of note
@@ -29,6 +30,14 @@ Link to any interesting items of note such as Pony releases, large website updat
 ...
 
 list any interesting blog posts either on the website or from the community
+
+...
+
+## Issue of the Week
+
+...
+
+describe a selected issue from one of the ponylang repos
 
 ...
 
