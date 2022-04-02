@@ -3,6 +3,10 @@ title = "Planet Pony"
 +++
 We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
+## 2022
+
+* [Pony VUG #12: Exploration of a bug](https://vimeo.com/695067236)
+
 ## 2021
 
 * [Pony VUG #11: Pony via a GitHub REST API](https://vimeo.com/592434464)
