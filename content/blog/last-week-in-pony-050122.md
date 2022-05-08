@@ -5,7 +5,7 @@ description = "Version 0.50.0 of ponylang/ponyc has been released!"
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - April 1, 2022"
+title = "Last Week in Pony - May 1, 2022"
 date = "2022-05-01T13:23:15-04:00"
 +++
 
