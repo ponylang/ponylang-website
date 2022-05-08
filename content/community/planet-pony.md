@@ -5,6 +5,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2022
 
+* [Pony VUG #13: An informal tour of the Pony backpressure system](https://vimeo.com/707155973)
 * [Pony VUG #12: Exploration of a bug](https://vimeo.com/695067236)
 
 ## 2021
