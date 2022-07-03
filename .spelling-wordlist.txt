@@ -254,6 +254,7 @@ nd
 Netlify
 nightlies
 Nikolaus
+nogginly
 NUMA
 numerics
 o'Cook
@@ -378,6 +379,7 @@ SystemTap
 tada
 TCP
 templating
+termax
 th
 Theo
 theobutler
