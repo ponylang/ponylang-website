@@ -20,7 +20,7 @@ In last week in Pony!...
 ## Items of note
 
 - Pony's [Zulip community](https://ponylang.zulipchat.com) is now accessible without an account. We've made most of the streams that make up the Zulip "web public" which means if you visit the Zulip and aren't logged in, you'll be able to read all the content in those streams.
-  Want to know why? There's a Zulip discussion that covers it!](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Making.20the.20Zulip.20public).
+  Want to know why? [There's a Zulip discussion that covers it!](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Making.20the.20Zulip.20public).
 
 - RISC-V support has [landed on main](https://github.com/ponylang/ponyc/pull/3435). It will go out in the [next release](https://github.com/ponylang/ponyc/issues/4154) targeted for early August.
 
