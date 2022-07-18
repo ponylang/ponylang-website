@@ -12,9 +12,6 @@ date = "2022-07-17T23:59:59-04:00"
 @Theodus writes: "Hey all, I want to announce that I will be stepping down from the Pony core team. I haven't been dedicating time to working on Pony for a while now. Hopefully I'll have some projects in the future that get me to dive back in. I can't thank the community and core team enough for being truly awesome and for teaching me so much ever since I got involved as a high school student back in 2016. This language and community have come such a long way since I got involved back then, and it's been an amazing experience to have participated in some small part of that. I constantly refer to Pony as an inspiration and an example of a great type system, runtime design, and set of values. I'll still be hanging around in Zulip, and hopefully I'll be back to contributing in the future."
 
 We'll keep the seat warm for you Theo!
-
-In last week in Pony!...
-
 <!--more-->
 
 ## Items of note
