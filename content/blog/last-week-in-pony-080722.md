@@ -11,7 +11,6 @@ date = "2022-08-07T00:59:59-04:00"
 
 This week we add a new section to This Week in Pony where your (currently nomadic) Author will highlight a language trait or principle that, if you are new to pony may surprise you.
 
-
 <!--more-->
 
 ## Ponies can't sleep...
@@ -30,11 +29,9 @@ Pony's philosophy has performance second only to correctness. One does not get p
 
 For those of us who came from languages that block, there's a section in the [pony patterns website](https://patterns.ponylang.io/async/index.html) that provides examples of how to perform functions that would typically block in other languages.
 
-
 ## Items of note
 
 - Audio from the August 2nd Pony Development sync is available: [https://sync-recordings.ponylang.io/r/2022_08_02.m4a](https://sync-recordings.ponylang.io/r/2022_08_02.m4a)
-
 
 ---
 
