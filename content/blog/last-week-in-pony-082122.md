@@ -21,7 +21,7 @@ To be more accurate, ponies _should_ never crash.  In fact, if you can write a p
 
 Unfortunately, there are some things that are beyond our control like running out of memory or tomfoolery using the C-FFI… but in the main, if you crash - we want to know.
 
-How does Pony acheieve this?
+How does Pony achieve this?
 
 * Applying strong type guarantees.
 * Implementing concurrent, per-actor garbage collection.
