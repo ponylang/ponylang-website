@@ -29,10 +29,9 @@ How does Pony achieve this?
 * Not allowing uncaught exceptions.
 * Extending the type system with additional qualifiers (called reference capabilities) making it safe to work on data with multiple actors, while avoiding data-races and deadlocks.
 
-
 ## Items of note
 
-- Audio from the [August 16th](https://sync-recordings.ponylang.io/r/2022_08_16.m4a) Pony development sync is available.
+* Audio from the [August 16th](https://sync-recordings.ponylang.io/r/2022_08_16.m4a) Pony development sync is available.
 
 ## Issues of the Week
 
