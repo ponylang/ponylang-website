@@ -280,6 +280,7 @@ patroclos
 Perelandric
 PLISS
 PLT
+PoC
 Polyconf
 ponybench
 ponyc

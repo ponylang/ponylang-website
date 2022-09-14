@@ -30,7 +30,7 @@ See the full [release notes](https://github.com/ponylang/ponyc/releases/tag/0.51
 
 ### Version 0.4.2 of ponylang/http\_server has been released.
 
-See the full [release notes](https://github.com/ponylang/http_server/releases/tag/0.4.2) 
+See the full [release notes](https://github.com/ponylang/http_server/releases/tag/0.4.2)
 
 - Fixes
   - Updated default connection heartbeat to 1000ms
@@ -44,11 +44,11 @@ See the full [release notes](https://github.com/seantallen-org/lori/releases/tag
 
 ## Items of note
 
-One of your author's projects involves a substantial amount of pulling data from various network devices and pony has been exceptional at the task.  A task that would typically take days to execute using a common OpenSource tool wcan be performed in ten or so minutes.  Pony moved the bottleneck to the network, where it should be.
+One of your author's projects involves a substantial amount of pulling data from various network devices and pony has been exceptional at the task.  A task that would typically take days to execute using a common OpenSource tooling can be performed in ten or so minutes our Pony implementation. Pony moved the bottleneck to the network, where it should be.
 
-However, the challenge is then how to get that data into a database for the rest of the business processes to be able to analyze.  A look around found that there was a lack of a Pony driver for PostgreSQL, the database we used due to its excellent ipaddr and cidr data-types.
+However, the challenge is then how to get that data into a database for the rest of the business processes to be able to analyze.  A look around found that there was a lack of a Pony driver for PostgreSQL, the database we used due to its excellent ipaddr and cidr data-type support.
 
-After a weekend or two your Author has written a Proof of Concept [Pure Pony driver for PostgreSQL](https://github.com/redvers/pony-pg). Given the importance of such a driver and after some discussion we have decided that the Ponylang Team will take my PoC and build it as an Official Ponylang Project.
+After a weekend or two your Author has written a Proof of Concept [Pure Pony driver for PostgreSQL](https://github.com/redvers/pony-pg). Given the importance of such a driver and after some discussion we have decided that the Ponylang Team will take my PoC and rewrite it as an Official Ponylang Project.
 
 Starting in a few weeks Sean Allen and myself will be working together during [Office Hours](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Office.20hours) to complete this task. I'm excited to have my Pony knocked into a more standard shape :)
 
