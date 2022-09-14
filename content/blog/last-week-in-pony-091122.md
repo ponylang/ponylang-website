@@ -44,7 +44,7 @@ See the full [release notes](https://github.com/seantallen-org/lori/releases/tag
 
 ## Items of note
 
-One of your author's projects involves a substantial amount of pulling data from various network devices and pony has been exceptional at the task.  A task that would typically take days to execute using a common OpenSource tooling can be performed in ten or so minutes our Pony implementation. Pony moved the bottleneck to the network, where it should be.
+One of your author's projects involves a substantial amount of pulling data from various network devices and pony has been exceptional at the task.  A task that would typically take days to execute using a common Open Source tooling can be performed in ten or so minutes our Pony implementation. Pony moved the bottleneck to the network, where it should be.
 
 However, the challenge is then how to get that data into a database for the rest of the business processes to be able to analyze.  A look around found that there was a lack of a Pony driver for PostgreSQL, the database we used due to its excellent ipaddr and cidr data-type support.
 
