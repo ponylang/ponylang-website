@@ -58,6 +58,7 @@ changelog
 changelogs
 Cheeseman
 ChristopherBiscardi
+cidr
 CircleCI
 CirrusCI
 Clebsch
@@ -179,6 +180,7 @@ intentioned
 interoperable
 interoperation
 IO
+ipaddr
 IRCd
 ISC
 ish

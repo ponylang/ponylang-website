@@ -15,35 +15,38 @@ Lots of news this week!  New releases and new projects oh my!  So much that I'll
 
 ## New Releases
 
-- Version 0.51.2 of ponylang/ponyc has been released.
-  See the full [release notes](https://github.com/ponylang/ponyc/releases/tag/0.51.2) for full details but here are the highlights!
+### Version 0.51.2 of ponylang/ponyc has been released.
 
-  - New Features:
-    - Support for RISC-V.
-    - Enhanced runtime stats tracking.
-    - Allow constructor expressions to be auto-recovered in assignments or arguments.
+See the full [release notes](https://github.com/ponylang/ponyc/releases/tag/0.51.2) for full details but here are the highlights!
 
-  - Fixes
-    - Fix compiler crash related to using private types as default arguments.
-    - Fix "incorrect" atomics usage.
-    
-- Version 0.4.2 of ponylang/http\_server has been released.
-  See the full [release notes](https://github.com/ponylang/http_server/releases/tag/0.4.2) 
+- New Features:
+  - Support for RISC-V.
+  - Enhanced runtime stats tracking.
+  - Allow constructor expressions to be auto-recovered in assignments or arguments.
 
-  - Fixes
-    - Updated default connection heartbeat to 1000ms
+- Fixes
+  - Fix compiler crash related to using private types as default arguments.
+  - Fix "incorrect" atomics usage.
 
-- Version 0.2.2 of seantallen-org/lori has been released.
-  See the full [release notes](https://github.com/seantallen-org/lori/releases/tag/0.2.2) 
+### Version 0.4.2 of ponylang/http\_server has been released.
 
-  - Fixes
-    - Corrected handling of failing outgoing connections.
+See the full [release notes](https://github.com/ponylang/http_server/releases/tag/0.4.2) 
+
+- Fixes
+  - Updated default connection heartbeat to 1000ms
+
+### Version 0.2.2 of seantallen-org/lori has been released.
+
+See the full [release notes](https://github.com/seantallen-org/lori/releases/tag/0.2.2)
+
+- Fixes
+  - Corrected handling of failing outgoing connections.
 
 ## Items of note
 
 One of your author's projects involves a substantial amount of pulling data from various network devices and pony has been exceptional at the task.  A task that would typically take days to execute using a common OpenSource tool wcan be performed in ten or so minutes.  Pony moved the bottleneck to the network, where it should be.
 
-However, the challenge is then how to get that data into a database for the rest of the business processes to be able to analyze.  A look around found that there was a lack of a Pony driver for PostgreSQL, the database we used due to its excellent ipaddress and cidr datatypes.
+However, the challenge is then how to get that data into a database for the rest of the business processes to be able to analyze.  A look around found that there was a lack of a Pony driver for PostgreSQL, the database we used due to its excellent ipaddr and cidr data-types.
 
 After a weekend or two your Author has written a Proof of Concept [Pure Pony driver for PostgreSQL](https://github.com/redvers/pony-pg). Given the importance of such a driver and after some discussion we have decided that the Ponylang Team will take my PoC and build it as an Official Ponylang Project.
 
@@ -56,12 +59,12 @@ Each week, we will highlight "good first issues" from the Pony ecosystem that we
 This week we have issues from both the ponyc and the pony-tutorial repositories:
 
 - pony-tutorial
-  * ["Making usage of `this` more apparent"](https://github.com/ponylang/pony-tutorial/issues/458)
-  * ["Remove "person" from the Type Aliases description"](https://github.com/ponylang/pony-tutorial/issues/446)
+  - ["Making usage of `this` more apparent"](https://github.com/ponylang/pony-tutorial/issues/458)
+  - ["Remove "person" from the Type Aliases description"](https://github.com/ponylang/pony-tutorial/issues/446)
 
 - ponyc
-  * ["cli.Arg silently ignores type casting errors"](https://github.com/ponylang/ponyc/issues/3244)
-  * ["Improve type mismatch error message by providing hints when the solution might be guessable from the compiler"](https://github.com/ponylang/ponyc/issues/2083)
+  - ["cli.Arg silently ignores type casting errors"](https://github.com/ponylang/ponyc/issues/3244)
+  - ["Improve type mismatch error message by providing hints when the solution might be guessable from the compiler"](https://github.com/ponylang/ponyc/issues/2083)
 
 Until next week, Pony On!
 
