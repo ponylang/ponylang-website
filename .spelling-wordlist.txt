@@ -292,6 +292,7 @@ PonyHub
 Ponyland
 ponylang
 ponyup
+PostgreS
 postmature
 PPA
 PR
@@ -313,6 +314,7 @@ PWL
 Pygments
 PyPI
 QCon
+QL
 quickstart
 Radisson
 README
