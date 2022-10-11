@@ -87,6 +87,7 @@ D'oh
 Darach
 Découverte
 dereference
+desugared
 Devoxx
 Díaz
 Dipin
