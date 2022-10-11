@@ -367,6 +367,7 @@ stderr
 stdin
 stdlib
 stdout
+StdStream
 Strangecode
 struct
 Stührk
