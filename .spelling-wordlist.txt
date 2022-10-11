@@ -87,6 +87,7 @@ D'oh
 Darach
 Découverte
 dereference
+desugared
 Devoxx
 Díaz
 Dipin
@@ -292,6 +293,7 @@ PonyHub
 Ponyland
 ponylang
 ponyup
+PostgreS
 postmature
 PPA
 PR
@@ -313,6 +315,7 @@ PWL
 Pygments
 PyPI
 QCon
+QL
 quickstart
 Radisson
 README
@@ -365,6 +368,7 @@ stderr
 stdin
 stdlib
 stdout
+StdStream
 Strangecode
 struct
 Stührk
