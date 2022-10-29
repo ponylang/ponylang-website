@@ -44,6 +44,7 @@ boolean
 bootstrapper
 Borch
 Borch
+Boyko
 Borja
 Bracey
 brainer
@@ -114,6 +115,7 @@ Eleskin
 Emacs
 Ennis
 epiceric
+epoll
 equestria
 Erdman
 ergl
@@ -181,6 +183,7 @@ intentioned
 interoperable
 interoperation
 IO
+IOCP
 ipaddr
 IRCd
 ISC
