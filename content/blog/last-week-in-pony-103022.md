@@ -5,7 +5,7 @@ description = "Return of the Mack"
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - July 3, 2022"
+title = "Last Week in Pony - October 30, 2022"
 date = "2022-10-30T07:00:06-04:00"
 +++
 
@@ -71,7 +71,7 @@ available, visit the [shared docker repository](https://github.com/ponylang/shar
 
 ## Releases
 
-- Version 0.51.5 of ponylang/ponyc has been released. See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.51.4) for more details.
+- Version 0.51.4 of ponylang/ponyc has been released. See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.51.4) for more details.
 
 ## Highlighted Issues
 
