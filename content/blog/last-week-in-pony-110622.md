@@ -74,10 +74,6 @@ The empty ranges RFC is going into its second week in "final comment period". So
 
 The ANSI erase codes RFC was new last week and, being rather simple, has moved quickly into "final comment period".
 
-### New
-
-New RFCs that were introduced this week.
-
 ### Final Comment Period
 
 RFCs that are in a final comment period before they are either accepted or rejected.
