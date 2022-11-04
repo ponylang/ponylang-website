@@ -23,9 +23,19 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 The work to add support for Windows in the Lori networking library that we [highlighted last week](https://www.ponylang.io/blog/2022/10/last-week-in-pony---october-30-2022/#windows-support-for-lori) has been released.
 
+### A Nasty Little Windows Bug was Closed
+
+This week, we discovered what looked like Windows IOCP events "getting lost". Eventually, that was narrowed down to "IOCP timers aren't firing". To the much more interesting, `Time.nanos` can wrap around on Windows causing a timer that was previously 30 seconds to become 30 minutes and make it look like the program hung or that "a timer event got lost".
+
+[PR #4427](https://github.com/ponylang/ponyc/pull/4227) has full details and you can get some background from the [Zulip topic](https://ponylang.zulipchat.com/#narrow/stream/190365-runtime/topic/IOCP.20timer.20events.20going.20lost).
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Lately, the meetings have been based around the work on getting a Postgres driver working and the corresponding work on Lori. Other office hours topics have been "open support time" where more experienced community member help others diagnose bugs or otherwise, get unstuck with the Pony projects they are working. And sometimes, it is just a gab fest. And sometimes, no one shows up!
+
+This week's office hours was mostly Adrian Boyko watching Sean do some ponylang or related PRs and CI maintenance. It also included a bit of conversation about the "nasty little Windows bug" from above and branch prediction in "modern CPUs".
+
+The meeting concluded with Adrian showing Sean a demo his software defined radio that he wrote in Pony and explaining a bit about how it works.
 
 Interested in giving attending a go? There's a [topic for that](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Office.20hours) in the Zulip.
 
