@@ -31,11 +31,11 @@ Interested in giving attending a go? There's a [topic for that](https://ponylang
 
 ## Releases
 
-- Version 0.5.0 of seantallen-org/lori  has been released. See the [release notes](https://github.com/seantallen-org/lori/releases/tag/0.5.0) for more details.
+- Version 0.5.0 of seantallen-org/lori has been released. See the [release notes](https://github.com/seantallen-org/lori/releases/tag/0.5.0) for more details.
 
 ## Highlighted Issues
 
-Pony is a volunteer driven project. Nothing gets down without someone  volunteering their time and helping to push things forward. Yes, there are folks who dedicate more time than others and a core team that dedicates time specifically for guiding Pony's development. Everyone's time is limited, so each week, we highlight a couple of issues that we hope will inspire someone to volunteer their time to help fix.
+Pony is a volunteer driven project. Nothing gets down without someone volunteering their time and helping to push things forward. Yes, there are folks who dedicate more time than others and a core team that dedicates time specifically for guiding Pony's development. Everyone's time is limited, so each week, we highlight a couple of issues that we hope will inspire someone to volunteer their time to help fix.
 
 In addition to our highlighted issues, you can find more that we are looking for assistance on by visiting just about any [repository in the ponylang org](https://github.com/ponylang/) and looking for issues labeled with "help wanted"
 This weeks issues as selected by Ryan A. Hagenson are:
@@ -56,13 +56,13 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 ## RFCs
 
-Major changes in Pony go through a community driven process were members of  the community can write up "requests for change" that detail what they think  should be changed and why. RFCs can range from simple to complex. We welcome your participation.
+Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
 We have two RFCs that saw activity in the past week.
 
-The empty ranges RFC is going into its second week in "final comment period". Some excellent points have been raised on the RFC and in all likelihood, it is either going to be adopted as a "short-term change" on the way to something larger or, it is going to expand into something much bigger than it currently is with a large breakage radius. Lots of good stuff going on there.
+The empty ranges RFC is going into its second week in "final comment period". Some excellent points have been raised on the RFC and in all likelihood, it is either going to be adopted as a "short-term change" on the way to something larger, or, it is going to expand into something much bigger than it currently is with a large breakage radius. Lots of good stuff going on there.
 
-The ANSI erase codes RFC was new last week and being rather simple, has moved quickly into "final comment period".
+The ANSI erase codes RFC was new last week and, being rather simple, has moved quickly into "final comment period".
 
 ### New
 
@@ -77,7 +77,7 @@ RFCs that are in a final comment period before they are either accepted or rejec
 
 ---
 
-_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 
