@@ -55,7 +55,7 @@ We need to add testing as part of our CI process that documentation generation i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Lately, the meetings have been based around the work on getting a Postgres driver working and the corresponding work on Lori. Other office hours topics have been "open support time" where more experienced community member help others diagnose bugs or otherwise, get unstuck with the Pony projects they are working. And sometimes, it is just a gab fest. And sometimes, no one shows up!
 
-This week, many folks showed up. Regular attendee Adrian Boyko was in attendance along with Red Davis, Ryan Hagenson, and Sean T. Allen.
+This week, many folks showed up. Regular attendee Adrian Boyko was in attendance along with Red Davies, Ryan Hagenson, and Sean T. Allen.
 
 The call started with a followup discussion to Adrian's Zulip question [Can I call a trait's default function implementation from my class's?](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help/topic/Can.20I.20call.20a.20trait's.20default.20function.20imp.20.20from.20my.20class's.3F). Sean went through a couple different approaches to the issue with Adrian that were in line with what he was already thinking about. They covered the [Pony Mixin Pattern](https://patterns.ponylang.io/code-sharing/mixin.html) and discussed the differences between traits and mixins as seen in the paper [Traits: Composable Units of Behaviour](https://www.researchgate.net/publication/221496370_Traits_Composable_Units_of_Behaviour).
 
