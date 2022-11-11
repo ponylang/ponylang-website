@@ -97,6 +97,7 @@ distro
 distros
 DLL
 Dmitry
+DNS
 docgen
 Dockerfile
 DockerHub
