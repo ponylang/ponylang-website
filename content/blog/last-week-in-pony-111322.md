@@ -17,11 +17,11 @@ The story of the last week in Pony? Well, I guess you could say it was a story o
 
 ### We've "broken" Documentation Generation
 
-The Ponyc 0.52.0 release "broke" documentation generation. Everything continues to work fine, but, where you previously needed to have the mkdocs `mkdocs-ponylang` theme, you'll now need to have the `mkdocs-material` theme installed.
+The Ponyc 0.52.0 release "broke" documentation generation. Everything continues to work fine, but, where you previously needed to have the mkdocs `mkdocs-ponylang` theme, you'll now need to have the `mkdocs-material` theme.
 
-See the [0.52.0 release notes](https://github.com/ponylang/ponyc/releases/tag/0.52.0) for more details as to why the change as made. We wanted to make sure that no one missed that the change was made. Please note, that the [library-documentation-action](https://github.com/ponylang/library-documentation-action) has been updated accordingly, so if you are using it, there's nothing you'll have to do.
+See the [0.52.0 release notes](https://github.com/ponylang/ponyc/releases/tag/0.52.0) for more details as to why the change was made. We wanted to make sure that no one missed that the change was made. Please note, that the [library-documentation-action](https://github.com/ponylang/library-documentation-action) has been updated accordingly, so if you are using it, there's nothing you'll have to do.
 
-### "Old" Standard Library Site is no more
+### "Old" Standard Library Site Is No More
 
 So, as some of you might know. Years ago, we used the domain "ponylang.org". That domain was registered in the personal account of someone no longer affiliated with the project and, we lost access to it. The domain was sadly, never transferred to the folks who are still maintaining Pony. Quite some time ago, we switched to using "ponylang.io" and all our official links use that domain. However, there are still some "ponylang.org" links floating around out there.
 
@@ -33,13 +33,13 @@ In case you are wondering, years ago, we stopped doing anything "Pony important"
 
 Every night, we run a stress test of the Pony runtime on various "officially supported platforms". The stress test is designed to heavily exercise the runtime and expose bugs. In the past, the stress tests have exposed an incorrect usage of atomics on aarch64 that was subsequently fixed.
 
-This week, we added stress tests that run on X86-64 Windows. This is the first time we've run stress tests on Windows. Given that Windows has (as far as we are aware) never been used extensively as a production platform, we wouldn't be surprised if the stress tests started exposing issues to be addressed.
+This week, we added stress tests that run on X86-64 Windows. This is the first time we've run stress tests on Windows. Given that Windows has (as far as we are aware) never been used extensively as a production platform, we wouldn't be surprised if the stress tests start exposing issues to be addressed.
 
 Keep an eye on future Last Week in Pony issues to see if anything is discovered.
 
 ### Help Adding Additional Stress Tests Is Sought
 
-We are looking to add additional stress tests. Our existing stress test is to run the [message-ubench](https://github.com/ponylang/ponyc/tree/main/examples/message-ubench) for an extended period of time. Ubench has been instrumental over the years in helping us find a variety of runtime issues, but it has it's limits. We are looking for add additional stress tests and we are looking for assistance in the writing of those tests. If you are interested in helping, please contact Sean T. Allen on Zulip.
+We are looking to add additional stress tests. Our existing stress test is to run the [message-ubench](https://github.com/ponylang/ponyc/tree/main/examples/message-ubench) for an extended period of time. Ubench has been instrumental over the years in helping us find a variety of runtime issues, but it has its limits. We are looking to add additional stress tests and we are asking for assistance in the writing of those tests. If you are interested in helping, please contact Sean T. Allen on Zulip.
 
 There was some initial conversation in the ["gc stress test"](https://ponylang.zulipchat.com/#narrow/stream/190359-ci/topic/GC.20stress.20test) topic on Zulip that can you give an idea of what sort of things we are looking to do.
 
@@ -49,7 +49,7 @@ You know a good way to know a feature isn't being used "in the community"? When 
 
 And so it was this past week that Matthias discovered that the "docgen" compiler feature was broken on Windows. Documentation generation on Windows has since been fixed, but could still be broken in the future.
 
-We need to add testing as part of our CI process that documentation generation is "working correctly", where "working correctly" means "creates some output". If you are interested in getting started with helping with Pony, this would a good way to get your feet wet with the build and CI systems. Talk to Sean T. Allen if you'd like to assist.
+We need to add testing as part of our CI process that documentation generation is "working correctly", where "working correctly" means "creates some output". If you are interested in getting started with helping with Pony, this would a good way to get your feet wet with the build and CI systems. Talk to Sean T. Allen in Zulip if you'd like to assist.
 
 ### Office Hours
 
@@ -59,7 +59,7 @@ Interested in giving attending a go? There's a [topic for that](https://ponylang
 
 ### Pony Development Sync
 
-There was no Pony Development Sync this week. Joe was the only person in attendance and called it off. We'd love to see more folks interested in learning more about the development of Pony, please, join us. See below for information on how to attend.
+There was no Pony Development Sync this week. Joe was the only person in attendance and called it off. We'd love to see more folks interested in learning more about the development of Pony. Please, join us! See below for information on how to attend.
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
@@ -83,7 +83,6 @@ description
 description
 
 If you are interested in working on either issue or any other issue from a Ponylang repository, you can get in touch on the issue in question or even better, join us on the [Ponylang Zulip](https://ponylang.zulipchat.com/) strike up a conversation.
-
 
 ## RFCs
 
