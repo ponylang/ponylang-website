@@ -72,17 +72,18 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 Pony is a volunteer driven project. Nothing gets down without someone volunteering their time and helping to push things forward. Yes, there are folks who dedicate more time than others and a core team that dedicates time specifically for guiding Pony's development. Everyone's time is limited, so each week, we highlight a couple of issues that we hope will inspire someone to volunteer their time to help fix.
 
 In addition to our highlighted issues, you can find more that we are looking for assistance on by visiting just about any [repository in the ponylang org](https://github.com/ponylang/) and looking for issues labeled with "help wanted"
+
+If you are interested in working on either issue or any other issue from a Ponylang repository, you can get in touch on the issue in question or, even better, join us on the [Ponylang Zulip](https://ponylang.zulipchat.com/) to strike up a conversation.
+
 This week's issues as selected by Ryan A. Hagenson are:
 
-### foo
+### [Create Testsuite for testing Pony programs in their process environment](https://github.com/ponylang/ponyc/issues/3128)
 
-description
+As part of the Pony automated testing, it would be useful to how Pony interacts with its environment at this could have found some issues sooner. Building a test suite for this evironmental interaction is a great place for someone to jump into contributing to Pony!
 
-### bar
+### [Clarify a couple intro points](https://github.com/ponylang/pony-tutorial/issues/348)
 
-description
-
-If you are interested in working on either issue or any other issue from a Ponylang repository, you can get in touch on the issue in question or even better, join us on the [Ponylang Zulip](https://ponylang.zulipchat.com/) strike up a conversation.
+There is no better issue to jump in on than one that is literally: we need someone new to learn Pony and tell us how the first page of the Tutorial can be improved! Pony exists within a subset of ideas that make the first page of the Tutorial a bit tricky to get right. Not only would we want someone new to learn Pony for this issue, but we would need them to consider the broader learning community. What might the typical "new Pony learner" know or not know so where the landing page as it is today leads them to draw incorrect conclusions about Pony itself?
 
 ## RFCs
 
