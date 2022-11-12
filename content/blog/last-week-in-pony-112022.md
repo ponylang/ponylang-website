@@ -13,6 +13,14 @@ date = "2022-11-20T07:00:06-04:00"
 
 ## Items of Note
 
+### Library Documentation Action Changes
+
+<< content here >>
+
+### Improved Ponylang Libraries Documentation Sites
+
+All the various Ponylang organization libraries have had their documentation rebuilt using the mkdocs-material-insiders theme. As we detailed [last week](), the theme greatly improves the search experience. Two weeks ago we rolled out the changes for the [standard library documentation site](https://stdlib.ponylang.org); this past week, we rolled it out across all our library sites.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_15.m4a) from the November 15th, 2022 sync is available.
@@ -31,7 +39,7 @@ All-in-all, it was a rousing office hours. Perhaps we will see you at the next o
 
 ## Releases
 
-- Ponyc 0.52.0. See [the release notes](https://github.com/ponylang/ponyc/releases/tag/0.52.0) for more details.
+- Ponyc 0.52.1. See [the release notes](https://github.com/ponylang/ponyc/releases/tag/0.52.1) for more details.
 
 ## Highlighted Issues
 
