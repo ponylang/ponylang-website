@@ -15,19 +15,17 @@ The story of the last week in Pony? Well, I guess you could say it was a story o
 
 ## Items of Note
 
+### stdlib.ponylang.io Improved
+
+The [standard library documentation site](https://stdlib.ponylang.io) has been updated to use the `mkdocs-material` theme. In particular, the same [insiders build](https://squidfunk.github.io/mkdocs-material/insiders/) that we use for the [Pony Tutorial](https://tutorial.ponylang.io/) and [Pony Patterns](https://patterns.ponylang.io/) websites.
+
+You should find the search experience to be greatly improved on the standard library documentation site as the insiders build contains [numerous search improvements](https://squidfunk.github.io/mkdocs-material/blog/2021/09/13/search-better-faster-smaller/).
+
 ### We've "broken" Documentation Generation
 
 The Ponyc 0.52.0 release "broke" documentation generation. Everything continues to work fine, but, where you previously needed to have the mkdocs `mkdocs-ponylang` theme, you'll now need to have the `mkdocs-material` theme.
 
 See the [0.52.0 release notes](https://github.com/ponylang/ponyc/releases/tag/0.52.0) for more details as to why the change was made. We wanted to make sure that no one missed that the change was made. Please note, that the [library-documentation-action](https://github.com/ponylang/library-documentation-action) has been updated accordingly, so if you are using it, there's nothing you'll have to do.
-
-### "Old" Standard Library Site Is No More
-
-So, as some of you might know. Years ago, we used the domain "ponylang.org". That domain was registered in the personal account of someone no longer affiliated with the project and, we lost access to it. The domain was sadly, never transferred to the folks who are still maintaining Pony. Quite some time ago, we switched to using "ponylang.io" and all our official links use that domain. However, there are still some "ponylang.org" links floating around out there.
-
-As of the Ponyc 0.52.0, we have switched where we host our standard library documentation site stdlib.ponylang.io. With this switch, if you were accessing the site via ponylang.org, that will stop working. At first, it will merely be stale and a while after that, it will have no content at all.
-
-In case you are wondering, years ago, we stopped doing anything "Pony important" in individual accounts and have a shared 1Password account for the core team. Thanks 1Password for the free team account!
 
 ### Windows Stress Tests Added
 
