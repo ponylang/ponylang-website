@@ -97,6 +97,7 @@ distro
 distros
 DLL
 Dmitry
+DNS
 docgen
 Dockerfile
 DockerHub
@@ -406,6 +407,7 @@ TravisCI
 triaging
 Turley
 Turley's
+ubench
 UI
 ultrafast
 unforgeable
