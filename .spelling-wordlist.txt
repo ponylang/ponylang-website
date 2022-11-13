@@ -136,6 +136,7 @@ formatters
 FreeBSD
 Fritchie
 Fritchie's
+fu
 GC
 GDB
 Gebbie
