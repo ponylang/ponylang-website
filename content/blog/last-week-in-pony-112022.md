@@ -21,11 +21,15 @@ date = "2022-11-20T07:00:06-04:00"
 
 All the various Ponylang organization libraries have had their documentation rebuilt using the mkdocs-material-insiders theme. As we detailed [last week](), the theme greatly improves the search experience. Two weeks ago we rolled out the changes for the [standard library documentation site](https://stdlib.ponylang.org); this past week, we rolled it out across all our library sites.
 
+Note, in order to see the improvements, you might have to clear cached content for the documentation site.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_15.m4a) from the November 15th, 2022 sync is available.
 
-<< content here >>
+We addressed a number of RFCS, issues, and PRs during the 1 hour of the sync call. A good amount of time went to Sean and Joe live triaging of [ponyc issue #4240](https://github.com/ponylang/ponyc/issues/4240) which is now ready for work.
+
+For the most part, it was a fairly straightforward sync call modulo the live triaging which only happens ever so often.
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
@@ -63,12 +67,19 @@ This week's issues as selected by Ryan A. Hagenson are:
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-### Final Comment Period
+Two RFCs saw activity this week. The "term erase codes" RFC was voted on and accepted. The "empty ranges" RFC was moved from "final comment period" to "ready for vote". There's been a great deal of discussion on "empty ranges". It was decided to not expand the scope of the RFC and instead to vote on the RFC as written. Please see the RFC PR for additional details.
 
-RFCs that are in a final comment period before they are either accepted or rejected.
+### Ready for Vote
+
+RFCs that are are still accepting comments but we plan to vote on their acceptance at the next sync meeting.
+
+- [Introduce Empty Ranges](https://github.com/ponylang/rfcs/pull/201)
+
+### Accepted RFCs
+
+RFCs that have been accepted and can be now be implemented.
 
 - [Inclusion of all erase codes in the Term package](https://github.com/ponylang/rfcs/pull/203)
-- [Introduce Empty Ranges](https://github.com/ponylang/rfcs/pull/201)
 
 ---
 
