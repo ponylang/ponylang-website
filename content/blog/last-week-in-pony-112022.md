@@ -19,7 +19,7 @@ date = "2022-11-20T07:00:06-04:00"
 
 ### Improved Ponylang Libraries Documentation Sites
 
-All the various Ponylang organization libraries have had their documentation rebuilt using the mkdocs-material-insiders theme. As we detailed [last week](), the theme greatly improves the search experience. Two weeks ago we rolled out the changes for the [standard library documentation site](https://stdlib.ponylang.org); this past week, we rolled it out across all our library sites.
+All the various Ponylang organization libraries have had their documentation rebuilt using the mkdocs-material-insiders theme. As we detailed [last week](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-13-2022/#stdlib-ponylang-io-improved), the theme greatly improves the search experience. Two weeks ago we rolled out the changes for the [standard library documentation site](https://stdlib.ponylang.org); this past week, we rolled it out across all our library sites.
 
 Note, in order to see the improvements, you might have to clear cached content for the documentation site.
 
