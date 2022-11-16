@@ -15,7 +15,13 @@ date = "2022-11-20T07:00:06-04:00"
 
 ### Library Documentation Action Changes
 
-<< content here >>
+In July of 2022, GitHub announced a beta of [Custom GitHub Actions Workflows](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/). The gist of the announcement is that GitHub pages can now be built directly from GitHub actions rather than via an opaque process that uses a "magic branch" in a repository.
+
+Our [library documentation action](https://github.com/ponylang/library-documentation-action) was built to work with the "magic branch" workflow, but we very much wanted to support the new GitHub actions workflow. There was no way to update the library documentation action to support both workflows without introducing breaking changes that required updates for existing library documentation action users. So, we've introduced a "new library documentation action" called [library documentation action v2](https://github.com/ponylang/library-documentation-action-v2).
+
+Going forward, we plan to deprecate the original library documentation action and eventually only support v2. Sometime after the start of 2023, we will make the original action read-only and stop building new versions of the action that work with the latest ponyc versions.
+
+If you have any questions or concerns, please stop by [the Zulip](https://ponylang.zulipchat.com/) and let's chat.
 
 ### Improved Ponylang Libraries Documentation Sites
 
