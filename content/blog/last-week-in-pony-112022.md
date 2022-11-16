@@ -73,7 +73,7 @@ This week's issues as selected by Ryan A. Hagenson are:
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-Two RFCs saw activity this week. The "term erase codes" RFC was voted on and accepted. A [PR](https://github.com/ponylang/ponyc/pull/4246) has already been opened that implements the RFC. The "empty ranges" RFC was moved from "final comment period" to "ready for vote". There's been a great deal of discussion on "empty ranges". It was decided to not expand the scope of the RFC and instead to vote on the RFC as written. Please see the RFC PR for additional details.
+Two RFCs saw activity this week. The "term erase codes" RFC was voted on, accepted, and implemented. The "empty ranges" RFC was moved from "final comment period" to "ready for vote". There's been a great deal of discussion on "empty ranges". It was decided to not expand the scope of the RFC and instead to vote on the RFC as written. Please see the RFC PR for additional details.
 
 ### Ready for Vote
 
@@ -86,6 +86,12 @@ RFCs that are are still accepting comments but we plan to vote on their acceptan
 RFCs that have been accepted and can be now be implemented.
 
 - [Inclusion of all erase codes in the Term package](https://github.com/ponylang/rfcs/pull/203)
+
+### Implemented RFCs
+
+RFCs that whose implementation is now on the main development trunk.
+
+- [Inclusion of all erase codes in the Term package](https://github.com/ponylang/ponyc/pull/4246)
 
 ---
 
