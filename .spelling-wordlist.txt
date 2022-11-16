@@ -72,6 +72,7 @@ codebase
 CodeBeam
 codecabc
 CodeMesh
+colinobrien
 compositional
 conf
 COPR
@@ -88,6 +89,7 @@ D'oh
 Darach
 Découverte
 dereference
+deserialization
 desugared
 Devoxx
 Díaz
@@ -242,6 +244,7 @@ MessagePack
 mfelsche
 mfelsche's
 microservices
+Migda
 mixin
 mixins
 MkDocs
@@ -359,6 +362,7 @@ Seb
 semver
 sendable
 Sendence
+Sendence's
 sexualized
 sharable
 shellcheck
@@ -434,6 +438,7 @@ WG
 WHEEEE
 whitespace
 winCairo
+Wojciech
 Wrigstad
 wtf
 www

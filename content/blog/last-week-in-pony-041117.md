@@ -22,11 +22,11 @@ Pony 0.13.0 released! It's a high priority release recommended for all Pony user
 
 - [Pony Community Survey](https://docs.google.com/forms/d/e/1FAIpQLScBNr5dPPCVYchRukAm-sFR3wipndVJiua3xHr8CslohVFRlg/viewform?c=0&w=1&usp=send_form)
 
-- [Pony LLDB Cheatsheet](http://www.ponylang.io/reference/pony-lldb-cheatsheet/)
+- [Pony LLDB Cheat Sheet](http://www.ponylang.io/reference/pony-lldb-cheatsheet/)
 
-Ever wondered, how do I debug my Pony program? Well, things just got a little easier with the Pony LLDB Cheatsheet. We're hoping its a good way to get folks started with LLDB and Pony.
+Ever wondered, how do I debug my Pony program? Well, things just got a little easier with the Pony LLDB cheat sheet. We're hoping its a good way to get folks started with LLDB and Pony.
 
-- [Initial Pony Support In Rouge](https://github.com/jneen/rouge/pull/651) 
+- [Initial Pony Support In Rouge](https://github.com/jneen/rouge/pull/651)
 
 PR opened to add Pony syntax highlighting to Rouge, a pure Ruby syntax highlighter akin to Python's Pygments.
 
@@ -36,7 +36,7 @@ Was recently added to the Ponylang website to help folks with learning reference
 
 - Standard Library documentation temporarily relocated
 
-ponylang.io was moved from being hosted on GitHub pages to being on Netlify: HTTPS access is now available. Unfortunately, as part of the move, we broke hosting of the standard library documentation. Previously it was at http://ponylang.io/ponyc/. Once we sort out the DNS, it will be at http://stdlib.ponylang.io but until the DNS is sorted, [http://stdlib.netlify.com](http://stdlib.netlify.com) will work.
+ponylang.io was moved from being hosted on GitHub pages to being on Netlify: HTTPS access is now available. Unfortunately, as part of the move, we broke hosting of the standard library documentation. Previously it was at [http://ponylang.io/ponyc/](http://ponylang.io/ponyc/) Once we sort out the DNS, it will be at [http://stdlib.ponylang.io](http://stdlib.ponylang.io) but until the DNS is sorted, [http://stdlib.netlify.com](http://stdlib.netlify.com) will work.
 
 - [Audio from the April 5th Pony Developer Sync](https://sync-recordings.ponylang.io/r/2017_04_05.m4a) is available
 
