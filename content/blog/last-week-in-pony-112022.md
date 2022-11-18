@@ -61,13 +61,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Partial constructor application ponyc segfault
 
-<< content here >>
+Our first highlighted issue was part of this week's Pony Development Sync! Someone taking this issue will be continuing what Joe has posted in the issue to "add a special case path for constructors in the part of the compiler that sugars the partial application into a lambda."
 
-### bar
+[Ponyc issue #4240](https://github.com/ponylang/ponyc/issues/4240)
 
-<< content here >>
+### Generics and numbers
+
+Generics in Pony are not as ergonomic as we would like; adding a pattern to Pony Patterns showing the way to define a generic function over number types would be immensely helpful. It would be so helpful that we intend to link directly to this Pony Patterns entry from the Ponylang website FAQ page upon completion. Someone taking this issue will be continuing from an example that was posted in Zulip and addressing one of the hurdles of learning Pony for newcomers.
+
+[Pony patterns issue #46](https://github.com/ponylang/pony-patterns/issues/46)
 
 ## RFCs
 
