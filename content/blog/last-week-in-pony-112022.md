@@ -5,7 +5,7 @@ description = ""
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - November 13, 2022"
+title = "Last Week in Pony - November 20, 2022"
 date = "2022-11-20T07:00:06-04:00"
 +++
 
@@ -15,9 +15,9 @@ date = "2022-11-20T07:00:06-04:00"
 
 ### Library Documentation Action Changes
 
-In July of 2022, GitHub announced a beta of [Custom GitHub Actions Workflows](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/). The gist of the announcement is that GitHub pages can now be built directly from GitHub actions rather than via an opaque process that uses a "magic branch" in a repository.
+In July of 2022, GitHub announced a beta of [Custom GitHub Actions Workflows](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/). The gist of the announcement is that GitHub pages can now be built directly from GitHub Actions rather than via an opaque process that uses a "magic branch" in a repository.
 
-Our [library documentation action](https://github.com/ponylang/library-documentation-action) was built to work with the "magic branch" workflow, but we very much wanted to support the new GitHub actions workflow. There was no way to update the library documentation action to support both workflows without introducing breaking changes that required updates for existing library documentation action users. So, we've introduced a "new library documentation action" called [library documentation action v2](https://github.com/ponylang/library-documentation-action-v2).
+Our [library documentation action](https://github.com/ponylang/library-documentation-action) was built to work with the "magic branch" workflow, but we very much wanted to support the new GitHub Actions workflow. There was no way to update the library documentation action to support both workflows without introducing breaking changes that required updates for existing library documentation action users. So, we've introduced a "new library documentation action" called [library documentation action v2](https://github.com/ponylang/library-documentation-action-v2).
 
 Going forward, we plan to deprecate the original library documentation action and eventually only support v2. Sometime after the start of 2023, we will make the original action read-only and stop building new versions of the action that work with the latest ponyc versions.
 
@@ -33,9 +33,9 @@ Note, in order to see the improvements, you might have to clear cached content f
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_15.m4a) from the November 15th, 2022 sync is available.
 
-We addressed a number of RFCS, issues, and PRs during the 1 hour of the sync call. A good amount of time went to Sean and Joe live triaging of [ponyc issue #4240](https://github.com/ponylang/ponyc/issues/4240) which is now ready for work.
+We addressed a number of RFCS, issues, and PRs during the one hour of the sync call. A good amount of time went to Sean and Joe live triaging [ponyc issue #4240](https://github.com/ponylang/ponyc/issues/4240), which is now ready for work.
 
-For the most part, it was a fairly straightforward sync call modulo the live triaging which only happens ever so often.
+For the most part, it was a fairly straightforward sync call modulo the live triaging which only happens every so often.
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
@@ -73,7 +73,7 @@ This week's issues as selected by Ryan A. Hagenson are:
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-Two RFCs saw activity this week. The "term erase codes" RFC was voted on, accepted, and implemented. The "empty ranges" RFC was moved from "final comment period" to "ready for vote". There's been a great deal of discussion on "empty ranges". It was decided to not expand the scope of the RFC and instead to vote on the RFC as written. Please see the RFC PR for additional details.
+Two RFCs saw activity this week. The "term erase codes" RFC was voted on, accepted, and implemented. The "empty ranges" RFC was moved from "final comment period" to "ready for vote". There's been a great deal of discussion on "empty ranges". It was decided to not expand the scope of the RFC and instead to vote on the RFC as written. Please see the respective RFC PR for additional details.
 
 ### Ready for Vote
 
@@ -89,7 +89,7 @@ RFCs that have been accepted and can be now be implemented.
 
 ### Implemented RFCs
 
-RFCs that whose implementation is now on the main development trunk.
+RFCs with an implementation now on the main development trunk.
 
 - [Inclusion of all erase codes in the Term package](https://github.com/ponylang/ponyc/pull/4246)
 
