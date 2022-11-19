@@ -15,7 +15,7 @@ date = "2022-11-20T07:00:06-04:00"
 
 ### A Most Excellent Causal Messaging Conversation
 
-In response to Sean's "quick and dirty" [write-up of the November 11th office hours](), Adrian Boyko started a conversation in Zulip about [causal messaging](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Causal.20Messaging/near/309479310).
+In response to Sean's "quick and dirty" [write-up of the November 11th office hours](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-13-2022/#office-hours), Adrian Boyko started a conversation in Zulip about [causal messaging](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Causal.20Messaging/near/309479310).
 
 The conversation ended up going very deep into runtime implementation and general theory around causal messaging. A key takeaway was that defining our terms very clearly is an important part of correctly conveying what Pony's causal messaging does and does not guarantee.
 
