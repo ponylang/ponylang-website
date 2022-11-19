@@ -69,7 +69,11 @@ A decent portion of the time was spent on discussing the rather simplistic but f
 
 We also ended up talking about [ponyc issue #1118](https://github.com/ponylang/ponyc/issues/1118) and the forthcoming fix that Sean has been working on in consultation with Joe McIlvain. We covered the [ORCA protocol](https://www.ponylang.io/media/papers/OGC.pdf) and a high-level and Sean took Red through it's basics. If you are interested in getting a high-level overview of ORCA without joining an office hours, we recommend you check out Andrew Turley's Pony VUG #6 presentation [The Art of Forgetting - Garbage Collection in Pony](https://vimeo.com/181099993).
 
-All-in-all, it was one of the best office hours in recent memory. Perhaps we will see you at the next one! Interested in giving attending a go? There's a [topic for that](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Office.20hours) in the Zulip.
+All-in-all, it was one of the best office hours in recent memory. Perhaps we will see you at the next one! Interested in giving attending a go? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
+
+### Office Hours Calendar
+
+We've added a [calendar for office hours](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to make it easier for everyone to keep track of the schedule.
 
 ## Releases
 
