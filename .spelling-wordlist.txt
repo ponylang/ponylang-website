@@ -81,6 +81,7 @@ CPUs
 cquinn
 creational
 crypto
+cryptocurrencies
 cryptographic
 CSV
 ctags
