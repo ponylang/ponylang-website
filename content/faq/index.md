@@ -284,9 +284,15 @@ The longer answer is "it depends". Actors are Pony's unit of concurrency and man
 
 When we say that Pony has causal **messaging**, we mean that the Pony runtime provides certain guarantees about message delivery order. Given two actors, actor A and actor B. All messages sent from actor A will arrive at actor B in the order they were sent by Actor A and will be processed by Actor B in the same order. The causal ordering between messages will be preserved as an invariant by the runtime.
 
-Causal messaging extends to a chain of actors. For example, if Actor B sends messages to Actor C in response to messages from Actor A, then there is a causal messaging chain from Actor A to Actor C. The cause of a message is a message from another actor and the ordering will be preserved.
+Causal ordering of messages applies to a chain of message sends as well. If actor A sends M1 to B, and after that, sends M2 to C, then the messages at B and C can run in any order and in parallel. However, if C sends a message to B, even through another chain of actors, then it will always arrive after M1. You can think of a message inbox at B, where the first events added are processed first. In this case, A ensures that M1 is aded to B's inbox before it goes on to send other messages.
 
-It is essential to understand that the causal ordering of messages only exists between the two actors who are the sender and recipient of those messages. So for example, if actors X and Y send to actor Z, there is no guarantee what order the messages will be processed by Z except that we can say, all messages sent by X will be processed in the order they were sent, as will all messages sent by Y. However, messages from X and Y can arrive at Z interleaved in any order that maintains the causal ordering of X to Z and Y to Z.
+It's essential to note that this ordering was created directly between A and M1 in B. If we had another actor, say if both M1 in B, and M2 in C happened to include a message send to D, then there's no relationship between those messages in D.
+
+More formally, causal messaging can be broken down into a few rules:
+* A message is executed some time after it is sent.
+* Executions within one actor are sequential: earlier sends happen before later sends.
+* Messages received earlier are executed earlier: If M1 is sent to B before M2 is, then M1 executes before M2.
+* Causal ordering is transitive: if an event X happens before Y, and Y before Z, then X happens before Z.
 
 ### When do programs exit? {#program-exit}
 
