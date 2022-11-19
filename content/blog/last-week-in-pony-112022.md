@@ -1,13 +1,17 @@
 +++
 draft = false
 author = "seantallen"
-description = ""
+description = "All the news that blew in on the wayward wind this week."
 categories = [
     "Last Week in Pony",
 ]
 title = "Last Week in Pony - November 20, 2022"
 date = "2022-11-20T07:00:06-04:00"
 +++
+
+There's a lot going on in Ponyland. Ok, not as much as say, the world of cryptocurrencies. (Man, they are **really** cooking with gas!) But hey, there's still a lot going on, especially given the size of the community. Here's your update on all the various things from this last week.
+
+We strongly suggest that you settle in because there's a lot to catch up on from this past week, so, how about you put on [Patsy Cline's Showcase](https://www.youtube.com/watch?v=9loTXznGJy4&list=PLVnkoLiLMTm4o55C42Y7Axl4oQjIU7cyf) and get reading!
 
 <!--more-->
 
