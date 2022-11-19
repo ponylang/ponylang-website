@@ -284,7 +284,7 @@ The longer answer is "it depends". Actors are Pony's unit of concurrency and man
 
 When we say that Pony has causal **messaging**, we mean that the Pony runtime provides certain guarantees about message delivery order. Given two actors, actor A and actor B. All messages sent from actor A will arrive at actor B in the order they were sent by Actor A and will be processed by Actor B in the same order. The causal ordering between messages will be preserved as an invariant by the runtime.
 
-Causal ordering of messages applies to a chain of message sends as well. If actor A sends M1 to B, and after that, sends M2 to C, then the messages at B and C can run in any order and in parallel. However, if C sends a message to B, even through another chain of actors, then it will always arrive after M1. You can think of a message inbox at B, where the first events added are processed first. In this case, A ensures that M1 is aded to B's inbox before it goes on to send other messages.
+Causal ordering of messages applies to a chain of message sends as well. If actor A sends M1 to B, and after that, sends M2 to C, then the messages at B and C can run in any order and in parallel. However, if C sends a message to B, even through another chain of actors, then it will always arrive after M1. You can think of a message inbox at B, where the first events added are processed first. In this case, A ensures that M1 is added to B's inbox before it goes on to send other messages.
 
 It's essential to note that this ordering was created directly between A and M1 in B. If we had another actor, say if both M1 in B, and M2 in C happened to include a message send to D, then there's no relationship between those messages in D.
 
