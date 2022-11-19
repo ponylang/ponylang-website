@@ -21,7 +21,6 @@ The conversation ended up going very deep into runtime implementation and genera
 
 We believe that its a very important conversation and one that many programmers can learn a lot from. We strongly suggest you check it out. In another topic, Derrick Turk [highlighted how the conversation had helped him](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Segfault.20during.20program.20end.28.3F.29/near/310966763) understand a logic bug in a program of his.
 
-
 ### Library Documentation Action Changes
 
 In July of 2022, GitHub announced a beta of [Custom GitHub Actions Workflows](https://github.blog/changelog/2022-07-27-github-pages-custom-github-actions-workflows-beta/). The gist of the announcement is that GitHub pages can now be built directly from GitHub Actions rather than via an opaque process that uses a "magic branch" in a repository.
