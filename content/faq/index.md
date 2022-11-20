@@ -289,6 +289,7 @@ Causal ordering of messages applies to a chain of message sends as well. If acto
 It's essential to note that this ordering was created directly between A and M1 in B. If we had another actor, say if both M1 in B, and M2 in C happened to include a message send to D, then there's no relationship between those messages in D.
 
 More formally, causal messaging can be broken down into a few rules:
+
 - A message is executed some time after it is sent.
 - Executions within one actor are sequential: earlier sends happen before later sends.
 - Messages received earlier are executed earlier: If M1 is sent to B before M2 is, then M1 executes before M2.
