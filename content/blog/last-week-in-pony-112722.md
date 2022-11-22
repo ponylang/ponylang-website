@@ -35,6 +35,8 @@ Perhaps we will see you at the next one! Interested in giving attending a go? Th
 
 ## Releases
 
+- [ponyup 0.6.8](https://github.com/ponylang/ponyup/releases/tag/0.6.8)
+
 ## Highlighted Issues
 
 Pony is a volunteer driven project. Nothing gets down without someone volunteering their time and helping to push things forward. Yes, there are folks who dedicate more time than others and a core team that dedicates time specifically for guiding Pony's development. Everyone's time is limited, so each week, we highlight a couple of issues that we hope will inspire someone to volunteer their time to help fix.
