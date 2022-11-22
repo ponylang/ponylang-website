@@ -19,7 +19,11 @@ date = "2022-11-27T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_22.m4a) from the November 22nd, 2022 sync is available.
 
-<<content>>
+This week's sync went from one where Sean was expecting to do a solo sync where he went over issues and recorded the process to a fairly "group oriented sync". Attendees this week were Sean T. Allen, Joe Eli McIlvain, Jason Carr, Red Davies, and Adrian Boyko.
+
+We covered a number of issues and PRs across the RFC and ponyc repos. A decent amount of time was spent giving a quick history of the cycle detector as it relates to a PR from Sean that fixed a couple of race conditions in actor/cycle detector interactions and some live triaging of a nasty type system bug by Jason and Joe.
+
+Some sync meetings aren't very exciting. This is a good one, and if you don't often listen to the recordings, we would give this a "7 of 10" for "worth your time".
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
