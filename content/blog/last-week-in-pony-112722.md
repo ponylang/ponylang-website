@@ -55,15 +55,11 @@ Major changes in Pony go through a community driven process where members of the
 
 << overview of rfc activity>>
 
-### Ready for Vote
-
-RFCs that are are still accepting comments but we plan to vote on their acceptance at the next sync meeting.
-
-- [Introduce Empty Ranges](https://github.com/ponylang/rfcs/pull/201)
-
 ### Accepted RFCs
 
 RFCs that have been accepted and can be now be implemented.
+
+- [Introduce Empty Ranges](https://github.com/ponylang/rfcs/pull/201)
 
 ### Implemented RFCs
 
