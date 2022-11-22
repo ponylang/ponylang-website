@@ -61,9 +61,15 @@ After considerable conversation, the "Introduce Empty Ranges" RFC was accepted t
 
 ### Official Requests
 
-Requests for RFCs from the Pony core team.
+Requests for someone to create an RFC for "issue X" from the Pony core team.
 
 - [Improve Range and Reverse](https://github.com/ponylang/rfcs/issues/204)
+
+### User Requests
+
+Requests for someone to create an RFC for "issue X" from a Pony user.
+
+- [Add StdStream error reporting mechanism](https://github.com/ponylang/rfcs/issues/205)
 
 ### Accepted RFCs
 
