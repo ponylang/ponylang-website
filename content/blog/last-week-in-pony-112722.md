@@ -53,17 +53,19 @@ zap
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-<< overview of rfc activity>>
+After considerable conversation, the "Introduce Empty Ranges" RFC was accepted this week. There was a great deal of conversation on the RFC PR about improving the APIs for both `Range` and `Reverse` to make them both less error prone. It was finally decided to accept the RFC as is and create an [official request](https://github.com/ponylang/rfcs/issues/204) for an RFC to improve both `Range` and `Reverse`.
+
+### Official Requests
+
+Requests for RFCs from the Pony core team.
+
+- [Improve Range and Reverse](https://github.com/ponylang/rfcs/issues/204)
 
 ### Accepted RFCs
 
 RFCs that have been accepted and can be now be implemented.
 
 - [Introduce Empty Ranges](https://github.com/ponylang/rfcs/pull/201)
-
-### Implemented RFCs
-
-RFCs with an implementation now on the main development trunk.
 
 ---
 
