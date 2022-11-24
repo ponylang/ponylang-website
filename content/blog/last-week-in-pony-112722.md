@@ -15,6 +15,14 @@ date = "2022-11-27T07:00:06-04:00"
 
 ## Items of Note
 
+### Ending MacOS on Intel as a fully supported platform
+
+Our Ci provider, CirrusCI is ending support for MacOS on Intel at the end of the year. At that time, we will be dropping "full support" for MacOS on Intel and moving it to "best effort".
+
+"Full support" means that all changes are run through CI on the platform and we provide binaries of ponyc and other tools. When MacOS on Intel becomes "best effort", we will no longer be providing binaries of the various pony tools and we will no longer be doing CI on MacOS on Intel. We will continue to do MacOS CI on Apple Silicon and provide binaries for Apple Silicon as well.
+
+If anyone is interested in keeping some level of MacOS on Intel going, you can use Nix or look into becoming a maintainer for the various Pony tools using Homebrew. It appears that ponyc is being kept up-to-date with our releases. We're not sure about corral and we don't believe that Homebrew is currently supporting ponyup.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_22.m4a) from the November 22nd, 2022 sync is available.
