@@ -37,9 +37,13 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 ### Office Hours
 
-We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Lately, the meetings have been based around the work on getting a Postgres driver working and the corresponding work on Lori. Other office hours topics have been "open support time" where more experienced community member help others diagnose bugs or otherwise, get unstuck with the Pony projects they are working. And sometimes, it is just a gab fest. And sometimes, no one shows up!
+We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-Perhaps we will see you at the next one! Interested in giving attending a go? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
+Most of office hours this week was dedicated to helping Adrian Boyko in his investigation of [ponyc issue #3658](https://github.com/ponylang/ponyc/issues/3658). Adrian had made decent progress on the issue and came into Office Hours with some questions related to code in `subtype.c`. Sean helped him a bit with some understanding and then Jason Carr joined in with a proposed solution to the bug that Adrian will be implementing and testing.
+
+We finished up this week with a series of conversations between the various attendees, Sean T. Allen, Adrian Boyko, Jason Carr, and Ryan Hagenson.
+
+Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
 ## Releases
 
@@ -67,7 +71,9 @@ zap
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-After considerable conversation, the "Introduce Empty Ranges" RFC was accepted this week. There was a great deal of conversation on the RFC PR about improving the APIs for both `Range` and `Reverse` to make them both less error prone. It was finally decided to accept the RFC as is and create an [official request](https://github.com/ponylang/rfcs/issues/204) for an RFC to improve both `Range` and `Reverse`.
+This week, we've had a couple of requests for RFCs. Requests for RFC means that either the Pony core team or a community member is requesting that someone write an RFC to solve a specific problem.
+
+In addition to our two RFC requests, the "introduce empty ranges" RFC was accepted and is ready for someone to implement it.
 
 ### Official Requests
 
