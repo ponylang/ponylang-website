@@ -29,6 +29,10 @@ Sean T. Allen merged a fix for variety of race conditions in cycle detector/acto
 
 Sean has been holding back doing an immediate release in hopes of getting [a fix](https://github.com/ponylang/ponyc/pull/4256) for [issue #1118](https://github.com/ponylang/ponyc/issues/1118) in as well. Either way, expect a new version of ponyc to be released by December 1st.
 
+## Distributed Cycle Detector Work Underway
+
+Sean T. Allen has started working on replacing Pony's [centralized cycle-detector](https://github.com/ponylang/ponyc/blob/main/src/libponyrt/gc/cycle.c) with a [distributed one](https://ponylang.zulipchat.com/#narrow/stream/190365-runtime/topic/new.20.22cycle.20detector.22) that works on local knowledge and message passing.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_22.m4a) from the November 22nd, 2022 sync is available.
