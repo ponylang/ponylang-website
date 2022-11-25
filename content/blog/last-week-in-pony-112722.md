@@ -23,6 +23,12 @@ Our Ci provider, CirrusCI is ending support for MacOS on Intel at the end of the
 
 If anyone is interested in keeping some level of MacOS on Intel going, you can use Nix or look into becoming a maintainer for the various Pony tools using Homebrew. It appears that ponyc is being kept up-to-date with our releases. We're not sure about corral and we don't believe that Homebrew is currently supporting ponyup.
 
+### New Pony Version Coming Soon
+
+Sean T. Allen merged a fix for variety of race conditions in cycle detector/actor interactions. The fixed issues were marked as "triggers release". "Triggers release" is a tag we have on a number of issues that means "we should do a release soon after this".
+
+Sean has been holding back doing an immediate release in hopes of getting [a fix](https://github.com/ponylang/ponyc/pull/4256) for [issue #1118](https://github.com/ponylang/ponyc/issues/1118) in as well. Either way, expect a new version of ponyc to be released by December 1st.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_22.m4a) from the November 22nd, 2022 sync is available.
