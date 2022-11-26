@@ -69,13 +69,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Introduction of Empty Ranges (accepted RFC)
 
-bar
+After much community discussion, we have a new accepted RFC! Someone taking this issue should read through the accepted RFC text and implement the changes according to that content. The discussion around this RFC included additional conversation which became a [new open request](https://github.com/ponylang/rfcs/issues/204). This conversation will continue, but the accepted RFC content is ready for implementation!
 
-### zip
+[ponyc issue #4255](https://github.com/ponylang/ponyc/issues/4255)
 
-zap
+### Explain Numerics in Greater Details
+
+One advantage the Pony community has been lucky to experience is being the first language for some developers wherein they must consider numeric widths, signed versus unsigned integers, and overflow/underflow of numeric types. Someone taking this issue should should read the existing ticket and feel comfortable address how these aspects of numeric interact. Since the issue itself is fairly succinct, please feel free to reach out to Ryan A. Hagenson either within the issue itself or on Zulip for any additional clarity.
+
+[pony tutorial issue #486](https://github.com/ponylang/pony-tutorial/issues/486)
 
 ## RFCs
 
