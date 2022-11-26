@@ -17,7 +17,7 @@ date = "2022-11-27T07:00:06-04:00"
 
 ### Ending MacOS on Intel as a fully supported platform
 
-Our Ci provider, CirrusCI is ending support for MacOS on Intel at the end of the year. At that time, we will be dropping "full support" for MacOS on Intel and moving it to "best effort".
+Our CI provider, CirrusCI is ending support for MacOS on Intel at the end of the year. At that time, we will be dropping "full support" for MacOS on Intel and moving it to "best effort".
 
 "Full support" means that all changes are run through CI on the platform and we provide binaries of ponyc and other tools. When MacOS on Intel becomes "best effort", we will no longer be providing binaries of the various pony tools and we will no longer be doing CI on MacOS on Intel. We will continue to do MacOS CI on Apple Silicon and provide binaries for Apple Silicon as well.
 
@@ -31,17 +31,17 @@ Sean has been holding back doing an immediate release in hopes of getting [a fix
 
 ## Distributed Cycle Detector Work Underway
 
-Sean T. Allen has started working on replacing Pony's [centralized cycle-detector](https://github.com/ponylang/ponyc/blob/main/src/libponyrt/gc/cycle.c) with a [distributed one](https://ponylang.zulipchat.com/#narrow/stream/190365-runtime/topic/new.20.22cycle.20detector.22) that works on local knowledge and message passing.
+Sean T. Allen has started working on replacing Pony's [centralized cycle detector](https://github.com/ponylang/ponyc/blob/main/src/libponyrt/gc/cycle.c) with a [distributed one](https://ponylang.zulipchat.com/#narrow/stream/190365-runtime/topic/new.20.22cycle.20detector.22) that works on local knowledge and message passing.
 
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_22.m4a) from the November 22nd, 2022 sync is available.
 
-This week's sync went from one where Sean was expecting to do a solo sync where he went over issues and recorded the process to a fairly "group oriented sync". Attendees this week were Sean T. Allen, Joe Eli McIlvain, Jason Carr, Red Davies, and Adrian Boyko.
+This week's sync went from one where Sean was expecting to do a solo sync going over issues and record the process to a fairly "group-oriented sync". Attendees this week were: Sean T. Allen, Joe Eli McIlvain, Jason Carr, Red Davies, and Adrian Boyko.
 
 We covered a number of issues and PRs across the RFC and ponyc repos. A decent amount of time was spent giving a quick history of the cycle detector as it relates to a PR from Sean that fixed a couple of race conditions in actor/cycle detector interactions and some live triaging of a nasty type system bug by Jason and Joe.
 
-Some sync meetings aren't very exciting. This is a good one, and if you don't often listen to the recordings, we would give this a "7 of 10" for "worth your time".
+Some sync meetings aren't very exciting. This is a good one, and if you don't often listen to the recordings, we would give this a rating of: "worth your time".
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
@@ -49,9 +49,9 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-Most of office hours this week was dedicated to helping Adrian Boyko in his investigation of [ponyc issue #3658](https://github.com/ponylang/ponyc/issues/3658). Adrian had made decent progress on the issue and came into Office Hours with some questions related to code in `subtype.c`. Sean helped him a bit with some understanding and then Jason Carr joined in with a proposed solution to the bug that Adrian will be implementing and testing.
+Most of Office Hours this week was dedicated to helping Adrian Boyko in his investigation of [ponyc issue #3658](https://github.com/ponylang/ponyc/issues/3658). Adrian had made decent progress on the issue and came into Office Hours with some questions related to code in `subtype.c`. Sean helped him a bit with some understanding and then Jason Carr joined in with a proposed solution to the bug that Adrian will be implementing and testing.
 
-We finished up this week with a series of conversations between the various attendees, Sean T. Allen, Adrian Boyko, Jason Carr, and Ryan Hagenson.
+We finished up this week with a series of conversations between the various attendees: Sean T. Allen, Adrian Boyko, Jason Carr, and Ryan A. Hagenson.
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
