@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<<content>>"
+description = "Despite the short Holiday weekend in the US, plenty of things happen in the land of Pony."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - November 27, 2022"
 date = "2022-11-27T07:00:06-04:00"
 +++
 
-<<content>>
+Here we are again, another week has gone by! So quick. Perhaps I am saying that because I had a four day work week. Perhaps not. There's plenty that has happened this week in Pony and lots more coming.
 
 <!--more-->
 
