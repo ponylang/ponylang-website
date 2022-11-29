@@ -17,7 +17,7 @@ date = "2022-12-04T07:00:06-04:00"
 
 ### FreeBSD 13.1 is our supported FreeBSD version
 
-This week we merged support for FreeBSD 13.1 and moved our CI system to test against FreeBSD 13.1 rather than 13.0. All pre-built binaries will be built for FreeBSD 13.1 as of November 29.
+This week we merged support for FreeBSD 13.1 and moved our ponyc CI system to test against FreeBSD 13.1 rather than 13.0. All pre-built ponyc binaries will be built for FreeBSD 13.1 as of November 29. Corral and Ponyup will be moving soon but no date is set yet.
 
 ### Pony Development Sync
 
