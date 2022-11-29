@@ -19,7 +19,9 @@ date = "2022-12-04T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_29.m4a) from the November 29th, 2022 sync is available.
 
-<< sync summary content >>
+Our weekly sync call was primarily dominated by conversation about 2 topics. A discussion of issues around [the fix](https://github.com/ponylang/ponyc/pull/4256) for [issue #1118](https://github.com/ponylang/ponyc/issues/1118) and discussion of options for [alerting to errors from StdStream](https://github.com/ponylang/rfcs/issues/205).
+
+It wasn an excellent call. Not at all an ordinary "marching through tickets" sync. This would be one we recommend for folks who "listen to the recording sometimes".
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
