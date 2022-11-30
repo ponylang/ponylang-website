@@ -5,7 +5,7 @@ description = "<< short description content >>"
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - November 27, 2022"
+title = "Last Week in Pony - December 04, 2022"
 date = "2022-12-04T07:00:06-04:00"
 +++
 
@@ -23,7 +23,7 @@ This week we merged support for FreeBSD 13.1 and moved our ponyc CI system to te
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_11_29.m4a) from the November 29th, 2022 sync is available.
 
-Our weekly sync call was primarily dominated by conversation about 2 topics. A discussion of issues around [the fix](https://github.com/ponylang/ponyc/pull/4256) for [issue #1118](https://github.com/ponylang/ponyc/issues/1118) and discussion of options for [alerting to errors from StdStream](https://github.com/ponylang/rfcs/issues/205).
+Our weekly sync call was primarily dominated by conversation about two topics. A discussion of issues around [the fix](https://github.com/ponylang/ponyc/pull/4256) for [issue #1118](https://github.com/ponylang/ponyc/issues/1118) and discussion of options for [alerting to errors from StdStream](https://github.com/ponylang/rfcs/issues/205).
 
 It was an excellent call. Not at all an ordinary "marching through tickets" sync. This would be one we recommend for folks who "listen to the recording sometimes".
 
