@@ -51,13 +51,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### stdlib documentation
 
-bar
+We still have some stdlib packages with limited documentation. Someone taking this issue should feel comfortable writing documentation and have a general ability to read Pony code. However, it is by no means expected that a new contributor tackle all of stdlib's documentation so feel free to start small! A good example of good documentation in stdlib (in my, Ryan A. Hagenson's, opinion) is [pony_check](https://stdlib.ponylang.io/pony_check--index/), which has a good mix of usability focused examples and purpose-driven API explanations.
 
-### fu
+[ponyc issue #3280](https://github.com/ponylang/ponyc/issues/3280)
 
-bar
+### Improve Range and Reverse
+
+During the discussion of the [empty ranges RFC](https://github.com/ponylang/rfcs/pull/201), we noted there are still a considerable number of footguns in the ranges API that warrant a redesign. Someone taking this issue should read through the previous discussion, take previously mentioned concerns into mind, and write up an RFC proposing a new `Range` and `Reverse` to replace the current design.
+
+[rfc issue #204](https://github.com/ponylang/rfcs/issues/204)
 
 ## RFCs
 
