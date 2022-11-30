@@ -21,7 +21,7 @@ We can no longer get ponyc building in our Rocky 8 CI environment. After spendin
 
 At this point, we don't feel able to support Rocky 8 and are dropping support. If anyone using ponyc on Rocky 8 wants to get the CI environment working and open a PR to re-add support, we'll happily accept it.
 
-The current issue involves libatomic not being found during linking. If you would like to assist, hop into the [CI stream]() on the ponylang Zulip.
+The current issue involves libatomic not being found during linking. If you would like to assist, hop into the [CI stream](https://ponylang.zulipchat.com/#narrow/stream/190359-ci) on the ponylang Zulip.
 
 ### FreeBSD 13.1 is our supported FreeBSD version
 
