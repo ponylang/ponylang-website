@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< short description content >>"
+description = "Pony, It's Wicked Good!"
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - December 04, 2022"
 date = "2022-12-04T07:00:06-04:00"
 +++
 
-<< overview/intro content >>
+It was a week of releases and CI changes. We've switched from FreeBSD 13.0 to FreeBSD 13.1. We've dropped Rocky 8 support (for now anyway). We released a new ponyc with a wicked important bug fix. We released a far less intersting version of corral. So, kids, grab a [Moxie](https://www.drinkmoxie.com/), put on some [Johnny Cash](https://www.youtube.com/watch?v=ZTol6KfcEFw) and dig in. It's that time again, Last Week in Pony time!
 
 <!--more-->
 
@@ -48,6 +48,7 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 ## Releases
 
 - [ponyc 0.52.2](https://github.com/ponylang/ponyc/releases/tag/0.52.2)
+- [corral 0.6.1](https://github.com/ponylang/corral/releases/tag/0.6.1)
 
 ## Highlighted Issues
 
