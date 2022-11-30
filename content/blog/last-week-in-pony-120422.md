@@ -15,6 +15,14 @@ date = "2022-12-04T07:00:06-04:00"
 
 ## Items of Note
 
+### Dropping Rocky 8 support
+
+We can no longer get ponyc building in our Rocky 8 CI environment. After spending several hours attempting to get it working, we were unable to. Rocky 8 prebuilt binaries was added at the request of a user in 2021. We said we would do our best to maintain support.
+
+At this point, we don't feel able to support Rocky 8 and are dropping support. If anyone using ponyc on Rocky 8 wants to get the CI environment working and open a PR to re-add support, we'll happily accept it.
+
+The current issue involves libatomic not being found during linking. If you would like to assist, hop into the [CI stream]() on the ponylang Zulip.
+
 ### FreeBSD 13.1 is our supported FreeBSD version
 
 This week we merged support for FreeBSD 13.1 and moved our ponyc CI system to test against FreeBSD 13.1 rather than 13.0. All pre-built ponyc binaries will be built for FreeBSD 13.1 as of November 29. Corral and Ponyup will be moving soon but no date is set yet.
