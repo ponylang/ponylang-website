@@ -47,7 +47,7 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 
 ## Releases
 
-- [ponyup 0.52.2](https://github.com/ponylang/ponyc/releases/tag/0.52.2)
+- [ponyc 0.52.2](https://github.com/ponylang/ponyc/releases/tag/0.52.2)
 
 ## Highlighted Issues
 
