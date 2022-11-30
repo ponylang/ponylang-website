@@ -71,32 +71,6 @@ During the discussion of the [empty ranges RFC](https://github.com/ponylang/rfcs
 
 [rfc issue #204](https://github.com/ponylang/rfcs/issues/204)
 
-## RFCs
-
-Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
-
-This week, we've had a couple of requests for RFCs. Requests for RFC means that either the Pony core team or a community member is requesting that someone write an RFC to solve a specific problem.
-
-In addition to our two RFC requests, the "introduce empty ranges" RFC was accepted and is ready for someone to implement it.
-
-### Official Requests
-
-Requests for someone to create an RFC for "issue X" from the Pony core team.
-
-- [Improve Range and Reverse](https://github.com/ponylang/rfcs/issues/204)
-
-### User Requests
-
-Requests for someone to create an RFC for "issue X" from a Pony user.
-
-- [Add StdStream error reporting mechanism](https://github.com/ponylang/rfcs/issues/205)
-
-### Accepted RFCs
-
-RFCs that have been accepted and can be now be implemented.
-
-- [Introduce Empty Ranges](https://github.com/ponylang/rfcs/pull/201)
-
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
