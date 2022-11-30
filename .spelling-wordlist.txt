@@ -132,6 +132,7 @@ FinTech
 flakey
 flycheck
 fmt
+footguns
 formatter
 formatters
 FreeBSD
@@ -160,6 +161,7 @@ grrr
 gz
 Hacktoberfest
 Hagenson
+Hagenson's
 harken
 Hashable
 HFPUG
@@ -216,6 +218,7 @@ lang
 langage
 Lasauskas
 LDN
+libatomic
 LibreSSL
 LibXML
 Liétar
@@ -378,6 +381,7 @@ StatsD
 stderr
 stdin
 stdlib
+stdlib's
 stdout
 StdStream
 Strangecode
