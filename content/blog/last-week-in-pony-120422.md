@@ -49,6 +49,7 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 
 - [ponyc 0.52.2](https://github.com/ponylang/ponyc/releases/tag/0.52.2)
 - [corral 0.6.1](https://github.com/ponylang/corral/releases/tag/0.6.1)
+- [ponyup 0.6.9](https://github.com/ponylang/corral/releases/tag/0.6.9)
 
 ## Highlighted Issues
 
