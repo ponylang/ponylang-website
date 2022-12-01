@@ -15,6 +15,10 @@ It was a week of releases and CI changes. We've switched from FreeBSD 13.0 to Fr
 
 ## Items of Note
 
+### Highly recommended ponyc release
+
+We released a new version of ponyc this week. It fixes race conditions in cycle detector/actor interactions that could lead to segfaults. We strongly advice updating if you are able.
+
 ### Dropping Rocky 8 support
 
 We can no longer get ponyc building in our Rocky 8 CI environment. After spending several hours attempting to get it working, we were unable to. Rocky 8 prebuilt binaries was added at the request of a user in 2021. We said we would do our best to maintain support.
