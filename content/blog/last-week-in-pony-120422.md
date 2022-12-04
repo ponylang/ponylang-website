@@ -45,7 +45,7 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< office hours summary from ryan >>
+On friday, december 3rd, we talked about our solutions to the advent of code and discussed our approaches and learned some new syntax. Later on Matthias and Adrian were digging into https://github.com/ponylang/ponyc/issues/3658 but just found out that they need to dig further to understand why the subtype-check keeps recursing...
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
