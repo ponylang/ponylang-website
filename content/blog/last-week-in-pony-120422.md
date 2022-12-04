@@ -11,8 +11,6 @@ date = "2022-12-04T07:00:06-04:00"
 
 It was a week of releases and CI changes. We've switched from FreeBSD 13.0 to FreeBSD 13.1. We've dropped Rocky 8 support (for now anyway). We released a new ponyc with a wicked important bug fix. We released a far less interesting version of corral. So, kids, grab a [Moxie](https://www.drinkmoxie.com/), put on some [Johnny Cash](https://www.youtube.com/watch?v=ZTol6KfcEFw) and dig in. It's that time again, Last Week in Pony time!
 
-<!--more-->
-
 ## Items of Note
 
 ### Highly recommended ponyc release
@@ -45,7 +43,9 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-On friday, december 3rd, we talked about our solutions to the advent of code and discussed our approaches and learned some new syntax. Later on Matthias and Adrian were digging into https://github.com/ponylang/ponyc/issues/3658 but just found out that they need to dig further to understand why the subtype-check keeps recursing...
+This week in Office Hours, we talked about our approaches and solutions to this year's Advent of Code, while learning some new syntax along the way! Later on Matthias and Adrian dug into [ponyc issue #3658](https://github.com/ponylang/ponyc/issues/3658), but found out that they need to dig further to understand why the subtype-check keeps recursing. This particular issue has been the topic of [Office Hours](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-27-2022/#office-hours) previously.
+
+Thank you to those that attended this week: <<names of attendees>>
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
