@@ -334,6 +334,7 @@ README
 READMEs
 ReadSeq
 ReadTheDocs
+recursing
 reddit
 redvers
 refcaps
