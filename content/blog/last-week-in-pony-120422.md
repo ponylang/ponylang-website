@@ -45,8 +45,6 @@ We have an open Zoom meeting every Friday for the community to get together and 
 
 This week in Office Hours, we talked about our approaches and solutions to this year's Advent of Code, while learning some new syntax along the way! Later on Matthias and Adrian dug into [ponyc issue #3658](https://github.com/ponylang/ponyc/issues/3658), but found out that they need to dig further to understand why the subtype-check keeps recursing. This particular issue has been the topic of [Office Hours](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-27-2022/#office-hours) previously.
 
-Thank you to those that attended this week: <<names of attendees>>
-
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
 ## Releases
