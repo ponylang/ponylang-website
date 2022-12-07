@@ -16,7 +16,19 @@ date = "2022-12-11T07:00:06-04:00"
 
 ### A Performance Hit is Coming
 
+There's a performance hit coming. It will be fairly bad at first and will be mitigated as much as possible over the course of time.
 
+Currently, there's an unsafe optimization in the Pony runtime. The optimization is detailed in the ORCA paper on the garbage collection protocol and is usually safe, but sadly not always.
+
+The optimization cuts down on the amount of tracing that is done when an object is sent from one actor to another. It is based on the observation that for the sake of reference counting, we don't need to count every object in a graph that is sent from actor A to actor B so long as the root of the graph being sent is immutable. This optimization provides a large performance boost over tracing all objects sent from one actor to another. It also will from time to time, introduce a segfault that takes down the runtime.
+
+[Issue #1118](https://github.com/ponylang/ponyc/issues/1118) is the most obvious instance of the bug caused by the optimization. The core of the problem is that when an actor's reference count hits 0, it should be able to be reaped. However, if a reference to an actor is sent to another actor inside an immutable object, the actor will not be traced on send and might get reaped while references to it exist. Once that happens, a segfault is guaranteed.
+
+[PR #4256](https://github.com/ponylang/ponyc/pull/4256) fixes the safety problem by tracing every object sent between actors. In not very rigorous testing using a modified version of [message-ubench](https://github.com/ponylang/ponyc/tree/main/examples/message-ubench), Sean T. Allen saw a 1/3 drop in performance compared to running with the safety problem/optimization enabled. It should be noted that the 1/3 drop in performance is probably the high-end in terms of performance hit and many Pony programs will see little to no performance change.
+
+Our plan is to merge #4256 and then start getting compiler infrastructure in place so we can turn the optimization back on where it is safe. In #4256, we add a new field to all pony type descriptors that holds a boolean for whether a given type might contain a reference to an actor. If it might, we have to trace. If the compiler can prove that it doesn't, then sending an immutable version of the class inter-actor won't require tracing.
+
+#4256 will be merged sometime this week and will be in the next ponyc release that will be coming shortly thereafter.
 
 ### Pony Development Sync
 
