@@ -29,6 +29,22 @@ Our plan is to merge 4256 and then start getting compiler infrastructure in plac
 
 4256 will be merged sometime this week and will be in the next ponyc release that will be coming shortly thereafter.
 
+### ponylang/mkdocs-theme Archived
+
+We've archived the [ponylang/mkdocs-theme repository](https://github.com/ponylang/mkdocs-theme/).
+
+Quite some time ago, we created our own theme for using with the API documentation that ponyc generates (the ponyc `--docs` option). Our custom theme contained a number of very nice features that we very much like (such as linking method documentation to their source code). However, as time went on, the theme became harder to maintain.
+
+Recently, the theme stopped working with the most recent versions of `mkdocs`. We decided to [integrate](https://github.com/ponylang/ponyc/commit/a52451b1fa00b1c7e529113fbb9852827578a648) a [customized](https://squidfunk.github.io/mkdocs-material/customization/) [mkdocs-material](https://squidfunk.github.io/mkdocs-material/) into ponyc rather than continue to maintain the mkdocs-theme.
+
+This week, we archived the mkdocs-theme repository as it will no longer be used.
+
+See these previous LWIP entries for more information about the "new theme":
+
+- [stdlib.ponylang.io Improved](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-13-2022/#stdlib-ponylang-io-improved)
+- [We've "broken" Documentation Generation](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-13-2022/#we-ve-broken-documentation-generation)
+- [Improved Ponylang Libraries Documentation Sites](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-20-2022/#improved-ponylang-libraries-documentation-sites)
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_12_06.m4a) from the December 6th, 2022 sync is available.
