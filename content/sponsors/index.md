@@ -39,6 +39,10 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 [Cloudsmith](https://cloudsmith.io/) is providing free hosting for our nightly builds. That's incredibly awesome and they are great folks.
 
+### GitHub
+
+[GitHub](https://github.com/) provides a ton of free services to open source projects such as ours. Running the project without the services that GitHub provides for free would be very difficult.
+
 ### Netlify
 
 [Netlify](https://www.netlify.com/) hosts our website. They are an amazing service for hosting static websites. We take advantage of some [their features](https://www.netlify.com/features/). After using Netlify, we're not sure we'd ever want to use anything else.
