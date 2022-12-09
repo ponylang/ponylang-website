@@ -75,13 +75,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Introduction of Empty Ranges
 
-bar
+We are still looking for someone to implement the latest accepted RFC! All of the details should be included in the linked RFC text. If you have any questions, feel free to ask them either in the issue ticket or on the Ponylang Zulip.
 
-### fu
+[ponyc issue #4255](https://github.com/ponylang/ponyc/issues/4255)
 
-bar
+### Improve the Actor Section
+
+Currently, the introduction of actors in the Pony Tutorial is brief. As the issue ticket author notes, the fact that actors see themselves as `ref` and other actors as `tag` is not found. Beyond that specific omission, it would be helpful to have a fresh set of eyes on this section to highlight any other gaps. Someone taking this issue needs to feel comfortable writing learning material for new Pony developers, however does not need to know every caveat about actors themselves. Ryan A. Hagenson is willing to help anyone taking this issue, both in writing for the Tutorial and ensuring all the technical pieces around actors are properly stated.
+
+[pony-tutorial issue #469](https://github.com/ponylang/pony-tutorial/issues/469)
 
 ---
 
