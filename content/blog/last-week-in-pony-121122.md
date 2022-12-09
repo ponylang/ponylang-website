@@ -25,9 +25,9 @@ The optimization cuts down on the amount of tracing that is done when an object 
 
 [PR #4256](https://github.com/ponylang/ponyc/pull/4256) fixes the safety problem by tracing every object sent between actors. In not very rigorous testing using a modified version of [message-ubench](https://github.com/ponylang/ponyc/tree/main/examples/message-ubench), Sean T. Allen saw a 1/3 drop in performance compared to running with the safety problem/optimization enabled. It should be noted that the 1/3 drop in performance is probably the high-end in terms of performance hit and many Pony programs will see little to no performance change.
 
-Our plan is to merge 4256 and then start getting compiler infrastructure in place so we can turn the optimization back on where it is safe. In #4256, we add a new field to all pony type descriptors that holds a boolean for whether a given type might contain a reference to an actor. If it might, we have to trace. If the compiler can prove that it doesn't, then sending an immutable version of the class inter-actor won't require tracing.
+Our plan is to merge #4256 and then start getting compiler infrastructure in place so we can turn the optimization back on where it is safe. In #4256, we add a new field to all pony type descriptors that holds a boolean for whether a given type might contain a reference to an actor. If it might, we have to trace. If the compiler can prove that it doesn't, then sending an immutable version of the class inter-actor won't require tracing.
 
-4256 will be merged sometime this week and will be in the next ponyc release that will be coming shortly thereafter.
+#4256 will be merged sometime this week and will be in the next ponyc release that will be coming shortly thereafter.
 
 ### ponylang/mkdocs-theme Archived
 
