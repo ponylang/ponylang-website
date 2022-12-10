@@ -372,6 +372,7 @@ sendable
 Sendence
 Sendence's
 sexualized
+SFML
 sharable
 shellcheck
 Shyu
