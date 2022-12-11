@@ -11,6 +11,8 @@ date = "2022-12-11T07:00:06-04:00"
 
 Not a lot happened in the land of Pony this last week, but a lot will be happening soon.
 
+<!--more-->
+
 ## Items of Note
 
 ### A Performance Hit is Coming
