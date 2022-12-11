@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = ""
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - December 11, 2022"
 date = "2022-12-11T07:00:06-04:00"
 +++
 
-<< content >>
+Not a lot happened in the land of Pony this last week, but a lot will be happening soon.
 
 ## Items of Note
 
@@ -62,10 +62,6 @@ We continued our conversation around [ponyc issue #3658](https://github.com/pony
 Office hours closed out with some informal discussion around GUI libraries and their interaction with Pony. In the Pony runtime, we do not pin actors to threads so progress may continue from any thread, which makes using many GUI libraries difficult. Adrian and Red talked about a few options for libraries that _might_ be nicer to use in Pony such as T-GUI and SFML. In fact, the latter library already has Pony bindings thanks to stefandd in the form of [pony-csfml](https://github.com/stefandd/pony-csfml) -- which Adrian has contributed to previously. Red is looking into building bindings for T-GUI so as to not duplicate stefandd and Adrian's work on SFML.
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
-
-## Releases
-
-<< content >>
 
 ## Highlighted Issues
 
