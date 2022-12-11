@@ -11,6 +11,8 @@ date = "2022-12-18T07:00:06-04:00"
 
 << content >>
 
+<!--more-->
+
 ## Items of Note
 
 ### Pony Development Sync
