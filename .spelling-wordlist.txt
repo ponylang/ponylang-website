@@ -330,6 +330,7 @@ QCon
 QL
 quickstart
 Radisson
+Reachability
 README
 READMEs
 ReadSeq
@@ -371,6 +372,7 @@ sendable
 Sendence
 Sendence's
 sexualized
+SFML
 sharable
 shellcheck
 Shyu
@@ -385,6 +387,7 @@ stdlib
 stdlib's
 stdout
 StdStream
+stefandd
 Strangecode
 struct
 Stührk
