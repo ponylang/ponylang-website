@@ -15,6 +15,10 @@ date = "2022-12-18T07:00:06-04:00"
 
 ## Items of Note
 
+### MacOS on Intel is no longer a fully supported platform
+
+A few weeks back, we [announced that we would be dropping support for MacOS on Intel](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-27-2022/#ending-macos-on-intel-as-a-fully-supported-platform). At the time, we said that we would be doing it "before the end of the year", well, "before the end of the year is here". On December 12th, we merged the changes to drop MacOS on Intel support from ponyc, corral, and ponyup.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_12_13.m4a) from the December 6th, 2022 sync is available.
