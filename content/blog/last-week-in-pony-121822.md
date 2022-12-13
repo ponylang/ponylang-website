@@ -15,6 +15,12 @@ date = "2022-12-18T07:00:06-04:00"
 
 ## Items of Note
 
+### The Performance Hit is Here
+
+[The fix](https://github.com/ponylang/ponyc/pull/4256) for [ponyc issue #1118](https://github.com/ponylang/ponyc/issues/1118) and with it, the performance hit covered in [last week's Last Week in Pony](https://www.ponylang.io/blog/2022/12/last-week-in-pony---december-11-2022/#a-performance-hit-is-coming) is here.
+
+The fix was merged on the afternoon of the 13th. Nightlies starting from the 14th will have the safety fix (and corresponding performance impact) in place.
+
 ### MacOS on Intel is no longer a fully supported platform
 
 A few weeks back, we [announced that we would be dropping support for MacOS on Intel](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-27-2022/#ending-macos-on-intel-as-a-fully-supported-platform). At the time, we said that we would be doing it "before the end of the year", well, "before the end of the year is here". On December 12th, we merged the changes to drop MacOS on Intel support from ponyc, corral, and ponyup.
