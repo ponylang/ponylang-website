@@ -19,14 +19,6 @@ date = "2022-12-18T07:00:06-04:00"
 
 A few weeks back, we [announced that we would be dropping support for MacOS on Intel](https://www.ponylang.io/blog/2022/11/last-week-in-pony---november-27-2022/#ending-macos-on-intel-as-a-fully-supported-platform). At the time, we said that we would be doing it "before the end of the year", well, "before the end of the year is here". On December 12th, we merged the changes to drop MacOS on Intel support from ponyc, corral, and ponyup.
 
-### Pony Development Sync
-
-[Audio](https://sync-recordings.ponylang.io/r/2022_12_13.m4a) from the December 13th, 2022 sync is available.
-
-<< summary >>
-
-If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
-
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
