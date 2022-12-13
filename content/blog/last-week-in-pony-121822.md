@@ -21,7 +21,7 @@ A few weeks back, we [announced that we would be dropping support for MacOS on I
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2022_12_13.m4a) from the December 6th, 2022 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2022_12_13.m4a) from the December 13th, 2022 sync is available.
 
 << summary >>
 
