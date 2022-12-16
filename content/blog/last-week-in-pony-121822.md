@@ -47,13 +47,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Windows releases contain unneeded files
 
-bar
+The Windows PowerShell script that builds `ponyc` includes files that are not needed. As we have very few Pony on Windows experts around, someone familiar with PowerShell could be a real help to us! Someone taking this issue should feel comfortable working with PowerShell -- other than that, follow what the issue says.
 
-### fu
+[ponyc issue #4272](https://github.com/ponylang/ponyc/issues/4272)
 
-bar
+### Update Windows LibreSSL version
+
+Calling all Pony on Windows users! If you want a relatively easy way to contribute to Pony, we need someone to update the version of LibreSSL that `crypto` is built against. We currently are building against 3.5.3 (released May 18th, 2022) with the latest release being 3.7.0 (December 12th, 2022). Someone taking this issue should feel comfortable working with PowerShell and build systems.
+
+[ponylang crypto issue #72](https://github.com/ponylang/crypto/issues/72)
 
 ---
 
