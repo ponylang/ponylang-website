@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A long standing pony runtime safety issue was fixed and along with it, came a performance hit. We'll be working on incrementally decreasing that performance hit."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - December 11, 2022"
 date = "2022-12-18T07:00:06-04:00"
 +++
 
-<< content >>
+The big news for this week is that we merged and release a safety fix that can have a large impact on performance for applications that send lots of messages that need to be traced by the garbage collector. We'll be incrementally adding back in performance as we make the compiler smarter.
 
 <!--more-->
 
@@ -19,7 +19,7 @@ date = "2022-12-18T07:00:06-04:00"
 
 [The fix](https://github.com/ponylang/ponyc/pull/4256) for [ponyc issue #1118](https://github.com/ponylang/ponyc/issues/1118) and with it, the performance hit covered in [last week's Last Week in Pony](https://www.ponylang.io/blog/2022/12/last-week-in-pony---december-11-2022/#a-performance-hit-is-coming) is here.
 
-The fix was merged on the afternoon of the 13th. Nightlies starting from the 14th will have the safety fix (and corresponding performance impact) in place.
+The fix was merged on the afternoon of the 13th. Nightlies starting from the 14th and the [0.52.3 release](https://github.com/ponylang/ponyc/releases/tag/0.52.3) from Friday have the safety fix in place.
 
 ### MacOS on Intel is no longer a fully supported platform
 
@@ -35,7 +35,7 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 
 ## Releases
 
-<< content >>
+- [ponyc 0.52.3](https://github.com/ponylang/ponyc/releases/tag/0.52.3)
 
 ## Highlighted Issues
 
@@ -58,6 +58,20 @@ The Windows PowerShell script that builds `ponyc` includes files that are not ne
 Calling all Pony on Windows users! If you want a relatively easy way to contribute to Pony, we need someone to update the version of LibreSSL that `crypto` is built against. We currently are building against 3.5.3 (released May 18th, 2022) with the latest release being 3.7.0 (December 12th, 2022). Someone taking this issue should feel comfortable working with PowerShell and build systems.
 
 [ponylang crypto issue #72](https://github.com/ponylang/crypto/issues/72)
+
+## RFCs
+
+Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
+
+This week, we've had a couple of requests for RFCs. Requests for RFC means that either the Pony core team or a community member is requesting that someone write an RFC to solve a specific problem.
+
+In addition to our two RFC requests, the "introduce empty ranges" RFC was accepted and is ready for someone to implement it.
+
+### User Requests
+
+Requests for someone to create an RFC for "issue X" from a Pony user.
+
+- [proposal syntax else ... then for else keyword in conditional branchs](https://github.com/ponylang/rfcs/issues/207)
 
 ---
 
