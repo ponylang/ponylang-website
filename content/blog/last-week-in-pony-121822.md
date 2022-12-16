@@ -5,7 +5,7 @@ description = "A long standing pony runtime safety issue was fixed and along wit
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - December 11, 2022"
+title = "Last Week in Pony - December 18, 2022"
 date = "2022-12-18T07:00:06-04:00"
 +++
 
