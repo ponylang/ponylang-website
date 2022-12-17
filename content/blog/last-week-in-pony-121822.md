@@ -29,7 +29,17 @@ A few weeks back, we [announced that we would be dropping support for MacOS on I
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<<content>>
+The December 16th "Office Hours" were attended by Adrian Boyko, Sean T. Allen, Joe Eli McIlvain, and Red -- the topic was Sean's interesting proposal to replace Pony's existing centralized "Cycle Detector" with a decentralized alternative.
+
+Whether centralized or distributed, a cycle detector's job is to look for sets of actors that are collectively involved in a reference cycle. For example, if "➞" means "references" and we have a situation where A➞B, B➞C, and C➞A, then actors A, B, and C form such a cycle.
+
+Actors are typically "reaped" when their reference count goes to zero and they don't have any other incoming messages to process. However, when actors form a reference cycle they will still have non-zero reference counts after all the other actors have forgotten about them, and this will prevent them from being reaped even if *none* of them have further messages to process. Recognizing the cycles in such scenarios lets Pony reap actors that would otherwise persist past any usefulness.
+
+The dynamics of a distributed cycle detection protocol are reasonably complicated, especially when you consider the infinite number of ways that N actors can reference each other. To help make sure we don't miss any subtle details, Joe has volunteered to model the protocol using [Alloy](https://alloytools.org/). He showed us some of the initial work he has done on the model and introduced us to the new temporal logic which was introduced in Alloy version 6.
+
+We then spent some time talking through specific scenarios to learn how Sean's protocol would deal with each: actors arranged in simple loops, in completely connected graphs, and in overlapping combinations of simpler scenarios (like two loops that share one actor in common).
+
+All-in-all, it was a very productive discussion and it seems as though the distributed cycle detection protocol is off to a good start.
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
