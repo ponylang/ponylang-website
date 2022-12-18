@@ -73,9 +73,7 @@ Calling all Pony on Windows users! If you want a relatively easy way to contribu
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-This week, we've had a couple of requests for RFCs. Requests for RFC means that either the Pony core team or a community member is requesting that someone write an RFC to solve a specific problem.
-
-In addition to our two RFC requests, the "introduce empty ranges" RFC was accepted and is ready for someone to implement it.
+This week, we've had single requests for an RFC. Requests for RFC means that either the Pony core team or a community member is requesting that someone write an RFC to address a specific issue.
 
 ### User Requests
 
