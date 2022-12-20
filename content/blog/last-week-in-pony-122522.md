@@ -17,7 +17,7 @@ date = "2022-12-25T07:00:06-04:00"
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2022_12_20.m4a) from the December 20th, 2022 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2022_12_20.mp4) from the December 20th, 2022 sync is available.
 
 << content >>
 
