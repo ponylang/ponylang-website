@@ -63,7 +63,9 @@ bar
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-<< content>>
+This week's RFC related activity was Ryan Hagenson working on the ["Introduction of Empty Ranges"](https://github.com/ponylang/ponyc/issues/4255) RFC. It should be ready to merge soon.
+
+The "proposal syntax else ... then for else keyword in conditional branchs" [user request issue](https://github.com/ponylang/rfcs/issues/207) also saw some activity in the comments, mostly Pony committers stating their lack of support for the requested change.
 
 ---
 
