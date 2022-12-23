@@ -19,7 +19,13 @@ date = "2022-12-25T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2022_12_20.mp4) from the December 20th, 2022 sync is available.
 
-<< content >>
+And o my, what a long sync it was. So normally, sync runs up to an hour in length and then we end. This week the meeting ran for at least a couple hours.
+
+There was a short 20 minutes or so of getting through the normal agenda to deal with various issues and PRs that have had activity during the last week and then, then the fun began. Over the next couple of hours, various approachs to the new distributed cycle detection protocol was discussed.
+
+If you are interested in cycle detection and distributed algorithms then you might find it all interesting however, a lot of the conversation requires background reading of the [Zulip stream](https://ponylang.zulipchat.com/#narrow/stream/361692-distributed-cycle-detection) as the content from it wasn't always restated during the conversation.
+
+For additional background, we suggest reading the [summary of the December 16th Office Hours meeting](https://www.ponylang.io/blog/2022/12/last-week-in-pony---december-18-2022/#office-hours).
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
