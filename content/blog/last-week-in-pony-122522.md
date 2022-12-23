@@ -21,7 +21,7 @@ date = "2022-12-25T07:00:06-04:00"
 
 And o my, what a long sync it was. So normally, sync runs up to an hour in length and then we end. This week the meeting ran for at least a couple hours.
 
-There was a short 20 minutes or so of getting through the normal agenda to deal with various issues and PRs that have had activity during the last week and then, then the fun began. Over the next couple of hours, various approachs to the new distributed cycle detection protocol was discussed.
+There was a short 20 minutes or so of getting through the normal agenda to deal with various issues and PRs that have had activity during the last week and then, then the fun began. Over the next couple of hours, various approaches to the new distributed cycle detection protocol was discussed.
 
 If you are interested in cycle detection and distributed algorithms then you might find it all interesting however, a lot of the conversation requires background reading of the [Zulip stream](https://ponylang.zulipchat.com/#narrow/stream/361692-distributed-cycle-detection) as the content from it wasn't always restated during the conversation.
 
@@ -65,7 +65,7 @@ Major changes in Pony go through a community driven process where members of the
 
 This week's RFC related activity was Ryan Hagenson working on the ["Introduction of Empty Ranges"](https://github.com/ponylang/ponyc/issues/4255) RFC. It should be ready to merge soon.
 
-The "proposal syntax else ... then for else keyword in conditional branchs" [user request issue](https://github.com/ponylang/rfcs/issues/207) also saw some activity in the comments, mostly Pony committers stating their lack of support for the requested change.
+The "proposal syntax else ... then for else keyword in conditional branches" [user request issue](https://github.com/ponylang/rfcs/issues/207) also saw some activity in the comments, mostly Pony committers stating their lack of support for the requested change.
 
 ---
 
