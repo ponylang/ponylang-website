@@ -126,6 +126,7 @@ ergl
 ergononmics
 Erlangers
 errr
+evolutions
 facelift
 FFI
 FinTech
@@ -267,6 +268,7 @@ namespace
 natively
 nd
 Netlify
+NetLogo
 nightlies
 Nikolaus
 nogginly
