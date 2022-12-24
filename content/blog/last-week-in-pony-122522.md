@@ -51,13 +51,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Incorrect array inference
 
-bar
+An interesting type inference issue was raised this week. This issue will require some additional investigation prior to fixing. Anyone looking to get their hands dirty with a compiler fix might want to give this issue a look! Someone taking this issue should feel comfortable with said investigation, which may entail looking at IR at different stages in compilation to isolate where the compiler is applying the wrong information.
 
-### fu
+[ponyc issue #4281](https://github.com/ponylang/ponyc/issues/4281)
 
-bar
+### Add "wrapping it up" end for Capabilities chapter
+
+Currently the Tutorial is a great resource for a "tour of Pony in pieces" however to make it into a complete resource for learning good Pony practices we need to add helpful wrap-ups that ties relevant pieces together. This issue shows one such location where a wrap-up would be helpful. Because this is a fairly open-ended issue where it can be unclear what _exactly_ is needed, Ryan A. Hagenson (hello!) is willing to help anyone who wishes to take this issue. Reach out to him on the issue ticket itself or over on the Ponylang Zulip in the [#tutorial stream](https://ponylang.zulipchat.com/#narrow/stream/190368-tutorial).
+
+[pony-tutorial issue #70](https://github.com/ponylang/pony-tutorial/issues/70)
 
 ## RFCs
 
