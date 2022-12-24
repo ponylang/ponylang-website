@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A week in Pony dominated by conversations about distributed cycle detection."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - December 25, 2022"
 date = "2022-12-25T07:00:06-04:00"
 +++
 
-<< content >>
+It was a week dominated by conversations about distributed cycle detection. Both the Pony development sync and Office Hours were almost entirely focused on the topic. Given the somewhat complicated nature of the topic, we expect that it will be a regular source of conversation for a while.
 
 <!--more-->
 
