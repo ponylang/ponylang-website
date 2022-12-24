@@ -33,7 +33,15 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+During the December 23rd Office Hours, we continued our discussion of distributed cycle detection (introduced in our [previous LWIP post](https://www.ponylang.io/blog/2022/12/last-week-in-pony---december-18-2022/)). Sean T Allen, Jason Carr, Ryan A Hagenson, Red, and Adrian Boyko were in attendance.
+
+Sean kicked off the discussion by describing a scenario that would generate a lot of redundant cycle detection messages, as a reference between two actors comes and goes, repeatedly. It turns out that the optimization to deal with this scenario turned Sean's "trace-based" algorithm into something much more like Adrian's "gossip-based" algorithm. As a result, the focus has now shifted to developing the gossip-based approach.
+
+In the protocol, actors are identified using numeric ids which are really just the address at which actors are allocated. Questions were raised about *exactly when* it would be safe to convert such an id to a pointer (remember, the Pony runtime is written in C) for the purpose of messaging the associated actor. One theory claimed that if an actor X was holding the id for an actor Y, it would be safe for X to assume that Y still exists if X had information indicating that Y was involved in a reference cycle. X could then convert Y's id to a pointer and use that to message Y. However, we eventually recognized scenarios that disproved the theory and we are now assuming that it is only safe to message actors which we directly reference -- no id-to-pointer tricks allowed!
+
+Adrian did a show-and-tell of a [NetLogo](https://ccl.northwestern.edu/netlogo/) model which simulates possible evolutions of a graph of Pony actors (nodes) connected by references (edges). He plans to implement some version of the distributed cycle detection protocol within this model to (1) see if NetLogo simulations can discover any issues and (2) to compare/contrast with Joe's formal [Alloy](http://alloytools.org/) model.
+
+So, progress on the distributed cycle detection protocol continues and Sean is updating the project's [GitHub repository](https://github.com/ponylang/distributed-cycle-detection) to reflect the decisions that came out of Office Hours.
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
