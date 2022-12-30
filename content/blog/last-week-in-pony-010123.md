@@ -50,7 +50,7 @@ bar
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-<< content >>
+The only RFC action this week was the ["Introduce Empty Ranges" RFC](https://github.com/ponylang/rfcs/blob/main/text/0076-introduce%20empty%20ranges.md) going into [PR review](https://github.com/ponylang/ponyc/pull/4280).
 
 ---
 
