@@ -26,6 +26,7 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 ## Releases
 
 - [ponyc 0.52.4](https://github.com/ponylang/ponyc/releases/tag/0.52.4)
+- [ponyc 0.52.5](https://github.com/ponylang/ponyc/releases/tag/0.52.5)
 
 ## Highlighted Issues
 
