@@ -56,13 +56,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Improve Range and Reverse
 
-bar
+With the addition of empty Ranges nearing completion (see [pr #4280](https://github.com/ponylang/ponyc/pull/4280)), we once again want to highlight the official request to improve Range and Reverse in a consistent manner. During the RFC process for adding empty Ranges, we discussed potential traps within the current API which we would like to redesign out of possibility. A few different ideas were considered in the course of discussing the empty Ranges RFC, but we ultimately decided to accept the existing empty Ranges RFC in order to officially close _some_ of the known traps -- leaving the rest up to a new RFC to incorporate into a redesign. An example of a trap that will remain after empty Ranges are merged is that the type parameter to `Range` will still interact with numeric literals in an unexpected way so that `Range[ISize](0, 100, -1)` reasonably produces nothing (i.e., `[]`), but `Range[USize](0, 100, -1)` produces `[0]` -- this is because a `USize` literal of `-1` wraps around to the max `USize` value. Someone taking this issue should read the conversation around empty Ranges, consider the options presented there, and write up a new RFC that closes known traps in a consistent manner.
 
-### fu
+[rfcs #204](https://github.com/ponylang/rfcs/issues/204)
 
-bar
+### Document use of `digestof`
+
+We do not currently have a section or paragraph dedicated to helping new Pony developers learn the use of the `digestof` keyword. The first step to this issue is determining where it should go in the Tutorial, then deciding on the level of detail that should be included (i.e., should it be a section, a paragraph, a new page entirely, and so on). Someone taking this issue should have read through the Tutorial at least once (so you have an idea of all of its sections) and have used the `digestof` keyword. Ryan A. Hagenson (as the issue author and the writer here) is willing to help on this issue at any stage, reach out on the issue ticket or in Zulip.
+
+[pony-tutorial issue #453](https://github.com/ponylang/pony-tutorial/issues/453)
 
 ## RFCs
 
