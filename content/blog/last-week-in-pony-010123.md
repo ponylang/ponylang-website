@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A bad bad bug was fixed."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - January 1, 2023"
 date = "2023-01-01T07:00:06-04:00"
 +++
 
-<< content >>
+The big news is that you should update your Pony version to 0.52.5. It's very important if you are using Pony 0.51.2 to 0.52.3 that you update as soon as possible.
 
 <!--more-->
 
