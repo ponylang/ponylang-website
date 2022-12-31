@@ -15,7 +15,7 @@ date = "2023-01-01T07:00:06-04:00"
 
 ## Items of Note
 
-### Upgrade your Pony version
+### Upgrade Your Pony Version
 
 In the process of [improving auto-recovery for constructors](https://github.com/ponylang/ponyc/pull/4124), a very very very nasty bug was introduced Pony 0.51.2. The nasty bug is one where the compiler will allow you to mutate immutable objects thereby breaking the basic safety guarantees that Pony provides.
 
