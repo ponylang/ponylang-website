@@ -15,6 +15,12 @@ date = "2023-01-01T07:00:06-04:00"
 
 ## Items of Note
 
+### Upgrade your Pony version
+
+In the process of [improving auto-recovery for constructors](https://github.com/ponylang/ponyc/pull/4124), a very very very nasty bug was introduced Pony 0.51.2. The nasty bug is one where the compiler will allow you to mutate immutable objects thereby breaking the basic safety guarantees that Pony provides.
+
+The bug was fixed in Pony 0.52.4 and a number of tests to assure that no such breakage happens in the future. Please update to Pony 0.52.5 to get the safety fix from 0.52.4 and a corresponding follow on in Pony 0.52.5.
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
