@@ -31,6 +31,16 @@ All our tests including our nightly stress tests run without issue so we don't b
 
 If you encounter any runtime segfaults with 0.52.3 or later that you didn't get prior to 0.52.3, please drop by the [runtime stream](https://ponylang.zulipchat.com/#narrow/stream/190365-runtime) in the [Ponylang Zulip](https://ponylang.zulipchat.com/) and let us know.
 
+### New OpenSSL 3.0.7 builder image
+
+We've added a new builder image with OpenSSL 3.0.7 installed. If you need a docker environment to test Pony programs with OpenSSL 3.0.7, you can use the new image.
+
+It has two tags, `release` and `latest`. Release is updated with each new ponyc release, latest is updated every night with the most recent nightly version of ponyc.
+
+See the [Docker Hub repository](https://hub.docker.com/r/ponylang/shared-docker-ci-x86-64-unknown-linux-builder-with-openssl_3.0.7/tags) for some additional information.
+
+This is our first builder image to target the new OpenSSL 3.x API series and will be used to test various ponylang projects maintained by the core team for compliance with OpenSSL 3.x.
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
