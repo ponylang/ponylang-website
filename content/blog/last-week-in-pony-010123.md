@@ -37,7 +37,7 @@ We have an open Zoom meeting every Friday for the community to get together and 
 
 We took a break from discussing distributed cycle detection, the topic of our last couple Office Hours, and returned to a previous topic. Adrian, Sean, and Red spent a couple hours going over the problems with compile times that Red can into with his GTK wrapper library. After a lot of discussion to make sure the issue was fully understood, Sean suggested a slightly different design for Red to try that should greatly improved compile times.
 
-Sean says... "It was nice to return to the using office hours to help solve a problem for a community member. Variety is afterall, the spice of life."
+Sean says... "It was nice to return to the using office hours to help solve a problem for a community member. Variety is after all, the spice of life."
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
