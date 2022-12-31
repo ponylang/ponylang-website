@@ -25,7 +25,7 @@ The bug was fixed in Pony 0.52.4 and a number of tests to assure that no such br
 
 In [Pony 0.52.3](https://github.com/ponylang/ponyc/releases/tag/0.52.3) we removed a sometimes unsafe garbage collection optimization. Runtime code that has been little used (or perhaps not at all used) over the years is now used a lot. Unfortunately, it appears that something in that code is suspect. Core team member Gordon Tisher has found that the unit tests for a project of his started segfaulting after the optimization was removed.
 
-The bug in question is a very odd one and not obvious in its source. At the moment, we know there's clearly something in code that wasn't used prior to 0.52.3 that is causing a problem. It is possible that this problem or others might impact on other Pony users.
+The bug in question is a very odd one and not obvious in its source. At the moment, we know there's clearly something in code that wasn't used prior to 0.52.3 that is causing a problem. It is possible that this problem or others might impact other Pony users.
 
 All our tests including our nightly stress tests run without issue so we don't believe that any issues will be widespread. And, we suspect that any issues will probably share a root cause.
 
