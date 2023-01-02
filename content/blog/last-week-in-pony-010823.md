@@ -59,6 +59,10 @@ Major changes in Pony go through a community driven process where members of the
 
 << content >>
 
+### New
+
+- [Remove json package from the standard library](https://github.com/ponylang/rfcs/pull/208)
+
 ### Implemented
 
 - [Introduce Empty Ranges](https://github.com/ponylang/rfcs/blob/main/text/0076-introduce%20empty%20ranges.md)
