@@ -34,6 +34,7 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 ## Releases
 
 - [ponylang/net_ssl 1.3.0](https://github.com/ponylang/net_ssl/releases/tag/1.3.0)
+- [ponylang/http 0.5.3](https://github.com/ponylang/http/releases/tag/0.5.3)
 
 ## Highlighted Issues
 
