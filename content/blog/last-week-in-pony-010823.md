@@ -19,7 +19,9 @@ date = "2023-01-08T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_01_03.m4a) from the January 3rd, 2023 sync is available.
 
-<< content >>
+A decent amount of time at sync was spent discussing a couple of older RFCs. Sean had started up conversation on them again. We decided to move forward with [one](https://github.com/ponylang/rfcs/pull/174) and table [another](https://github.com/ponylang/rfcs/pull/173) due to a lack of consensus.
+
+There was some conversation around named arguments and our desire to see one or more RFCs proposing improvements. Both Sean and Joe encouraged folks to try coming up with proposals because they feel that improvements could be made, but they both also stated that they would be unlikely to support any given change and instead were looking for RFCs more to get the conversation going rather than one that would be accepted right away.
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
