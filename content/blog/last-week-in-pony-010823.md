@@ -33,9 +33,12 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 
 ## Releases
 
+- [ponylang/ponyc 0.53.0](https://github.com/ponylang/ponylang/releases/tag/0.53.0)
 - [ponylang/net_ssl 1.3.0](https://github.com/ponylang/net_ssl/releases/tag/1.3.0)
 - [ponylang/http 0.5.3](https://github.com/ponylang/http/releases/tag/0.5.3)
 - [ponylang/http_server 0.4.3](https://github.com/ponylang/http_server/releases/tag/0.4.3)
+- [ponylang/crypto 1.2.0](https://github.com/ponylang/crypto/releases/tag/1.2.0)
+
 
 ## Highlighted Issues
 
