@@ -63,7 +63,7 @@ bar
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-<< content >>
+We had a decent level of "RFC movement" this week. One new RFC was introduced; another was implemented, merged, and released; and two more were picked up again for some additional conversation leading to [one](https://github.com/ponylang/rfcs/pull/174) starting to move toward a final comment period and [another](https://github.com/ponylang/rfcs/pull/173) being put aside as lacking consensus.
 
 ### New
 
