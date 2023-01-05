@@ -40,6 +40,7 @@ Interested in giving attending Office Hours sometime? There's a [calendar you ca
 - [ponylang/http 0.5.3](https://github.com/ponylang/http/releases/tag/0.5.3)
 - [ponylang/http_server 0.4.3](https://github.com/ponylang/http_server/releases/tag/0.4.3)
 - [ponylang/crypto 1.2.0](https://github.com/ponylang/crypto/releases/tag/1.2.0)
+- [ponylang/crypto 1.2.1](https://github.com/ponylang/crypto/releases/tag/1.2.1)
 
 ## Highlighted Issues
 
