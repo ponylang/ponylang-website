@@ -23,7 +23,7 @@ The headline news of the week, if you are using Pony 0.52.3 to 0.52.5, you shoul
 
 Last week, we wrote that we [expected some instability](https://www.ponylang.io/blog/2023/01/last-week-in-pony---january-1-2023/#some-instability-expected) due to the removal of an unsafe garbage collection optimization and the discovery of a bug that started happening because of the optimization removal.
 
-At the time we started investigating the bug, it looked like it existed prior to change, but was in a little used code path that might have never been stumbled upon. This intuition was arrived at because the bug wasn't what we would have expected from the original change. However, that intuition was wrong.
+At the time we started investigating the bug, it looked like it existed prior to the change, but was in a little used code path that might have never been stumbled upon. This intuition was arrived at because the bug wasn't what we would have expected from the original change. However, that intuition was wrong.
 
 The problem was in fact, an oversight in implementation of [PR #4256](https://github.com/ponylang/ponyc/pull/4256). As Sean put it, "DUR!!!". He subsequently fixed the issue in [PR #4294](https://github.com/ponylang/ponyc/pull/4294) was was released as part of [ponyc 0.53.0](https://github.com/ponylang/ponylang/releases/tag/0.53.0).
 
