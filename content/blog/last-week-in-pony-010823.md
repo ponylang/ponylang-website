@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Update to Pony 0.53.0 as soon as possible."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,11 +9,29 @@ title = "Last Week in Pony - January 8, 2023"
 date = "2023-01-08T07:00:06-04:00"
 +++
 
-<< content >>
+The headline news of the week, if you are using Pony 0.52.3 to 0.52.5, you should update to 0.53.0 as soon as possible to address a runtime segfault.
 
 <!--more-->
 
 ## Items of Note
+
+### Pony 0.53.0
+
+[Pony 0.53.0](https://github.com/ponylang/ponylang/releases/tag/0.53.0) was released last week. In contains an important fix for a runtime segfault. We advise updating as soon as you can.
+
+### Maybe Don't Expect Instability
+
+Last week, we wrote that we [expected some instability](https://www.ponylang.io/blog/2023/01/last-week-in-pony---january-1-2023/#some-instability-expected) due to the removal of an unsafe garbage collection optimization and the discovery of a bug that started happening because of the optimization removal.
+
+At the time we started investigating the bug, it looked like it existed prior to change, but was in a little used code path that might have never been stumbled upon. This intution was arrived at because the bug wasn't what we would have expected from the original change. However, that intution was wrong.
+
+The problem was in fact, an oversight in implementation of [PR #4256](https://github.com/ponylang/ponyc/pull/4256). As Sean put it, "DUR!!!". He subsequently fixed the issue in [PR #4294](https://github.com/ponylang/ponyc/pull/4294) was was released as part of [ponyc 0.53.0](https://github.com/ponylang/ponylang/releases/tag/0.53.0).
+
+At this point, we are feeling pretty good about the optimization removal and Joe and Sean had a meeting on Friday to discuss some implementation details around iteratively adding back in the optimization where safe.
+
+### OpenSSL 3 Support is Here
+
+We've updated [ponylang/net_ssl](https://github.com/ponylang/net_ssl), [ponylang/crypto](https://github.com/ponylang/crypto), and ponylang libraries that depend on net_ssl or crypto to support the OpenSSL 3 API.
 
 ### Pony Development Sync
 
