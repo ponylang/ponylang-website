@@ -52,13 +52,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Vague error messages when it is not safe to write
 
-bar
+Currently, the error message produced when writing values only mentions the right-hand side. This can be really confusing when it is the left-hand side -- and its reference capabaility -- that is the cause of an error as ihe message diverts attention. Improving this error message would greatly improve debugging, especially for newer Pony developers who may not think to check the reference capabilities of both sides of an assignment.
 
-### fu
+[ponyc #4290](https://github.com/ponylang/ponyc/issues/4290)
 
-bar
+### Missing index check in deserialization
+
+There is currently a missing index check in deserialization. Someone looking for a way to contribute to the compiler should give this issue a look!
+
+[ponyc #4297](https://github.com/ponylang/ponyc/issues/4297)
 
 ## RFCs
 
