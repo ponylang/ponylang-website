@@ -74,7 +74,7 @@ This week's issues as selected by Ryan A. Hagenson are:
 
 ### Vague error messages when it is not safe to write
 
-Currently, the error message produced when writing values only mentions the right-hand side. This can be really confusing when it is the left-hand side -- and its reference capability -- that is the cause of an error as ihe message diverts attention. Improving this error message would greatly improve debugging, especially for newer Pony developers who may not think to check the reference capabilities of both sides of an assignment.
+Currently, the error message produced when writing values only mentions the right-hand side. This can be really confusing when it is the left-hand side -- and its reference capability -- that is the cause of an error as the message diverts attention. Improving this error message would greatly improve debugging, especially for newer Pony developers who may not think to check the reference capabilities of both sides of an assignment.
 
 [ponyc #4290](https://github.com/ponylang/ponyc/issues/4290)
 
