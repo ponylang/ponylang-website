@@ -111,6 +111,7 @@ DragonFly
 Drossopoulou
 Drossopoulou's
 DTrace
+DUR
 ebuild
 ECOOP
 eg
@@ -198,7 +199,9 @@ IRCd
 ISC
 ish
 Iterable
+iteratively
 itertools
+Jairo
 Jaroslaw
 jasoncarr
 JavaScript
@@ -278,6 +281,7 @@ numerics
 o'Cook
 observability
 ok
+OMG
 onesie
 OO
 OpenBSD
