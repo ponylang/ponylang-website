@@ -43,7 +43,6 @@ blindspot
 boolean
 bootstrapper
 Borch
-Borch
 Boyko
 Borja
 Bracey
@@ -130,6 +129,8 @@ errr
 evolutions
 facelift
 FFI
+finalisers
+Finalisers
 FinTech
 flakey
 flycheck
