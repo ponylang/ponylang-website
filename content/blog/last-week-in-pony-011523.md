@@ -43,13 +43,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Runtime crash caused by capture before initialization
 
-bar
+Found this week! It is currently possible to capture an object in a lambda before it is initialized, leading to a runtime crash when this should be a compile-time error. Someone taking this issue should feel comfortable working with the compiler and understand how reference capabilities interact with the ability to capture objects.
 
-### fu
+[ponyc #4301](https://github.com/ponylang/ponyc/issues/4301)
 
-bar
+### Finalizers not run under certain conditions
+
+Under specific circumstances finalizers on an actor are not being run. When a program is run using `--ponynoblock`, actors in a cycle do not have their finalization procedure run before quiescence and program exit. Someone taking this issue should feel comfortable working with the compiler and understand how the current runtime and cycle detector cause the incorrect order of events under these conditions.
+
+[ponycs #4257](https://github.com/ponylang/ponyc/issues/4257)
 
 ## RFCs
 
