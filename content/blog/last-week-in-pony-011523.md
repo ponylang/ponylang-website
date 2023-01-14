@@ -53,7 +53,7 @@ Found this week! It is currently possible to capture an object in a lambda befor
 
 Under specific circumstances finalisers on an actor are not being run. When a program is run using `--ponynoblock`, actors in a cycle do not have their finalization procedure run before quiescence and program exit. Someone taking this issue should feel comfortable working with the compiler and understand how the current runtime and cycle detector cause the incorrect order of events under these conditions.
 
-[ponycs #4257](https://github.com/ponylang/ponyc/issues/4257)
+[ponyc #4257](https://github.com/ponylang/ponyc/issues/4257)
 
 ## RFCs
 
