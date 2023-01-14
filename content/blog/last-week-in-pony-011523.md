@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A fairly regular week."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - January 15, 2023"
 date = "2023-01-15T07:00:06-04:00"
 +++
 
-<< content >>
+Most of the "above ground" Pony activity this week was our usual weekly development sync meeting and our weekly office hours.
 
 <!--more-->
 
