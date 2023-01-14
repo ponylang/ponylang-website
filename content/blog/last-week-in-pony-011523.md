@@ -27,7 +27,13 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+The first half of office hours was spent helping Jairo figure out what he needed to do to get [mfelsche/pony-ast](https://github.com/mfelsche/pony-ast/) and it's dependency on libponyc-standalone working on MacOS. At the moment, libponyc-standalone is only being built on Linux platforms. Getting it working on other platforms was left "to a future user". It was initially thought that "future user" would be Sean Allen who got it building for Linux. However, time has intervened and Sean hasn't been working on the project that used it which means that Jairo who is doing development for his [pony-language-server](https://github.com/kidandcat/pony-language-server) on MacOS is now "future user" (at least in terms of getting libponyc-standalone working on MacOS).
+
+libponyc is the library that the pony compiler uses to provide all its "actual compiler functionality". libponyc can be used by other applications that need to provide "compiler like functionality" such as Jairo's language server.
+
+libponyc-standalone is a version of libponyc that contains all its dependencies statically linked which makes linking and distribution much much easier to do than trying to get a shared library version working. Without a working libponyc-standalone, in order to link to libponyc, a user needs to do a lot of setup to replicate the environment that is used to build the pony compiler.
+
+The second half of office hours was sans Sean and according to Adrian Boyko: "We talked a bit about schedulers and generational references".
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
