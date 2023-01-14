@@ -203,6 +203,7 @@ Iterable
 iteratively
 itertools
 Jairo
+Jairo's
 Jaroslaw
 jasoncarr
 JavaScript
@@ -225,6 +226,7 @@ langage
 Lasauskas
 LDN
 libatomic
+libponyc
 LibreSSL
 LibXML
 Liétar
