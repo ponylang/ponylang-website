@@ -31,7 +31,7 @@ The first half of office hours was spent helping Jairo figure out what he needed
 
 libponyc is the library that the Pony compiler uses to provide all its "actual compiler functionality". libponyc can be used by other applications that need to provide "compiler like functionality" such as Jairo's language server.
 
-libponyc-standalone is a version of libponyc that contains all its dependencies statically linked which makes linking and distribution much much easier to do than trying to get a shared library version working. Without a working libponyc-standalone, in order to link to libponyc, a user needs to do a lot of setup to replicate the environment that is used to build the pony compiler.
+libponyc-standalone is a version of libponyc that contains all its dependencies statically linked which makes linking and distribution much much easier to do than trying to get a shared library version working. Without a working libponyc-standalone, in order to link to libponyc, a user needs to do a lot of setup to replicate the environment that is used to build the Pony compiler.
 
 The second half of office hours was sans Sean and according to Adrian Boyko: "We talked a bit about schedulers and generational references".
 
