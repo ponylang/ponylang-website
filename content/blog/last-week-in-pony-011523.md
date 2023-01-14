@@ -29,7 +29,7 @@ We have an open Zoom meeting every Friday for the community to get together and 
 
 The first half of office hours was spent helping Jairo figure out what he needed to do to get [mfelsche/pony-ast](https://github.com/mfelsche/pony-ast/) and its dependency on libponyc-standalone working on MacOS. At the moment, libponyc-standalone is only being built on Linux platforms. Getting it working on other platforms was left "to a future user". It was initially thought that "future user" would be Sean Allen who got it building for Linux. However, time has intervened and Sean hasn't been working on the project that used it which means that Jairo who is doing development for his [pony-language-server](https://github.com/kidandcat/pony-language-server) on MacOS is now the "future user" (at least in terms of getting libponyc-standalone working on MacOS).
 
-libponyc is the library that the pony compiler uses to provide all its "actual compiler functionality". libponyc can be used by other applications that need to provide "compiler like functionality" such as Jairo's language server.
+libponyc is the library that the Pony compiler uses to provide all its "actual compiler functionality". libponyc can be used by other applications that need to provide "compiler like functionality" such as Jairo's language server.
 
 libponyc-standalone is a version of libponyc that contains all its dependencies statically linked which makes linking and distribution much much easier to do than trying to get a shared library version working. Without a working libponyc-standalone, in order to link to libponyc, a user needs to do a lot of setup to replicate the environment that is used to build the pony compiler.
 
