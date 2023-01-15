@@ -43,7 +43,6 @@ blindspot
 boolean
 bootstrapper
 Borch
-Borch
 Boyko
 Borja
 Bracey
@@ -130,6 +129,8 @@ errr
 evolutions
 facelift
 FFI
+finalisers
+Finalisers
 FinTech
 flakey
 flycheck
@@ -202,6 +203,7 @@ Iterable
 iteratively
 itertools
 Jairo
+Jairo's
 Jaroslaw
 jasoncarr
 JavaScript
@@ -224,6 +226,7 @@ langage
 Lasauskas
 LDN
 libatomic
+libponyc
 LibreSSL
 LibXML
 Liétar
