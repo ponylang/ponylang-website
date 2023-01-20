@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A week of sickness"
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony - January 22, 2023"
 date = "2023-01-22T07:00:06-04:00"
 +++
 
-<< content >>
+Not a lot of things that normally make up the content of Last Week in Pony happened this week. Both Sean and Joe were sick so there was no sync meeting which tends to have a cascading effect on other activity.
 
 <!--more-->
 
