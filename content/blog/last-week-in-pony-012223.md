@@ -47,7 +47,7 @@ Partially applying a constructor can cause a segfault under certain conditions. 
 
 ### Exceptions lack examples
 
-Exceptions in Pony can be a tripping point and having concrete examples for why Pony has `error` rather than "exceptions" as many might know them. There is some existing content on the website about when to use `error` versus error types ([here](https://www.ponylang.io/reference/pony-performance-cheatsheet/#avoid-error)) so someone taking this issue is not starting from nothing. Unlike the website content, the Tutorial content should not weigh the performance trade-offs, but rather emphasize why Pony has the `error` that is does within the context of learning the language as a whole.
+Exceptions in Pony can be a tripping point and having concrete examples for why Pony has `error` rather than "exceptions" as many might know them without the Tutorial would be a great addition. Despite there being existing content on the website about [when to use `error` versus error types](https://www.ponylang.io/reference/pony-performance-cheatsheet/#avoid-error), the Tutorial content should not weigh the performance trade-offs, but rather emphasize why Pony has the `error` that is does within the context of learning the language as a whole.
 
 [pony-tutorial #292](https://github.com/ponylang/pony-tutorial/issues/292)
 
