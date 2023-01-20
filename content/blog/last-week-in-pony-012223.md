@@ -19,7 +19,9 @@ date = "2023-01-22T07:00:06-04:00"
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Office hours this week was a very low-key affair with Jason, Red, and Sean discussing a variety of topics. They decided the best summary of the meeting would be "we ended up discussing two different ways to hypnotize a chicken".
+
+Hey, not every Office Hours is going to be a deep technical burner. The more folks who attend, the more likely it will be one though!
 
 Interested in giving attending Office Hours sometime? There's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
