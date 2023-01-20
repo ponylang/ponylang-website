@@ -33,13 +33,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Partial constructor application segfault
 
-bar
+Partially applying a constructor can cause a segfault under certain conditions. The issue author did some initial investigation and Joe has posted notes from a previous Sync discussion on this issue. Someone taking this issue should read the notes posted by Joe and likely start their fix from there.
 
-### fu
+[ponyc #4240](https://github.com/ponylang/ponyc/issues/4240)
 
-bar
+### Exceptions lack examples
+
+Exceptions in Pony can be a tripping point and having concrete examples for why Pony has `error` rather than "exceptions" as many might know them. There is some existing content on the website about when to use `error` versus error types ([here](https://www.ponylang.io/reference/pony-performance-cheatsheet/#avoid-error)) so someone taking this issue is not starting from nothing. Unlike the website content, the Tutorial content should not weigh the performance trade-offs, but rather emphasize why Pony has the `error` that is does within the context of learning the language as a whole.
+
+[pony-tutorial #292](https://github.com/ponylang/pony-tutorial/issues/292)
 
 ## RFCs
 
