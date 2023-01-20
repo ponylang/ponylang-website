@@ -45,10 +45,6 @@ Exceptions in Pony can be a tripping point and having concrete examples for why 
 
 [pony-tutorial #292](https://github.com/ponylang/pony-tutorial/issues/292)
 
-## RFCs
-
-Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
-
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
