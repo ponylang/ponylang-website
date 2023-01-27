@@ -41,13 +41,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Inconsistency on embedded Array literal
 
-bar
+There is currently an inconsistency around the handling of embedded Array literals where an empty literal compiles, while a non-empty literal fails to compile. There is an associated Zulip conversation for this issues so something taking this issue should read that conversation and work from there.
 
-### fu
+[ponyc #4170](https://github.com/ponylang/ponyc/issues/4178)
 
-bar
+### Flesh out intro to types chapter
+
+Chapter intros should give the reader the "why" of the chapter and, if relevant, give a high-level overview of the chapter content. This is missing from the Types intro. Someone taking this issue should feel comfortable giving a high-level overview of the types within Pony. Feel free to reach out to Ryan A. Hagenson on the issue ticket or on Zulip for additional questions.
+
+[pony-tutorial #73](https://github.com/ponylang/pony-tutorial/issues/73)
 
 ## RFCs
 
