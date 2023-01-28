@@ -27,7 +27,7 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-This past week's office hours was a very casual affair. During most of it, Sean was screensharing and working on the [postgres library](https://github.com/ponylang/postgres). While he was doing that, there was a decent amount of conversation, some computer related, some not, with Jason Carr and Adrian Boyko driving most of it.
+This past week's office hours was a very casual affair. During most of it, Sean was screen sharing and working on the [postgres library](https://github.com/ponylang/postgres). While he was doing that, there was a decent amount of conversation, some computer related, some not, with Jason Carr and Adrian Boyko driving most of it.
 
 There was a decent amount of discussion about object capabilities, Rust, Scala and effects that was as Jason put it, him being "vaguely coherent" on the topic.
 
