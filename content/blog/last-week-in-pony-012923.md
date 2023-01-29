@@ -9,7 +9,7 @@ title = "Last Week in Pony - January 29, 2023"
 date = "2023-01-29T07:00:06-04:00"
 +++
 
-That week, we accepted two RFCs that will result in changes to Pony syntax and the standard library respectively.
+Last week, we accepted two RFCs that will result in changes to Pony syntax and the standard library respectively.
 
 <!--more-->
 
