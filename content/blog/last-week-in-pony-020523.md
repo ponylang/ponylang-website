@@ -15,19 +15,15 @@ date = "2023-02-05T07:00:06-04:00"
 
 ## Items of Note
 
-### Pony Development Sync
-
-[Audio](https://sync-recordings.ponylang.io/r/2023_01_31.m4a) from the January 31th, 2023 sync is available.
-
-<< content >>
-
-If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
-
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+We had a reasonably large crowd for Office Hours this week. Sean Allen, Adrian Boyko, Jason Carr, Red Davies, and Andrew Harris were all in attendence. A decent amount of time was spent with Red and Sean discussing the recent work on adding ["query support"](https://github.com/ponylang/postgres/tree/simple-query) to the official ponylang [Postgres driver](https://github.com/ponylang/postgres).
+
+While query support work is ongoing, Sean was looking for Red to test-drive the API some and report back on any issues he might encounter so they could discuss them. All that aside, Sean reported he is moving at a regular clip towards having a 0.1.0 version released in the "not immediate, but also not distant future".
+
+In addition to driver conversation, a wide variety of other topics were covered including a spirited debate about "let it crash" and if/when a program should exit if it encounters states that violate basic axioms of the program.
 
 You should join us some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
