@@ -37,13 +37,17 @@ If you are interested in working on either issue or any other issue from a Ponyl
 
 This week's issues as selected by Ryan A. Hagenson are:
 
-### fu
+### Assign Param Syntax
 
-bar
+We have an accepted RFC in need of implementation! Someone taking this issue should read through the RFC and reach out on the issue or Zulip before getting started.
 
-### fu
+[ponyc #4318](https://github.com/ponylang/ponyc/issues/4318)
 
-bar
+### Add Parameterization Pattern
+
+The Pony Patterns are an immensely helpful resource that has a few open issues for expansion. One pattern we need to write up a complete entry for is avoiding boxing via use of function parameterization. Reach out on the issue or Zulip before getting started.
+
+[pony-patterns #15](https://github.com/ponylang/pony-patterns/issues/15)
 
 ---
 
