@@ -19,7 +19,7 @@ date = "2023-02-05T07:00:06-04:00"
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-We had a reasonably large crowd for Office Hours this week. Sean Allen, Adrian Boyko, Jason Carr, Red Davies, and Andrew Harris were all in attendence. A decent amount of time was spent with Red and Sean discussing the recent work on adding ["query support"](https://github.com/ponylang/postgres/tree/simple-query) to the official ponylang [Postgres driver](https://github.com/ponylang/postgres).
+We had a reasonably large crowd for Office Hours this week. Sean Allen, Adrian Boyko, Jason Carr, Red Davies, and Andrew Harris were all in attendance. A decent amount of time was spent with Red and Sean discussing the recent work on adding ["query support"](https://github.com/ponylang/postgres/tree/simple-query) to the official ponylang [Postgres driver](https://github.com/ponylang/postgres).
 
 While query support work is ongoing, Sean was looking for Red to test-drive the API some and report back on any issues he might encounter so they could discuss them. All that aside, Sean reported he is moving at a regular clip towards having a 0.1.0 version released in the "not immediate, but also not distant future".
 
