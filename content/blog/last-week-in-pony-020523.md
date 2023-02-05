@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A week with a minimal amount of reported items."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony February 5, 2023"
 date = "2023-02-05T07:00:06-04:00"
 +++
 
-<< content >>
+This past week, there was no sync and no RFC activity and no big announcements. It was also a week that your author was very busy at work and so, put all that together and this week's Last Week in Pony is a light one.
 
 <!--more-->
 
