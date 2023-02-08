@@ -17,9 +17,11 @@ date = "2023-02-12T07:00:06-04:00"
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_02_07.m4a) from the February 7th, 2023 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2023_02_07.mp4) from the February 7th, 2023 sync is available.
 
-<< content >>
+Sync had a short agenda this week. Only a couple PRs and new issues to go over. Most of the time was spent going over an interesting Pony LLVM IR hacking problem that Nicolai Stawinoga joined the call to discuss. It's an interesting project he has going on and if LLVM IR spelunking is your thing, have a watch.
+
+Yup, "a watch" because this week's sync comes with video so you can see all the shared screen fun that is the LLVM IR spelunking that starts sometime around 11 minutes into the call.
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
