@@ -33,9 +33,19 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+The first 40 minutes or so of Office Hours were all over the place covering a variety of "computer adjacent" topic and then...
 
-You should join us some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
+..and then Adrian Boyko blew it all up by bringing up subtyping and subsumption and he and Jason Carr had an extended conversation where Adrian asked a bunch of questions which Jason answered. Jason also gave his opinion on some type system changes he believes would be improvements and that he would like to see. George Steed's [A Principled Design of Capabilities in Pony](https://www.ponylang.io/media/papers/a_prinicipled_design_of_capabilities_in_pony.pdf) was part of the jumping off into the larger type system conversation.
+
+There was a large amount of type system related conversation that flowed from there. Too much to recap. If you are interested in type system related conversation, you should attend Office Hours meetings sometimes and you might get to exercise that inner nerd.
+
+In order to get the last sentence correct, your author asked if he should use "geek" or "nerd" and then mentioned that "geek" came from "Geek Show" and well, that lead to o my, another long tangent.
+
+We finally concluded with a conversation between Sean Allen and Red Davies about how to test the ["Add support for the llvm: use scheme" PR](https://github.com/ponylang/ponyc/pull/3924/files).
+
+Does any or all of that sound interesting, if yes, you should join us some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
+
+And if it doesn't sound interesting, you can join and steer the conversation in directions you find interesting, so really, there's no excuse to not attend!
 
 ## Releases
 
