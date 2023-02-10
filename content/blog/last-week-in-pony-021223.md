@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "In which we introduce a new feature: Community Resource Highlight"
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,11 @@ title = "Last Week in Pony February 12, 2023"
 date = "2023-02-12T07:00:06-04:00"
 +++
 
-<< content>>
+This week, we are introducing a new regular entry for Last Week in Pony: "Community Resource Highlight". The new section is replacing our previous "Highlighted Issues" section.
+
+Ryan Hagenson and I discussed "Highlighted Issues" and decided that given how little traction we saw from the community picking up issues to work on the time he invests in each Last Week in Pony would be better spent on other content; our first stab at that content is "Community Resource Highlight".
+
+We'd love to hear your feedback in the [Last Week in Pony stream on the Ponylang Zulip](https://ponylang.zulipchat.com/#narrow/stream/352355-last-week-in-pony). Do you think the "Community Resource Highlight" will bring you value? Is there something else you'd rather see? Heck, perhaps even something you want to contribute? Let us know. If you aren't getting value from LWIP then, it's kind of pointless for us to spend time working on it. So, let us know and in the meantime, kick back, relax, put on [John Lee Hooker's "The Real Folk Blues"](https://www.youtube.com/watch?v=5DsIl6bJrwY&list=PL9M2VK15IQq4abOtlMkrcqBulS9PNUO-N) and get ready for the [Super Bowl](https://www.youtube.com/watch?v=sS0qhHiyrfI) later today.
 
 <!--more-->
 
