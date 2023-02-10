@@ -51,6 +51,16 @@ This week, we are highlighting the [Pony Pattern](https://patterns.ponylang.io/)
 
 This pattern solves the problem of needing arbitrary transactions on a Pony actor. Because Pony actors communicate asynchronously it is possible for messages to be interleaved in situations where atomic access is needed. The solution is shockingly simple once it "clicks", but deceptively difficult to understand at first. It may be helpful for someone first looking at this pattern to understand that: 1) messages are always sent **asynchronously** from an actor to an actor, and 2) that all actors process their **queue of messages** in order. For an "Arbitrary Transaction", we need to have **synchronous** access that avoids the queue. There is only one way to do this: we need a message type that views the actor as it view itself. Therefore this pattern defines a behavior (i.e., message type) that takes a lambda function argument that accepts a `ref` to the implementing actor type. This lambda will have synchronous access to the implementing actor for the duration of one message.
 
+## RFCs
+
+Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
+
+This week, a [PR](https://github.com/ponylang/ponyc/pull/4323) for the "remove `json` package from standard library" RFC was opened and merged.
+
+### Implemented
+
+- [Remove `json` package from standard library](https://github.com/ponylang/rfcs/blob/main/text/0078-remove-json-package-from-stdlib.md)
+
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
