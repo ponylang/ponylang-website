@@ -25,14 +25,6 @@ Yup, "a watch" because this week's sync comes with video so you can see all the 
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
-### Community Resource Highlight
-
-We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
-
-This week, we are highlighting the [Pony Pattern](https://patterns.ponylang.io/) a cookbook style guide to solving problem via common code patterns. Today we are looking at [Accessing an Actor with Arbitrary Transactions](https://patterns.ponylang.io/async/access.html).
-
-This pattern solves the problem of needing arbitrary transactions on a Pony actor. Because Pony actors communicate asynchronously it is possible for messages to be interleaved in situations where atomic access is needed. The solution is shockingly simple once it "clicks", but deceptively difficult to understand at first. It may be helpful for someone first looking at this pattern to understand that: 1) messages are always sent **asynchronously** from an actor to an actor, and 2) that all actors process their **queue of messages** in order. For an "Arbitrary Transaction", we need to have **synchronous** access that avoids the queue. There is only one way to do this: we need a message type that views the actor as it view itself. Therefore this pattern defines a behavior (i.e., message type) that takes a lambda function argument that accepts a `ref` to the implementing actor type. This lambda will have synchronous access to the implementing actor for the duration of one message.
-
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
@@ -45,6 +37,14 @@ You should join us some time, there's a [calendar you can subscribe to](https://
 
 - [ponylang/changelog-bot-action 0.3.5](https://github.com/ponylang/changelog-bot-action/releases/tag/0.3.5)
 - [ponylang/release-notes-bot-action 0.3.6](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.3.6)
+
+## Community Resource Highlight
+
+We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
+
+This week, we are highlighting the [Pony Pattern](https://patterns.ponylang.io/) a cookbook style guide to solving problem via common code patterns. Today we are looking at [Accessing an Actor with Arbitrary Transactions](https://patterns.ponylang.io/async/access.html).
+
+This pattern solves the problem of needing arbitrary transactions on a Pony actor. Because Pony actors communicate asynchronously it is possible for messages to be interleaved in situations where atomic access is needed. The solution is shockingly simple once it "clicks", but deceptively difficult to understand at first. It may be helpful for someone first looking at this pattern to understand that: 1) messages are always sent **asynchronously** from an actor to an actor, and 2) that all actors process their **queue of messages** in order. For an "Arbitrary Transaction", we need to have **synchronous** access that avoids the queue. There is only one way to do this: we need a message type that views the actor as it view itself. Therefore this pattern defines a behavior (i.e., message type) that takes a lambda function argument that accepts a `ref` to the implementing actor type. This lambda will have synchronous access to the implementing actor for the duration of one message.
 
 ---
 
