@@ -40,6 +40,7 @@ You should join us some time, there's a [calendar you can subscribe to](https://
 ## Releases
 
 - [ponylang/changelog-bot-action 0.3.5](https://github.com/ponylang/changelog-bot-action/releases/tag/0.3.5)
+- [ponylang/json 0.1.0](https://github.com/ponylang/json/releases/tag/0.1.0)
 - [ponylang/release-notes-bot-action 0.3.6](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.3.6)
 
 ## Community Resource Highlight
