@@ -33,7 +33,7 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-The first 40 minutes or so of Office Hours were all over the place covering a variety of "computer adjacent" topic and then...
+The first 40 minutes or so of Office Hours were all over the place covering a variety of "computer adjacent" topics and then...
 
 ..and then Adrian Boyko blew it all up by bringing up subtyping and subsumption and he and Jason Carr had an extended conversation where Adrian asked a bunch of questions which Jason answered. Jason also gave his opinion on some type system changes he believes would be improvements and that he would like to see. George Steed's [A Principled Design of Capabilities in Pony](https://www.ponylang.io/media/papers/a_prinicipled_design_of_capabilities_in_pony.pdf) was part of the jumping off into the larger type system conversation.
 
