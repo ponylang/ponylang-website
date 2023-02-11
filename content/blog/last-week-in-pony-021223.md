@@ -19,6 +19,10 @@ We'd love to hear your feedback in the [Last Week in Pony stream on the Ponylang
 
 ## Items of Note
 
+### `github_rest_api` library
+
+The Pony core team has release version 0.1.0 of the `github_rest_api` library. It's an alpha-level library for working with GitHub's REST API. Expect there to bugs and API changes. Those caveats aside, as the [examples](https://github.com/ponylang/github_rest_api/tree/main/examples) demonstrate, it is useful for some parts of the API surface already.
+
 ### "New" JSON library
 
 The `json` package has been removed from the standard library and now as a new home at [https://github.com/ponylang/json](https://github.com/ponylang/json).
@@ -58,6 +62,7 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 ## Releases
 
 - [ponylang/changelog-bot-action 0.3.5](https://github.com/ponylang/changelog-bot-action/releases/tag/0.3.5)
+- [ponylang/github_rest_api 0.1.0](https://github.com/ponylang/github_rest_api/releases/tag/0.1.0)
 - [ponylang/json 0.1.0](https://github.com/ponylang/json/releases/tag/0.1.0)
 - [ponylang/release-notes-bot-action 0.3.6](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.3.6)
 
