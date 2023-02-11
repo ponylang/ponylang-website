@@ -19,6 +19,10 @@ We'd love to hear your feedback in the [Last Week in Pony stream on the Ponylang
 
 ## Items of Note
 
+### "New" JSON library
+
+The `json` package has been removed from the standard library and now as a new home at [https://github.com/ponylang/json](https://github.com/ponylang/json).
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_02_07.mp4) from the February 7th, 2023 sync is available.
