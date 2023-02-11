@@ -23,6 +23,10 @@ We'd love to hear your feedback in the [Last Week in Pony stream on the Ponylang
 
 The `json` package has been removed from the standard library and now as a new home at [https://github.com/ponylang/json](https://github.com/ponylang/json).
 
+### Exploring Ponylang libraries
+
+We've added a topic on GitHub ["pony-core-team-library"](https://github.com/topics/pony-core-team-library) that will be added to all Pony libraries maintained by the Pony core team. Hopefully this makes it a little easier to find fully supported libraries. You can still go through the list of [ponylang organization respositories](https://github.com/orgs/ponylang/repositories), but that includes a lot of non-library content as well.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_02_07.mp4) from the February 7th, 2023 sync is available.
