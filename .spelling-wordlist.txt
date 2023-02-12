@@ -276,6 +276,7 @@ natively
 nd
 Netlify
 NetLogo
+Nicolai
 nightlies
 Nikolaus
 nogginly
@@ -393,6 +394,7 @@ soonish
 SSL
 stateful
 StatsD
+Stawinoga
 stderr
 stdin
 stdlib
