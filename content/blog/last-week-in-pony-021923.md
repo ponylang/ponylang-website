@@ -15,6 +15,14 @@ date = "2023-02-19T07:00:06-04:00"
 
 ## Items of Note
 
+### `ponylang/postgres` Library
+
+The first version of a pure Pony Postgres client library supported by the Pony core team has been released. It's very early days for `ponylang/postgres`. Except API churn, bugs, and a general lack of documentation. The [project README](https://github.com/ponylang/postgres/blob/main/README.md) details the current state of the project.
+
+We'd love to have people trying to write programs using the library and joining us in the [pony postgres driver Zulip stream](https://ponylang.zulipchat.com/#narrow/stream/347592-pony-postgres-driver) to share their experiences.
+
+Next up in the development of the library, documentation and support for [extended queries](https://www.postgresql.org/docs/current/protocol-flow.html#PROTOCOL-FLOW-EXT-QUERY).
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_02_14.m4a) from the February 14th, 2023 sync is available.
