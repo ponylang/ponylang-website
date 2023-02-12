@@ -63,6 +63,7 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 - [ponylang/changelog-bot-action 0.3.5](https://github.com/ponylang/changelog-bot-action/releases/tag/0.3.5)
 - [ponylang/github_rest_api 0.1.0](https://github.com/ponylang/github_rest_api/releases/tag/0.1.0)
+- [ponylang/github_rest_api 0.1.1](https://github.com/ponylang/github_rest_api/releases/tag/0.1.1)
 - [ponylang/json 0.1.0](https://github.com/ponylang/json/releases/tag/0.1.0)
 - [ponylang/release-notes-bot-action 0.3.6](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.3.6)
 
