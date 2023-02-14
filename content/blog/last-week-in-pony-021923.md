@@ -43,6 +43,7 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 ## Releases
 
+- [ponylang/http_server 0.4.4](https://github.com/ponylang/http_server/releases/tag/0.4.4)
 - [ponylang/postgres 0.1.0](https://github.com/ponylang/postgres/releases/tag/0.1.0)
 
 ## Community Resource Highlight
