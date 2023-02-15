@@ -27,7 +27,7 @@ Next up in the development of the library, documentation and support for [extend
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_02_14.m4a) from the February 14th, 2023 sync is available.
 
-<< content >>
+We had just about the shortest auto-generated agenda that we will probably ever have, so... mostly conversation about what Joe and Sean are going to be up to and how it won't generate a lot of agenda content for a while so Sync meetings might be a little light for a while.
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
