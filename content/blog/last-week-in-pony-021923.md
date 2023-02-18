@@ -35,7 +35,9 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Adrian Boyko reports that the February 17th Office Hours was:
+
+Adrian, Nicolai, and Red attended so the discussion tended toward numeric and FFI issues. Adrian introduced Nicolai to his Pony SDR project, which is an example of a Pony program that does significant amounts of number crunching. We revisited the question of whether Pony should have primitive types for complex math and discussed why tuples and classes for complex math aren't sufficient for typical use-cases like signal processing. Discussion then shifted to questions concerning fixed-sized arrays in C structs and how to best represent them in Pony structs. Red demonstrated how the [CastXML](https://github.com/CastXML/CastXML) tool can be used to examine how members in structs are aligned. Finally, there was some discussion of the Pony compiler's `\packed\` annotation.
 
 Does any or all of that sound interesting, if yes, you should join us some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
