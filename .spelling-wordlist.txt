@@ -376,6 +376,7 @@ scalable
 ScalaDays
 SDK
 SDKs
+SDR
 sean
 SeanTAllen
 Seb
@@ -404,6 +405,7 @@ StdStream
 stefandd
 Strangecode
 struct
+structs
 Stührk
 subcommand
 submenu
