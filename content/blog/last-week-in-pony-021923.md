@@ -52,13 +52,15 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week are are highlighting the [Pony Performance Cheatsheet](https://www.ponylang.io/reference/pony-performance-cheatsheet/), specifically [`error` versus error types](https://www.ponylang.io/reference/pony-performance-cheatsheet/#avoid-error).
+
+The use of `error` in Pony is often confused for exceptions in other languages -- a critical difference is that, unlike exceptions, `error` contains no runtime information. (However, this does not mean `error` is free, there is a cost to unwind every time we hit `error`.) The alternative to `error` is an "error type" where we use a union of a successful return with an erroneous return, for example `(U64 | ZeroIsBad)`. In an error type, we always pay the cost of this union as we must match against this type to know if we have a `U64` or a `ZeroIsBad`. An added advantage of an error type is that we can extend it for more error cases. In the hypothetical function `Foo` in the linked section, if we later find that `1` is also "bad" we can redefine the return to be `(U64 | ZeroIsBad | OneIsAlsoBad)`. With this return type, we still pay the same cost to match against the type, but we can distinguish between `ZeroIsBad` and `OneIsAlsoBad`. This is not possible in the case of `error` where would only know that we hit an `error`, not specifically _what the error was_.
+
+When should we use `error` versus an error type? It depends, but in general we can say two things: 1) prefer `error` when hitting the error is rare, 2) prefer error types when we need to distinguish between different erroneous situations.
 
 ## RFCs
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
-
-<< content >>
 
 ---
 
