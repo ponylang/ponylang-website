@@ -19,7 +19,10 @@ date = "2023-02-26T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_02_21.m4a) from the February 14th, 2023 sync is available.
 
-<< content >>
+The February 21st development sync had only one ticket on the agenda to review, which was then followed by group discussion on a few topics related to the internals and build process of the Pony compiler and runtime. Among the major topics discussed were:
+
+- Building Clang and compiling Pony with the built Clang: [PR #4196](https://github.com/ponylang/ponyc/pull/4196)
+- An arcane possible C spec violation related to `pthread_create:` [Issue #4324](https://github.com/ponylang/ponyc/issues/4324)
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
