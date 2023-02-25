@@ -36,7 +36,7 @@ Adrian, Jason, and Red attended and the discussion did not disappoint.
 
 Red brought the question "How should we structure flexible Async APIs in pony?" and a trivial example to experiment with during the call.  Several different implementations were discussed, implemented, and experimented with (interspersed with 'Good Humored' observations about Red's obsession with (now unnecessary) recover blocks).
 
-Many times during the call Red muttered "These should be in pony patterns…". 
+Many times during the call Red muttered "These should be in pony patterns…".
 
 Later in the call, discussions moved into the internals of X11 event handling, Window Managers, Toolkits and ASIO.
 
