@@ -44,7 +44,14 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are looking at Pony [Frequently Asked Questions (FAQs)](https://www.ponylang.io/faq/), in particular whether a [ref can become a val](https://www.ponylang.io/faq/#ref-to-val).
+
+It is not uncommon to start learning Pony by using a lot of implicit and explicit `ref` reference capabilities. This is because `ref` is perhaps the most familiar capability when coming from other languages. With a `ref` we are creating a mutable, local reference; we can locally alias this `ref` as many times as we want. Joy! But wait...what if we want to mutate up to a point and then "lock" that data into being immutable? This is usually what someone who wants to go from a `ref` to a `val` is trying to do -- start with a locally mutable `ref` which is then "locked" into being a globally immutable `val`. However this does not work and they get frustrated. The quick solutions are: 
+
+1. Start from an `iso` or `trn` then `consume` it in order to return your desired `val`
+2. Use a `recover` block to isolate the mutation and return your desired `val`
+
+Why do these work? Reference capabilities are not themselves references, nor do they apply to the data. Having a `ref` does not mean the **data** is mutable, it means the **reference** can be used for mutation. A `ref` can be used to create another `ref` and either `ref` can be used for mutation. Because of this, when we use a `ref` we are allowing any number of ways to mutate the data. Meaning in order to guarantee that it is safe to go from a `ref` to a `val` we would have to know all other ways the data could be mutated -- this is a lot of work. However in 1 above, using an `iso` or a `trn`, we are stating there is only ever one way to mutate the data so when we consume that one way to mutate we know for certain there is no longer a way to mutate the referenced data so a `val` is safe. Meanwhile in 2 above, using a `recover` block, that region of references cannot "leak" mutable references so when exiting the recover block we once again know for certain there is no longer a way to mutate the referenced data so a `val` is safe.
 
 ---
 
