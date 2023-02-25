@@ -17,7 +17,7 @@ date = "2023-02-26T07:00:06-04:00"
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_02_21.m4a) from the February 14th, 2023 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2023_02_21.m4a) from the February 21st, 2023 sync is available.
 
 The February 21st development sync had only one ticket on the agenda to review, which was then followed by group discussion on a few topics related to the internals and build process of the Pony compiler and runtime. Among the major topics discussed were:
 
@@ -30,7 +30,17 @@ If you are interested in attending a Pony Development Sync, please do! We have i
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Red Davies' report for Friday 24th February Office Hours:
+
+Adrian, Jason, and Red attended and the discussion did not disappoint.
+
+Red brought the question "How should we structure flexible Async APIs in pony?" and a trivial example to experiment with during the call.  Several different implementations were discussed, implemented, and experimented with (interspersed with 'Good Humored' observations about Red's obsession with (now unnecessary) recover blocks).
+
+Many times during the call Red muttered "These should be in pony patterns…". 
+
+Later in the call, discussions moved into the internals of X11 event handling, Window Managers, Toolkits and ASIO.
+
+I great time was had by most.
 
 Does any or all of that sound interesting, if yes, you should join us some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
