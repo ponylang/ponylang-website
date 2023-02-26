@@ -40,15 +40,11 @@ Many times during the call Red muttered "These should be in pony patterns…".
 
 Later in the call, discussions moved into the internals of X11 event handling, Window Managers, Toolkits and ASIO.
 
-I great time was had by most.
+A great time was had by most.
 
 Does any or all of that sound interesting, if yes, you should join us some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
 And if it doesn't sound interesting, you can join and steer the conversation in directions you find interesting, so really, there's no excuse to not attend!
-
-## Releases
-
-<< content >>
 
 ## Community Resource Highlight
 
