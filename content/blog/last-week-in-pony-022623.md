@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A release delayed and more..."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,11 +9,19 @@ title = "Last Week in Pony February 26, 2023"
 date = "2023-02-26T07:00:06-04:00"
 +++
 
-<< content >>
+Time keeps on ticking into the future and Pony continues rolling on. We'd like to open today's Last Week in Pony with a thank you to all the volunteers (including ourselves), who've kept it moving. Bless you all. Here's to more gradual improvements!
+
+In the meantime, put on some [Black Sheep](https://www.youtube.com/watch?v=K9F5xcpjDMU) and dig into this week's news including the delay of the Pony 0.54.0 release.
 
 <!--more-->
 
 ## Items of Note
+
+### Release coming soon
+
+The Pony 0.54.0 release was going to happen this morning but has been delayed as CirrusCI is reporting that a Google Cloud issue might impact on CirrusCI jobs (such as the ones we use to build Pony releases).
+
+The release will be coming "soon" where "soon" is a product of Sean's heavy work schedule in the coming couple of weeks. Most likely the release will be within a couple days although, in the worst case, it could be a week or two.
 
 ### Pony Development Sync
 
