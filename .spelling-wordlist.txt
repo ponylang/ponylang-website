@@ -21,6 +21,7 @@ Appveyor
 Armv
 ASIO
 AST
+Async
 asynchrony
 Athaydes
 atomics
@@ -433,6 +434,7 @@ Tobias
 toc
 TOCTOU
 toolchains
+toolkits
 transphobia
 TravisCI
 triaging
