@@ -35,13 +35,14 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 ## Releases
 
-<< content >>
+- [ponylang/ponyc 0.54.0](https://github.com/ponylang/ponyc/releases/tag/0.54.0)
 
 ## Community Resource Highlight
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
 << content >>
+
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
