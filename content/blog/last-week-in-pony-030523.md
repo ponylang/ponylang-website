@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Ponyc 0.54.0 was released."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,19 +9,24 @@ title = "Last Week in Pony March 5, 2023"
 date = "2023-03-05T07:00:06-04:00"
 +++
 
-<< content >>
+There was no Pony development sync this week due to low attendence and a small agenda. Beyond that, dig in a read what we have for Pony news this week. It's a little light in part because, the job that pays me is taking up a lot of my time at the moment leaving very little time for the job that doesn't pay me.
+
 
 <!--more-->
 
 ## Items of Note
 
+### LLVM 15 support has begun
+
+Joe and Gordon have started working on moving Pony to LLVM 15. You can follow along with the [draft PR](https://github.com/ponylang/ponyc/pull/4327).
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+What happened during Office Hours this week is a mystery to me. I wasn't there and didn't get much of a summary. It sounds like folks had fun (as usual) though.
 
-Does any or all of that sound interesting, if yes, you should join us some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
+Given that we generally don't have super detailed accountings of Office Hours (unless Adrian Boyko has the time to do an awesome write-up), you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
 And if it doesn't sound interesting, you can join and steer the conversation in directions you find interesting, so really, there's no excuse to not attend!
 
