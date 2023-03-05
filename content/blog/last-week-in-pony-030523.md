@@ -33,7 +33,11 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Today we are highlighting the talks from the [Virtual Users Group](https://vimeo.com/search/sort:latest?q=pony-vug)! Specifically, we are looking at [Pony VUG #10: Pony vs Rust](https://vimeo.com/574893226).
+
+In this talk, Matthias Wahl gives a high-level view of how Rust and Pony handle memory safety and data race freedom. He briefly discusses Rust's use of the (in)famous borrow checker and lifetimes, as well as Pony's reference capabilities -- two ways to handle the temporal nature of mutable data.
+
+Not discussed in the talk, but a way Ryan A. Hagenson (your friendly community resource highlight writer) has found helped him understand the difference: Rust's system leverages uniqueness of reference, while Pony's system leverages isolation of reference. Rust tracks the borrowing and lifetime of unique reference to data, see [The Rules of Reference](https://doc.rust-lang.org/stable/book/ch04-02-references-and-borrowing.html?highlight=rules#the-rules-of-references) from the Rust book -- at most there are be one (unique) mutable reference. Meanwhile, Pony tracks the capabilities of references to ensure isolated mutable references, see the [Viewpoint adaptation](https://tutorial.ponylang.io/reference-capabilities/combining-capabilities.html#viewpoint-adaptation) matrix. In Rust, we cannot say "look through this mutable reference" because that would not be unique, but in Pony we can do exactly that because the data is still isolated! In particular, look at how looking through a `ref` gives exactly the same reference capabilities of whatever you are viewing. A `ref` cannot be shared across actors so it is always isolated to a single actor and therefore nothing changes. Sharable, mutable data has to be an `iso`, which literally means **isolated**!
 
 ---
 
