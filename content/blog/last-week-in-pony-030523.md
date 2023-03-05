@@ -11,7 +11,6 @@ date = "2023-03-05T07:00:06-04:00"
 
 There was no Pony development sync this week due to low attendance and a small agenda. Beyond that, dig in a read what we have for Pony news this week. It's a little light in part because, the job that pays me is taking up a lot of my time at the moment leaving very little time for the job that doesn't pay me.
 
-
 <!--more-->
 
 ## Items of Note
