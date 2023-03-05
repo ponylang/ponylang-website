@@ -13,9 +13,10 @@ jobs:
         uses: docker://github/super-linter:v3.8.3
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          VALIDATE_ALL_CODEBASE: true
+          VALIDATE_ALL_CODEBASE: false
           VALIDATE_MD: true
           VALIDATE_YAML: true
+          DEFAULT_BRANCH: main
 
   check-spelling:
     name: Spellcheck markdown
