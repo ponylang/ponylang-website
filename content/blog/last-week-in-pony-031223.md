@@ -37,7 +37,9 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we go to space! In a galaxy not so far away, there is a planet inhabited entirely by actors, where ponies run wild without exception. Off to [Planet Pony](https://www.ponylang.io/community/planet-pony/)! Planet Pony is the manually curated list of Pony-related talks, papers, and blog posts.
+
+Today we are going to look at 2020's [Pony, Actors, Causality, Types, and Garbage Collection](https://www.infoq.com/presentations/pony-types-garbage-collection/). This talk by Sophia Drossopoulou -- who was part of the original Pony team -- discusses many aspects of Pony. Sophia covers a wide breadth of Pony and its design decisions. Specifically, she discusses: actors (concurrent objects), causality (message passing and delivery), the type system (reference capabilities), and garbage collection (ORCA). Anyone in the Pony community who has not yet seen this talk should watch it.
 
 ---
 
