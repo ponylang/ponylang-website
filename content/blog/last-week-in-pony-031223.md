@@ -23,7 +23,22 @@ Not a ton of above ground activity with Pony this last week, so this is a fairly
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Adrian and Red attended Office Hours this week and discussed the syntax and implementation of pony Structs. There was some confusion around how structs in pony map to C, so we wrote some examples to test our understanding.  For example, (constructors not included):
+
+```pony
+struct StructA
+  var x: U64 = U64(42)
+
+struct StructB
+  var xa: StructA
+  embed xb: StructA
+  var xc: NullablePointer[StructA]
+  var xd: Pointer[StructA]
+```
+
+In our example we created a single StructA and then used that to populate all of the fields in StructB. Then, using lldb we examined the address in each of the fields to see what they pointed to.
+
+A somewhat esoteric Office Hours this week, but one that was interesting and did surprise. A good time was had by most.
 
 You should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
