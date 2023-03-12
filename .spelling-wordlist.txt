@@ -406,6 +406,8 @@ StdStream
 stefandd
 Strangecode
 struct
+StructA
+StructB
 structs
 Stührk
 subcommand
