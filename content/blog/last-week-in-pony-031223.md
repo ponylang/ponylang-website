@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A relatively uneventful week."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony March 12, 2023"
 date = "2023-03-12T07:00:06-04:00"
 +++
 
-<< content >>
+Not a ton of above ground activity with Pony this last week, so this is a fairly short LWIP. Sean's work project crunch is winding down so expect more activity from him over the next few months.
 
 <!--more-->
 
