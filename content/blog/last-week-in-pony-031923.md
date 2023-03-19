@@ -43,7 +43,17 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are highlighting the [Papers](https://www.ponylang.io/community/#papers) portion of the Pony website! Specifically, we are going to look at [ORCA: GC and Type System Co-Design for Actor Languages](https://www.ponylang.io/media/papers/orca_gc_and_type_system_co-design_for_actor_languages.pdf). This 2017 paper discusses ORCA or **O**wnership and **R**eference **C**ounting-based Garbage Collection in the **A**ctor World -- it may be a bit of a force acronym, but it is a killer whale of a reason to use Pony!
+
+The entire paper is worth a read, but here we want to highlight the invariants list from section 4.1 that ORCA maintains:
+
+1. At any point, if an actor may write to an object, then no other actor can read from or write to this object’s fields. Thus, ORCA can avoid write barriers and tracing needs no synchronisation.
+2. Immutability is persistent (i.e. an immutable object will never be seen as mutable) and deep (i.e. no object accessible from an immutable object is seen an mutable).
+3. Any live object is protected at its owner.
+4. Any object reachable from a foreign actor is protected at this actor.
+5. The owner’s reference count for an object is consistent with the state of the system.
+
+Invariant 1 means there can only ever be one mutable owner at a time -- mutability is isolated to a single actor. Invariant 2 means that once an object is marked as immutable it cannot be later used to mutate, nor can it be used to extract something mutable from within it. Invariant 3 and 4 work together to mean that an object is protected from garbage collection by its owner -- the owner decides when the reference count to any object is 0 and as such can be garbage collected. Invariant 5 means that the owner of an object has a view of the state of that object that agree with other entities in the system.
 
 ---
 
