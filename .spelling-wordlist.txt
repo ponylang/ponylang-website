@@ -194,6 +194,7 @@ IntelliSense
 intentioned
 interoperable
 interoperation
+invariants
 IO
 IOCP
 ipaddr
