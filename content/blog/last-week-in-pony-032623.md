@@ -10,9 +10,11 @@ date = "2023-03-26T07:00:06-04:00"
 +++
 
 << content >>
+
 <!-- more -->
 
 ## Items of Note
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_03_21.mp4) from the March 21th, 2023 sync is available.
