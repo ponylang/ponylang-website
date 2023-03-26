@@ -1,17 +1,13 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A slow week in Pony"
 categories = [
     "Last Week in Pony",
 ]
 title = "Last Week in Pony March 26, 2023"
 date = "2023-03-26T07:00:06-04:00"
 +++
-
-<< content >>
-
-<!-- more -->
 
 ## Items of Note
 
@@ -40,16 +36,6 @@ actor Main
 ```
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
-
-### Office Hours
-
-We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
-
-This past Friday's office hour was attended by Adrian Boyko, Nicolai Stawinoga,Red Davies, and Sean T. Allen. The primary topic of discussion was the ASIO subsystem in the Pony runtime and possible issues in how Red had started using it for his "raw socket" implementation and how in general Adrian should approach using it to work with SFML from Pony.
-
-Given that we generally don't have a super detailed accounting of Office Hours (unless Adrian Boyko has the time to do an awesome write-up), you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
-
-And if it doesn't sound interesting, you can join and steer the conversation in directions you find interesting, so really, there's no excuse to not attend!
 
 ## Community Resource Highlight
 
