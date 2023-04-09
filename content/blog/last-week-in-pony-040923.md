@@ -35,7 +35,9 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are looking at Frequently Asked Questions (FAQs), specifically [Does Pony have green threads?](https://www.ponylang.io/faq/#green-threads).
+
+The answer really depends on what you expect from green threads. By default, Pony has one "actor thread" per CPU and these are kernel threads. These actor threads are then used to schedule actors. You as the programmer never interact with threads directly, instead you model your problem through messages passed between actors.
 
 ---
 
