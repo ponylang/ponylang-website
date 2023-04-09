@@ -27,7 +27,7 @@ We have an open Zoom meeting every Friday for the community to get together and 
 
 Office Hours this week was a long one. We started 30 minutes early and went for close to two hours. The time was all spent with Joe and Sean investigating further into [issue #4340](https://github.com/ponylang/ponyc/issues/4340).
 
-Prior to the call, Sean had already tracked down the problem to an interaction between 3 optimization passes: inlining, the custom Pony "HeapToStack" pass, and LLVM's built in "Dead Store Eliminator".
+Prior to the call, Sean had already tracked down the problem to an interaction between 3 optimization passes: the inliner, the custom Pony "HeapToStack" pass, and LLVM's built in "Dead Store Eliminator".
 
 When these 3 optimization passes are on, the following code that should pass it's test fails because we incorrectly end up with "2" rather than "3" as a value.
 
@@ -87,7 +87,7 @@ class iso _TestUnivals is UnitTest
     h.assert_eq[USize](3, Node(0, Leaf(0), Leaf(0)).univals())
 ```
 
-Joe's suspicion going into the debugging session was that the problem lay within the "HeapToStack" optmization; a reasonable suspicion to hold- bugs are generally found more often in "our code" rather than "their code". Sean was less sure and thought that it might be an unexpected interaction between two sets of code that are otherwise "correct". And that it was possible that neither was doing something "wrong" but that we were running into "unspecified assumptions".
+Joe's suspicion going into the debugging session was that the problem lay within the "HeapToStack" optimization; a reasonable suspicion to hold- bugs are generally found more often in "our code" rather than "their code". Sean was less sure and thought that it might be an unexpected interaction between two sets of code that are otherwise "correct". And that it was possible that neither was doing something "wrong" but that we were running into "unspecified assumptions".
 
 The debugging session started with 30 minutes of setup as it was determined that we needed to use a debug version of LLVM. Fortunately, Sean's laptop has 18 cores to throw at the problem so compilation of LLVM didn't take to long.
 
@@ -163,7 +163,7 @@ Where things are most definitely wrong. The loading of values needed for correct
   %1 = alloca i8, i64 32, align 8
 ```
 
-are accessed later and optimizes the loading of values from them away. At the time that we had to stop, we hadn't yet hit on a reason for why that was happening. In handwave terms, the two most likely problems are:
+are accessed later and optimizes the loading of values from them away. At the time that we had to stop, we hadn't yet hit on a reason for why that was happening. In hand wave terms, the two most likely problems are:
 
 - Bug in dead store elimination
 - `alloca`s that are created by heap to stack pass are "incorrect" in that they are set up in a way that other LLVM passes doesn't fully understand them.
