@@ -187,6 +187,7 @@ IDEs
 IFIP
 implementers
 InfoQ
+inliner
 instantiations
 integrations
 Intel

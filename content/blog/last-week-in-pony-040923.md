@@ -91,7 +91,7 @@ Joe's suspicion going into the debugging session was that the problem lay within
 
 The debugging session started with 30 minutes of setup as it was determined that we needed to use a debug version of LLVM. Fortunately, Sean's laptop has 18 cores to throw at the problem so compilation of LLVM didn't take to long.
 
-The next 90-ish minutes were spent investigating the problem. Included below is an "annotated" version of the LLVM ir after the last HeapToStack optimization is applied (and prior to any dead store eliminitation being done):
+The next 90-ish minutes were spent investigating the problem. Included below is an "annotated" version of the LLVM ir after the last HeapToStack optimization is applied (and prior to any dead store elimination being done):
 
 ```llvm
 define private fastcc ptr @_TestUnivals_ref_apply_oo(ptr nocapture readnone %this, ptr nocapture readonly dereferenceable(24) %h) unnamed_addr !dbg !7533 !pony.abi !4 {
