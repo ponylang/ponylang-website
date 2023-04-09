@@ -93,7 +93,7 @@ The debugging session started with 30 minutes of setup as it was determined that
 
 The next 90-ish minutes were spent investigating the problem. Included below is an "annotated" version of the LLVM ir after the last HeapToStack optimization is applied (and prior to any dead store eliminitation being done):
 
-```
+```llvm
 define private fastcc ptr @_TestUnivals_ref_apply_oo(ptr nocapture readnone %this, ptr nocapture readonly dereferenceable(24) %h) unnamed_addr !dbg !7533 !pony.abi !4 {
 entry:
   %_leaf_right = alloca i8, i64 32, align 8
@@ -130,7 +130,7 @@ In the IR above, we've removed some purely debugging information and replaced so
 
 Joe was expecting to see "something wrong" in the IR at this point, but, everything looks good. There's nothing we can see that is "wrong". However, once the dead store elimination is done, we ended up with the following IR:
 
-```
+```llvm
 define private fastcc ptr @_TestUnivals_ref_apply_oo(ptr nocapture readnone %this, ptr nocapture readonly dereferenceable(24) %h) unnamed_addr !dbg !7533 !pony.abi !4 {
 entry:
   %0 = alloca i8, i64 32, align 8
@@ -158,7 +158,7 @@ Node_ref_univals_Z.exit:                          ; preds = %entry, %sc_right.i
 
 Where things are most definitely wrong. The loading of values needed for correct execution of the code is gone from `@_TestUnivals_ref_apply_oo`. It would appear, that the dead store elimination doesn't recognize that the objects allocated here:
 
-```
+```llvm
   %0 = alloca i8, i64 32, align 8
   %1 = alloca i8, i64 32, align 8
 ```
