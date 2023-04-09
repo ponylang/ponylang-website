@@ -169,6 +169,7 @@ Hagenson
 Hagenson's
 harken
 Hashable
+HeapToStack
 HFPUG
 HighlightJS
 homebrew
@@ -186,6 +187,7 @@ IDEs
 IFIP
 implementers
 InfoQ
+inliner
 instantiations
 integrations
 Intel
