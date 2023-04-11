@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Pony 0.54.1 was released. Updating as soon as possible is advised."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony April 16, 2023"
 date = "2023-04-16T07:00:06-04:00"
 +++
 
-<< content >>
+In our [previous edition of "Last Week in Pony"](https://www.ponylang.io/blog/2023/04/last-week-in-pony-april-9-2023/), we [covered the exploration](https://www.ponylang.io/blog/2023/04/last-week-in-pony-april-9-2023/#office-hours) of [ponyc issue #4340](https://github.com/ponylang/ponyc/issues/4340) that happened during the April 7th Office Hours. This week, we are happy to report that the bug [has been fixed](https://github.com/ponylang/ponyc/pull/4341). You can check out this week's Pony Development Sync to hear Sean and Joe work through the final bits of the bug and you can enjoy the fruits of those labors by installing Pony 0.54.1 which was released this week.
 
 <!-- more -->
 
@@ -119,6 +119,10 @@ We have an open Zoom meeting every Friday for the community to get together and 
 << content >>
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
+
+## Releases
+
+- [ponyc 0.54.1](https://github.com/ponylang/ponyc/releases/tag/0.54.1)
 
 ## Community Resource Highlight
 
