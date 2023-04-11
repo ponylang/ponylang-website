@@ -88,17 +88,31 @@ Lacking this knowledge, those stores get removed by a later optimization pass as
 
 The core of the issue is that the `HeapToStack` pass doesn't do any alias analysis and as such, when it only sets some calls within a function where a heap call has been turned into an `alloca` as "not tail". To be safe without some alias analysis, all `call` invocations need to be "tail false".
 
-The forthcoming fix does just that...
+The fix does just that...
 
 ```diff
-diff --git a/src/libponyc/codegen/genopt.cc b/src/libponyc/codegen/genopt.cc
-index c9cbb890..538572c6 100644
 --- a/src/libponyc/codegen/genopt.cc
 +++ b/src/libponyc/codegen/genopt.cc
-@@ -235,6 +235,12 @@ public:
+@@ -235,6 +235,28 @@ class HeapToStack : public PassInfoMixin<HeapToStack>
          case Instruction::Call:
          case Instruction::Invoke:
          {
++          // Record any calls that are tail calls so they can be marked as
++          // "tail false" if we do a HeapToStack change. Accessing `alloca`
++          // memory from a call that is marked as "tail" is unsafe and can
++          // result in incorrect optimizations down the road.
++          //
++          // See: https://github.com/ponylang/ponyc/issues/4340
++          //
++          // Technically we don't need to do this for every call, just calls
++          // that touch alloca'd memory. However, without doing some alias
++          // analysis at this point, our next best bet is to simply mark
++          // every call as "not tail" if we do any HeapToStack change. It's
++          // "the safest" thing to do.
++          //
++          // N.B. the contents of the `tail` list will only be set to
++          // "tail false" if we return `true` from this `canStackAlloc`
++          // function.
 +          auto ci = dyn_cast<CallInst>(inst);
 +          if (ci && ci->isTailCall())
 +          {
@@ -108,6 +122,19 @@ index c9cbb890..538572c6 100644
            auto call_base = dyn_cast<CallBase>(inst);
            if (!call_base)
            {
+@@ -275,12 +297,6 @@ class HeapToStack : public PassInfoMixin<HeapToStack>
+                 print_transform(c, inst, "captured here (call arg)");
+                 return false;
+               }
+-
+-              auto ci = dyn_cast<CallInst>(inst);
+-              if (ci && ci->isTailCall())
+-              {
+-                tail.push_back(ci);
+-              }
+             }
+           }
+           break;
 ```
 
 It was quite the productive call. We're not sure how much the listeners got out of it, but Joe and Sean made tremendous progress and soon, folks we will have a compiler bug fixed! If this sort of thing interests you, please feel free to attend a Pony Development Sync. We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
