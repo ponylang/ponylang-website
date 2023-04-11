@@ -19,9 +19,98 @@ date = "2023-04-16T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_04_11.m4a) from the April 11th, 2023 sync is available.
 
-<< content >>
+This week's sync call had a single item on the agenda and we used the full hour to on it. The call is a continuation of Office Hours [from the previous week](https://www.ponylang.io/blog/2023/04/last-week-in-pony-april-9-2023/#office-hours).
 
-If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
+Joe and Sean spent the hour going over the additional information that Sean had collected over the weekend on [issue #4340](https://github.com/ponylang/ponyc/issues/4340). Over the course of the call, Sean and Joe narrowed in on the problem until at the end of the call, they had a proposed solution. Shortly after the call, Sean tested the fix and verified that it worked.
+
+For those who love LLVM IR, this IR that we previously stated "looked good" is actually slightly buggy:
+
+```llvm
+define private fastcc ptr @_TestUnivals_ref_apply_oo(ptr nocapture readnone %this, ptr nocapture readonly dereferenceable(24) %h) unnamed_addr !dbg !7533 !pony.abi !4 {
+entry:
+  %_leaf_right = alloca i8, i64 32, align 8
+  %_leaf_left = alloca i8, i64 32, align 8
+  store ptr @Leaf_Desc, ptr %_leaf_left, align 8
+  %_leaf_left_value = getelementptr inbounds %Leaf, ptr %_leaf_left, i64 0, i32 1, !dbg !7539
+  store i64 0, ptr %_leaf_left_value, align 8, !dbg !7539
+  store ptr @Leaf_Desc, ptr %_leaf_right, align 8
+  %_leaf_right_value = getelementptr inbounds %Leaf, ptr %_leaf_right, i64 0, i32 1, !dbg !7542
+  store i64 0, ptr %_leaf_right_value, align 8, !dbg !7542
+  %_leaf_left_univals = tail call fastcc i64 @Leaf_ref_univals_Z(ptr nonnull %_leaf_left), !dbg !7547
+  %_leaf_left_get_value = tail call fastcc i64 @Leaf_ref_get_value_Z(ptr nonnull %_leaf_left), !dbg !7548
+  %_leaf_right_get_value = tail call fastcc i64 @Leaf_ref_get_value_Z(ptr nonnull %_leaf_right), !dbg !7549
+  %8 = icmp eq i64 %_leaf_left_get_value, %_leaf_right_get_value
+  br i1 %8, label %sc_right.i, label %Node_ref_univals_Z.exit
+
+sc_right.i:                                       ; preds = %entry
+  %9 = icmp eq i64 %_leaf_left_get_value, 0
+  %10 = zext i1 %9 to i64
+  %spec.select.i = add i64 %_leaf_left_univals, %10
+  br label %Node_ref_univals_Z.exit
+
+Node_ref_univals_Z.exit:                          ; preds = %entry, %sc_right.i
+  %.pn.i = phi i64 [ %_leaf_left_univals, %entry ], [ %spec.select.i, %sc_right.i ]
+  %_leaf_right_univals = tail call fastcc i64 @Leaf_ref_univals_Z(ptr nonnull %_leaf_right), !dbg !7550
+  %12 = add i64 %.pn.i, %_leaf_right_univals
+  %13 = tail call fastcc i1 @pony_test_TestHelper_val__check_eq_USize_val_oZZoob(ptr nonnull %h, ptr nonnull @19, i64 3, i64 %12, ptr nonnull @39, ptr nonnull @"$1$0_Inst"), !dbg !7555
+  call void @llvm.dbg.value(metadata ptr @None_Inst, metadata !5286, metadata !DIExpression()), !dbg !7556
+  ret ptr @None_Inst, !dbg !7558
+}
+```
+
+In particular, these calls are problematic:
+
+```llvm
+  %_leaf_left_get_value = tail call fastcc i64 @Leaf_ref_get_value_Z(ptr nonnull %_leaf_left), !dbg !7548
+  %_leaf_right_get_value = tail call fastcc i64 @Leaf_ref_get_value_Z(ptr nonnull %_leaf_right), !dbg !7549
+```
+
+The problem is that these calls access memory that came from an `alloca`...
+
+```llvm
+  %_leaf_right = alloca i8, i64 32, align 8
+  %_leaf_left = alloca i8, i64 32, align 8
+```
+
+and was initialized here...
+
+```llvm
+  %_leaf_left_value = getelementptr inbounds %Leaf, ptr %_leaf_left, i64 0, i32 1, !dbg !7539
+  store i64 0, ptr %_leaf_left_value, align 8, !dbg !7539
+  store ptr @Leaf_Desc, ptr %_leaf_right, align 8
+  %_leaf_right_value = getelementptr inbounds %Leaf, ptr %_leaf_right, i64 0, i32 1, !dbg !7542
+  store i64 0, ptr %_leaf_right_value, align 8, !dbg !7542
+```
+
+Each of the `Leaf_ref_get_value_Z` calls accesses memory that was initialized in a corresponding store, but that isn't clear from the IR. In fact the `tail` annotations on the highlighted `call`s indicate that no memory from an `alloca` is going to be accessed.
+
+Lacking this knowledge, those stores get removed by a later optimization pass as it appears from the IR that they aren't used. Hilarity ensues.
+
+The core of the issue is that the `HeapToStack` pass doesn't do any alias analysis and as such, when it only sets some calls within a function where a heap call has been turned into an `alloca` as "not tail". To be safe without some alias analysis, all `call` invocations need to be "tail false".
+
+The forthcoming fix does just that...
+
+```diff
+diff --git a/src/libponyc/codegen/genopt.cc b/src/libponyc/codegen/genopt.cc
+index c9cbb890..538572c6 100644
+--- a/src/libponyc/codegen/genopt.cc
++++ b/src/libponyc/codegen/genopt.cc
+@@ -235,6 +235,12 @@ public:
+         case Instruction::Call:
+         case Instruction::Invoke:
+         {
++          auto ci = dyn_cast<CallInst>(inst);
++          if (ci && ci->isTailCall())
++          {
++            tail.push_back(ci);
++          }
++
+           auto call_base = dyn_cast<CallBase>(inst);
+           if (!call_base)
+           {
+```
+
+It was quite the productive call. We're not sure how much the listeners got out of it, but Joe and Sean made tremendous progress and soon, folks we will have a compiler bug fixed! If this sort of thing interests you, please feel free to attend a Pony Development Sync. We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
 ### Office Hours
 
