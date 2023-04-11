@@ -15,6 +15,10 @@ In our [previous edition of "Last Week in Pony"](https://www.ponylang.io/blog/20
 
 ## Items of Note
 
+### "Upgrade immediately" Pony released
+
+[Pony 0.54.1 was released](https://github.com/ponylang/ponyc/releases/tag/0.54.1) this week. It fixes an incorrect optimization pass that could result in incorrect code being generated. We recommend updating as soon as you can.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_04_11.m4a) from the April 11th, 2023 sync is available.
