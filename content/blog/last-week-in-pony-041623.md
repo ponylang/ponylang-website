@@ -19,7 +19,7 @@ In our [previous edition of "Last Week in Pony"](https://www.ponylang.io/blog/20
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_04_11.m4a) from the April 11th, 2023 sync is available.
 
-This week's sync call had a single item on the agenda and we used the full hour to on it. The call is a continuation of Office Hours [from the previous week](https://www.ponylang.io/blog/2023/04/last-week-in-pony-april-9-2023/#office-hours).
+This week's sync call had a single item on the agenda and we used the full hour on it. The call is a continuation of Office Hours [from the previous week](https://www.ponylang.io/blog/2023/04/last-week-in-pony-april-9-2023/#office-hours).
 
 Joe and Sean spent the hour going over the additional information that Sean had collected over the weekend on [issue #4340](https://github.com/ponylang/ponyc/issues/4340). Over the course of the call, Sean and Joe narrowed in on the problem until at the end of the call, they had a proposed solution. Shortly after the call, Sean tested the fix and verified that it worked.
 
