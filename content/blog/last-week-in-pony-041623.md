@@ -159,7 +159,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are looking at the documentation for the standard library, which can be found at <stdlib.ponylang.io>. The landing page will list every package in the Pony standard library, but we are specifically going to look at the ["files"](https://stdlib.ponylang.io/files--index/) package.
+
+In the package documentation, there is a brief description explaining the package followed by an example program and, lastly, a list of the public types. In the list of public types we can see the category that each falls into, be that `actor` (concurrent object), `primitive` (stateless object), `class` (sequential object), `type` (type alias), `interface` (structural type), or `trait` (nominal type). Clicking on any one of these types will show more detailed documentation. If we click through the `File` class type, on the right-hand side we will see constructors, public fields, and public functions. When looking at a class, it is usually a good idea to look for how the `create` constructor and `apply` function are implemented as both of these have [syntactic sugar](https://tutorial.ponylang.io/expressions/sugar.html#combined-create-apply). In the case of `File`, there is no `apply` function, but we have two constructors with one of them being `create`. Lastly, if you want to jump to a different type while on a specific type's documentation page, the hamburger icon in the upper left opens a list similar to the opening package documentation page.
 
 ---
 
