@@ -147,7 +147,15 @@ It was quite the productive call. We're not sure how much the listeners got out 
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Office Hours this past week was Adrian, Red, and Sean. A few different topics were covered including [type erasure](https://en.wikipedia.org/wiki/Type_erasure) and [reification](https://en.wikipedia.org/wiki/Reification_(computer_science)). The reification conversation led to a conversation about how reference capabilities aren't reified in Pony. That started as an example when discussing the two topics but then led to a discussion of reifying the concept of mutable vs immutable for objects to allow for better optimizations at runtime. Reifying mutable and immutable is a topic that has come up many times amongst runtime maintainers including Sylvan, Joe, and Sean. Mutable and immutable are reified in the [Verona runtime](https://github.com/microsoft/verona).
+
+We ended up leaving that discussion behind and spent a good amount of time with Adrian asking questions about Pony and the Pony runtime to ChatGPT. It was fascinating to see what ChatGPT got right and the many many things it got wrong.
+
+For Sean, the most interesting part of the ChatGPT interaction was the realization that the creators of ChatGPT definitely want to avoid the "no answer" problem. That is, ChatGPT doesn't say "I don't know". It is biased towards giving an answer, even if the answer is wrong.
+
+The tradeoffs between biasing towards an answer vs biasing towards correctness has a long history in "the search space". It is one Sean had many work arguments about in the past and he was very amused to find it coming up yet again.
+
+"The tools may change, but the core issues remain the same."
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
