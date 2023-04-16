@@ -57,6 +57,7 @@ CastXML
 CET
 changelog
 changelogs
+ChatGPT
 Cheeseman
 ChristopherBiscardi
 cidr

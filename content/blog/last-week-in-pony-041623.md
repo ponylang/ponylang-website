@@ -153,7 +153,7 @@ We ended up leaving that discussion behind and spent a good amount of time with 
 
 For Sean, the most interesting part of the ChatGPT interaction was the realization that the creators of ChatGPT definitely want to avoid the "no answer" problem. That is, ChatGPT doesn't say "I don't know". It is biased towards giving an answer, even if the answer is wrong.
 
-The tradeoffs between biasing towards an answer vs biasing towards correctness has a long history in "the search space". It is one Sean had many work arguments about in the past and he was very amused to find it coming up yet again.
+The trade-offs between biasing towards an answer vs biasing towards correctness has a long history in "the search space". It is one Sean had many work arguments about in the past and he was very amused to find it coming up yet again.
 
 "The tools may change, but the core issues remain the same."
 
