@@ -17,9 +17,9 @@ date = "2023-04-23T07:00:06-04:00"
 
 ### Pony Development Sync
 
-There's no audio for the Pony development sync from this past week. The agenda was empty when it was generated 30 minutes before the meeting. However, an issue [#4343](https://github.com/ponylang/ponyc/issues/4343) came in just before the start of the meeting, so Sean triaged/debugged the issue for the hour of the sync call occassionally sharing information with and answering questions from the other attendees: Adrian, Alan, and Red.
+There's no audio for the Pony development sync from this past week. The agenda was empty when it was generated 30 minutes before the meeting. However, an issue [#4343](https://github.com/ponylang/ponyc/issues/4343) came in just before the start of the meeting, so Sean triaged/debugged the issue for the hour of the sync call occasionally sharing information with and answering questions from the other attendees: Adrian, Alan, and Red.
 
-A recording could have been made but for the most part it wouldn't have made for thrilling watching. Most of the time was Sean mumbling to himself and occassionally making statements about what he was seeing.
+A recording could have been made but for the most part it wouldn't have made for thrilling watching. Most of the time was Sean mumbling to himself and sometimes making statements about what he was seeing.
 
 If this sort of thing interests you, please feel free to attend a Pony Development Sync. We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
