@@ -9,10 +9,6 @@ title = "Last Week in Pony April 23, 2023"
 date = "2023-04-23T07:00:06-04:00"
 +++
 
-<< content >>
-
-<!-- more -->
-
 ## Items of Note
 
 ### Email and SMTP packages from Red
