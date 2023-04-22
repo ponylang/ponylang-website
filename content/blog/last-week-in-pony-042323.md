@@ -38,6 +38,10 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 ## Releases
 
 - [ponylang/release-notes-bot-action 0.3.7](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.3.7)
+- [redvers/pony-email](https://github.com/redvers/pony-email/releases/tag/0.0.11)
+- [redvers/pony-smtp](https://github.com/redvers/pony-smtp/releases/tag/0.0.3)
+
+The new packages pony-email and pony-smtp allow you to generate EMails and send them via an SMTP relay server. The former constructs multipart MIME EMails in mailbox format so they can be dispatched by the latter. They are very much alpha quality and the author would very much appreciate feedback on the API. The Author is using it in production, but you probably shouldn't (yet).
 
 ## Community Resource Highlight
 
