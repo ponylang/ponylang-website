@@ -27,7 +27,11 @@ If this sort of thing interests you, please feel free to attend a Pony Developme
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Office Hours this past week was Sean, Alan, and Red. The time was divided between Sean looking at [ponyc issue #4345](https://github.com/ponylang/ponyc/issues/4345) while Alan and Red looked on and Sean explaining parts about how the pony compiler works to Red and Alan.
+
+Particular attention was paid to the "treecheck" feature for the AST and the [treecheck rule definitions](https://github.com/ponylang/ponyc/blob/main/src/libponyc/ast/treecheckdef.h).
+
+A number of related topics were covered as Red learned more about the compiler including the concept that "the AST" is not a mutable thing, but rather a "living data structure" that is updated and changed by [various compiler passes](https://github.com/ponylang/ponyc/blob/main/src/libponyc/pass/pass.h).
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
