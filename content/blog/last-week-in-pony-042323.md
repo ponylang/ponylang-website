@@ -19,7 +19,7 @@ date = "2023-04-23T07:00:06-04:00"
 
 Red writes about two libraries he released last week:
 
-The new packages `pony-email` and `pony-smtp` allow you to generate emails and send them via an SMTP relay server. The former constructs multipart MIME emails in mailbox format so they can be dispatched by the latter. They are very much alpha quality and I would very much appreciate feedback on the API. I'm using it in production, but you probably shouldn't (yet).
+I've release two packages [redvers/pony-email](https://github.com/redvers/pony-email) and [redvers/pony-smtp](https://github.com/redvers/pony-smtp) that allow you to generate emails and send them via an SMTP relay server. The former constructs multipart MIME emails in mailbox format so they can be dispatched by the latter. They are very much alpha quality and I would very much appreciate feedback on the API. I'm using it in production, but you probably shouldn't (yet).
 
 ### Pony Development Sync
 
