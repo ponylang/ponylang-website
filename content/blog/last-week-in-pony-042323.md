@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Two new Pony libraries join the world."
 categories = [
     "Last Week in Pony",
 ]
