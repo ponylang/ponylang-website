@@ -397,7 +397,6 @@ shellcheck
 Shyu
 Sletten
 SMTP
-smtp
 soonish
 SSL
 stateful

@@ -15,6 +15,12 @@ date = "2023-04-23T07:00:06-04:00"
 
 ## Items of Note
 
+### Email and SMTP packages from Red
+
+Red writes about two libraries he released last week:
+
+The new packages `pony-email` and `pony-smtp` allow you to generate emails and send them via an SMTP relay server. The former constructs multipart MIME emails in mailbox format so they can be dispatched by the latter. They are very much alpha quality and I would very much appreciate feedback on the API. I'm using it in production, but you probably shouldn't (yet).
+
 ### Pony Development Sync
 
 There's no audio for the Pony development sync from this past week. The agenda was empty when it was generated 30 minutes before the meeting. However, an issue [#4343](https://github.com/ponylang/ponyc/issues/4343) came in just before the start of the meeting, so Sean triaged/debugged the issue for the hour of the sync call occasionally sharing information with and answering questions from the other attendees: Adrian, Alan, and Red.
