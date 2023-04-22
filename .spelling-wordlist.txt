@@ -443,6 +443,7 @@ toolchains
 toolkits
 transphobia
 TravisCI
+treecheck
 triaged
 triaging
 Turley
