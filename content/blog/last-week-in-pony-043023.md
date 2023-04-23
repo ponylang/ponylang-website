@@ -13,6 +13,24 @@ date = "2023-04-30T07:00:06-04:00"
 
 ## Items of Note
 
+### SSL Builder Updates
+
+The ponylang organization SSL builder docker images are being updated this week. Every few months we add new builders to support the latest versions of various OpenSSL and LibreSSL API versions.
+
+#### OpenSSL builder changes
+
+- 3.1.0 builder added
+- 3.0.7 deprecated. It will stop receiving updates the next time we add a new 3.x OpenSSL builder.
+- 1.1.1t builder added
+- 1.1.1n builder deprecated. It will stop receiving updates the next time we add a new 1.x Open SSL builder.
+- 1.1.1b builder will no longer receive updates
+
+#### LibreSSL builder changes
+
+- 3.7.2 builder added
+- 3.5.3 builder deprecated. It will stop receiving updates the next time we add a new 3.x LibreSSL builder.
+- 3.5.2 builder will no longer receive updates
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_04_25.m4a) from the April 25th, 2023 sync is available.
