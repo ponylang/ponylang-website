@@ -58,6 +58,7 @@ CET
 changelog
 changelogs
 ChatGPT
+cheatsheet
 Cheeseman
 ChristopherBiscardi
 cidr
@@ -355,6 +356,7 @@ ReadTheDocs
 recursing
 reddit
 redvers
+refcap
 refcaps
 Regehr
 Reini
@@ -396,6 +398,7 @@ sharable
 shellcheck
 Shyu
 Sletten
+SMTP
 soonish
 SSL
 stateful
@@ -443,6 +446,8 @@ toolchains
 toolkits
 transphobia
 TravisCI
+treecheck
+triaged
 triaging
 Turley
 Turley's
