@@ -47,7 +47,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Howdy! This week we are looking at an often overlooked, but especially helpful resource. One that you could realistically print out and keep handy as you learn/use Pony: [the cheatsheet](https://www.ponylang.io/media/cheatsheet/pony-cheat-sheet.pdf)!
+
+The cheatsheet one-pager offers a view of the landscape of Pony. Today, draw your attention to a specific part of the cheatsheet, the section titled "REF CAP USAGE" just right of center. Here you will see two entries `class refcap MyClass` and `new refcap create()`. But what do these entries mean? Let's replace the placeholder _refcap_ in the former and say it is a `ref`, making the statement `class ref MyClass`. In this situation, anytime `MyClass` is used as a type it is an implicit `MyClass ref`. Defining a refcap on a type, changes the default refcap at the type level. When a type is defined without a default refcap, it still has a default: classes default to `ref`, primitives default to `val`, and actors default to `tag`. Meanwhile, the latter of these two entries, `new refcap create()`, changes the default return capability from the constructor. Therefore defining `new iso create()` on a `MyClass` leads to `MyClass.create()` creating a `MyClass iso` instance. Defining a refcap on a constructor, changes the default refcap at the instance level.
 
 ---
 
