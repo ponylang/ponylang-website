@@ -58,6 +58,7 @@ CET
 changelog
 changelogs
 ChatGPT
+cheatsheet
 Cheeseman
 ChristopherBiscardi
 cidr
@@ -355,6 +356,7 @@ ReadTheDocs
 recursing
 reddit
 redvers
+refcap
 refcaps
 Regehr
 Reini
