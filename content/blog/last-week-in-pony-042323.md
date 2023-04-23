@@ -33,7 +33,7 @@ Office Hours this past week was Sean, Alan, and Red. The time was divided betwee
 
 Particular attention was paid to the "treecheck" feature for the AST and the [treecheck rule definitions](https://github.com/ponylang/ponyc/blob/main/src/libponyc/ast/treecheckdef.h).
 
-A number of related topics were covered as Red learned more about the compiler including the concept that "the AST" is not a mutable thing, but rather a "living data structure" that is updated and changed by [various compiler passes](https://github.com/ponylang/ponyc/blob/main/src/libponyc/pass/pass.h).
+A number of related topics were covered as Red learned more about the compiler including the concept that "the AST" is not an immutable thing, but rather a "living data structure" that is updated and changed by [various compiler passes](https://github.com/ponylang/ponyc/blob/main/src/libponyc/pass/pass.h).
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
