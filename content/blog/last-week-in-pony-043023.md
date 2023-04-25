@@ -35,7 +35,15 @@ The ponylang organization SSL builder docker images are being updated this week.
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_04_25.m4a) from the April 25th, 2023 sync is available.
 
-<< content >>
+Phew! That was a long one. If you listen to this week's sync recording, strap in. It's 2 hours long. The breakdown is thus...
+
+- About 30 minutes on the [Static arrays of numbers RFC](https://github.com/ponylang/rfcs/pull/209)
+- About 20 minutes on the [With block doesn't call dispose on an object if its name is _ ponyc bug](https://github.com/ponylang/ponyc/issues/4345)
+- 55 minutes on the [Segmentation fault when capturing Env via lambda](https://github.com/ponylang/ponyc/issues/4343) and [Runtime crash when accessing a field that was captured before it was initialized](https://github.com/ponylang/ponyc/issues/4301) ponyc bugs.
+
+There's an awful lot that went on. We have no idea how much you will be able to follow along at home. Hopefully it's rewarding.
+
+As a bonus, core team member Matthias Wahl who usually can't make it to sync ended up joining shortly after we started. It was great to have Matthias contributing during the call. Hopefully we can continue attending.
 
 If this sort of thing interests you, please feel free to attend a Pony Development Sync. We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 
