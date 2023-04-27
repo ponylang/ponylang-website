@@ -58,6 +58,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 ## Releases
 
 - [ponylang/corral 0.7.0](https://github.com/ponylang/corral/releases/tag/0.7.0)
+- [ponylang/crypto 1.2.2](https://github.com/ponylang/crypto/releases/tag/1.2.2)
 
 ## Community Resource Highlight
 
