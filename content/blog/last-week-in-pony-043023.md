@@ -13,6 +13,20 @@ date = "2023-04-30T07:00:06-04:00"
 
 ## Items of Note
 
+### Library updates of interest to Windows users
+
+Our two "ssl" related libraries, [ponylang/crypto](https://github.com/ponylang/crypto) and [ponylang/net_ssl](https://github.com/ponylang/net_ssl) both download LibreSSL and build it for Windows users. Previously, they were downloading from `ftp.openbsd.org` which has become unstable lately. We updated both libraries to download from the much more stable `cdn.openbsd.org`.
+
+We suspect all Windows users will want to take advantage of the change as `ftp.openbsd.org` has been completely down in our testing for over 24 hours and was sporadically unavailable prior to that.
+
+The list of libraries that you need to update in order to fully catch up with the changes are:
+
+- [ponylang/crypto](https://github.com/ponylang/crypto)
+- [ponylang/github_rest_api](https://github.com/ponylang/github_rest_api)
+- [ponylang/http](https://github.com/ponylang/http)
+- [ponylang/http_server](https://github.com/ponylang/http_server)
+- [ponylang/net_ssl](https://github.com/ponylang/net_ssl)
+
 ### SSL Builder Updates
 
 The ponylang organization SSL builder docker images are being updated this week. Every few months we add new builders to support the latest versions of various OpenSSL and LibreSSL API versions.
