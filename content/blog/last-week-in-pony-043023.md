@@ -27,6 +27,14 @@ The list of libraries that you need to update in order to fully catch up with th
 - [ponylang/http_server](https://github.com/ponylang/http_server)
 - [ponylang/net_ssl](https://github.com/ponylang/net_ssl)
 
+### Supported MacOS version changed from Monterey to Ventura
+
+We are a little behind the times with this one. We've switch all our CI from using MacOS Monterey to MacOS Ventura. That means that Monterey is "best effort" support going forward, there is no official testing on it.
+
+Additionally, all nightlies of corral, ponyc, and ponyup are built on Ventura and in theory, due to system library linking on MacOS, might not work on earlier versions MacOS.
+
+The next official release packages of corral, ponyc, and ponyup will be built on Ventura and the same caveat applies for using them on earlier versions of MacOS.
+
 ### SSL Builder Updates
 
 The ponylang organization SSL builder docker images are being updated this week. Every few months we add new builders to support the latest versions of various OpenSSL and LibreSSL API versions.
