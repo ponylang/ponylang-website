@@ -59,6 +59,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 - [ponylang/corral 0.7.0](https://github.com/ponylang/corral/releases/tag/0.7.0)
 - [ponylang/crypto 1.2.2](https://github.com/ponylang/crypto/releases/tag/1.2.2)
+- [ponylang/github_rest_api 0.1.2](https://github.com/ponylang/github_rest_api/releases/tag/0.1.2)
 - [ponylang/http 0.5.4](https://github.com/ponylang/http/releases/tag/0.5.4)
 - [ponylang/http_server 0.4.5](https://github.com/ponylang/http_server/releases/tag/0.4.5)
 - [ponylang/net_ssl 1.3.1](https://github.com/ponylang/net_ssl/releases/tag/1.3.1)
