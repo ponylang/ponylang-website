@@ -77,7 +77,15 @@ If this sort of thing interests you, please feel free to attend a Pony Developme
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+We seem to have settled into Office Hours have 3 regular attendees: Adrian Boyko, Red Davies, and Sean T. Allen. This week's Office Hours was just the 3 of them.
+
+The primary point of discussion was generative testing, property-based testing, and Red's usage of it in is LDAP library that he is developing for work. Adrian wasn't familiar with [`pony_check`](https://stdlib.ponylang.io/pony_check--index/), the property-based testing package in the [Pony standard library](https://stdlib.ponylang.io/).
+
+Red took Sean and Adrian through a bit of his usage and Adrian started poking around in the docs to get more familiar with it. Sean also discussed his usage of generative testing as part of his work on [Confidential ACI](https://techcommunity.microsoft.com/t5/apps-on-azure-blog/announcing-public-preview-of-confidential-containers-on-azure/ba-p/3755623) at Microsoft.
+
+Sean's key point was that designing good generative tests is at least has hard as designing "standard unit-tests". And that it is probably harder to do well.
+
+If you aren't familiar with `pony_check` and generative testing, you should stop by Office Hours sometime and discuss with Red and Sean. They are very powerful tools for developing better Pony software. They are both sure that your Pony code would probably benefit from a little `pony_check`.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
