@@ -41,7 +41,7 @@ The next official release packages of corral, ponyc, and ponyup will be built on
 
 ### SSL Builder Updates
 
-The ponylang organization SSL builder docker images are being updated this week. Every few months we add new builders to support the latest versions of various OpenSSL and LibreSSL API versions.
+The ponylang organization SSL builder Docker images are being updated this week. Every few months we add new builders to support the latest versions of various OpenSSL and LibreSSL API versions.
 
 #### OpenSSL builder changes
 
