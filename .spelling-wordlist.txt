@@ -230,6 +230,7 @@ Kwok
 lang
 langage
 Lasauskas
+LDAP
 LDN
 libatomic
 libponyc
