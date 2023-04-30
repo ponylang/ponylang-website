@@ -230,6 +230,7 @@ Kwok
 lang
 langage
 Lasauskas
+LDAP
 LDN
 libatomic
 libponyc
@@ -268,6 +269,7 @@ mixin
 mixins
 MkDocs
 monkeysnatchbanana
+Monterey
 movingtogitlab
 MQTT
 msgpack
@@ -464,6 +466,7 @@ vararg
 varargs
 Vassilvk
 VCPUs
+Ventura
 Vey
 vroom
 VSCode
