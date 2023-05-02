@@ -35,9 +35,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-This week we are going to look at one of our Frequently Asked Question with regard to a bit of syntatic sugar: [What does `Foo()` do if my `Foo` class has both `create()` and `apply()` methods? Does it call both?](https://www.ponylang.io/faq/#Foo()-create-apply)
+This week we are going to look at one of our Frequently Asked Question with regard to a bit of syntactic sugar: [What does `Foo()` do if my `Foo` class has both `create()` and `apply()` methods? Does it call both?](https://www.ponylang.io/faq/#Foo()-create-apply)
 
-Since Pony classes have syntatic sugar for both `create()` and `apply()` it can be confusing as to what a single `Foo()` will do. It will call both so is equivalent to `Foo.create().apply()`. However, it does not work exactly as one might expect. `Foo()` is broken into `Foo` which calls `Foo.create()` and `()` which calls `.apply()` on the newly created `Foo`. Note that both of these method have zero arguments in the example. If either has arguments then there will be an error for `not enough arguments` pointing to the relevant stage.
+Since Pony classes have syntactic sugar for both `create()` and `apply()` it can be confusing as to what a single `Foo()` will do. It will call both so is equivalent to `Foo.create().apply()`. However, it does not work exactly as one might expect. `Foo()` is broken into `Foo` which calls `Foo.create()` and `()` which calls `.apply()` on the newly created `Foo`. Note that both of these method have zero arguments in the example. If either has arguments then there will be an error for `not enough arguments` pointing to the relevant stage.
 
 ## RFCs
 
