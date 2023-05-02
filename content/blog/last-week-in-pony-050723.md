@@ -13,6 +13,10 @@ date = "2023-05-07T07:00:06-04:00"
 
 ## Items of Note
 
+### `ponylang/release` shared docker image is deprecated
+
+Ages ago, we had a shared docker image called `ponylang/release`. We stopped using in the ponylang organization quite some time ago. This week we remove the Dockerfile and associated source for creating the image. No new updates will be provided. The last existing image will continue to exist in the ponylang DockerHub.
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
