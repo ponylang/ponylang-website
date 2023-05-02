@@ -13,6 +13,10 @@ date = "2023-05-07T07:00:06-04:00"
 
 ## Items of Note
 
+### Ubuntu 18.04 is no longer supported
+
+Ubuntu 18.04 reached it's end of life in April. In keeping with our support policy, we have stopped using doing `ponyc` CI against it and no longer do nightly or release builds for Ubuntu 18.04 and distributions built off of it.
+
 ### `ponylang/release` shared docker image is deprecated
 
 Ages ago, we had a shared docker image called `ponylang/release`. We stopped using in the ponylang organization quite some time ago. This week we remove the Dockerfile and associated source for creating the image. No new updates will be provided. The last existing image will continue to exist in the ponylang DockerHub.
