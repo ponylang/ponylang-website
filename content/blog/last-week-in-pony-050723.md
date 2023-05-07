@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A week of cancelled meetings and compile-time expression conversation."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,7 @@ title = "Last Week in Pony May 7, 2023"
 date = "2023-05-07T07:00:06-04:00"
 +++
 
-<< content >>
+For reasons of migraine and work, there was no Pony Development Sync meeting this week nor did we hold the Office Hours meeting. But, we did discuss compile-time expressions a bit and probably will a lot more in the future.
 
 ## Items of Note
 
@@ -20,14 +20,6 @@ Ubuntu 18.04 reached it's end of life in April. In keeping with our support poli
 ### `ponylang/release` shared docker image is deprecated
 
 Ages ago, we had a shared docker image called `ponylang/release`. We stopped using in the ponylang organization quite some time ago. This week we remove the Dockerfile and associated source for creating the image. No new updates will be provided. The last existing image will continue to exist in the ponylang DockerHub.
-
-### Office Hours
-
-We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
-
-<< content >>
-
-If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
 ## Releases
 
@@ -43,7 +35,11 @@ Since Pony classes have syntactic sugar for both `create()` and `apply()` it can
 
 Major changes in Pony go through a community driven process where members of the community can write up "requests for change" that detail what they think should be changed and why. RFCs can range from simple to complex. We welcome your participation.
 
-<< content >>
+In addition to there being a little activity on the [Static arrays of numbers RFC](https://github.com/ponylang/rfcs/pull/209), there was also discussion in the a [Zulip stream](https://ponylang.zulipchat.com/#narrow/stream/189959-RFCs/topic/static.20arrays.20of.20numbers) related to it as well.
+
+Most of the conversation related to the "Static arrays of numbers" RFC is about Matthias wanting to add a `Vector` type to Pony which is related to "static arrays of numbers" as any "static array" is actually a `Vector`. This in turn lead to some conversation about `ponyta` which features amongst other things, a vector type and compile time expressions.
+
+To learn more about `ponyta`, check out [Luke Cheeseman's presentation](https://vimeo.com/175746403) on it at the Pony VUG from many years ago.
 
 ---
 
