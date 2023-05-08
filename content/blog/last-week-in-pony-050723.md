@@ -21,8 +21,6 @@ Ubuntu 18.04 reached it's end of life in April. In keeping with our support poli
 
 Ages ago, we had a shared docker image called `ponylang/release`. We stopped using in the ponylang organization quite some time ago. This week we remove the Dockerfile and associated source for creating the image. No new updates will be provided. The last existing image will continue to exist in the ponylang DockerHub.
 
-## Releases
-
 ## Community Resource Highlight
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
