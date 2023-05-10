@@ -37,7 +37,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are going to look at [Pony Arithmetic within the Tutorial](https://tutorial.ponylang.io/expressions/arithmetic.html). Specifically, I want to draw your attention to the [default (safe) arithmetic](https://tutorial.ponylang.io/expressions/arithmetic.html#ponys-default-integer-arithmetic) being safe while there is also an option for [unsafe arithmetic](https://tutorial.ponylang.io/expressions/arithmetic.html#unsafe-integer-arithmetic). What is the difference? By default, Pony arithmetic properly handles overflow, underflow, and division by zero (the last of which is defined to return zero). If raw performance is desired and you can guarantee safety yourself, use the unsafe arithmetic. What should you do if you want something in between? Arithmetic that errors on overflow, underflow, and division by zero rather than the default safety decisions or undefined behavior: we also have [partial arithmetic](https://tutorial.ponylang.io/expressions/arithmetic.html#partial-and-checked-arithmetic) operators. Pony has many ways to conduct arithmetic operations, choose the one that is correct for your use case!
+
+If you have questions, feel free to visit the [Ponylang Zulip](https://ponylang.zulipchat.com), where the best place to ask questions about Pony arithmetic is the [beginners-help channel](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help).
 
 ## RFCs
 
