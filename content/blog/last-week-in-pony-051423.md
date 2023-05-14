@@ -27,7 +27,7 @@ We have an open Zoom meeting every Friday for the community to get together and 
 
 We had a few attendees for Friday's Office Hours. Most of the time that your reporter was in attendance were spent helping Victor Morrow get the FFI interface for an application of his correct.
 
-The important take-aways for others? On "the C-side" of the Pony/C FFI boundary, a Pony `struct` is always a pointer to the struct. And if you want to pass an array of `Fu` `struct`, you want a pointer to a pointer on the "C-side".
+The important takeaways for others? On "the C-side" of the Pony/C FFI boundary, a Pony `struct` is always a pointer to the struct. And if you want to pass an array of `Fu` `struct`, you want a pointer to a pointer on the "C-side".
 
 We love Office Hours were we help people solve problems. Learning Pony? Otherwise stuck on something, come on by!
 
