@@ -25,7 +25,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are diving back into the [Pony Tutorial](https://tutorial.ponylang.io/), specifically we are going to look at [Object Capabilities](https://tutorial.ponylang.io/object-capabilities/).
+
+For those among us who are unfamiliar, Pony's object capabilities are part of its security design. Simply put, having a reference to an object in Pony implies authority to use that object. Put with more nuance, since Pony has no pointer arithmetic and is both type-safe and memory-safe it is not possible to create objects out nothing -- all objects must be created from some lineage of authority. Practically speaking this results in a pattern whereby a package designer will define reasonable levels of authority and users should use the most restrictive authority necessary. Why? From a package design perspective, we want to allow users options that match their needs (see [`net/auth.pony`](https://github.com/ponylang/ponyc/blob/c41393ce8e3003feeda8e0bd3aa20d019b191505/packages/net/auth.pony) for a good example of this). From a user perspective, we want to restrict what a package has the authority to do -- if we never restrict authority we end up with `AmbientAuth` everywhere which is effectively "no capability security" at all (looking again at [`net/auth.pony`](https://github.com/ponylang/ponyc/blob/c41393ce8e3003feeda8e0bd3aa20d019b191505/packages/net/auth.pony) you will see the "baseline" authority is `NetAuth` named after `net` itself).
 
 ---
 
