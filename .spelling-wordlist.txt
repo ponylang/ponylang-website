@@ -399,6 +399,7 @@ SFML
 sharable
 shellcheck
 Shyu
+Sivers
 Sletten
 SMTP
 soonish
