@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A week with a Pony development sync."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,15 +9,15 @@ title = "Last Week in Pony May 21, 2023"
 date = "2023-05-21T07:00:06-04:00"
 +++
 
-<< content >>
-
 ## Items of Note
 
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Office hours this week rambled on for a couple hours and we were kind of all over the place. Attendees were Sean T. Allen, Adrian Boyko, Red Davies, and Dipin Hora. When I say we were all over the place, I mean it. We jumped around across a variety of topics, from identifier rules in Pony and if they have "a reason" to [Structuralism](https://en.wikipedia.org/wiki/Structuralism) to if it is possible or desirable to add features to a programming language to make it popular to a discussion of Derek Siver's ["How to Start a Movement"](https://www.ted.com/talks/derek_sivers_how_to_start_a_movement) and still more.
+
+Sometimes Office Hours is firmly locked in on Pony, sometimes it is mostly about helping someone with a problem, and sometimes, like this past week, it takes a more "philosophical bent".
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
