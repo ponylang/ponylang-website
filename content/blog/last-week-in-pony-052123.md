@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "A week with a Pony development sync."
+description = "A week without a Pony development sync."
 categories = [
     "Last Week in Pony",
 ]
