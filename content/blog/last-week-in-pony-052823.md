@@ -11,6 +11,16 @@ date = "2023-05-28T07:00:06-04:00"
 
 ## Items of Note
 
+### ponyc 0.55.0 has been released
+
+Version 0.55.0 of the Pony compiler was released on Saturday. There's a bug fix for `with` blocks that is also a breaking change as well as a couple changes to supported platforms.
+
+We no longer support Ubuntu 18.04. 18.04 is no longer receiving updates from Canonical and as such starting with 0.55.0, we no longer build `ponyc` releases for it. You can still build from source for it if you want.
+
+Additionally, our supported MacOS platform is now Ventura. All testing is being done on Ventura and all ponyc releases are done for Ventura. You can continue to build for Monterey from source.
+
+See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.55.0) for full details.
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
