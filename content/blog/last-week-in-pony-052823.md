@@ -15,7 +15,15 @@ date = "2023-05-28T07:00:06-04:00"
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+This past week's Office Hours attendees were Sean T. Allen, Adrian Boyko, and Dipin Hora.
+
+Topics of conversation were wide ranging and only somewhat related to Pony. We discussed Sean leaving Microsoft and his currently interviewing at other companies and the fun that is technical interviews.
+
+From there, Sean explained what [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) is and how it relates to [code coverage](https://en.wikipedia.org/wiki/Code_coverage). Adrian nicely summarized mutation testing as "quality assurance for your quality assurance". Sean asked Adrian and Dipin to think about how they might imagine utilizing mutation testing with Pony as Sean is thinking of "putting mutation testing into the compiler" i.e. allowing for mutation testing of Pony code without needing tools beyond `ponyc`.
+
+After the mutation testing discussion, Adrian asked Sean for his opinions on [D-Bus](https://en.wikipedia.org/wiki/D-Bus) which lead to Sean saying "he didn't have many". We ended up discussing [Bonobo](https://en.wikipedia.org/wiki/Bonobo_(GNOME)) (the [GNOME](https://en.wikipedia.org/wiki/GNOME) predecessor) and [CORBA](https://en.wikipedia.org/wiki/Common_Object_Request_Broker_Architecture) which after a detour through some conversation about [Cap n' Proto](https://capnproto.org/) and other serialization formats lead to a discussion about [Hypermedia](https://en.wikipedia.org/wiki/Hypermedia) and the differences between [RPC](https://en.wikipedia.org/wiki/Remote_procedure_call) and [REST](https://en.wikipedia.org/wiki/Representational_state_transfer).
+
+Sean passed along a couple Hypermedia related links. The first, a link to an [excellent book](https://www.oreilly.com/library/view/building-hypermedia-apis/9781449309497/) by Mike Amundsen that despite using "dated" technologies, does a wonderful job of describing why Hypermedia controls are a great data interchange format. The second link was to [one of Steve Vinoski's excellent talks comparing RPC and Hypermedia](https://www.infoq.com/presentations/vinoski-rpc-convenient-but-flawed/).
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
