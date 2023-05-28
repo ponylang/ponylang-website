@@ -9,6 +9,8 @@ title = "Last Week in Pony May 28, 2023"
 date = "2023-05-28T07:00:06-04:00"
 +++
 
+Hey hey hey! It's [Sunday morning](https://www.youtube.com/watch?v=8_xd5jG3JTA) again, so you know what that means, it's time to read about some of what happened last week as it relates to Pony...
+
 ## Items of Note
 
 ### ponyc 0.55.0 has been released
