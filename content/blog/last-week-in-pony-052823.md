@@ -17,7 +17,7 @@ Version 0.55.0 of the Pony compiler was released on Saturday. There's a bug fix 
 
 We no longer support Ubuntu 18.04. 18.04 is no longer receiving updates from Canonical and as such starting with 0.55.0, we no longer build `ponyc` releases for it. You can still build from source for it if you want.
 
-Additionally, our supported MacOS platform is now Ventura. All testing is being done on Ventura and all ponyc releases are done for Ventura. You can continue to build for Monterey from source.
+Additionally, our supported MacOS platform is now Ventura. All testing is being done on Ventura and all `ponyc` releases are done for Ventura. You can continue to build for Monterey from source.
 
 See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.55.0) for full details.
 
