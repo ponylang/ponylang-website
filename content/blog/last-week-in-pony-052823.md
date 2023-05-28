@@ -45,7 +45,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we return to the Tutorial in order to discuss one way we can get a concrete type out of an abstract type: the [as operator](https://tutorial.ponylang.io/pattern-matching/as.html).
+
+In Pony, every object has a concrete type, but sometimes it is more appropriate to discuss abstract types. In order to check an abstract type for some concrete type we use the [as operator](https://tutorial.ponylang.io/pattern-matching/as.html). This operator has a few different uses: 1) get a concrete type out of a union of disjoint types (see the `Animal` example), 2) check that a type has additional functionality (see the `Person` example), 3) specify a type in an array literal (see the `Main.foo` example). All of these uses will error if invalid. The first two will `error` at runtime, while the third will fail to type check and therefore compile.
 
 ---
 
