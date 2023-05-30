@@ -17,7 +17,7 @@ date = "2023-06-04T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_05_30.m4a) from the May 30th, 2023 sync is available.
 
-<< content >>
+We had a short sync this past week. A quick zoom over some issues which was pretty much "nothing to do here". And a bit of question from Nicolai Stawinoga who was looking for guidance on using LLVM C++ APIs from inside Pony that mostly uses LLVM C APIs.
 
 ### Office Hours
 
