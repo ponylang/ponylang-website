@@ -148,6 +148,7 @@ fu
 GC
 GDB
 Gebbie
+geeked
 gencap
 Gentoo
 gists
