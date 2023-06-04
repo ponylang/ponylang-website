@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "A week with an off-topic intro."
 categories = [
     "Last Week in Pony",
 ]
@@ -9,7 +9,9 @@ title = "Last Week in Pony June 4, 2023"
 date = "2023-06-04T07:00:06-04:00"
 +++
 
-<< content >>
+This intro has absolutely nothing to do with Pony. I've been listening to a lot of Dale Watson this past week and think you should too while you are reading this issue of Last Week in Pony:
+
+- [Dale Watson: Flat Tire](https://www.youtube.com/watch?v=KDx39DlAF0w)
 
 ## Items of Note
 
