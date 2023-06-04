@@ -23,7 +23,11 @@ We had a short sync this past week. A quick zoom over some issues which was pret
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+We had another fun Office Hours with Sean T. Allen, Adrian Boyko, Red Davies, and Dipin Hora in attendence.
+
+Your humble narrator sadly managed to forget most of what we talked about. There was definitely conversation about 90's "Free Software/Open Source" luminaries and how we felt they could have better served their cause.
+
+Red and Adrian had a fairly long conversation around amateur radio that seemed to get them really geeked but was all Greek to me.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
