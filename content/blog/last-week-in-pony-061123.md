@@ -17,7 +17,12 @@ date = "2023-06-11T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_06_06.m4a) from the June 6th, 2023 sync is available.
 
-<< content >>
+There was no agenda for this week's meeting. We devoted the entire meeting to discussing how to integrate [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) "into the Pony compiler". Note this was for mutation testing that can be used by end users on their Pony code, not mutation testing *of* the Pony compiler.
+
+During the call, a couple links were shared, those were:
+
+- [Mull it over: mutation testing based on LLVM](https://arxiv.org/abs/1908.01540)
+- [Pitest mutators](https://pitest.org/quickstart/mutators/)
 
 ### Office Hours
 
