@@ -30,7 +30,7 @@ As the stream progresses, Victor has tried the fixes to what he thought the prob
 
 Adrian and I convince Victor that he needs to use [`GDB`](https://en.wikipedia.org/wiki/GNU_Debugger) or [`LLDB`](https://lldb.llvm.org/) to get more information. Victor has never used a command line debugger before and is filled with trepidation about doing it. However, he returns not long later with information that he got starting from zero with debugger knowledge that shows that his crash was not happening where he thought it was and that in fact, he original suppositions appear to be based on correlation and not causation.
 
-The thread isnt' resolved at this time, but it looks like the problem is a "fundamental design issue" where threads that haven't been registered with the Pony runtime are trying to call Pony runtime code that requires a "Pony context". Only threads that have been registered with the runtime will have a "Pony content" and calling any code that requires a context and doesn't have one will result in a segfault.
+The problem hasn't been resolved at this time, but it looks like the problem is a "fundamental design issue" where threads that haven't been registered with the Pony runtime are trying to call Pony runtime code that requires a "Pony context". Only threads that have been registered with the runtime will have a "Pony content" and calling any code that requires a context and doesn't have one will result in a segfault.
 
 I think this thread is an incredible learning resource; not just for Victor but others who read as well.
 
