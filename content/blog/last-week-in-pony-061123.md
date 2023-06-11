@@ -13,6 +13,14 @@ date = "2023-06-11T07:00:06-04:00"
 
 ## Items of Note
 
+### Pony is mentioned in a blog post
+
+Adrian Boyko noted on Zulip that Pony was mentioned in a blog post called ["10 Lesser-Known Programming Languages Worth Exploring"](https://levelup.gitconnected.com/10-lesser-known-programming-languages-worth-exploring-fb2ef988e0d5).
+
+Pony was listed as position 1, followed by Nim, Julia, Elixir, Rust, Haxe, Agda, Idris, Gosu, and Kotlin.
+
+My take, if you are a Pony person and you were going to learn one of those, do Idris. Why? Because I love dependent typing and the creator of Idris is an awesome fellow.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_06_06.m4a) from the June 6th, 2023 sync is available.
