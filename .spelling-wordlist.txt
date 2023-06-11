@@ -237,6 +237,7 @@ langage
 Lasauskas
 LDAP
 LDN
+lexing
 libatomic
 libponyc
 LibreSSL

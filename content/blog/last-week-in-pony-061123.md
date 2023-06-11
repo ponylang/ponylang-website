@@ -89,7 +89,7 @@ Conversation ranged over the differences between "macros" in "loosely typed" lan
 
 [Idris](https://www.idris-lang.org/) came up from that conversation when Red asked if it was compiled to Haskell and Sean and Jason discussed how it wasn't anymore and now compiles to [Chicken Scheme](https://www.call-cc.org/).
 
-Sean has a personal relationship with the creator of Idris, Edwin Brady, and explained why Edwin decided to compile to Scheme instead of something like LLVM despite Sean and Sylvan trying on more than one occassion to convince Edwin it was a good idea.
+Sean has a personal relationship with the creator of Idris, Edwin Brady, and explained why Edwin decided to compile to Scheme instead of something like LLVM despite Sean and Sylvan trying on more than one occasion to convince Edwin it was a good idea.
 
 That lead the conversation to its end point... Red stated he wanted to learn the LLVM API and thought he should create a little programming language to play around with it. Sean asked Red if he had ever created a programming language. A quick "no" later and Sean was presenting an idea...
 
