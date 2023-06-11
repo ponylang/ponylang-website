@@ -6,6 +6,7 @@ actually's
 Adeel
 AdExchanger
 adri
+Agda
 Agere
 Akka
 Akka's
@@ -159,6 +160,7 @@ gmail
 Goetz
 golang
 goroutines
+Gosu
 Goulimis
 Grigorij
 Grönlund
@@ -172,6 +174,7 @@ Hagenson
 Hagenson's
 harken
 Hashable
+Haxe
 HeapToStack
 HFPUG
 HighlightJS
@@ -187,6 +190,7 @@ ibara
 iCal
 ICFP
 IDEs
+Idris
 IFIP
 implementers
 InfoQ
@@ -288,6 +292,7 @@ NetLogo
 Nicolai
 nightlies
 Nikolaus
+Nim
 nogginly
 NUMA
 numerics
