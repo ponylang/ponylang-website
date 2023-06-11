@@ -13,6 +13,35 @@ date = "2023-06-11T07:00:06-04:00"
 
 ## Items of Note
 
+### An Interesting Zulip Thread
+
+Victor Morrow opened an interesting thread in [beginner help stream](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help) of the [Pony Zulip](https://ponylang.zulipchat.com/) this week.
+
+["Stop Garbage collection when waiting for ffi callback"](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help/topic/Stop.20Garbage.20collection.20when.20waiting.20for.20ffi.20callback) is interesting for a couple reasons I want to highlight.
+
+The first part of the thread is an excellent example of "What you think is going wrong might not be going wrong". Victor came in making an assumption about what his bug was based on a correlation he was seeing. Folks in the stream answered his question directly about how to do X. In particular, keep Pony objects that are being used in C code via FFI from being garbage collected. It's valuable information and will serve Victor well in his project. However, that wasn't the problem.
+
+An important question to ask yourself when debugging a problem is "am I sure the bug is X"? It's important to remember a couple of key points.
+
+- Things that are correlated to a crash are often not the cause of the crash
+- If you "fix" an issue but you don't understand how it fixed the issue, you might not have fixed it, you just worked around it and the "underlying cause" is still there.
+
+As the stream progresses, Victor has tried the fixes to what he thought the problem was but still gets a runtime crash. His belief at that time is that his callback that C code is executing is "going away" as it worked at point X but not point Y. However, Victor has no proof that his callback is going away.
+
+Adrian and I convince Victor that he needs to use [`GDB`](https://en.wikipedia.org/wiki/GNU_Debugger) or [`LLDB`](https://lldb.llvm.org/) to get more information. Victor has never used a command line debugger before and is filled with trepidation about doing it. However, he returns not long later with information that he got starting from zero with debugger knowledge that shows that his crash was not happening where he thought it was and that in fact, he original suppositions appear to be based on correlation and not causation.
+
+The thread isnt' resolved at this time, but it looks like the problem is a "fundamental design issue" where threads that haven't been registered with the Pony runtime are trying to call Pony runtime code that requires a "Pony context". Only threads that have been registered with the runtime will have a "Pony content" and calling any code that requires a context and doesn't have one will result in a segfault.
+
+I think this thread is an incredible learning resource; not just for Victor but others who read as well.
+
+Remember, when asking for help, don't ask how to fix the problem you think you have. Tell what you did, what you are experiencing and let folks help you figure out what is wrong.
+
+The "O, X must be my problem" is the biggest source of problems people have in getting help in general. There's a ton of "how to ask questions on the Internet" posts that cover this exact point.
+
+The best part is- even the most experienced people fall into the assumptions and correlations trap.
+
+And also remember, even if you've never used a step-wise debugger, they are incredibly useful for some problems and easy to get started with. Something as simple as a backtrace for crash yields and incredibly amount of useful information and you can learn how to get one in a very short period of time.
+
 ### Pony is mentioned in a blog post
 
 Adrian Boyko noted on Zulip that Pony was mentioned in a blog post called ["10 Lesser-Known Programming Languages Worth Exploring"](https://levelup.gitconnected.com/10-lesser-known-programming-languages-worth-exploring-fb2ef988e0d5).
