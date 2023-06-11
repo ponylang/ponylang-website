@@ -73,7 +73,11 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week's community resource highlight was inspired by the "Stop Garbage collection when waiting for ffi callback" Zulip thread. The ["Exiting User?"](https://www.ponylang.io/reference/) section of the Pony website has a number of resources aimed at user's of Pony looking to get more advanced than what they've learned from the [Pony Tutorial](https://tutorial.ponylang.io/).
+
+The [debugging section](https://www.ponylang.io/reference/#debugging) contains 3 helpful entries including a ["Pony LLDB Cheat Sheet"](https://www.ponylang.io/reference/pony-lldb-cheatsheet/). The cheat sheet includes a few LLDB basics plus some Pony specific information.
+
+If you are using Pony's C-FFI functionality, you are going to end up needing to use either GDB or LLDB. Be sure to check out the cheat sheet when you get started.
 
 ---
 
