@@ -12,7 +12,7 @@ date = "2023-06-18T07:00:06-04:00"
 << content >>
 
 ## Items of Note
-S
+
 ### Pony Development Sync
 
 [Audio & Video](https://sync-recordings.ponylang.io/r/2023_06_13.m4a) from the June 13th, 2023 sync is available.
