@@ -31,7 +31,15 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are highlighting the [`ponylang/fork_join`](https://github.com/ponylang/fork_join) library.
+
+There was a time when many folks would sign up for the [Pony Zulip](https://ponylang.zulipchat.com/) and ask how they could do something like us Pony to concurrently process a large array or something similar and collect the results. This class of problems falls under the [fork-join model](https://en.wikipedia.org/wiki/Fork%E2%80%93join_model).
+
+The `ponylang/fork_join` library hands the "boilerplate" needed for doing the basic book keeping needed to split up a job into multiple parts and collect the results. By default, work done using the `fork_join` will be split up across X `Worker` actors where X is equal to the number of scheduler threads available to the program.
+
+The library allows for programs to be written in either a batch or streaming style where results are collected iteratively as each `Worker` processes chunks of data.
+
+To learn more about `ponylang/fork_join` check out the [API documentation](https://ponylang.github.io/fork_join/fork_join--index/) and [the examples](https://github.com/ponylang/fork_join/tree/main/examples).
 
 ---
 
