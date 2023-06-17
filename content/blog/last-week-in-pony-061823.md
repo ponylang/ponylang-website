@@ -1,15 +1,13 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Let's talk about "macros"."
 categories = [
     "Last Week in Pony",
 ]
 title = "Last Week in Pony June 18, 2023"
 date = "2023-06-18T07:00:06-04:00"
 +++
-
-<< content >>
 
 ## Items of Note
 
