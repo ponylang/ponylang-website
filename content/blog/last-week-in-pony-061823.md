@@ -19,14 +19,6 @@ date = "2023-06-18T07:00:06-04:00"
 
 In today's sync, we chatted through some rough ideas for macro systems, how it's done in other languages, how it might be done in Pony. Te concept of macros covers a very wide set of possible use cases (some of them potentially with conflicting requirements). We only talked through a few use case examples today, and also hinted at the need to gather more use cases together to start to coherently generalize the need.
 
-### Office Hours
-
-We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
-
-<< content >>
-
-If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
-
 ## Community Resource Highlight
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
