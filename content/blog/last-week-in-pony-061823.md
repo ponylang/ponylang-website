@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "Let's talk about "macros"."
+description = "Let's talk about 'macros'."
 categories = [
     "Last Week in Pony",
 ]
