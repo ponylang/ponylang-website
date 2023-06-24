@@ -21,6 +21,7 @@ appdirs
 Appveyor
 Armv
 ASIO
+ASM
 AST
 Async
 asynchrony
@@ -111,6 +112,7 @@ docstring
 docstrings
 dougmacdoug
 DragonFly
+dropdown
 Drossopoulou
 Drossopoulou's
 DTrace
@@ -317,6 +319,7 @@ parameterization
 Patiency
 patroclos
 Perelandric
+permalink
 PLISS
 PLT
 PoC
