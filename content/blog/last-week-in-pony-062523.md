@@ -31,7 +31,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are taking a look at the [Pony Playground](https://playground.ponylang.io/)!
+
+The Playground is a publicly available web interface to a stable Pony installation that allows community members to share code snippets usually for testing or demonstration. The interface is kept simply to a basic code editor to write/edit the code, three buttons for **Run**, **ASM**, and **LLVM IR** to interact with the `ponyc` compiler, a **Share** button to generate a permalink, and a dropdown to change editor settings. This resource is perfect if you have a question about Pony as you can paste the minimal example into the Playground then share the link alongside your question in the community Zulip in the [#beginner-help](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help) stream.
 
 ---
 
