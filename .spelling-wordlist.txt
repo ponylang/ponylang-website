@@ -21,6 +21,7 @@ appdirs
 Appveyor
 Armv
 ASIO
+ASM
 AST
 Async
 asynchrony
@@ -111,6 +112,7 @@ docstring
 docstrings
 dougmacdoug
 DragonFly
+dropdown
 Drossopoulou
 Drossopoulou's
 DTrace
@@ -290,6 +292,7 @@ natively
 nd
 Netlify
 NetLogo
+Niclas
 Nicolai
 nightlies
 Nikolaus
@@ -317,6 +320,7 @@ parameterization
 Patiency
 patroclos
 Perelandric
+permalink
 PLISS
 PLT
 PoC
@@ -355,6 +359,7 @@ Pygments
 PyPI
 QCon
 QL
+QUIC
 quickstart
 Radisson
 Reachability
