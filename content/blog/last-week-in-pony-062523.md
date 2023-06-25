@@ -17,7 +17,7 @@ date = "2023-06-25T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_06_20.m4a) from the June 20th, 2023 sync is available.
 
-The sync this week as so short that this summary is almost as long. Seriously, check it out for yourself. It's about 5 minutes.
+The sync this week was so short that this summary is almost as long. Seriously, check it out for yourself. It's about 5 minutes.
 
 ### Office Hours
 
@@ -33,7 +33,7 @@ Conversation centered around "the easy but incorrect" way of talking about refer
 
 We started by covering `val`, `ref`, `iso`, and `tag` with everyone pretty much able to describe talking about "what they allowed". However, when we got to `box` and `trn`, folks started struggling. Sean then brought up this as a point about "easy but incorrect". From there, we jumped into talking about capabilities as Sylvan envisioned them, as "deny capabilities". We reviewed portions of [Deny Capabilities for Safe, Fast Actors](https://www.ponylang.io/media/papers/fast-cheap-with-proof.pdf) and discussed `trn` and `box` in terms of what they deny to aliases.
 
-While you can't go back and time and attend Office Hours to experience for yourself, if you are interested in hearing Sean talk about the paper, you can watch a [video](https://www.seantallen.com/talks/deny-capabilities/) of his [Papers We Love NYC](https://paperswelove.org/chapter/newyork/) from January 2020.
+While you can't go back in time and attend Office Hours to experience for yourself, if you are interested in hearing Sean talk about the paper, you can watch a [video](https://www.seantallen.com/talks/deny-capabilities/) of his [Papers We Love NYC](https://paperswelove.org/chapter/newyork/) from January 2020.
 
 The second half of Office Hours was a discussion of a crash that Victor Morrow was getting from his QUIC implementation that he has been working on. The issue was tracked down to being unable to allocate Pony memory on a non-Pony thread. Conversation then turned to how to address this. Victor and Sean discussed with Sean going over how the existing ASIO subsystems work in the Pony runtime.
 
