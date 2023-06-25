@@ -292,6 +292,7 @@ natively
 nd
 Netlify
 NetLogo
+Niclas
 Nicolai
 nightlies
 Nikolaus
@@ -358,6 +359,7 @@ Pygments
 PyPI
 QCon
 QL
+QUIC
 quickstart
 Radisson
 Reachability
