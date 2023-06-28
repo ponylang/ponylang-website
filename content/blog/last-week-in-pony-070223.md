@@ -19,11 +19,11 @@ There was no recorded development sync this past week although Sean, Adrian, Dip
 
 ### July 4th Pony Development Sync Cancelled
 
-Next week's Pony Developmeny Sync would fall on a national holiday in the US. Given the likely very low turnout, we've cancelled the sync.
+Next week's Pony Development Sync would fall on a national holiday in the US. Given the likely very low turnout, we've cancelled the sync.
 
 ### No `ponyc` Release This June
 
-Normally we have a monthly release of `ponyc`. However, there's not really any changes worth releasing at this point so, there won't be a June release of `ponyc`. The next release is tenatively scheduled for the end of July assuming that:
+Normally we have a monthly release of `ponyc`. However, there's not really any changes worth releasing at this point so, there won't be a June release of `ponyc`. The next release is tentatively scheduled for the end of July assuming that:
 
 - No critical issues are fixed before the end of July
 - Something worth releasing is merged is merged before the end of July
