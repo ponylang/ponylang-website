@@ -25,7 +25,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are looking into the [Gotchas](https://tutorial.ponylang.io/gotchas/) section of the Pony Tutorial to cover [Scheduling](https://tutorial.ponylang.io/gotchas/scheduling.html)!
+
+It is not uncommon for a new Pony user to end up creating a long-running behavior which then hogs a scheduler thread. This is because the scheduler will not yield control until a behavior is done. If you have multiple such patterns in your program, you can end up in a situation where the entire program is now made up of thread hogs. The solution is to break this behavior into smaller pieces, perhaps by using the [Timer]([scheduler](https://stdlib.ponylang.io/time-Timer/)) class as the Tutorial suggests, or by re-engineering the program to following something like the [yield](https://github.com/ponylang/ponyc/tree/44b777d37690dba225a286accff2f34952335d99/examples/yield) example.
 
 ---
 
