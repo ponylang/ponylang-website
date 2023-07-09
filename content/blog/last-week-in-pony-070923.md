@@ -17,7 +17,7 @@ Not a ton of activity this week in part because it was a long holiday weekend he
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-This past weeks' Office Hours attendees were Sean T. Allen, Adrian Boyjo, Dipin Hora, and Victor Morrow.
+This past weeks' Office Hours attendees were Sean T. Allen, Adrian Boyko, Dipin Hora, and Victor Morrow.
 
 For "pony related" topics, we discussed Victor's work on wrapping [Microsoft's QUIC library](https://github.com/microsoft/msquic) for Pony usage and how we can go about managing callbacks that come from foreign threads.
 
