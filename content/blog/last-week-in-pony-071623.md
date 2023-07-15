@@ -23,7 +23,17 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week, we draw your addition to the Virtual Users Group (VUG). All the VUG videos are recorded and available on the [Ponylang Vimeo](https://vimeo.com/ponylang) page. Let us look at the [first VUG](https://vimeo.com/163871856), wherein Sylvan discusses Pony generics.
+
+Pony generics are more difficult because of the need to track reference capabilities. Some of the concepts that we must address are:
+
+- receiver capabilities (i.e., `this` representing the receiver)
+- viewpoint adaptation (i.e. `this->T` of how `this` views some generic `T`)
+- collections of reference capabilities (e.g., `#read` which represents all the readable reference capabilities)
+- alias types (i.e., `T!` which is an alias of some generic `T`)
+- ephemeral types (i.e., `T^` which is some generic `T` without an alias)
+
+Sylvan discusses these concepts by using the `Array` class as a working example. This is a highly recommended video for those learning to write Pony generics! 
 
 ---
 
