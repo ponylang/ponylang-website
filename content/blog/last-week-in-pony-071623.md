@@ -33,7 +33,7 @@ Pony generics are more difficult because of the need to track reference capabili
 - alias types (i.e., `T!` which is an alias of some generic `T`)
 - ephemeral types (i.e., `T^` which is some generic `T` without an alias)
 
-Sylvan discusses these concepts by using the `Array` class as a working example. This is a highly recommended video for those learning to write Pony generics! 
+Sylvan discusses these concepts by using the `Array` class as a working example. This is a highly recommended video for those learning to write Pony generics!
 
 ---
 
