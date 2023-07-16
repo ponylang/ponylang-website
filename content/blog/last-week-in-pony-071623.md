@@ -19,7 +19,7 @@ Attendees this past week were Sean T. Allen, Adrian Boyko, Red Davies, and Victo
 
 We talked about a ton of things included snakes, alligators, and how terrifying kangaroos are. We also talked Pony. In particular, we talked about Victor's project of integrating [MsQuic](https://github.com/microsoft/msquic) with Pony. Victor's current plan after planning around with several different approaches is have MsQuic "live alongside" the runtime rather than integrating directly into the Pony runtime as an ASIO subsystem. This approach makes a lot of sense as although MsQuic is "evented", it is rather different than existing ASIO subsystems like [kqueue](https://en.wikipedia.org/wiki/Kqueue), [epoll](https://en.wikipedia.org/wiki/Epoll), and [IOCP](https://en.wikipedia.org/wiki/Input/output_completion_port).
 
-Sean showed Victor where in the ASIO system that ["asio takes a reference to an actor"](https://github.com/ponylang/ponyc/blob/main/src/libponyrt/asio/event.c#L33) to prevent it from being garbage collected and where is "gives up that reference"](https://github.com/ponylang/ponyc/blob/main/src/libponyrt/asio/event.c#L53) to allow the actor to be garbage collected.
+Sean showed Victor where in the ASIO system that ["asio takes a reference to an actor"](https://github.com/ponylang/ponyc/blob/main/src/libponyrt/asio/event.c#L33) to prevent it from being garbage collected and where is ["gives up that reference"](https://github.com/ponylang/ponyc/blob/main/src/libponyrt/asio/event.c#L53) to allow the actor to be garbage collected.
 
 We are all looking forward to Victor's next update as have cross-platform Quic support for Pony would be awesome.
 
