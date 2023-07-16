@@ -132,6 +132,7 @@ ergl
 ergononmics
 Erlangers
 errr
+evented
 evolutions
 facelift
 FFI
@@ -282,6 +283,7 @@ movingtogitlab
 MQTT
 msgpack
 mshockwave
+MsQuic
 multithreading
 Mumm
 Mumm's
