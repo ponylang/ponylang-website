@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "A quiet week."
+description = "Victor is making progress with his MsQuic integration."
 categories = [
     "Last Week in Pony",
 ]
