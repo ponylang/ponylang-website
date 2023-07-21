@@ -29,7 +29,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week let us look at a few [Pony program examples](https://github.com/ponylang/ponyc/tree/e0ead702cccbd97fec53ade927e940e9c13cd763/examples) in the main `ponyc` repository. These examples all include a `README` describing the program, walking you through how the compile it, what it will do, and most will also suggest how you might modify the program to learn different aspect of Pony. Let's walk through the [`pony_bench`](https://github.com/ponylang/ponyc/tree/e0ead702cccbd97fec53ade927e940e9c13cd763/examples/pony_bench) example a bit further.
+
+It may seem "strange" to some that Pony has its own microbenchmarking framework, but the reason is simple: benchmarking is difficult and especially do under asynchronicity. As `pony_bench` is in the standard library, a minimal Pony installation is all you need. Using a standard installation, simply change into the `examples/pony_bench` directory and run `ponyc` to compile it. This produces an executable named the same thing as the directory by default so you will now have a file at `examples/pony_bench/pony_bench`. If you run this file (`./pony_bench`), you will see a print out of a handful of benchmarks for calculating Fibonacci numbers. Now for the really fun part! This benchmark does not use the `Fibonacci` primitive from the `math` package (also in the standard library). By adding the correct "use" statement and a `MicroBenchmark` that calls this primitive you will have run a real microbenchmark comparing two implementations of the same thing!
 
 ---
 
