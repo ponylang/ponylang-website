@@ -24,6 +24,7 @@ ASIO
 ASM
 AST
 Async
+asynchronicity
 asynchrony
 Athaydes
 atomics
@@ -272,6 +273,8 @@ MELPA
 MessagePack
 mfelsche
 mfelsche's
+microbenchmark
+microbenchmarking
 microservices
 Migda
 mixin
