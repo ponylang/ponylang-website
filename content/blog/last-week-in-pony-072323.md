@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = ""
+description = "Barrelling downhill towards death because we didn't attend Office Hours."
 categories = [
     "Last Week in Pony",
 ]
@@ -21,7 +21,7 @@ We discussed and merged 2 PRs. It was a pretty quick call.
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+I think there was an Office Hours this week. I got a notification that both Red and Joe joined, however, I was sick and didn't attend, so... **shrug**. Let's assume that we all missed the greatest Office Hours ever and that our lives are going to be downhill towards death from here on out. You know, something cheery.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
