@@ -15,7 +15,7 @@ date = "2023-07-30T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_07_25.m4a) from the July 25th, 2023 sync is available.
 
-We discussed and merged 1 PR. It was a pretty quick call.
+We discussed 1 PR from Dipin Hora ["Move heap ownership info from chunk to pagemap"](https://github.com/ponylang/ponyc/pull/4368). The PR when finished should improve performance of the Pony runtime at the cost of an additional bit of memory usage.
 
 ### Office Hours
 
