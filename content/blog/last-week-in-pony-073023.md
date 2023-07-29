@@ -29,7 +29,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Today we look at a blog post that is listed in the [Planet Pony](https://www.ponylang.io/community/planet-pony/) section of the website. The post we are looking at today is [Borrowing in Pony](https://bluishcoder.co.nz/2016/07/18/borrowing-in-pony.html).
+
+Pony has an explicit reference capability for object with only one reference: `iso`, as in `isolated`. If we have an `iso` object with a `ref` field, this can cause some headaches when combined with viewpoint adaptation as a `ref` field will appear as `tag` from outside the `iso` origin (see the [viewpoint adaptation table](https://tutorial.ponylang.io/reference-capabilities/combining-capabilities.html#viewpoint-adaptation)). Is everything lost!? Is this some fatal flaw of Pony?! No! The trick, as explained in the blog post, is to wrap our access to the `ref` field in a `recover` block, `consume` our `iso` into a `ref`, then access this field (a `ref` object with a `ref` field is still `ref`), then return our `iso` via another `consume`. Read through the blog post for more details! (If it still does not make sense feel free to drop into the Ponylang Zulip to have a conversation with a helpful community member.)
 
 ---
 
