@@ -29,6 +29,8 @@ There was an Office Hours this week. I know because I was there for the first fe
 
 [If Tommy Duncan's Voice Was Booze](https://www.youtube.com/watch?v=R3FDeoXMyKc)
 
+Before I took off, Red and I quickly discussed a plan for picking up work on adding extended queries to the [official Pony Postgres Driver](https://github.com/ponylang/postgres).
+
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
 ## Community Resource Highlight
