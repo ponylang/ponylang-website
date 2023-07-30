@@ -15,7 +15,6 @@ date = "2023-07-30T07:00:06-04:00"
 
 We aren't doing a July release of `ponyc` as there haven't been any user facing changes of import. There will be a release at the end of August as ["Move heap ownership info from chunk to pagemap"](https://github.com/ponylang/ponyc/pull/4368) will be merged soon and it user facing and therefore, worthy of a release.
 
-
 ### A Blog Post Mentioning Pony
 
 Niclas [pointed out](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Pony.20in.20article) on the [Pony Zulip](https://ponylang.zulipchat.com/#all_messages) a [recent article that mentions Pony](https://hackernoon.com/the-new-wave-of-programming-languages-exploring-the-hidden-gems). It's nothing particularly in-depth. If you are reading this Last Week in Pony, you probably won't get anything from the article, but hey, it's an item of note!
