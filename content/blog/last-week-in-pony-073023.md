@@ -5,7 +5,7 @@ description = "A mention of Pony 'in the wild'."
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony July 23, 2023"
+title = "Last Week in Pony July 30, 2023"
 date = "2023-07-30T07:00:06-04:00"
 +++
 
