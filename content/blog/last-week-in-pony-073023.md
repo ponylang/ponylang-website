@@ -11,6 +11,10 @@ date = "2023-07-30T07:00:06-04:00"
 
 ## Items of Note
 
+### A Blog Post Mentioning Pony
+
+Niclas [pointed out](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Pony.20in.20article) on the [Pony Zulip](https://ponylang.zulipchat.com/#all_messages) a [recent article that mentions Pony](https://hackernoon.com/the-new-wave-of-programming-languages-exploring-the-hidden-gems). It's nothing particurarly in-depth. If you are reading this Last Week in Pony, you probably won't get anything from the article, but hey, it's an item of note!
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_07_25.m4a) from the July 25th, 2023 sync is available.
