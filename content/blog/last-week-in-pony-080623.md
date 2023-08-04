@@ -15,7 +15,8 @@ date = "2023-08-06T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_01.m4a) from the August 1st, 2023 sync is available.
 
-<< content >>
+Sync this week came in at about 30 minutes, almost all of which was some initial discussion of [ponylang/ponyc issue #4369](https://github.com/ponylang/ponyc/issues/4369). We ended with "Sean and Joe will debug together on Friday".
+That Friday debugging session which ran over into Office Hours was productive and resulted in this weekend's ponyc release.
 
 ### Office Hours
 
