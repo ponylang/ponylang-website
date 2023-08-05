@@ -51,7 +51,7 @@ That Friday debugging session which ran over into Office Hours was productive an
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-Office Hours was a "two parter" this week. An hour before Office Hours started, Joe and Sean got together and started debugging [ponylang/ponyc #4369](https://github.com/ponylang/ponyc/issues/4369). They hadn't finished when it was time for Office Hours so for the first 30 minutes, they continued debugging. Eventually arriving at a place where it appeared to be a similiar bug as [#3874](https://github.com/ponylang/ponyc/issues/3874).
+Office Hours was a "two parter" this week. An hour before Office Hours started, Joe and Sean got together and started debugging [ponylang/ponyc #4369](https://github.com/ponylang/ponyc/issues/4369). They hadn't finished when it was time for Office Hours so for the first 30 minutes, they continued debugging. Eventually arriving at a place where it appeared to be a similar bug as [#3874](https://github.com/ponylang/ponyc/issues/3874).
 
 The second half of the meeting was spent on some "getting LLVM 16 working" debugging. Nicolai Stawinoga is trying to get ponyc running with LLVM head and ran into some problems where there's a crash during the "verification" compiler step that is turned on when ponyc tests are run. No resolution was found during that time, but Red Davies got to see the answer to his question "how would you go about debugging something like that?"
 
