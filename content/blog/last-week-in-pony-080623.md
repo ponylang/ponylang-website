@@ -51,7 +51,13 @@ That Friday debugging session which ran over into Office Hours was productive an
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Office Hours was a "two parter" this week. An hour before Office Hours started, Joe and Sean got together and started debugging [ponylang/ponyc #4369](https://github.com/ponylang/ponyc/issues/4369). They hadn't finished when it was time for Office Hours so for the first 30 minutes, they continued debugging. Eventually arriving at a place where it appeared to be a similiar bug as [#3874](https://github.com/ponylang/ponyc/issues/3874).
+
+The second half of the meeting was spent on some "getting LLVM 16 working" debugging. Nicolai Stawinoga is trying to get ponyc running with LLVM head and ran into some problems where there's a crash during the "verification" compiler step that is turned on when ponyc tests are run. No resolution was found during that time, but Red Davies got to see the answer to his question "how would you go about debugging something like that?"
+
+It was a very deep, intense, and Pony-focused Office Hours. You would have had fun. Shame you weren't there, but we [have some theme music for you](https://www.youtube.com/watch?v=d01VdBg65Dg) to make up for it.
+
+See ya next week!
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
