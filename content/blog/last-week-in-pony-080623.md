@@ -11,6 +11,35 @@ date = "2023-08-06T07:00:06-04:00"
 
 ## Items of Note
 
+### A Great and Mighty CI Move is Coming
+
+There's going to be a lot of "CI" related upheaval coming soon. Almost all our CI related to `ponyc` (where all the heavy lifting is) is being done on CirrusCI. However, they are [ending their unlimited free CI](https://cirrus-ci.org/blog/2023/07/17/limiting-free-usage-of-cirrus-ci/).
+
+We went over the monthly limit in less than 4 days so, this is definitely not good for us as a project. Realistically, we probably have to move to GitHub Actions which is going to cause a decent amount of pain.
+
+For example, there's no FreeBSD runners with GitHub Actions. There's no MacOS Arm runners with GitHub Actions. There's no Arm runners in general with GitHub Actions. Those are all things that we currently use with CirrusCI. We could try keeping those jobs at Cirrus but, then we are in the situation where we can suddenly have things we depend on stop because we are out of free time. We could try to keep some of those things running by paying for time with credits but that would probably get expensive quickly and while we have a decent amount of money in the collective, we have it because we intentionally keep expensives low. Further, because of how CirrusCI works, people could "attack us" by opening lots of jobs on CirrusCI from the ponyc repo and burn through our money.
+
+We could also try doing self-hosted runners for either GitHub Actions or CirrusCI but that gets us into the systems administration game that no one wants to be in as a volunteer project.
+
+It is quite likely that we:
+
+- Drop FreeBSD as a supported platform
+- Drop MacOS on Arm as a supported platform
+- Do all our Linux arm testing using QEMU
+- Considerably reduce the amount of nightly stress testing we do
+
+Whatever we end up doing, this is going to be a lot of work for me (Sean) over the next 4 weeks before I start my new job. Wheee!
+
+So now that the pain part of this notice is done, we as a team want to express our tremendous amount of gratitude to CirrusCI as a company. They have provided us so much in the way of free minutes and responsive technical support over the years. They have been simply amazing. If you are looking for an amazing CI solution for your company that can afford to pay, please give them a look. They have been incredible. I'd be happy to discuss with you in the [Pony Zulip](https://https://ponylang.zulipchat.com/) to see if they fit your company's needs.
+
+Thank you Fedor and company, you have been simply amazing.
+
+A lot of you might be too young to remember what it was like before CI was easily available to Open Source projects. Let me tell you (old man hat on!), maintaining cross-platform software in the 90s was awful. You had to beg to get time from one of a tiny number of organizations that might have a bit of spare time in their build cluster and odds were, you weren't getting any. It was so easy to bork someone's carefully built build cluster. In general, they didn't want anyone else going near it.
+
+With the birth of companies like CirrusCI and TravisCI and all the others who have provided tons of free minutes to Open Source projects over the years, that completely changed. There's no way the Pony project would have been able to get the velocity we've had as a small volunteer project without all the support that the various CI services we've used provided. It's been a god-send.
+
+So, putting aside my old man hat; if you'd like to contribute to Pony is some way, now is a good chance, I could use assistance with the transition we make (final shape to be decided). If you are interested in helping, please stop by the [#ci stream on the Pony Zulip](https://ponylang.zulipchat.com/#narrow/stream/190359-ci) and drop me a note.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_01.m4a) from the August 1st, 2023 sync is available.
