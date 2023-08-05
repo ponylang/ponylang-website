@@ -17,7 +17,7 @@ There's going to be a lot of "CI" related upheaval coming soon. Almost all our C
 
 We went over the monthly limit in less than 4 days so, this is definitely not good for us as a project. Realistically, we probably have to move to GitHub Actions which is going to cause a decent amount of pain.
 
-For example, there's no FreeBSD runners with GitHub Actions. There's no MacOS Arm runners with GitHub Actions. There's no Arm runners in general with GitHub Actions. Those are all things that we currently use with CirrusCI. We could try keeping those jobs at Cirrus but, then we are in the situation where we can suddenly have things we depend on stop because we are out of free time. We could try to keep some of those things running by paying for time with credits but that would probably get expensive quickly and while we have a decent amount of money in the collective, we have it because we intentionally keep expensives low. Further, because of how CirrusCI works, people could "attack us" by opening lots of jobs on CirrusCI from the ponyc repo and burn through our money.
+For example, there's no FreeBSD runners with GitHub Actions. There's no MacOS Arm runners with GitHub Actions. There's no Arm runners in general with GitHub Actions. Those are all things that we currently use with CirrusCI. We could try keeping those jobs at Cirrus but, then we are in the situation where we can suddenly have things we depend on stop because we are out of free time. We could try to keep some of those things running by paying for time with credits but that would probably get expensive quickly and while we have a decent amount of money in the collective, we have it because we intentionally keep expenses low. Further, because of how CirrusCI works, people could "attack us" by opening lots of jobs on CirrusCI from the ponyc repo and burn through our money.
 
 We could also try doing self-hosted runners for either GitHub Actions or CirrusCI but that gets us into the systems administration game that no one wants to be in as a volunteer project.
 
@@ -28,7 +28,7 @@ It is quite likely that we:
 - Do all our Linux arm testing using QEMU
 - Considerably reduce the amount of nightly stress testing we do
 
-Whatever we end up doing, this is going to be a lot of work for me (Sean) over the next 4 weeks before I start my new job. Wheee!
+Whatever we end up doing, this is going to be a lot of work for me (Sean) over the next 4 weeks before I start my new job. Wheeee!
 
 So now that the pain part of this notice is done, we as a team want to express our tremendous amount of gratitude to CirrusCI as a company. They have provided us so much in the way of free minutes and responsive technical support over the years. They have been simply amazing. If you are looking for an amazing CI solution for your company that can afford to pay, please give them a look. They have been incredible. I'd be happy to discuss with you in the [Pony Zulip](https://https://ponylang.zulipchat.com/) to see if they fit your company's needs.
 

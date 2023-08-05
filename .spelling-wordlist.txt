@@ -136,6 +136,7 @@ errr
 evented
 evolutions
 facelift
+Fedor
 FFI
 finalisers
 Finalisers
@@ -363,6 +364,7 @@ PWL
 Pygments
 PyPI
 QCon
+QEMU
 QL
 QUIC
 quickstart
