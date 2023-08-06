@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "Upgrade your ponyc as soon as possible."
+description = "Big CI related changes are coming. What they are though? We don't know yet."
 categories = [
     "Last Week in Pony",
 ]
