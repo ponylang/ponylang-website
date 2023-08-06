@@ -136,6 +136,7 @@ errr
 evented
 evolutions
 facelift
+Fedor
 FFI
 finalisers
 Finalisers
@@ -322,6 +323,7 @@ packethost
 Palka
 param
 parameterization
+parter
 Patiency
 patroclos
 Perelandric
@@ -363,6 +365,7 @@ PWL
 Pygments
 PyPI
 QCon
+QEMU
 QL
 QUIC
 quickstart
