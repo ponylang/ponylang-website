@@ -25,7 +25,7 @@ It is quite likely that we:
 
 - Drop FreeBSD as a supported platform
 - Drop MacOS on Arm as a supported platform
-- Do all our Linux arm testing using QEMU
+- Do all our Linux Arm testing using QEMU
 - Considerably reduce the amount of nightly stress testing we do
 
 Whatever we end up doing, this is going to be a lot of work for me (Sean) over the next 4 weeks before I start my new job. Wheeee!
