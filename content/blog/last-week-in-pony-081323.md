@@ -15,7 +15,6 @@ date = "2023-08-13T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_08.m4a) from the August 8th, 2023 sync is available.
 
-
 << content >>
 
 ### Office Hours
