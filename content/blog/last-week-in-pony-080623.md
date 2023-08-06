@@ -38,7 +38,7 @@ A lot of you might be too young to remember what it was like before CI was easil
 
 With the birth of companies like CirrusCI and TravisCI and all the others who have provided tons of free minutes to Open Source projects over the years, that completely changed. There's no way the Pony project would have been able to get the velocity we've had as a small volunteer project without all the support that the various CI services we've used provided. It's been a god-send.
 
-So, putting aside my old man hat; if you'd like to contribute to Pony is some way, now is a good chance, I could use assistance with the transition we make (final shape to be decided). If you are interested in helping, please stop by the [#ci stream on the Pony Zulip](https://ponylang.zulipchat.com/#narrow/stream/190359-ci) and drop me a note.
+So, putting aside my old man hat; if you'd like to contribute to Pony in some way, now is a good chance, I could use assistance with the transition we make (final shape to be decided). If you are interested in helping, please stop by the [#ci stream on the Pony Zulip](https://ponylang.zulipchat.com/#narrow/stream/190359-ci) and drop me a note.
 
 ### Pony Development Sync
 
