@@ -65,7 +65,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Let's take a look at [equality](https://tutorial.ponylang.io/expressions/equality) today! In Pony, we have both identity and structural equality to consider. We have distinct syntax for these two forms of equality. The keyword `is` allows for identity comparisons of equality and is particularly useful when working with `tag` data since identity comparison is one of the few things a `tag` still allows. Meanwhile, the `==` operator (syntactic sugar for `fun box eq(...): Bool val` from [Equatable](https://stdlib.ponylang.io/builtin-Equatable/)) allows for structural comparisons of equality. What happens if you do not define the `Equatable` interface on a new type? You will inherit the default implementation which defines structural equality to be the same as identity equality. What about equality of primitives? All primitives (such as `None`) are always equal to themselves via structural and identity comparison! (This is because there is only ever one instance of a primitive.)
 
 ---
 
