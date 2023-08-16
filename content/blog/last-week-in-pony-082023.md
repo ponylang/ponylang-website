@@ -15,6 +15,18 @@ date = "2023-08-20T07:00:06-04:00"
 
 We've fixed a "random memory error" bug that was introduced in Pony 0.54.1. You should update to 0.55.1 as soon as possible. It's a bad bug, fortunately, it only affects programs built with the `--debug` ponyc option.
 
+### We've "Dropped" FreeBSD
+
+FreeBSD is no longer a fully supported platform. We are in the process of [moving all our CI to GitHub Actions](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-13-2023/#the-great-ci-move-is-underway) and in the process, are losing our FreeBSD CI.
+
+We are not removing FreeBSD support from the ponyc codebase, however, we are also not making any attempt to test any changes to verify that FreeBSD works. Any FreeBSD support going forward will have to come from interested community members who can provide patches as needed to address any issues.
+
+There are no more nightly versions of ponyc for FreeBSD being built. The same will soon apply to ponyup and corral.
+
+0.55.1 was the last ponyc release that we built for FreeBSD. No future releases of ponyup or corral will have FreeBSD support.
+
+You can still build from ponyc and corral from source on FreeBSD.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_15.m4a) from the August 16th, 2023 sync is available.
