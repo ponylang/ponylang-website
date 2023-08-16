@@ -19,7 +19,7 @@ We've fixed a "random memory error" bug that was introduced in Pony 0.54.1. You 
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_15.m4a) from the August 16th, 2023 sync is available.
 
-We mostly discussed [issue #4369](https://github.com/ponylang/ponyc/issues/4369). Primarly, the underlying bug that has existed for a long time and also how we accidentally triggered it as part of our upgrading from [LLVM 14 to LLVM 15](https://github.com/ponylang/ponyc/pull/4327).
+We mostly discussed [issue #4369](https://github.com/ponylang/ponyc/issues/4369). Primarily, the underlying bug that has existed for a long time and also how we accidentally triggered it as part of our upgrading from [LLVM 14 to LLVM 15](https://github.com/ponylang/ponyc/pull/4327).
 
 ### Office Hours
 
