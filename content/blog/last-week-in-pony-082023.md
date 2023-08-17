@@ -29,7 +29,7 @@ You can still build from ponyc and corral from source on FreeBSD.
 
 ### macOS on Intel is a Fully Supported Platform Again
 
-With our move from CirrusCI to GitHub Actions, we again have an environment were we can test on MacOS for Intel. We've readded macOS on Intel as a fully supported platform.
+With our move from CirrusCI to GitHub Actions, we again have an environment were we can test on MacOS for Intel. We've added macOS on Intel as a fully supported platform.
 
 We plan to maintain support for as long as we continue a CI environment available and Apple continues to support new OS releases on x86 CPUs.
 
