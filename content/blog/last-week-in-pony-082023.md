@@ -27,6 +27,16 @@ There are no more nightly versions of ponyc for FreeBSD being built. The same wi
 
 You can still build from ponyc and corral from source on FreeBSD.
 
+### macOS on Intel is a Fully Supported Platform Again
+
+With our move from CirrusCI to GitHub Actions, we again have an environment were we can test on MacOS for Intel. We've readded macOS on Intel as a fully supported platform.
+
+We plan to maintain support for as long as we continue a CI environment available and Apple continues to support new OS releases on x86 CPUs.
+
+Nightly and release builds of the Pony compiler are either already available or will be once the next release is done. The same applies for corral and ponyup.
+
+Enjoy!
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_15.m4a) from the August 16th, 2023 sync is available.
