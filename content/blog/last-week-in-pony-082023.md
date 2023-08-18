@@ -33,9 +33,9 @@ With our move from CirrusCI to GitHub Actions, we again have an environment were
 
 We plan to maintain support for as long as we continue a CI environment available and Apple continues to support new OS releases on x86 CPUs.
 
-Nightly and release builds of the Pony compiler are either already available or will be once the next release is done.
+Nightly builds the Pony compiler are already available. Release builds will be available starting with the Pony 0.56.0 release at the end of August.
 
-Nightly versions of corral and ponyup for macOS on Intel will be added once Pony 0.56.0 is released at the end of August. Release versions will follow shortly thereafter.
+Nightly versions of corral and ponyup for macOS on Intel are available now. Once Pony 0.56.0 is released, release versions of corral and ponyup will follow shortly thereafter.
 
 Enjoy!
 
