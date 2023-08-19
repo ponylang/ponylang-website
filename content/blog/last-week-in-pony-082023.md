@@ -61,7 +61,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we highlight how to write platform dependent code! We have a [Tutorial page](https://tutorial.ponylang.io/appendices/platform-dependent-code) for this topic. There is also a [Platform](https://stdlib.ponylang.io/builtin-Platform/) primitive in `builtin`. And for those of you that want a peek behind the curtain, these flags are defined [here](https://github.com/ponylang/ponyc/blob/c393500e8f8222d648f803f78a705baf452bce05/src/libponyc/pkg/platformfuns.h) in the source tree. Beyond what is said in the Tutorial, you can use `ifdef` with the same flags to change smaller sections of code, see the definition of [`files/Path.sep()`](https://github.com/ponylang/ponyc/blob/c393500e8f8222d648f803f78a705baf452bce05/packages/files/path.pony#L27-L31) which provides '\\' when on `windows` and '/' for all other platforms.
 
 ---
 
