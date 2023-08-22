@@ -19,6 +19,24 @@ According to their roadmap, GitHub should be adding Apple Silicon MacOS runners 
 
 Hopefully, between our Arm CI jobs and our macOS on Intel CI jobs, we don't inadvertently break macOS on Apple Silicon. If you run into any issues or breakage while [building from source](https://github.com/ponylang/ponyc/blob/main/BUILD.md#macos), let us know.
 
+### We're Migrating Container Images from DockerHub to GitHub Container Registry
+
+Quite some time ago, we decided to migrate from DockerHub to GitHub Container Registry and then... we did nothing. For a really, really, really long time. Until this week.
+
+We've started the migration. Keep an eye on Last Week in Pony for news of what has been migrated. During "the migration period", migrated images will continue to be available from "their usual locations" on DockerHub.
+
+We'll stop publishing all images to DockerHub on or shortly after December 1st, 2023 which should give everyone plenty of time to switch over to GitHub Container Registry.
+
+So, what does that switch involve?
+
+Where previously you referenced our images as `ponylang/ponyc:0.55.1` with the implicit 'DockerHub' as part of the identifier, you will have to supply the registry `ghcr.io/ponylang/ponyc:0.55.1`.
+
+Note, we are not migrating old images, those will continue to exist on DockerHub and will not be being moved. Only new images for any given repository after it has been migrated will exist in the GitHub Container Registry.
+
+### `shared-docker` Images Migrated to GitHub Container Registry
+
+The images in our [shared-docker](https://github.com/ponylang/shared-docker) repository have been migrated to publish to GitHub Container Registry. Images will continue to be published to DockerHub until December 1st, 2023.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_22.m4a) from the August 22nd, 2023 sync is available.
