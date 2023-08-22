@@ -39,6 +39,12 @@ Note, we are not migrating old images, those will continue to exist on DockerHub
 
 The images in our [shared-docker](https://github.com/ponylang/shared-docker) repository have been migrated to publish to GitHub Container Registry. Images will continue to be published to DockerHub until December 1st, 2023.
 
+### CirrusCI Migration Update
+
+We've migrated pretty much everything from CirrusCI to GitHub Actions except our ponyc Windows CI which is being... problematic. Until we got to the Windows support, everything was humming along like a [Joe Walsh song](https://www.youtube.com/watch?v=ss9VZ1FHxy0). Now? Well, let's say that if you wanted to [declare war](https://www.youtube.com/watch?v=iUxkFCBPgx4) on those Windows CI jobs, Sean wouldn't blame you.
+
+We are trying to get any Windows CI at all to work. We've temporarily paused getting CI jobs to run in LLDB (a handy trick we have that makes crashes much more useful) as it was being a [PITA](https://www.youtube.com/watch?v=ic3g8Xnf7LI). Now, we are stuck with debug runtime builds that are either [hanging](https://www.youtube.com/watch?v=I_3gLp6k7ZE) or are so damn slow. We are waiting on the current one timeout after 6 hours to see what the GitHub logs give us. Needless to say, Sean [has got frustration](https://www.youtube.com/watch?v=9G-AtMVXmPM).
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_22.m4a) from the August 22nd, 2023 sync is available.
