@@ -9,6 +9,8 @@ title = "Last Week in Pony August 27, 2023"
 date = "2023-08-27T07:00:06-04:00"
 +++
 
+Holy holy dear reader. So much activity from a variety of different migrations and a great bug hunt continues. There's plenty to read about and you might just lose track of time while you absorb it all. Fortunately, [there's a song for that](https://www.youtube.com/watch?v=WuXwSyahgW4).
+
 ## Items of Note
 
 ### We've "Temporarily Dropped" MacOS on Apple Silicon
