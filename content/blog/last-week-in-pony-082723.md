@@ -11,6 +11,14 @@ date = "2023-08-27T07:00:06-04:00"
 
 ## Items of Note
 
+### We've "Temporarily Dropped" MacOS on Apple Silicon
+
+MacOS on Apple Silicon is no longer a fully supported platform. We are in the process of [moving all our CI to GitHub Actions](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-13-2023/#the-great-ci-move-is-underway) and in the process, are losing our Apple Silicon CI environment.
+
+According to their roadmap, GitHub should be adding Apple Silicon MacOS runners sometime in Q4 of this year. Once they are added, we plan on bringing back support for MacOS on Apple Silicon. In the meantime, we have added [macOS on Intel as a fully-supported platform](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-20-2023/#macos-on-intel-is-a-fully-supported-platform-again).
+
+Hopefully, between our Arm CI jobs and our macOS on Intel CI jobs, we don't inadvertently break macOS on Apple Silicon. If you run into any issues or breakage while [building from source](https://github.com/ponylang/ponyc/blob/main/BUILD.md#macos), let us know.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_22.m4a) from the August 22nd, 2023 sync is available.
