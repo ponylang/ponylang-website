@@ -65,7 +65,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Let's look at the [Pony Performance Cheatsheet](https://www.ponylang.io/reference/pony-performance-cheatsheet/) this week! Specifically let us look at the advice to [Watch your allocations](https://www.ponylang.io/reference/pony-performance-cheatsheet/#avoid-allocations)!
+
+This section of the Performance Cheatsheet discusses avoiding allocations in the context of `String` objects, but the exact same advice can apply to `Array` objects. In order to maximize performance, you have to watch your allocations. The compiler can optimize away additional allocations in some scenarios, but not relying on these optimizations in performance-critical code is necessary.
 
 ---
 
