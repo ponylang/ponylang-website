@@ -264,6 +264,7 @@ LWIP
 Lystig
 macOS
 Makefile
+mallocs
 Malmö
 Maloney
 Malthe
@@ -483,6 +484,7 @@ untracked
 upvote
 UX
 valbytes
+Valgrind
 vararg
 varargs
 Vassilvk
