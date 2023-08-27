@@ -65,7 +65,7 @@ The first half was a discussion between Red and Sean about some slightly esoteri
 
 The second half was Dipin and Sean working with Victor to give advice helping track down a segfault in the C code he has written for his in-progress Pony QUIC library. We covered lots of stuff including some basics of the area where the problems are, a locking at his locking strategy, a quick look at some mallocs, and a quick look at his queue implementation. All looked ok at first glance but Sean suspects the bug(s) will be found in one of those.
 
-We ended with Dipin taking Victor through a quick tour of using memory address sanitizers and tools like valgrind that help you track down memory issues in C code.
+We ended with Dipin taking Victor through a quick tour of using memory address sanitizers and tools like Valgrind that help you track down memory issues in C code.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
