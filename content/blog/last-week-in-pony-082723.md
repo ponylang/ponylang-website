@@ -17,13 +17,13 @@ Holy holy dear reader. So much activity from a variety of different migrations a
 
 MacOS on Apple Silicon is no longer a fully supported platform. We are in the process of [moving all our CI to GitHub Actions](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-13-2023/#the-great-ci-move-is-underway) and in the process, are losing our Apple Silicon CI environment.
 
-According to their roadmap, GitHub should be adding Apple Silicon MacOS runners sometime in Q4 of this year. Once they are added, we plan on bringing back support for MacOS on Apple Silicon. In the meantime, we have added [macOS on Intel as a fully-supported platform](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-20-2023/#macos-on-intel-is-a-fully-supported-platform-again).
+According to their roadmap, GitHub should be adding Apple Silicon macOS runners sometime in Q4 of this year. Once they are added, we plan on bringing back support for macOS on Apple Silicon. In the meantime, we have added [macOS on Intel as a fully-supported platform](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-20-2023/#macos-on-intel-is-a-fully-supported-platform-again).
 
 Hopefully, between our Arm CI jobs and our macOS on Intel CI jobs, we don't inadvertently break macOS on Apple Silicon. If you run into any issues or breakage while [building from source](https://github.com/ponylang/ponyc/blob/main/BUILD.md#macos), let us know.
 
 ### We're Migrating Container Images from DockerHub to GitHub Container Registry
 
-Quite some time ago, we decided to migrate from DockerHub to GitHub Container Registry and then... we did nothing. For a really, really, really long time. Until this week.
+Quite some time ago, we decided to migrate from DockerHub to GitHub Container Registry and then...we did nothing. For a really, really, really long time. Until this week.
 
 We've started the migration. Keep an eye on Last Week in Pony for news of what has been migrated. During "the migration period", migrated images will continue to be available from "their usual locations" on DockerHub.
 
