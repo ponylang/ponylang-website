@@ -59,7 +59,13 @@ The issue that multiple people including Sylvan have classified as "WTF!".
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+We had a 2 hour Office Hours this week. All Pony; the entire time. [Good stuff](https://www.youtube.com/watch?v=_F4dmI8KsEk).
+
+The first half was a discussion between Red and Sean about some slightly esoteric design issues for the additional API surface that Red [will be adding](https://github.com/ponylang/net_ssl/pull/89) the [ponylang/net_ssl](https://github.com/ponylang/net_ssl).
+
+The second half was Dipin and Sean working with Victor to give advice helping track down a segfault in the C code he has written for his in-progress Pony QUIC library. We covered lots of stuff including some basics of the area where the problems are, a locking at his locking strategy, a quick look at some mallocs, and a quick look at his queue implementation. All looked ok at first glance but Sean suspects the bug(s) will be found in one of those.
+
+We ended with Dipin taking Victor through a quick tour of using memory address sanitizers and tools like valgrind that help you track down memory issues in C code.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
