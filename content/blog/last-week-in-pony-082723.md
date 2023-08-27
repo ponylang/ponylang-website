@@ -33,7 +33,7 @@ So, what does that switch involve?
 
 Where previously you referenced our images as `ponylang/ponyc:0.55.1` with the implicit 'DockerHub' as part of the identifier, you will have to supply the registry `ghcr.io/ponylang/ponyc:0.55.1`.
 
-Note, we are not migrating old images, those will continue to exist on DockerHub and will not be being moved. Only new images for any given repository after it has been migrated will exist in the GitHub Container Registry.
+Note, we are not migrating old images, those will continue to exist on DockerHub and will not be moved. Only new images for any given repository after it has been migrated will exist in the GitHub Container Registry.
 
 ### `shared-docker` Images Migrated to GitHub Container Registry
 
@@ -41,17 +41,17 @@ The images in our [shared-docker](https://github.com/ponylang/shared-docker) rep
 
 ### CirrusCI Migration Update
 
-We've migrated pretty much everything from CirrusCI to GitHub Actions except our ponyc Windows CI which is being... problematic. Until we got to the Windows support, everything was humming along like a [Joe Walsh song](https://www.youtube.com/watch?v=ss9VZ1FHxy0). Now? Well, let's say that if you wanted to [declare war](https://www.youtube.com/watch?v=iUxkFCBPgx4) on those Windows CI jobs, Sean wouldn't blame you.
+We've migrated pretty much everything from CirrusCI to GitHub Actions except our ponyc Windows CI which is being...problematic. Until we got to the Windows support, everything was humming along like a [Joe Walsh song](https://www.youtube.com/watch?v=ss9VZ1FHxy0). Now? Well, let's say that if you wanted to [declare war](https://www.youtube.com/watch?v=iUxkFCBPgx4) on those Windows CI jobs, Sean wouldn't blame you.
 
-We spent a good amount of time getting any Windows CI at all to work. We temporarily paused getting CI jobs to run in LLDB (a handy trick we have that makes crashes much more useful) as it was being a [PITA](https://www.youtube.com/watch?v=ic3g8Xnf7LI). For a while, we were stuck with debug runtime builds that are either [hanging](https://www.youtube.com/watch?v=I_3gLp6k7ZE) or are so damn slow.  Needless to say, Sean [had got frustration](https://www.youtube.com/watch?v=9G-AtMVXmPM).
+We spent a good amount of time getting any Windows CI at all to work. We temporarily paused getting CI jobs to run in LLDB (a handy trick we have that makes crashes much more useful) as it was being a [PITA](https://www.youtube.com/watch?v=ic3g8Xnf7LI). For a while, we were stuck with debug runtime builds that are either [hanging](https://www.youtube.com/watch?v=I_3gLp6k7ZE) or are so damn slow. Needless to say, Sean [had got frustration](https://www.youtube.com/watch?v=9G-AtMVXmPM).
 
-For whatever reason, we get a lot of weird TCP test errors running on the GitHub Windows Runners. Searching the internet says we aren't alone in some of what we are seeing. Because we need to be off CirrusCI soon, we've decided to turn off the TCP tests in CI as doing that seems to make all our problems go away. When the switch PR is merged, we'll be opening an issue for investigation the Windows TCP test issue. We'd **love** assistance. Really really really [love](https://www.youtube.com/watch?v=I1e4qhHOIQA) assistance.
+For whatever reason, we get a lot of weird TCP test errors running on the GitHub Windows Runners. Searching the internet says we aren't alone in some of what we are seeing. Because we need to be off CirrusCI soon, we've decided to turn off the TCP tests in CI as doing that seems to make all our problems go away. When the switch PR is merged, we'll be opening an issue for investigating the Windows TCP test issue. We'd **love** assistance. Really, really, really [love](https://www.youtube.com/watch?v=I1e4qhHOIQA) assistance.
 
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_22.m4a) from the August 22nd, 2023 sync is available.
 
-We ran through a bunch of PRs. Most of them were related to our ongoing move from CirrusCI to GitHub actions, but we had a few other things we covered including the infamous [issue #4369](https://github.com/ponylang/ponyc/issues/4369).
+We ran through a bunch of PRs. Most of them were related to our ongoing move from CirrusCI to GitHub Actions, but we had a few other things we covered including the infamous [issue #4369](https://github.com/ponylang/ponyc/issues/4369).
 
 The issue that multiple people including Sylvan have classified as "WTF!".
 
@@ -61,9 +61,9 @@ We have an open Zoom meeting every Friday for the community to get together and 
 
 We had a 2 hour Office Hours this week. All Pony; the entire time. [Good stuff](https://www.youtube.com/watch?v=_F4dmI8KsEk).
 
-The first half was a discussion between Red and Sean about some slightly esoteric design issues for the additional API surface that Red [will be adding](https://github.com/ponylang/net_ssl/pull/89) the [ponylang/net_ssl](https://github.com/ponylang/net_ssl).
+The first half was a discussion between Red and Sean about some slightly esoteric design issues for the additional API surface that Red [will be adding](https://github.com/ponylang/net_ssl/pull/89) to [ponylang/net_ssl](https://github.com/ponylang/net_ssl).
 
-The second half was Dipin and Sean working with Victor to give advice helping track down a segfault in the C code he has written for his in-progress Pony QUIC library. We covered lots of stuff including some basics of the area where the problems are, a locking at his locking strategy, a quick look at some mallocs, and a quick look at his queue implementation. All looked ok at first glance but Sean suspects the bug(s) will be found in one of those.
+The second half was Dipin and Sean working with Victor to give advice helping track down a segfault in the C code he has written for his in-progress Pony QUIC library. We covered lots of stuff including some basics of the area where the problems are, looking at his locking strategy, a quick look at some mallocs, and a quick look at his queue implementation. All looked ok at first glance but Sean suspects the bug(s) will be found in one of those.
 
 We ended with Dipin taking Victor through a quick tour of using memory address sanitizers and tools like Valgrind that help you track down memory issues in C code.
 
