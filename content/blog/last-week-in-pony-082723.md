@@ -43,7 +43,9 @@ The images in our [shared-docker](https://github.com/ponylang/shared-docker) rep
 
 We've migrated pretty much everything from CirrusCI to GitHub Actions except our ponyc Windows CI which is being... problematic. Until we got to the Windows support, everything was humming along like a [Joe Walsh song](https://www.youtube.com/watch?v=ss9VZ1FHxy0). Now? Well, let's say that if you wanted to [declare war](https://www.youtube.com/watch?v=iUxkFCBPgx4) on those Windows CI jobs, Sean wouldn't blame you.
 
-We are trying to get any Windows CI at all to work. We've temporarily paused getting CI jobs to run in LLDB (a handy trick we have that makes crashes much more useful) as it was being a [PITA](https://www.youtube.com/watch?v=ic3g8Xnf7LI). Now, we are stuck with debug runtime builds that are either [hanging](https://www.youtube.com/watch?v=I_3gLp6k7ZE) or are so damn slow. We are waiting on the current one timeout after 6 hours to see what the GitHub logs give us. Needless to say, Sean [has got frustration](https://www.youtube.com/watch?v=9G-AtMVXmPM).
+We spent a good amount of time getting any Windows CI at all to work. We temporarily paused getting CI jobs to run in LLDB (a handy trick we have that makes crashes much more useful) as it was being a [PITA](https://www.youtube.com/watch?v=ic3g8Xnf7LI). For a while, we were stuck with debug runtime builds that are either [hanging](https://www.youtube.com/watch?v=I_3gLp6k7ZE) or are so damn slow.  Needless to say, Sean [had got frustration](https://www.youtube.com/watch?v=9G-AtMVXmPM).
+
+For whatever reason, we get a lot of weird TCP test errors running on the GitHub Windows Runners. Searching the internet says we aren't alone in some of what we are seeing. Because we need to be off CirrusCI soon, we've decided to turn off the TCP tests in CI as doing that seems to make all our problems go away. When the switch PR is merged, we'll be opening an issue for investigation the Windows TCP test issue. We'd **love** assistance. Really really really [love](https://www.youtube.com/watch?v=I1e4qhHOIQA) assistance.
 
 ### Pony Development Sync
 
