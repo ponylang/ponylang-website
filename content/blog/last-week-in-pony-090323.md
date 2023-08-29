@@ -43,7 +43,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 ## Releases
 
-- [ponylang/release-bot-action 0.6.2](https://github.com/ponylang/release-bot-action/releases/tag/0.6.2
+- [ponylang/release-bot-action 0.6.2](https://github.com/ponylang/release-bot-action/releases/tag/0.6.2)
 
 ## Community Resource Highlight
 
