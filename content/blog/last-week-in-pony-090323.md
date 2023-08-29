@@ -15,6 +15,14 @@ date = "2023-09-03T07:00:06-04:00"
 
 All done! Everything has been moved off of CirrusCI or ["decommissioned"](https://www.youtube.com/watch?v=yVDP5M0eTcM).
 
+### DockerHub to GitHub Container Registry Migration
+
+As we [mentioned last week](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-27-2023/#we-re-migrating-container-images-from-dockerhub-to-github-container-registry), we are migrating from DockerHub to GitHub Container Registry. On December 1st, we'll stop updating images in DockerHub. This past week we updated the following images:
+
+- `ponylang/changelog-bot-action`
+
+We've updated to post future releases while we migrate to both registries. It's unlikely we'll see another release before during the migration period so we uploaded tag 0.3.5 to GitHub Container Registry.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_229.m4a) from the August 29th, 2023 sync is available.
