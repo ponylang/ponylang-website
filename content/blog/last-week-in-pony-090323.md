@@ -31,7 +31,11 @@ We've updated to post future releases while we migrate to both registries. It's 
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_229.m4a) from the August 29th, 2023 sync is available.
 
-<< content >>
+We covered a bunch of PR and issues. Most were related to our CirrusCI migration that we finished and our DockerHub migration that is just getting underway.
+
+We spent a good amount time going over the latest from [issue #4369](https://github.com/ponylang/ponyc/issues/4369).
+
+A lot of disparate ground was covered, so have a listen!
 
 ### Office Hours
 
@@ -44,6 +48,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 ## Releases
 
 - [ponylang/release-bot-action 0.6.2](https://github.com/ponylang/release-bot-action/releases/tag/0.6.2)
+- [ponylang/release-bot-action 0.6.3](https://github.com/ponylang/release-bot-action/releases/tag/0.6.3)
 
 ## Community Resource Highlight
 
