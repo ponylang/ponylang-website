@@ -23,6 +23,10 @@ As we [mentioned last week](https://www.ponylang.io/blog/2023/08/last-week-in-po
 
 We've updated to post future releases while we migrate to both registries. It's unlikely we'll see another release before during the migration period so we uploaded tag 0.3.5 to GitHub Container Registry.
 
+- `ponylang/corral`
+- `ponylang/ponyup`
+- `ponylang/release-bot-action`
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_08_229.m4a) from the August 29th, 2023 sync is available.
