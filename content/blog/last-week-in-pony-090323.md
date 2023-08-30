@@ -29,6 +29,7 @@ We've updated to post future releases while we migrate to both registries. It's 
 
 - `ponylang/corral`
 - `ponylang/library-documentation-action`
+- `ponylang/library-documentation-action-v2`
 - `ponylang/ponyup`
 - `ponylang/release-bot-action`
 
