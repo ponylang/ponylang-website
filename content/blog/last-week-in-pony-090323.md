@@ -32,6 +32,9 @@ We've updated to post future releases while we migrate to both registries. It's 
 - `ponylang/library-documentation-action-v2`
 - `ponylang/ponyup`
 - `ponylang/release-bot-action`
+- `ponylang/release-notes-bot-action`
+
+We've updated to post future releases while we migrate to both registries. It's unlikely we'll see another release before during the migration period so we uploaded tag 0.3.7 to GitHub Container Registry.
 
 ### Pony Development Sync
 
