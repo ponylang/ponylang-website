@@ -53,8 +53,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 ## Releases
 
--[ponylang/corral 0.8.0](https://github.com/ponylang/corral/releases/tag/0.8.0)
--[ponylang/ponyc 0.56.0](https://github.com/ponylang/ponyc/releases/tag/0.56.0)
+- [ponylang/corral 0.8.0](https://github.com/ponylang/corral/releases/tag/0.8.0)
+- [ponylang/ponyc 0.56.0](https://github.com/ponylang/ponyc/releases/tag/0.56.0)
+- [ponylang/ponyup 0.8.0](https://github.com/ponylang/ponyup/releases/tag/0.8.0)
 - [ponylang/release-bot-action 0.6.2](https://github.com/ponylang/release-bot-action/releases/tag/0.6.2)
 - [ponylang/release-bot-action 0.6.3](https://github.com/ponylang/release-bot-action/releases/tag/0.6.3)
 
