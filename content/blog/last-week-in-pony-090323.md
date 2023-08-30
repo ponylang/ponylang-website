@@ -28,6 +28,7 @@ We've updated to post future releases while we migrate to both registries. It's 
 We've updated to post future releases while we migrate to both registries. It's unlikely we'll see another release before during the migration period so we uploaded tag 0.5.0 to GitHub Container Registry.
 
 - `ponylang/corral`
+- `ponylang/library-documentation-action`
 - `ponylang/ponyup`
 - `ponylang/release-bot-action`
 
