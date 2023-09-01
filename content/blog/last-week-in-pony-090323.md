@@ -60,7 +60,11 @@ A lot of disparate ground was covered, so have a listen!
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+We had another long Office Hours this week. About an hour and forty-five minutes total. We initially discussed with Red whether OpenSSL is adding full QUIC support as in, it implements the full protocol. Turns out they are and the 3.2 release will have QUIC client support in it and we assume, a later release will have server support.
+
+From there we spent a good amount of time with Victor Morrow looking for his memory corruption bug in the QUIC library he is working on. It appears that by the end, we had the problem "narrowed down" to a single `memcpy` call. But, time will tell if we were correct. Along the way, we discovered a [compilation issue](https://github.com/ponylang/ponyc/issues/4412) with some code that was merged into ponyc last month.
+
+Adrian Boyko was also in attendence and was incredibly helpful when he translated a Victor question that Sean was struggling with into "is malloc thread-safe"? Adrian is great at translating into Sean. Bless him.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
