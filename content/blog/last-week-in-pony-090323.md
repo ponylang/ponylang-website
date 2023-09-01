@@ -30,6 +30,10 @@ We've updated to post future releases while we migrate to both registries. It's 
 - `ponylang/corral`
 - `ponylang/library-documentation-action`
 - `ponylang/library-documentation-action-v2`
+- `ponylang/ponyc`
+
+We've merged the PR to start uploading builds, both nightly and release, to GitHub Container Registry. By the time you read this, nightly images will be going in. On the next release, release images will be available via GitHub Container Registry as well.
+
 - `ponylang/ponyup`
 - `ponylang/release-bot-action`
 - `ponylang/release-notes-bot-action`
@@ -39,6 +43,8 @@ We've updated to post future releases while we migrate to both registries. It's 
 - `ponylang/release-notes-reminder-bot-action`
 
 We've updated to post future releases while we migrate to both registries. It's unlikely we'll see another release before during the migration period so we uploaded tag 0.1.1 to GitHub Container Registry.
+
+That's everything that needs to move. Next up, on or after December 1st, we'll turn off pushing images to DockerHub. Please be sure to transition by then.
 
 ### Pony Development Sync
 
