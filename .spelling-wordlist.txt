@@ -264,6 +264,7 @@ LWIP
 Lystig
 macOS
 Makefile
+malloc
 mallocs
 Malmö
 Maloney

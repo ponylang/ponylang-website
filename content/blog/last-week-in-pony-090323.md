@@ -64,7 +64,7 @@ We had another long Office Hours this week. About an hour and forty-five minutes
 
 From there we spent a good amount of time with Victor Morrow looking for his memory corruption bug in the QUIC library he is working on. It appears that by the end, we had the problem "narrowed down" to a single `memcpy` call. But, time will tell if we were correct. Along the way, we discovered a [compilation issue](https://github.com/ponylang/ponyc/issues/4412) with some code that was merged into ponyc last month.
 
-Adrian Boyko was also in attendence and was incredibly helpful when he translated a Victor question that Sean was struggling with into "is malloc thread-safe"? Adrian is great at translating into Sean. Bless him.
+Adrian Boyko was also in attendance and was incredibly helpful when he translated a Victor question that Sean was struggling with into "is malloc thread-safe"? Adrian is great at translating into Sean. Bless him.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
