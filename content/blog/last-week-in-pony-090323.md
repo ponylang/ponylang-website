@@ -48,7 +48,7 @@ That's everything that needs to move. Next up, on or after December 1st, we'll t
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_08_229.m4a) from the August 29th, 2023 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2023_08_29.m4a) from the August 29th, 2023 sync is available.
 
 We covered a bunch of PR and issues. Most were related to our CirrusCI migration that we finished and our DockerHub migration that is just getting underway.
 
