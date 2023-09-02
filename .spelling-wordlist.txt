@@ -157,6 +157,7 @@ Gebbie
 geeked
 gencap
 Gentoo
+GHCR
 gists
 GitHub
 GitLab
