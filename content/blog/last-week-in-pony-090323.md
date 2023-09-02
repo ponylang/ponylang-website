@@ -80,7 +80,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Let's look at what may be a mathematical oddity of Pony: [Dividing by Zero](https://tutorial.ponylang.io/gotchas/divide-by-zero). In many languages, dividing an integer by zero is undefined or results in a runtime exception. Neither of these happen in Pony with the default integer division operator. Instead, Pony defines any number divided by zero to equal zero. But why? The reason is a practical one: performance. Dividing by zero is rare and often avoidable so we opt for the default case to reflect this. Additionally, if you want to handle division by zero we have two more options: partial division (`numerator /? denominator`) and unsafe division (`numerator /~ denominator`). The former makes division by zero an `error`, while the latter makes division by zero undefined (as in C).
 
 ---
 
