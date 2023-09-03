@@ -157,6 +157,7 @@ Gebbie
 geeked
 gencap
 Gentoo
+GHCR
 gists
 GitHub
 GitLab
@@ -264,6 +265,7 @@ LWIP
 Lystig
 macOS
 Makefile
+malloc
 mallocs
 Malmö
 Maloney
