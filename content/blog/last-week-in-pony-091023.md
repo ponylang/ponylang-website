@@ -11,6 +11,10 @@ date = "2023-09-10T07:00:06-04:00"
 
 ## Items of Note
 
+### Office Hours is Going to be Moving
+
+Sean just started a new job and he has a fairly regular recurring that conflicts with Office Hours. This past week, we moved Office Hours back by 1 hour. We haven't settled on a final "new time" for Office Hours. You are welcome to contribute to a discussion of what days/times are best for you [in the Zulip](https://ponylang.zulipchat.com/#narrow/stream/189934-general/topic/Office.20hours.20-.20need.20to.20change.20the.20time).
+
 ### Going beyond JavaScript and Actor-Based Programming
 
 Victor Morrow shared an interview with Douglas Crockford (of "JavaScript: The Good Parts" fame) in the Zulip this week.
