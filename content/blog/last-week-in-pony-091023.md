@@ -11,6 +11,14 @@ date = "2023-09-10T07:00:06-04:00"
 
 ## Items of Note
 
+### Going beyond JavaScript and Actor-Based Programming
+
+Victor Morrow shared an interview with Douglas Crockford (of "JavaScript: The Good Parts" fame) in the Zulip this week.
+
+Victor summarized the interview as:
+
+> (Crockford) talking about the need for replacement of JavaScript with an actor based programming solution. He did not seem to be aware of Pony in the talk but suggesting that there should be a language with the properties of Pony
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_09_05.m4a) from the September 5th, 2023 sync is available.
