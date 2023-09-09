@@ -1,13 +1,15 @@
 +++
 draft = false
 author = "seantallen"
-description = ""
+description = "Office Hours are moving. When? Dunno yet."
 categories = [
     "Last Week in Pony",
 ]
 title = "Last Week in Pony - September 10, 2023"
 date = "2023-09-10T07:00:06-04:00"
 +++
+
+Well, it was a week, a week that stuff happened. Some of it Pony related, some not. We suggest you listen to some [Townes Van Zandt](https://www.youtube.com/watch?v=bZqN0km-pJg) while you read this and maybe, listen to a dog whine for attention at the same time. Really gussy up your life; pony style.
 
 ## Items of Note
 
