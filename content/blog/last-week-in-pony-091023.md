@@ -23,6 +23,10 @@ Victor summarized the interview as:
 
 > (Crockford) talking about the need for replacement of JavaScript with an actor based programming solution. He did not seem to be aware of Pony in the talk but suggesting that there should be a language with the properties of Pony
 
+Dipin Hora followed up with a couple of related links for [Crockford's notes on his language](https://www.crockford.com/misty/) and [talk](https://www.youtube.com/watch?v=R2idkNdKqpQ) where he goes into it more.
+
+My personal take is to be wary of any talk about "the next programming language" but, hey, no one ever accused Crockford of [lacking hubris](https://www.youtube.com/watch?v=g4-3TPjRoSQ).
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_09_05.m4a) from the September 5th, 2023 sync is available.
