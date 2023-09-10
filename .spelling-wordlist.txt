@@ -85,6 +85,7 @@ COVID
 CPUs
 cquinn
 creational
+Crockford
 crypto
 cryptocurrencies
 cryptographic
