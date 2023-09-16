@@ -15,13 +15,13 @@ date = "2023-09-17T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_09_12.m4a) from the September 12th, 2023 sync is available.
 
-<< content >>
+This week's sync was a reasonably short affair. We ran through some PRs. Merged two important "want to get these out as soon as possible changes". We also discussed the ongoing permissions lockdown we've been doing around GitHub Actions to harden up our attack surface.
 
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
 
-<< content >>
+Office Hours rather short this week. No Pony talk. We went for 15 minutes and learned a bit about Red's RV.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
 
