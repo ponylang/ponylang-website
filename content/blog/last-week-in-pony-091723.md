@@ -32,6 +32,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 ## Releases
 
 - [ponylang/ponyc 0.56.1](https://github.com/ponylang/ponyc/releases/tag/0.56.1)
+- [ponylang/ponyc 0.56.2](https://github.com/ponylang/ponyc/releases/tag/0.56.2)
 
 ## Community Resource Highlight
 
