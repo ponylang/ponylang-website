@@ -15,6 +15,10 @@ date = "2023-09-17T07:00:06-04:00"
 
 We've released an important bug fix for Pony on Windows. You should update to 0.56.2 as soon as possible.
 
+### Office Hours is Moving
+
+Starting Friday October 6th, Office Hours is moving to a 12:30 Eastern start time. The calendar has been updated accordingly. Until then Office Hours will be at it's normal time. It has been moved to accomodate Sean's new work schedule.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_09_12.m4a) from the September 12th, 2023 sync is available.
