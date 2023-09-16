@@ -11,6 +11,10 @@ date = "2023-09-17T07:00:06-04:00"
 
 ## Items of Note
 
+### Update your ponyc for Windows ASAP
+
+We've released an important bug fix for Pony on Windows. You should update to 0.56.2 as soon as possible.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_09_12.m4a) from the September 12th, 2023 sync is available.
