@@ -17,7 +17,7 @@ We've released an important bug fix for Pony on Windows. You should update to 0.
 
 ### Office Hours is Moving
 
-Starting Friday October 6th, Office Hours is moving to a 12:30 Eastern start time. The calendar has been updated accordingly. Until then Office Hours will be at it's normal time. It has been moved to accomodate Sean's new work schedule.
+Starting Friday October 6th, Office Hours is moving to a 12:30 Eastern start time. The calendar has been updated accordingly. Until then Office Hours will be at it's normal time. It has been moved to accommodate Sean's new work schedule.
 
 ### Pony Development Sync
 
