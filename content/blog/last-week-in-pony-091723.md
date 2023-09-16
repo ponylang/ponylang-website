@@ -42,7 +42,7 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+One idea in Pony that may be unfamiliar to many is the concept of capabilities security. This is one of Pony's many "simple" ideas that have wider impact on Pony as a whole. To learn about capabilities, look at the [Object Capabilities](https://tutorial.ponylang.io/object-capabilities/object-capabilities) page of the Tutorial. The basic idea of object capabilities from a developer perspective is that they are unforgeable so having the reference **is** having the authority. But how do they appear in practice? As a package designer, you should define "authority objects" (e.g., [`FileAuth`](https://stdlib.ponylang.io/files-FileAuth/)) which then are required in your package to take certain actions (e.g., creating a file path via [FilePath.create](https://stdlib.ponylang.io/files-FilePath/#create)). As a package user, you should use the most specific authority object possible -- this is because you are handing authority to the package to do something, if you simply pass `AmbientAuth` (the root of all authority) to every package then you are giving complete authority to every package.
 
 ---
 
