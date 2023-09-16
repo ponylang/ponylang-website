@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Windows users, update your ponyc install."
 categories = [
     "Last Week in Pony",
 ]
