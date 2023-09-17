@@ -258,6 +258,7 @@ LLDB
 LLVM
 LLVM's
 Lobste
+lockdown
 Lockless
 lookups
 lori
