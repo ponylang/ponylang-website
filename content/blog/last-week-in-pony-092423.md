@@ -15,6 +15,8 @@ date = "2023-09-24T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_09_19.m4a) from the September 19th, 2023 sync is available.
 
+We kept a tight 20 minutes on this week's sync. Bang bang bang. Not a lot that would be of interest to the casual listening public, but, it's only 20 minutes, so heck. Give it a listen.
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
