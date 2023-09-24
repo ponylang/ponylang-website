@@ -1,6 +1,6 @@
 +++
 draft = false
-author = "ryan"
+author = "seantallen"
 description = "A quiet week in Pony"
 categories = [
     "Last Week in Pony",
