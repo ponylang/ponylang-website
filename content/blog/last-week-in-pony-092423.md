@@ -29,7 +29,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Writing generics in Pony sometimes requires allowing for multiple reference capabilities. The solution to this are constraints, which we have a [page in the Tutorial about](https://tutorial.ponylang.io/generics/generic-constraints).
+
+Looking at this page, we can see that constraints are applied to the type parameters. The most permissive combination is `class Foo[A: Any #any]` which is `Any` type with `#any` reference capability; this is also the default combination when both are left out so is equivalent to writing `class Foo[A]`.
 
 ---
 
