@@ -13,7 +13,9 @@ date = "2023-10-01T10:24:02-04:00"
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_09_19.m4a) from the September 19th, 2023 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2023_09_26.m4a) from the September 26th, 2023 sync is available.
+
+We kept it fairly short. We reviewed some PRs, and spent some time talking through [a type system issue causing a compiler crash](https://github.com/ponylang/ponyc/issues/4451).
 
 ### Office Hours
 
