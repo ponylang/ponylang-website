@@ -13,7 +13,7 @@ date = "2023-10-08T10:24:02-04:00"
 
 ### Pony Development Sync
 
-[Audio](<< content >>) from the October 3rd, 2023 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2023_10_03.m4a) from the October 3rd, 2023 sync is available.
 
 ### Office Hours
 
