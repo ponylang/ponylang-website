@@ -11,10 +11,6 @@ date = "2023-10-08T07:00:06-04:00"
 
 ## Items of Note
 
-### Pony Development Sync
-
-[Audio](https://sync-recordings.ponylang.io/r/2023_10_03.m4a) from the October 3rd, 2023 sync is available.
-
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
