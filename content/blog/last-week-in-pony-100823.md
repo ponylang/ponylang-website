@@ -21,7 +21,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 ## Releases
 
-- [ponylang/peg](https://github.com/ponylang/peg/releases/tag/0.1.5)
+- [ponylang/github_rest_api 0.1.3](https://github.com/ponylang/github_rest_api/releases/tag/0.1.3)
+- [ponylang/peg 0.1.5](https://github.com/ponylang/peg/releases/tag/0.1.5)
+- [ponylang/templates 0.2.4](https://github.com/ponylang/templates/releases/tag/0.2.4)
 
 ## Community Resource Highlight
 
