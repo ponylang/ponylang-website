@@ -11,6 +11,12 @@ date = "2023-10-08T07:00:06-04:00"
 
 ## Items of Note
 
+### Pony release coming
+
+We've merged a PR that fixes a [bug that allowed unsafe data usage with `recover` blocks](https://github.com/ponylang/ponyc/pull/4458). We expect to release sometime in the next couple of days.
+
+The release is a "breaking change release" in the sense that if you were doing unsafe things with `recover` blocks because the compiler was allowing it, you will need to fix your code.
+
 ### Office Hours
 
 We have an open Zoom meeting every Friday for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try.
