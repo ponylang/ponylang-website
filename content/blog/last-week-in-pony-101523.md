@@ -27,7 +27,9 @@ Pony 0.57.0 was released this past week. It fixes a flaw in the implementation o
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+It is always a sweet week in Pony when there is a compiler release so this week let us look at something equally as sweet: [sugar](https://tutorial.ponylang.io/expressions/sugar)!
+
+On the Tutorial page for syntactic sugar, we cover `create`, `apply`, `create-apply`, and `update` sugar. The first three are interrelated and as such can be confused for one another with relative ease. Given we have a type `Foo`, the create sugar is when this type is bare at the value level, `var foo = Foo` becomes `var foo = Foo.create()`. The apply sugar is when we already have an instance of this type (i.e., `var foo = Foo`) and we then call the object directly, `foo()` becomes `foo.apply()`. We can combine these together for create-apply, `var foo = Foo()` becomes `var foo = Foo.create().apply()` -- this can only be used when `Foo.create()` takes no arguments as any arguments given here are passed to `apply`. Lastly, we have update sugar where an expression such as `foo(37) = x` becomes `foo.update(37 where value = x)` -- by defining an update method that takes an argument named `value` this sugar can be used on a type you define.
 
 ---
 
