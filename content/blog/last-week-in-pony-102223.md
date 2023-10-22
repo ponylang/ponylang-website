@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "Looking for some XCode 15 testing help."
+description = "Looking for some Xcode 15 testing help."
 categories = [
     "Last Week in Pony",
 ]
@@ -11,11 +11,11 @@ date = "2023-10-22T07:00:06-04:00"
 
 ## Items of Note
 
-### XCode 15 Testing Help Needed
+### Xcode 15 Testing Help Needed
 
-A few weeks back, [an issue](https://github.com/ponylang/ponyc/issues/4454) with linking Pony programs with XCode 15 was reported by a MacOS user.
+A few weeks back, [an issue](https://github.com/ponylang/ponyc/issues/4454) with linking Pony programs with Xcode 15 was reported by a MacOS user.
 
-We have a fix that needs testing but haven't been able to get the assistance of anyone with XCode 15 installed. If you can help, please contact us on Zulip or [visit the issue](https://github.com/ponylang/ponyc/issues/4454).
+We have a fix that needs testing but haven't been able to get the assistance of anyone with Xcode 15 installed. If you can help, please contact us on Zulip or [visit the issue](https://github.com/ponylang/ponyc/issues/4454).
 
 ### Pony Development Sync
 
