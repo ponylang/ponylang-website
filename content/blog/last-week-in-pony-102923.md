@@ -22,14 +22,20 @@ Each image is updated with a new version of the Pony compiler and other tools af
 We've added:
 
 - x86-64-unknown-linux-builder-with-libressl-3.7.3
+- x86-64-unknown-linux-builder-with-openssl_1.1.1w
+- x86-64-unknown-linux-builder-with-openssl_3.1.3
 
 We've deprecated:
 
 - x86-64-unknown-linux-builder-with-libressl-3.7.2
+- x86-64-unknown-linux-builder-with-openssl_1.1.1t
+- x86-64-unknown-linux-builder-with-openssl_3.1.0
 
 We've stopped updating:
 
 - x86-64-unknown-linux-builder-with-libressl-3.5.3
+- x86-64-unknown-linux-builder-with-openssl_1.1.1q
+- x86-64-unknown-linux-builder-with-openssl_3.0.7
 
 ### Pony Development Sync
 
