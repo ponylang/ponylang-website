@@ -11,6 +11,26 @@ date = "2023-10-29T07:00:06-04:00"
 
 ## Items of Note
 
+### SSL Builder Updates
+
+It's that time of the year! Our twice a year update of our the SSL builder images we use for testing/building Pony organization projects and that we make available to the you for the same purpose.
+
+Every time around, we add a new builders, stop updating the oldest ones and let you know which ones we are deprecating. Deprecated builders will stop being updated the next time around.
+
+Each image is updated with a new version of the Pony compiler and other tools after each nightly ponyc build and after each ponyc release.
+
+We've added:
+
+- x86-64-unknown-linux-builder-with-libressl-3.7.3
+
+We've deprecated:
+
+- x86-64-unknown-linux-builder-with-libressl-3.7.2
+
+We've stopped updating:
+
+- x86-64-unknown-linux-builder-with-libressl-3.5.3
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_10_24.m4a) from the October 24th, 2023 sync is available.
