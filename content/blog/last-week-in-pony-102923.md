@@ -41,7 +41,7 @@ We've stopped updating:
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_10_24.m4a) from the October 24th, 2023 sync is available.
 
-<< content >>
+We briefly ran through some open pull requests. No special topics or extended discussions.
 
 ### Office Hours
 
