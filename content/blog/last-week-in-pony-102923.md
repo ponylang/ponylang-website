@@ -115,7 +115,7 @@ actor Ring
     end
 ```
 
-One of key differences between his code and "the code in that random repository on the Inernet" was to change the type of `next` from `(Ring | None)` to `Ring`. Thereby removing a ton of branching where each `ping` call would have to do a `match` on next to prove that it was of type `Ring`.
+One of key differences between his code and "the code in that random repository on the Internet" was to change the type of `next` from `(Ring | None)` to `Ring`. Thereby removing a ton of branching where each `ping` call would have to do a `match` on next to prove that it was of type `Ring`.
 
 Red's solution however, isn't actually a ring. It's a string of Ring actors where the last one sends a message to `Main` rather than another `Ring` and `Main` then continues "the ring" by sending a message to the first member of the "string of Rings".
 
