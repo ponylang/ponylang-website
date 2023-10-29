@@ -165,7 +165,9 @@ If you'd be interested in attending an Office Hours in the future, you should jo
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Once again we rocket off the Planet Pony! This week we are going to look at a video from [2019](https://www.ponylang.io/community/planet-pony/#2019), specifically [Safely Sharing Data: Reference Capabilities in the Pony Programming Language](https://www.youtube.com/watch?v=u1JfYa413fY).
+
+The talk is only 30 minutes so give it a listen! In it, John Mumm talks about what reference capabilities provide you, the programmer, by using them in Pony. Specifically, he discusses: data races, the two laws of sharing data, an overview of reference capabilities, and sharing data safely using Pony actors.
 
 ---
 
