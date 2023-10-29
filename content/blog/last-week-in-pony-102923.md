@@ -13,9 +13,9 @@ date = "2023-10-29T07:00:06-04:00"
 
 ### SSL Builder Updates
 
-It's that time of the year! Our twice a year update of our the SSL builder images we use for testing/building Pony organization projects and that we make available to the you for the same purpose.
+It's that time of the year! Our twice a year update of the SSL builder images we use for testing/building Pony organization projects and that we make available to the you for the same purpose.
 
-Every time around, we add a new builders, stop updating the oldest ones and let you know which ones we are deprecating. Deprecated builders will stop being updated the next time around.
+Every time around, we add new builders, stop updating the oldest ones and let you know which ones we are deprecating. Deprecated builders will stop being updated the next time around.
 
 Each image is updated with a new version of the Pony compiler and other tools after each nightly ponyc build and after each ponyc release.
 
@@ -49,9 +49,9 @@ We have an open Zoom meeting every week for the community to get together and we
 
 Starting next week, Office Hours will move from being every Friday to being every Monday. The new time will be at 4 PM Eastern. To keep up to date with Office Hours scheduling changes, be sure to [subscribe to the calendar](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics).
 
-Office Hours this week was a fun one even if Red and Sean were the only participants.
+Office Hours this week was a fun one, even if Red and Sean were the only participants.
 
-A little while back someone open an issue on the ponyc repo that boils down to "someone wrote code on the Internet that is slower than other code on the Internet". In particular, years ago someone made a repository with "ring program" examples designed to benchmark different language against one another. Someone ran the Elixir and Pony examples on their machine and reports that the Elixir version was 4 times faster than the Pony one.
+A little while back someone opened an issue on the ponyc repo that boils down to "someone wrote code on the Internet that is slower than other code on the Internet". In particular, years ago someone made a repository with "ring program" examples designed to benchmark different language against one another. Someone ran the Elixir and Pony examples on their machine and reports that the Elixir version was 4 times faster than the Pony one.
 
 The core team isn't much for entertaining such issues. They aren't actionable and aren't interesting. It is very easy to write slow code in any language if you don't know what you are doing. Red on the other hand was curious and took a look at the Pony code as an exercise of "how would I make this faster".
 
