@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Use Pony on Intel MacOS? Update your ponyc installation!"
 categories = [
     "Last Week in Pony",
 ]
@@ -10,6 +10,10 @@ date = "2023-10-29T07:00:06-04:00"
 +++
 
 ## Items of Note
+
+### Ponyc 0.57.1 Released
+
+Pony version 0.57.1 has been released. The only change of note is a fix for MacOS users on Intel CPUs. You might not have a problem now, but whenever you update to XCode 15, you will. Update to 0.57.1 so you don't have a XCode 15 issue later.
 
 ### SSL Builder Updates
 
@@ -160,6 +164,10 @@ actor Node
 There's still a match here, but it is only on the creation of each `Node` rather than each time one has a message sent to it. Additionally, when output needs to be done "after all work is complete", there's only a single actor "the boss" that will do the printing. And it will do a single, one time match on `_out` to prove that it has been set to `OutStream` instead of `None`.
 
 If you'd be interested in attending an Office Hours in the future, you should join some time, there's a [calendar you can subscribe to](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics) to stay up-to-date with the schedule. We do our best to keep the calendar up-to-date.
+
+## Releases
+
+- [ponylang/ponyc 0.57.1](https://github.com/ponylang/ponyc/releases/tag/0.57.1)
 
 ## Community Resource Highlight
 
