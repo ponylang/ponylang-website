@@ -27,10 +27,6 @@ There was some discussion of C++ co-routines. A lot about Go's concurrency model
 
 We had a good time. You should join us on the 6th.
 
-## Releases
-
-<< content >>
-
 ## Community Resource Highlight
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
