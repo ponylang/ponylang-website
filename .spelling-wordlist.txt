@@ -482,6 +482,7 @@ Turley's
 ubench
 UI
 ultrafast
+unary
 unforgeable
 unsession
 untracked
