@@ -23,7 +23,7 @@ We have an open Zoom meeting every week for the community to get together and we
 
 This week we held Office Hours at our new time: 4 PM Eastern on Mondays. We had a better attendance than we did with the previous and short-lived Friday mid-day slot.
 
-There was some discussion of C++ co-routines. A lot about Go's concurrency model. Some about the differences between Erlang and Pony. Most of the conversation flowed from a discussion of how silly we found it that there's a repository on the Internet that trying to compare an Erlang actor model implementation of a toy problem to other concurrency models. In particular, that it attempts to compare performance when in many languages like Go, it's an entirely different program and the toy problem doesn't even make sense in Go.
+There was some discussion of C++ co-routines. A lot about Go's concurrency model. Some about the differences between Erlang and Pony. Most of the conversation flowed from a discussion of how silly we found it that there's a repository on the Internet that is trying to compare an Erlang actor model implementation of a toy problem to other concurrency models. In particular, that it attempts to compare performance when in many languages like Go, it's an entirely different program and the toy problem doesn't even make sense in Go.
 
 We had a good time. You should join us on the 6th.
 
