@@ -37,7 +37,7 @@ We like to take a moment in each Last Week in Pony to highlight a community reso
 
 With Pony being a volunteer driven project, there are some weeks where active contributors have time and a lot gets done. Other weeks, active contributors are otherwise busy and we have a quiet week. For those that love Pony as much as we do, this week we want to highlight ways to [contribute to Pony](https://www.ponylang.io/contribute/).
 
-Great ways to contribute include triaging issues, writing documentation, and tackling issues labeled as "good first issue" -- any of these are immensely helpful. As of this week, "good first issues" are posted to the [contribute to pony Zulip channel ](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
+Great ways to contribute include triaging issues, writing documentation, and tackling issues labeled as "good first issue" -- any of these are immensely helpful. As of this week, "good first issues" are posted to the [contribute to pony Zulip channel](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
 
 ---
 
