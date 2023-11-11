@@ -15,7 +15,11 @@ date = "2023-11-12T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_11_07.m4a) from the November 7th, 2023 sync is available.
 
-<< content >>
+We ran through our single item agenda pretty quick, but then there's some discussion after. All of it is about our new "bot" that posts "good first issue" items to Zulip.
+
+We need some assistance with it, please help!
+
+See [https://github.com/ponylang/pony-sync-helper/issues/18](https://github.com/ponylang/pony-sync-helper/issues/18).
 
 ### Office Hours
 
