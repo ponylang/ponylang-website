@@ -35,7 +35,9 @@ Join us and you won't need a summary!
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+With Pony being a volunteer driven project, there are some weeks where active contributors have time and a lot gets done. Other weeks, active contributors are otherwise busy and we have a quiet week. For those that love Pony as much as we do, this week we want to highlight ways to [contribute to Pony](https://www.ponylang.io/contribute/).
+
+Great ways to contribute include triaging issues, writing documentation, and tackling issues labeled as "good first issue" -- any of these are immensely helpful. As of this week, "good first issues" are posted to the [contribute to pony Zulip channel ](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
 
 ---
 
