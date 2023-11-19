@@ -25,7 +25,7 @@ There were no office hours this week.
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-The latest addition to Pony's community resources is the bot that posts a digest of "good first issues" to the [contribute to Pony](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony) channel in Zulip. In Zulip, many channels -- including contribute to Pony -- are publicly readable. There is no need to sign up in order to see the [digest](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony/topic/Good.20first.20issues.20as.20of.202023-11-13) from this past week. Although you may not need a Zulip account to view the digest, you do need an account to post in Zulip.
+The latest addition to Pony's community resources is the bot that posts a digest of "good first issues" to the [contribute to Pony](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony) channel in Zulip. In Zulip, many channels -- including contribute to Pony -- are publicly readable. There is no need to sign up in order to see the [digest](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony/topic/Good.20first.20issues.20as.20of.202023-11-13) from this past week.
 
 ---
 
