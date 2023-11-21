@@ -21,7 +21,11 @@ date = "2023-11-26T07:00:06-04:00"
 
 We have an open Zoom meeting every week for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try. The meeting is open to anyone. Stay up-to-date with the schedule by [subscribing to the Office Hours calender](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics). Hopefully, we'll see you at an Office Hours soon.
 
-<< content >>
+Office Hours today was Sean and Dipin helping Red trackdown a bug in his [pseudorandom permutation](https://en.wikipedia.org/wiki/Pseudorandom_permutation) code that he is building for a work project.
+
+Turns out the bug was that the algorithm that Red was using requires the size of collection to be combined with a number that is [coprime](https://en.wikipedia.org/wiki/Coprime_integers) with the size and Red's weren't.
+
+Interested in background? Check out the [initial conversation](https://ponylang.zulipchat.com/#narrow/stream/234733-off-topic/topic/Algorithm.20Request.3A.20uniform.20and.20100.25.20coverage.20prng) from the Ponylang Zulip.
 
 ## Community Resource Highlight
 
