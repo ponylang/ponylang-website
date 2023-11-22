@@ -21,7 +21,9 @@ Existing images that are in DockerHub will remain there, but no need images or u
 
 ### The Great DockerHub Migration
 
-We've migrated all `ponylang/ponyc` release images that were ever created from DockerHub to GitHub Container Registry. You can now pull any image going back to 0.13.0 from GitHub Container Registry.
+We've migrated all `ponylang/ponyc` Linux release images that were ever created from DockerHub to GitHub Container Registry. You can now pull any image going back to 0.13.0 from GitHub Container Registry.
+
+We haven't and don't intend to migrate the Windows images.
 
 ### Office Hours
 
