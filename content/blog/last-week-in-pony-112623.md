@@ -11,6 +11,10 @@ date = "2023-11-26T07:00:06-04:00"
 
 ## Items of Note
 
+### The Great DockerHub Migration
+
+We've migrated all `ponylang/ponyc` release images that were ever created from DockerHub to GitHub Container Registry. You can now pull any image going back to 0.13.0 from GitHub Container Registry.
+
 ### Office Hours
 
 We have an open Zoom meeting every week for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try. The meeting is open to anyone. Stay up-to-date with the schedule by [subscribing to the Office Hours calender](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics). Hopefully, we'll see you at an Office Hours soon.
