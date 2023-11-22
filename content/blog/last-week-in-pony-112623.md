@@ -11,6 +11,14 @@ date = "2023-11-26T07:00:06-04:00"
 
 ## Items of Note
 
+### DockerHub Deprecation is Here
+
+Sometime in the next two weeks, we will stop pushing all our container images to DockerHub. We will only be pushing to GitHub Container Registry. If you are using images that are updated regularly like `ponylang/ponyc:latest` or `ponylang/ponyc:release`, you'll need to start pulling them from the GitHub Container Registry.
+
+For example where you previously referenced `ponylang/ponyc:latest` you will now need to reference `ponylang/ponyc:release`.
+
+Existing images that are in DockerHub will remain there, but no need images or updates to existing images will happen.
+
 ### The Great DockerHub Migration
 
 We've migrated all `ponylang/ponyc` release images that were ever created from DockerHub to GitHub Container Registry. You can now pull any image going back to 0.13.0 from GitHub Container Registry.
