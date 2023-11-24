@@ -11,6 +11,12 @@ date = "2023-11-26T07:00:06-04:00"
 
 ## Items of Note
 
+### Ponyc 0.58.0 has been released
+
+We released Ponyc version 0.58.0 on Black Friday. It is technically a break change release as we disallowed the usage of `return` at the end of `with` blocks. Previously this was allowed and did create programs that woud run but it also created invalid LLVM IR which might for some programs result in bugs.
+
+Additionally, we made validating LLVM IR a standard compilation step for Pony programs so we catch issues like this sooner. If any of your programs complain about invalid IR, please [open an issue](https://github.com/ponylang/ponyc/issues/new) and add the `--noverify` flag when compiling.
+
 ### DockerHub Deprecation is Here
 
 Sometime in the next two weeks, we will stop pushing all our container images to DockerHub. We will only be pushing to GitHub Container Registry. If you are using images that are updated regularly like `ponylang/ponyc:latest` or `ponylang/ponyc:release`, you'll need to start pulling them from the GitHub Container Registry.
@@ -34,6 +40,10 @@ Office Hours today was Sean and Dipin helping Red track down a bug in his [pseud
 Turns out the bug was that the algorithm that Red was using requires the size of collection to be combined with a number that is [coprime](https://en.wikipedia.org/wiki/Coprime_integers) with the size and Red's weren't.
 
 Interested in background? Check out the [initial conversation](https://ponylang.zulipchat.com/#narrow/stream/234733-off-topic/topic/Algorithm.20Request.3A.20uniform.20and.20100.25.20coverage.20prng) from the Ponylang Zulip.
+
+## Releases
+
+- [ponylang/ponyc 0.58.0](https://github.com/ponylang/ponyc/releases/tag/0.58.0)
 
 ## Community Resource Highlight
 
