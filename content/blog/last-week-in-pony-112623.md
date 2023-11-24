@@ -13,7 +13,7 @@ date = "2023-11-26T07:00:06-04:00"
 
 ### Ponyc 0.58.0 has been released
 
-We released Ponyc version 0.58.0 on Black Friday. It is technically a break change release as we disallowed the usage of `return` at the end of `with` blocks. Previously this was allowed and did create programs that woud run but it also created invalid LLVM IR which might for some programs result in bugs.
+We released Ponyc version 0.58.0 on Black Friday. It is technically a break change release as we disallowed the usage of `return` at the end of `with` blocks. Previously this was allowed and did create programs that would run but it also created invalid LLVM IR which might for some programs result in bugs.
 
 Additionally, we made validating LLVM IR a standard compilation step for Pony programs so we catch issues like this sooner. If any of your programs complain about invalid IR, please [open an issue](https://github.com/ponylang/ponyc/issues/new) and add the `--noverify` flag when compiling.
 
