@@ -23,7 +23,7 @@ Sometime in the next two weeks, we will stop pushing all our container images to
 
 For example where you previously referenced `ponylang/ponyc:latest` you will now need to reference `ponylang/ponyc:release`.
 
-Existing images that are in DockerHub will remain there, but no need images or updates to existing images will happen.
+Existing images that are in DockerHub will remain there, but no new images or updates to existing images will happen.
 
 ### The Great DockerHub Migration
 
