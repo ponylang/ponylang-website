@@ -49,7 +49,7 @@ Interested in background? Check out the [initial conversation](https://ponylang.
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+When sharing minimal examples of Pony code, it can be useful to share the environment as well. Thankfully, Pony provides the [Pony Playground](https://playground.ponylang.io/) for just this purpose. After entering your minimal example into the Playground, you can shared a link to the example by clicking the Share button at the top. This is a great way to share a code snippet when asking a question in the Ponylang Zulip or requesting assistance with debugging a confusing compilation message.
 
 ---
 
