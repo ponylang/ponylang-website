@@ -21,7 +21,7 @@ Additionally, we made validating LLVM IR a standard compilation step for Pony pr
 
 Sometime in the next two weeks, we will stop pushing all our container images to DockerHub. We will only be pushing to GitHub Container Registry. If you are using images that are updated regularly like `ponylang/ponyc:latest` or `ponylang/ponyc:release`, you'll need to start pulling them from the GitHub Container Registry.
 
-For example where you previously referenced `ponylang/ponyc:latest` you will now need to reference `ponylang/ponyc:release`.
+For example where you previously referenced `ponylang/ponyc:latest` you will now need to reference `ghcr.io/ponylang/ponyc:latest`.
 
 Existing images that are in DockerHub will remain there, but no new images or updates to existing images will happen.
 
