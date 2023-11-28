@@ -11,6 +11,12 @@ date = "2023-12-03T07:00:06-04:00"
 
 ## Items of Note
 
+### Pony Development Sync
+
+[Audio](https://sync-recordings.ponylang.io/r/2023_11_28.m4a) from the November 28th, 2023 sync is available.
+
+We had a short agenda that we ran through pretty quickly. It was almost entirely pull requests opened by Sean that closed "good first issues" posted to the [contribute to pony Zulip stream](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
+
 ### Office Hours Cancellations
 
 Office Hours won't be held on Christmas and New Year's Day. We will have a two week gap in Office Hours meetings. We will be holding other meetings on our normal schedule.
