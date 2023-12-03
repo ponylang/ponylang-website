@@ -35,7 +35,9 @@ Interested in background? Check out the [initial conversation](https://ponylang.
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Pony is a highly concurrent, actor-based language. This high concurrency can have an effect where many actors are generated to share a workload (i.e., "fan out") which all then report results to a single actor (i.e., "fan in"). When this is well-balanced life is good and all is well, but when unbalanced it can lead to massive slow down. One possible reason for such a slow down is the "thundering herd" problem which necessitates a well-implemented backpressure system. In general, a backpressure system allows for those parts of a system that are causing strain to be temporarily stopped so the rest of the system can reduce that strain. The Pony backpressure system allows us to mitigate problems such as the "thundering herd" by re-balancing resource usage (i.e., which actors are scheduled on finite cores).
+
+This week we invite you to watch the Virtual User Group video [An informal tour of the Pony backpressure system](https://vimeo.com/707155973). In this video, Sean explains how the Pony backpressure system works. After watching the video, take a look at some of the examples that use the backpressure system such as [fan-in](https://github.com/ponylang/ponyc/tree/main/examples/fan-in), [overload](https://github.com/ponylang/ponyc/tree/main/examples/overload), and [under_pressure](https://github.com/ponylang/ponyc/tree/main/examples/under_pressure).
 
 ---
 
