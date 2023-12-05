@@ -21,7 +21,7 @@ If you are using any Pony related container images that are coming from DockerHu
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_12_05.m4a) from the December 5th, 2023 sync is available.
 
-<< content >>
+We had a short sync this week. Primarily, we ran through the PRs to finish the DockerHub migration.
 
 ### Office Hours
 
