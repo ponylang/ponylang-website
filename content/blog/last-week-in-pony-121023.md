@@ -35,7 +35,7 @@ Interested in background? Check out the [initial conversation](https://ponylang.
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+When beginning to use Pony you may run into a few common errors that are initially confusing. Thankfully, we have a page on the Pony Tutorial walking through why [some common errors](https://tutorial.ponylang.io/appendices/error-messages) occur and how to fix them. Not all the most common error messages are there -- what is common for one person is not common for another -- so if you face a difficult-to-decipher error message feel to reach out on the [beginner help](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help) channel on Zulip!
 
 ---
 
