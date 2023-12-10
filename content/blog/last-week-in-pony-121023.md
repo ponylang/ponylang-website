@@ -13,7 +13,7 @@ date = "2023-12-10T07:00:06-04:00"
 
 ### DockerHub Migration Update
 
-We've stopped pushing new images to DockerHub. There might be a stray image here or there that we missed, but, you can consider the migration done.
+We've stopped pushing new images to DockerHub. There might be a stray image here or there that we missed, but you can consider the migration done.
 
 If you are using any Pony related container images that are coming from DockerHub and they are using a "release" or "latest" tag or other equivalent, update to getting the same image from GitHub Container Registry.
 
