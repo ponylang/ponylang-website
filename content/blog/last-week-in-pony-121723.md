@@ -11,6 +11,10 @@ date = "2023-12-17T07:00:06-04:00"
 
 ## Items of Note
 
+### Holiday Sync Cancellations
+
+We're cancelling our development sync meetings on the 26th of December and the 2nd of January given their proximity to holidays. Our final sync meeting of the year will be Tuesday December 19th.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_12_12.m4a) from the December 12th, 2023 sync is available.
