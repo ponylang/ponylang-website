@@ -31,7 +31,7 @@ There was no Office Hours this past week. Sean was ill.
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Occasionally, someone looking at Pony for the first time will be coming from a Rust background and wonder how the two languages compare. Thankfully, we have a few existing resources! One was recorded as part of the Virtual Users Group, where Matthias Wahl gave a talk on [Pony vs Rust: How they both drive you mad at compile time](https://vimeo.com/574893226). Definitely worth a watch!
 
 ---
 
