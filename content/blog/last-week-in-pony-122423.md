@@ -11,6 +11,10 @@ date = "2023-12-24T07:00:06-04:00"
 
 ## Items of Note
 
+### Holidays
+
+We are taking a break for the holidays. There will be no Office Hours or Pony Development Sync meetings the next two weeks. The next meeting will be Office Hours on January 8th.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2023_12_19.m4a) from the December 19th, 2023 sync is available.
