@@ -25,7 +25,7 @@ It was a very short sync. We ran through the agenda which was one pull request a
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Perhaps the most useful community resource of all is the documentation your fellow developers wrote so that you may use the code they wrote. Documentation for the Pony Standard Library is published at <https://stdlib.ponylang.io/>. The ability to generate documentation is built into `ponyc` so you can build documentation for your own code by running either `ponyc path/tp/your/package --docs` (for all types) or `ponyc path/tp/your/package --docs-public` (for public types). This will generate the documentation in a new directory which you can then build into a website using `mkdocs build`. Note that you can also limit which pass the compiler generates the documentation from. For example, the Pony Standard Library documentation is built using `ponyc packages/stdlib --docs-public --pass expr`.
 
 ---
 
