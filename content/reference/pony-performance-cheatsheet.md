@@ -337,7 +337,7 @@ class UsesFoo
 
 Which is better for performance? Well, it depends. How often is the input to `zero_is_bad` going to be 0? The more often it is, the worse the error version will perform compared to the union type version. If the `i` parameter to `zero_is_bad` is rarely 0, then the error version will perform better than the union type version.
 
-Our union type version contains additional logic that will be executed on every single call. We have to match against the result of `zero_is_bad` to determine if you got a `U64` or `None`. You are going to pay that cost *every single time*.
+Our union type version contains additional logic that will be executed on every single call. We have to match against the result of `zero_is_bad` to determine if you got a `U64` or `ZeroIsBad`. You are going to pay that cost *every single time*.
 
 How do you know which is the best version? Well, there is no best version. There is only a version that will work better based on the inputs you are expecting. Pick wisely. Here's our general rule of thumb. If it's in hot path code, and you are talking about `error` happening in terms that are less than 1 in millions, you probably want the union type. But again, the only way to know is to test.
 
