@@ -1,25 +1,31 @@
 +++
 draft = false
 author = "seantallen"
-description = "Party like its 2024."
+description = "May Santa bring you much awesome tonight."
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - December 31, 2023"
-date = "2023-12-31T07:00:06-04:00"
+title = "Last Week in Pony - December 24, 2023"
+date = "2023-12-24T07:00:06-04:00"
 +++
 
 ## Items of Note
 
-## Meetings reminder
+### Holidays
 
-Reminder, there will be no Pony Development Sync, nor Office Hours this week. We'll see y'all again on the 8th.
+We are taking a break for the holidays. There will be no Office Hours or Pony Development Sync meetings the next two weeks. The next meeting will be Office Hours on January 8th.
+
+### Pony Development Sync
+
+[Audio](https://sync-recordings.ponylang.io/r/2023_12_19.m4a) from the December 19th, 2023 sync is available.
+
+It was a very short sync. We ran through the agenda which was one pull request and one issue.
 
 ## Community Resource Highlight
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-As we enter a new year, why not make it a resolution to try Pony? The central place for learning Pony is the [Pony Tutorial](https://tutorial.ponylang.io/). It is recommended to start by reading through the Tutorial as it walks you through installing Pony then tours you through how Pony works. Once you complete the Tutorial, try your hand at solving a few problems relevant to your area of work. As you work through your first problems, it might be helpful to keep the [Pony Cheatsheet](https://www.ponylang.io/media/cheatsheet/pony-cheat-sheet.pdf) close by as a reference. If you learn like many, you may want to try "`printf()` debugging" which Pony's capabilities system can make difficult which is why we have a [debug](https://stdlib.ponylang.io/debug--index/) package which gives you the ability to inject print statements to STDOUT and/or STDERR as you work through problems.
+Perhaps the most useful community resource of all is the documentation your fellow developers wrote so that you may use the code they wrote. Documentation for the Pony Standard Library is published at <https://stdlib.ponylang.io/>. The ability to generate documentation is built into `ponyc` so you can build documentation for your own code by running either `ponyc path/tp/your/package --docs` (for all types) or `ponyc path/tp/your/package --docs-public` (for public types). This will generate the documentation in a new directory which you can then build into a website using `mkdocs build`. Note that you can also limit which pass the compiler generates the documentation from. For example, the Pony Standard Library documentation is built using `ponyc packages/stdlib --docs-public --pass expr`.
 
 ---
 
