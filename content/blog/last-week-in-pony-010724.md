@@ -5,7 +5,7 @@ description = "<< content >>"
 categories = [
     "Last Week in Pony",
 ]
-title = "Last Week in Pony - Jamuary 7, 2024"
+title = "Last Week in Pony - January 7, 2024"
 date = "2024-01-07T07:00:06-04:00"
 +++
 
