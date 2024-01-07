@@ -19,7 +19,7 @@ We'll be starting up Office Hours and the Development Sync again this week.
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+When working on a heavily recursive problem it is best to write tail-recursive functions. Writing such a function requires the last instruction of the function to be a call to the same function, such as in the [Recursion](https://tutorial.ponylang.io/gotchas/recursion) page of the Tutorial. Note that in the non-recursive version of the function the last instruction will be the multiplication, while in the recursive version it will be the function again.
 
 ---
 
