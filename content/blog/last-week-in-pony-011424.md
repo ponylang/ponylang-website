@@ -30,7 +30,7 @@ Greg is the author of ["Software Design by Example"](https://third-bit.com/sdxpy
 
 Greg is looking to do a version of Software Design by Example about concurrent programming and distributed systems. He stopped by to chat about if Pony would be a good language to use for teaching.
 
-The three of us discussed things we like in different languages vis-a-vis learning. We got a decent understand of how we all think about the subjects of "complexity" and "simplicity" in terms of pedagogy.
+The three of us discussed things we like in different languages that help with learning. We got a decent understand of how we all think about the subjects of "complexity" and "simplicity" in terms of pedagogy.
 
 The last 20 minutes, we discussed why Pony would be a good language for Greg to use and what might be difficult. A lot of the difficult is in the "getting tools installed" phase. Pony currently lacks prebuilt binaries for Apple Silicon based MacOS. It also only has prebuilt binaries for a couple Ubuntu versions and a version of Alpine.
 
