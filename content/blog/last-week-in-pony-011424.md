@@ -23,6 +23,10 @@ We have an open Zoom meeting every week for the community to get together and we
 
 << content >>
 
+## Releases
+
+- [ponylang/peg 0.1.6](https://github.com/ponylang/peg/releases/tag/0.1.6)
+
 ## Community Resource Highlight
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
