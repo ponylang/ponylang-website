@@ -25,7 +25,6 @@ We had a really good Office Hours this week. It was a great way to return after 
 
 Greg is the author of ["Software Design by Example"](https://third-bit.com/sdxpy/). The description from his website is as follows:
 
-
 > The best way to learn design in any field is to study examples, and the most approachable examples are ones that readers are already familiar with. These lessons therefore build small versions of tools that programmers use every day to show how experienced software designers think. Along the way, they introduce some fundamental ideas in computer science that many self-taught programmers haven’t encountered. We hope these lessons will help you design better software yourself, and that if you know how programming tools work, you’ll be more likely to use them and better able to use them well.
 
 Greg is looking to do a version of Software Design by Example about concurrent programming and distributed systems. He stopped by to chat about if Pony would be a good language to use for teaching.
