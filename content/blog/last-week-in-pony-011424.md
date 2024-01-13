@@ -15,7 +15,7 @@ date = "2024-01-14T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_09.m4a) from the January 9th, 2023 sync is available.
 
-<< content >>
+We had a short agenda. We ran through it. Pretty standard for a Pony Development Sync.
 
 ### Office Hours
 
