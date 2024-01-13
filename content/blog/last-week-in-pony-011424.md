@@ -17,6 +17,11 @@ We've had a report that some code written with the [HTTP library](https://github
 
 You can follow along with the issue [on the ponylang/NetSSL issue](https://github.com/ponylang/net_ssl/issues/105).
 
+### New OpenSSL builder added
+
+We've added a new OpenSSL builder and made it publicly available. We'll be using it to test the OpenSSL 3.2 bug. You can use it for whatever you want, it's
+available as `ghcr.io/shared-docker-ci-x86-64-unknown-linux-builder-with-openssl_3.2.0`.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_09.m4a) from the January 9th, 2023 sync is available.
