@@ -11,6 +11,12 @@ date = "2024-01-14T07:00:06-04:00"
 
 ## Items of Note
 
+### OpenSSL 3.2 related bug
+
+We've had a report that some code written with the [HTTP library](https://github.com/ponylang/http) that uses OpenSSL 3.2 via the [NetSSL library](https://github.com/ponylang/net_ssl) "has a bug". The bug presents as a program hang when compiled in release mode and as a segmentation fault when compiled in debug mode.
+
+You can follow along with the issue [on the ponylang/NetSSL issue](https://github.com/ponylang/net_ssl/issues/105).
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_09.m4a) from the January 9th, 2023 sync is available.
