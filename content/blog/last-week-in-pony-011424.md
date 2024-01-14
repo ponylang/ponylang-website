@@ -58,7 +58,7 @@ Adrian and Sean both think that Pony has many features that make it a great teac
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Pony uses a system of reference capabilities to ensure its safe concurrency. These reference capabilities (often shortened to "refcaps") are: `iso`, `trn`, `ref`, `val`, `box`, and `tag`. There is a whole Pony Tutorial chapter on [Reference Capabilities](https://tutorial.ponylang.io/reference-capabilities/). While these refcaps can often be understood individually with a little bit of practice, it can be helpful to refer to the [Capability Matrix](https://tutorial.ponylang.io/reference-capabilities/capability-matrix). You should take note of how the matrix is about denial, not allowance. Even if we would normally talk about what a refcap **can** do, you will get a deeper understanding by switching your thinking to what a refcap **cannot** do. For example, both an `iso` and a `ref` can be read from and written to, however because an `iso` cannot be aliased (locally or globally) it is safe to share between actors.
 
 ---
 
