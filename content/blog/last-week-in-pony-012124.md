@@ -25,7 +25,7 @@ We have an open Zoom meeting every week for the community to get together and we
 
 ## Releases
 
-<< content >>
+- [ponylang/net_ssl 1.3.2](https://github.com/ponylang/net_ssl/releases/tag/1.3.2)
 
 ## Community Resource Highlight
 
