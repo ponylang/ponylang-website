@@ -15,7 +15,9 @@ date = "2024-01-21T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_16.m4a) from the January 16th, 2023 sync is available.
 
-<< content >>
+Today's sync featured a couple of interesting topics. We had a discussion about improvements that could be made to the [ponylang/http library](https://github.com/ponylang/http).
+
+We also discussed whether a small "library" that Sean is working on should go through the RFC process to become part of the standard library or should be done as a library under the [ponylang organization](https://github.com/ponylang). It was eventually decided to open an RFC for inclusion in the standard library and for discussion of nuances of adding a "validation error" type. The audio mentions code that demonstrates the key principles of the validation library. You can find a gist of the code [here](https://playground.ponylang.io/?gist=7aadb11e921d000b5758cb424c707be1).
 
 ### Office Hours
 
