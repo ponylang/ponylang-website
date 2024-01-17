@@ -33,7 +33,7 @@ We have an open Zoom meeting every week for the community to get together and we
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week let us look at a pattern in Pony code concerning the [Supply Chain](https://patterns.ponylang.io/creation/supply-chain) of dependencies. Due to Pony's asynchronous, actor model design we can find ourselves in situations where we might naively want to "communicate back" failure. This is not the best approach due to the way Pony error handling works and the requirement that constructors be total functions. Taken together, these two intentional design elements require rethinking how we handle creating objects that can fail creation. The short answer to this problematic situation is to fully initialize our dependencies -- allow us to handle their error scenarios separately -- then supply these fully initialized dependencies to the constructor. This pattern is called  __dependency injection__.
 
 ---
 
