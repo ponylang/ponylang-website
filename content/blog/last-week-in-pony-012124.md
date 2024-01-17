@@ -11,6 +11,14 @@ date = "2024-01-21T07:00:06-04:00"
 
 ## Items of Note
 
+### Update your "HTTP related" dependencies
+
+That week we discovered a [bug related to OpenSSL 3.2](https://www.ponylang.io/blog/2024/01/last-week-in-pony---january-14-2024/#openssl-3-2-related-bug).
+
+This week, we released new versions of [ponylang/net_ssl](https://github.com/ponylang/net_ssl), [ponylang/http](https://github.com/ponylang/http), and [ponylang/http_server](https://github.com/ponylang/http_server) to fix the issue on the Pony side of things.
+
+If you use any of those libraries, we advise updating as soon as possible.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_16.m4a) from the January 16th, 2023 sync is available.
