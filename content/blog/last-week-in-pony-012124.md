@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Update your HTTP library related dependencies."
 categories = [
     "Last Week in Pony",
 ]
