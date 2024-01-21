@@ -26,6 +26,7 @@ We have an open Zoom meeting every week for the community to get together and we
 ## Releases
 
 - [ponylang/http 0.6.0](https://github.com/ponylang/http/releases/tag/0.6.0)
+- [ponylang/github_rest_api 0.1.4](https://github.com/ponylang/github_rest_api/releases/tag/0.1.4)
 
 ## Community Resource Highlight
 
