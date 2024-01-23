@@ -11,6 +11,10 @@ date = "2024-01-28T07:00:06-04:00"
 
 ## Items of Note
 
+### New Pony Pattern
+
+A new Pony Pattern ["Static Constructor"](https://patterns.ponylang.io/creation/static-constructor) has been added.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_23.m4a) from the January 23rd, 2023 sync is available.
