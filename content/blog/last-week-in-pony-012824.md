@@ -30,17 +30,17 @@ Adrian and Sean talked about grapefruit. If you had shown up and asked some Pony
 - [ponylang/http 0.6.0](https://github.com/ponylang/http/releases/tag/0.6.0)
 - [ponylang/github_rest_api 0.1.4](https://github.com/ponylang/github_rest_api/releases/tag/0.1.4)
 
-## Community Resource Highlight
-
-We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
-
-<< content >>
-
 ## RFCs
 
 ### New RFCs
 
 - [Constrained Types](https://github.com/ponylang/rfcs/pull/213)
+
+## Community Resource Highlight
+
+We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
+
+<< content >>
 
 ---
 
