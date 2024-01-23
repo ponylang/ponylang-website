@@ -19,7 +19,7 @@ A new Pony Pattern ["Static Constructor"](https://patterns.ponylang.io/creation/
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_23.m4a) from the January 23rd, 2023 sync is available.
 
-<< content >>
+We had a short agenda. Most of it was spent discussing the new [Constrained Types RFC](https://github.com/ponylang/rfcs/pull/213) which underwent some naming revisions as a result.
 
 ### Office Hours
 
