@@ -41,8 +41,9 @@ Adrian and Sean talked about grapefruit. If you had shown up and asked some Pony
 
 ## Releases
 
-- [ponylang/http 0.6.0](https://github.com/ponylang/http/releases/tag/0.6.0)
 - [ponylang/github_rest_api 0.1.4](https://github.com/ponylang/github_rest_api/releases/tag/0.1.4)
+- [ponylang/http 0.6.0](https://github.com/ponylang/http/releases/tag/0.6.0)
+- [ponylang/ponyc 0.58.1](https://github.com/ponylang/ponyc/releases/tag/0.58.1)
 
 ## RFCs
 
