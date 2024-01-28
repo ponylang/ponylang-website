@@ -55,7 +55,7 @@ Adrian and Sean talked about grapefruit. If you had shown up and asked some Pony
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+This week we are going to draw our attention to the new ["Static Constructor"](https://patterns.ponylang.io/creation/static-constructor) pattern. This pattern is one that you can use if you want to construct objects that may fail construction or return a helpful error upon failure. By default Pony constructors either return a fully initialized instance of their class or, if the constructor is partial, fail completely via `error` handling. If instead we want insight into _why_ construction failed we should use the new ["Static Constructor"](https://patterns.ponylang.io/creation/static-constructor) pattern!
 
 ---
 
