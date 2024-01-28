@@ -19,9 +19,9 @@ A new Pony Pattern ["Static Constructor"](https://patterns.ponylang.io/creation/
 
 Sean T. Allen's [Lori](https://github.com/ponylang/lori) project has become a [ponylang org](https://github.com/ponylang/) project.
 
-It's new home is [https://github.com/ponylang/lori](https://github.com/ponylang/lori).
+Its new home is [https://github.com/ponylang/lori](https://github.com/ponylang/lori).
 
-The plan is for it to some day provide the functionality of our standard library TCP classes as well as a set of drop-in replacement classes so that it can be moved into the standard library.
+The plan is for it to someday provide the functionality of our standard library TCP classes as well as a set of drop-in replacement classes so that it can be moved into the standard library.
 
 Interested in help? Drop by the [Zulip's 'contribute to Pony' stream](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony) and let's chat.
 
