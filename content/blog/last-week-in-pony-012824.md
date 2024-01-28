@@ -27,7 +27,7 @@ Interested in help? Drop by the [Zulip's 'contribute to Pony' stream](https://po
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2024_01_23.m4a) from the January 23rd, 2023 sync is available.
+[Audio](https://sync-recordings.ponylang.io/r/2024_01_23.m4a) from the January 23rd, 2024 sync is available.
 
 We had a short agenda. Most of it was spent discussing the new [Constrained Types RFC](https://github.com/ponylang/rfcs/pull/213) which underwent some naming revisions as a result.
 
