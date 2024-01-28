@@ -91,7 +91,7 @@ actor Main
     foo()
 ```
 
-Check out [the example program in the Pony Playground](https://playground.ponylang.io/?gist=26fce9986dd82a58f8bcd5197e22121f).
+Check out [the example program in the Pony Playground](https://playground.ponylang.io/?gist=0045ecb177ab3adf06b5477fc53bdfb7).
 
 For more information see the [Sugar](https://tutorial.ponylang.io/expressions/sugar.html) section of the the tutorial.
 

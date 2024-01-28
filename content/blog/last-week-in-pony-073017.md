@@ -23,7 +23,7 @@ At this time this "Last Week in Pony" was published, we were in [the process of 
 
 - Matthias Wahl announced [Ponycheck](https://github.com/mfelsche/ponycheck)- a property based testing tool for Pony. For more details, check out the [announcement on the mailing list](https://pony.groups.io/g/user/message/1263).
 - Stewart Gebbie announced [Pony Watcher](https://github.com/sgebbie/pony-watcher). Some scripts he uses to speed up his development cycle. Learn more from his [mailing list announcement](https://pony.groups.io/g/user/message/1264).
-- The [Pony Playground](https://playground.ponylang.io/) now compiles your programs in debug mode. This change makes `Debug.out("foo")` now result in output. [Enjoy](https://playground.ponylang.io/?gist=8835236a430b10147eb640825ba73b5f)!
+- The [Pony Playground](https://playground.ponylang.io/) now compiles your programs in debug mode. This change makes `Debug.out("foo")` now result in output. [Enjoy](https://playground.ponylang.io/?gist=66aab8cfb7fb9be14b7d2c2b9b91b617)!
 - We're looking for help putting together documentation on how to cross-compile Pony programs. If you have experience and can help, [please respond on the mailing list](https://pony.groups.io/g/user/message/1254).
 - The Pony Virtual Users' Group needs you! [Get involved today!](https://pony.groups.io/g/user/message/1280)
 - Audio from the [July 26, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_07_26.m4a) is available for your listening pleasure.
