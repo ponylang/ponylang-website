@@ -11,6 +11,14 @@ date = "2024-02-04T07:00:06-04:00"
 
 ## Items of Note
 
+### MacOS on Apple Silicon Support (Re-)Added
+
+We've added MacOS on Apple Silicon as a supported platform. Prior to August of 2023, it was a supported platform. Unfortuantely, we had to drop it as a fully supported platform when we migrated off of CirrusCI.
+
+This week, GitHub introduced M1 based GitHub Actions runners. With the addition of those runners, we are once again able to fully support MacOS on Apple Silicon.
+
+We will be providing prebuily versions of ponyc, corral, and ponyup. Until the next respective releases of each program, only nightly builds are available.
+
 ### Fedora 39 Support Added
 
 We've added Fedora 39 as a supported platform. We'll be providing ponyc builds for it until it hits its end of life in December of 2024. After that, we'll stop providing ponyc builds but you will continue to be able to install old versions using ponyup.
