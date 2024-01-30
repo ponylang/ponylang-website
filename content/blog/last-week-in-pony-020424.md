@@ -35,7 +35,7 @@ Promises are great when the caller of your API needs an ad-hoc way to interact. 
 
 If you don't need ad-hoc interaction, then Promises are not a good solution. That make the interactions between actors hard to follow. They obscure what is actually a fixed protocol. The [fork/join library](https://github.com/ponylang/fork_join) is an excellent one to study to learn more about the "fixed interaction" pattern that appears quite often in Pony programs.
 
-I recommend checking out how `[`_Coordinator`](https://github.com/ponylang/fork_join/blob/main/fork_join/_coordinator.pony), `CollectorRunner`](https://github.com/ponylang/fork_join/blob/main/fork_join/collector_runner.pony), [`Job`](https://github.com/ponylang/fork_join/blob/main/fork_join/job.pony), and [`WorkerRunner`](https://github.com/ponylang/fork_join/blob/main/fork_join/worker_runner.pony) communicate.
+I recommend checking out how [`_Coordinator`](https://github.com/ponylang/fork_join/blob/main/fork_join/_coordinator.pony), [`CollectorRunner`](https://github.com/ponylang/fork_join/blob/main/fork_join/collector_runner.pony), [`Job`](https://github.com/ponylang/fork_join/blob/main/fork_join/job.pony), and [`WorkerRunner`](https://github.com/ponylang/fork_join/blob/main/fork_join/worker_runner.pony) communicate.
 
 ## RFCs
 
