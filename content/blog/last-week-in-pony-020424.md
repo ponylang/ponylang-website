@@ -45,6 +45,10 @@ If you don't need ad-hoc interaction, then Promises are not a good solution. Tha
 
 I recommend checking out how [`_Coordinator`](https://github.com/ponylang/fork_join/blob/main/fork_join/_coordinator.pony), [`CollectorRunner`](https://github.com/ponylang/fork_join/blob/main/fork_join/collector_runner.pony), [`Job`](https://github.com/ponylang/fork_join/blob/main/fork_join/job.pony), and [`WorkerRunner`](https://github.com/ponylang/fork_join/blob/main/fork_join/worker_runner.pony) communicate.
 
+## Releases
+
+- [ponylang/ponyup 0.8.1](https://github.com/ponylang/ponyup/releases/tag/0.8.1)
+
 ## RFCs
 
 ### Final Comment Period
