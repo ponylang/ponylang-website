@@ -11,6 +11,12 @@ date = "2024-02-04T07:00:06-04:00"
 
 ## Items of Note
 
+### Fedora 39 Support Added
+
+We've added Fedora 39 as a supported platform. We'll be providing ponyc builds for it until it hits its end of life in December of 2024. After that, we'll stop providing ponyc builds but you will continue to be able to install old versions using ponyup.
+
+Until the next ponyc release, only nightly builds are available.
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_01_30.m4a) from the January 30th, 2024 sync is available.
