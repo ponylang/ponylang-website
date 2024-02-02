@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "Apple silicon support is back."
 categories = [
     "Last Week in Pony",
 ]
