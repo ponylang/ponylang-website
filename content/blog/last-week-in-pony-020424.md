@@ -57,6 +57,7 @@ I recommend checking out how [`_Coordinator`](https://github.com/ponylang/fork_j
 
 - [ponylang/corral 0.8.1](https://github.com/ponylang/corral/releases/tag/0.8.1)
 - [ponylang/ponyup 0.8.1](https://github.com/ponylang/ponyup/releases/tag/0.8.1)
+- [ponylang/ponyup 0.8.2](https://github.com/ponylang/ponyup/releases/tag/0.8.2)
 
 ## RFCs
 
