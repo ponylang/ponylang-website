@@ -31,7 +31,7 @@ Until the next ponyc release, only nightly builds are available.
 
 Today's sync was a good one. Any sync that involves "live coding" where we go from triaged to fix for an issue is a good one. There's plenty of other content as well, but, the highlight is the working out of a fix for [ponyc issue #4479](https://github.com/ponylang/ponyc/issues/4479).
 
-Beware if you listen along that Joe had some audio issues and for portions could hear anyone else talking. It will either make for hilarious or annoying listening at points. We aren't sure which.
+Beware if you listen along that Joe had some audio issues and for portions could not hear anyone else talking. It will either make for hilarious or annoying listening at points. We aren't sure which.
 
 ### Office Hours
 
