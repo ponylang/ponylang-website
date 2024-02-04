@@ -83,6 +83,7 @@ compositional
 conf
 COPR
 COVID
+Covo
 CPUs
 cquinn
 creational
@@ -187,6 +188,7 @@ Haxe
 HeapToStack
 HFPUG
 HighlightJS
+hoc
 homebrew
 Horwitz
 Horwitz's
@@ -408,6 +410,8 @@ RSS
 Rubyists
 runtime
 runtime's
+Sandro
+Sandro's
 scalable
 ScalaDays
 SDK
