@@ -69,7 +69,7 @@ I recommend checking out how [`_Coordinator`](https://github.com/ponylang/fork_j
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+Actors and classes and primitives, oh my! Pony has a lot of different object types, keywords, and concepts. Sometimes you may wish there was a simple one-page reference for it all. Well you are in luck; the [Pony Cheat Sheet](https://www.ponylang.io/media/cheatsheet/pony-cheat-sheet.pdf) is exactly such a reference!
 
 ---
 
