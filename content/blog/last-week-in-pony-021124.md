@@ -19,7 +19,7 @@ date = "2024-02-11T07:00:06-04:00"
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_02_06.m4a) from the February 6th, 2024 sync is available.
 
-<< content >>
+We had a fairly short agenda this week. The highlight was the approval of the [Constrained Types RFC](https://github.com/ponylang/rfcs/pull/213).
 
 ### Office Hours
 
