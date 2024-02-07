@@ -11,6 +11,10 @@ date = "2024-02-11T07:00:06-04:00"
 
 ## Items of Note.
 
+### We have a Bluesky Account
+
+[Come say hi](https://bsky.app/profile/ponylang.bsky.social).
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_02_06.m4a) from the February 6th, 2024 sync is available.
