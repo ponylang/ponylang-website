@@ -1,7 +1,7 @@
 +++
 draft = false
 author = "seantallen"
-description = "<< content >>"
+description = "The 'Constrained Types' RFC was accepted."
 categories = [
     "Last Week in Pony",
 ]
