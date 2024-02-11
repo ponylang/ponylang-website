@@ -51,6 +51,7 @@ theme:
   favicon: assets/logo.png
 
   features:
+    - content.action.edit
     - content.code.copy
     - content.code.select
     - navigation.instant
