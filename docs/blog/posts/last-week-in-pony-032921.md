@@ -20,7 +20,7 @@ The 'Force declaration of FFI functions' RFC has entered final comment period. O
 
 - A new "with OpenSSL" builder has been added for use by projects that need a Pony builder image with OpenSSL. The new image includes OpenSSL1.1.1k. The existing builder with OpenSSL1.1.1g will be deprecated on a date after May 1st, 2021. After that date. it will stop receiving updates although, the previous versions of the builder will continue to exist.
 
-- A [new "with LibreSSL" builder has been added](https://github.com/ponylang/shared-docker/tree/main/x86-64-unknown-linux-builder-with-libressl-3.2.5) for use by projects that need a Pony builder image with LibreSSL. The new image includes LibreSSL 3.2.5. The existing builder with LibreSSL 3.1.2 will be deprecated on a date after May 1st, 2021. After that date. it will stop receiving updates although, the previous versions of the builder will continue to exist.
+- A new "with LibreSSL" builder has been added  for use by projects that need a Pony builder image with LibreSSL. The new image includes LibreSSL 3.2.5. The existing builder with LibreSSL 3.1.2 will be deprecated on a date after May 1st, 2021. After that date. it will stop receiving updates although, the previous versions of the builder will continue to exist.
 
 - [pony-templates](https://github.com/Trundle/pony-templates), a text-based template engine, saw the light of day.
 

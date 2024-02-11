@@ -37,7 +37,7 @@ Was recently added to the Ponylang website to help folks with learning reference
 
 - Standard Library documentation temporarily relocated
 
-ponylang.io was moved from being hosted on GitHub pages to being on Netlify: HTTPS access is now available. Unfortunately, as part of the move, we broke hosting of the standard library documentation. Previously it was at [http://ponylang.io/ponyc/](http://ponylang.io/ponyc/) Once we sort out the DNS, it will be at [http://stdlib.ponylang.io](http://stdlib.ponylang.io) but until the DNS is sorted, [http://stdlib.netlify.com](http://stdlib.netlify.com) will work.
+ponylang.io was moved from being hosted on GitHub pages to being on Netlify: HTTPS access is now available. Unfortunately, as part of the move, we broke hosting of the standard library documentation. Once we sort out the DNS, it will be at [http://stdlib.ponylang.io](http://stdlib.ponylang.io) but until the DNS is sorted, `stdlib.netlify.com` will work.
 
 - [Audio from the April 5th Pony Developer Sync](https://sync-recordings.ponylang.io/r/2017_04_05.m4a) is available
 

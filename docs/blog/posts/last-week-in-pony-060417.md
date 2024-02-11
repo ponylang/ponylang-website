@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- Patiency Shyu was introduced to Pony during a recent summer school experience and wrote up some of her initial impressions. [What I Learned at Summer School](http://patiences.github.io/blog/pony).
+- Patiency Shyu was introduced to Pony during a recent summer school experience and wrote up some of her initial impressions "What I Learned at Summer School". Sadly the link has been broken over time and we updated this to let you know that the post is gone.
 
 ## RFCs
 

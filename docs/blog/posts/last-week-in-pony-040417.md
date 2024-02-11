@@ -16,18 +16,18 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ### Releases galore!
 
-There were several "point" releases last week. For a list of full releases see the [releases page](http://www.ponylang.io/categories/release/). If you are running on Windows, it is recommended that you update to [0.12.3](http://www.ponylang.io/blog/2017/04/0.12.3-released/) as soon as possible. For those on developing on other platforms, upgrading to at least [0.12.1](http://www.ponylang.io/blog/2017/04/0.12.1-released/) as soon as possible is recommended.
+There were several "point" releases last week. For a list of full releases see the [releases page](http://www.ponylang.io/categories/release/). If you are running on Windows, it is recommended that you update to [0.12.3](https://github.com/ponylang/ponyc/releases/tag/0.12.3) as soon as possible. For those on developing on other platforms, upgrading to at least [0.12.1](https://github.com/ponylang/ponyc/releases/tag/0.12.1) as soon as possible is recommended.
 
-[Version 0.12.3](http://www.ponylang.io/blog/2017/04/0.12.3-released/)
+[Version 0.12.3](https://github.com/ponylang/ponyc/releases/tag/0.12.3)
 : Update recommended for Windows users.
 
-[Version 0.12.2](http://www.ponylang.io/blog/2017/04/0.12.2-released/)
+[Version 0.12.2](https://github.com/ponylang/ponyc/releases/tag/0.12.2)
 : Update recommended for Windows users.
 
-[Version 0.12.1](http://www.ponylang.io/blog/2017/04/0.12.1-released/)
+[Version 0.12.1](https://github.com/ponylang/ponyc/releases/tag/0.12.1)
 : Update recommended all users.
 
-[Version 0.12.0](http://www.ponylang.io/blog/2017/04/0.12.0-released/)
+[Version 0.12.0](https://github.com/ponylang/ponyc/releases/tag/0.12.0)
 : Update recommended for all users.
 
 ## News and Blog Posts
