@@ -31,7 +31,7 @@ Thank you for taking the time to give us feedback. It means a ton. This isn't me
 * Better packaging/easier installation
 * Distributed Pony
 
-We'd love your help. If you are interested in assisting, please join the [contribute to Pony stream in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony) and [check out some of the ways that anyone can contribute](https://www.ponylang.io/contribute/").
+We'd love your help. If you are interested in assisting, please join the [contribute to Pony stream in our Zulip community](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony) and [check out some of the ways that anyone can contribute](https://www.ponylang.io/contribute/).
 
 See y'all next year,
 The Pony core team

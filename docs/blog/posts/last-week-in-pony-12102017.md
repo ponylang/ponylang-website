@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## Items of note
 
 - [Pony-msgpack](https://github.com/SeanTAllen/pony-msgpack) version [0.2.0](https://github.com/SeanTAllen/pony-msgpack/releases/tag/0.2.0) has been released. It adds a lower level API for decoding MessagePack serialized data.
-- On December 6, 2017 the Pony Developers came together on their sync call to check what St. Nikolaus put in their shoes. Guess what, it was Pony Issues and PRs! Wanna take a peek? You can because we recorded the whole thing (excluding the swearing part of course): [Recorded Audio](https://sync-recordings.ponylang.io/r/2017_12_06.m4a).
+- On December 6, 2017 the Pony Developers came together on their sync call to check what St. Nikolaus put in their shoes. Guess what, it was Pony Issues and PRs! Wanna take a peek? You can because we recorded the whole thing (excluding the swearing part of course): [Recorded Audio](https://sync-recordings.ponylang.io/r/2017_12_04.m4a).
 
 ## RFCs
 

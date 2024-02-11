@@ -25,7 +25,7 @@ Pony 0.18.1 is a high priority bug fix release that has no breaking changes. Upg
 ## News and Blog Posts
 
 - Andrew Turley has made a very basic IRC server and client demo in Pony. [https://github.com/aturley/pony-irc-demo](https://github.com/aturley/pony-irc-demo)
-- From Gordon Tisher... "So as a learning exercise I've implemented yet another [PEG parsing library](https://github.com/kulibali/kiuatan). No use of actors, but it can handle left recursion. No doubt has many beginner infelicities."
+- From Gordon Tisher... "So as a learning exercise I've implemented yet another [PEG parsing library](https://github.com/chalcolith/kiuatan). No use of actors, but it can handle left recursion. No doubt has many beginner infelicities."
 - From Andrew Turley... "If you're thinking of checking out the [Pony programming language](https://ponylang.io), here's a [list of things that I think are important to know](https://gist.github.com/aturley/49b60c98306d90ffc2f981515827b005). This list is based on a tweet that I wrote."
 
 ## RFCs

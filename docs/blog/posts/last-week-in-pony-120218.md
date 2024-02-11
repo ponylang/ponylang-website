@@ -24,7 +24,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## News and Blog Posts
 
 - Advent of Code is among us!
-  - [kulibali Advent of Code](https://github.com/kulibali/advent_of_code_2018)
+  - [kulibali Advent of Code](https://github.com/chalcolith/advent_of_code_2018)
   - [aturley Advent of Code](https://github.com/aturley/advent-of-code-2018)
   - [/r/ponylang topic for Advent of Code in Pony](https://www.reddit.com/r/ponylang/comments/a29vne/advent_of_code_repositories/)
   - [Advent of Code topic in mailing list](https://pony.groups.io/g/user/topic/advent_of_code_2018/28557391)

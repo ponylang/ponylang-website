@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- [Gordon](https://github.com/kulibali) wrote a blog post about his [Configuration for Debugging the Pony Compiler in Visual Studio Code on Windows](http://balafon.net/?p=1683)!
+- [Gordon](https://github.com/chalcolith) wrote a blog post about his [Configuration for Debugging the Pony Compiler in Visual Studio Code on Windows](http://balafon.net/?p=1683)!
 
 ## Talks
 
