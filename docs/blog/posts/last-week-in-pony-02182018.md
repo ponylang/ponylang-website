@@ -11,19 +11,12 @@ date: 2018-02-18T16:00:00+01:00
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
+
 <!-- more -->
 
 ## Items of Note
 
 Not much happened this week, no progress on RFCs, not even a Pony Development Sync took place. So this nearly would have been a rather sad post.
-
-But hey, let's all take the time to watch the following GIF of a work-in-progress **Pony VSCode IntelliSense** implementation at least 65535 times and cheer in anticipation and gratefulness for the hard work of IRC user patroclos:
-
-<br />
-
-<div style='position:relative;padding-bottom:57%'><iframe src='https://gfycat.com/ifr/AccurateHonestEeve?autoplay=0' frameborder='0' scrolling='no' width='100%' height='100%' style='position:absolute;top:0;left:0;' allowfullscreen></iframe></div>
-
-[Via](https://gfycat.com/AccurateHonestEeve).
 
 ## Pony Development Sync
 
