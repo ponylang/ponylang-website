@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - A new JSON parser for Pony has been announced on Reddit: [https://github.com/Krognol/ponyjson](https://github.com/Krognol/ponyjson)
 
-- [PR #2439](https://github.com/ponylang/ponyc/pull/2439) for embedding source code listings into generated documentation has been merged to main. With this change, we now own a new theme for MkDocs, [MkDocs-ponylang](https://github.com/mfelsche/ponylang-MkDocs-theme). We needed this to make the necessary changes for [PR #2439](https://github.com/ponylang/ponyc/pull/2439) but we are not yet happy with its current state (visually and code-wise). We want to reach out to you folks for help on this project. In case you are interested, please drop us a line via the [Zulip community](https://ponylang.zulipchat.com/#narrow/stream/190361-main.2Eactor). Any help is much appreciated!
+- [PR #2439](https://github.com/ponylang/ponyc/pull/2439) for embedding source code listings into generated documentation has been merged to main. With this change, we now own a new theme for MkDocs, `MkDocs-ponylang`. We needed this to make the necessary changes for [PR #2439](https://github.com/ponylang/ponyc/pull/2439) but we are not yet happy with its current state (visually and code-wise). We want to reach out to you folks for help on this project. In case you are interested, please drop us a line via the [Zulip community](https://ponylang.zulipchat.com/#narrow/stream/190361-main.2Eactor). Any help is much appreciated!
 
 ## Pony Development Sync
 
