@@ -1,5 +1,0 @@
-+++
-title = "Talks"
-type = "talks"
-+++
-

@@ -1,0 +1,74 @@
+https://www.ponylang.org/* https://www.ponylang.io/:splat 301!
+https://ponylang.org/* https://www.ponylang.io/:splat 301!
+/get-slack-invite https://ponylang.zulipchat.com 301!
+
+# old ponyc release notes
+/blog/2017/03/0.12.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.12.0 301!
+/blog/2017/03/0.12.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.12.1 301!
+/blog/2017/03/0.12.2-released/ https://github.com/ponylang/ponyc/releases/tag/0.12.2 301!
+/blog/2017/04/0.12.3-released/ https://github.com/ponylang/ponyc/releases/tag/0.12.3 301!
+/blog/2017/04/0.13.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.13.0 301!
+/blog/2017/04/0.13.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.13.1 301!
+/blog/2017/04/0.13.2-released/ https://github.com/ponylang/ponyc/releases/tag/0.13.2 301!
+/blog/2017/05/0.14.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.14.0 301!
+/blog/2017/07/0.15.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.15.0 301!
+/blog/2017/07/0.16.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.16.0 301!
+/blog/2017/07/0.16.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.16.1 301!
+/blog/2017/08/0.17.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.17.0 301!
+/blog/2017/08/0.18.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.18.0 301!
+/blog/2017/08/0.18.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.18.1 301!
+/blog/2017/09/0.19.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.19.0 301!
+/blog/2017/09/0.19.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.19.1 301!
+/blog/2017/09/0.19.2-released/ https://github.com/ponylang/ponyc/releases/tag/0.19.2 301!
+/blog/2017/10/0.19.3-released/ https://github.com/ponylang/ponyc/releases/tag/0.19.3 301!
+/blog/2017/10/0.20.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.20.0 301!
+/blog/2017/12/0.21.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.21.0 301!
+/blog/2017/12/0.21.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.21.1 301!
+/blog/2017/12/0.21.2-released/ https://github.com/ponylang/ponyc/releases/tag/0.21.2 301!
+/blog/2018/01/0.21.3-released/ https://github.com/ponylang/ponyc/releases/tag/0.21.3 301!
+/blog/2018/05/0.22.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.22.0 301!
+/blog/2018/05/0.22.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.22.1 301!
+/blog/2018/05/0.22.2-released/ https://github.com/ponylang/ponyc/releases/tag/0.22.2 301!
+/blog/2018/05/0.22.3-released/ https://github.com/ponylang/ponyc/releases/tag/0.22.3 301!
+/blog/2018/06/0.22.4-released/ https://github.com/ponylang/ponyc/releases/tag/0.22.4 301!
+/blog/2018/06/0.22.5-released/ https://github.com/ponylang/ponyc/releases/tag/0.22.5 301!
+/blog/2018/06/0.22.6-released/ https://github.com/ponylang/ponyc/releases/tag/0.22.6 301!
+/blog/2018/06/0.23.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.23.0 301!
+/blog/2018/06/0.24.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.24.0 301!
+/blog/2018/07/0.24.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.24.1 301!
+/blog/2018/07/0.24.2-released/ https://github.com/ponylang/ponyc/releases/tag/0.24.2 301!
+/blog/2018/07/0.24.4-released/ https://github.com/ponylang/ponyc/releases/tag/0.24.4 301!
+/blog/2018/10/0.25.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.25.0 301!
+/blog/2019/01/0.26.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.26.0 301!
+/blog/2019/03/0.27.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.27.0 301!
+/blog/2019/03/0.28.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.28.0 301!
+/blog/2019/06/0.28.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.28.1 301!
+/blog/2019/07/0.29.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.29.0 301!
+/blog/2019/07/0.30.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.30.0 301!
+/blog/2019/08/0.31.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.31.0 301!
+/blog/2019/09/0.32.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.32.0 301!
+/blog/2019/11/0.33.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.33.0 301!
+/blog/2019/12/0.33.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.33.1 301!
+/blog/2020/02/0.33.2-released/ https://github.com/ponylang/ponyc/releases/tag/0.33.2 301!
+/blog/2020/05/0.34.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.34.0 301!
+/blog/2020/05/0.34.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.34.1 301!
+/blog/2020/05/0.35.0-released/ https://github.com/ponylang/ponyc/releases/tag/0.35.0 301!
+/blog/2020/05/0.35.1-released/ https://github.com/ponylang/ponyc/releases/tag/0.35.1 301!
+
+# old stable release notes
+/blog/2017/09/pony-stable-0.1.0-released/ https://github.com/ponylang/pony-stable/releases/tag/0.1.0 301!
+/blog/2017/10/pony-stable-0.1.1-released/  https://github.com/ponylang/pony-stable/releases/tag/0.1.1 301!
+/blog/2018/05/pony-stable-0.1.2-released/ https://github.com/ponylang/pony-stable/releases/tag/0.1.2 301!
+/blog/2018/06/pony-stable-0.1.3-released/ https://github.com/ponylang/pony-stable/releases/tag/0.1.3 301!
+/blog/2018/06/pony-stable-0.1.4-released/ https://github.com/ponylang/pony-stable/releases/tag/0.1.4 301!
+/blog/2018/07/pony-stable-0.1.5-and-0.1.6-released/ https://github.com/ponylang/pony-stable/releases/tag/0.1.6 301!
+/blog/2019/02/pony-stable-0.2.0-released/ https://github.com/ponylang/pony-stable/releases/tag/0.2.0 301!
+/blog/2019/07/pony-stable-0.2.1-released/ https://github.com/ponylang/pony-stable/releases/tag/0.2.1 301!
+
+# send the "releases" category to ponyc GH releases tab
+# as that is most likely what someone wanted
+/categories/release/ https://github.com/ponylang/ponyc/releases 301!
+/categories/release/index.xml https://github.com/ponylang/ponyc/releases.atom 301!
+
+## send the blog categories to the new mkdocs location
+/categories/* /blog/categories/:splat 301!
