@@ -23,7 +23,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## News and Blog Posts
 
 - While not specifically "Pony", I thought this would be of interest to the Pony community. Back at QCon London this spring, Martin Thompson moderated an awesome panel [What's Next for Our Programming Languages?](https://www.infoq.com/presentations/panel-languages-future?utm_source=twitter&utm_medium=link&utm_campaign=calendar). The panel includes amongst others, our very own Sylvan as well Joe Duffy and Brian Goetz. If you listen to the development sync calls, you'll hear Joe's name come up a lot. It's a great panel and worth your time if you are interested in programming languages.
-- A few weeks back, I gave a talk on Pony at QCon New York. The video will be released sometime later this summer. In the meantime, if you are interested in seeing it, I have a few invites left that get you access to the "pre-release" video. Want an invite? [Drop me a line](mailto:sean@monkeysnatchbanana.com) with the email address to invite. In the meantime, you can [enjoy the slides](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology).
+- A few weeks back, I gave a talk on Pony at QCon New York. The video will be released sometime later this summer. In the meantime, if you are interested in seeing it, I have a few invites left that get you access to the "pre-release" video. Want an invite? Drop me a line with the email address to invite. In the meantime, you can [enjoy the slides](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology).
 
 ## RFCs
 

@@ -23,7 +23,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
     - [1/0 = 0](https://www.hillelwayne.com/post/divide-by-zero/)
     - There was also a massive ton of [commentary on HackerNews](https://news.ycombinator.com/item?id=17736046) about the article. Some approaching it from a programming language/computer angle. Some of it from a math angle.
 
-- If you are interested in becoming a maintainer for the Pony Emacs mode, drop Sean T. Allen a line. He's looking for maintainers. [Sean T. Allen](mailto:sean@monkeysnatchbanana.com).
+- If you are interested in becoming a maintainer for the Pony Emacs mode, drop Sean T. Allen a line. He's looking for maintainers.
 
 ## News and Blog Posts
 

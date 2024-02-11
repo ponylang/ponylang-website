@@ -29,5 +29,3 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 - Do you use the Sublime Text Pony module? You might want to update it. Stefan Achatz has added a couple fixes in the last few weeks. Nothing huge, but... it is an update. Didn't realize there was Sublime Text support? There is... feel free to contribute more fixes yourself at [Sublime Pony](https://github.com/ponylang/sublime-pony)
 
 - The Ponylang Emacs mode got an update recently thanks to [spreadLink](https://github.com/spreadlink). By the time you read this, version 0.0.11 of ponylang-mode should have been released and be available via MELPA.
-
-> A note from Sean, if you are interested in helping him as a maintainer of ponylang-mode, drop him an email [sean@monkeysnatchbanana.com](mailto:sean@monkeysnatchbanana.com).

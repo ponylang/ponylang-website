@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     Whenever a sync is cancelled or rescheduled, we'll update the calendar as soon as possible. So, subscribe and perhaps attend a sync from time-to-time.
 
-- There's a conference in Detroit on June 29 that is looking for a speaker from the local area who would give a Pony talk. If that is you, drop Sean a line at sean@monkeysnatchbanana.com and he'll get you in touch with them.
+- There's a conference in Detroit on June 29 that is looking for a speaker from the local area who would give a Pony talk. If that is you, drop Sean a line and he'll get you in touch with them.
 
 ## RFCs
 

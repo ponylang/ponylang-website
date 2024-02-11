@@ -29,7 +29,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
         - If no one reports any issues with LLVM 7 after some undetermined period of time, make it the recommended default
         - Drop LLVM 3.9.1 support as we only support 3 major LLVM versions at a time.
 
-    If you'd be willing to give LLVM 7 a try, [drop @SeanTAllen a line](mailto:sean@monkeysnatchbanana.com) and he'll let you know when we are ready for testing.
+    If you'd be willing to give LLVM 7 a try, Sean T. Allen a line and he'll let you know when we are ready for testing.
 
 ## News and Blog Posts
 

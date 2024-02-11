@@ -23,7 +23,7 @@ It was the week of Kevin Hoffman. Kevin's a new addition to the Pony community. 
 
 ## My First Pony
 
-This past week, we launched what we hope is a regular series of blog posts on ponylang.io from members of the community. "My First Pony" will feature posts from community members about their early experiences using Pony. Ideally, written "in the moment". If you are interested in participating, email Sean T. Allen at [sean@monkeysnatchbanana.com](email:sean@monkeysnatchbanana).
+This past week, we launched what we hope is a regular series of blog posts on ponylang.io from members of the community. "My First Pony" will feature posts from community members about their early experiences using Pony. Ideally, written "in the moment".
 
 The only caveat for "My First Pony" is that we ask you keep things positive. No talking down on other languages and tools. We're here to celebrate Pony and discuss its flaws. We can do that without running down other languages. We're building an upbeat, welcoming, positive community and we want "My First Pony" to reflect that spirit.
 

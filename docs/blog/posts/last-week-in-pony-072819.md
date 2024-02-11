@@ -36,7 +36,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Sean T. Allen:
 
-    Hi all, I'm looking at setting up an all day "learn you some Pony" workshop some weekend in October in NYC. I would be myself and Jonathan Brown running the workshop, if you are interested in attending, let me know. I'm trying to gauge interest. You can reach me on the [Pony Zulip](https://ponylang.zulipchat.com/) or via email at [sean@monkeysnatchbanana.com](mailto:sean@monkeysnatchbanana.com)
+    Hi all, I'm looking at setting up an all day "learn you some Pony" workshop some weekend in October in NYC. I would be myself and Jonathan Brown running the workshop, if you are interested in attending, let me know. I'm trying to gauge interest. You can reach me on the [Pony Zulip](https://ponylang.zulipchat.com/).
 
 - Check out Josh Horwitz's talk on Pony from Jun 29th, 2019 at Detroit Tech Watch conference: [https://www.youtube.com/watch?v=WlGSpYFntUU](https://www.youtube.com/watch?v=WlGSpYFntUU)
 
