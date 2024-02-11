@@ -15,7 +15,9 @@ extra:
       link: https://twitter.com/ponylang
 
 markdown_extensions:
+  - admonition
   - attr_list
+  - pymdownx.details
   - pymdownx.highlight
   - pymdownx.smartsymbols
   - pymdownx.superfences:
@@ -75,13 +77,13 @@ theme:
 
 nav:
   - Home: "index.md"
-  - New To Pony?: "discover/index.md"
-  - Learning Pony?: "learn/index.md"
-  - Existing User?: "reference/index.md"
-  - Looking to Contribute?: "contribute/index.md"
-  - Community: "community/community.md"
-  - Blog: "blog/index.md"
-  - FAQ: "faq/index.md"
-  - Become a Supporter: "sponsors/index.md"
-  - Code of Conduct: "community/code-of-conduct.md"
-  - Sponsors: "sponsors/index.md"
+  - New To Pony?: "/discover/index.md"
+  - Learning Pony?: "/learn/index.md"
+  - Existing User?: "/reference/index.md"
+  - Looking to Contribute?: "/contribute/index.md"
+  - Community: "/community/index.md"
+  - Blog: "/blog/index.md"
+  - FAQ: "/faq/index.md"
+  - Become a Supporter: "/sponsors/index.md"
+  - Code of Conduct: "/community/code-of-conduct.md"
+  - Sponsors: "/sponsors/index.md"
