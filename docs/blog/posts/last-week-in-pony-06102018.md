@@ -51,7 +51,7 @@ We are very proud to present you two new distribution channels for both [ponyc](
 
 ## News and Blog Posts
 
-* Sean Allen and Sylvan Clebsch will be doing a [Pony tutorial at CodeMesh London](https://codesync.global/conferences/code-mesh-2018/training) on *November 7th*. Attend if you can! This is peak Pony teaching!
+* Sean Allen and Sylvan Clebsch will be doing a Pony tutorial at CodeMesh London on *November 7th*. Attend if you can! This is peak Pony teaching!
 
 * [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html) by Matthias Wahl (That's me!!!)
 

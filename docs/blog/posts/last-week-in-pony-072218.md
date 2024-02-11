@@ -27,5 +27,3 @@ Writing a chat system in Pony:
 - What: Let's write a chat system in Pony together. The actor model is a natural fit for network programming, so let's use it along with reference capabilities to write an event-driven chat system. By the time we're done, you'll be able to write message-passing based Pony programs, use reference capabilities for performance and correctness, and produce native binaries with C like performance.
 
 This tutorial is currently at the Early Bird rate, which expires on 9 August 2018!
-
-For more information, or to book your place: [Code Mesh](https://codesync.global/conferences/code-mesh-2018/training)
