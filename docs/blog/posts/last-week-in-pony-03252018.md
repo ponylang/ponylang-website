@@ -21,7 +21,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 This week we got a great contribution by GitHub user [EpicEric](https://github.com/EpicEric) showing us how Lambdas work in Pony (and it also has a reverse polish notation calculator !!1!11):
 
-[Last Weeks Playground - March 25, 2018](https://is.gd/VPkxXu)
+[Last Weeks Playground - March 25, 2018](https://playground.ponylang.io/?gist=8674fa3cc3d012a280701ae863fd625f)
 
 In case you want to submit one (which I highly recommend), just add it as a comment to the current [Last Week in Pony Issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony) and let people vote with `+1` reactions. The one with the most votes is presented (Or i just present them all. Depends on my Sunday evening mood).
 
