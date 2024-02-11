@@ -9,11 +9,11 @@ We are committed to providing a friendly, safe and welcoming environment for all
 The most important community resources for those who are new to Pony are:
 
 * Pony [community Zulip](https://ponylang.zulipchat.com)
-* The [frequently asked questions](/faq/index.md) section of this website.
+* The [frequently asked questions](../faq/index.md) section of this website.
 
 ## News
 
-* [News, blog, whatever you want to call it](/blog)
+* [News, blog, whatever you want to call it](../blog/index.md)
 
 ## Talks, Articles and more
 
@@ -34,11 +34,11 @@ but, that can come later.
 
 ## Chat
 
-If you are interested in having a real time conversation about Pony, check out the Pony [community Zulip](https://ponylang.zulipchat.com).
+If you are interested in having a real time conversation about Pony, check out the Pony [community Zulip](https://ponylang.zulipchat.com/).
 
 ## Zulip Community
 
-Most Pony community interactions happen in our [Zulip community](https://ponylang.zulipchat.com). Zulip is kind of like Slack but, better. Well we think it's better anyway. One of the big differences how Zulip organizes conversations. You can learn more about that in their [Streams and topics documentation](https://zulipchat.com/help/about-streams-and-topics).
+Most Pony community interactions happen in our [Zulip community](https://ponylang.zulipchat.com/). Zulip is kind of like Slack but, better. Well we think it's better anyway. One of the big differences how Zulip organizes conversations. You can learn more about that in their [Streams and topics documentation](https://zulipchat.com/help/about-streams-and-topics).
 
 Once you join our Zulip, there are a number of streams that you'll be subscribed to by default. Some key streams you might be interested in are:
 
@@ -57,10 +57,6 @@ If you'd like to attend an in-person meetup, sign up for the mailing list or joi
 
 * [Berlin Users' Group](https://www.meetup.com/de-DE/Berlin-Ponylang-Meetup/)
 
-## Community Survey
-
-We run a yearly community survey to find out what the Pony community currently looks like. So far, "yearly" means "once". If you are interested in learning a bit more about the community you'll be joining, check out the [2016 State of the Stable](/blog/state-of-the-stable-2016.md) community survey
-
 ## Pony Development
 
-If you are interested in helping to develop Pony, we have a [variety of resources](/contribute/index.md) to get you started.
+If you are interested in helping to develop Pony, we have a [variety of resources](../contribute/index.md) to get you started.

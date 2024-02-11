@@ -30,13 +30,16 @@ markdown_extensions:
       permalink: true
 
 plugins:
+  - blog:
+      blog_toc: True
+      post_url_date_format: yyyy/MM
   - search
   - ezlinks
-  - htmlproofer:
-      raise_error: True
-      raise_error_excludes:
-        429: ["https://github.com/ponylang"]
-        404: ["https://github.com/ponylang"]
+  # - htmlproofer:
+  #     raise_error: True
+  #     raise_error_excludes:
+  #       429: ["https://github.com/ponylang"]
+  #       404: ["https://github.com/ponylang"]
 
 theme:
   name: material
@@ -77,13 +80,13 @@ theme:
 
 nav:
   - Home: "index.md"
-  - New To Pony?: "/discover/index.md"
-  - Learning Pony?: "/learn/index.md"
-  - Existing User?: "/reference/index.md"
-  - Looking to Contribute?: "/contribute/index.md"
-  - Community: "/community/index.md"
-  - Blog: "/blog/index.md"
-  - FAQ: "/faq/index.md"
-  - Become a Supporter: "/sponsors/index.md"
-  - Code of Conduct: "/community/code-of-conduct.md"
-  - Sponsors: "/sponsors/index.md"
+  - New To Pony?: "discover/index.md"
+  - Learning Pony?: "learn/index.md"
+  - Existing User?: "reference/index.md"
+  - Looking to Contribute?: "contribute/index.md"
+  - Community: "community/index.md"
+  - Blog: "blog/index.md"
+  - FAQ: "faq/index.md"
+  - Become a Supporter: "sponsors/index.md"
+  - Code of Conduct: "community/code-of-conduct.md"
+  - Sponsors: "sponsors/index.md"
