@@ -37,8 +37,6 @@ And the GitHub repo is here: [https://github.com/wallaroolabs/wallaroo](https://
 
 - Another week, another pony development sync call. The call from *September 27th 2017* has been recorded for your listening pleasure. Get the audio [here](https://sync-recordings.ponylang.io/r/2017_09_27.m4a). It features a Sean being Sean again and a light-headed promise to start a *Guided Tour of the Standard Library* in the tutorial.
 
-- We just discovered Paul Liétar's report on formalizing generics in Pony is available online from imperial college. [Check it out](http://www.imperial.ac.uk/media/imperial-college/faculty-of-engineering/computing/public/student-projects/Paul-Li%C3%A9tar---Formalizing-Generics-for-Pony.pdf)
-
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!

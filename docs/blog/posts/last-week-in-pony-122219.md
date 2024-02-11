@@ -44,7 +44,7 @@ If you *don't* run, into any issues, can you stop by the Zulip and comment on th
 
 Download page:
 
-[https://cloudsmith.io/~ponylang/repos/nightlies/packages/detail/raw/ponyc-x86-64-apple-darwin.tar.gz/20191221/](https://cloudsmith.io/~ponylang/repos/nightlies/packages/detail/raw/ponyc-x86-64-apple-darwin.tar.gz/20191221/)
+** redacted. the packages are no longer available. **
 
 Thanks everyone.
 

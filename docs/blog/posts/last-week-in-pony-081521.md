@@ -16,7 +16,7 @@ There's a new public calendar for the Pony Virtual Users' Group meetings, and a 
 ## Items of note
 
 - There's a new public calendar for the Pony Virtual Users' Group meetings.
-You can subscribe via the iCal link at [https://calendar.google.com/calendar/iCal/042ceam97bfg4eseqt3sagq1rk%40group.calendar.google.com/public/basic.ics](https://calendar.google.com/calendar/iCal/042ceam97bfg4eseqt3sagq1rk%40group.calendar.google.com/public/basic.ics)
+You can subscribe via the iCal link at [https://calendar.google.com/calendar/u/0?cid=MDQyY2VhbTk3YmZnNGVzZXF0M3NhZ3ExcmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ](https://calendar.google.com/calendar/u/0?cid=MDQyY2VhbTk3YmZnNGVzZXF0M3NhZ3ExcmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
 - A [gist](https://gist.github.com/tednaleid/47dcce6e1bc178b63180953cd654651c) has been created that shows how to integrate VSCode and `lldb` for UI-based debugging of Pony code, including:
   - breakpoints in the UI (including conditional ones)
@@ -34,7 +34,7 @@ Upcoming Pony Virtual Users' Group meeting...
 
 On Wednesday August 25th at 15:00 US Eastern, Sean T. Allen will be "presenting" at the Pony VUG. You can join us on Zoom to [attend](https://us02web.zoom.us/j/86884459760?pwd=M2Zud2pVZFZwZVlEdnVYZW5jcEduZz09).
 
-Sean will be walking through the [GitHub REST API](https://github.com/ponylang/github_rest_api/tree/initial) that is currently in progress. The walk through is less to discuss the API and more to spark conversations about Pony. Feel free to review the code before the meeting and come with questions like:
+Sean will be walking through the GitHub REST API that is currently in progress. The walk through is less to discuss the API and more to spark conversations about Pony. Feel free to review the code before the meeting and come with questions like:
 
 - Why did you decide to do X instead of Y?
 - How does Z work?

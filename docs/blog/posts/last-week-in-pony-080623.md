@@ -35,7 +35,7 @@ It is quite likely that we:
 
 Whatever we end up doing, this is going to be a lot of work for me (Sean) over the next 4 weeks before I start my new job. Wheeee!
 
-So now that the pain part of this notice is done, we as a team want to express our tremendous amount of gratitude to CirrusCI as a company. They have provided us so much in the way of free minutes and responsive technical support over the years. They have been simply amazing. If you are looking for an amazing CI solution for your company that can afford to pay, please give them a look. They have been incredible. I'd be happy to discuss with you in the [Pony Zulip](https://https://ponylang.zulipchat.com/) to see if they fit your company's needs.
+So now that the pain part of this notice is done, we as a team want to express our tremendous amount of gratitude to CirrusCI as a company. They have provided us so much in the way of free minutes and responsive technical support over the years. They have been simply amazing. If you are looking for an amazing CI solution for your company that can afford to pay, please give them a look. They have been incredible. I'd be happy to discuss with you in the [Pony Zulip](https://ponylang.zulipchat.com/) to see if they fit your company's needs.
 
 Thank you Fedor and company, you have been simply amazing.
 

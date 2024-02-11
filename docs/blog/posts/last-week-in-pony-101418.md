@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Pony is now a member project of [Open Collective](https://opencollective.com). Interested in helping us pay for hosting and other bills? We'd certainly love you for it. [Become a contributor today](https://opencollective.com/ponyc).
 
-We've been quite pleased with the response. Thank you everyone. @jemc and @SeanTAllen have already started work on putting your donations to use in the form of a Pony library and documentation repository that will live at [https://main.actor](https://main.actor) (nothing there yet). Thank you to all our contributors so far. And thank you to everyone who sees this and signs up to help Pony. Y'all rock.
+We've been quite pleased with the response. Thank you everyone. @jemc and @SeanTAllen have already started work on putting your donations to use in the form of a Pony library and documentation repository that will live at `main.actor` (nothing there yet). Thank you to all our contributors so far. And thank you to everyone who sees this and signs up to help Pony. Y'all rock.
 
 ## News and Blog Posts
 

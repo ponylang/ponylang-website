@@ -17,9 +17,9 @@ We've added OpenSSL 1.1.1l and LibreSSL 3.4.1 test images to the shared-docker r
 
 - Audio from the [2021-10-19](https://sync-recordings.ponylang.io/r/2021-10-19.m4a) Pony development sync call is available.
 
-- We've added a [OpenSSL 1.1.1l test image](https://github.com/ponylang/shared-docker/tree/main/x86-64-unknown-linux-builder-with-openssl_1.1.1l) to the [shared-docker repository](https://github.com/ponylang/shared-docker).
+- We've added a[OpenSSL 1.1.1l test image to the [shared-docker repository](https://github.com/ponylang/shared-docker).
 
-- We've added a [LibreSSL 3.4.1 test image](https://github.com/ponylang/shared-docker/tree/main/x86-64-unknown-linux-builder-with-libressl-3.4.1) to the [shared-docker repository](https://github.com/ponylang/shared-docker).
+- We've added a LibreSSL 3.4.1 test image to the [shared-docker repository](https://github.com/ponylang/shared-docker).
 
 ---
 

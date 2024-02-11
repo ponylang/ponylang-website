@@ -43,7 +43,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     The nightlies are available in this temporary testing repo and once will be moved to a more official one later. In the meantime, please help out and give em a try:
 
-    [https://cloudsmith.io/~main-pony/repos/pony-nightlies/packages/](https://cloudsmith.io/~main-pony/repos/pony-nightlies/packages/)
+    [https://cloudsmith.io/~ponylang/repos/nightlies/packages/](https://cloudsmith.io/~ponylang/repos/nightlies/packages/)
 
     New packages are uploaded every day around midnight UTC.
 
