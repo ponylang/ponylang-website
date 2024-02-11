@@ -30,11 +30,11 @@ markdown_extensions:
 plugins:
   - search
   - ezlinks
-  # - htmlproofer:
-  #     raise_error: True
-  #     raise_error_excludes:
-  #       429: ["https://github.com/ponylang"]
-  #       404: ["https://github.com/ponylang"]
+  - htmlproofer:
+      raise_error: True
+      raise_error_excludes:
+        429: ["https://github.com/ponylang"]
+        404: ["https://github.com/ponylang"]
 
 theme:
   name: material
