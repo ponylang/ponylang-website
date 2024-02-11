@@ -10,7 +10,7 @@ date: 2022-09-11T00:00:00-05:00
 
 Lots of news this week!  New releases and new projects oh my!  So much that I'll be skipping a principle this week.
 
-<!--more-->
+<!-- more -->
 
 ## New Releases
 

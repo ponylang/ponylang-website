@@ -9,7 +9,7 @@ date: 2020-09-27T10:55:23-04:00
 ---
 
 Ponyc 0.38.1 has been released. Support for prebuilt "generic glibc Linux" ponyc binaries is being dropped in favor of prebuilt images for specific Linux distributions. We are also pleased to announce Jason Carr, AKA @jasoncarr0, is now a Pony committer!
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

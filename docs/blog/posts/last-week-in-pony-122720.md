@@ -9,7 +9,7 @@ date: 2020-12-27T16:54:12-05:00
 ---
 
 Pony 0.38.2 has been released! Audio from the December 15 sync call is available.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

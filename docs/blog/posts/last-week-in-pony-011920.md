@@ -9,7 +9,7 @@ date: 2020-01-19T10:50:42-05:00
 ---
 
 Sean T. Allen's recent PWL on Deny Capabilities for Safe, Fast Actors Talk is available. Microsoft's Project Verona is now open source.
-<!--more-->
+<!-- more -->
 
 ## News and Blog Posts
 

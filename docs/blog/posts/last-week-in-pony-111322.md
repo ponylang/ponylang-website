@@ -10,7 +10,7 @@ date: 2022-11-13T07:00:06-04:00
 
 The story of the last week in Pony? Well, I guess you could say it was a story of documentation generation and a story of Windows and a story of DNS. There's a new Pony compiler version running free on the streets and some [Al Green music](https://www.youtube.com/watch?v=rqqAnjY2Rmo) in the sheets.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

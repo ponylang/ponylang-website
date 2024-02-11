@@ -10,7 +10,7 @@ date: 2022-03-06T14:48:00-05:00
 
 There's a new version of the Pony playground available. A new RFC has been created for extending the math package.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

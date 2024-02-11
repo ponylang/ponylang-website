@@ -8,7 +8,7 @@ title: "Last Week in Pony - December 8, 2019"
 date: 2019-12-08T16:47:08-05:00
 ---
 After some scheduling conflicts with the weekly Sync meeting, we decided to reschedule for Tuesdays at 2pm EST starting this week.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

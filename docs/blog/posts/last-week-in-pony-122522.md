@@ -10,7 +10,7 @@ date: 2022-12-25T07:00:06-04:00
 
 It was a week dominated by conversations about distributed cycle detection. Both the Pony development sync and Office Hours were almost entirely focused on the topic. Given the somewhat complicated nature of the topic, we expect that it will be a regular source of conversation for a while.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

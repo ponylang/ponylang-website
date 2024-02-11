@@ -8,6 +8,10 @@ title: "Last Week in Pony May 21, 2023"
 date: 2023-05-21T07:00:06-04:00
 ---
 
+A week without a Pony development sync.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Office Hours

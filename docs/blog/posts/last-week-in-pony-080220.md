@@ -9,7 +9,7 @@ date: 2020-08-02T21:46:39-04:00
 ---
 
 Pony 0.36.0 has been released! We recommend upgrading as soon as possible.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

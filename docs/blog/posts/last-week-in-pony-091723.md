@@ -8,6 +8,10 @@ title: "Last Week in Pony - September 17, 2023"
 date: 2023-09-17T07:00:06-04:00
 ---
 
+Windows users, update your ponyc install.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Update your ponyc for Windows ASAP

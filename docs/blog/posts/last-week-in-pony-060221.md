@@ -10,7 +10,7 @@ date: 2021-06-02T13:08:49-04:00
 
 @redvers has published an XML library for pony.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

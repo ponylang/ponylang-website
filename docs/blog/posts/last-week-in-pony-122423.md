@@ -8,6 +8,10 @@ title: "Last Week in Pony - December 24, 2023"
 date: 2023-12-24T07:00:06-04:00
 ---
 
+May Santa bring you much awesome tonight.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Holidays

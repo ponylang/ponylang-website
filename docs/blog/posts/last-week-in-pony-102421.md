@@ -10,7 +10,7 @@ date: 2021-10-24T11:32:17-04:00
 
 We've added OpenSSL 1.1.1l and LibreSSL 3.4.1 test images to the shared-docker repository.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

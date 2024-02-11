@@ -9,7 +9,7 @@ date: 2021-01-31T19:03:50-05:00
 ---
 
 Version 0.38.3 of ponyc and 0.4.1 of corral have been released!
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

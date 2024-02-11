@@ -9,6 +9,8 @@ draft: false
 ---
 Sean T. Allen says I should write an early history of Pony. He says people might be interested. He's generally right about this stuff, but I feel a bit awkward about the process. I know I will forget things, or worse, forget people. Fortunately, Sean gave me an outline on Slack based on stuff I've told him, so here goes.
 
+<!-- more -->
+
 ## Sean: You’ve told me this story many times.
 
 I had been telling friends for years that I would eventually write a programming language. Way back when (starting in 2001), I had written a flight simulator engine that I worked on for years. I ended up building an asynchronous message queue system for doing the physics simulation end of it. And struggling with memory bugs, of course.

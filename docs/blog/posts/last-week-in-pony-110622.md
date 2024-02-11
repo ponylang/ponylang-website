@@ -8,7 +8,7 @@ title: "Last Week in Pony - November 6, 2022"
 date: 2022-11-06T07:00:06-04:00
 ---
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

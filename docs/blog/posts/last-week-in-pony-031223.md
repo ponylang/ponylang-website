@@ -10,7 +10,7 @@ date: 2023-03-12T07:00:06-04:00
 
 Not a ton of above ground activity with Pony this last week, so this is a fairly short LWIP. Sean's work project crunch is winding down so expect more activity from him over the next few months.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

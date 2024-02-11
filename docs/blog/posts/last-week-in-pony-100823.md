@@ -8,6 +8,10 @@ title: "Last Week in Pony - October 8, 2023"
 date: 2023-10-08T07:00:06-04:00
 ---
 
+A Pony release is coming very soon...
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony release coming

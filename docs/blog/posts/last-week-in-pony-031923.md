@@ -8,6 +8,10 @@ title: "Last Week in Pony March 19, 2023"
 date: 2023-03-19T07:00:06-04:00
 ---
 
+A wild mention of Pony appears.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony mentioned in "Context Free"

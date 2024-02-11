@@ -10,7 +10,7 @@ date: 2023-01-15T07:00:06-04:00
 
 Most of the "above ground" Pony activity this week was our usual weekly development sync meeting and our weekly office hours.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

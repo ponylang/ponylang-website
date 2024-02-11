@@ -8,6 +8,10 @@ title: "Last Week in Pony - January 14, 2024"
 date: 2024-01-14T07:00:06-04:00
 ---
 
+Beware of OpenSSL 3.2 (for now).
+
+<!-- more -->
+
 ## Items of Note
 
 ### OpenSSL 3.2 related bug

@@ -10,7 +10,7 @@ date: 2022-03-20T18:05:58-04:00
 
 Version 0.49.1 of ponyc has been released! We also have 2 issues to highlight this week, related to LLVM IR verification.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

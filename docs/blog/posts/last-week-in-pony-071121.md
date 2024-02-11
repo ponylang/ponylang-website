@@ -10,7 +10,7 @@ date: 2021-07-11T11:03:46-04:00
 
 There are new releases available for ponyc and ponyup. There is also a request for Intel Mac users to help test  a branch of ponyc.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

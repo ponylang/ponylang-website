@@ -10,7 +10,7 @@ date: 2021-12-19T10:37:35-05:00
 
 Audio from the December 14, 2021 Pony development sync is available.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

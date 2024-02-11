@@ -12,7 +12,7 @@ Time keeps on ticking into the future and Pony continues rolling on. We'd like t
 
 In the meantime, put on some [Black Sheep](https://www.youtube.com/watch?v=K9F5xcpjDMU) and dig into this week's news including the delay of the Pony 0.54.0 release.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

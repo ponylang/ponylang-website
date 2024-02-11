@@ -8,6 +8,10 @@ title: "Last Week in Pony - February 4, 2024"
 date: 2024-02-04T07:00:06-04:00
 ---
 
+Apple Silicon support is back.
+
+<!-- more -->
+
 ## Items of Note
 
 ### MacOS on Apple Silicon Support (Re-)Added

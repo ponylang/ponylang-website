@@ -10,7 +10,7 @@ date: 2022-03-27T16:22:26-04:00
 
 The March 22nd Pony development sync recording is available, along with video since there was a good amount of screen sharing during the meeting.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

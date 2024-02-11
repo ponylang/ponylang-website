@@ -10,7 +10,7 @@ date: 2021-07-18T17:39:31-04:00
 
 Version 0.43.0 of ponylang/ponyc has been released. A video of the 10th edition of the Pony Virtual User Group (VUG) is available. LibreSSL and OpenSSL builder Docker images have been updated.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

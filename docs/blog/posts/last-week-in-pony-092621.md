@@ -10,7 +10,7 @@ date: 2021-09-26T09:44:32-04:00
 
 Sean T. Allen has started documentation for setting up a Raspberry Pi 4 Model B to do development of Pony.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

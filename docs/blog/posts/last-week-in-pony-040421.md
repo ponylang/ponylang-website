@@ -10,7 +10,7 @@ date: 2021-04-04T20:30:35-04:00
 
 Ponyc 0.39.1 has been released! The Roaring Pony group has made progress, including an addition to the standard library math package. Sean T. Allen is looking for assistance with the ponydoc project.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

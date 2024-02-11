@@ -8,7 +8,7 @@ title: "Last Week in Pony - November 17, 2019"
 date: 2019-11-17T15:52:40-05:00
 ---
 The Pony Playground is back (mostly) after being down for a few weeks. Groxio has started a new course on Pony with a free intro video available on YouTube.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

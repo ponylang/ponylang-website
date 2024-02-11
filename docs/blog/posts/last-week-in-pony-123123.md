@@ -8,6 +8,10 @@ title: "Last Week in Pony - December 31, 2023"
 date: 2023-12-31T07:00:06-04:00
 ---
 
+Party like its 2024.
+
+<!-- more -->
+
 ## Items of Note
 
 ## Meetings reminder

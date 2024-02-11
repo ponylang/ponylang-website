@@ -10,7 +10,7 @@ date: 2021-10-03T11:22:26-04:00
 
 We have working Arm CI again. And we are very close to having Pony working on Apple's M1 CPUs.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

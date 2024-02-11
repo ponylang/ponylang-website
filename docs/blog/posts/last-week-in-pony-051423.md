@@ -12,6 +12,8 @@ Although not a ton happened in the world of Pony this week, this is still a very
 
 And remember, Isaac pairs well with Pony so... be sure to program some Pony today while you are working on getting to Phoenix.
 
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

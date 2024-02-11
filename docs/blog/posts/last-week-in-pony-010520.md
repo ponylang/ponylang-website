@@ -9,7 +9,8 @@ date: 2020-01-05T12:59:32-05:00
 ---
 
 Ponyup now supports the macOS builds of ponyc! We highly recommend that you update ponyup to the latest version, even if you are a Linux user.
-<!--more-->
+
+<!-- more -->
 
 ## Items of note
 

@@ -9,7 +9,7 @@ date: 2021-04-25T20:41:45-04:00
 ---
 
 Audio from the April 20, 2021 Pony development sync call is available.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

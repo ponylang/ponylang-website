@@ -10,7 +10,7 @@ date: 2021-06-27T15:12:51-04:00
 
 Version 0.5.1 of ponylang/corral has been released. Jorge Díaz wrote an article this week about programming languages and coffee, in which one of the programming languages featured was Pony.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

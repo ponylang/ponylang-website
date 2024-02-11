@@ -10,7 +10,7 @@ date: 2022-11-27T07:00:06-04:00
 
 Here we are again, another week has gone by! So quick. Perhaps I am saying that because I had a four day work week. Perhaps not. There's plenty that has happened this week in Pony and lots more coming.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

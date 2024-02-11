@@ -10,7 +10,7 @@ date: 2022-02-27T12:38:52-03:00
 
 We have a ton of releases this week due to the 3 accepted and implemented RFCs. These include breaking changes to the standard library. We've also changed how "releases" are done for the library-documentation-action.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

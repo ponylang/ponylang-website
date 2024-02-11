@@ -12,7 +12,7 @@ There's a lot going on in Ponyland. Ok, not as much as say, the world of cryptoc
 
 We strongly suggest that you settle in because there's a lot to catch up on from this past week, so, how about you put on [Patsy Cline's Showcase](https://www.youtube.com/watch?v=9loTXznGJy4&list=PLVnkoLiLMTm4o55C42Y7Axl4oQjIU7cyf) and get reading!
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

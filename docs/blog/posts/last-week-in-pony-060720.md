@@ -9,7 +9,7 @@ date: 2020-06-07T11:16:04-04:00
 ---
 
 This weeks sync meeting includes discussions about type system soundness and dependency management.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

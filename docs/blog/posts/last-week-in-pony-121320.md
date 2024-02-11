@@ -9,7 +9,7 @@ date: 2020-12-13T16:07:58-05:00
 ---
 
 Version 0.2.2 of ponylang/http_server has been released.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

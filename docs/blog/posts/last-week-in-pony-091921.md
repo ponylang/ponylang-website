@@ -10,7 +10,7 @@ date: 2021-09-19T11:17:23-06:00
 
 We are looking for people to help fix bugs in the Arm version of Pony. And we'll provide you with equipment.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

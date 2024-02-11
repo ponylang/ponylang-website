@@ -8,6 +8,10 @@ title: "Last Week in Pony - September 3, 2023"
 date: 2023-09-03T07:00:06-04:00
 ---
 
+Apparently Sean was getting paid by the commit this week.
+
+<!-- more -->
+
 ## Items of Note
 
 ### CirrusCI Migration Update

@@ -9,7 +9,7 @@ date: 2021-02-14T21:47:46-05:00
 ---
 
 The supported version of FreeBSD is moving from 12.1 to 12.2. The Apple M1 support team has an initial report. The documentation site website, main.actor, is being shut down. The default branch renaming is underway. Interested in contributing to Corral or other Pony tools?
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

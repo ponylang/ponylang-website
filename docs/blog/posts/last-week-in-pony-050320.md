@@ -9,7 +9,7 @@ date: 2020-05-03T19:57:05-04:00
 ---
 
 Ponyc 0.34.0 has been released!
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

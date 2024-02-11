@@ -9,7 +9,7 @@ date: 2021-06-13T11:34:55-04:00
 ---
 
 Borja (@ergl) released pony-protobuf, an experimental Pony protocol buffers library and compiler.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

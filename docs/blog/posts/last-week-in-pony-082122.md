@@ -12,7 +12,7 @@ This week was a little bit quiet on the official front. I don't want to start an
 
 Developer Sync, another Principle, and the return of Issues of the Week!
 
-<!--more-->
+<!-- more -->
 
 ## Ponies don't crash
 

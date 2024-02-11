@@ -9,7 +9,7 @@ date: 2019-11-03T10:34:28-05:00
 ---
 
 Pony 0.33.0 is out! This release includes changes to the pony runtime options and a major step toward providing prebuilt binaries for Linux platforms. This is the first Ponyc release available as tar.gz packages for x86-based Linux distributions. The ponyup tool will soon support managing release and nightly installations of pony toolchains.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

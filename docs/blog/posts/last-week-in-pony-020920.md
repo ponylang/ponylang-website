@@ -9,7 +9,7 @@ date: 2020-02-09T11:29:16-05:00
 ---
 
 Pony 0.33.2 has been released! The core team is no longer maintaining the ponyc Homebrew formula, since [ponyup](https://github.com/ponylang/ponyup) is now the officially supported installation method.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -9,7 +9,7 @@ date: 2020-07-19T17:53:04-04:00
 ---
 
 We have some nice improvements to the website FAQ and corral documentation. RFC 67 has been approved and implemented!
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

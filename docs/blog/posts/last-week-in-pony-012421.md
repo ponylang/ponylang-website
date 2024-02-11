@@ -9,7 +9,7 @@ date: 2021-01-24T11:18:38-05:00
 ---
 
 The Pony community is preparing to support Apple Silicon. Version 0.3.0 of ponylang/flycheck-pony has been released.
-<!--more-->
+<!-- more -->
 
 ## Releases
 

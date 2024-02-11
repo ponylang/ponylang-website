@@ -10,7 +10,7 @@ date: 2022-07-03T11:35:06-04:00
 
 Version 0.51.1 of ponyc has been released! @nogginly has started a package, github.com/nogginly/termax.pony, offering enhanced terminal application development APIs.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

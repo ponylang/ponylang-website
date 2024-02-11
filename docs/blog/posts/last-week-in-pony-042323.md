@@ -12,6 +12,8 @@ Hey there kiddos! Sunday is here again. It's Last Week in Pony time. This week's
 
 Just remember, 3 times 7 is 21.
 
+<!-- more -->
+
 ## Items of Note
 
 ### Email and SMTP packages from Red

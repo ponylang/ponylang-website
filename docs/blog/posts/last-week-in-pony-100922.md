@@ -10,7 +10,7 @@ date: 2022-10-09T00:00:00-05:00
 
 Progress on the PostgreS(QL), and updates to ponyc and Lori!
 
-<!--more-->
+<!-- more -->
 
 ## New Releases
 

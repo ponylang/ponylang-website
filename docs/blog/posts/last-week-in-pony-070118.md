@@ -8,6 +8,10 @@ title: "Last Week in Pony - July 1, 2018"
 date: 2018-07-01T23:46:51-04:00
 ---
 
+Last week's Pony news, reported this week.
+
+<!-- more -->
+
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
 
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).

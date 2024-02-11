@@ -9,7 +9,7 @@ date: 2021-03-29T12:39:21-04:00
 ---
 
 The 'Force declaration of FFI functions' RFC has entered final comment period. OpenSSL and LibreSSL builders have been updated. There are also some releases from last week.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -9,7 +9,7 @@ date: 2020-05-31T10:40:52-04:00
 ---
 
 A bunch of updates to ponylang-mode. The Pony Zulip now has a 'jobs' stream for posting Pony-related job opportunities. The 'Add maybe to itertools' RFC will be voted on in the next sync meeting.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -8,6 +8,10 @@ title: "Last Week in Pony July 30, 2023"
 date: 2023-07-30T07:00:06-04:00
 ---
 
+A mention of Pony 'in the wild'.
+
+<!-- more -->
+
 ## Items of Note
 
 ### No July `ponyc` release

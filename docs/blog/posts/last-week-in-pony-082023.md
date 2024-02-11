@@ -8,6 +8,10 @@ title: "Last Week in Pony August 20, 2023"
 date: 2023-08-20T07:00:06-04:00
 ---
 
+Time to upgrade your ponyc.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Update to Pony 0.55.1 As Soon As Possible

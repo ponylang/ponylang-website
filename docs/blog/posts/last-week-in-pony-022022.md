@@ -10,7 +10,7 @@ date: 2022-02-20T13:44:16-03:00
 
 We have 1 new RFC and 3 that are ready for vote. Corral 0.5.6 has been released.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

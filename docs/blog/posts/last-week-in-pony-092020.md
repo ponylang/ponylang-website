@@ -9,7 +9,7 @@ date: 2020-09-20T19:38:30-04:00
 ---
 
 Sean T. Allen has released version 0.0.1 of the lori TCP library.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

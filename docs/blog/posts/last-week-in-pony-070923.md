@@ -10,6 +10,8 @@ date: 2023-07-09T07:00:06-04:00
 
 Not a ton of activity this week in part because it was a long holiday weekend here in the US.
 
+<!-- more -->
+
 ## Items of Note
 
 ### Office Hours

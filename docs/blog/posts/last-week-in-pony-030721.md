@@ -9,7 +9,7 @@ date: 2021-03-07T18:49:04-05:00
 ---
 
 We have new releases of Ponyc and Corral.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

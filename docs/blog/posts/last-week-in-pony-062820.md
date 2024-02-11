@@ -9,7 +9,7 @@ date: 2020-06-28T11:52:03-04:00
 ---
 
 Ponyup and ponylang-mode have new releases.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

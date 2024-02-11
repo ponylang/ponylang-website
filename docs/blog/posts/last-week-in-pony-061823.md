@@ -8,6 +8,10 @@ title: "Last Week in Pony June 18, 2023"
 date: 2023-06-18T07:00:06-04:00
 ---
 
+Let's talk about "macros".
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

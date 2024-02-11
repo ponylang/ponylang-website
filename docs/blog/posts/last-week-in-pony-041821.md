@@ -9,7 +9,7 @@ date: 2021-04-18T19:07:00-04:00
 ---
 
 The supported version of FreeBSD has switched to 13.0 for ponyc and corral. The Roaring pony folks met again.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

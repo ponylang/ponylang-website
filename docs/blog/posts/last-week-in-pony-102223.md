@@ -8,6 +8,10 @@ title: "Last Week in Pony - October 22, 2023"
 date: 2023-10-22T07:00:06-04:00
 ---
 
+Looking for some Xcode 15 testing help.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Xcode 15 Testing Help Needed

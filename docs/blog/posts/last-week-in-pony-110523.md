@@ -8,6 +8,10 @@ title: "Last Week in Pony - November 5, 2023"
 date: 2023-11-05T07:00:06-04:00
 ---
 
+A not particularly scary week in the land of Pony.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

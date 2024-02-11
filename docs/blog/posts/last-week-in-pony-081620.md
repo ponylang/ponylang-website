@@ -9,7 +9,7 @@ date: 2020-08-16T19:34:38-04:00
 ---
 
 We have new releases for crypto libraries and new bots to automate changelogs and release notes. The shared Docker containers for openssl and libressl builders are being replaced.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

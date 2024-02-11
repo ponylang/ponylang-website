@@ -11,7 +11,7 @@ date: 2020-05-10T11:03:33-04:00
 
 It's been a big week in Pony world for new ponylang projects and releases. ponyc 0.34.1 has been released for users on glibc-based Linux platforms. We've also opened a new GitHub repo for collecting information relevant to Pony contributors at [https://github.com/ponylang/contributors](https://github.com/ponylang/contributors).
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

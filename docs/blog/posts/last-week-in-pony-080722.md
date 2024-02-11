@@ -10,7 +10,7 @@ date: 2022-08-07T00:59:59-04:00
 
 This week we add a new section to This Week in Pony where your (currently nomadic) Author will highlight a language trait or principle that, if you are new to pony may surprise you.
 
-<!--more-->
+<!-- more -->
 
 ## Ponies can't sleep...
 

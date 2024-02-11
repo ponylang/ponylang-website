@@ -10,7 +10,7 @@ date: 2021-10-10T11:30:37-04:00
 
 We have new releases of ponyup and corral.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

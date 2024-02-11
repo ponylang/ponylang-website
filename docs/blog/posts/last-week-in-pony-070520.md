@@ -9,7 +9,7 @@ date: 2020-07-05T18:40:04-04:00
 ---
 
 There is a new set of public Docker images for Pony with SSL system libraries installed. These will be replacing the previous "x86-64-unknown-linux-builder-with-ssl" image.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

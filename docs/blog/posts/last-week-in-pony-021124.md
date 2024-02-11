@@ -8,6 +8,10 @@ title: "Last Week in Pony - February 11, 2024"
 date: 2024-02-11T07:00:06-04:00
 ---
 
+The 'Constrained Types' RFC was accepted.
+
+<!-- more -->
+
 ## Items of Note.
 
 ### We have a Bluesky Account

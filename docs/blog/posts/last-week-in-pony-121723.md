@@ -8,6 +8,10 @@ title: "Last Week in Pony - December 17, 2023"
 date: 2023-12-17T07:00:06-04:00
 ---
 
+The holiday season is upon us and a few schedule changes are afoot.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Holiday Sync Cancellations

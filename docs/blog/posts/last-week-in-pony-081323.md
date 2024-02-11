@@ -8,6 +8,10 @@ title: "Last Week in Pony August 13, 2023"
 date: 2023-08-13T07:00:06-04:00
 ---
 
+Updates on the "Great CI Move of 2023".
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

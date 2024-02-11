@@ -8,6 +8,10 @@ title: "Last Week in Pony - December 10, 2023"
 date: 2023-12-10T07:00:06-04:00
 ---
 
+The great DockerHub migration is over.
+
+<!-- more -->
+
 ## Items of Note
 
 ### DockerHub Migration Update

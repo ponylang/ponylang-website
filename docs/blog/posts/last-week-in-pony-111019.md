@@ -8,7 +8,7 @@ title: "Last Week in Pony - November 10, 2019"
 date: 2019-11-10T11:09:26-05:00
 ---
 Last week has seen a ton of improvements to our CI and release automation thanks to Sean T. Allen. We have also been working toward making ponyup the default for installing and managing the Pony compiler and tools. Three new members have been inducted into the Pony core team.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

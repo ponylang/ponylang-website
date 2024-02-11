@@ -9,7 +9,7 @@ date: 2021-03-21T19:19:25-04:00
 ---
 
 Version 0.6.3 of ponylang/ponyup has been released. The first recording is available for implementing RoaringBitmap in Pony.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -8,6 +8,10 @@ title: "Last Week in Pony - January 7, 2024"
 date: 2024-01-07T07:00:06-04:00
 ---
 
+Office Hours and the Development Sync are back this week.
+
+<!-- more -->
+
 ## Items of Note
 
 ## Meetings reminder

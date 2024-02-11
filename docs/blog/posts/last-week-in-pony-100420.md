@@ -9,7 +9,7 @@ date: 2020-10-04T20:30:04-04:00
 ---
 
 There's a new meeting URL for the weekly Pony developer sync meeting.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

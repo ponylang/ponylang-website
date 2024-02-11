@@ -10,7 +10,7 @@ date: 2022-01-16T15:02:23-05:00
 
 Version 0.46.0 of ponylang/ponyc has been released. Many other Pony packages have also been updated to support this latest Ponyc release. A new RFC has been opened to expose runtime scheduler information in the standard library.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

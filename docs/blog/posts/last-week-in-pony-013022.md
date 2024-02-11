@@ -10,7 +10,7 @@ date: 2022-01-30T14:16:45-05:00
 
 Audio from the January 18th and 25th Pony development syncs are available. Version 0.2.0 of ponylang/library-documentation-action has been released. The RFC to expose runtime scheduler information is ready for a vote.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

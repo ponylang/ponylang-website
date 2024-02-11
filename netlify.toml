@@ -20,3 +20,8 @@ ID = "Your_Site_ID"
 [context.branch-deploy.environment]
   HUGO_VERSION = "0.24.1"
 
+[[redirects]]
+  from = "/categories/*"
+  to = "/blog/categories/:splat"
+  status = 301
+  force = true

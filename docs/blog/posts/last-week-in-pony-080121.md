@@ -10,7 +10,7 @@ date: 2021-08-01T19:20:39-04:00
 
 New releases of ponylang/corral and ponylang/http are available. The 'Split `FilePath` constructor to guarantee constructor with AmbientAuth' RFC has been updated to 'final comment period'.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

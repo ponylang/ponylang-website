@@ -9,7 +9,7 @@ date: 2021-09-12T10:02:19-04:00
 ---
 
 A slow week in the land of Pony.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

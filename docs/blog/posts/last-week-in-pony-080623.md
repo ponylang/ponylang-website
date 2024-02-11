@@ -8,6 +8,10 @@ title: "Last Week in Pony August 6, 2023"
 date: 2023-08-06T07:00:06-04:00
 ---
 
+Big CI related changes are coming. What they are though? We don't know yet.
+
+<!-- more -->
+
 ## Items of Note
 
 ### A Great and Mighty CI Move is Coming

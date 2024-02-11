@@ -8,6 +8,10 @@ title: "Last Week in Pony July 16, 2023"
 date: 2023-07-16T07:00:06-04:00
 ---
 
+Victor is making progress with his MsQuic integration.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Office Hours

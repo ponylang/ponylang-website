@@ -9,7 +9,7 @@ date: 2020-11-22T22:21:22-05:00
 ---
 
 The ponylang/glob package has upgraded its ponylang/regex dependency to improve the installation experience for Windows users.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

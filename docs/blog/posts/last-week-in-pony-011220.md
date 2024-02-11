@@ -10,7 +10,7 @@ date: 2020-01-12T20:12:04-05:00
 
 We've had a boatload of exciting new RFC proposals in the past few weeks! Check them out at [https://github.com/ponylang/rfcs/pulls](https://github.com/ponylang/rfcs/pulls).
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

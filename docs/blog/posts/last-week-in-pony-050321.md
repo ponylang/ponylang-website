@@ -9,7 +9,7 @@ date: 2021-05-03T12:27:38-04:00
 ---
 
 Version 0.40.0 of ponylang/ponyc has been released! Also, the 'Add String.add `iso` proposal' RFC is now in final comment period.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -9,7 +9,7 @@ date: 2020-09-13T20:20:16-04:00
 ---
 
 A Pony talk given by Sophia Drossopoulou is now available on InfoQ.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

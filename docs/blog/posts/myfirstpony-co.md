@@ -12,6 +12,8 @@ draft: false
 
 _This is the 2nd post in our "My First Pony" series. We ask new Pony user's to share their initial impressions. The good, the bad, the ugly and sometimes, and sometimes the factually wrong. We think we can all, as an industry, learn from how we all learn. So sit back and enjoy another issue of "My First Pony":_
 
+<!-- more -->
+
 ## Background & How I discovered Pony?
 
 Me: C#  developer mostly with Unity3D. 4 years professionally.

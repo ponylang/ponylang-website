@@ -10,6 +10,8 @@ date: 2023-04-30T07:00:06-04:00
 
 Keeping an open source project up and running has lots of hidden time that goes into it. This past week was one of those. A few things that happened, our Windows CI and builds related to anything that uses LibreSSL started failing consistently. Turns out that the site we were getting LibreSSL from was down. After digging around for a while, Sean figured out that `cdn.openbsd.org` which is what all links on openbsd.org use appears to be far more reliable than the `ftp.openbsd.org` that is used for links on the LibreSSL site. And, they both have the same content. So, we got to update a bunch of libraries and applications that rely on LibreSSL on Windows to fix the failures. You'll see a lot of releases related to that change that happened this week.
 
+<!-- more -->
+
 We also had a MacOS build incident where the version of Python that ships with MacOS Monterey was compiled with an OpenSSL that is no longer supported by `urllib` and our corral and ponyup stopped uploading to Cloudsmith due to the error that `urllib` was throwing. The solution there? Install Python via brew in MacOS CI environments to make sure we aren't using a wicked old Python. The nice side-effect of that one was we realized that we needed to update to making Ventura our supported MacOS version (several months after we should have).
 
 There's all sorts of stuff that comes up like this that is needed to keep the status quo for a project. So, for all of you who support Pony with your time or [your money](https://opencollective.com/ponyc), thanks. This would all slide into decay were it not for your efforts.

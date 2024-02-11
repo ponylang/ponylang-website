@@ -10,6 +10,8 @@ date: 2023-05-07T07:00:06-04:00
 
 For reasons of migraine and work, there was no Pony Development Sync meeting this week nor did we hold the Office Hours meeting. But, we did discuss compile-time expressions a bit and probably will a lot more in the future.
 
+<!-- more -->
+
 ## Items of Note
 
 ### Ubuntu 18.04 is no longer supported

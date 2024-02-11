@@ -8,6 +8,10 @@ title: "Last Week in Pony - September 24, 2023"
 date: 2023-09-24T07:00:06-04:00
 ---
 
+A quiet week.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

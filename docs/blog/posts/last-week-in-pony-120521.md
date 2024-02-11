@@ -10,7 +10,7 @@ date: 2021-12-05T11:02:38-05:00
 
 Version 0.45.1 of ponylang/ponyc has been released!
 
-<!--more-->
+<!-- more -->
 
 ## Releases
 

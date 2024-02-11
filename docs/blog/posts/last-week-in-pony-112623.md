@@ -8,6 +8,10 @@ title: "Last Week in Pony - November 26, 2023"
 date: 2023-11-26T07:00:06-04:00
 ---
 
+We are approaching the end of the great DockerHub Migration.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Ponyc 0.58.0 has been released

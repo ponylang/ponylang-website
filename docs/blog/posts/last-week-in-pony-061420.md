@@ -9,7 +9,7 @@ date: 2020-06-14T11:00:57-04:00
 ---
 
 We have some new RFCs and more updates to the Emacs ponylang-mode. This week's sync meeting includes a discussion about build systems and package management.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

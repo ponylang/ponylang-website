@@ -8,6 +8,10 @@ title: "Last Week in Pony - December 3, 2023"
 date: 2023-12-03T07:00:06-04:00
 ---
 
+You probably won't remember this 3rd of December.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

@@ -8,6 +8,10 @@ title: "Last Week in Pony July 2, 2023"
 date: 2023-07-02T07:00:06-04:00
 ---
 
+A slow lead up to a long weekend.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

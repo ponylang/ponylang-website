@@ -8,6 +8,10 @@ title: "Last Week in Pony March 26, 2023"
 date: 2023-03-26T07:00:06-04:00
 ---
 
+A slow week in Pony.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

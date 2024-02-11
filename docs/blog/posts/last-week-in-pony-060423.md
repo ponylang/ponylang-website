@@ -12,6 +12,8 @@ This intro has absolutely nothing to do with Pony. I've been listening to a lot 
 
 - [Dale Watson: Flat Tire](https://www.youtube.com/watch?v=KDx39DlAF0w)
 
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

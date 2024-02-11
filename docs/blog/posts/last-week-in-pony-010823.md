@@ -10,7 +10,7 @@ date: 2023-01-08T07:00:06-04:00
 
 The headline news of the week, if you are using Pony 0.52.3 to 0.52.5, you should update to 0.53.0 as soon as possible to address a runtime segfault.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

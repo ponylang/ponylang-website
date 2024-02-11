@@ -10,7 +10,7 @@ date: 2023-02-05T07:00:06-04:00
 
 This past week, there was no sync and no RFC activity and no big announcements. It was also a week that your author was very busy at work and so, put all that together and this week's Last Week in Pony is a light one.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

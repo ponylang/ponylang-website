@@ -8,6 +8,10 @@ title: "Last Week in Pony - January 28, 2024"
 date: 2024-01-28T07:00:06-04:00
 ---
 
+More fun than a trip to Buc-ee's.
+
+<!-- more -->
+
 ## Items of Note
 
 ### New Pony Pattern

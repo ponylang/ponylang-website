@@ -8,6 +8,10 @@ title: "Last Week in Pony - October 29, 2023"
 date: 2023-10-29T07:00:06-04:00
 ---
 
+Use Pony on Intel MacOS? Update your ponyc installation!
+
+<!-- more -->
+
 ## Items of Note
 
 ### Ponyc 0.57.1 Released

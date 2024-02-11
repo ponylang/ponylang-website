@@ -10,7 +10,7 @@ date: 2020-04-14T17:38:48-04:00
 
 We return after a long absence with some very sad news.
 
-<!--more-->
+<!-- more -->
 
 ## A sad goodbye
 

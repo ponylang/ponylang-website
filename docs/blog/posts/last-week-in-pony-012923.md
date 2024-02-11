@@ -10,7 +10,7 @@ date: 2023-01-29T07:00:06-04:00
 
 Last week, we accepted two RFCs that will result in changes to Pony syntax and the standard library respectively.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

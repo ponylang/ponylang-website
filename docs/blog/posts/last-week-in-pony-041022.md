@@ -10,7 +10,7 @@ date: 2022-04-10T10:43:32-04:00
 
 Audio from the April 5th, 2022 Pony development sync is available.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

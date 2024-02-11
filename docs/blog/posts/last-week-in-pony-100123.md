@@ -10,6 +10,8 @@ date: 2023-10-01T10:24:02-04:00
 
 It was another quiet week in Pony as Sync was fairly short, Office Hours has moved, and Sean is still out on vacation.
 
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

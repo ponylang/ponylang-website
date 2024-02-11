@@ -9,7 +9,7 @@ date: 2021-05-10T00:17:55-04:00
 ---
 
 New releases are available, including ponylang/ponyc 0.41.0 and seantallen-org/lori 0.1.0. Interested in helping maintain ponyup?
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

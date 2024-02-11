@@ -10,7 +10,7 @@ date: 2022-06-12T12:21:28-04:00
 
 Version 0.2.3 of ergl/pony-protobuf has been released. Audio from the May 31, 2022 Pony development sync is available.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

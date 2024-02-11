@@ -9,7 +9,7 @@ date: 2020-05-24T10:33:53-04:00
 ---
 
 Damon Kwok has been doing a ton of awesome work on the Emacs ponylang-mode. Sean T Allen gave an informal presentation on Pony to the Houston Functional Programmers Users Group.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

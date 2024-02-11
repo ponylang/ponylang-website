@@ -8,6 +8,10 @@ title: "Last Week in Pony - November 12, 2023"
 date: 2023-11-12T07:00:06-04:00
 ---
 
+Sometimes the volunteer driven project is active, sometimes it is more like this past week.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

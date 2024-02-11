@@ -10,7 +10,7 @@ date: 2021-11-28T11:52:06-05:00
 
 Audio from the November 16 and 23 Pony development sync calls are available.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

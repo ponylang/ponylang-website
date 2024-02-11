@@ -10,7 +10,7 @@ date: 2023-01-22T07:00:06-04:00
 
 Not a lot of things that normally make up the content of Last Week in Pony happened this week. Both Sean and Joe were sick so there was no sync meeting which tends to have a cascading effect on other activity.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

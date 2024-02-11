@@ -8,6 +8,10 @@ title: "Last Week in Pony - November 19, 2023"
 date: 2023-11-19T07:00:06-04:00
 ---
 
+Quiet week in Pony. Calm before the storm, or end-of-year festivities keeping everyone busy?
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

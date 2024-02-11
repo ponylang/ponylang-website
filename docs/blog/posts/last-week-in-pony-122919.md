@@ -9,7 +9,7 @@ date: 2019-12-29T10:40:55-05:00
 ---
 
 The Pony compiler now has support for LLVM 9! Nightly builds of ponyc, corral, and ponyup are also available for macOS now.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

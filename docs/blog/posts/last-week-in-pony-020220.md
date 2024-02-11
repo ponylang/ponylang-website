@@ -9,7 +9,7 @@ date: 2020-02-02T12:13:58-05:00
 ---
 
 Our community Zulip has over 500 members! Ryan A. Hagenson introduces pony-bio, a bioinformatics library for the Pony ecosystem.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

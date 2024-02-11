@@ -9,7 +9,7 @@ date: 2020-12-06T22:57:56-05:00
 ---
 
 The audio recording of the December 1, 2020 Pony development sync call is available.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

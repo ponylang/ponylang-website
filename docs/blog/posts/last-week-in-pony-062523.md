@@ -8,6 +8,10 @@ title: "Last Week in Pony June 25, 2023"
 date: 2023-06-25T07:00:06-04:00
 ---
 
+A long and extensive Office Hours.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

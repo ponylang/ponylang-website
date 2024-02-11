@@ -10,7 +10,7 @@ date: 2021-07-04T10:32:33-04:00
 
 Pony 0.41.2 of ponylang/ponyc has been released! Andy Turley is leaving the core team. There's a new RFC related to the `FilePath` constructor and AmbientAuth.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

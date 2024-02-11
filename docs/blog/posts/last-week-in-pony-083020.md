@@ -9,7 +9,7 @@ date: 2020-08-30T17:39:32-04:00
 ---
 
 The Flynn project aims to bring a Pony-like actor-model implementation to Swift using a modified version of the Pony runtime. New releases of ponyc, ponyup, and some bots.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

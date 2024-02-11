@@ -10,7 +10,7 @@ date: 2022-12-18T07:00:06-04:00
 
 The big news for this week is that we merged and release a safety fix that can have a large impact on performance for applications that send lots of messages that need to be traced by the garbage collector. We'll be incrementally adding back in performance as we make the compiler smarter.
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

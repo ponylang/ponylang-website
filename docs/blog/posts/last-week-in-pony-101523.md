@@ -8,6 +8,10 @@ title: "Last Week in Pony - October 15, 2023"
 date: 2023-10-15T07:00:06-04:00
 ---
 
+Update your Pony installation as soon as possible.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony 0.57.0

@@ -12,7 +12,7 @@ It was a busy week in Pony. Pony 0.47.0 was released including a breaking change
 
 It was also a busy week with RFCS. 3 new RFCs were opened, 1 was implemented, and [another](https://github.com/ponylang/rfcs/pull/193) has had continued discussion.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

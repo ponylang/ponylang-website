@@ -10,7 +10,7 @@ date: 2022-05-29T11:24:51-04:00
 
 Version 0.51.0 of ponylang/ponyc has been released! A new RFC has been opened for 'Introduce empty Ranges'.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -10,7 +10,7 @@ date: 2022-04-03T15:21:27-04:00
 
 Episode 12 of the Pony Virtual Users' Group is available.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

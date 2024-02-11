@@ -9,7 +9,7 @@ date: 2021-02-22T10:11:11-05:00
 ---
 
 Ponycheck has become an official Ponylang project. @ergl has opened a new RFC related to FFI declarations. We also have notes from Sean T. Allen and Theo Butler on how to start contributing to Pony.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

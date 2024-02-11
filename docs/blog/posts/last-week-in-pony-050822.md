@@ -10,7 +10,7 @@ date: 2022-05-08T13:39:08-04:00
 
 The May 6th Pony office hours featured Sean T. Allen doing an informal presentation of the Pony runtime backpressure system.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

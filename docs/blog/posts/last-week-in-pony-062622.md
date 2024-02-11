@@ -10,7 +10,7 @@ date: 2022-06-26T15:02:12-04:00
 
 Audio for the June 14th and June 21st Pony Development Sync are available.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

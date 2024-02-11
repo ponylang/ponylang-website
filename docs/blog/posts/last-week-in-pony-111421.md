@@ -10,7 +10,7 @@ date: 2021-11-14T11:16:57-05:00
 
 We have landed a fix to the underlying time source for `Time.nanos()` on Apple Silicon.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

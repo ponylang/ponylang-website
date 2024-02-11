@@ -11,7 +11,7 @@ date: 2019-12-15T10:31:28-05:00
 Another week in the world of Pony has passed. What's going on? Well quite a bit, a lot of which will be surfacing over the next couple months so keep your eyes peeled on Last Week in Pony. We have a lot of exciting stuff coming.
 
 In the meantime, let's get to that news...
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

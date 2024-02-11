@@ -9,7 +9,7 @@ date: 2021-04-11T19:47:40-04:00
 ---
 
 New versions of the ponylang crypto, http, http_server, and net_ssl packages are available.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -12,7 +12,7 @@ This week's "Last Week in Pony" is brought to you with even more love than usual
 
 It was also a busy week with RFCS. 3 RFCs were moved to "final comment period" and [another](https://github.com/ponylang/rfcs/pull/193) has had continued discussion.
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

@@ -9,7 +9,7 @@ date: 2020-09-06T15:19:31-04:00
 ---
 
 We have a new RFC for added syntax to extend automatic receiver recovery. The shared-docker shellcheck image is being deprecated.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

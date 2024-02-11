@@ -6,7 +6,10 @@ categories:
 - My First Pony
 draft: false
 ---
+
 This weekend I found myself with a couple of spare hours available to squeeze in between some yard work and making sure the baby is still alive and fed. Typically, I would use this time to play with _Go_ or continue my love/hate learning relationship with _Rust_. This weekend, I decided to play with _Pony_.
+
+<!-- more -->
 
 ## I'm Prejudiced and I Admit it
 

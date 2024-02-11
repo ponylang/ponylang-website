@@ -10,7 +10,7 @@ date: 2022-10-30T07:00:06-04:00
 
 Welcome to the latest issue of the "mostly weekly" Pony newsletter "Last Week in Pony". We've got a lot to catch up on as we've been a little remiss in keeping a regular LWIP schedule. We suggest the following soundtrack for this week's episode... ["Return of the Mack"](https://www.youtube.com/watch?v=uB1D9wWxd2w).
 
-<!--more-->
+<!-- more -->
 
 ## Items of Note
 

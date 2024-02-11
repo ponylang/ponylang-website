@@ -9,7 +9,7 @@ date: 2019-12-22T12:25:05-05:00
 ---
 
 We have quite a lot of exciting announcements this week. Releases for Ponyup and Corral are hot off the presses, we have a new committer, and more!
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

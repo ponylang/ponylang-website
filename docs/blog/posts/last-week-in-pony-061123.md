@@ -10,6 +10,8 @@ date: 2023-06-11T07:00:06-04:00
 
 There is an excellent Zulip thread that was opened this week by Victor Morrow that is a wonderful jumping off point to talk some about debugging and common debugging mistakes. Plus, a bit of synchronicity between part of an Office Hours conversation and a blog post that Adrian came across the next day.
 
+<!-- more -->
+
 ## Items of Note
 
 ### An Interesting Zulip Thread

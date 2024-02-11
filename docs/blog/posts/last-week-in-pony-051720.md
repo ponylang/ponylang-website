@@ -9,7 +9,7 @@ date: 2020-05-17T11:54:44-04:00
 ---
 
 Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager that could, has been deprecated in favor of our new dependency manager, Corral.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

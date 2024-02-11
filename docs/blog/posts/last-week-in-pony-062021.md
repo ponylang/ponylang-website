@@ -10,7 +10,7 @@ date: 2021-06-20T20:31:36-04:00
 
 Pony VUG has returned after a short hiatus with a talk from Red Davies on the subject of 'CastXML2Pony: Automatically(ish) building Pony libraries to wrap C-FFI calls.'
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

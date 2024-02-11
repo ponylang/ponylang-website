@@ -9,7 +9,7 @@ date: 2020-04-26T11:00:11-04:00
 ---
 
 Nightly builds of ponyc for FreeBSD 12.1 are available. pony-semver has moved into the ponylang organization. The past sync meeting discussed syntax changes for the call site of behaviours.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

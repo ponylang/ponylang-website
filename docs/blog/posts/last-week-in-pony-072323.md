@@ -8,6 +8,10 @@ title: "Last Week in Pony July 23, 2023"
 date: 2023-07-23T07:00:06-04:00
 ---
 
+Barrelling downhill towards death because we didn't attend Office Hours.
+
+<!-- more -->
+
 ## Items of Note
 
 ### Pony Development Sync

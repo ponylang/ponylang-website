@@ -9,7 +9,7 @@ date: 2021-03-14T21:58:45-04:00
 ---
 
 We're migrating the Pony Tutorial and Pony Patterns to MkDocs-Material. There's a new tool for interactively exploring the Pony AST from a debugger. ponylang/http has been updated.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

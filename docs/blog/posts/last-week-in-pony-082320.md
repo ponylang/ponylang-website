@@ -9,7 +9,7 @@ date: 2020-08-23T09:08:40-04:00
 ---
 
 Corral now has ability to run scripts when a dependency is fetched. This has been used to install necessary libraries on Windows starting with the latest releases of the crypto, net_ssl, and regex packages. Ponyup 0.6.0 is out, with some minor improvements.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

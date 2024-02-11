@@ -9,7 +9,7 @@ date: 2020-06-21T13:11:43-04:00
 ---
 
 We have new releases for ponyup, ponylang-mode, and release-notes-bot-action.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

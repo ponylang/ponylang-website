@@ -9,7 +9,7 @@ date: 2021-08-08T14:42:41-04:00
 ---
 
 Version 0.43.1 of ponylang/ponyc has been released. RFC 70, 'Split `FilePath` constructor to guarantee constructor with AmbientAuth', has been approved. Andreas Stührk, aka @trundle, has donated his templating library to the ponylang organization.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

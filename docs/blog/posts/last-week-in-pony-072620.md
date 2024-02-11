@@ -9,7 +9,7 @@ date: 2020-07-26T16:00:37-04:00
 ---
 
 The July 21 sync includes discussions about ponyup and the String API.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

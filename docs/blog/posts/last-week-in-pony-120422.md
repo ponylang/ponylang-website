@@ -10,6 +10,8 @@ date: 2022-12-04T07:00:06-04:00
 
 It was a week of releases and CI changes. We've switched from FreeBSD 13.0 to FreeBSD 13.1. We've dropped Rocky 8 support (for now anyway). We released a new ponyc with a wicked important bug fix. We released a far less interesting version of corral. So, kids, grab a [Moxie](https://www.drinkmoxie.com/), put on some [Johnny Cash](https://www.youtube.com/watch?v=ZTol6KfcEFw) and dig in. It's that time again, Last Week in Pony time!
 
+<!-- more -->
+
 ## Items of Note
 
 ### Highly recommended ponyc release

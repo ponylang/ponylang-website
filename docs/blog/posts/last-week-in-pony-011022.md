@@ -10,7 +10,7 @@ date: 2022-01-10T10:50:00-05:00
 
 A new RFC has been opened: Make Array iterator classes private to hide implementation from client
 
-<!--more-->
+<!-- more -->
 
 ## Items of note
 

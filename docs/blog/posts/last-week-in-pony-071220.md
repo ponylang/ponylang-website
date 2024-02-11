@@ -9,7 +9,7 @@ date: 2020-07-12T11:05:51-04:00
 ---
 
 Sync audio for July 7 is available. RFC PR #175 is ready for vote on the next sync meeting.
-<!--more-->
+<!-- more -->
 
 ## Items of note
 
