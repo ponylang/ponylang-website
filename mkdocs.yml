@@ -37,7 +37,6 @@ plugins:
       post_url_date_format: yyyy/MM
       categories_url_format: "categories/{slug}"
   - search
-  - social
   - ezlinks
   - htmlproofer:
       raise_error: True
