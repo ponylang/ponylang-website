@@ -55,6 +55,7 @@ theme:
     - content.code.select
     - navigation.instant
     - navigation.indexes
+    - navigation.path
     - navigation.tracking
     - search.highlight
     - search.share
