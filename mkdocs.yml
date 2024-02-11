@@ -1,0 +1,87 @@
+site_name: Pony
+
+copyright: Copyright &copy; 2024 The Pony Developers
+edit_uri: edit/main/docs/
+repo_url: https://github.com/ponylang/ponylang-website/
+site_url: https://www.ponylang.io/
+use_directory_urls: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ponylang
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ponylang
+
+markdown_extensions:
+  - attr_list
+  - pymdownx.highlight
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - smarty
+  - toc:
+      permalink: true
+
+plugins:
+  - search
+  - ezlinks
+  # - htmlproofer:
+  #     raise_error: True
+  #     raise_error_excludes:
+  #       429: ["https://github.com/ponylang"]
+  #       404: ["https://github.com/ponylang"]
+
+theme:
+  name: material
+
+  favicon: assets/logo.png
+
+  features:
+    - content.code.copy
+    - content.code.select
+    - navigation.instant
+    - navigation.indexes
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+
+  icon:
+    repo: fontawesome/brands/github
+
+  logo: assets/logo.png
+
+  palette:
+    # Light mode
+    - scheme: default
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+nav:
+  - Home: "index.md"
+  - New To Pony?: "discover/index.md"
+  - Learning Pony?: "learn/index.md"
+  - Existing User?: "reference/index.md"
+  - Looking to Contribute?: "contribute/index.md"
+  - Community: "community/community.md"
+  - Blog: "blog/index.md"
+  - FAQ: "faq/index.md"
+  - Become a Supporter: "sponsors/index.md"
+  - Code of Conduct: "community/code-of-conduct.md"
+  - Sponsors: "sponsors/index.md"
