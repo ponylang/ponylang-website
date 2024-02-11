@@ -17,4 +17,4 @@ Welcome! This is the website for the Pony programming language. Pony is an open-
 - [Community resources](community/index.md)
 - [Code of conduct](community/code-of-conduct.md)
 - [How to contribute](contribute/index.md)
-- [Releases](https://www.ponylang.io/categories/release)
+- [Releases](https://github.com/ponylang/ponyc/releases)
