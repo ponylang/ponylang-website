@@ -43,4 +43,4 @@ The failing builds might be a good way for folks to get involved (although the i
 
 - I've been working on material for a Pony workshop that I've been giving (and will present at ICFP in September). It is now in a state where I think it is useful, and I'd love to get feedback on it. [Pony Workshop By Andrew Turley](https://github.com/aturley/pony-workshop)
 
-- Apparently, Brian Callahan has Pony working on OpenBSD. Here's to hoping he opens a PR at some point. [Brian Callahans Tweet](https://twitter.com/__briancallahan/status/1018263079816134657)
+- Apparently, Brian Callahan has Pony working on OpenBSD. Here's to hoping he opens a PR at some point.

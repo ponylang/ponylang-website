@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Recording of the August 27, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_08_27.m4a).
 
-- Sylvan Clebsch, originator of Pony, will be joining Sean T. Allen to give an all-day Pony tutorial at CodeMesh in London this November. [Tickets are still available](https://codesync.global/conferences/code-mesh-ldn/tutorial/?utm_source=Twitter&utm_medium=Code%20Sync&utm_campaign=Code%20Mesh%20LDN%2019/#18oo-programming-with-pony).
+- Sylvan Clebsch, originator of Pony, will be joining Sean T. Allen to give an all-day Pony tutorial at CodeMesh in London this November. Tickets are still available.
 
 - Andrew Turley proposed a [Pony unsession at Strange Loop](https://github.com/strangeloop/StrangeLoop2019/wiki/Unsessions#getting-in-the-saddle-with-the-pony-programming-language). If you're going to Strange Loop and you'd like to see this happen, please add your name to the "interested" section.
 

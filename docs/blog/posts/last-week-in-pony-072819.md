@@ -32,7 +32,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     I will be giving a Pony tutorial at CodeMesh in London this November. Tickets are now on sale. There will be a second teacher as well (perhaps Sylvan again, but no promises are being made). Last year there was a great turn out and excellent reviews. Come experience it for yourself.
 
-    Unlike last year, we will be doing an all-day session so you can get much deeper into learning Pony. Tutorial tickets are available via the [CodeMesh LDN website](https://www.codesync.global/conferences/code-mesh-ldn/tutorial/).
+    Unlike last year, we will be doing an all-day session so you can get much deeper into learning Pony. Tutorial tickets are available via the CodeMesh LDN website.
 
 - Sean T. Allen:
 

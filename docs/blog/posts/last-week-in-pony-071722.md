@@ -31,7 +31,7 @@ We'll keep the seat warm for you Theo!
   See the [release notes](https://github.com/ponylang/changelog-tool/releases/tag/0.5.0) for more details.
 
 - Version 0.1.1 of ponylang/release-notes-reminder has been released.
-  See the [release notes](https://github.com/ponylang/release-notes-reminder/releases/tag/0.1.1) for more details.
+  See the [release notes](https://github.com/ponylang/release-notes-reminder-bot-action/releases/tag/0.1.1) for more details.
 
 - Version 0.3.5 of ponylang/release-notes-bot-action has been released.
   See the [release notes](https://github.com/ponylang/release-notes-bot-action/releases/tag/0.3.5) for more details.

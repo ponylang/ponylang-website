@@ -32,4 +32,4 @@ Interested in making a change, or keeping up with changes to Pony? Check out the
 
 ### New RFCs
 
-- [#write gencap](https://github.com/ponylang/rfcs/blob/feature/gencap-write/text/0000-gencap-write.md): Add #write, a new gencap for use in type parameter constraints, implying the capability set: {`iso`, `trn`, `ref`}.
+- [#write gencap](https://github.com/ponylang/rfcs/pull/93): Add #write, a new gencap for use in type parameter constraints, implying the capability set: {`iso`, `trn`, `ref`}.

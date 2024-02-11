@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Recording of the September 17, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_09_17.m4a).
 
-- Pony training with Sylvan Clebsch and Sean T. Allen at Code Mesh LDN (06 Nov 2019)! [Learn more!](https://www2.codesync.global/l/23452/2019-09-19/6qrw1b)
+- Pony training with Sylvan Clebsch and Sean T. Allen at Code Mesh LDN (06 Nov 2019)!
 
 - Andrew Turley gave an unsession about Pony at Strange Loop. There were around 40 people there and lots of them asked good questions and seemed to have a good time.
 
