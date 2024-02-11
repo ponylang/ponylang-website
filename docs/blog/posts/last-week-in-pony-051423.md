@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "In which we celebrate Shaft Day."
 categories:
   - "Last Week in Pony"

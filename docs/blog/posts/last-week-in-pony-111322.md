@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Windows! Documentation generation! Love and Happiness!"
 categories:
   - "Last Week in Pony"

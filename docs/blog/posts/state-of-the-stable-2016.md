@@ -1,5 +1,6 @@
 ---
-author: "seantallen"
+authors:
+  - seantallen
 categories: ["State of the Stable"]
 date: 2016-03-12T12:48:57-04:00
 draft: false

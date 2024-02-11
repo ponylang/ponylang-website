@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "There's a new version of the Pony playground available. A new RFC has been created for extending the math package."
 categories:
   - "Last Week in Pony"

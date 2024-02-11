@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager that could, has been deprecated in favor of our new dependency manager, Corral."
 categories:
   - "Last Week in Pony"

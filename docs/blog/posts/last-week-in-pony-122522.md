@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A week in Pony dominated by conversations about distributed cycle detection."
 categories:
   - "Last Week in Pony"

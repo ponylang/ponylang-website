@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A quiet week in Pony"
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Ponyc 0.34.0 has been released!"
 categories:
   - "Last Week in Pony"

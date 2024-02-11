@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A relatively uneventful week."
 categories:
   - "Last Week in Pony"

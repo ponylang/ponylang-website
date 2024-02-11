@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Sean T. Allen has started documentation for setting up a Raspberry Pi 4 Model B to do development of Pony."
 categories:
   - "Last Week in Pony"

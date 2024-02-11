@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "ryan"
+authors:
+  - ryan
 description: "A new month in Pony!"
 categories:
   - "Last Week in Pony"

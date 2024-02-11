@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Borja (@ergl) released pony-protobuf, an experimental Pony protocol buffers library and compiler."
 categories:
   - "Last Week in Pony"

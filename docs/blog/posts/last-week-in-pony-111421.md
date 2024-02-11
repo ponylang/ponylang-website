@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have landed a fix to the underlying time source for `Time.nanos()` on Apple Silicon."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "A Pony talk given by Sophia Drossopoulou is now available on InfoQ."
 categories:
   - "Last Week in Pony"

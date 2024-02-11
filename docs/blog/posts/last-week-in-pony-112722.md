@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Despite the short Holiday weekend in the US, plenty of things happen in the land of Pony."
 categories:
   - "Last Week in Pony"

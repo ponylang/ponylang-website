@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Ponycheck has become an official Ponylang project. @ergl has opened a new RFC related to FFI declarations. We also have notes from Sean T. Allen and Theo Butler on how to start contributing to Pony."
 categories:
   - "Last Week in Pony"

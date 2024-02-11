@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The ponylang/glob package has upgraded its ponylang/regex dependency to improve the installation experience for Windows users."
 categories:
   - "Last Week in Pony"

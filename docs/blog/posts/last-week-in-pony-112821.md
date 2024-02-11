@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Audio from the November 16 and 23 Pony development sync calls are available."
 categories:
   - "Last Week in Pony"

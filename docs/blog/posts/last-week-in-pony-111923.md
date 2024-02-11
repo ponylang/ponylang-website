@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "ryan"
+authors:
+  - ryan
 description: "Quiet week in Pony. Calm before the storm, or end-of-year festivities keeping everyone busy?"
 categories:
   - "Last Week in Pony"

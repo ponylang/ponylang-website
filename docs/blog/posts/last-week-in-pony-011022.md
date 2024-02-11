@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "A new RFC has been opened: Make Array iterator classes private to hide implementation from client"
 categories:
   - "Last Week in Pony"

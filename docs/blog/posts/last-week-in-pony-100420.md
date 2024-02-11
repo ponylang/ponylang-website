@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "There's a new meeting URL for the weekly Pony developer sync meeting."
 categories:
   - "Last Week in Pony"

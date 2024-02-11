@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Barrelling downhill towards death because we didn't attend Office Hours."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have a new RFC for added syntax to extend automatic receiver recovery. The shared-docker shellcheck image is being deprecated."
 categories:
   - "Last Week in Pony"

@@ -31,6 +31,7 @@ markdown_extensions:
 
 plugins:
   - blog:
+      authors: True
       blog_toc: True
       post_excerpt: required
       post_url_date_format: yyyy/MM

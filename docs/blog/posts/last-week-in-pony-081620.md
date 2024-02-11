@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have new releases for crypto libraries and new bots to automate changelogs and release notes. The shared Docker containers for openssl and libressl builders are being replaced."
 categories:
   - "Last Week in Pony"

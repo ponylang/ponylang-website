@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The 'Force declaration of FFI functions' RFC has entered final comment period. OpenSSL and LibreSSL builders have been updated. There are also some releases from last week."
 categories:
   - "Last Week in Pony"

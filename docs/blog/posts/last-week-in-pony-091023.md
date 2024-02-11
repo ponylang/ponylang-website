@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Office Hours are moving. When? Dunno yet."
 categories:
   - "Last Week in Pony"

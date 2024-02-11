@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have new releases for ponyup, ponylang-mode, and release-notes-bot-action."
 categories:
   - "Last Week in Pony"

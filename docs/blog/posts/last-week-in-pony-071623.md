@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Victor is making progress with his MsQuic integration."
 categories:
   - "Last Week in Pony"

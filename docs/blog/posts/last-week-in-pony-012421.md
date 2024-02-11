@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The Pony community is preparing to support Apple Silicon. Version 0.3.0 of ponylang/flycheck-pony has been released."
 categories:
   - "Last Week in Pony"

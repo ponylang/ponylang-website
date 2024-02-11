@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "New releases of ponylang/corral and ponylang/http are available. The 'Split `FilePath` constructor to guarantee constructor with AmbientAuth' RFC has been updated to 'final comment period'."
 categories:
   - "Last Week in Pony"

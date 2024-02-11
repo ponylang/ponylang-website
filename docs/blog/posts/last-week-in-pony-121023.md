@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "The great DockerHub migration is over."
 categories:
   - "Last Week in Pony"

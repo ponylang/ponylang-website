@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.2.2 of ponylang/http_server has been released."
 categories:
   - "Last Week in Pony"

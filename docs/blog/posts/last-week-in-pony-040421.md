@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Ponyc 0.39.1 has been released! The Roaring Pony group has made progress, including an addition to the standard library math package. Sean T. Allen is looking for assistance with the ponydoc project."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.43.2 of ponylang/ponyc has been released! Andrew Turley's Pony LLDB extensions have been donated to the Ponylang organization. Sean T. Allen gave a walk-through of the code in the forthcoming Pony GitHub REST API library at the most recent Pony Virtual Users' Group."
 categories:
   - "Last Week in Pony"

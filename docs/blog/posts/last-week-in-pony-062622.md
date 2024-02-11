@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Audio for the June 14th and June 21st Pony Development Sync are available."
 categories:
   - "Last Week in Pony"

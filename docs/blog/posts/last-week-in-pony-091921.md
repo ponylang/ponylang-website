@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We are looking for people to help fix bugs in the Arm version of Pony. And we'll provide you with equipment."
 categories:
   - "Last Week in Pony"

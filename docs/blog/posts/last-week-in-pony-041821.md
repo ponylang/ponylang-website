@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The supported version of FreeBSD has switched to 13.0 for ponyc and corral. The Roaring pony folks met again."
 categories:
   - "Last Week in Pony"

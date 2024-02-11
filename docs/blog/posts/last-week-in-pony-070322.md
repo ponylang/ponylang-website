@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.51.1 of ponyc has been released! @nogginly has started a package, github.com/nogginly/termax.pony, offering enhanced terminal application development APIs."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A week with an off-topic intro."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.40.0 of ponylang/ponyc has been released! Also, the 'Add String.add `iso` proposal' RFC is now in final comment period."
 categories:
   - "Last Week in Pony"

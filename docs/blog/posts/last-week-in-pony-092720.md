@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Ponyc 0.38.1 has been released. Support for prebuilt \"generic glibc Linux\" ponyc binaries is being dropped in favor of prebuilt images for specific Linux distributions. We are also pleased to announce Jason Carr, AKA @jasoncarr0, is now a Pony committer!"
 categories:
   - "Last Week in Pony"

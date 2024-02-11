@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "@redvers has published an XML library for pony."
 categories:
   - "Last Week in Pony"

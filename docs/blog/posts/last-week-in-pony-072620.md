@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The July 21 sync includes discussions about ponyup and the String API."
 categories:
   - "Last Week in Pony"

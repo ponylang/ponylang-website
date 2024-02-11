@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Big CI related changes are coming. What they are though? We don't know yet."
 categories:
   - "Last Week in Pony"

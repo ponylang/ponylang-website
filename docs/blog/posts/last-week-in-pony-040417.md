@@ -1,5 +1,6 @@
 ---
-author: "colinobrien"
+authors:
+  - colinobrien
 categories: ["Last Week in Pony"]
 date: 2017-04-05T10:43:57-04:00
 draft: false

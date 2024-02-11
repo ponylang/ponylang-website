@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Our community Zulip has over 500 members! Ryan A. Hagenson introduces pony-bio, a bioinformatics library for the Pony ecosystem."
 categories:
   - "Last Week in Pony"

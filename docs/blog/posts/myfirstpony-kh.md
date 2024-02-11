@@ -1,7 +1,8 @@
 ---
 date: 2017-07-12T13:55:40-04:00
 title: My First Pony
-author: kevinhoffman
+authors:
+  - kevinhoffman
 categories:
 - My First Pony
 draft: false

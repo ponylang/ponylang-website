@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A fairly regular week."
 categories:
   - "Last Week in Pony"

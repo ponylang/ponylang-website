@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "There are new releases available for ponyc and ponyup. There is also a request for Intel Mac users to help test  a branch of ponyc."
 categories:
   - "Last Week in Pony"

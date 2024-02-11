@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The Flynn project aims to bring a Pony-like actor-model implementation to Swift using a modified version of the Pony runtime. New releases of ponyc, ponyup, and some bots."
 categories:
   - "Last Week in Pony"

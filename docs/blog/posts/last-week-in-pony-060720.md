@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "This weeks sync meeting includes discussions about type system soundness and dependency management."
 categories:
   - "Last Week in Pony"

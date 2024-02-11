@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Two new Pony libraries join the world."
 categories:
   - "Last Week in Pony"

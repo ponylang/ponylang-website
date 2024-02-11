@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Pony 0.33.2 has been released! The core team is no longer maintaining the ponyc Homebrew formula, since ponyup is now the officially supported installation method."
 categories:
   - "Last Week in Pony"

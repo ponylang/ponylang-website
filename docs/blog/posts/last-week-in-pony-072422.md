@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "red"
+authors:
+  - red
 description: "Audio from the July 24th Pony Development sync is available"
 categories:
   - "Last Week in Pony"

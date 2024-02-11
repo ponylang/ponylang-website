@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Sean T. Allen has released version 0.0.1 of the lori TCP library."
 categories:
   - "Last Week in Pony"

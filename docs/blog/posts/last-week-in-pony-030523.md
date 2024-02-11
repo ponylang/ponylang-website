@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Ponyc 0.54.0 was released."
 categories:
   - "Last Week in Pony"

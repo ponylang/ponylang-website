@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.2.3 of ergl/pony-protobuf has been released. Audio from the May 31, 2022 Pony development sync is available."
 categories:
   - "Last Week in Pony"

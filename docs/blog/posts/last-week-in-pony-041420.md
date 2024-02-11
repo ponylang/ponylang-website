@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "We return after a long absence with some very sad news."
 categories:
   - "Last Week in Pony"

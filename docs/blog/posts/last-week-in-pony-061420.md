@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have some new RFCs and more updates to the Emacs ponylang-mode. This week's sync meeting includes a discussion about build systems and package management."
 categories:
   - "Last Week in Pony"

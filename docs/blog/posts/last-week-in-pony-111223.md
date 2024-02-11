@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Sometimes the volunteer driven project is active, sometimes it is more like this past week."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "A bunch of updates to ponylang-mode. The Pony Zulip now has a 'jobs' stream for posting Pony-related job opportunities. The 'Add maybe to itertools' RFC will be voted on in the next sync meeting."
 categories:
   - "Last Week in Pony"

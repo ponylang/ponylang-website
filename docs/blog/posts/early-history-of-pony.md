@@ -1,8 +1,8 @@
 ---
 date: 2017-05-06T10:55:40-04:00
 title: An Early History of Pony
-author: sylvan
-description: foo
+authors:
+  - sylvan
 categories:
 - History
 draft: false

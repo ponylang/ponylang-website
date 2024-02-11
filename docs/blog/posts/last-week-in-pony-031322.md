@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Audio from the Pony development sync on March 8th, 2022 is available."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Return of the Mack"
 categories:
   - "Last Week in Pony"

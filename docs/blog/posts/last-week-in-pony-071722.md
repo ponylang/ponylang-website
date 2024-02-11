@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "red"
+authors:
+  - red
 description: "@Theodus steps away, Zulip goes public, and RISC-V hits main!"
 categories:
   - "Last Week in Pony"

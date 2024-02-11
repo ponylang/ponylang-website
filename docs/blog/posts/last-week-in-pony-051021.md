@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "New releases are available, including ponylang/ponyc 0.41.0 and seantallen-org/lori 0.1.0. Interested in helping maintain ponyup?"
 categories:
   - "Last Week in Pony"

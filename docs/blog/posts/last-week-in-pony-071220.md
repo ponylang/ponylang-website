@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Sync audio for July 7 is available. RFC PR #175 is ready for vote on the next sync meeting."
 categories:
   - "Last Week in Pony"

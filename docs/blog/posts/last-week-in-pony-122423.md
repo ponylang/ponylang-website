@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "May Santa bring you much awesome tonight."
 categories:
   - "Last Week in Pony"

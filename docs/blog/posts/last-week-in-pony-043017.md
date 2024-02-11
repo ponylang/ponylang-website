@@ -1,5 +1,6 @@
 ---
-author: seantallen
+authors:
+  - seantallen
 categories:
 - Last Week in Pony
 date: 2017-04-30T13:34:01-04:00

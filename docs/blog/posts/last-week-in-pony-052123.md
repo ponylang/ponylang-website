@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A week without a Pony development sync."
 categories:
   - "Last Week in Pony"

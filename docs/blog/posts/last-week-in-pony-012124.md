@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Update your HTTP library related dependencies."
 categories:
   - "Last Week in Pony"

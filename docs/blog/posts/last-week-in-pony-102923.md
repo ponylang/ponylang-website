@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Use Pony on Intel MacOS? Update your ponyc installation!"
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Two RFCs were accepted."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "@ergl, also know as Borja o'Cook on the Ponylang Zulip, has become a Pony committer. Also, we have started the process of renaming the default branches on our repos from master to main."
 categories:
   - "Last Week in Pony"

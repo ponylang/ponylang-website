@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "The 'Constrained Types' RFC was accepted."
 categories:
   - "Last Week in Pony"

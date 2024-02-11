@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A slow lead up to a long weekend."
 categories:
   - "Last Week in Pony"

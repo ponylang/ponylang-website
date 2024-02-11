@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.38.3 of ponyc and 0.4.1 of corral have been released!"
 categories:
   - "Last Week in Pony"

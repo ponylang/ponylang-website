@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We're migrating the Pony Tutorial and Pony Patterns to MkDocs-Material. There's a new tool for interactively exploring the Pony AST from a debugger. ponylang/http has been updated."
 categories:
   - "Last Week in Pony"

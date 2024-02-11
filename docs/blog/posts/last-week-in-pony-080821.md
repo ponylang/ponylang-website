@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.43.1 of ponylang/ponyc has been released. RFC 70, 'Split `FilePath` constructor to guarantee constructor with AmbientAuth', has been approved. Andreas Stührk, aka @trundle, has donated his templating library to the ponylang organization."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "New versions of the ponylang crypto, http, http_server, and net_ssl packages are available."
 categories:
   - "Last Week in Pony"

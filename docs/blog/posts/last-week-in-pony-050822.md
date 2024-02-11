@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The May 6th Pony office hours featured Sean T. Allen doing an informal presentation of the Pony runtime backpressure system."
 categories:
   - "Last Week in Pony"

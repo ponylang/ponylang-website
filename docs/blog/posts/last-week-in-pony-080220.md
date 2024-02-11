@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Pony 0.36.0 has been released! We recommend upgrading as soon as possible."
 categories:
   - "Last Week in Pony"

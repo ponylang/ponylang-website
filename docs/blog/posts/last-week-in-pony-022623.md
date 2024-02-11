@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A release delayed and more..."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Windows users, update your ponyc install."
 categories:
   - "Last Week in Pony"

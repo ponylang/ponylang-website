@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.5.1 of ponylang/corral has been released. Jorge Díaz wrote an article this week about programming languages and coffee, in which one of the programming languages featured was Pony."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Ponyup and ponylang-mode have new releases."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A bad bad bug was fixed."
 categories:
   - "Last Week in Pony"

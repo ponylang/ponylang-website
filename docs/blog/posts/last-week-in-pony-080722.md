@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "red"
+authors:
+  - red
 description: "Sync Calls and No Sleep"
 categories:
   - "Last Week in Pony"

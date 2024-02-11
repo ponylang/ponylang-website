@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.50.0 of ponylang/ponyc has been released!"
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A not particularly scary week in the land of Pony."
 categories:
   - "Last Week in Pony"

@@ -1,0 +1,42 @@
+authors:
+  seantallen:
+    name: Sean T. Allen
+    description: Sean is a member of the Pony core team. His turn-ons include programming languages, distributed computing, Hiwatt amplifiers, and Fender Telecasters. His turn-offs include mayonnaise, stirring yogurt, and sloppy code.
+    avatar: /assets/avatars/seantallen.png
+    url: https://seantallen.com/
+  sylvan:
+    name: Sylvan Clebsch
+    description: Sylvan Clebsch is the designer of the Pony programming language. After a career in embedded OSes, video games, and financial systems, he now works at Microsoft Research Cambridge in the Programming Language Principles group. He is interested in massively concurrent and distributed systems, garbage collection, type systems, actor-model programming, and trusted computing.
+    avatar: /assets/avatars/sylvan.png
+  theobutler:
+    name: Theo Butler
+    description: Theo was a member of the Pony core team. His interests include persistent data structures, programming languages, and writing software while listening to Swancore.
+    avatar: /assets/avatars/theobutler.png
+  mwahl:
+    name: Matthias Wahl
+    description: "Matthias is a mediocre programmer who is obsessed with lightweight concurrency primitives and property based testing. Secret Superpowers include: Confusing people on Zulip."
+    avatar: /assets/avatars/mwahl.png
+  colinobrien:
+    name: Colin O'Brien
+    description: Colin needs a bio.
+    avatar: /assets/avatars/colinobrien.png
+  jdhorwitz:
+    name: Josh Horwitz
+    description: Josh has worked in many different fields in the past, from farming to finance.  Currently, he is working in the Oil and Gas industry creating the self-driving car of oil wells.
+    avatar: /assets/avatars/jdhorwitz.png
+  red:
+    name: Red Davies
+    description: "Red is a professional Yak Shaver who makes his daughter smile and compilers cry."
+    avatar: /assets/avatars/default.png
+  ryan:
+    name: Ryan A. Hagenson
+    description: "Ryan is a bioinfo-magician and synthetic biologist with a heart of cells."
+    avatar: /assets/avatars/default.png
+  codecabc:
+    name: codec-abc
+    description: "codec-abc is a C# programmer working in the AR/VR field. He often learn programming languages to challenge its own mide and discover new esoteric compiler error messages."
+    avatar: /assets/avatars/codecabc.png
+  kevinhoffman:
+    name: Kevin Hoffman
+    description: "Kevin has been programming since before the last ice age. He's worked in dozens of industries, including search and rescue drones, financial services, biometric security, and even waste management. He's written books on Cloud Native practices, C#, Go, and Objective-C, and presented at Apple's WWDC and many other conferences."
+    avatar: /assets/avatars/kevinhoffman.png

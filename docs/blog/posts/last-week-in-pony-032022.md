@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.49.1 of ponyc has been released! We also have 2 issues to highlight this week, related to LLVM IR verification."
 categories:
   - "Last Week in Pony"

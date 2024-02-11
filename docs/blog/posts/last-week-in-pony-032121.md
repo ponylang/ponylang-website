@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.6.3 of ponylang/ponyup has been released. The first recording is available for implementing RoaringBitmap in Pony."
 categories:
   - "Last Week in Pony"

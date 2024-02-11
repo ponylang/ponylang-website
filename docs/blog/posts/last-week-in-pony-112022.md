@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "All the news that blew in on the wayward wind this week."
 categories:
   - "Last Week in Pony"

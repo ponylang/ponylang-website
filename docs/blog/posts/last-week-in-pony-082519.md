@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Last week's Pony news, reported this week."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Apple silicon support is back."
 categories:
   - "Last Week in Pony"

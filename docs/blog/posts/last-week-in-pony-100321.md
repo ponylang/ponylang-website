@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have working Arm CI again. And we are very close to having Pony working on Apple's M1 CPUs."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Pony 0.54.1 was released. Updating as soon as possible is advised."
 categories:
   - "Last Week in Pony"

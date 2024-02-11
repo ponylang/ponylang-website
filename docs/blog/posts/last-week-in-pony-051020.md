@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "It's been a big week in Pony world for new ponylang projects and releases. ponyc 0.34.1 has been released for users on glibc-based Linux platforms. We've also opened a new GitHub repo for collecting information relevant to Pony contributors."
 
 categories:

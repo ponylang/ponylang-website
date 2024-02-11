@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A long standing pony runtime safety issue was fixed and along with it, came a performance hit. We'll be working on incrementally decreasing that performance hit."
 categories:
   - "Last Week in Pony"

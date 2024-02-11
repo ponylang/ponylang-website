@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Time to upgrade your ponyc."
 categories:
   - "Last Week in Pony"

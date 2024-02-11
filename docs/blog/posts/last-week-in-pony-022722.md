@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have a ton of releases this week due to the 3 accepted and implemented RFCs. These include breaking changes to the standard library. We've also changed how \"releases\" are done for the library-documentation-action."
 categories:
   - "Last Week in Pony"

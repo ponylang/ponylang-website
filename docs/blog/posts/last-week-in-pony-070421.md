@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Pony 0.41.2 of ponylang/ponyc has been released! Andy Turley is leaving the core team. There's a new RFC related to the `FilePath` constructor and AmbientAuth."
 categories:
   - "Last Week in Pony"

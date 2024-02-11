@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The March 22nd Pony development sync recording is available, along with video since there was a good amount of screen sharing during the meeting."
 categories:
   - "Last Week in Pony"

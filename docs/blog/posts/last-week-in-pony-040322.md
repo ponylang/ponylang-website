@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Episode 12 of the Pony Virtual Users' Group is available."
 categories:
   - "Last Week in Pony"

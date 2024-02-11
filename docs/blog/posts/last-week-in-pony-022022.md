@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have 1 new RFC and 3 that are ready for vote. Corral 0.5.6 has been released."
 categories:
   - "Last Week in Pony"

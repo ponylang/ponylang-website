@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Sean T. Allen's recent PWL on Deny Capabilities for Safe, Fast Actors Talk is available. Microsoft's Project Verona is now open source."
 categories:
   - "Last Week in Pony"

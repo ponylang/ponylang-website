@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "There's a new public calendar for the Pony Virtual Users' Group meetings, and a new one is scheduled for Wednesday, August 25th at 15:00 US Eastern. A gist has been created that shows how to integrate VSCode and lldb for UI-based debugging of Pony code. A Pony project indexing site, ponyhub.org, has been updated to version 0.4.0."
 categories:
   - "Last Week in Pony"

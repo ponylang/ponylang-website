@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.43.0 of ponylang/ponyc has been released. A video of the 10th edition of the Pony Virtual User Group (VUG) is available. LibreSSL and OpenSSL builder Docker images have been updated."
 categories:
   - "Last Week in Pony"

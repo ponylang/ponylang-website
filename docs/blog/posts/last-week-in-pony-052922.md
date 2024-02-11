@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.51.0 of ponylang/ponyc has been released! A new RFC has been opened for 'Introduce empty Ranges'."
 categories:
   - "Last Week in Pony"

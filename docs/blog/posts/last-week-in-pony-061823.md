@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Let's talk about 'macros'."
 categories:
   - "Last Week in Pony"

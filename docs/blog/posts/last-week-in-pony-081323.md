@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Updates on the 'Great CI Move of 2023'."
 categories:
   - "Last Week in Pony"

@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Pony 0.38.2 has been released! Audio from the December 15 sync call is available."
 categories:
   - "Last Week in Pony"

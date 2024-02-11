@@ -1,5 +1,6 @@
 ---
-author: colinobrien
+authors:
+  - colinobrien
 categories:
 - Last Week in Pony
 date: 2017-04-10T21:34:01-04:00

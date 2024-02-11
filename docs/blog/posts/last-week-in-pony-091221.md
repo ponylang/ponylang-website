@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A slow week in Ponyland."
 categories:
   - "Last Week in Pony"

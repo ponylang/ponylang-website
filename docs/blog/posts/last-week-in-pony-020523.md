@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A week with a minimal amount of reported items."
 categories:
   - "Last Week in Pony"

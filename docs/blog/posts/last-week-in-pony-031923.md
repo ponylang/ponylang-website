@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A wild mention of Pony appears."
 categories:
   - "Last Week in Pony"

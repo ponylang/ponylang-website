@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "An epic Office Hours debugging session"
 categories:
   - "Last Week in Pony"

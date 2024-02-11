@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Remember Remember that fateful Pony November"
 categories:
   - "Last Week in Pony"

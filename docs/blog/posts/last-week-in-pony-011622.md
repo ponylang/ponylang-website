@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Version 0.46.0 of ponylang/ponyc has been released. Many other Pony packages have also been updated to support this latest Ponyc release. A new RFC has been opened to expose runtime scheduler information in the standard library."
 categories:
   - "Last Week in Pony"

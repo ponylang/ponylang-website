@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "More migrations than you can shake a stick at."
 categories:
   - "Last Week in Pony"

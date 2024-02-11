@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have some nice improvements to the website FAQ and corral documentation. RFC 67 has been approved and implemented!"
 categories:
   - "Last Week in Pony"

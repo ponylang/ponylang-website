@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "The audio recording of the December 1, 2020 Pony development sync call is available."
 categories:
   - "Last Week in Pony"

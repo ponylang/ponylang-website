@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Pony, It's Wicked Good!"
 categories:
   - "Last Week in Pony"

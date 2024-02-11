@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "mwahl"
+authors:
+  - mwahl
 description: "Last week's Pony news, End of Year Edition."
 categories:
   - "Last Week in Pony"

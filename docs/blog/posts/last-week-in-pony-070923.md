@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A short holiday week."
 categories:
   - "Last Week in Pony"

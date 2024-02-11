@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "We have new releases of Ponyc and Corral."
 categories:
   - "Last Week in Pony"

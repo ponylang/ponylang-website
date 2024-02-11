@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "A week of many releases."
 categories:
   - "Last Week in Pony"

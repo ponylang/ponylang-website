@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "red"
+authors:
+  - red
 description: ""
 categories:
   - "Last Week in Pony"

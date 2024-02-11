@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "theobutler"
+authors:
+  - theobutler
 description: "Pony VUG has returned after a short hiatus with a talk from Red Davies on the subject of 'CastXML2Pony: Automatically(ish) building Pony libraries to wrap C-FFI calls.'"
 categories:
   - "Last Week in Pony"

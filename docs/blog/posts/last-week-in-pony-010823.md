@@ -1,6 +1,7 @@
 ---
 draft: false
-author: "seantallen"
+authors:
+  - seantallen
 description: "Update to Pony 0.53.0 as soon as possible."
 categories:
   - "Last Week in Pony"
