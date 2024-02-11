@@ -2,6 +2,8 @@
 draft: false
 authors:
   - seantallen
+  - ryan
+  - ryan
 description: "In which we celebrate Shaft Day."
 categories:
   - "Last Week in Pony"

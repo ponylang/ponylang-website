@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Office Hours are moving. When? Dunno yet."
 categories:
   - "Last Week in Pony"

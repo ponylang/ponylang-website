@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "An epic Office Hours debugging session"
 categories:
   - "Last Week in Pony"

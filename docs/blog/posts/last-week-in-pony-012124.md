@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Update your HTTP library related dependencies."
 categories:
   - "Last Week in Pony"

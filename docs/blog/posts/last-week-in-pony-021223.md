@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "In which we introduce a new feature: Community Resource Highlight"
 categories:
   - "Last Week in Pony"

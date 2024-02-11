@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Time to upgrade your ponyc."
 categories:
   - "Last Week in Pony"

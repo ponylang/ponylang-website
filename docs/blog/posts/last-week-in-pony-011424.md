@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Beware of OpenSSL 3.2 (for now)."
 categories:
   - "Last Week in Pony"

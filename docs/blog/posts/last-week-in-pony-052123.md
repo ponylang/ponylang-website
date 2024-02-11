@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A week without a Pony development sync."
 categories:
   - "Last Week in Pony"

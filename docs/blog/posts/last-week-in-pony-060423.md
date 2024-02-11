@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A week with an off-topic intro."
 categories:
   - "Last Week in Pony"

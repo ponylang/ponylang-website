@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Looking for some Xcode 15 testing help."
 categories:
   - "Last Week in Pony"

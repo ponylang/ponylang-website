@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A week of many releases."
 categories:
   - "Last Week in Pony"

@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A Pony release is coming very soon..."
 categories:
   - "Last Week in Pony"

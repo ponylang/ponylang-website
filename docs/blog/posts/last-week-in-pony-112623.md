@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "We are approaching the end of the great DockerHub Migration."
 categories:
   - "Last Week in Pony"

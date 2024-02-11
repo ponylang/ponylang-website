@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "You probably won't remember this 3rd of December."
 categories:
   - "Last Week in Pony"

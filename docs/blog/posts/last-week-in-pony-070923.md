@@ -2,6 +2,8 @@
 draft: false
 authors:
   - seantallen
+  - ryan
+  - ryan
 description: "A short holiday week."
 categories:
   - "Last Week in Pony"

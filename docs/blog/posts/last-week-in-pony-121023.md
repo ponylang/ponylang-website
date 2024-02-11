@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "The great DockerHub migration is over."
 categories:
   - "Last Week in Pony"

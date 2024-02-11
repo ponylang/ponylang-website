@@ -2,6 +2,8 @@
 draft: false
 authors:
   - seantallen
+  - ryan
+  - ryan
 description: "ponyc 0.55.0 has been released."
 categories:
   - "Last Week in Pony"

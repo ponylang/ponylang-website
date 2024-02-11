@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A not particularly scary week in the land of Pony."
 categories:
   - "Last Week in Pony"

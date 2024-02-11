@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "An official postgres library is coming into existence."
 categories:
   - "Last Week in Pony"

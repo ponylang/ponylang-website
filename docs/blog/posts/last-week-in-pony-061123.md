@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Let's talk about debugging."
 categories:
   - "Last Week in Pony"

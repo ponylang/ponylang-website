@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "We promise there are no April's Fools jokes in this issue."
 categories:
   - "Last Week in Pony"

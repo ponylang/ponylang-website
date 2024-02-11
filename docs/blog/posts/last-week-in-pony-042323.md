@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Two new Pony libraries join the world."
 categories:
   - "Last Week in Pony"

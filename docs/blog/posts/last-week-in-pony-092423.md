@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A quiet week in Pony"
 categories:
   - "Last Week in Pony"

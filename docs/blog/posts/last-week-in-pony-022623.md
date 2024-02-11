@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A release delayed and more..."
 categories:
   - "Last Week in Pony"

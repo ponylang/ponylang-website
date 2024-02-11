@@ -2,6 +2,8 @@
 draft: false
 authors:
   - seantallen
+  - ryan
+  - ryan
 description: "Windows users, update your ponyc install."
 categories:
   - "Last Week in Pony"

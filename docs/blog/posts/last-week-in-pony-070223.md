@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A slow lead up to a long weekend."
 categories:
   - "Last Week in Pony"

@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "May Santa bring you much awesome tonight."
 categories:
   - "Last Week in Pony"

@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Updates on the 'Great CI Move of 2023'."
 categories:
   - "Last Week in Pony"

@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Party like its 2024."
 categories:
   - "Last Week in Pony"

@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A mention of Pony 'in the wild'."
 categories:
   - "Last Week in Pony"

@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "A week of cancelled meetings and compile-time expression conversation."
 categories:
   - "Last Week in Pony"

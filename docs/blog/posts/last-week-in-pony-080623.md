@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Big CI related changes are coming. What they are though? We don't know yet."
 categories:
   - "Last Week in Pony"

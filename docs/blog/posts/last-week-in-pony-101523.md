@@ -2,6 +2,8 @@
 draft: false
 authors:
   - seantallen
+  - ryan
+  - ryan
 description: "Update your Pony installation as soon as possible."
 categories:
   - "Last Week in Pony"

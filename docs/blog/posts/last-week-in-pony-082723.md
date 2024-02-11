@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "More migrations than you can shake a stick at."
 categories:
   - "Last Week in Pony"

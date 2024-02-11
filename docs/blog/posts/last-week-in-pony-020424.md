@@ -2,6 +2,7 @@
 draft: false
 authors:
   - seantallen
+  - ryan
 description: "Apple silicon support is back."
 categories:
   - "Last Week in Pony"

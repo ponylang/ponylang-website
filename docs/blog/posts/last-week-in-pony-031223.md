@@ -2,6 +2,8 @@
 draft: false
 authors:
   - seantallen
+  - ryan
+  - ryan
 description: "A relatively uneventful week."
 categories:
   - "Last Week in Pony"
