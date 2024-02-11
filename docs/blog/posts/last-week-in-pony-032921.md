@@ -18,7 +18,7 @@ The 'Force declaration of FFI functions' RFC has entered final comment period. O
 
 - @mfelsche writes: Again we met and worked on our roaring bitmap implementation (baby-steps) but I tried to sneak in some valuable pony development knowledge. Give it a shot here if you missed the call: [https://sync-recordings.ponylang.io/roaring-bitmap/2021_03_25.mp4](https://sync-recordings.ponylang.io/roaring-bitmap/2021_03_25.mp4)
 
-- A [new "with OpenSSL" builder has been added](https://github.com/ponylang/shared-docker/tree/main/x86-64-unknown-linux-builder-with-openssl_1.1.1k) for use by projects that need a Pony builder image with OpenSSL. The new image includes OpenSSL1.1.1k. The existing builder with OpenSSL1.1.1g will be deprecated on a date after May 1st, 2021. After that date. it will stop receiving updates although, the previous versions of the builder will continue to exist.
+- A new "with OpenSSL" builder has been added for use by projects that need a Pony builder image with OpenSSL. The new image includes OpenSSL1.1.1k. The existing builder with OpenSSL1.1.1g will be deprecated on a date after May 1st, 2021. After that date. it will stop receiving updates although, the previous versions of the builder will continue to exist.
 
 - A [new "with LibreSSL" builder has been added](https://github.com/ponylang/shared-docker/tree/main/x86-64-unknown-linux-builder-with-libressl-3.2.5) for use by projects that need a Pony builder image with LibreSSL. The new image includes LibreSSL 3.2.5. The existing builder with LibreSSL 3.1.2 will be deprecated on a date after May 1st, 2021. After that date. it will stop receiving updates although, the previous versions of the builder will continue to exist.
 
