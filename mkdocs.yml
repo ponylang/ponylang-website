@@ -60,6 +60,7 @@ theme:
     - search.highlight
     - search.share
     - search.suggest
+    - toc.follow
 
   icon:
     repo: fontawesome/brands/github
