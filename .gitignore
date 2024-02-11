@@ -62,7 +62,5 @@ Temporary Items
 # Linux trash folder which might appear on any partition or disk
 .Trash-*
 
-
-### Hugo ###
-hugo.exe
-/public/
+### mkdocs ##
+/site/
