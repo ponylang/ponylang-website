@@ -55,8 +55,6 @@ theme:
     - content.code.copy
     - content.code.select
     - navigation.instant
-    - navigation.indexes
-    - navigation.path
     - navigation.tracking
     - search.highlight
     - search.share
@@ -84,6 +82,10 @@ theme:
       toggle:
         icon: material/toggle-switch
         name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
 
 nav:
   - Home: "index.md"
