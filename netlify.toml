@@ -7,16 +7,9 @@ ID = "Your_Site_ID"
 # unless otherwise overridden by more specific contexts.
 [build]
   base = ""
-  publish = "public/"
-  command = "hugo"
+  publish = "site/"
+  command = "mkdocs build"
 
-# Have to set HUGO_VERSION for each environment otherwise we get the 0.17 default
-[context.production.environment]
-  HUGO_VERSION = "0.24.1"
-
-[context.deploy-preview.environment]
-  HUGO_VERSION = "0.24.1"
-
-[context.branch-deploy.environment]
-  HUGO_VERSION = "0.24.1"
-
+[build.environment]
+  PYTHON_VERSION = "3.8"
+  ENABLED_HTMLPROOFER="false"

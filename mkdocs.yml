@@ -1,0 +1,109 @@
+site_name: Pony
+
+copyright: Copyright &copy; 2024 The Pony Developers
+edit_uri: edit/main/docs/
+repo_url: https://github.com/ponylang/ponylang-website/
+site_url: https://www.ponylang.io/
+use_directory_urls: true
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/ponylang
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/ponylang
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - pymdownx.details
+  - pymdownx.highlight
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid-experimental
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - smarty
+  - toc:
+      permalink: true
+
+plugins:
+  - blog:
+      authors: True
+      blog_toc: True
+      post_excerpt: required
+      post_url_date_format: yyyy/MM
+      categories_url_format: "categories/{slug}"
+  - search
+  - ezlinks
+  - htmlproofer:
+      enabled: !ENV [ENABLED_HTMLPROOFER, True]
+      raise_error_after_finish: True
+      raise_error_excludes:
+        429: ["https://github.com/ponylang"]
+        404: ["https://github.com/ponylang"]
+
+theme:
+  name: material
+
+  favicon: assets/logo.png
+
+  features:
+    - content.action.edit
+    - content.code.copy
+    - content.code.select
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+
+  icon:
+    repo: fontawesome/brands/github
+
+  logo: assets/logo.png
+
+  palette:
+    # Light mode
+    - scheme: default
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/toggle-switch-off-outline
+        name: Switch to dark mode
+
+    # Dark mode
+    - scheme: slate
+      primary: brown
+      accent: amber
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to light mode
+
+  font:
+    text: Roboto
+    code: Roboto Mono
+
+nav:
+  - Home: "index.md"
+  - New To Pony?:
+      - Overview: "discover/index.md"
+  - Learning Pony?:
+      - Overview: "learn/index.md"
+  - Existing User?:
+      - Overview: "reference/index.md"
+  - Looking to Contribute?:
+      - Overview: "contribute/index.md"
+      - Project Documentation: "contribute/project-documentation.md"
+  - Community:
+      - Overview: "community/index.md"
+      - Code of Conduct: "community/code-of-conduct.md"
+  - Blog:
+      - Overview: "blog/index.md"
+  - FAQ:
+      - Overview: "faq/index.md"
+  - Support:
+      - Overview: "sponsors/index.md"

@@ -6,10 +6,7 @@ Please note, that by submitting any content to the Pony Tutorial book you are ag
 
 ## Hugo
 
-The Pony website is generated using [Hugo]: a static website generator. If you are making larger changes to the site, you will need to install Hugo locally to verify your changes are working.
-
-Because the site is deploying using a remote server, you should make sure you are developing using whatever version the deploy server is currently running.
-The site is currently built for production deploy using v0.24.1.
+The Pony website is generated using [`mkdocs`]: a static website generator. If you are making larger changes to the site, you will need to install `mkdocs` locally to verify your changes are working.
 
 ## Ponylang.io hosting
 
@@ -23,18 +20,18 @@ Netlify offers "deploy previews" that allow you to view the results of a PR befo
 
 To see the preview, on the PR page select `Show all checks` and then click `Details` next to `deploy/netlify - Deploy preview is ready!`
 
-## Developing locally with Hugo
+## Developing locally with mkdocs
 
-To do larger changes, you'll want to install Hugo locally so you can test your changes. As of now, we are using Hugo v0.16. For detailed instructions on using [Hugo], please refer to its website.
+To do larger changes, you'll want to install mkdocs locally so you can test your changes. For detailed instructions on using [mkdocs], please refer to its website.
 
-For simpler tasks, once you have Hugo installed, you should be able to:
+For simpler tasks, once you have mkdocs installed, you should be able to:
 
 ```bash
 cd ponylang.github.io
-hugo server
+mkdocs serve
 ```
 
-Which will start up a local webserver that will serve the Ponylang website on `http://localhost:1313`. Generated content will be placed in the `public` folder which is ignored by git. Do not check in any generated content to the `source` branch.
+Which will start up a local webserver that will serve the Ponylang website on `http://localhost:8080`.
 
 Once you are happy with your changes, commit then and submit a PR. Before doing that, please read the following 'How to submit a pull request' section.
 
@@ -55,5 +52,5 @@ If your PR is for a single logical change (which is should be) but spans multipl
 
 Favor relative links for any content on ponylang.io. Absolute links that point to `https://www.ponylang.io` don't play well with Netlify deploy previews. Absolute links will redirect you off the preview website and onto the live website. For this reason, relative links are preferred.
 
-[Hugo]: https://gohugo.io
+[mkdocs]: https://www.mkdocs.org/
 [Netlify]: https://www.netlify.com/.

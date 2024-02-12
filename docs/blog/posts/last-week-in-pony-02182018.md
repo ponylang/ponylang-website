@@ -1,0 +1,39 @@
+---
+draft: false
+authors:
+  - mwahl
+description: "Last week's Pony news."
+categories:
+  - "Last Week in Pony"
+title: "Last Week in Pony - February 18, 2018"
+date: 2018-02-18T16:00:00+01:00
+---
+_Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
+
+Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
+
+<!-- more -->
+
+## Items of Note
+
+Not much happened this week, no progress on RFCs, not even a Pony Development Sync took place. So this nearly would have been a rather sad post.
+
+## Pony Development Sync
+
+The next one is scheduled for Wednesday, February 21, 2018 at 03:30 PM (GMT-05:00) America/New York via zoom. We'd love to have you there.
+
+## RFCs
+
+### Pending
+
+- [Remove HTTP server from the standard library](https://github.com/ponylang/rfcs/pull/117).
+
+- [Rename Logger in net/http to HTTPLogger](https://github.com/ponylang/rfcs/pull/116) in order to avoid name clashes in the standard library.
+
+### Active (Waiting for Implementation)
+
+- [Improved Ponybench](https://github.com/ponylang/rfcs/pull/119)
+
+- [Class and Actor field Docstrings](https://github.com/ponylang/rfcs/pull/115) is implemented by [PR 2543](https://github.com/ponylang/ponyc/pull/2543) and is impatiently waiting to be reviewed.
+
+Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
