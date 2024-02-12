@@ -57,6 +57,7 @@ theme:
     - navigation.instant
     - navigation.indexes
     - navigation.path
+    # - navigation.sections
     - navigation.tracking
     - search.highlight
     - search.share
@@ -87,13 +88,21 @@ theme:
 
 nav:
   - Home: "index.md"
-  - New To Pony?: "discover/index.md"
-  - Learning Pony?: "learn/index.md"
-  - Existing User?: "reference/index.md"
-  - Looking to Contribute?: "contribute/index.md"
-  - Community: "community/index.md"
-  - Blog: "blog/index.md"
-  - FAQ: "faq/index.md"
-  - Become a Supporter: "sponsors/index.md"
-  - Code of Conduct: "community/code-of-conduct.md"
-  - Sponsors: "sponsors/index.md"
+  - New To Pony?:
+      - Overview: "discover/index.md"
+  - Learning Pony?:
+      - Overview: "learn/index.md"
+  - Existing User?:
+      - Overview: "reference/index.md"
+  - Looking to Contribute?:
+      - Overview: "contribute/index.md"
+      - Project Documentation: "contribute/project-documentation.md"
+  - Community:
+      - Overview: "community/index.md"
+      - Code of Conduct: "community/code-of-conduct.md"
+  - Blog:
+      - Overview: "blog/index.md"
+  - FAQ:
+      - Overview: "faq/index.md"
+  - Support:
+      - Overview: "sponsors/index.md"
