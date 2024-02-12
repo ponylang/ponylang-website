@@ -20,9 +20,8 @@ Pony 0.33.2 has been released! The core team is no longer maintaining the ponyc 
 
 - Are you interested in maintaining the Homebrew formula for ponyc? For the last couple of years, the Pony core team has been maintaining the ponyc Homebrew formula. Going forward, we won't be doing that anymore as installation via [ponyup](https://github.com/ponylang/ponyup) is now the officially supported method of installation. If you are interested in stepping forward as a maintainer, stop by [the Zulip](https://ponylang.zulipchat.com/#) and folks can let you know what would be required.
 
-- LWIP and releases will no longer be announced by the core team on "non-official" channels, such as r/ponylang, Lobste.rs, or Hacker News. However, we encourage the community to do so if they wish. These notifications will still be posted on Zulip ([#announce](https://ponylang.zulipchat.com/#narrow/stream/189932-announce)), Twitter ([@ponylang](https://twitter.com/ponylang)), and on www.ponylang.io. We do also have RSS feeds for both LWIP and releases:
-  - LWIP: [https://www.ponylang.io/categories/last-week-in-pony/index.xml](https://www.ponylang.io/categories/last-week-in-pony/index.xml)
-  - Releases: [https://www.ponylang.io/categories/release/index.xml](https://www.ponylang.io/categories/release/index.xml)
+- LWIP and releases will no longer be announced by the core team on "non-official" channels, such as r/ponylang, Lobste.rs, or Hacker News. However, we encourage the community to do so if they wish. These notifications will still be posted on Zulip ([#announce](https://ponylang.zulipchat.com/#narrow/stream/189932-announce)), Twitter ([@ponylang](https://twitter.com/ponylang)), and on www.ponylang.io. We do also have an RSS feed for LWIP:
+  - LWIP: [https://www.ponylang.io/blog/categories/last-week-in-pony/](https://www.ponylang.io/blog/categories/last-week-in-pony/)
 
 ---
 
