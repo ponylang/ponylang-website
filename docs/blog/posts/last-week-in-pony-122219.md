@@ -44,7 +44,7 @@ If you *don't* run, into any issues, can you stop by the Zulip and comment on th
 
 Download page:
 
-** redacted. the packages are no longer available. **
+- the packages are no longer available
 
 Thanks everyone.
 
