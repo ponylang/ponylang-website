@@ -258,6 +258,7 @@ Liétar
 Liétar's
 linkable
 LINQ
+linter
 Linux
 LLDB
 LLVM
