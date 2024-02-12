@@ -54,7 +54,6 @@ theme:
     - content.action.edit
     - content.code.copy
     - content.code.select
-    - navigation.instant
     - navigation.indexes
     - navigation.path
     - navigation.tracking
