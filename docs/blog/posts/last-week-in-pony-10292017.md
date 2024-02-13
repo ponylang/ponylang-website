@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Our very Sean T. Allen from Wallaroo Labs published a blog post on why they chose Pony for building Wallaroo: [https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/](https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/) If you don't know if you should consider Pony, this is a great read which will definitely give you more confidence for your decision, whatever it may be. Also make sure to follow the very decent discussions on [Reddit](https://www.reddit.com/r/programming/comments/78v16n/why_we_used_pony_to_write_wallaroo/) and [Hacker News](https://news.ycombinator.com/item?id=15558051). And don't forget to share and upvote!
 
-- There has been a talk about *ORCA*, the Pony Garbage Collector at SPLASH 2017 in Vancouver: [ORCA: GC and Type System Co-Design for Actor Languages](https://2017.splashcon.org/event/splash-2017-oopsla-orca-leveraging-types-and-messaging-for-fully-concurrent-gc). Here is [the original paper](/media/papers/orca_gc_and_type_system_co-design_for_actor_languages.pdf) this talk is based upon.
+- There has been a talk about *ORCA*, the Pony Garbage Collector at SPLASH 2017 in Vancouver: [ORCA: GC and Type System Co-Design for Actor Languages](https://2017.splashcon.org/event/splash-2017-oopsla-orca-leveraging-types-and-messaging-for-fully-concurrent-gc). Here is [the original paper](https://ponylang.io/media/papers/orca_gc_and_type_system_co-design_for_actor_languages.pdf) this talk is based upon.
 
 ## Items of note
 
