@@ -30,3 +30,24 @@ jobs:
         uses: actions/checkout@v4.1.1
       - name: Check spelling
         uses: rojopolis/spellcheck-github-actions@e0dcc87bedf34ff10d6be443753f1c770bacbaa2
+
+  validate-site:
+    name: mkdocs build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4.1.1
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        env:
+          INSIDERS_PAT: ${{ secrets.MATERIAL_INSIDERS_ACCESS }}
+      - name: Build site
+        run: mkdocs build
+        env:
+          # by turning off, we can get checking of anchor links on the site
+          # not just external urls. see...
+          # https://github.com/manuzhang/mkdocs-htmlproofer-plugin/issues/46#issuecomment-1494267151
+          USE_DIRECTORY_URLS: false
+          # turn off external url checking as it takes a long time and we
+          # do that on a schedule
+          VALIDATE_EXTERNAL_URLS: false
