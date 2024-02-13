@@ -70,5 +70,10 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /categories/release/ https://github.com/ponylang/ponyc/releases 301!
 /categories/release/index.xml https://github.com/ponylang/ponyc/releases.atom 301!
 
-## send the blog categories to the new mkdocs location
+# send the blog categories to the new mkdocs location
 /categories/* /blog/categories/:splat 301!
+
+# debugging links moved
+/reference/#debugging /reference/debugging/ 301!
+/reference/#visual-studio-code /reference/debugging/#visual-studio-code 301!
+/reference/#coverage /reference/#testing

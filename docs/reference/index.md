@@ -1,41 +1,31 @@
-# Reference
+# Use
 
 ## Debugging
 
-- [Pony LLDB Cheat Sheet](pony-lldb-cheatsheet.md)
+How to debug pony programs:
 
-> A quickstart for debugging Pony with LLDB
-
-- [Pony LLDB Extensions](https://github.com/ponylang/pony-lldb-extensions)
-
-> A collection of LLDB extensions for working with the Pony programming language.
-
-- [Making Pony track memory usage](pony-track-memory-usage.md)
-
-> Steps to build Pony runtime to track memory consumption.
-
-### Visual Studio Code
-
-In order to debug programs in the Visual Studio Code debugger (either on Windows or with GDB or LLDB on Unix), you need to set the `debug.allowBreakpointsEverywhere` setting to `true`, so you can set breakpoints in `.pony` files.  Then make a launch configuration that runs your program.
-
-## Coverage
-
-How to obtain coverage for runs of pony programs or test executions
-
-- [Coverage Reports for Pony](pony-coverage.md)
+- [Debugging](debugging.md)
 
 ## Performance
 
+Microbenchmarking:
+
+- [Pony Bench](https://stdlib.ponylang.io/pony_bench--index/)
+
+How to get the most performance out of your pony programs:
+
 - [Pony Performance Cheat Sheet](pony-performance-cheatsheet.md)
 
-> How to get the best performance from your Pony code.
+## Testing
 
-## Other helpful tools
+Unit Testing:
 
-- [Pony Patterns](https://patterns.ponylang.io/)
+- [Pony Test](https://stdlib.ponylang.io/pony_test--index/)
 
-> Pony Patterns is a cookbook style collection of patterns for working with Pony. Most folks aren't familiar with writing actor-model based code. Even fewer are familiar with doing it in a typed language that features causal messaging. Wondering how to do something? Check out the patterns and see if there's one that solves your problem. Patterns is a curated community-driven project. Feel free to open an issue requesting a pattern on how to do X, or open a PR to contribute your own pattern.
+Property Based Testing:
 
-- [Corral](https://github.com/ponylang/corral)
+- [Pony Check](https://stdlib.ponylang.io/pony_check--index/)
 
-> Simple dependency manager for the Pony language.
+How to obtain coverage for runs of pony programs or test executions:
+
+- [Coverage Reports for Pony](pony-coverage.md)

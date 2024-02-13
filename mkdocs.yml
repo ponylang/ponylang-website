@@ -55,6 +55,7 @@ theme:
     - content.action.edit
     - content.code.copy
     - content.code.select
+    - navigation.indexes
     - navigation.instant
     - navigation.tracking
     - search.highlight
@@ -90,21 +91,19 @@ theme:
 
 nav:
   - Home: "index.md"
-  - New To Pony?:
+  - Discover:
       - Overview: "discover/index.md"
-  - Learning Pony?:
+  - Learn:
       - Overview: "learn/index.md"
-  - Existing User?:
+  - Use:
       - Overview: "reference/index.md"
-  - Looking to Contribute?:
+  - Contribute:
       - Overview: "contribute/index.md"
-      - Project Documentation: "contribute/project-documentation.md"
   - Community:
       - Overview: "community/index.md"
-      - Code of Conduct: "community/code-of-conduct.md"
   - Blog:
       - Overview: "blog/index.md"
   - FAQ:
       - Overview: "faq/index.md"
-  - Support:
+  - Sponsor:
       - Overview: "sponsors/index.md"
