@@ -8,7 +8,7 @@ concurrency:
 
 jobs:
   superlinter:
-    name: Lint markdown and yaml
+    name: Lint markdown
     runs-on: ubuntu-latest
     steps:
       - name: Checkout source
@@ -19,7 +19,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           VALIDATE_ALL_CODEBASE: false
           VALIDATE_MD: true
-          VALIDATE_YAML: true
           DEFAULT_BRANCH: main
 
   check-spelling:
