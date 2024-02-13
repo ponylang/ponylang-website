@@ -18,7 +18,7 @@ If you get stuck, fear not, we have a [welcoming community](https://www.ponylang
 
 ## Pony performance tips
 
-### It's probably your design {#design-for-performance}
+### It's probably your design {#id="design-for-performance"}
 
 A poor design can kill your performance before you ever write a line of code. One of the fastest ways to hurt your performance is by inserting bottlenecks. As an example, imagine a system where you have X number of "processing actors" and 1 "aggregating actor." Work is farmed out to each of the processing actors to undertake which in turn send their results to the aggregating actor. Can you spot the possible bottleneck? Our performance is going to be bound by the performance of the single aggregating actor. We haven't written a line of code yet, and we already have a performance problem.
 
@@ -31,7 +31,7 @@ There's a lot of material out there about writing high-performance, highly concu
 - [Designing for Performance](https://www.youtube.com/watch?v=03GsLxVdVzU)
 - [Silence is Golden: Coordination-Avoiding Systems Design](https://www.youtube.com/watch?v=EYJnWttrC9k)
 
-### Watch your allocations {#avoid-allocations}
+### Watch your allocations {#id="avoid-allocations"}
 
 Comparatively, creating new objects is expensive. Each object requires some amount of memory to be allocated. Allocations are expensive. The Pony runtime uses a pool allocator so creating a bunch of `String`s is cheaper than if you had to `malloc` each one. Allocation is not, however, free. In hot paths, it can get quite expensive.
 
@@ -155,7 +155,7 @@ Just remember, if you want to maximise performance:
 
 Some of you probably looked at the `String` performance enhancement above and thought, "doesn't the JVM do that for you?" You'd be right. That's a standard optimization in many languages. It's an optimization we are adding to Pony. However, the basic pattern applies. Be aware of triggering extra allocations that you don't need to. Your compiler and runtime can add many optimizations to avoid allocations, but it's not going to do everything for you. You still need to understand your allocations. They're called "your allocations" because in the end, you end up owning them and they end up owning your performance.
 
-### Give in to your "primitive obsession" {#primitive-obsession}
+### Give in to your "primitive obsession" {#id="primitive-obsession"}
 
 Many collections of programming "best practices" teach you to avoid ["primitive obsession"](https://refactoring.guru/smells/primitive-obsession). This is great advice, normally. It's not such great advice if you are worried about performance. Let's take two ways you can represent a short form American zip code:
 
@@ -193,7 +193,7 @@ type Cents is U8
 type Money is (Dollars, Cents)
 ```
 
-### Avoid boxing machine words {#boxing-machine-words}
+### Avoid boxing machine words {#id="boxing-machine-words"}
 
 Machine words like U8, U16, U32, U64, etc. are going to be better for performance than classes. Machine words have less overhead than classes. However, if we aren't careful, we can end up "boxing" machine words and add cost. In hot path code, that boxing can have a large impact.
 
@@ -274,7 +274,7 @@ class Student
 
 We avoided boxing machine word, thanks to tuples!
 
-### Avoid `error` {#avoid-error}
+### Avoid `error` {#id="avoid-error"}
 
 Pony's `error` is often confused with exceptions from languages like Java. `error` while having some similarities, isn't the same. Amongst other differences, `error` carries no runtime information like exception type. It's also cheaper to set up a Pony `error` than it is an exception in languages like Java. Many folks hear that and think, "I can use `error` without worrying about performance." Sadly, that isn't the case.
 
@@ -341,7 +341,7 @@ How do you know which is the best version? Well, there is no best version. There
 
 By the way, did you notice our union type version introduced a different problem? It's [boxing the `U64` machine word](#boxing-machine-words). If `zero_is_bad` was returning a `(FooClass | None)` that wouldn't be an issue. Here, however, it is. Be mindful that when you address one possible performance problem that you don't introduce a different one. It's ok to trade one potential performance problem for another; you just need to be mindful.
 
-### Watch the asynchrony! {#e-too-many-actors}
+### Watch the asynchrony! {#id="e-too-many-actors"}
 
 Actors are awesome. We love them. We wouldn't be using Pony if we didn't. However, we do see people getting a little too excited about them. Yes, actors are a unit of concurrency. However, you don't need to make everything an actor.
 
@@ -349,7 +349,7 @@ Sending a message from one actor to another is pretty fast; note the "pretty fas
 
 In addition to the queue costs you pay with a message send, depending on the contents of your message, you might be incurring additional garbage collection costs as well.
 
-### Mind the garbage collector {#garbage-collector}
+### Mind the garbage collector {#id="garbage-collector"}
 
 #### Things you should know about the Pony garbage collector
 
@@ -446,7 +446,7 @@ Disabling the `cycle detector`:
 1. Disables running the `cycle detector` because it is never sent any messages.
 2. Disables sending of `block`/`unblock` messages from normal actors to the `cycle detector` because the `cycle detector` never queries actors to ask if they are blocked.
 
-### Maybe you have too many threads {#ponythreads}
+### Maybe you have too many threads {#id="ponythreads"}
 
 Let's talk about the Pony scheduler for a moment. When you start up a Pony program, it will create one scheduler thread per available CPU. At least, that is what it does by default. These scheduler threads will not be locked to particular CPUs by default. The default of having different scheduler threads unlocked is not ideal for performance. We can tell Pony to instead lock scheduler threads to particular CPUs by passing the `--ponypin` argument. Additionally, the scheduler threads can be suspended if there isn't enough work to do. Without going into a ton of detail, this is usually the right thing to do for performance and efficiency.
 
@@ -462,7 +462,7 @@ We suggest you rely on the default behavior where Pony scheduler threads automag
 - Measure your performance with each `ponythread` setting with scheduler thread suspension disabled.
 - Use the number of scheduler threads that gives you the best performance.
 
-### Isolate and pin your scheduler threads {#pin-your-threads}
+### Isolate and pin your scheduler threads {#id="pin-your-threads"}
 
 Multitasking operating systems are wondrous things. Without one, I wouldn't be able to write up these tips while listening to obscure Beastie Boys remixes. For me, at this moment in time, having multiple programs running at once is an awesome thing. There are times though when multitasking operating systems can be annoying.
 
@@ -503,19 +503,19 @@ In addition to scheduler threads, each Pony program also has an ASIO thread that
 --ponymaxthreads 4 --ponypin --ponypinasio
 ```
 
-### Hyper-threading {#hyperthreading}
+### Hyper-threading {#id="hyperthreading"}
 
 For some workloads, hyper-threading improves performance, for others, it can not affect or can hurt performance. You should test your application with hyper-threading enabled and disabled. As a general rule of thumb, hyper-threading can often improve performance of your application if it's memory-bound and harm performance if it's CPU-bound. If you aren't familiar with hyper-threading, the [hyper-threading Wikipedia entry](https://en.wikipedia.org/wiki/Hyper-threading) is a good place to start.
 
 If you are following our ["pin your scheduler threads"](#pin-your-threads) advice, you want to be especially aware of hyper-threading. If you have hyper-threading on, your operating system might be seeing logical cores from hyper-threading as real physical cores. Don't be fooled. If you want to maximize performance by pinning threads to a CPU, you probably want to turn off hyperthreading. Be especially wary in environments like AWS that present "virtual CPUs" aka VCPUs. In the case of AWS, your 8 VCPUs are 4 real cores and 4 hyper-threads. You only want to be using the real cores, not the hyper-threads.
 
-### Tune your operating system {#tune-your-os}
+### Tune your operating system {#id="tune-your-os"}
 
 Depending on what your program does, tuning your operating system might yield good results. Operating systems like Linux exposes a variety of options that you can use to optimize them. The internet is awash in various documents purporting to give you settings that will lower network latency, raise network throughput or improve application latency. Beware of every single one of those documents. Even if they were written by a knowledgeable person, they weren't written with your specific hardware in mind, with your specific operating system in mind, with your particular application in mind.
 
 Now, warning aside, there's plenty you can learn about tuning your operating system, and it can sometimes have a large impact on your application. Just remember, mindlessly turning knobs you don't understand isn't likely to make things better. Do your research. Understand what you are doing. Be empirical; measure and then measure again.
 
-### Build from source {#build-from-source}
+### Build from source {#id="build-from-source"}
 
 The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should build your compiler from source. By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try:
 
@@ -524,6 +524,6 @@ The pre-built Pony packages are quite conservative with the optimizations they a
 
 And last but not least, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
 
-### Profile it! {#profiling}
+### Profile it! {#id="profiling"}
 
 Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hot spots. You can use standard profiling tools like Instruments and VTune on your Pony application. At the moment, we don't have a handy guide to help you interpret the results you are getting, but we have one in the works. In the meantime, if you need help, the [community is waiting to help](https://www.ponylang.io/learn/#getting-help).
