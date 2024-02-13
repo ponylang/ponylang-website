@@ -6,6 +6,10 @@ How to debug pony programs:
 
 - [Debugging](debugging.md)
 
+## Dependency Management
+
+- [Corral](https://github.com/ponylang/corral)
+
 ## Performance
 
 Microbenchmarking:
