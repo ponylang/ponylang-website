@@ -10,7 +10,7 @@ title: "Last Week in Pony April 23, 2023"
 date: 2023-04-23T07:00:06-04:00
 ---
 
-Hey there kiddos! Sunday is here again. It's Last Week in Pony time. This week's news is headlined by [3 releases](#releases), so hey, put on that [Hank Thompson music](https://www.youtube.com/watch?v=HSh2XoqeZes) and dig in for a read.
+Hey there kiddos! Sunday is here again. It's Last Week in Pony time. This week's news is headlined by 3 releases, so hey, put on that [Hank Thompson music](https://www.youtube.com/watch?v=HSh2XoqeZes) and dig in for a read.
 
 Just remember, 3 times 7 is 21.
 

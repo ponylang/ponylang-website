@@ -10,7 +10,7 @@ title: "Last Week in Pony February 12, 2023"
 date: 2023-02-12T07:00:06-04:00
 ---
 
-This week, we are introducing a new regular entry for Last Week in Pony: ["Community Resource Highlight"](#community-resource-highlight). The new section is replacing our previous "Highlighted Issues" section.
+This week, we are introducing a new regular entry for Last Week in Pony: "Community Resource Highlight". The new section is replacing our previous "Highlighted Issues" section.
 
 Ryan Hagenson and I discussed "Highlighted Issues" and decided that given how little traction we saw from the community picking up issues to work on the time he invests in each Last Week in Pony would be better spent on other content; our first stab at that content is "Community Resource Highlight".
 
