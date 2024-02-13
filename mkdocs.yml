@@ -4,7 +4,7 @@ copyright: Copyright &copy; 2024 The Pony Developers
 edit_uri: edit/main/docs/
 repo_url: https://github.com/ponylang/ponylang-website/
 site_url: https://www.ponylang.io/
-use_directory_urls: true
+use_directory_urls: !ENV [USE_DIRECTORY_URLS, true]
 
 extra:
   generator: false
@@ -40,10 +40,10 @@ plugins:
   - ezlinks
   - htmlproofer:
       enabled: !ENV [ENABLED_HTMLPROOFER, True]
+      validate_external_urls: !ENV [VALIDATE_EXTERNAL_URLS, True]
       raise_error_after_finish: True
       raise_error_excludes:
         429: ["https://github.com/ponylang"]
-        404: ["https://github.com/ponylang"]
         429: ["https://medium.com"]
 
 theme:

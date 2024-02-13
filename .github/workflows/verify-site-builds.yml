@@ -18,6 +18,11 @@ jobs:
           INSIDERS_PAT: ${{ secrets.MATERIAL_INSIDERS_ACCESS }}
       - name: Build site
         run: mkdocs build
+        env:
+          // by turning off, we can get checking of anchor links on the site
+          // not just external urls. see...
+          // https://github.com/manuzhang/mkdocs-htmlproofer-plugin/issues/46#issuecomment-1494267151
+          USE_DIRECTORY_URLS: false
       - name: Send alert on failure
         if: ${{ failure() }}
         uses: zulip/github-actions-zulip/send-message@b62d5a0e48a4d984ea4fce5dd65ba691963d4db4
