@@ -31,7 +31,7 @@ We have an open Zoom meeting every week for the community to get together and we
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-<< content >>
+If you have ever wondered how and why Pony came about -- including where the name came from -- there is [An Early History of Pony](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/) blog entry written by the designer of Pony himself, Sylvan Clebsch.
 
 ---
 
