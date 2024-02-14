@@ -51,6 +51,13 @@ plugins:
         # can't add -1 to the raise_error_excludes right now as it doesn't work.
         # only valid HTTP status codes can be excluded.
         - https://sync-recordings.ponylang.io
+  - rss:
+      match_path: blog/posts/.*
+      date_from_meta:
+        as_creation: date
+      categories:
+        - categories
+        - tags
 
 theme:
   name: material
