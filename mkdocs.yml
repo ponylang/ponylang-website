@@ -45,6 +45,12 @@ plugins:
       raise_error_excludes:
         429: ["https://github.com/ponylang"]
         429: ["https://medium.com"]
+      ignore_urls:
+        # sync recordings regularly times out. if we can every ignore the -1
+        # response as "transient", then we can remove this ignore. sadly, we
+        # can't add -1 to the raise_error_excludes right now as it doesn't work.
+        # only valid HTTP status codes can be excluded.
+        - https://sync-recordings.ponylang.io
 
 theme:
   name: material
