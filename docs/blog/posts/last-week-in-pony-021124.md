@@ -13,7 +13,7 @@ The 'Constrained Types' RFC was accepted.
 
 <!-- more -->
 
-## Items of Note.
+## Items of Note
 
 ### We have a Bluesky Account
 
