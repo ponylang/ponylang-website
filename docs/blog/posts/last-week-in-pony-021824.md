@@ -19,7 +19,7 @@ date: 2024-02-18T07:00:06-04:00
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_02_13.m4a) from the February 13th, 2024 sync is available.
 
-<< content >>
+We had a quick agenda this week. It was about 15 minutes total. Have a listen.
 
 ### Office Hours
 
