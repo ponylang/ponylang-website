@@ -77,3 +77,7 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /reference/#debugging /reference/debugging/ 301!
 /reference/#visual-studio-code /reference/debugging/#visual-studio-code 301!
 /reference/#coverage /reference/#testing
+
+# old rss feed location
+/index.xml /feed_rss_created.xml 301!
+/blog/index.xml /feed_rss_created.xml 301!
