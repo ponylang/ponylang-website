@@ -13,7 +13,7 @@ It was a fairly slow week in Pony. There was no Office Hours; the Development Sy
 
 <!-- more -->
 
-## Items of Note.
+## Items of Note
 
 ### "Updated" Pony website
 
