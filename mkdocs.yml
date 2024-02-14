@@ -57,6 +57,8 @@ theme:
     - content.code.select
     - navigation.indexes
     - navigation.instant
+    - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.tracking
     - search.highlight
     - search.share
@@ -92,18 +94,18 @@ theme:
 nav:
   - Home: "index.md"
   - Discover:
-      - Overview: "discover/index.md"
+      - "discover/index.md"
   - Learn:
-      - Overview: "learn/index.md"
+      - "learn/index.md"
   - Use:
-      - Overview: "reference/index.md"
+      - "reference/index.md"
   - Contribute:
-      - Overview: "contribute/index.md"
+      - "contribute/index.md"
   - Community:
-      - Overview: "community/index.md"
+      - "community/index.md"
   - Blog:
-      - Overview: "blog/index.md"
+      - "blog/index.md"
   - FAQ:
-      - Overview: "faq/index.md"
+      - "faq/index.md"
   - Sponsor:
-      - Overview: "sponsors/index.md"
+      - "sponsors/index.md"
