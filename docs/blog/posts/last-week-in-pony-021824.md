@@ -9,7 +9,7 @@ title: "Last Week in Pony - February 18, 2024"
 date: 2024-02-18T07:00:06-04:00
 ---
 
-<< content >>
+It was a fairly slow week in Pony. There was no Office Hours; the Development Sync was relatively short; but, we do have a "new website". And, the "Constrained Types" RFC was implemented and merged into the Pony standard library.
 
 <!-- more -->
 
@@ -34,6 +34,12 @@ We had a quick agenda this week. It was about 15 minutes total. Have a listen.
 We have an open Zoom meeting every week for the community to get together and well, do whatever they want. In theory, Sean T. Allen "owns" the meeting and will often set an agenda. Anyone is welcome to show up and participate. Got a Pony related problem you need help solving and prefer to do it synchronously? Give Office Hours a try. The meeting is open to anyone. Stay up-to-date with the schedule by [subscribing to the Office Hours calender](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics). Hopefully, we'll see you at an Office Hours soon.
 
 There was no Office Hours this week. Sean has incapacitated with a migraine.
+
+## RFCs
+
+### Implemented
+
+- [Constrained Types](https://github.com/ponylang/ponyc/pull/4493)
 
 ## Community Resource Highlight
 
