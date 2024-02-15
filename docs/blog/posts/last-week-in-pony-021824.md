@@ -19,7 +19,7 @@ It was a fairly slow week in Pony. There was no Office Hours; the Development Sy
 
 This weekend, Sean moved the Pony website to MkDocs. For several years, it was using a customized Hugo theme that stopped working ages ago unless you used a very old version of Hugo.
 
-While waiting for the Super Bowl to start, he spent a few hours moving the site over the using MkDocs and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) "theme".
+While waiting for the Super Bowl to start, he spent a few hours moving the site over to using MkDocs and the [Material for MkDocs](https://squidfunk.github.io/mkdocs-material/) "theme".
 
 Everything should be working as it was before, but it is possible some links got broken or other functionality might have gotten broken in the move. If you find anything, please [open an issue](https://github.com/ponylang/ponylang-website/issues/new).
 
