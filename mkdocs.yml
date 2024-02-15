@@ -106,19 +106,12 @@ theme:
 
 nav:
   - Home: "index.md"
-  - Discover:
-      - "discover/index.md"
-  - Learn:
-      - "learn/index.md"
-  - Use:
-      - "reference/index.md"
-  - Contribute:
-      - "contribute/index.md"
-  - Community:
-      - "community/index.md"
+  - Discover: "discover/index.md"
+  - Learn: "learn/index.md"
+  - Use: "reference/index.md"
+  - Contribute: "contribute/index.md"
+  - Community: "community/index.md"
   - Blog:
       - "blog/index.md"
-  - FAQ:
-      - "faq/index.md"
-  - Sponsor:
-      - "sponsors/index.md"
+  - FAQ: "faq/index.md"
+  - Sponsor: "sponsors/index.md"
