@@ -12,11 +12,11 @@ Interesting question. We hear that a lot. If you read enough of ["An Early Histo
 
 ### What makes Pony different? {:id="how-is-pony-different"}
 
-See the ["What makes Pony different"](../discover/index.md#what-makes-pony-different) section of ["Discover"](../discover/index.md).
+See ["What makes Pony different"](/discover/what-makes-pony-different.md).
 
 ### Why would I use Pony instead of language X? {:id="why-pony-instead-of-x"}
 
-That's a hard question to answer. Language X is probably very compelling for some problems. It's probably less compelling for others. Such is computers. In the end, the best we can do is tell you what Pony is good at and you can make the decision for yourself. To learn more about Pony, we suggest checking out the ["Discover"](../discover/index.md) section of the website. There's a portion of that section called ["Why Pony"](../discover/index.md#why-pony) that might answer your question.
+That's a hard question to answer. Language X is probably very compelling for some problems. It's probably less compelling for others. Such is computers. In the end, the best we can do is tell you what Pony is good at and you can make the decision for yourself. To learn more about Pony, we suggest checking out the ["Why Pony"](/discover/why-pony.md) section of the website. Hopefully, it answers your question.
 
 ### Where can I find the Pony roadmap? {:id="roadmap"}
 

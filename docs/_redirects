@@ -81,3 +81,9 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 # old rss feed location
 /index.xml /feed_rss_created.xml 301!
 /blog/index.xml /feed_rss_created.xml 301!
+
+# split pages reorganization
+/discover/ /discover/what-is-pony/ 307!
+/discover/#what-is-pony /discover/what-is-pony/ 301!
+/discover/#what-makes-pony-different /discover/what-makes-pony-different 301!
+/discover/#why-pony /discover/why-pony 301!
