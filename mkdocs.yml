@@ -123,7 +123,11 @@ nav:
       - Dependency Management: "use/dependency-management.md"
       - Performance: "use/performance.md"
       - Testing: "use/testing.md"
-  - Contribute: "contribute/index.md"
+  - Contribute:
+      - Overview: "contribute/index.md"
+      - Triage Issues: "contribute/triage.md"
+      - Project Documentation: "contribute/project-documentation.md"
+      - Good First Issues: "contribute/good-first-issues.md"
   - Community: "community/index.md"
   - Blog:
       - "blog/index.md"

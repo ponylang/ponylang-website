@@ -1,6 +1,6 @@
 # Project Documentation
 
-There's currently a small project underway to improve Pony documentation. We have a few initial aims
+Documentation is the lifeblood of an Open Source project. It makes it easier to get new users up and running with the language. Our ability to grow Pony usage will be directly tied to the quality and breadth of our documentation. Assisting with adding documentation for Pony is a great way to get started helping out with Pony.
 
 ## Standard Library Documentation Improvements
 
