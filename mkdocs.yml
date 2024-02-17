@@ -140,5 +140,12 @@ nav:
       - Norms: "community/norms.md"
   - Blog:
       - "blog/index.md"
-  - FAQ: "faq/index.md"
+  - FAQ:
+      - About Pony: "faq/about-pony.md"
+      - Code: "faq/code.md"
+      - Comparisons to Other Languages: "faq/comparisons.md"
+      - Compiling: "faq/compiling.md"
+      - Ecosystem: "faq/ecosystem.md"
+      - Linking: "faq/linking.md"
+      - Runtime: "faq/runtime.md"
   - Sponsor: "sponsors/index.md"
