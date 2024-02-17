@@ -17,9 +17,9 @@ Most of the executed code is created and published by either us or GitHub. We al
 
 Because actions execute within our organizational trust boundary, there are security concerns that need to be considered when using actions.
 
-### Repojacking
+### RepoJacking
 
-Repojacking is when someone takes over the organization/username of an account that used to exist on GitHub and creates a repository that is already referred to by other repositories.
+RepoJacking is when someone takes over the organization/username of an account that used to exist on GitHub and creates a repository that is already referred to by other repositories.
 
 For example, Fred creates a very popular action at `github.com/fred/awesome-action`. Over time, hundreds of other repositories depend on Fred's action. Eventually, Fred renames his user to Freddie. GitHub starts redirecting `github.com/fred/awesome-action` to `github.com/freddie/awesome-action` and existing awesome-action users continue chugging along. Eventually, the redirect expires and GitHub makes Fred eligible a new user to create an account for.
 
