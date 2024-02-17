@@ -106,13 +106,13 @@ Access information is stored in the 1Password account.
 
 ## Zapier
 
-We use Zapier to trigger reminders about our weekly [developer sync meeting](pony-sync.md).
+We use Zapier to trigger reminders about our weekly [developer sync meeting](sync.md).
 
 Access information for Zapier is stored in the 1Password account.
 
 ## Zoom
 
-We have a paid Zoom account that is used primarily for the weekly [developer sync meeting](pony-sync.md), but is also sometimes used for hosting virtual users' groups.
+We have a paid Zoom account that is used primarily for the weekly [developer sync meeting](sync.md), but is also sometimes used for hosting virtual users' groups.
 
 Access information is stored in the 1Password account.
 
