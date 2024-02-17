@@ -1,5 +1,9 @@
 # Sponsors
 
+Running an open source project takes time and money. Pony is an all-volunteer project where time is whatever folks have. Even with those contributions, there's additional demands on a project.
+
+We need to run CI, store releases somewhere, manage secrets, host websites, and more. Some of these needs are covered by our services sponsors who provide free service to Open Source projects like Pony. Other needs require us to pay money monthly. We collect donations from backers to pay our ongoing expenses.
+
 ## Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/ponyc#backer)]
