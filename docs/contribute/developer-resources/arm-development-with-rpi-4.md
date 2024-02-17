@@ -48,7 +48,7 @@ See [this guide](https://www.raspberrypi-spy.co.uk/2017/04/manually-setting-up-p
 
 ## Getting initial access
 
-Once you have your Raspian install ready for its first booting, you'll want to put our MicroSD card in the MicroSD card slot on the underside of your Pi board and then put your board in it's case and plug it in. It should boot fairly quickly. Once it boots, it will get an IP address from your wifi router.
+Once you have your Raspbian install ready for its first booting, you'll want to put our MicroSD card in the MicroSD card slot on the underside of your Pi board and then put your board in it's case and plug it in. It should boot fairly quickly. Once it boots, it will get an IP address from your wifi router.
 
 You'll need to use whatever tools your router provides to get the IP address of your Pi so you can ssh in as the user `pi`. The default password is `raspberry`.
 

@@ -352,6 +352,7 @@ parter
 pathnames
 Patiency
 patroclos
+PCRE
 Perelandric
 permalink
 PLISS
@@ -411,6 +412,7 @@ redvers
 refcap
 refcaps
 Regehr
+reimagined
 Reini
 Renato
 REPL
