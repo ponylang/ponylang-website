@@ -76,7 +76,7 @@ There's no access to Melpa. All updates are done by Melpa monitoring the ponylan
 
 The [recordings of our weekly developers' sync](https://sync-recordings.ponylang.io/r/) are currently hosted on [NearlyFreeSpeech.net](https://nearlyfreespeech.net/).
 
-The "admin" account is owned by Sean T. Allen. Andrew Turley has an account with upload access. Sean can grant upload access to others as needed.
+The "admin" account is owned by Sean T. Allen. Joe McIlvain has an account with upload access. Sean can grant upload access to others as needed.
 
 All bills for hosting are paid by Sean and reimbursed via our OpenCollective. Unlike most other bills, the low balance/balance due notices are **not** sent to the ponylang.main gmail account.
 
