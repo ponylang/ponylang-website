@@ -10,4 +10,4 @@ If you are new to Pony and have more time to devote, check out the [Good First I
 
 If you are a bit more experienced with Pony then it might be time to get involved with triaging incoming issues. Not only will triaging help move the project forward but it's a common first step towards becoming a Pony committer.
 
-We have a [GitHub repository](https://github.com/ponylang/contributors) dedicated to information that is useful to contributors. It contains information about a variety of contributor related topics.
+This section of the website also contains *a lot* of information that is useful to regular contributors to Pony including those with commit and administrative rights.

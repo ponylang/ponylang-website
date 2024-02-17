@@ -70,6 +70,7 @@ theme:
     - content.code.select
     - navigation.indexes
     - navigation.instant
+    - navigation.path
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.tracking
@@ -132,6 +133,21 @@ nav:
       - Triage Issues: "contribute/triage.md"
       - Project Documentation: "contribute/project-documentation.md"
       - Good First Issues: "contribute/good-first-issues.md"
+      - CI:
+        - Overview: "contribute/ci.md"
+        - CI Image Organization: "contribute/ci/ci-image-organization.md"
+        - GitHub Actions and Security: "contribute/ci/gh-actions-security.md"
+        - Scheduled Jobs: "contribute/ci/scheduled-jobs.md"
+        - Triggered Jobs: "contribute/ci/triggered-jobs.md"
+      - Contributor Oriented Zulip Streams: "contribute/zulip-streams.md"
+      - Infrastructure Overview: "contribute/infrastructure.md"
+      - Issue and PR Labels: "contribute/labels.md"
+      - Last Week in Pony: "contribute/lwip.md"
+      - Pony Development Sync: "contribute/sync.md"
+      - Releases: "contribute/releases.md"
+      - Developer Resources:
+        - Arm Development with RPI 4: "contribute/developer-resources/arm-development-with-rpi-4.md"
+        - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
   - Community:
       - Getting Started: "community/getting-started.md"
       - News: "community/news.md"

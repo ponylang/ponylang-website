@@ -4,7 +4,7 @@ Users regularly open issues against various [Pony repositories](https://github.c
 
 A great way assist with the development of Pony is to triage issues. The following guide is written to help understand how you can triage [issues related to the ponyc compiler](https://github.com/ponylang/ponyc/issues).
 
-While details might vary from repository to repository, the general princioples can be applied across our repositories.
+While details might vary from repository to repository, the general principles can be applied across our repositories.
 ## For anyone
 
 The vast majority of the triaging process can be done by any member of the community, all of the following steps require no special commit access to the `ponyc` repository.

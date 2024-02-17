@@ -13,7 +13,7 @@ The [shared-docker](https://github.com/ponylang/shared-docker) repository contai
 We have a variety of different types of images available. See the repository for more information. A variety of different images are available including:
 
 - Build environments with the Pony compiler and SSL libraries installed. These are updated nightly and for each release of the Pony compiler.
-- Build environment with the Pony compiler and PRCE installed. It is updated nightly and for each release of the Pony compiler.
+- Build environment with the Pony compiler and PCRE installed. It is updated nightly and for each release of the Pony compiler.
 
 ## Tools
 
