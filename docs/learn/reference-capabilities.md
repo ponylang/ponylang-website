@@ -41,7 +41,7 @@ Generics and references capabilities are the hardest things to get a handle on w
 
 Our recommendation is to [watch the video][VUG1], read "[Bang, Hat and Arrow in Pony][BANG-HAT-ARROW]" and then try writing code that uses generic classes like collections. Once you have a handle on using generic classes, move on to trying to write your own generic classes. All the while, repeatedly return to watching the video and reading the accompanying blog post.
 
-Don't worry. You will get it. And remember, the [helpful Pony community](#getting-help) is waiting to assist.
+Don't worry. You will get it. And remember, the [helpful Pony community](/learn/getting-help.md) is waiting to assist.
 
 [SAFELY-SHARING-DATA]: http://jtfmumm.com/blog/2016/03/06/safely-sharing-data-pony-reference-capabilities/
 [VUG1]: https://vimeo.com/163871856
