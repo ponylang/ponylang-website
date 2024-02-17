@@ -122,6 +122,7 @@ nav:
       - Overview: "use/index.md"
       - Debugging: "use/debugging.md"
       - Dependency Management: "use/dependency-management.md"
+      - Infrastructure: "use/infrastructure.md"
       - Packages: "use/packages.md"
       - Performance: "use/performance.md"
       - Testing: "use/testing.md"
