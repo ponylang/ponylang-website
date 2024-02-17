@@ -17,7 +17,7 @@ We have a variety of different types of images available. See the repository for
 
 ## Tools
 
-## [changelog-tool](https://github.com/ponylang/changelog-tool)
+### [changelog-tool](https://github.com/ponylang/changelog-tool)
 
 Tool for modifying "standard Pony" changelogs.
 
