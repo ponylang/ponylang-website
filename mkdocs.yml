@@ -128,7 +128,16 @@ nav:
       - Triage Issues: "contribute/triage.md"
       - Project Documentation: "contribute/project-documentation.md"
       - Good First Issues: "contribute/good-first-issues.md"
-  - Community: "community/index.md"
+  - Community:
+      - Getting Started: "community/getting-started.md"
+      - News: "community/news.md"
+      - Planet Pony: "community/planet-pony.md"
+      - Papers: "community/papers.md"
+      - Zulip: "community/zulip.md"
+      - Office Hours: "community/office-hours.md"
+      - Development Sync: "community/development-sync.md"
+      - Users' Groups: "community/user-groups.md"
+      - Norms: "community/norms.md"
   - Blog:
       - "blog/index.md"
   - FAQ: "faq/index.md"

@@ -14,4 +14,4 @@ Think you've found a bug? It's quite possible. Pony is a relatively young langua
 
 - [Open an issue](https://github.com/ponylang/ponyc/issues)
 
-The Pony community while small is very helpful and inviting. We think you'll find interacting with us to be an enjoyable experience. You can find a lot more community-related resources in the [community section](/community/index.md) of this site.
+The Pony community while small is very helpful and inviting. We think you'll find interacting with us to be an enjoyable experience. You can find a lot more community-related resources in the [community section](/community/getting-started.md) of this site.

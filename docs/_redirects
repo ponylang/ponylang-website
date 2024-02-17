@@ -100,3 +100,14 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /contribute/#triage-incoming-issues /contribute/triage.md 301!
 /contribute/#project-documentation /contribute/project-documentation.md 301!
 /contribute/#good-first-issues /contribute/good-first-issues.md 301!
+
+/community/#code-of-conduct /community/norms/ 301!
+/community/code-of-conduct/ /community/norms/ 301!
+/community/#getting-started /community/getting-started/ 301!
+/community/#news /community/news/ 301!
+/community/#talks-articles-and-more /community/planet-pony/ 301!
+/community/#papers /community/papers/ 301!
+/community/#chat /community/zulip/ 301!
+/community/#zulip-community /community/zulip/ 301!
+/community/#users-groups /community/user-groups/ 301!
+/community/#pony-development /contribute/triage.md 301!
