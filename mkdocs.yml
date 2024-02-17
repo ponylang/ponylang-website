@@ -113,7 +113,11 @@ nav:
       - Why not Pony?: "discover/why-not-pony.md"
       - The Pony Philosophy: "discover/pony-philosophy.md"
       - Guiding Principles: "discover/guiding-principles.md"
-  - Learn: "learn/index.md"
+  - Learn:
+      - Getting Help: "learn/getting-help.md"
+      - Installing Pony: "learn/installing-pony.md"
+      - Getting Started: "learn/getting-started.md"
+      - Reference Capabilities: "learn/reference-capabilities.md"
   - Use: "reference/index.md"
   - Contribute: "contribute/index.md"
   - Community: "community/index.md"
