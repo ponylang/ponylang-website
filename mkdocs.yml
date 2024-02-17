@@ -118,7 +118,11 @@ nav:
       - Installing Pony: "learn/installing-pony.md"
       - Getting Started: "learn/getting-started.md"
       - Reference Capabilities: "learn/reference-capabilities.md"
-  - Use: "reference/index.md"
+  - Use:
+      - Debugging: "use/debugging.md"
+      - Dependency Management: "use/dependency-management.md"
+      - Performance: "use/performance.md"
+      - Testing: "use/testing.md"
   - Contribute: "contribute/index.md"
   - Community: "community/index.md"
   - Blog:

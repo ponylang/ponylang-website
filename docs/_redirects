@@ -73,11 +73,6 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 # send the blog categories to the new mkdocs location
 /categories/* /blog/categories/:splat 301!
 
-# debugging links moved
-/reference/#debugging /reference/debugging/ 301!
-/reference/#visual-studio-code /reference/debugging/#visual-studio-code 301!
-/reference/#coverage /reference/#testing
-
 # old rss feed location
 /index.xml /feed_rss_created.xml 301!
 /blog/index.xml /feed_rss_created.xml 301!
@@ -93,3 +88,11 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /learn/#installing-pony /learn/installing-pony/ 301!
 /learn/#getting-started /learn/getting-started/ 301!
 /learn/#reference-capabilities /learn/reference-capabilities/ 301!
+
+/reference/ /reference/debugging/ 307!
+/reference/#debugging /reference/debugging/ 301!
+/reference/#visual-studio-code /reference/debugging/#visual-studio-code 301!
+/reference/#coverage /reference/testing/ 301!
+/reference/#performance /reference/performance/ 301!
+
+/reference/* /use/:splat 301!
