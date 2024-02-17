@@ -83,6 +83,7 @@ CodeMesh
 colinobrien
 compositional
 conf
+config
 COPR
 COVID
 Covo
@@ -93,6 +94,7 @@ Crockford
 crypto
 cryptocurrencies
 cryptographic
+cset
 CSV
 ctags
 CurryOn
@@ -113,6 +115,7 @@ Dmitry
 DNS
 docgen
 Dockerfile
+Dockerfiles
 DockerHub
 docstring
 docstrings
@@ -153,6 +156,7 @@ fmt
 footguns
 formatter
 formatters
+ForwardMX
 FreeBSD
 Fritchie
 Fritchie's
@@ -223,6 +227,7 @@ ipaddr
 IRCd
 ISC
 ish
+isolcpus
 Iterable
 iteratively
 itertools
@@ -254,10 +259,12 @@ lexing
 libatomic
 libponyc
 LibreSSL
+libs
 LibXML
 Liétar
 Liétar's
 linkable
+Linode
 LINQ
 linter
 Linux
@@ -279,6 +286,7 @@ mallocs
 Malmö
 Maloney
 Malthe
+markdownlint
 Markus
 McIlvain
 Mehl
@@ -288,6 +296,7 @@ mfelsche
 mfelsche's
 microbenchmark
 microbenchmarking
+microsd
 microservices
 Migda
 mixin
@@ -300,6 +309,8 @@ MQTT
 msgpack
 mshockwave
 MsQuic
+msvc
+mtune
 multithreading
 Mumm
 Mumm's
@@ -308,6 +319,7 @@ mwahl
 namespace
 natively
 nd
+NearlyFreeSpeech
 Netlify
 NetLogo
 Niclas
@@ -325,6 +337,7 @@ OMG
 onesie
 OO
 OpenBSD
+OpenCollective
 OpenSSL
 ORCA
 Øredev
@@ -336,8 +349,10 @@ Palka
 param
 parameterization
 parter
+pathnames
 Patiency
 patroclos
+PCRE
 Perelandric
 permalink
 PLISS
@@ -356,6 +371,7 @@ ponylang
 ponyup
 PostgreS
 postmature
+powerscaling
 PowerShell
 PPA
 PR
@@ -366,6 +382,7 @@ preallocating
 prebuilt
 prebuilts
 precalculated
+prepend
 procedurally
 programme
 protobuf
@@ -382,26 +399,31 @@ QL
 QUIC
 quickstart
 Radisson
+Raspbian
 Reachability
 README
 READMEs
 ReadSeq
 ReadTheDocs
+realtime
 recursing
 reddit
 redvers
 refcap
 refcaps
 Regehr
+reimagined
 Reini
 Renato
 REPL
 repo
+repojacking
 repos
 RFC
 RFCs
 rhagenson
 rhagenson's
+reimaginedF
 rkallos
 RMS
 rmsbolt
@@ -430,6 +452,7 @@ Sendence
 Sendence's
 sexualized
 SFML
+SHA
 sharable
 shellcheck
 Shyu
@@ -459,9 +482,11 @@ submenu
 submodule
 subtype
 subtyping
+sudo
 summarization
 Sur
 SVG
+Swappiness
 Sylvan's
 sylvanc
 SystemTap
@@ -474,6 +499,7 @@ Theo
 theobutler
 theodus
 there'd
+tieing
 Tisher
 TNG
 Tobias
@@ -486,12 +512,14 @@ TravisCI
 treecheck
 triaged
 triaging
+tsc
 Turley
 Turley's
 ubench
 UI
 ultrafast
 unary
+Uncategorized
 unforgeable
 unsession
 untracked
@@ -525,4 +553,5 @@ www
 Xcode
 YAAM
 Yaya
+Zapier
 Zulip
