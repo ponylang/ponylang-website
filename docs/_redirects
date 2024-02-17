@@ -147,3 +147,6 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /faq/#green-threads /faq/runtime/#green-threads 301!
 /faq/#causal-messaging /faq/runtime/#causal-messaging 301!
 /faq/#program-exit /faq/runtime/#program-exit 301!
+
+# we moved "papers" to learn as it fit better
+/community/papers /learn/papers/ 301!

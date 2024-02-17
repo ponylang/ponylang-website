@@ -118,6 +118,7 @@ nav:
       - Installing Pony: "learn/installing-pony.md"
       - Getting Started: "learn/getting-started.md"
       - Reference Capabilities: "learn/reference-capabilities.md"
+      - Papers: "learn/papers.md"
   - Use:
       - Overview: "use/index.md"
       - Debugging: "use/debugging.md"
@@ -135,7 +136,6 @@ nav:
       - Getting Started: "community/getting-started.md"
       - News: "community/news.md"
       - Planet Pony: "community/planet-pony.md"
-      - Papers: "community/papers.md"
       - Zulip: "community/zulip.md"
       - Office Hours: "community/office-hours.md"
       - Development Sync: "community/development-sync.md"
