@@ -13,7 +13,7 @@ Welcome! This is the website for the Pony programming language. Pony is an open-
 - [Tutorial](https://tutorial.ponylang.io/)
 - [Standard Library Documentation](https://stdlib.ponylang.io/)
 - [Getting help](learn/getting-help.md)
-- [Existing user reference](use/debugging.md)
+- [Existing user reference](use/index.md)
 - [Community resources](community/getting-started.md)
 - [Community Norms](community/norms.md)
 - [How to contribute](contribute/index.md)

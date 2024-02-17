@@ -119,6 +119,7 @@ nav:
       - Getting Started: "learn/getting-started.md"
       - Reference Capabilities: "learn/reference-capabilities.md"
   - Use:
+      - Overview: "use/index.md"
       - Debugging: "use/debugging.md"
       - Dependency Management: "use/dependency-management.md"
       - Performance: "use/performance.md"
