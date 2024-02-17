@@ -23,6 +23,12 @@ While waiting for the Super Bowl to start, he spent a few hours moving the site 
 
 Everything should be working as it was before, but it is possible some links got broken or other functionality might have gotten broken in the move. If you find anything, please [open an issue](https://github.com/ponylang/ponylang-website/issues/new).
 
+### Contributors Repository Archived
+
+The [contributors repository](https://github.com/ponylang/contributors) that contained information relevant to Pony contributors and committers has been archived.
+
+All of the content has been merged into the [Pony website](https://www.ponylang.io/) and is now available in the [contribute section](https://www.ponylang.io/contribute/).
+
 ### Pony Development Sync
 
 [Audio](https://sync-recordings.ponylang.io/r/2024_02_13.m4a) from the February 13th, 2024 sync is available.
