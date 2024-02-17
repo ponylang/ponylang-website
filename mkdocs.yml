@@ -45,12 +45,12 @@ plugins:
       raise_error_excludes:
         429: ["https://github.com/ponylang"]
         429: ["https://medium.com"]
-      ignore_urls:
-        # sync recordings regularly times out. if we can every ignore the -1
-        # response as "transient", then we can remove this ignore. sadly, we
-        # can't add -1 to the raise_error_excludes right now as it doesn't work.
-        # only valid HTTP status codes can be excluded.
-        - https://sync-recordings.ponylang.io
+      # ignore_urls:
+      #   # sync recordings regularly times out. if we can every ignore the -1
+      #   # response as "transient", then we can remove this ignore. sadly, we
+      #   # can't add -1 to the raise_error_excludes right now as it doesn't work.
+      #   # only valid HTTP status codes can be excluded.
+      #   - https://sync-recordings.ponylang.io
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
@@ -106,12 +106,46 @@ theme:
 
 nav:
   - Home: "index.md"
-  - Discover: "discover/index.md"
-  - Learn: "learn/index.md"
-  - Use: "reference/index.md"
-  - Contribute: "contribute/index.md"
-  - Community: "community/index.md"
+  - Discover:
+      - What is Pony?: "discover/what-is-pony.md"
+      - What makes Pony different?: "discover/what-makes-pony-different.md"
+      - Why Pony?: "discover/why-pony.md"
+      - Why not Pony?: "discover/why-not-pony.md"
+      - The Pony Philosophy: "discover/pony-philosophy.md"
+      - Guiding Principles: "discover/guiding-principles.md"
+  - Learn:
+      - Getting Help: "learn/getting-help.md"
+      - Installing Pony: "learn/installing-pony.md"
+      - Getting Started: "learn/getting-started.md"
+      - Reference Capabilities: "learn/reference-capabilities.md"
+  - Use:
+      - Debugging: "use/debugging.md"
+      - Dependency Management: "use/dependency-management.md"
+      - Performance: "use/performance.md"
+      - Testing: "use/testing.md"
+  - Contribute:
+      - Overview: "contribute/index.md"
+      - Triage Issues: "contribute/triage.md"
+      - Project Documentation: "contribute/project-documentation.md"
+      - Good First Issues: "contribute/good-first-issues.md"
+  - Community:
+      - Getting Started: "community/getting-started.md"
+      - News: "community/news.md"
+      - Planet Pony: "community/planet-pony.md"
+      - Papers: "community/papers.md"
+      - Zulip: "community/zulip.md"
+      - Office Hours: "community/office-hours.md"
+      - Development Sync: "community/development-sync.md"
+      - Users' Groups: "community/user-groups.md"
+      - Norms: "community/norms.md"
   - Blog:
       - "blog/index.md"
-  - FAQ: "faq/index.md"
-  - Sponsor: "sponsors/index.md"
+  - FAQ:
+      - About Pony: "faq/about-pony.md"
+      - Code: "faq/code.md"
+      - Comparisons to Other Languages: "faq/comparisons.md"
+      - Compiling: "faq/compiling.md"
+      - Ecosystem: "faq/ecosystem.md"
+      - Linking: "faq/linking.md"
+      - Runtime: "faq/runtime.md"
+  - Sponsors: "sponsors/index.md"

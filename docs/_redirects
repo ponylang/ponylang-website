@@ -73,11 +73,77 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 # send the blog categories to the new mkdocs location
 /categories/* /blog/categories/:splat 301!
 
-# debugging links moved
-/reference/#debugging /reference/debugging/ 301!
-/reference/#visual-studio-code /reference/debugging/#visual-studio-code 301!
-/reference/#coverage /reference/#testing
-
 # old rss feed location
 /index.xml /feed_rss_created.xml 301!
 /blog/index.xml /feed_rss_created.xml 301!
+
+# split pages reorganization
+/discover/ /discover/what-is-pony/ 307!
+/discover/#what-is-pony /discover/what-is-pony/ 301!
+/discover/#what-makes-pony-different /discover/what-makes-pony-different 301!
+/discover/#why-pony /discover/why-pony 301!
+
+/learn/ /learn/getting-help/ 307!
+/learn/#getting-help /learn/getting-help/ 301!
+/learn/#installing-pony /learn/installing-pony/ 301!
+/learn/#getting-started /learn/getting-started/ 301!
+/learn/#reference-capabilities /learn/reference-capabilities/ 301!
+
+/reference/ /reference/debugging/ 307!
+/reference/#debugging /reference/debugging/ 301!
+/reference/#visual-studio-code /reference/debugging/#visual-studio-code 301!
+/reference/#coverage /reference/testing/ 301!
+/reference/#performance /reference/performance/ 301!
+
+/reference/* /use/:splat 301!
+
+/contribute/#triage-incoming-issues /contribute/triage.md 301!
+/contribute/#project-documentation /contribute/project-documentation.md 301!
+/contribute/#good-first-issues /contribute/good-first-issues.md 301!
+
+/community/#code-of-conduct /community/norms/ 301!
+/community/code-of-conduct/ /community/norms/ 301!
+/community/#getting-started /community/getting-started/ 301!
+/community/#news /community/news/ 301!
+/community/#talks-articles-and-more /community/planet-pony/ 301!
+/community/#papers /community/papers/ 301!
+/community/#chat /community/zulip/ 301!
+/community/#zulip-community /community/zulip/ 301!
+/community/#users-groups /community/user-groups/ 301!
+/community/#pony-development /contribute/triage.md 301!
+
+/faq/#about-pony /faq/about-pony/ 301!
+/faq/#early-history /faq/about-pony/#early-history 301!
+/faq/#why-the-name-pony /faq/about-pony/#why-the-name-pony 301!
+/faq/#how-is-pony-different /faq/about-pony/#how-is-pony-different 301!
+/faq/#why-pony-instead-of-x /faq/about-pony/#why-pony-instead-of-x 301!
+/faq/#roadmap /faq/about-pony/#roadmap 301!
+/faq/#data-race /faq/about-pony/#data-race 301!
+/faq/#real-world-pony-codebases /faq/about-pony/#real-world-pony-codebases 301!
+/faq/#code-formatter /faq/about-pony/#code-formatter 301!
+
+/faq/#code /faq/code/ 301!
+/faq/#ref-to-val /faq/code/#ref-to-val 301!
+/faq/#Foo()-create-apply /faq/code/#Foo()-create-apply 301!
+/faq/#code-for-all-numbers /faq/code/#code-for-all-numbers 301!
+
+/faq/#comparisons /faq/comparisons/ 301!
+/faq/#erlang-elixir-comparison /faq/comparisons/#erlang-elixir-comparison 301!
+/faq/#pony-actors-lightweight /faq/comparisons/#pony-actors-lightweight 301!
+
+/faq/#compiling /faq/compiling/ 301!
+/faq/#supported-CPUs /faq/compiling/#supported-CPUs 301!
+/faq/#pic-compile-error /faq/compiling/#pic-compile-error 301!
+/faq/#lnk1112 /faq/compiling/#lnk1112 301!
+
+/faq/#ecosystem /faq/ecosystem/ 301!
+/faq/#ssl /faq/ecosystem/#ssl 301!
+/faq/#package-manager /faq/ecosystem/#package-manager 301!
+
+/faq/#linking /faq/linking/ 301!
+/faq/#custom-linker-parameters /faq/linking/#custom-linker-parameters 301!
+
+/faq/#runtime /faq/runtime/ 301!
+/faq/#green-threads /faq/runtime/#green-threads 301!
+/faq/#causal-messaging /faq/runtime/#causal-messaging 301!
+/faq/#program-exit /faq/runtime/#program-exit 301!

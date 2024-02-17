@@ -1,5 +1,7 @@
 # Triaging Ponyc
 
+Users regularly open issues against the [ponyc repository](https://github.com/ponylang/ponyc/issues). Staying on top of them and moving them along to a conclusion is an important part of the development process.
+
 ## For anyone
 
 The vast majority of the triaging process can be done by any member of the community, all of the following steps require no special commit access to the `ponyc` repository.
