@@ -6,7 +6,7 @@ So, you need to link your program to a custom library or otherwise pass a partic
 
 You'll need to know what your current linker is. To get it, compile a pony program and pass `--verbose 3`.
 
-#### On Linux, MacOS or other Unix-like
+### On Linux, MacOS or other Unix-like
 
 Then examine the output. You should see something like:
 
@@ -32,7 +32,7 @@ ld -lFoo -execute -no_pie -dead_strip -arch x86_64 -macosx_version_min 10.8
   -L"/usr/local/lib" -lponyrt -lSystem
 ```
 
-#### On Windows
+### On Windows
 
 Compiling a pony program with `--verbose 3` will produce something like:
 

@@ -1,4 +1,4 @@
-## Comparisons to Other Languages
+# Comparisons to Other Languages
 
 ## How is Pony different than Erlang/Elixir? {:id="erlang-elixir-comparison"}
 
