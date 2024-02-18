@@ -111,7 +111,7 @@ theme:
 nav:
   - Home: "index.md"
   - Discover:
-      - What is Pony?: "discover/what-is-pony.md"
+      - What is Pony?: "discover/index.md"
       - What makes Pony different?: "discover/what-makes-pony-different.md"
       - Why Pony?: "discover/why-pony.md"
       - Why not Pony?: "discover/why-not-pony.md"
