@@ -1,6 +1,6 @@
 ---
 date: 2017-07-12T13:55:40-04:00
-title: My First Pony
+title: "My First Pony: Kevin Hoffman"
 authors:
   - kevinhoffman
 categories:
