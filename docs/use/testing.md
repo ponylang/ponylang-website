@@ -10,4 +10,4 @@
 
 ## Test Coverage Reports
 
-- [Coverage Reports for Pony](pony-coverage.md)
+- [Coverage Reports for Pony](testing/coverage-reports.md)

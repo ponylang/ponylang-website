@@ -125,12 +125,19 @@ nav:
       - Papers: "learn/papers.md"
   - Use:
       - Overview: "use/index.md"
-      - Debugging: "use/debugging.md"
+      - Debugging:
+          - Overview: "use/debugging.md"
+          - Pony LLDB Cheat Sheet: "use/debugging/pony-lldb-cheat-sheet.md"
+          - Track Memory Usage: "use/debugging/track-memory-usage.md"
       - Dependency Management: "use/dependency-management.md"
       - Infrastructure: "use/infrastructure.md"
       - Packages: "use/packages.md"
-      - Performance: "use/performance.md"
-      - Testing: "use/testing.md"
+      - Performance:
+          - Overview: "use/performance.md"
+          - Performance Cheat Sheet: "use/performance/performance-cheat-sheet.md"
+      - Testing:
+          - Overview: "use/testing.md"
+          - Coverage Reports: "use/testing/coverage-reports.md"
   - Contribute:
       - Overview: "contribute/index.md"
       - Triage Issues: "contribute/triage.md"
