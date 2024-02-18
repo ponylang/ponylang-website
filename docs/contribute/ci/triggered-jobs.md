@@ -24,8 +24,8 @@ The triggered jobs list was last updated September 14, 2021.
 
 ### Triggered workflows
 
-- [corral breakage-against-macOS-arm64-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-macOS-arm64-ponyc-latest.yml)
-- [corral breakage-against-macOS-x86-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-macOS-x86-ponyc-latest.yml)
+- [corral breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
+- [corral breakage-against-macos-x86-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-macos-x86-ponyc-latest.yml)
 - [ponyup: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 - [ponyup: breakage-against-macos-x64-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-macos-x86-ponyc-latest.yml)
 
@@ -74,7 +74,7 @@ Sent after our various linux builders hosted in the shared-docker repo have been
 
 - [appdirs: breakage-against-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [changelog-tool: breakage-against-ponyc-latest](https://github.com/ponylang/changelog-tool/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [corral: breakage-against-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
+- [corral: breakage-against-linux-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [crypto: breakage-against-ponyc-latest](https://github.com/ponylang/crypto/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [glob: breakage-against-ponyc-latest](https://github.com/ponylang/glob/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [http: breakage-against-linux-ponyc-latest](https://github.com/ponylang/http/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
