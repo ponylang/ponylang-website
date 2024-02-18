@@ -59,7 +59,7 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-This week we are looking at Pony [Frequently Asked Questions (FAQs)](https://www.ponylang.io/faq/), in particular whether a [ref can become a val](https://www.ponylang.io/faq/#ref-to-val).
+This week we are looking at Pony [Frequently Asked Questions (FAQs)](https://www.ponylang.io/faq/), in particular whether a [ref can become a val](https://www.ponylang.io/faq/code/#ref-to-val).
 
 It is not uncommon to start learning Pony by using a lot of implicit and explicit `ref` reference capabilities. This is because `ref` is perhaps the most familiar capability when coming from other languages. With a `ref` we are creating a mutable, local reference; we can locally alias this `ref` as many times as we want. Joy! But wait...what if we want to mutate up to a point and then "lock" that data into being immutable? This is usually what someone who wants to go from a `ref` to a `val` is trying to do -- start with a locally mutable `ref` which is then "locked" into being a globally immutable `val`. However this does not work and they get frustrated. The quick solutions are:
 

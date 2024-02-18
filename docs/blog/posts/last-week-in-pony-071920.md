@@ -16,7 +16,7 @@ We have some nice improvements to the website FAQ and corral documentation. RFC 
 
 - The recording of the July 14, 2020 Pony Development Sync is now available: [https://sync-recordings.ponylang.io/r/2020_07_14.m4a](https://sync-recordings.ponylang.io/r/2020_07_14.m4a)
 
-- Ryan Hagenson has added a new FAQ to the website on [when Pony programs terminate](https://www.ponylang.io/faq/#program-exit). It's a question that comes up semi-regularly on the [Zulip](https://ponylang.zulipchat.com/#). Thanks Ryan for adding the FAQ.
+- Ryan Hagenson has added a new FAQ to the website on [when Pony programs terminate](https://www.ponylang.io/faq/runtime/#program-exit). It's a question that comes up semi-regularly on the [Zulip](https://ponylang.zulipchat.com/#). Thanks Ryan for adding the FAQ.
 
 - "Adeel" aka @adeel41 recently tried to get started with [corral](https://github.com/ponylang/corral) the in-development Pony dependency manager. He ran into some trouble. He then stepped up and added a bunch of excellent getting started documentation and made it rock by working with Ryan Hagenson and Sean T. Allen. You rock Adeel. Thank you. May all your Ponying be fruitful.
 

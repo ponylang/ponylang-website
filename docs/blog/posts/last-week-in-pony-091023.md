@@ -52,7 +52,7 @@ We like to take a moment in each Last Week in Pony to highlight a community reso
 
 This week we are going to look at one of the Pony Patterns: [Testing Output Only Actors](https://patterns.ponylang.io/testing/output-only-actors)!
 
-Many actors will produce output that is meant to leave the system, but how do we test these actors? In Pony we can use a combination of factors built right into the language to ensure proper testing. The factors of importance here are: 1. [Pony promises](https://stdlib.ponylang.io/promises--index/), 2. Stub objects, and 3. [causal messaging](https://www.ponylang.io/faq/#causal-messaging).
+Many actors will produce output that is meant to leave the system, but how do we test these actors? In Pony we can use a combination of factors built right into the language to ensure proper testing. The factors of importance here are: 1. [Pony promises](https://stdlib.ponylang.io/promises--index/), 2. Stub objects, and 3. [causal messaging](https://www.ponylang.io/faq/runtime/#causal-messaging).
 
 The moving parts for this pattern are difficult to summarize any clearer than the Patterns entry itself so I will leave you with the brief advice that if you have an actor that implements the `OutStream` interface then it is worth looking at this pattern! And if you don't yet have such an actor, look anyway!
 

@@ -45,6 +45,9 @@ plugins:
       raise_error_excludes:
         429: ["https://github.com/ponylang"]
         429: ["https://medium.com"]
+        # only available to users that are logged in to GitHub and have
+        # ponylang org access
+        404: ["https://github.com/organizations/ponylang/settings/repository-defaults"]
       # ignore_urls:
       #   # sync recordings regularly times out. if we can every ignore the -1
       #   # response as "transient", then we can remove this ignore. sadly, we

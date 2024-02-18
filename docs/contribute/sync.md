@@ -40,7 +40,7 @@ If you did a local recording of the meeting, please do the following:
 1. The meeting audio will be written to disk when you leave the meeting (it takes a couple minutes). You'll be alerted by Zoom when it is ready.
 2. Use `SCP` to copy the meeting recording to the `r` directory of the Pony account on [nearlyfreespeech.net](https://nearlyfreespeech.net). The file should be called `DATE.m4a`, where `DATE` is the date in `YYYY\_MM\_DD` format(for example May 12, 2020 would be `2020_05_12.m4a`).
 3. Put a note in the Zulip dated topic for the sync announcing that the sync recording is available and provide the recording URL.
-4. Add a comment to the "Last Week in Pony" issue (in the [ponylang/pony-website](https://github.com/ponylang/pony-website) repo) that also announces that the recording is available.
+4. Add a comment to the "Last Week in Pony" issue (in the [ponylang/ponylang-website](https://github.com/ponylang/ponylang-website) repo) that also announces that the recording is available.
 
 If you did a cloud recording, please do the following:
 
