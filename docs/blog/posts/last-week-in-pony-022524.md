@@ -27,7 +27,7 @@ We had a quick agenda this week. It was about 15 minutes total. Have a listen.
 
 ## Releases
 
-<< content >>
+- [ponylang/http_server 0.5.0](https://github.com/ponylang/http_server/releases/tag/0.5.0)
 
 ## Community Resource Highlight
 
