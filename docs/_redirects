@@ -154,3 +154,13 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 # make "what is pony" the index of "discover". perhaps this changes in the
 # future so we are doing a temporary redirect
 /discover/what-is-pony/ /discover/ 307!
+
+# created use/testing subsection
+/use/pony-coverage/ /use/testing/coverage-reports/ 301!
+
+# created a use/debugging subsection
+/use/pony-lldb-cheatsheet/ /use/debugging/pony-lldb-cheat-sheet/ 301!
+/use/pony-track-memory-usage/ /use/debugging/track-memory-usage/ 301!
+
+# created a use/performance subsection
+/use/pony-performance-cheatsheet/ /use/performance/pony-performance-cheat-sheet/ 301!

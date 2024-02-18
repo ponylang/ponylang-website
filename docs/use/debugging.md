@@ -6,7 +6,7 @@
 
 We have a couple of resources that can help get up to speed with using LLDB with Pony.
 
-We have a quickstart guide: [Pony LLDB Cheat Sheet](pony-lldb-cheatsheet.md). Which if you have some experience with debuggers like LLDB, should be enough to get up going.
+We have a quickstart guide: [Pony LLDB Cheat Sheet](debugging/pony-lldb-cheat-sheet.md). Which if you have some experience with debuggers like LLDB, should be enough to get up going.
 
 There's also a collection of [Pony LLDB Extensions](https://github.com/ponylang/pony-lldb-extensions) that can help improve your Pony/LLDB experience.
 
@@ -16,4 +16,4 @@ In order to debug programs in the Visual Studio Code debugger (either on Windows
 
 ## Tracking Memory Usage
 
-Interested in tracking Pony runtime memory consumption? Checkout ["Making Pony track memory usage"](pony-track-memory-usage.md).
+Interested in tracking Pony runtime memory consumption? Checkout ["Making Pony track memory usage"](debugging/track-memory-usage.md).

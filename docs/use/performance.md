@@ -6,4 +6,4 @@
 
 ## Performance Cheatsheet
 
-- [Pony Performance Cheat Sheet](pony-performance-cheatsheet.md)
+- [Pony Performance Cheat Sheet](performance/pony-performance-cheat-sheet.md)
