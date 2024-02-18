@@ -14,7 +14,7 @@ Welcome! This is the website for the Pony programming language. Pony is an open-
 - [Standard Library Documentation](https://stdlib.ponylang.io/)
 - [Getting help](learn/getting-help.md)
 - [Existing user reference](use/index.md)
-- [Community resources](community/getting-started.md)
+- [Community resources](community/index.md)
 - [Community Norms](community/norms.md)
 - [How to contribute](contribute/index.md)
 - [Releases](https://github.com/ponylang/ponyc/releases)

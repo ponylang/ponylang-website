@@ -149,7 +149,7 @@ nav:
         - Arm Development with RPI 4: "contribute/developer-resources/arm-development-with-rpi-4.md"
         - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
   - Community:
-      - Getting Started: "community/getting-started.md"
+      - Overview: "community/index.md"
       - News: "community/news.md"
       - Planet Pony: "community/planet-pony.md"
       - Zulip: "community/zulip.md"

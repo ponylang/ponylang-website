@@ -103,7 +103,8 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 
 /community/#code-of-conduct /community/norms/ 301!
 /community/code-of-conduct/ /community/norms/ 301!
-/community/#getting-started /community/getting-started/ 301!
+/community/#getting-started /community/ 301!
+/community/getting-started/ /community/ 301!
 /community/#news /community/news/ 301!
 /community/#talks-articles-and-more /community/planet-pony/ 301!
 /community/#papers /community/papers/ 301!
