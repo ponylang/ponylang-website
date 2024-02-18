@@ -8,7 +8,7 @@ If you run into trouble while you are learning Pony, don't worry, we've got you 
 
 The [beginner help](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help) stream is a good starting point for basic questions. If you need more information on what is considered appropriate or inappropriate behaviour, check out our [Code of Conduct](https://github.com/ponylang/ponyc/blob/main/CODE_OF_CONDUCT.md).
 
-Many folks encounter the same issues or have the same questions, be sure to give the [frequently asked questions](/faq/about-pony.md) section of this website a read.
+Many folks encounter the same issues or have the same questions, be sure to give the [frequently asked questions](/faq/index.md) section of this website a read.
 
 Think you've found a bug? It's quite possible. Pony is a relatively young language that is still changing at a rapid pace and bugs do happen. Your best bet. Write to the mailing list with your issue and verify that you are experiencing an issue. Once a more knowledge member of the community confirms you are experiencing a bug, open an issue.
 

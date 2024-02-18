@@ -163,6 +163,7 @@ nav:
   - Blog:
       - "blog/index.md"
   - FAQ:
+      - Overview: "faq/index.md"
       - About Pony: "faq/about-pony.md"
       - Code: "faq/code.md"
       - Comparisons to Other Languages: "faq/comparisons.md"
