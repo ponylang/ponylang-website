@@ -134,7 +134,7 @@ nav:
       - Packages: "use/packages.md"
       - Performance:
           - Overview: "use/performance.md"
-          - Performance Cheat Sheet: "use/performance/performance-cheat-sheet.md"
+          - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"
       - Testing:
           - Overview: "use/testing.md"
           - Coverage Reports: "use/testing/coverage-reports.md"
