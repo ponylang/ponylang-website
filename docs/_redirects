@@ -171,4 +171,4 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 
 # drop the users' group page. we have never really had any. replace with a page
 # purely about the VUG which might at least see some action
-/community/user-groups/ /community/virtual-user-group/ 301!
+/community/user-groups/ /community/virtual-users-group/ 301!
