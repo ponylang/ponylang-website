@@ -168,3 +168,7 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 # blog posts that got new titles
 /blog/2017/07/my-first-pony/ /blog/2017/07/my-first-pony-kevin-hoffman/ 301!
 /blog/2017/10/my-first-pony/ /blog/2017/10/my-first-pony-codec-abc/ 301!
+
+# drop the users' group page. we have never really had any. replace with a page
+# purely about the VUG which might at least see some action
+/community/user-groups/ /community/virtual-user-group/ 301!
