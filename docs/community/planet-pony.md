@@ -53,7 +53,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [The Promise of Pony's Future](https://medium.com/@KevinHoffman/the-promise-of-ponys-future-44040a0b64ff)
 * [Rolling the Dice with Pony](https://medium.com/@KevinHoffman/rolling-the-dice-with-pony-b7a32a69267b)
 * [Composition over Inheritance in Pony](https://medium.com/@KevinHoffman/composition-over-inheritance-in-pony-33bbe107914)
-* [My First Pony](https://www.ponylang.io/blog/2017/07/my-first-pony/)
+* [My First Pony](https://www.ponylang.io/blog/2017/07/my-first-pony-kevin-hoffman/)
 * InfoQ podcast interview with Sylvan Clebsch - [Pony Language Designer Sylvan Clebsch on Pony’s Design, Garbage Collection, and Formal Verification](https://www.infoq.com/podcasts/sylvan-clebsch-pony-formal-verification)
 * [Pony: 714 Days Later (Curry On Barcelona)](https://www.youtube.com/watch?v=HGDSnOZaU7Y)
 * [What's Next for Our Programming Languages? (QCon London)](https://www.infoq.com/presentations/panel-languages-future)
