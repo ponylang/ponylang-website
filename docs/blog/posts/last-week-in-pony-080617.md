@@ -17,12 +17,12 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Last Sunday, we released Pony 0.16.1. It featured a couple of high-priority bug fixes. As such we recommend upgrading as soon as possible. However, 0.16.0 featured a large breaking change so we suggest you check out the release notes for both before proceeding.
 
-- [0.16.1](https://www.ponylang.io/blog/2017/07/0.16.1-released/)
-- [0.16.0](https://www.ponylang.io/blog/2017/07/0.16.0-released/)
+- [0.16.1](https://github.com/ponylang/ponyc/releases/tag/0.16.1)
+- [0.16.0](https://github.com/ponylang/ponyc/releases/tag/0.16.0)
 
 Yesterday, we released Pony 0.17.0. It is highlighted by support for GCC 7 on Linux. Prior to this release, you weren't able to build Pony with GCC 7 due to a GCC bug. That isn't all you get with this release though. There's some nice additional features in there. Check it out!
 
-- [0.17.0](https://www.ponylang.io/blog/2017/08/0.17.0-released/)
+- [0.17.0](https://github.com/ponylang/ponyc/releases/tag/0.17.0)
 
 ## Items of note
 

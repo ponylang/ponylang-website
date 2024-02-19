@@ -17,19 +17,19 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 There have been so many releases this week, we got one for everybody!
 
-### 0.22.0 - [Release Notes](https://www.ponylang.io/blog/2018/05/0.22.0-released/)
+### 0.22.0 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.22.0)
 
-We do have a new Pony release with lots and lots of goodness added and badness fixed: [**0.22.0**](https://www.ponylang.io/blog/2018/05/0.22.0-released/). Upgrading is highly recommended, but you might need to adapt your codebase as it contains some breaking changes. For full details check out the [Release notes](https://www.ponylang.io/blog/2018/05/0.22.0-released/).
+We do have a new Pony release with lots and lots of goodness added and badness fixed: [**0.22.0**](https://github.com/ponylang/ponyc/releases/tag/0.22.0). Upgrading is highly recommended, but you might need to adapt your codebase as it contains some breaking changes. For full details check out the [Release notes](https://github.com/ponylang/ponyc/releases/tag/0.22.0).
 
 Get your `ponyc` package via docker, rpm, deb, homebrew, Gentoo ebuild or compile from source. Detailed installation instructions can be found in the [ponyc repo README](https://github.com/ponylang/ponyc/blob/main/README.md).
 
-### 0.22.1 - [Release Notes](https://www.ponylang.io/blog/2018/05/0.22.1-released/)
+### 0.22.1 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.22.1)
 
 We also had to release **0.22.1** only for getting a broken docker image build to work. Thus there is no `ponylang/ponyc:0.22.0` docker image, but one tagged as `ponylang/ponyc:0.22.1`.
 
 If you are using Pony **0.22.0**, there is no need to upgrade.
 
-### 0.22.2 - [Release Notes](https://www.ponylang.io/blog/2018/05/0.22.2-released/)
+### 0.22.2 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.22.2)
 
 And we had yet another release, this time with only one single bug fix. We used this one to validate our new release process. Upgrading is nonetheless recommended.
 

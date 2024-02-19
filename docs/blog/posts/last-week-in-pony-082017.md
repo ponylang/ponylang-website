@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## 0.18.0 Released!
 
-Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the compiler. Upgrading as soon as possible is recommended. Please note amongst the other changes is a small breaking standard library change, so we advise [reading the release notes](https://www.ponylang.io/blog/2017/08/0.18.0-released/) before you proceed.
+Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the compiler. Upgrading as soon as possible is recommended. Please note amongst the other changes is a small breaking standard library change, so we advise [reading the release notes](https://github.com/ponylang/ponyc/releases/tag/0.18.0) before you proceed.
 
 ## Items of note
 

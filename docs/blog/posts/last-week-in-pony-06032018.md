@@ -13,7 +13,7 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 <!-- more -->
 
-## Pony 0.22.3 - [Release Notes](https://www.ponylang.io/blog/2018/05/0.22.3-released/)
+## Pony 0.22.3 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.22.3)
 
 Once the release train is a-rollin', ain't nobody gonna stop it!
 

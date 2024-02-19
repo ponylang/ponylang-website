@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.27.0 has been [released](https://www.ponylang.io/blog/2019/03/0.27.0-released/).
+- Pony 0.27.0 has been [released](https://github.com/ponylang/ponyc/releases/tag/0.27.0).
 
 - Audio for the February 26, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_02_26.m4a).
 

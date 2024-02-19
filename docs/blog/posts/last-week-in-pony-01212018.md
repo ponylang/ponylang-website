@@ -16,9 +16,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.21.3 released
 
-A new wonderful version Ponyc has been released last week: [0.21.3](https://www.ponylang.io/blog/2018/01/0.21.3-released/).
+A new wonderful version Ponyc has been released last week: [0.21.3](https://github.com/ponylang/ponyc/releases/tag/0.21.3).
 
-Next to various bug fixes it brought us [Dynamic Scheduler Scaling](https://www.ponylang.io/blog/2018/01/0.21.3-released/#disable-dynamic-scheduler-scaling).
+Next to various bug fixes it brought us [Dynamic Scheduler Scaling](https://github.com/ponylang/ponyc/releases/tag/0.21.3#disable-dynamic-scheduler-scaling).
 
 Upgrading as soon as possible is recommended.
 

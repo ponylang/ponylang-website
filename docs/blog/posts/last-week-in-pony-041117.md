@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## Items of note
 
 Pony 0.13.0 released! It's a high priority release recommended for all Pony users. [PR #1868](https://github.com/ponylang/ponyc/pull/) fixed a type system problem identified by Paul Liétar. Paul is currently working on verifying the Pony type system as part of his final year project at Imperial College. Expect to see more high priority releases as we fix problems that Paul identifies.
-[Complete release notes](https://www.ponylang.io/blog/2017/04/0.13.0-released/) are available.
+[Complete release notes](https://github.com/ponylang/ponyc/releases/tag/0.13.0) are available.
 
 ## News and Blog Posts
 

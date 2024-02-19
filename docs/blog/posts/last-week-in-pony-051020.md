@@ -16,7 +16,7 @@ It's been a big week in Pony world for new ponylang projects and releases. ponyc
 
 ## Items of note
 
-- Pony 0.34.1 has been released. You only need to update if you are using 0.34.0 on a glibc based Linux. Full details are in the [release notes](https://www.ponylang.io/blog/2020/05/0.34.1-released/).
+- Pony 0.34.1 has been released. You only need to update if you are using 0.34.0 on a glibc based Linux. Full details are in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.34.1).
 
 - Audio from the May 5, 2020 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2020_05_05.m4a).
 

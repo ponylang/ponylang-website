@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.19.3 released
 
-Call this a bug fix release. Lots of bugs fixed. Runtime bugs, compiler bugs, bugs, bugs, bugs, bugs, bugs. Ok, maybe not quite that many but, if you [check out the release notes](https://www.ponylang.io/blog/2017/10/0.19.3-released/) you'll find eight. Given there are no breaking API changes in this release, we strongly advise everyone to update as soon as possible.
+Call this a bug fix release. Lots of bugs fixed. Runtime bugs, compiler bugs, bugs, bugs, bugs, bugs, bugs. Ok, maybe not quite that many but, if you [check out the release notes](https://github.com/ponylang/ponyc/releases/tag/0.19.3) you'll find eight. Given there are no breaking API changes in this release, we strongly advise everyone to update as soon as possible.
 
 ## Items of note
 

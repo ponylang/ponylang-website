@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.16.0 and 0.16.1
 
-On Friday we released version 0.16.0. There are no critical bug fixes so you can hold off upgrading if you want to. However, please be aware that there is a breaking change in 0.16.0 that will impact just about every Pony codebase there is. It has the potential to be a painful upgrade, so we put together some tools to help update your codebase. See the [release post](https://www.ponylang.io/blog/2017/07/0.16.0-released/) for more details.
+On Friday we released version 0.16.0. There are no critical bug fixes so you can hold off upgrading if you want to. However, please be aware that there is a breaking change in 0.16.0 that will impact just about every Pony codebase there is. It has the potential to be a painful upgrade, so we put together some tools to help update your codebase. See the [release post](https://github.com/ponylang/ponyc/releases/tag/0.16.0) for more details.
 
 At this time this "Last Week in Pony" was published, we were in [the process of releasing 0.16.1](https://github.com/ponylang/ponyc/issues/2101). It addresses a couple of high priority bugs. We suggest upgrading once it's released.
 

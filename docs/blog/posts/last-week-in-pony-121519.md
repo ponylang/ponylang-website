@@ -16,7 +16,7 @@ In the meantime, let's get to that news...
 
 ## Items of note
 
-- Pony 0.33.1 has been released. Get the full details from the [release notes](https://www.ponylang.io/blog/2019/12/0.33.1-released/).
+- Pony 0.33.1 has been released. Get the full details from the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.33.1).
 
 - 4 new Pony Patterns- all centered around code reuse and specialization have been added to the Pony Patterns book. [Check em out!](https://patterns.ponylang.io/code-sharing.html)
 

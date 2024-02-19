@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.19.2 Released
 
-On sunday Pony 0.19.2 has been released. It is a bug fix release which contains a fix for a high priority bug that leads to segfaults in serialization. Upgrading is highly recommended. Have a look at the [release blog post](https://www.ponylang.io/blog/2017/09/0.19.2-released/)
+On sunday Pony 0.19.2 has been released. It is a bug fix release which contains a fix for a high priority bug that leads to segfaults in serialization. Upgrading is highly recommended. Have a look at the [release blog post](https://github.com/ponylang/ponyc/releases/tag/0.19.2)
 
 ## Wallaroo
 

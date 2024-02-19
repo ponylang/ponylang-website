@@ -14,7 +14,7 @@ Pony 0.33.2 has been released! The core team is no longer maintaining the ponyc 
 
 ## Items of note
 
-- Pony 0.33.2 has been released. Learn more via the [release notes](https://www.ponylang.io/blog/2020/02/0.33.2-released/).
+- Pony 0.33.2 has been released. Learn more via the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.33.2).
 
 - Version 0.5.1 of ponyup has been released. See the [release notes](https://github.com/ponylang/ponyup/releases/tag/0.5.1) for more details.
 

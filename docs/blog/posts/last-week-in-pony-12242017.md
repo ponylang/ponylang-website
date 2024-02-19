@@ -21,7 +21,7 @@ We managed to slip the new Release [0.21.0](https://github.com/ponylang/ponyc/re
 
 This is one of the biggest releases so far, containing tons of bug fixes, some really sweet additions and even some breaking changes. So unwrapping ... errr ... updating is highly recommended. But the greatest feature of them all in this release is definitely the [Generalised Runtime Backpressure](https://stdlib.ponylang.io/backpressure--index).
 
-The [Release Blog Post](https://www.ponylang.io/blog/2017/12/0.21.0-released/) contains all the gory details.
+The [Release Blog Post](https://github.com/ponylang/ponyc/releases/tag/0.21.0) contains all the gory details.
 
 ## Items of note
 
