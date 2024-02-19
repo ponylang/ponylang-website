@@ -34,7 +34,7 @@ The only caveat for "My First Pony" is that we ask you keep things positive. No 
 
 ## News and Blog Posts
 
-- [My First Pony](https://www.ponylang.io/blog/2017/07/my-first-pony/) by Kevin Hoffman
+- [My First Pony](https://www.ponylang.io/blog/2017/07/my-first-pony-kevin-hoffman/) by Kevin Hoffman
 - [Composition over Inheritance in Pony](https://medium.com/@KevinHoffman/composition-over-inheritance-in-pony-33bbe107914) by Kevin Hoffman
 - [Rolling the Dice with Pony](https://medium.com/p/rolling-the-dice-with-pony-b7a32a69267b) by Kevin Hoffman
 

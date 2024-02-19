@@ -164,3 +164,7 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 
 # created a use/performance subsection
 /use/pony-performance-cheatsheet/ /use/performance/pony-performance-cheat-sheet/ 301!
+
+# blog posts that got new titles
+/blog/2017/07/my-first-pony/ /blog/2017/07/my-first-pony-kevin-hoffman/ 301!
+/blog/2017/10/my-first-pony/ /blog/2017/10/my-first-pony-codec-abc/ 301!

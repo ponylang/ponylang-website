@@ -78,6 +78,7 @@ CMake
 coc
 codebase
 CodeBeam
+codec
 codecabc
 CodeMesh
 colinobrien
