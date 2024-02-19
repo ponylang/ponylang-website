@@ -25,7 +25,7 @@ With this release we fixed some possible issues with OSX installs. If you have t
 
 ## News and Blog Posts
 
-- `codec-abc` kindly gave us a glimpse into what its like starting out with Pony. Check out his [My First Pony](https://www.ponylang.io/blog/2017/10/my-first-pony-codec-abc/) post! If you also want to let us know what your first experiences with Pony are, drop us a line.
+- `codec-abc` kindly gave us a glimpse into what its like starting out with Pony. Check out his [My First Pony](blog/posts/myfirstpony-co.md) post! If you also want to let us know what your first experiences with Pony are, drop us a line.
 
 ## Items of note
 
