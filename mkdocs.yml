@@ -160,11 +160,11 @@ nav:
         - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
   - Community:
       - Overview: "community/index.md"
-      - News: "community/news.md"
-      - Planet Pony: "community/planet-pony.md"
       - Zulip: "community/zulip.md"
       - Office Hours: "community/office-hours.md"
+      - News: "community/news.md"
       - Development Sync: "community/development-sync.md"
+      - Planet Pony: "community/planet-pony.md"
       - Users' Groups: "community/user-groups.md"
       - Norms: "community/norms.md"
   - Blog:
