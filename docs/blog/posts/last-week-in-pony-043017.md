@@ -18,7 +18,7 @@ It was a bit of a quiet week in terms of public activity but there's plenty brew
 
 ## Pony 0.13.2 released
 
-0.13.2 is an incremental bug fix release focused mostly on edges of the type system. As usual, [release notes](https://www.ponylang.io/blog/2017/04/0.13.2-released/) are available on the website for your perusal.
+0.13.2 is an incremental bug fix release focused mostly on edges of the type system. As usual, [release notes](https://github.com/ponylang/ponyc/releases/tag/0.13.2) are available on the website for your perusal.
 
 ## Items of note
 

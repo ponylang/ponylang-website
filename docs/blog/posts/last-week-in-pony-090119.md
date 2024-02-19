@@ -16,9 +16,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.31.0 was [released](https://www.ponylang.io/blog/2019/08/0.31.0-released/) on Saturday. There's one small breaking change. There aren't any major bug fixes or security patches so feel free to upgrade at your leisure.
+- Pony 0.31.0 was [released](https://github.com/ponylang/ponyc/releases/tag/0.31.0) on Saturday. There's one small breaking change. There aren't any major bug fixes or security patches so feel free to upgrade at your leisure.
 
-    [Release notes](https://www.ponylang.io/blog/2019/08/0.31.0-released/)
+    [Release notes](https://github.com/ponylang/ponyc/releases/tag/0.31.0)
 
 - Recording of the August 27, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_08_27.m4a).
 

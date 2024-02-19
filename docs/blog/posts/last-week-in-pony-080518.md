@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.24.4 has been released. Upgrading is recommended: [Pony 0.24.4 Released](https://www.ponylang.io/blog/2018/07/0.24.4-released/)
+- Pony 0.24.4 has been released. Upgrading is recommended: [Pony 0.24.4 Released](https://github.com/ponylang/ponyc/releases/tag/0.24.4)
 
 ## Last Week's Playground
 

@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## 0.15.0 has been released
 
-Tons of bug fixes, lots of new features, a couple breaking changes. It's advised you update as soon as possible. Check out the [release notes](https://www.ponylang.io/blog/2017/07/0.15.0-released/) for full details.
+Tons of bug fixes, lots of new features, a couple breaking changes. It's advised you update as soon as possible. Check out the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.15.0) for full details.
 
 ## Items of note
 

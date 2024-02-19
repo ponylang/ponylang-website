@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.28.0 has been released. It's considered a high-priority bug fix upgrade, so upgrading ASAP is recommended. More details are available in the [release notes](https://www.ponylang.io/blog/2019/03/0.28.0-released/).
+- Pony 0.28.0 has been released. It's considered a high-priority bug fix upgrade, so upgrading ASAP is recommended. More details are available in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.28.0).
 
 - Audio for the March 19, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_03_19.m4a).
 

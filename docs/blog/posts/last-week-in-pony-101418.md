@@ -31,7 +31,7 @@ We've been quite pleased with the response. Thank you everyone. @jemc and @SeanT
     2. you also get an error if your integer value overflow or underflow the max or min value for you datatype.
     3. because of these checks, they are slower than their corresponding total versions like `+`, `-`.
 
-You can learn more about the new arithmetic operators in [the tutorial](https://tutorial.ponylang.io/expressions/arithmetic.html). And in the meantime, learn about everything that is in this release by checking out [the release notes](https://www.ponylang.io/blog/2018/10/0.25.0-released/).
+You can learn more about the new arithmetic operators in [the tutorial](https://tutorial.ponylang.io/expressions/arithmetic.html). And in the meantime, learn about everything that is in this release by checking out [the release notes](https://github.com/ponylang/ponyc/releases/tag/0.25.0).
 
 - Are you interested in what is coming next with Pony? One of the big changes is how we work with LLVM. Since LLVM 3.9.1, there have been bugs in LLVM that make us continue to recommend 3.9.1 for use with Pony.  Let's hear more from core member Sean T. Allen about this exciting change!
 

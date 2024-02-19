@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.29.0 has been released! Check out the [release notes](https://www.ponylang.io/blog/2019/07/0.29.0-released/) to learn more.
+- Pony 0.29.0 has been released! Check out the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.29.0) to learn more.
 
 ## RFCs
 

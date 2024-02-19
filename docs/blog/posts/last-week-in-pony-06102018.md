@@ -19,19 +19,19 @@ Yes, indeed, we have a section for this now. And yes, it is plural. And yes, may
 
 So, as with every good story, lets start at the beginning:
 
-### Pony 0.22.4 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.4-released/)
+### Pony 0.22.4 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.22.4)
 
 Two small bug fixes around union types with the same elements and the `cli` package.
 
-### Pony 0.22.5 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.5-released/)
+### Pony 0.22.5 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.22.5)
 
 High-priority bug fix for systems with NUMA enabled. Upgrading is highly recommended.
 
-### Pony 0.22.6 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.22.6-released/)
+### Pony 0.22.6 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.22.6)
 
 This one fixes a performance regression introduced in the 0.22.X series and fixes a bug in tuple handling that could cause crashes during compilation. Here too, we recommend to upgrade.
 
-### Pony 0.23.0 - [Release Notes](https://www.ponylang.io/blog/2018/06/0.23.0-released/)
+### Pony 0.23.0 - [Release Notes](https://github.com/ponylang/ponyc/releases/tag/0.23.0)
 
 Whoa! Minor version increase. Why is that? Breaking change, that's why! Blame [RFC 56](https://github.com/ponylang/rfcs/blob/main/text/0056-buffered-reader-line-iso.md). But it is actually mainly a bug fix release for several bugs around tuple handling, `Promise.join(...)` and writing big io-vectors to `File`. Upgrading is recommended.
 

@@ -16,8 +16,8 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.24.1 released: [Pony 0.24.1](https://www.ponylang.io/blog/2018/07/0.24.1-released/)
+- Pony 0.24.1 released: [Pony 0.24.1](https://github.com/ponylang/ponyc/releases/tag/0.24.1)
 
-- Pony 0.24.2 released: [Pony 0.24.2](https://www.ponylang.io/blog/2018/07/0.24.2-released/)
+- Pony 0.24.2 released: [Pony 0.24.2](https://github.com/ponylang/ponyc/releases/tag/0.24.2)
 
 - Pony Stable 0.1.5 and 0.1.6 released: [Pony Stable Releases 0.1.5 and 0.1.6](https://www.ponylang.io/blog/2018/07/pony-stable-0.1.5-and-0.1.6-released/)

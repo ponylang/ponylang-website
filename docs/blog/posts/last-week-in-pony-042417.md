@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.13.1 released
 
-0.13.1 is a high priority release that everyone is encouraged to update as soon as possible. PR #1842 fixed a garbage collection bug that resulted in GC running too often and in turn could have a large impact on performance for some applications. Full details can be found in the [release notes](https://www.ponylang.io/blog/2017/04/0.13.1-released/).
+0.13.1 is a high priority release that everyone is encouraged to update as soon as possible. PR #1842 fixed a garbage collection bug that resulted in GC running too often and in turn could have a large impact on performance for some applications. Full details can be found in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.13.1).
 
 ## Items of note
 

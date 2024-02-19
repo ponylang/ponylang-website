@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.32.0 has been released. Full details are available in the [release notes](https://www.ponylang.io/blog/2019/09/0.32.0-released/).
+- Pony 0.32.0 has been released. Full details are available in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.32.0).
 
 - The [CudaText editor](http://uvviewsoft.com/cudatext/) now has a lexer for Pony.
 

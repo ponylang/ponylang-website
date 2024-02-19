@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.18.1 released
 
-Pony 0.18.1 is a high priority bug fix release that has no breaking changes. Upgrading as soon as possible is recommended. Full details are in the [release notes](https://www.ponylang.io/blog/2017/08/0.18.1-released/).
+Pony 0.18.1 is a high priority bug fix release that has no breaking changes. Upgrading as soon as possible is recommended. Full details are in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.18.1).
 
 ## Items of note
 

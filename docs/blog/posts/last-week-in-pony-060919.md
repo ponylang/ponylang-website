@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Pony 0.28.1 has been released! Check out the [release notes](https://www.ponylang.io/blog/2019/06/0.28.1-released/) to learn more.
+- Pony 0.28.1 has been released! Check out the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.28.1) to learn more.
 
 - Recording of the June 4, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_06_04.m4a). A lot of time was spent talking about various language design points. PLT geeks will enjoy this meeting more than our usual ones.
 

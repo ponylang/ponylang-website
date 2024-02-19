@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Pony grew up a bit and we are proud to tell you that release **0.20.0** is out!
 
-With this release we fixed some possible issues with OSX installs. If you have those issues we really recommend upgrading. Also the stdlib experienced a small breaking (but really helpful) change in the `buffered.Writer` class. Read up the details in the [release notes](https://www.ponylang.io/blog/2017/10/0.20.0-released/).
+With this release we fixed some possible issues with OSX installs. If you have those issues we really recommend upgrading. Also the stdlib experienced a small breaking (but really helpful) change in the `buffered.Writer` class. Read up the details in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.20.0).
 
 ## Pony Stable 0.1.1 released
 

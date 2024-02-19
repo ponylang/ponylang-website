@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.19.1 Released
 
-Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** includes a hot new feature so we think you should update soon. The highlight of 0.19.1 is definitely the implementation of [RFC #45: "Lambda and Array Inference"](https://github.com/ponylang/rfcs/blob/main/text/0045-lambda-and-array-inference.md). It's an incredibly useful feature that greatly improves Pony's programmer ergonomics. Check out the [blog post announcing the release](https://www.ponylang.io/blog/2017/09/0.19.1-released/) for full details.
+Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** includes a hot new feature so we think you should update soon. The highlight of 0.19.1 is definitely the implementation of [RFC #45: "Lambda and Array Inference"](https://github.com/ponylang/rfcs/blob/main/text/0045-lambda-and-array-inference.md). It's an incredibly useful feature that greatly improves Pony's programmer ergonomics. Check out the [blog post announcing the release](https://github.com/ponylang/ponyc/releases/tag/0.19.1) for full details.
 
 ## Items of note
 

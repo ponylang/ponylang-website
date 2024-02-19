@@ -15,11 +15,11 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony 0.19.0 Released
 
-Yesterday Pony 0.19.0 was released. The release contains breaking changes. If you don't use the `Itertools` package then upgrading should be painless. If you do use `Itertools`, the process should be relatively straightforward. MacOS, FreeBSD and Dragonfly BSD users are recommended to upgrade as soon as possible to fix a race condition on the kqueue event system. More details information is available in the [release notes](https://www.ponylang.io/blog/2017/09/0.19.0-released/).
+Yesterday Pony 0.19.0 was released. The release contains breaking changes. If you don't use the `Itertools` package then upgrading should be painless. If you do use `Itertools`, the process should be relatively straightforward. MacOS, FreeBSD and Dragonfly BSD users are recommended to upgrade as soon as possible to fix a race condition on the kqueue event system. More details information is available in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.19.0).
 
 ## Items of note
 
-- The ["Improve `Iterools` API" RFC](https://github.com/ponylang/rfcs/blob/main/text/0049-improved-itertools-api.md) has been implemented and released. See the [Pony 0.19.0 release notes](https://www.ponylang.io/blog/2017/09/0.19.0-released/) for how to update for the breaking API change.
+- The ["Improve `Iterools` API" RFC](https://github.com/ponylang/rfcs/blob/main/text/0049-improved-itertools-api.md) has been implemented and released. See the [Pony 0.19.0 release notes](https://github.com/ponylang/ponyc/releases/tag/0.19.0) for how to update for the breaking API change.
 - Audio from the [August 30, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_08_30.m4a) is available for your listening pleasure.
 - Andrew Turley has started a [project](https://github.com/aturley/pony-lldb) that collects together helpful commands for usage with Pony and LLDB. Check it out and contribute today!
 

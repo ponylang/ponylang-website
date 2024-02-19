@@ -30,7 +30,7 @@ Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager
 
 ## Releases
 
-- Pony 0.35.0 has been released. Full details are in the [release notes](https://www.ponylang.io/blog/2020/05/0.35.0-released/). It was followed by 0.35.1. 0.35.1 fixes a bug introduced by 0.35.0 that only impacts Windows users. Windows users using 0.35.0 should update to 0.35.1. See the [release notes](https://www.ponylang.io/blog/2020/05/0.35.1-released/) for more details.
+- Pony 0.35.0 has been released. Full details are in the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.35.0). It was followed by 0.35.1. 0.35.1 fixes a bug introduced by 0.35.0 that only impacts Windows users. Windows users using 0.35.0 should update to 0.35.1. See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.35.1) for more details.
 
 - Version 0.2.0 of semver has been released. See the [release notes](https://github.com/ponylang/semver/releases/tag/0.2.0) for more details.
 
