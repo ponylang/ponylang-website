@@ -255,6 +255,7 @@ langage
 Lasauskas
 LDAP
 LDN
+leasable
 lexing
 libatomic
 libponyc

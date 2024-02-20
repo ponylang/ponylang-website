@@ -31,7 +31,7 @@ Adrian's primary goal was to massively curtail the number of allocations done by
 
 The final goal would be to get an RFC together for eventual inclusion in the Pony standard library. The classes in question would have to be part of the `builtin` package of the Pony standard library as they need to do "pointer magic".
 
-For those who are unfamiliar, Pony does "unsafe pointer magic" but it's all encapsulated in clases in the standard library's `builtin` package. There's a number of unsafe pointer operations that are available only to classes in `builtin`. Code outside of `builtin` can then leverage that unsafe code in a safe fashion. This limits the amount of unsafe code in the system and makes it easier to reason about the safety of the system. So far, no one has come forward with a detailed explanation for a data structure they need to do that can't be built on top of the existing `builtin` classes (primarily `Array`).Adrian's use case requires a new addition to `builtin` and some additional unsafe pointer operation code.
+For those who are unfamiliar, Pony does "unsafe pointer magic" but it's all encapsulated in classes in the standard library's `builtin` package. There's a number of unsafe pointer operations that are available only to classes in `builtin`. Code outside of `builtin` can then leverage that unsafe code in a safe fashion. This limits the amount of unsafe code in the system and makes it easier to reason about the safety of the system. So far, no one has come forward with a detailed explanation for a data structure they need to do that can't be built on top of the existing `builtin` classes (primarily `Array`).Adrian's use case requires a new addition to `builtin` and some additional unsafe pointer operation code.
 
 ## Releases
 
