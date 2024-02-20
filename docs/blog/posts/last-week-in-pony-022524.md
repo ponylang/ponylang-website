@@ -22,7 +22,7 @@ The [recording](https://vimeo.com/914931742) of the February 20th, 2024 sync is 
 We had a short, two issue agenda:
 
 - We triaged an issue that had a new case added to it.
-- We discussed an addition to the [ponylang/http_server]() repository.
+- We discussed an addition to the [ponylang/http_server](https://github.com/ponylang/http_server/pull/75) repository.
 
 From there we discussed the fact that we now pay more for hosting our Development Sync recordings on NearlyFreeSpeech than we would if we hosted on Vimeo. We agreed to move our recordings from NearlyFreeSpeech to Vimeo. This week's meeting is the first one to be hosted on Vimeo. We will work on moving our several years of recordings over to Vimeo in the coming weeks.
 
