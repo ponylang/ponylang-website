@@ -15,6 +15,16 @@ date: 2024-02-25T07:00:06-04:00
 
 ## Items of Note
 
+### Pony Virtual Users' Group Recordings
+
+We've organized the Pony Virtual Users' Group recordings into a channel on Vimeo. You can locate the channel at [vimeo.com/channels/ponyvug](https://vimeo.com/channels/ponyvug).
+
+### Development Sync Recordings are on the move
+
+We're moving our Development Sync recordings from NearlyFreeSpeech to Vimeo. This week's meeting is the first one to be hosted on Vimeo. We will work on moving our several years of recordings over to Vimeo in the coming weeks.
+
+We've created a [channel on Vimeo](https://vimeo.com/channels/ponydevelopmentsync) where all future Development Sync recordings will be posted.
+
 ### Pony Development Sync
 
 The [recording](https://vimeo.com/914931742) of the February 20th, 2024 sync is available.
