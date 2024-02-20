@@ -17,9 +17,14 @@ date: 2024-02-25T07:00:06-04:00
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2024_02_20.m4a) from the February 20th, 2024 sync is available.
+The [recording](https://vimeo.com/914931742) of the February 20th, 2024 sync is available.
 
-<< content >>
+We had a short, two issue agenda:
+
+- We triaged an issue that had a new case added to it.
+- We discussed an addition to the [ponylang/http_server]() repository.
+
+From there we discussed the fact that we now pay more for hosting our Development Sync recordings on NearlyFreeSpeech than we would if we hosted on Vimdeo. We agreed to move our recordings from NearlyFreeSpeech to Vimeo. This week's meeting is the first one to be hosted on Vimeo. We will work on moving our several years of recordings over to Vimeo in the coming weeks.
 
 ### Office Hours
 
