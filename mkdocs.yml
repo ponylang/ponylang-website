@@ -43,8 +43,7 @@ plugins:
       validate_external_urls: !ENV [VALIDATE_EXTERNAL_URLS, True]
       raise_error_after_finish: True
       raise_error_excludes:
-        429: ["https://github.com/"]
-        429: ["https://medium.com"]
+        429: ["https://github.com/", "https://medium.com"]
         # only available to users that are logged in to GitHub and have
         # ponylang org access
         404: ["https://github.com/organizations/ponylang/settings/repository-defaults"]
