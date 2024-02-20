@@ -534,6 +534,7 @@ Vassilvk
 VCPUs
 Ventura
 Vey
+Vimeo
 vroom
 VSCode
 VTune
