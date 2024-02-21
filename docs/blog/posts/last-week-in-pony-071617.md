@@ -30,7 +30,7 @@ The only caveat for "My First Pony" is that we ask you keep things positive. No 
 ## Items of note
 
 - The [pull request](https://github.com/ponylang/ponyc/pull/2039) that will break every Pony codebase is here. ["Explicit Partial Calls"](https://github.com/ponylang/ponyc/issues/1771) is landing soon.
-- Audio from the [July 12, 2017 Pony development sync](https://sync-recordings.ponylang.io/r/2017_07_12.m4a) is available for your listening pleasure. I was on vacation so I can't tell you what they discussed, but I'm sure it was good.
+- Audio from the [July 12, 2017 Pony development sync](https://vimeo.com/videos/915144533) is available for your listening pleasure. I was on vacation so I can't tell you what they discussed, but I'm sure it was good.
 
 ## News and Blog Posts
 

@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Wouldn't it be horribly interesting if you could get to know what is currently cooking in and around Pony? Indeed it would! Don't worry! There is the weekly Pony Developer Sync Call every Wednesday at 03:30 PM (GMT-05:00) America/New York via zoom. Here is the [Recorded Audio for last weeks Call](https://sync-recordings.ponylang.io/r/2017_12_13.m4a).
+- Wouldn't it be horribly interesting if you could get to know what is currently cooking in and around Pony? Indeed it would! Don't worry! There is the weekly Pony Developer Sync Call every Wednesday at 03:30 PM (GMT-05:00) America/New York via zoom. Here is the [Recorded Audio for last weeks Call](https://vimeo.com/videos/915355843).
 - We are all very excited about the upcoming Pony release [0.21.0](https://github.com/ponylang/ponyc/issues/2379#issuecomment-352192398) that is scheduled for next week!
 
 ## News and Blog Posts

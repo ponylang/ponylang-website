@@ -35,7 +35,7 @@ And the GitHub repo is here: [https://github.com/wallaroolabs/wallaroo](https://
 
 - The Pony Kafka client [pony-kafka](https://github.com/wallaroolabs/pony-kafka) from WallarooLabs has been updated to be compatible with the latest ponyc.
 
-- Another week, another pony development sync call. The call from *September 27th 2017* has been recorded for your listening pleasure. Get the audio [here](https://sync-recordings.ponylang.io/r/2017_09_27.m4a). It features a Sean being Sean again and a light-headed promise to start a *Guided Tour of the Standard Library* in the tutorial.
+- Another week, another pony development sync call. The call from *September 27th 2017* has been recorded for your listening pleasure. Get the audio [here](https://vimeo.com/videos/915152014). It features a Sean being Sean again and a light-headed promise to start a *Guided Tour of the Standard Library* in the tutorial.
 
 ## RFCs
 

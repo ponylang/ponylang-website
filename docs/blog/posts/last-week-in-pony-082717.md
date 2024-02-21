@@ -20,7 +20,7 @@ Pony 0.18.1 is a high priority bug fix release that has no breaking changes. Upg
 ## Items of note
 
 - Pony now supports DragonFly BSD 4.8.
-- Audio from the [August 23, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_08_23.m4a) is available.
+- Audio from the [August 23, 2017, Pony development sync](https://vimeo.com/videos/915150178) is available.
 
 ## News and Blog Posts
 
