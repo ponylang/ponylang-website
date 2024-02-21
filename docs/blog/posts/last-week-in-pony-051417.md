@@ -24,7 +24,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Carl Quinn opened a [PR](https://github.com/ponylang/ponyc/pull/1897) for initial feedback on [RFC #38](https://github.com/ponylang/rfcs/blob/main/text/0038-cli-format.md). It aims to replace the existing `Options` package and provide a standard command line argument syntax for Pony tools and other programs, and a corresponding package named `cli` to be provided in the standard library.
 
-- [Audio from the May 10, 2017 Pony Development Sync](https://sync-recordings.ponylang.io/r/2017_05_10.m4a) is available for your listening pleasure. We had a light attendance and as such, the meeting only ran about 30 minutes instead of the usual 60.
+- [Audio from the May 10, 2017 Pony Development Sync](https://vimeo.com/manage/videos/915141234) is available for your listening pleasure. We had a light attendance and as such, the meeting only ran about 30 minutes instead of the usual 60.
 
 ## News and Blog Posts
 

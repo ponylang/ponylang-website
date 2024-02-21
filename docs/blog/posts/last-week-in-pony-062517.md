@@ -20,4 +20,4 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - A first version of [RFC #38: "CLI Syntax"](https://github.com/ponylang/rfcs/blob/main/text/0038-cli-format.md) has been [merged to main](https://github.com/ponylang/ponyc/pull/1897). This is the first step towards deprecating the `Options` package for command line argument parsing.
 
-- Audio from the [June 21, 2017 Pony Development Sync](https://sync-recordings.ponylang.io/r/2017_06_21.m4a) is now available. I particularly enjoyed this meeting as it features a conversation with a new member of the community. If you are interested in Pony and are looking for ways to contribute, stop by the sync. We love to help new folks get going with contributing.
+- Audio from the [June 21, 2017 Pony Development Sync](https://vimeo.com/manage/videos/915143722) is now available. I particularly enjoyed this meeting as it features a conversation with a new member of the community. If you are interested in Pony and are looking for ways to contribute, stop by the sync. We love to help new folks get going with contributing.
