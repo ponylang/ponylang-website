@@ -27,7 +27,7 @@ The [Release Blog Post](https://github.com/ponylang/ponyc/releases/tag/0.21.0) c
 
 - [Ponycheck](https://github.com/mfelsche/ponycheck) [0.2.0](https://github.com/mfelsche/ponycheck/releases/tag/0.2.0) has been released. Ponycheck is a library for property based testing for Pony. With this release Ponycheck supports compositional shrinking. If you ask yourself what the heck that means (like me), check out the [Release Notes](https://github.com/mfelsche/ponycheck/releases/tag/0.2.0)
 
-- Another Week, another Pony Development Sync Call. Those calls are public and if you'd like to join and bring up a burning topic, just We'd love to have you on board to discuss your issues and/or ideas. Here is the [Recorded Audio for last weeks Call](https://sync-recordings.ponylang.io/r/2017_12_20.m4a).
+- Another Week, another Pony Development Sync Call. Those calls are public and if you'd like to join and bring up a burning topic, just We'd love to have you on board to discuss your issues and/or ideas. Here is the [Recorded Audio for last weeks Call](https://vimeo.com/videos/915356196).
 
 ## RFCs
 

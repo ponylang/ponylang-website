@@ -23,7 +23,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Pony now has an [RFC](https://tools.ietf.org/html/rfc6455)-compliant WebSocket server: [https://github.com/oraoto/pony-websocket](https://github.com/oraoto/pony-websocket) !
 
-- The Pony development sync audio from last week is available right [here](https://sync-recordings.ponylang.io/r/2017_10_25.m4a), right now! Amongst other stuff it features Sylvan sharing pretty exciting ideas about the future of the Pony GC and thus the type system itself.
+- The Pony development sync audio from last week is available right [here](https://vimeo.com/videos/915352960), right now! Amongst other stuff it features Sylvan sharing pretty exciting ideas about the future of the Pony GC and thus the type system itself.
 
 - George Steed's Thesis "A Principled Design of Capabilities in Pony" is now available in the Papers section of the Pony website as well: [https://www.ponylang.io/community/#papers](https://www.ponylang.io/community/#papers). Last year George did a Virtual Users' Group presentation on his thesis as well: [https://vimeo.com/178522513](https://vimeo.com/178522513)
 

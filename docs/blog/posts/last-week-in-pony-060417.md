@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio from the [May 31st Pony Development Sync](https://vimeo.com/manage/videos/915142584) is available for your listening pleasure. Unlike the previous week where we mostly stuck to one subject, we were back to our more usual freewheeling style. If variety is your bag, you'll enjoy this sync call.
+- Audio from the [May 31st Pony Development Sync](https://vimeo.com/videos/915142584) is available for your listening pleasure. Unlike the previous week where we mostly stuck to one subject, we were back to our more usual freewheeling style. If variety is your bag, you'll enjoy this sync call.
 
 ## News and Blog Posts
 

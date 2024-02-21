@@ -21,7 +21,7 @@ GitHub user [EpicEric](https://github.com/EpicEric) completely refurbished the t
 
 ## Pony Development Sync
 
-The Pony developers met on their weekly sync call on Wednesday April 11, 2018. Check out the [recorded audio](https://sync-recordings.ponylang.io/r/2018_04_11.m4a).
+The Pony developers met on their weekly sync call on Wednesday April 11, 2018. Check out the [recorded audio](https://vimeo.com/videos/915360771).
 
 The next one is scheduled for Wednesday, April 18, 2018 at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
 

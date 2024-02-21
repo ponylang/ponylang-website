@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-* Audio from the [March 7 Pony Development Sync](https://sync-recordings.ponylang.io/r/2018_03_07.m4a).
+* Audio from the [March 7 Pony Development Sync](https://vimeo.com/videos/915359632).
 * I've been doing some testing on how to improve read performance for `TCPConnection`. In particular, related to how `expect` is implemented. If you are interested, there's a repository available with some basic test code: [https://github.com/wallaroolabs/pony-network-tests](https://github.com/wallaroolabs/pony-network-tests).
 
 ## Last Week's Playground

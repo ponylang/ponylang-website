@@ -19,7 +19,7 @@ Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the co
 
 ## Items of note
 
-- Audio from the [August 16, 2017, Pony development sync](https://sync-recordings.ponylang.io/r/2017_08_16.m4a) is available. Includes some interesting conversations including a live "wtf is up with [issue #1513](https://github.com/ponylang/ponyc/issues/1513)"; the result of which was our 0.18.0 release.
+- Audio from the [August 16, 2017, Pony development sync](https://vimeo.com/videos/915149880) is available. Includes some interesting conversations including a live "wtf is up with [issue #1513](https://github.com/ponylang/ponyc/issues/1513)"; the result of which was our 0.18.0 release.
 
 ## News and Blog Posts
 
