@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 - Alpine Linux support [has landed on main](https://github.com/ponylang/ponyc/pull/1844) and will be released in Pony 0.16.0. Thanks to Dipin Hora for doing the initial work.
 - LLVM 4.0 support is [on the way](https://github.com/ponylang/ponyc/pull/2061). Gordon Tisher picked this up and ran with it when no one else had time. When this gets merged, everyone should drop Gordon a note of thanks. I'll do mine now: Thanks Gordon! You rock!
 - Supporting a ton of different LLVM versions is difficult for a small team. There's a proposition to remove LLVM 3.7 support once 4.0 support lands. If this would ruin your day, [please let us know](https://github.com/ponylang/ponyc/issues/2063).
-- Audio from the [July 19, 2017 Pony development sync](https://sync-recordings.ponylang.io/r/2017_07_19.m4a) is available for your listening pleasure.
+- Audio from the [July 19, 2017 Pony development sync](https://vimeo.com/manage/videos/915145456) is available for your listening pleasure.
 
 ## News and Blog Posts
 

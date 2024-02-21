@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - The final portion of [RFC #42](https://github.com/ponylang/rfcs/blob/main/text/0042-more-persistent-collections.md) [was merged to main](https://github.com/ponylang/ponyc/pull/1949). The PR adds a persistent vector type to the standard library. Thank you, Theo Butler, for proposing and implementing this latest addition to our persistent data types.
 
-- Audio from the Pony development sync from June 7, 2017, is [now available for your listening pleasure](https://sync-recordings.ponylang.io/r/2017_06_07.m4a). I'd love to tell you what topics we discussed, but I forgot to write it down. I had a long week, and chances of my remembering without listening are slim. O, and listening, not happening. Whatever we discussed, I'm sure its enthralling (as per usual). Enjoy!
+- Audio from the Pony development sync from June 7, 2017, is [now available for your listening pleasure](https://vimeo.com/manage/videos/915143239). I'd love to tell you what topics we discussed, but I forgot to write it down. I had a long week, and chances of my remembering without listening are slim. O, and listening, not happening. Whatever we discussed, I'm sure its enthralling (as per usual). Enjoy!
 
 ## RFCs
 
