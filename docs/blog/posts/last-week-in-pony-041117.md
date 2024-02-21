@@ -39,7 +39,7 @@ Was recently added to the Ponylang website to help folks with learning reference
 
 ponylang.io was moved from being hosted on GitHub pages to being on Netlify: HTTPS access is now available. Unfortunately, as part of the move, we broke hosting of the standard library documentation. Once we sort out the DNS, it will be at [http://stdlib.ponylang.io](http://stdlib.ponylang.io) but until the DNS is sorted, `stdlib.netlify.com` will work.
 
-- [Audio from the April 5th Pony Developer Sync](https://sync-recordings.ponylang.io/r/2017_04_05.m4a) is available
+- [Audio from the April 5th Pony Developer Sync](https://vimeo.com/manage/videos/915002156) is available
 
 Interested in how Pony gets developed? What's going on? What the developers are up to? Check out audio from our weekly meeting. Btw, it open to the public!
 

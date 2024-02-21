@@ -30,7 +30,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- Audio from the April 12th Pony developer's sync is available at [https://sync-recordings.ponylang.io/r/2017_04_12.m4a](https://sync-recordings.ponylang.io/r/2017_04_12.m4a). The call was devoted mostly to addressing older issues that had started to back up. If you'd like to get involved with Pony development, feel free to stop by. We meet [weekly](https://calendar.google.com/calendar?cid=NTlqY3J1NmY1MG1ycHFibTdlbTRpY2xua2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
+- Audio from the April 12th Pony developer's sync is available at [https://vimeo.com/manage/videos/915002467](https://vimeo.com/manage/videos/915002467). The call was devoted mostly to addressing older issues that had started to back up. If you'd like to get involved with Pony development, feel free to stop by. We meet [weekly](https://calendar.google.com/calendar?cid=NTlqY3J1NmY1MG1ycHFibTdlbTRpY2xua2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
 
 - Core team member [Sean T. Allen](https://twitter.com/seantallen) announced that he'll be giving two different Pony talks in the coming months. One at [PolyConf](https://polyconf.com) in July, the other at QCon New York in June.
 

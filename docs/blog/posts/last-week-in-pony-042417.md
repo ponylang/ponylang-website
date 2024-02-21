@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - [Pony-stable](https://github.com/ponylang/pony-stable), the little dependency manager that could, is now an official Ponylang project. There's been a lot of noise about creating a [Pony package manager](https://github.com/ponylang/ponyc/issues/247) but so far, nothing has popped up. One reason is that for folks working every day in Pony, stable has been sufficient. We're sure that might change but in the meantime, [stable is the choice we are moving forward with](https://pony.groups.io/g/dev/topic/package_manager/4654150?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,4654150).
 - Dipin Hora opened a [PR](https://github.com/ponylang/ponyc/pull/1844) that starts us down the path towards supporting musl based operating systems. Once the change is merged, you should be able to compile and run Pony on Alpine Linux.
-- Audio from the April 19th Pony Development Sync meeting is available for [your listening pleasure](https://sync-recordings.ponylang.io/r/2017_04_19.m4a). Includes a discussion of the heavy burden of trying to maintain install packages for various operating systems and possible things we can do to ease the load.
+- Audio from the April 19th Pony Development Sync meeting is available for [your listening pleasure](https://vimeo.com/manage/videos/915002757). Includes a discussion of the heavy burden of trying to maintain install packages for various operating systems and possible things we can do to ease the load.
 
 ## RFCs
 
