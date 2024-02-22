@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the July 30, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_07_30.m4a).
+- Recording of the July 30, 2019 Pony developer sync is available [here](https://vimeo.com/915529270).
 
 - [Version 0.3.0](https://github.com/ponylang/changelog-tool/releases/tag/0.3.0) of the Pony [changelog-tool](https://github.com/ponylang/changelog-tool) has been released.
 

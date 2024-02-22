@@ -20,7 +20,7 @@ In the meantime, let's get to that news...
 
 - 4 new Pony Patterns- all centered around code reuse and specialization have been added to the Pony Patterns book. [Check em out!](https://patterns.ponylang.io/code-sharing.html)
 
-- Audio from the [December 10, 2019](https://sync-recordings.ponylang.io/r/2019_12_10.m4a) Pony development sync call is available.
+- Audio from the [December 10, 2019](https://vimeo.com/915534004) Pony development sync call is available.
 
 - Version 0.1.0 of appdirs has been released. See the [release notes](https://github.com/ponylang/appdirs/releases/tag/0.1.0) for more details.
 

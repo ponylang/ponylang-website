@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Pony 0.30.0 has been released! It contains a high-priority bug fix. Upgrading ASAP is recommended. Check out the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.30.0) to learn more.
 
-- Recording of the July 23, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_07_23.m4a).
+- Recording of the July 23, 2019 Pony developer sync is available [here](https://vimeo.com/915528638).
 
 - [Stable](https://github.com/ponylang/pony-stable), our little dependency manager that could, has a new release out. See the [0.2.1 release notes](https://www.ponylang.io/blog/2019/07/pony-stable-0.2.1-released/) for full details.
 

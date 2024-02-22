@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the May 28, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_05_28.m4a)
+- Recording of the May 28, 2019 Pony developer sync is available [here](https://vimeo.com/915526872)
 
 ## RFCs
 

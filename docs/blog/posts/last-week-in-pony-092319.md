@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the September 17, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_09_17.m4a).
+- Recording of the September 17, 2019 Pony developer sync is available [here](https://vimeo.com/915531372).
 
 - Pony training with Sylvan Clebsch and Sean T. Allen at Code Mesh LDN (06 Nov 2019)!
 

@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
     [Release notes](https://github.com/ponylang/ponyc/releases/tag/0.31.0)
 
-- Recording of the August 27, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_08_27.m4a).
+- Recording of the August 27, 2019 Pony developer sync is available [here](https://vimeo.com/915530831).
 
 - Sylvan Clebsch, originator of Pony, will be joining Sean T. Allen to give an all-day Pony tutorial at CodeMesh in London this November. Tickets are still available.
 

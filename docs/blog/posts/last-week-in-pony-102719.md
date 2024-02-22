@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio from the October 22, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_10_22.m4a).
+- Audio from the October 22, 2019 Pony sync is available [here](https://vimeo.com/915532592).
 
 - On November 7, 2019, Andrew Turley will be giving a presentation about Pony to the Kansas City Elixir Users Group. Details are at [https://www.meetup.com/KC-Elixir-Users-Group/events/263141948/](https://www.meetup.com/KC-Elixir-Users-Group/events/263141948/)
 

@@ -13,7 +13,7 @@ After some scheduling conflicts with the weekly Sync meeting, we decided to resc
 
 ## Items of note
 
-- Audio from the December 3, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_12_03.m4a).
+- Audio from the December 3, 2019 Pony sync is available [here](https://vimeo.com/915533681).
 
 - The weekly sync meeting has been rescheduled to Tuesdays at 11am PST (2pm EST).
 

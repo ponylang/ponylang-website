@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the April 16, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_04_16.m4a).
+- Audio for the April 16, 2019 Pony sync is [here](https://vimeo.com/915524890).
 
 ## RFCs
 

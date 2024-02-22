@@ -29,7 +29,7 @@ See the [release notes](https://github.com/ponylang/corral/releases/tag/0.3.1) f
 
 Requirements for building from source have changed; please see [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md) for updated details.
 
-- The [Pony development sync recording for April 14, 2020 is now available](https://sync-recordings.ponylang.io/r/2020_04_14.m4a).
+- The [Pony development sync recording for April 14, 2020 is now available](https://vimeo.com/915536613).
 
 We deviated from our normal format and spent 75 minutes discussing object capabilities in Pony and what we are hoping to get from them. The conversation also touched heavily on C-FFI integration.  Listeners should expect to hear more on the topic in the future. The core team is going to think for a bit on the conversation we had and then get together to draft a document for our goals with object capabilities. We can then use that document as a basis for examining how Pony's current implementation falls short of providing those goals and work on drafting RFCs to improve the situation.
 

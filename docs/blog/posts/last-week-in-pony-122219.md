@@ -18,7 +18,7 @@ We have quite a lot of exciting announcements this week. Releases for Ponyup and
 
 - We are happy to announce that the Pony organization has a new member with commit privileges. Ryan A. Hagenson has repeatedly impressed the core team with his thoughtfulness as he has worked to improve documentation. Welcome, @rhagenson!
 
-- Audio from the December 17, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_12_17.m4a).
+- Audio from the December 17, 2019 Pony sync is available [here](https://vimeo.com/915534240).
 
 - Version 0.3.1 of ponyup has been released. See the [release notes](https://github.com/ponylang/ponyup/releases/tag/0.3.1) for more details.
 

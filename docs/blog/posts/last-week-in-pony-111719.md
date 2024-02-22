@@ -13,7 +13,7 @@ The Pony Playground is back (mostly) after being down for a few weeks. Groxio ha
 
 ## Items of note
 
-- Audio from the November 12, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_11_12.m4a).
+- Audio from the November 12, 2019 Pony sync is available [here](https://vimeo.com/915533354).
 
 - Version 0.1.0 of corral has been released. See the [release notes](https://github.com/ponylang/corral/releases/tag/0.1.0) for more details.
 

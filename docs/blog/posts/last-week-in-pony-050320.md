@@ -16,7 +16,7 @@ Ponyc 0.34.0 has been released!
 
 - Pony 0.34.0 has been released! There are a couple of breaking changes, but no high-priority bug fixes. Upgrade at your leisure. Full details are in [the release notes](https://github.com/ponylang/ponyc/releases/tag/0.34.0).
 
-- Audio from the April 28, 2020 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2020_04_28.m4a).
+- Audio from the April 28, 2020 Pony sync is available [here](https://vimeo.com/915537321).
 
 ## RFCs
 

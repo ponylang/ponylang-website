@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio from the October 1st, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_10_01.m4a). This call is a little different than our usual sync calls. We didn't discuss any open issues, PRs, and whatnot. Instead, we discussed some issues around how we are going to handle LLVM going forward.
+- Audio from the October 1st, 2019 Pony sync is available [here](https://vimeo.com/915531716). This call is a little different than our usual sync calls. We didn't discuss any open issues, PRs, and whatnot. Instead, we discussed some issues around how we are going to handle LLVM going forward.
 
 - [Version 0.1.1 of the library-scaffolding-generator](https://github.com/ponylang/library-scaffolding-generator/releases/tag/0.1.1) has been released. It contains a fix for a syntax error in the generated Makefile. Thanks to Ryan H for the fix!
 

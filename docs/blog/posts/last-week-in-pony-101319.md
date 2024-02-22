@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio from the October 8, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_10_08.m4a).
+- Audio from the October 8, 2019 Pony sync is available [here](https://vimeo.com/915532004).
 
 - Did you know that nightly builds of Pony for glibc and musl are available for Linux? Check out our "nightlies" repo hosted by Cloudsmith: [https://cloudsmith.io/~ponylang/repos/nightlies/packages/](https://cloudsmith.io/~ponylang/repos/nightlies/packages). If you are using a musl based Linux distro, please give them a try and report any issues you might encounter.
 
