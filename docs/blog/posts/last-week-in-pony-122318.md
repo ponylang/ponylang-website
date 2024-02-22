@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the December 18, 2018 Pony sync is [here](https://sync-recordings.ponylang.io/r/2018_12_18.m4a).
+- Audio for the December 18, 2018 Pony sync is [here](https://vimeo.com/videos/915401017).
 
 ## News and Blog Posts
 

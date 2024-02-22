@@ -18,8 +18,8 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## Items of note
 
 - Pony sync recordings are available for the following dates:
-  - [November 20](https://sync-recordings.ponylang.io/r/2018_11_20.m4a)
-  - [November 27](https://sync-recordings.ponylang.io/r/2018_11_27.m4a)
+  - [November 20](https://vimeo.com/videos/915400160)
+  - [November 27](https://vimeo.com/videos/915400347)
 
 ## News and Blog Posts
 

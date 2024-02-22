@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the February 12, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_02_12.m4a).
+- Audio for the February 12, 2019 Pony sync is [here](https://vimeo.com/videos/915402210).
 
 - Interested in helping improve the Pony Emacs mode? There's a few ["help wanted" issues open](https://github.com/SeanTAllen/ponylang-mode/issues?q=is%3Aissue+is%3Aopen+label%3A%22help+wanted%22) if you want to dive in.
 
