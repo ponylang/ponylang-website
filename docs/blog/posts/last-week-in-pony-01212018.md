@@ -30,7 +30,7 @@ Upgrading as soon as possible is recommended.
 
 ## Pony Development Sync
 
-Another Sync call took place on Wednesday January 17, 2018. Check out the [recorded audio](https://vimeo.com/videos/915357609).
+Another Sync call took place on Wednesday January 17, 2018. Check out the [recorded audio](https://vimeo.com/915357609).
 
 The next one is scheduled for Wednesday, January 24, 2018 at 03:30 PM (GMT-05:00) America/New York via zoom. We'd love to have you there.
 

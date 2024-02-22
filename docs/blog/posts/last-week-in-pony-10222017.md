@@ -29,7 +29,7 @@ With this release we fixed some possible issues with OSX installs. If you have t
 
 ## Items of note
 
-- The Pony development sync took place last week on Wednesday 3:30 PM (GMT-04:00) America/New York. Did you miss out? Don't worry! We recorded the whole thing. Get the [Audio](https://vimeo.com/videos/915352563) right now! It features Sean (as himself) talking about his thrilling work on runtime backpressure.
+- The Pony development sync took place last week on Wednesday 3:30 PM (GMT-04:00) America/New York. Did you miss out? Don't worry! We recorded the whole thing. Get the [Audio](https://vimeo.com/915352563) right now! It features Sean (as himself) talking about his thrilling work on runtime backpressure.
 
 ## RFCs
 

@@ -24,7 +24,7 @@ Over the last year or two, many folks have asked some variation on "how did Pony
 
 ## Items of Note
 
-Audio from the [May 3rd Pony development sync meeting](https://vimeo.com/videos/915140870) is available for your listening pleasure.
+Audio from the [May 3rd Pony development sync meeting](https://vimeo.com/915140870) is available for your listening pleasure.
 
 ## RFCs
 

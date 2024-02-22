@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the January 8, 2019 Pony sync is [here](https://vimeo.com/videos/915401507)
+- Audio for the January 8, 2019 Pony sync is [here](https://vimeo.com/915401507)
 
 ## News and Blog Posts
 

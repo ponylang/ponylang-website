@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 "Slow week" in terms of items of note. Plenty happening behind the scenes but not a whole lot to point you at this week.
 
-- Audio from the [June 28th Pony development sync](https://vimeo.com/videos/915144157) is available for your listening pleasure. I'd love to summarize the meeting for you but I wasn't able to attend and haven't had a chance to listen yet myself. I like surprises, hopefully you do too.
+- Audio from the [June 28th Pony development sync](https://vimeo.com/915144157) is available for your listening pleasure. I'd love to summarize the meeting for you but I wasn't able to attend and haven't had a chance to listen yet myself. I like surprises, hopefully you do too.
 
 - There a new release coming soon but we are currently waiting to close out a couple of issues. See [https://github.com/ponylang/ponyc/issues/1976](https://github.com/ponylang/ponyc/issues/1976) for more details.
 

@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Pony Development Sync
 
-The first Development Sync Call this year happened on January 3rd this year, just in time. Check out the [audio recording](https://vimeo.com/videos/915357083).
+The first Development Sync Call this year happened on January 3rd this year, just in time. Check out the [audio recording](https://vimeo.com/915357083).
 
 The next one is scheduled for Wednesday, January 10, 2018 at 03:30 PM (GMT-05:00) America/New York via zoom. We'd love to have you there.
 

@@ -17,7 +17,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - [*Generalized Runtime Backpressure*](https://github.com/ponylang/ponyc/commit/1104a6ccc182d94e3ec25afa4a2d028d6c642cc4) has been merged to main. This is definitely a huge win for the Pony runtime. Watch out for the next Pony release, where we will discuss this topic in greater detail in an accompanying blog post.
 
-- This week the pony developers did meet up in the regular fashion at Wednesday 3:30 PM (GMT-05:00) America/New York. Convince yourself and listen to them by downloading the [recorded audio](https://vimeo.com/videos/915354220).
+- This week the pony developers did meet up in the regular fashion at Wednesday 3:30 PM (GMT-05:00) America/New York. Convince yourself and listen to them by downloading the [recorded audio](https://vimeo.com/915354220).
 
 ## RFCs
 
