@@ -14,7 +14,7 @@ Our community Zulip has over 500 members! Ryan A. Hagenson introduces pony-bio, 
 
 ## Items of note
 
-- Audio from the January 28, 2020 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2020_01_28.m4a). Most of the conversation is related to Joe's work on looking into integrating a Pony-like language with Verona runtime.
+- Audio from the January 28, 2020 Pony sync is available [here](https://vimeo.com/915535998). Most of the conversation is related to Joe's work on looking into integrating a Pony-like language with Verona runtime.
 
 - The Zulip got its 500th member this week. What an awesome milestone. Baby steps to programming language domination. [Baby steps](https://www.youtube.com/watch?v=ncFCdCjBqcE).
 

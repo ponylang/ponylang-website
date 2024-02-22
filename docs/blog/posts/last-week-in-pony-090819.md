@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the September 08, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_09_03.m4a).
+- Recording of the September 08, 2019 Pony developer sync is available [here](https://vimeo.com/915531150).
 
 - The [library-project-starter](https://github.com/ponylang/library-project-starter) repo has been deprecated and archived. It has been replaced with the [library-scaffolding-generator](https://github.com/ponylang/library-scaffolding-generator).
 

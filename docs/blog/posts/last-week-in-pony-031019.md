@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the March 7, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_03_07.m4a).
+- Audio for the March 7, 2019 Pony sync is [here](https://vimeo.com/915523227).
 
 - We have a new release for [ponycheck](https://github.com/mfelsche/ponycheck), the property-based-testing library for pony! Check out the [release notes](https://github.com/mfelsche/ponycheck/releases/tag/0.5.0).
 

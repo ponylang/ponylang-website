@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the March 26, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_03_26.m4a).
+- Audio for the March 26, 2019 Pony sync is [here](https://vimeo.com/915524315).
 
 - Our [Zulip community](https://ponylang.zulipchat.com) has reached 100 members. Hooray!
 You are invited to join it if you still haven't. Now that IRC and the mailing lists have been deprecated, it is our main channel of communication for everything about Pony. Feel free to drop by!

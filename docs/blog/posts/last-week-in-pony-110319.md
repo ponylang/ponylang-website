@@ -16,7 +16,7 @@ Pony 0.33.0 is out! This release includes changes to the pony runtime options an
 
 - Pony 0.33.0 has been released. See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.33.0) for full details. Lots going on, you'll have to check the notes to get the full scoop.
 
-- Audio from the October 29, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_10_29.m4a).
+- Audio from the October 29, 2019 Pony sync is available [here](https://vimeo.com/915532823).
 
 - On Wednesday, Brian and Sean did a second live stream of Sean teaching Brian Pony. Check it out: [https://www.youtube.com/watch?v=ODelwNLePRA](https://www.youtube.com/watch?v=ODelwNLePRA)
 

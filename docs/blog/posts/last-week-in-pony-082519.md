@@ -15,9 +15,9 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the August 13, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_08_13.m4a).
+- Recording of the August 13, 2019 Pony developer sync is available [here](https://vimeo.com/915530260).
 
-- Recording of the August 20, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_08_20.m4a).
+- Recording of the August 20, 2019 Pony developer sync is available [here](https://vimeo.com/915530520).
 
 - If you're going to Strange Loop there's a #pony-lang channel in the conference Slack. Come on it and say hello.
 

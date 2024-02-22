@@ -15,7 +15,7 @@ We've had a boatload of exciting new RFC proposals in the past few weeks! Check 
 
 ## Items of note
 
-- Audio from the January 07, 2020 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2020_01_07.m4a).
+- Audio from the January 07, 2020 Pony sync is available [here](https://vimeo.com/915535719).
 
 ## RFCs
 

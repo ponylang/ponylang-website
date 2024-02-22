@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the May 2, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_05_02.m4a)
+- Recording of the May 2, 2019 Pony developer sync is available [here](https://vimeo.com/915525410)
 
 - Want to get started working on the Pony compiler? We have a small beginner friendly issue calling out to you! [ponylang/ponyc#3144](https://github.com/ponylang/ponyc/issues/3144)
 

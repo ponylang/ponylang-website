@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the August 6, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_08_06.m4a).
+- Recording of the August 6, 2019 Pony developer sync is available [here](https://vimeo.com/915529900).
 
 - Nightly builds of `ponyc`, `stable`, and `corral` have graduated to the official Ponylang [Cloudsmith nightlies repo](https://cloudsmith.io/~ponylang/repos/nightlies/packages/). If you were using the old test repo location, please note that the last uploads to it were on Saturday August 2nd.
 

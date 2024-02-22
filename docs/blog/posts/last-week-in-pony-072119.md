@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the July 16, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_07_16.m4a).
+- Recording of the July 16, 2019 Pony developer sync is available [here](https://vimeo.com/915528345).
 
 - Four "new" Pony libraries came into exist this week. Really, they've existed for a while, but they are now "off on their own". The four new libraries are:
 

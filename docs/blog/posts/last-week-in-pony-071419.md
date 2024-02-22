@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Recording of the July 9, 2019 Pony developer sync is available [here](https://sync-recordings.ponylang.io/r/2019_07_09.m4a). Highlights include:
+- Recording of the July 9, 2019 Pony developer sync is available [here](https://vimeo.com/915528077). Highlights include:
     - Changing how releases are done
     - Changing release artifact formats
     - Kicking SSL and regex support out of the standard library

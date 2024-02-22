@@ -13,7 +13,7 @@ Last week has seen a ton of improvements to our CI and release automation thanks
 
 ## Items of note
 
-- Audio from the November 5, 2019 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2019_11_05.m4a).
+- Audio from the November 5, 2019 Pony sync is available [here](https://vimeo.com/915533101).
 
 - Version 0.4.0 of changelog-tool has been released. See the [release notes](https://github.com/ponylang/changelog-tool/releases/tag/0.4.0) for more details.
 

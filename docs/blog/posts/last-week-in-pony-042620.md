@@ -14,7 +14,7 @@ Nightly builds of ponyc for FreeBSD 12.1 are available. pony-semver has moved in
 
 ## Items of note
 
-- Audio from the April 21, 2020 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2020_04_21.m4a). There were a few topics of discussion. The primary topic was changing the syntax at the call site for behaviours from `.` to `~`.
+- Audio from the April 21, 2020 Pony sync is available [here](https://vimeo.com/915536953). There were a few topics of discussion. The primary topic was changing the syntax at the call site for behaviours from `.` to `~`.
 
 - Nightly builds of ponyc are now available for download for FreeBSD 12.1. FreeBSD 12.1 nightlies are available from [Cloudsmith](https://cloudsmith.io/~ponylang/repos/nightlies/packages/?q=name%3A%27%5Eponyc-x86-64-unknown-freebsd12.1.tar.gz%24%27).
 
