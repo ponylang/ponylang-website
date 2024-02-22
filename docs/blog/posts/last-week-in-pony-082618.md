@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio from the August 22, 2018 Pony Development Sync is now available: [Pony Sync August 22, 2018](https://vimeo.com/videos/915364094)
+- Audio from the August 22, 2018 Pony Development Sync is now available: [Pony Sync August 22, 2018](https://vimeo.com/915364094)
 
 - OpenBSD support was merged to main! Thank you Brian Callahan aka @ibara on GitHub.
 

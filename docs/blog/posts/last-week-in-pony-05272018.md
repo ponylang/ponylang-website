@@ -43,7 +43,7 @@ That has been quite a busy week, especially for Sean T. Allen. Big thanks for do
 
 ## Pony Development Sync
 
-The Pony developers met on their weekly sync call on Wednesday, May 23, 2018. Check out the [recorded audio](https://vimeo.com/videos/915362324).
+The Pony developers met on their weekly sync call on Wednesday, May 23, 2018. Check out the [recorded audio](https://vimeo.com/915362324).
 
 The next one is scheduled for Wednesday, May 30, 2018, at 03:30 PM (GMT-04:00) America/New York via zoom. We'd love to have you there.
 

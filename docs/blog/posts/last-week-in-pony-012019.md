@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the January 15, 2019 Pony sync is [here](https://vimeo.com/videos/915401659).
+- Audio for the January 15, 2019 Pony sync is [here](https://vimeo.com/915401659).
 
 We've recently set up forwarding for email addresses at ponylang.io. If you are a Pony committer, we'd like to offer you a ponylang.io email address. The addresses are for use when conducting "official Pony business". These might eventually become a full blown email address; for now they just forward. The offer is open to anyone who has merge access on any of the official Pony projects. If you would like a ponylang.io email address, please email sean.allen@ponylang.io with your first name, last name and the email address you want the mail forwarded to.
 

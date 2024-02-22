@@ -22,7 +22,7 @@ Last Thursday, Pony 0.19.1 was released. It's a non-breaking change **and** incl
 - [Pony-stable](https://github.com/ponylang/pony-stable), the Pony dependency manager, is now available via [Homebrew](https://brew.sh/). Prebuilt binaries for Windows and Linux are [coming soon](https://github.com/ponylang/pony-stable/issues/26).
 - [Wallaroo Labs](https://www.wallaroolabs.com/), formerly Sendence, released their in-progress [Pony Kafka client](https://github.com/WallarooLabs/pony-kafka). The client currently only works with their [custom ponyc fork](https://github.com/wallaroolabs/ponyc), but they announced that it should be ported to mainline ponyc "soon".
 - Sean T. Allen (that's me!) announced the 0.1 release of a pure Pony [MessagePack](http://msgpack.org/index.html) client called [pony-msgpack](https://github.com/SeanTAllen/pony-msgpack/releases/tag/0.1). It's still feature incomplete but will becoming more full featured over time.
-- Audio from the [September 13, 2017 Pony development sync](https://vimeo.com/videos/915151279) is available for your listening pleasure.
+- Audio from the [September 13, 2017 Pony development sync](https://vimeo.com/915151279) is available for your listening pleasure.
 
 ## News and Blog Posts
 

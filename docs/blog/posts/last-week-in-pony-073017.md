@@ -26,7 +26,7 @@ At this time this "Last Week in Pony" was published, we were in [the process of 
 - The [Pony Playground](https://playground.ponylang.io/) now compiles your programs in debug mode. This change makes `Debug.out("foo")` now result in output. [Enjoy](https://playground.ponylang.io/?gist=66aab8cfb7fb9be14b7d2c2b9b91b617)!
 - We're looking for help putting together documentation on how to cross-compile Pony programs. If you have experience and can help, [please respond on the mailing list](https://pony.groups.io/g/user/message/1254).
 - The Pony Virtual Users' Group needs you! [Get involved today!](https://pony.groups.io/g/user/message/1280)
-- Audio from the [July 26, 2017, Pony development sync](https://vimeo.com/videos/915146055) is available for your listening pleasure.
+- Audio from the [July 26, 2017, Pony development sync](https://vimeo.com/915146055) is available for your listening pleasure.
 
 ## News and Blog Posts
 

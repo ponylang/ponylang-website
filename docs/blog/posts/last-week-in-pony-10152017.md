@@ -19,7 +19,7 @@ Call this a bug fix release. Lots of bugs fixed. Runtime bugs, compiler bugs, bu
 
 ## Items of note
 
-- Audio from the October 11th, Pony development sync is available for your listening pleasure. I'd love give you a summary but, I had to miss the meeting and haven't had a chance to listen. I bet you beat me to it, especially if you start right now. As always, head over to our [developers' groups.io](https://pony.groups.io/g/dev) and [have a listen](https://vimeo.com/videos/915352103).
+- Audio from the October 11th, Pony development sync is available for your listening pleasure. I'd love give you a summary but, I had to miss the meeting and haven't had a chance to listen. I bet you beat me to it, especially if you start right now. As always, head over to our [developers' groups.io](https://pony.groups.io/g/dev) and [have a listen](https://vimeo.com/915352103).
 
 ## RFCs
 
