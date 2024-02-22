@@ -18,7 +18,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Audio from the September 12, 2018 Pony development sync is now available
 
-> [Pony Sync September 12, 2018](https://sync-recordings.ponylang.io/r/2018_09_12.m4a)
+> [Pony Sync September 12, 2018](https://vimeo.com/videos/915399049)
 
 ## News and Blog Posts
 

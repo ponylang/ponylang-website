@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- Audio for the February 5, 2019 Pony sync is [here](https://sync-recordings.ponylang.io/r/2019_02_05.m4a).
+- Audio for the February 5, 2019 Pony sync is [here](https://vimeo.com/videos/915402048).
 
 - The exuberant ctags Pony module that John Mumm created has a new home under the Pony organization. ctags support is awesome if you are using Vim or Emacs with Pony: [https://github.com/ponylang/pony-ctags](https://github.com/ponylang/pony-ctags)
 

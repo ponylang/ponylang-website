@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- There is a recording of the Pony Sync meeting from October 30, 2018 here: [Pony Sync Audio 10/30/18](https://sync-recordings.ponylang.io/r/2018_10_30.m4a)
+- There is a recording of the Pony Sync meeting from October 30, 2018 here: [Pony Sync Audio 10/30/18](https://vimeo.com/videos/915399740)
 
 ## RFCs
 
