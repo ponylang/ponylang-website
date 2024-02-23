@@ -22,7 +22,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Audio for the September 26, 2018 Pony development sync is available. It went up as usual on the 26th but wasn't reported to Last Week in Pony. D'oh!
 
-> [Audio 09-26-2018](hhttps://vimeo.com/91539928)
+> [Audio 09-26-2018](https://vimeo.com/91539928)
 
 - Audio for the October 3, 2018 Pony development sync is available.
 
