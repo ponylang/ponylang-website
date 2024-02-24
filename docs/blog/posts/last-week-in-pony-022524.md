@@ -2,7 +2,6 @@
 draft: false
 authors:
   - seantallen
-  - ryan
 categories:
   - "Last Week in Pony"
 title: "Last Week in Pony - February 25, 2024"
@@ -17,24 +16,24 @@ date: 2024-02-25T07:00:06-04:00
 
 ### Pony Virtual Users' Group Recordings
 
-We've organized the Pony Virtual Users' Group recordings into a channel on Vimeo. You can locate the channel at [vimeo.com/channels/ponyvug](https://vimeo.com/channels/ponyvug).
+We're organizing the Pony Virtual Users' Group recordings into a channel on Vimeo. You can locate the channel at [vimeo.com/channels/ponyvug](https://vimeo.com/channels/ponyvug).
 
 ### Development Sync Recordings are on the move
 
-We're moving our Development Sync recordings from NearlyFreeSpeech to Vimeo. This week's meeting is the first one to be hosted on Vimeo. We will work on moving our several years of recordings over to Vimeo in the coming weeks.
+We're moving our Development Sync recordings from NearlyFreeSpeech to Vimeo. We will work on moving our several years of recordings over to Vimeo in the coming weeks.
 
 We've created a [channel on Vimeo](https://vimeo.com/channels/ponydevelopmentsync) where all future Development Sync recordings will be posted.
 
 ### Pony Development Sync
 
-The [recording](https://vimeo.com/914931742) of the February 20th, 2024 sync is available.
+The [recording](https://sync-recordings.ponylang.io/r/2024_02_20.mp4) of the February 20th, 2024 sync is available.
 
 We had a short, two issue agenda:
 
 - We triaged an issue that had a new case added to it.
 - We discussed an addition to the [ponylang/http_server](https://github.com/ponylang/http_server/pull/75) repository.
 
-From there we discussed the fact that we now pay more for hosting our Development Sync recordings on NearlyFreeSpeech than we would if we hosted on Vimeo. We agreed to move our recordings from NearlyFreeSpeech to Vimeo. This week's meeting is the first one to be hosted on Vimeo. We will work on moving our several years of recordings over to Vimeo in the coming weeks.
+From there we discussed the fact that we now pay more for hosting our Development Sync recordings on NearlyFreeSpeech than we would if we hosted on Vimeo. We agreed to move our recordings from NearlyFreeSpeech to Vimeo.
 
 ### Office Hours
 
@@ -51,10 +50,7 @@ For those who are unfamiliar, Pony does "unsafe pointer magic" but it's all enca
 ## Releases
 
 - [ponylang/http_server 0.5.0](https://github.com/ponylang/http_server/releases/tag/0.5.0)
-
-## Community Resource Highlight
-
-<< content >>
+- [ponylang/ponyc 0.58.2](https://github.com/ponylang/ponyc/releases/tag/0.58.2)
 
 ---
 
