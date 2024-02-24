@@ -8,7 +8,7 @@ title: "Last Week in Pony - February 25, 2024"
 date: 2024-02-25T07:00:06-04:00
 ---
 
-<< content >>
+Pony 0.58.2 has been released. We strongly advise updating as soon as possible.
 
 <!-- more -->
 
