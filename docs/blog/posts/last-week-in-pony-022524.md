@@ -14,6 +14,18 @@ Pony 0.58.2 has been released. We strongly advise updating as soon as possible.
 
 ## Items of Note
 
+### Pony 0.58.2 has been released
+
+Pony 0.58.2 was released this past Saturday. It features a number of improvements. We recommend updating as soon as possible.
+
+There's a critical bug fix that remove an unlikley but possible memory corruption that can occur when using `Array.copy_to`. Everyone should definitely update to get that fix.
+
+For all the MacOS users out there, we once again are doing releases built for Apple Silicon based machines. The first went out with 0.58.2. We are very happy that GitHub has made Apple Silicon runners available for Open Source projects and that we can again provide builds for Apple Silicon based machines.
+
+We've added Fedora 39 as a supported platform.
+
+And for all your domain modellers out there, we've added a new package to the standard library for doing [constrained types](https://stdlib.ponylang.io/constrained_types--index/). The documentation has some relatively in-depth how-to use examples. It's a great addition to the standard library. If you have questions on how to use, stop by the [Zulip](https://ponylang.zulipchat.com) and ask.
+
 ### Pony Virtual Users' Group Recordings
 
 We're organizing the Pony Virtual Users' Group recordings into a channel on Vimeo. You can locate the channel at [vimeo.com/channels/ponyvug](https://vimeo.com/channels/ponyvug).
