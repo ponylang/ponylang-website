@@ -35,6 +35,10 @@ We're moving our Development Sync recordings from NearlyFreeSpeech to Vimeo. We 
 We've created a [channel on Vimeo](https://vimeo.com/channels/ponydevelopmentsync) where all future Development Sync recordings will be
 posted.
 
+### actionlint Image Updated
+
+The `actionlint` in the [shared-docker](https://github.com/ponylang/shared-docker) repository has been updated to the latest version of actionlint.
+
 ### Pony Development Sync
 
 The [recording](https://sync-recordings.ponylang.io/r/2024_02_20.mp4) of the February 20th, 2024 sync is available.
