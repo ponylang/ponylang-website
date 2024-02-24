@@ -28,15 +28,12 @@ And for all your domain modellers out there, we've added a new package to the st
 
 See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.58.2) for more details.
 
-### Pony Virtual Users' Group Recordings
-
-We're organizing the Pony Virtual Users' Group recordings into a channel on Vimeo. You can locate the channel at [vimeo.com/channels/ponyvug](https://vimeo.com/channels/ponyvug).
-
 ### Development Sync Recordings are on the move
 
 We're moving our Development Sync recordings from NearlyFreeSpeech to Vimeo. We will work on moving our several years of recordings over to Vimeo in the coming weeks.
 
-We've created a [channel on Vimeo](https://vimeo.com/channels/ponydevelopmentsync) where all future Development Sync recordings will be posted.
+We've created a [channel on Vimeo](https://vimeo.com/channels/ponydevelopmentsync) where all future Development Sync recordings will be
+posted.
 
 ### Pony Development Sync
 
