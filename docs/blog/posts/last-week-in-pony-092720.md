@@ -15,7 +15,7 @@ Ponyc 0.38.1 has been released. Support for prebuilt "generic glibc Linux" ponyc
 ## Items of note
 
 - Audio for the September 22, 2020 Pony developers' sync is available:
-[https://sync-recordings.ponylang.io/r/2020_09_22.m4a](https://sync-recordings.ponylang.io/r/2020_09_22.m4a)
+[https://vimeo.com/916250721](https://vimeo.com/916250721)
 
 - We are dropping support for prebuilt "glibc" ponyc builds for Linux.
 

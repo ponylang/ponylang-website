@@ -14,7 +14,7 @@ Sync audio for July 7 is available. RFC PR #175 is ready for vote on the next sy
 
 ## Items of note
 
-- Audio from the July 7, 2020 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2020_07_07.m4a](https://sync-recordings.ponylang.io/r/2020_07_07.m4a)
+- Audio from the July 7, 2020 Pony development sync is available: [https://vimeo.com/916248648](https://vimeo.com/916248648)
 
 ## RFCs
 

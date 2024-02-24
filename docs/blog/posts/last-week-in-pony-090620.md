@@ -14,7 +14,7 @@ We have a new RFC for added syntax to extend automatic receiver recovery. The sh
 
 ## Items of note
 
-- Developer sync audio is available: [https://sync-recordings.ponylang.io/r/2020_09_01.m4a](https://sync-recordings.ponylang.io/r/2020_09_01.m4a)
+- Developer sync audio is available: [https://vimeo.com/916250255](https://vimeo.com/916250255)
 - The shared-docker shellcheck image is being deprecated and will be removed on October 1.
 
 ## Releases

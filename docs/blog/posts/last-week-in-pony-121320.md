@@ -14,7 +14,7 @@ Version 0.2.2 of ponylang/http_server has been released.
 
 ## Items of note
 
-- Audio from the [December 08, 2020](https://sync-recordings.ponylang.io/r/2020_12_08.m4a) Pony development sync call is available.
+- Audio from the [December 08, 2020](https://vimeo.com/916251650) Pony development sync call is available.
 
 ## Releases
 

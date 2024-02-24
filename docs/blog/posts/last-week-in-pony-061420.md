@@ -14,7 +14,7 @@ We have some new RFCs and more updates to the Emacs ponylang-mode. This week's s
 
 ## Items of note
 
-- Audio from the Pony developers sync for June 9, 2020 is [now available](https://sync-recordings.ponylang.io/r/2020_06_09.m4a).
+- Audio from the Pony developers sync for June 9, 2020 is [now available](https://vimeo.com/916247934).
 
 ## Releases
 

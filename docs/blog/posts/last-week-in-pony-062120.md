@@ -14,7 +14,7 @@ We have new releases for ponyup, ponylang-mode, and release-notes-bot-action.
 
 ## Items of note
 
-- Audio from the [June 16, 2020](https://sync-recordings.ponylang.io/r/2020_06_16.m4a) Pony development sync call is available.
+- Audio from the [June 16, 2020](https://vimeo.com/916248081) Pony development sync call is available.
 
 ## Releases
 

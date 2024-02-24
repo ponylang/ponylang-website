@@ -14,7 +14,7 @@ We have new releases for crypto libraries and new bots to automate changelogs an
 
 ## Items of note
 
-- Audio from the [August 11, 2020](https://sync-recordings.ponylang.io/r/2020_08_11.m4a) Pony development sync call is available.
+- Audio from the [August 11, 2020](https://vimeo.com/916249684) Pony development sync call is available.
 
 - The shared docker x86-64-unknown-linux-builder-with-openssl_1.1.x is being deprecated and will be removed at the end of August. If you are using it for anything, you should switch to the new image x86-64-unknown-linux-builder-with-openssl_1.1.1g.
 

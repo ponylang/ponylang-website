@@ -14,7 +14,7 @@ The July 21 sync includes discussions about ponyup and the String API.
 
 ## Items of note
 
--[Audio from the July 21, 2020 Pony Development sync](https://sync-recordings.ponylang.io/r/2020_07_21.m4a) is available. Topics included [ponyup](https://github.com/ponylang/ponyup) and changes the standard library String API.
+-[Audio from the July 21, 2020 Pony Development sync](https://vimeo.com/916249100) is available. Topics included [ponyup](https://github.com/ponylang/ponyup) and changes the standard library String API.
 
 ## Releases
 

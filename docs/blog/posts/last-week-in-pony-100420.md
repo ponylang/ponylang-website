@@ -14,7 +14,7 @@ There's a new meeting URL for the weekly Pony developer sync meeting.
 
 ## Items of note
 
-- Audio from the [September 29, 2020](https://sync-recordings.ponylang.io/r/2020_09_29.m4a) Pony development sync call is available.
+- Audio from the [September 29, 2020](https://vimeo.com/916250836) Pony development sync call is available.
 
 - There's a new [meeting url](https://us02web.zoom.us/j/81413023569?pwd=ODRrQUJKNUFzNDdydzN6WTNpMEtaZz09) for the weekly Pony developer meeting. The google calendar has been updated as well. If you are syncing with the calendar, you should be good, but we wanted to let you know just in case.
 
