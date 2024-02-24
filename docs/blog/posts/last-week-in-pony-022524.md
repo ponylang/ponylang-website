@@ -18,7 +18,7 @@ Pony 0.58.2 has been released. We strongly advise updating as soon as possible.
 
 Pony 0.58.2 was released this past Saturday. It features a number of improvements. We recommend updating as soon as possible.
 
-There's a critical bug fix that remove an unlikley but possible memory corruption that can occur when using `Array.copy_to`. Everyone should definitely update to get that fix.
+There's a critical bug fix that remove an unlikeley but possible memory corruption that can occur when using `Array.copy_to`. Everyone should definitely update to get that fix.
 
 For all the MacOS users out there, we once again are doing releases built for Apple Silicon based machines. The first went out with 0.58.2. We are very happy that GitHub has made Apple Silicon runners available for Open Source projects and that we can again provide builds for Apple Silicon based machines.
 
