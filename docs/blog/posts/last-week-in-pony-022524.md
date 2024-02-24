@@ -26,6 +26,8 @@ We've added Fedora 39 as a supported platform.
 
 And for all your domain modellers out there, we've added a new package to the standard library for doing [constrained types](https://stdlib.ponylang.io/constrained_types--index/). The documentation has some relatively in-depth how-to use examples. It's a great addition to the standard library. If you have questions on how to use, stop by the [Zulip](https://ponylang.zulipchat.com) and ask.
 
+See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.58.2) for more details.
+
 ### Pony Virtual Users' Group Recordings
 
 We're organizing the Pony Virtual Users' Group recordings into a channel on Vimeo. You can locate the channel at [vimeo.com/channels/ponyvug](https://vimeo.com/channels/ponyvug).
