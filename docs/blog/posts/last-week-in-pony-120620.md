@@ -14,7 +14,7 @@ The audio recording of the December 1, 2020 Pony development sync call is availa
 
 ## Items of note
 
-- Audio from the [December 01, 2020](https://sync-recordings.ponylang.io/r/2020_12_01.m4a) Pony development sync call is available.
+- Audio from the [December 01, 2020](https://vimeo.com/916251522) Pony development sync call is available.
 
 ---
 

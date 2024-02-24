@@ -14,10 +14,10 @@ The ponylang/glob package has upgraded its ponylang/regex dependency to improve 
 
 ## Items of note
 
-- Audio from the [October 06, 2020](https://sync-recordings.ponylang.io/r/2020_10_06.m4a) Pony development sync call is available.
-- Audio from the [October 20, 2020](https://sync-recordings.ponylang.io/r/2020_10_20.m4a) Pony development sync call is available.
-- Audio from the [November 10, 2020](https://sync-recordings.ponylang.io/r/2020_11_10.m4a) Pony development sync call is available.
-- Audio from the [November 17, 2020](https://sync-recordings.ponylang.io/r/2020_11_17.m4a) Pony development sync call is available.
+- Audio from the [October 06, 2020](https://vimeo.com/916250930) Pony development sync call is available.
+- Audio from the [October 20, 2020](https://vimeo.com/916251079) Pony development sync call is available.
+- Audio from the [November 10, 2020](https://vimeo.com/916251245) Pony development sync call is available.
+- Audio from the [November 17, 2020](https://vimeo.com/916251354) Pony development sync call is available.
 
 ## Releases
 

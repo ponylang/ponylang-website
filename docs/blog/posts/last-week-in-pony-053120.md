@@ -14,7 +14,7 @@ A bunch of updates to ponylang-mode. The Pony Zulip now has a 'jobs' stream for 
 
 ## Items of note
 
-- Audio from the [May 26, 2020](https://sync-recordings.ponylang.io/r/2020_05_26.m4a) Pony development sync call is available.
+- Audio from the [May 26, 2020](https://vimeo.com/916247637) Pony development sync call is available.
 
 - There is now a [`jobs` stream](https://ponylang.zulipchat.com/#narrow/stream/240881-jobs) in Zulip where folks can post Pony-related job opportunities.
 

@@ -14,7 +14,7 @@ Sean T. Allen has released version 0.0.1 of the lori TCP library.
 
 ## Items of note
 
-- Audio from the [September 15, 2020](https://sync-recordings.ponylang.io/r/2020_09_15.m4a) Pony development sync call is available.
+- Audio from the [September 15, 2020](https://vimeo.com/916250589) Pony development sync call is available.
 
 ## Releases
 

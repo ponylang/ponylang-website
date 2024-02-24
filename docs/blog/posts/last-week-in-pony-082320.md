@@ -14,7 +14,7 @@ Corral now has ability to run scripts when a dependency is fetched. This has bee
 
 ## Items of note
 
-- Audio from the [August 18, 2020](https://sync-recordings.ponylang.io/r/2020_08_18.m4a) Pony development sync call is available.
+- Audio from the [August 18, 2020](https://vimeo.com/916249908) Pony development sync call is available.
 
 ## Releases
 

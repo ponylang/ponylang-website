@@ -14,7 +14,7 @@ We have some nice improvements to the website FAQ and corral documentation. RFC 
 
 ## Items of note
 
-- The recording of the July 14, 2020 Pony Development Sync is now available: [https://sync-recordings.ponylang.io/r/2020_07_14.m4a](https://sync-recordings.ponylang.io/r/2020_07_14.m4a)
+- The recording of the July 14, 2020 Pony Development Sync is now available: [https://vimeo.com/916248860](https://vimeo.com/916248860)
 
 - Ryan Hagenson has added a new FAQ to the website on [when Pony programs terminate](https://www.ponylang.io/faq/runtime/#program-exit). It's a question that comes up semi-regularly on the [Zulip](https://ponylang.zulipchat.com/#). Thanks Ryan for adding the FAQ.
 

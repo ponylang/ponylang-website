@@ -14,7 +14,7 @@ There is a new set of public Docker images for Pony with SSL system libraries in
 
 ## Items of note
 
-- Audio from the [June 30, 2020](https://sync-recordings.ponylang.io/r/2020_06_30.m4a) Pony development sync call is available.
+- Audio from the [June 30, 2020](https://vimeo.com/916248373) Pony development sync call is available.
 
 - Are you using any of the docker images we provide the community in the [shared-docker repository](https://github.com/ponylang/shared-docker)? If yes, this announcement is for you. The "x86-64-unknown-linux-builder-with-ssl" image that had latest and release versions has been removed and isn't being updated anymore. It has been replaced by two more specific images. "x86-64-unknown-linux-builder-with-libressl" and "x86-64-unknown-linux-builder-with-openssl_1.1.x". Both of the new images are alpine based like the one they are replacing.
 

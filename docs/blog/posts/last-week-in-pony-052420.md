@@ -14,7 +14,7 @@ Damon Kwok has been doing a ton of awesome work on the Emacs ponylang-mode. Sean
 
 ## Items of note
 
-- Audio from the May 19th, 2020 Pony development sync is now available. [https://sync-recordings.ponylang.io/r/2020_05_19.m4a](https://sync-recordings.ponylang.io/r/2020_05_19.m4a)
+- Audio from the May 19th, 2020 Pony development sync is now available. [https://vimeo.com/916247291](https://vimeo.com/916247291)
 
 - Damon Kwok is now a maintainer for [ponylang-mode](https://github.com/ponylang/ponylang-mode/). Welcome to the team Damon!
 

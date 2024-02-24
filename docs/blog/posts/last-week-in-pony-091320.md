@@ -14,7 +14,7 @@ A Pony talk given by Sophia Drossopoulou is now available on InfoQ.
 
 ## Items of note
 
-- Recording of the September 8, 2020 Pony developers' sync is available: [https://sync-recordings.ponylang.io/r/2020_09_08.m4a](https://sync-recordings.ponylang.io/r/2020_09_08.m4a)
+- Recording of the September 8, 2020 Pony developers' sync is available: [https://vimeo.com/916250414](https://vimeo.com/916250414)
 
 - InfoQ recently posted a new talk by Sophia Drossopoulou on Pony: [Pony, Actors, Causality, Types, and Garbage Collection](https://www.infoq.com/presentations/pony-types-garbage-collection/).
 

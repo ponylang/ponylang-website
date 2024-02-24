@@ -14,7 +14,7 @@ Pony 0.36.0 has been released! We recommend upgrading as soon as possible.
 
 ## Items of note
 
-- Audio from the [July 28, 2020](https://sync-recordings.ponylang.io/r/2020_07_28.m4a) Pony development sync call is available.
+- Audio from the [July 28, 2020](https://vimeo.com/916249363) Pony development sync call is available.
 
 ## Releases
 

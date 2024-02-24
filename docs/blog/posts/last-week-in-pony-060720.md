@@ -14,7 +14,7 @@ This weeks sync meeting includes discussions about type system soundness and dep
 
 ## Items of note
 
-- [Audio from the June 2nd Pony developers' sync](https://sync-recordings.ponylang.io/r/2020_06_02.m4a) is now available. Topics of discussion included the type system, a soundness whole in the ponyc compiler, and dependency management.
+- [Audio from the June 2nd Pony developers' sync](https://vimeo.com/916247829) is now available. Topics of discussion included the type system, a soundness whole in the ponyc compiler, and dependency management.
 
 ## Releases
 

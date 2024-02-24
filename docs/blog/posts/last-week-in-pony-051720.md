@@ -14,7 +14,7 @@ Pony 0.35.0 and 0.35.1 have been released! Stable, our little dependency manager
 
 ## Items of note
 
-- Audio from the May 12, 2020 Pony sync is available [here](https://sync-recordings.ponylang.io/r/2020_05_12.m4a).
+- Audio from the May 12, 2020 Pony sync is available [here](https://vimeo.com/916246093).
 
 - Stable, our little dependency manager that could, has been deprecated. It's being replaced by [Corral](https://github.com/ponylang/corral). The stable repo has been archived. No additional fixes, changes, or releases will be coming. Thank you to everyone who [contributed](https://github.com/ponylang/pony-stable/graphs/contributors).
 

@@ -14,7 +14,7 @@ Pony 0.38.2 has been released! Audio from the December 15 sync call is available
 
 ## Items of note
 
-- Audio from the [December 15, 2020](https://sync-recordings.ponylang.io/r/2020_12_15.m4a) Pony development sync call is available.
+- Audio from the [December 15, 2020](https://vimeo.com/916251779) Pony development sync call is available.
 
 ## Releases
 

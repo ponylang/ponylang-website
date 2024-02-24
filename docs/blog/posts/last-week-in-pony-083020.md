@@ -14,7 +14,7 @@ The Flynn project aims to bring a Pony-like actor-model implementation to Swift 
 
 ## Items of note
 
-- Audio from the August, 25 2020 Pony Development sync is available: [https://sync-recordings.ponylang.io/r/2020_08_25.m4a](https://sync-recordings.ponylang.io/r/2020_08_25.m4a)
+- Audio from the August, 25 2020 Pony Development sync is available: [https://vimeo.com/916250064](https://vimeo.com/916250064)
 
 - The "docker-builder" shared docker container is being deprecated and not being replaced. If you are using for anything, be aware that there will be no further updates. The existing image will continue to work via being pulled from docker hub.
 
