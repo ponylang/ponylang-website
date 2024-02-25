@@ -15,7 +15,7 @@ We have landed a fix to the underlying time source for `Time.nanos()` on Apple S
 
 ## Items of note
 
-- Audio from the [2021-11-09](https://sync-recordings.ponylang.io/r/2021-11-09.m4a) Pony development sync call is available.
+- Audio from the [2021-11-09](https://vimeo.com/916367130) Pony development sync call is available.
 
 - We have landed [a fix to the underlying time source for `Time.nanos()`](https://github.com/ponylang/ponyc/pull/3921) on Apple Silicon. Without this fix, users of the `timers` package would observe timers firing with significant delay. If you're using `ponyc` on ARM macOS, we recommend you upgrade by building from source from the `main` branch.
 

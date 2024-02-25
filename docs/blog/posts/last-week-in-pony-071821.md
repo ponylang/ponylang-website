@@ -15,7 +15,7 @@ Version 0.43.0 of ponylang/ponyc has been released. A video of the 10th edition 
 
 ## Items of note
 
-- Audio from the [July 13, 2021](https://sync-recordings.ponylang.io/r/2021-07-13.m4a) Pony development sync call is available.
+- Audio from the [July 13, 2021](https://vimeo.com/916366265) Pony development sync call is available.
 
 - On July 13th the 10th edition of the Pony Virtual User Group (VUG) took place. Check out the video here: [https://vimeo.com/574893226](https://vimeo.com/574893226)
 

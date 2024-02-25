@@ -15,7 +15,7 @@ There are new releases available for ponyc and ponyup. There is also a request f
 
 ## Items of note
 
-- Audio from the [July 6, 2021](https://sync-recordings.ponylang.io/r/2021-07-06.m4a) Pony development sync call is available.
+- Audio from the [July 6, 2021](https://vimeo.com/916366172) Pony development sync call is available.
 
 ## Releases
 

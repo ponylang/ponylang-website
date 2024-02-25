@@ -15,7 +15,7 @@ Version 0.45.0 of ponylang/ponyc has been released!
 
 ## Items of note
 
-- Audio from the [2021-11-02](https://sync-recordings.ponylang.io/r/2021-11-02.m4a) Pony development sync call is available.
+- Audio from the [2021-11-02](https://vimeo.com/916367074) Pony development sync call is available.
 
 ## Releases
 

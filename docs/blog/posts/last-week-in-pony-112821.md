@@ -15,9 +15,9 @@ Audio from the November 16 and 23 Pony development sync calls are available.
 
 ## Items of note
 
-- Audio from the [2021-11-16](https://sync-recordings.ponylang.io/r/2021-11-16.m4a) Pony development sync call is available.
+- Audio from the [2021-11-16](https://vimeo.com/916367207) Pony development sync call is available.
 
-- Audio from the [2021-11-23](https://sync-recordings.ponylang.io/r/2021-11-23.m4a) Pony development sync call is available.
+- Audio from the [2021-11-23](https://vimeo.com/916367290) Pony development sync call is available.
 
 ---
 

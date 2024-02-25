@@ -15,9 +15,9 @@ We have new releases of ponyup and corral.
 
 ## Items of note
 
-- Audio from the [2021-10-05](https://sync-recordings.ponylang.io/r/2021-10-05.m4a) Pony development sync call is available.
+- Audio from the [2021-10-05](https://vimeo.com/916366902) Pony development sync call is available.
 
-- Audio from the [2021-09-28](https://sync-recordings.ponylang.io/r/2021-09-28.m4a) Pony development sync call (last week) is also available.
+- Audio from the [2021-09-28](https://vimeo.com/916366811) Pony development sync call (last week) is also available.
 
 ## Releases
 

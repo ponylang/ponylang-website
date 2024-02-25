@@ -15,7 +15,7 @@ Pony 0.41.2 of ponylang/ponyc has been released! Andy Turley is leaving the core
 
 ## Items of note
 
-- Audio from the [June 29, 2021](https://sync-recordings.ponylang.io/r/2021-06-29.m4a) Pony development sync call is available.
+- Audio from the [June 29, 2021](https://vimeo.com/916365845) Pony development sync call is available.
 
 - Andy Turley is leaving the core team. See the note from him below.
 
