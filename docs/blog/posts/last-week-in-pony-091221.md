@@ -14,7 +14,7 @@ A slow week in the land of Pony.
 
 ## Items of note
 
-- Audio from the September 7th Pony development sync meeting is available: [https://sync-recordings.ponylang.io/r/2021-09-07.m4a](https://sync-recordings.ponylang.io/r/2021-09-07.m4a)
+- Audio from the September 7th Pony development sync meeting is available: [https://vimeo.com/916366540](https://vimeo.com/916366540)
 
 ---
 

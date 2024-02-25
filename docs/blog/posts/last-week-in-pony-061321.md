@@ -14,9 +14,9 @@ Borja (@ergl) released pony-protobuf, an experimental Pony protocol buffers libr
 
 ## Items of note
 
-- Audio from the [June 01, 2021](https://sync-recordings.ponylang.io/r/2021-06-01.m4a) Pony development sync call is available.
+- Audio from the [June 01, 2021](https://vimeo.com/916365540) Pony development sync call is available.
 
-- Audio from the [June 08, 2021](https://sync-recordings.ponylang.io/r/2021-06-08.m4a) Pony development sync call is available.
+- Audio from the [June 08, 2021](https://vimeo.com/916365770) Pony development sync call is available.
 
 - Borja (@ergl) released [pony-protobuf](https://github.com/ergl/pony-protobuf), an experimental Pony protocol buffers library and compiler. It includes classes with similar interfaces to the `Reader / Writer` standard library classes, along with a working (but basic) compiler implemented as a `protoc` plugin.
 

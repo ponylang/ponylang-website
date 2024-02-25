@@ -15,7 +15,7 @@ New releases of ponylang/corral and ponylang/http are available. The 'Split `Fil
 
 ## Items of note
 
-- Audio from the [July 27, 2021](https://sync-recordings.ponylang.io/r/2021-07-27.m4a) Pony development sync call is available.
+- Audio from the [July 27, 2021](https://vimeo.com/916366372) Pony development sync call is available.
 
 ## Releases
 

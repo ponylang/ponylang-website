@@ -15,7 +15,7 @@ We are looking for people to help fix bugs in the Arm version of Pony. And we'll
 
 ## Items of note
 
-- Audio from the Sep 14, 2021 Pony development sync call is available: [https://sync-recordings.ponylang.io/r/2021-09-14.m4a](https://sync-recordings.ponylang.io/r/2021-09-14.m4a)
+- Audio from the Sep 14, 2021 Pony development sync call is available: [https://vimeo.com/916366686](https://vimeo.com/916366686)
 
 ---
 
