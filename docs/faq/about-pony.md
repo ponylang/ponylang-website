@@ -2,11 +2,11 @@
 
 ## How'd Pony come to be? {:id="early-history"}
 
-Check out ["An Early History of Pony"](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/).
+Check out ["An Early History of Pony"](/blog/posts/early-history-of-pony.md).
 
 ## Why's it called "Pony"? {:id="why-the-name-pony"}
 
-Interesting question. We hear that a lot. If you read enough of ["An Early History of Pony"](https://www.ponylang.io/blog/2017/05/an-early-history-of-pony/), you'll get your answer.
+Interesting question. We hear that a lot. If you read enough of ["An Early History of Pony"](/blog/posts/early-history-of-pony.md), you'll get your answer.
 
 ## What makes Pony different? {:id="how-is-pony-different"}
 
