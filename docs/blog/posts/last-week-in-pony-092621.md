@@ -15,7 +15,7 @@ Sean T. Allen has started documentation for setting up a Raspberry Pi 4 Model B 
 
 ## Items of note
 
-- Audio from the [September 21, 2021 Pony development sync](https://sync-recordings.ponylang.io/r/2021_09_21.m4a) is available. Lots of fun bug conversation, build system conversation, and Arm 32 conversation.
+- Audio from the [September 21, 2021 Pony development sync](https://vimeo.com/916364761) is available. Lots of fun bug conversation, build system conversation, and Arm 32 conversation.
 
 - Sean T. Allen has started documentation for setting up a Raspberry Pi 4 Model B to do development of Pony.
 [github.com/ponylang/contributors/blob/main/raspberry-pi-4-development-environment.md](https://github.com/ponylang/contributors/blob/main/raspberry-pi-4-development-environment.md)

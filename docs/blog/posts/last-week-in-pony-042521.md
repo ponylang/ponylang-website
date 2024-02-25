@@ -14,7 +14,7 @@ Audio from the April 20, 2021 Pony development sync call is available.
 
 ## Items of note
 
-- Audio from the [April 20, 2021](https://sync-recordings.ponylang.io/r/2021_04_20.m4a) Pony development sync call is available.
+- Audio from the [April 20, 2021](https://vimeo.com/916363956) Pony development sync call is available.
 
 ---
 

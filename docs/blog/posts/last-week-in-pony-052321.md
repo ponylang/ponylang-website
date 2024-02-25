@@ -15,7 +15,7 @@ Version 0.41.1 of ponylang/ponyc has been released!
 ## Items of note
 
 - Audio from the May 18, 2021 Pony development sync is available:
-[https://sync-recordings.ponylang.io/r/2021_05_18.m4a](https://sync-recordings.ponylang.io/r/2021_05_18.m4a)
+[https://vimeo.com/916364360](https://vimeo.com/916364360)
 
 ## Releases
 

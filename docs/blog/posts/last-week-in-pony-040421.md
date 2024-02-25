@@ -15,7 +15,7 @@ Ponyc 0.39.1 has been released! The Roaring Pony group has made progress, includ
 
 ## Items of note
 
-- Audio from the [March 30, 2021](https://sync-recordings.ponylang.io/r/2021_03_30.m4a) Pony development sync call is available.
+- Audio from the [March 30, 2021](https://vimeo.com/916363732) Pony development sync call is available.
 
 - The [Roaring Pony](https://github.com/salty-blue-mango/roaring-pony) group has been hard at work expanding upon their work -- all while ensuring expansive testing as new functionality is added. The group plans to meet for another Zoom call this Tuesday 10PM CET, the meeting link will be posted over on [Zulip in the project topic](https://ponylang.zulipchat.com/#narrow/stream/190363-projects/topic/RoaringBitmap). All are welcome to join the call. The group plans to discuss project next steps and review any open PRs/issues during the call.
 

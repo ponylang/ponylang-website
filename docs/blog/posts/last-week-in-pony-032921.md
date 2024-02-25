@@ -14,7 +14,7 @@ The 'Force declaration of FFI functions' RFC has entered final comment period. O
 
 ## Items of note
 
-- Audio from the [March 23, 2021](https://sync-recordings.ponylang.io/r/2021_03_23.m4a) Pony development sync call is available.
+- Audio from the [March 23, 2021](https://vimeo.com/916363625) Pony development sync call is available.
 
 - @mfelsche writes: Again we met and worked on our roaring bitmap implementation (baby-steps) but I tried to sneak in some valuable pony development knowledge. Give it a shot here if you missed the call: [https://sync-recordings.ponylang.io/roaring-bitmap/2021_03_25.mp4](https://sync-recordings.ponylang.io/roaring-bitmap/2021_03_25.mp4)
 

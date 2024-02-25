@@ -14,7 +14,7 @@ Version 0.38.3 of ponyc and 0.4.1 of corral have been released!
 
 ## Items of note
 
-- Audio from the [January 26, 2021](https://sync-recordings.ponylang.io/r/2021_01_26.m4a) Pony development sync call is available.
+- Audio from the [January 26, 2021](https://vimeo.com/916363012) Pony development sync call is available.
 
 ## Releases
 
