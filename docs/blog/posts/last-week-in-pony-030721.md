@@ -14,8 +14,8 @@ We have new releases of Ponyc and Corral.
 
 ## Items of note
 
-- Audio from the [February 23, 2021](https://sync-recordings.ponylang.io/r/2021_02_23.m4a) Pony development sync call is available.
-- Audio from the [March 02, 2021](https://sync-recordings.ponylang.io/r/2021_03_02.m4a) Pony development sync call is available.
+- Audio from the [February 23, 2021](https://vimeo.com/916363303) Pony development sync call is available.
+- Audio from the [March 02, 2021](https://vimeo.com/916363428) Pony development sync call is available.
 
 ## Releases
 

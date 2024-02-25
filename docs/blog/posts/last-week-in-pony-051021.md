@@ -14,7 +14,7 @@ New releases are available, including ponylang/ponyc 0.41.0 and seantallen-org/l
 
 ## Items of note
 
-- Audio from the [May 04, 2021](https://sync-recordings.ponylang.io/r/2021_05_04.m4a) Pony development sync call is available.
+- Audio from the [May 04, 2021](https://vimeo.com/916364125) Pony development sync call is available.
 
 - Sean T. Allen writes: Theo Butler has, up until this point, been the primary maintainer of our "make it easy to install pony tools" tool `ponyup`. Theo is finishing up his degree and hasn't had much time in the last few months for anything Pony related. We are looking for someone to step in and work with core team members Theo and Sean and become the primary maintainer of Ponyup.
 Interested? We hope so. Please drop Theo or Sean a line on the [Zulip](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony/topic/ponyup).

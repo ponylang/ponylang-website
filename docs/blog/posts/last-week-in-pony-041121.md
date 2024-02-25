@@ -14,7 +14,7 @@ New versions of the ponylang crypto, http, http_server, and net_ssl packages are
 
 ## Items of note
 
-- Audio from the [April 06, 2021](https://sync-recordings.ponylang.io/r/2021_04_06.m4a) Pony development sync call is available.
+- Audio from the [April 06, 2021](https://vimeo.com/916363859) Pony development sync call is available.
 
 ## Releases
 

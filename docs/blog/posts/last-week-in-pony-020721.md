@@ -16,7 +16,7 @@ date: 2021-02-07T19:36:37-05:00
 
 - @ergl, also know as Borja o'Cook on the Ponylang Zulip, has become a Pony committer. Being a Pony committer means that you have a high-level of access to all the Ponylang GitHub repositories with the ability to merge PRs and what-not. Welcome to the team Borja!
 
-- Audio from the February 2nd, 2021 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2021_02_02.m4a](https://sync-recordings.ponylang.io/r/2021_02_02.m4a)
+- Audio from the February 2nd, 2021 Pony development sync is available: [https://vimeo.com/916363163](https://vimeo.com/916363163)
 
 ## Releases
 

@@ -14,7 +14,7 @@ Version 0.6.3 of ponylang/ponyup has been released. The first recording is avail
 
 ## Items of note
 
-- Audio from the [March 16, 2021](https://sync-recordings.ponylang.io/r/2021_03_16.m4a) Pony development sync call is available.
+- Audio from the [March 16, 2021](https://vimeo.com/916363525) Pony development sync call is available.
 
 ## Releases
 

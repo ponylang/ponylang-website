@@ -14,7 +14,7 @@ Version 0.40.0 of ponylang/ponyc has been released! Also, the 'Add String.add `i
 
 ## Items of note
 
-- Audio from the [April 27, 2021](https://sync-recordings.ponylang.io/r/2021_04_27.m4a) Pony development sync call is available.
+- Audio from the [April 27, 2021](https://vimeo.com/916364045) Pony development sync call is available.
 
 ## Releases
 

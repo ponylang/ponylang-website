@@ -15,7 +15,7 @@ Version 0.43.1 of ponylang/ponyc has been released. RFC 70, 'Split `FilePath` co
 ## Items of note
 
 - Audio from the August 3rd, 2021 Pony development sync is available:
-[https://sync-recordings.ponylang.io/r/2021_08_03.m4a](https://sync-recordings.ponylang.io/r/2021_08_03.m4a)
+[https://vimeo.com/916364538](https://vimeo.com/916364538)
 
 - Andreas Stührk, aka @trundle,  has donated his templating library to the ponylang organization. We plan on using it in a variety of ponylang organization projects starting with a new Pony based version of the [release notes reminder action](https://github.com/ponylang/release-notes-reminder-bot-action).
 If you aren't familiar with Andreas' library, you can find it at [ponylang/pony-templates](https://github.com/ponylang/pony-templates).

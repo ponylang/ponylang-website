@@ -14,7 +14,7 @@ Audio from the May 11, 2021 Pony development sync is available.
 
 ## Items of note
 
-- Audio from the May 11, 2021 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2021_05_11.m4a](https://sync-recordings.ponylang.io/r/2021_05_11.m4a)
+- Audio from the May 11, 2021 Pony development sync is available: [https://vimeo.com/916364227](https://vimeo.com/916364227)
 
 ---
 

@@ -16,7 +16,7 @@ Audio from the December 14, 2021 Pony development sync is available.
 ## Items of note
 
 - Audio from the December 14, 2021 Pony development sync is available:
-[https://sync-recordings.ponylang.io/r/2021_12_14.m4a](https://sync-recordings.ponylang.io/r/2021_12_14.m4a)
+[https://vimdeo.com/916364868](https://vimeo.com/916364868)
 
 ---
 
