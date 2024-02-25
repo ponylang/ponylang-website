@@ -1,6 +1,7 @@
 aarch
 ABA
 Achatz
+actionlint
 actorized
 actually's
 Adeel
@@ -257,6 +258,7 @@ langage
 Lasauskas
 LDAP
 LDN
+leasable
 lexing
 libatomic
 libponyc
@@ -535,6 +537,7 @@ Vassilvk
 VCPUs
 Ventura
 Vey
+Vimeo
 vroom
 VSCode
 VTune
