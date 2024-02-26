@@ -43,10 +43,6 @@ jobs:
       - name: Build site
         run: mkdocs build
         env:
-          # by turning off, we can get checking of anchor links on the site
-          # not just external urls. see...
-          # https://github.com/manuzhang/mkdocs-htmlproofer-plugin/issues/46#issuecomment-1494267151
-          USE_DIRECTORY_URLS: false
           # turn off external url checking as it takes a long time and we
           # do that on a schedule
           VALIDATE_EXTERNAL_URLS: false

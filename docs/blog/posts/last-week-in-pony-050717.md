@@ -20,7 +20,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## An Early History of Pony
 
-Over the last year or two, many folks have asked some variation on "how did Pony come to be?". Well dear interlocutors, ask no more. Sylvan Clebsch published [An Early History of Pony](blog/posts/early-history-of-pony.md). Question no more. Go forth and spread the word, for ye, it is good.
+Over the last year or two, many folks have asked some variation on "how did Pony come to be?". Well dear interlocutors, ask no more. Sylvan Clebsch published [An Early History of Pony](/blog/posts/early-history-of-pony.md). Question no more. Go forth and spread the word, for ye, it is good.
 
 ## Items of Note
 
