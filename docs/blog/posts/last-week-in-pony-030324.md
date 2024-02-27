@@ -18,8 +18,6 @@ date: 2024-02-25T07:00:06-04:00
 
 The [recording](https://sync-recordings.ponylang.io/r/2024_02_27.mp4) of the February 27th, 2024 sync is available.
 
-<< content >>
-
 ### Office Hours
 
 This week's Office Hours was in many ways, a recap of last week's. Adrian Boyko took Red Davies through the particulars of the "leasable buffer" that was [discussed last week](/blog/posts/last-week-in-pony-022524.md#office-hours).
