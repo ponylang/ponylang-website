@@ -15,7 +15,7 @@ We have a ton of releases this week due to the 3 accepted and implemented RFCs. 
 
 ## Items of note
 
-- Audio from the February 22, 2022 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2022_02_22.m4a](https://sync-recordings.ponylang.io/r/2022_02_22.m4a).
+- Audio from the February 22, 2022 Pony development sync is available: [https://vimeo.com/916937218](https://vimeo.com/916937218).
   Highlights include a good discussion around revisiting the ["explicit self member access" RFC](https://github.com/ponylang/rfcs/pull/173)
 
 ## Issue of the Week

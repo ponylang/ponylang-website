@@ -15,7 +15,7 @@ Version 0.46.0 of ponylang/ponyc has been released. Many other Pony packages hav
 
 ## Items of note
 
-- Audio from the [2022-01-11](https://sync-recordings.ponylang.io/r/2022-01-11.m4a) Pony development sync call is available. It was an extended meeting that included extensive discussion of different approaches for object capabilities and authorization primitives.
+- Audio from the [2022-01-11](https://vimeo.com/916935801) Pony development sync call is available. It was an extended meeting that included extensive discussion of different approaches for object capabilities and authorization primitives.
 
 ## Releases
 

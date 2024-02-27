@@ -15,7 +15,7 @@ A new RFC has been opened: Make Array iterator classes private to hide implement
 
 ## Items of note
 
-- Audio from the [2022-01-04](https://sync-recordings.ponylang.io/r/2022-01-04.m4a) Pony development sync call is available.
+- Audio from the [2022-01-04](https://vimeo.com/916935424) Pony development sync call is available.
 
 ## RFCs
 

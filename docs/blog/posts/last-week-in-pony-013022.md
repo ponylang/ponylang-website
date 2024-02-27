@@ -15,9 +15,9 @@ Audio from the January 18th and 25th Pony development syncs are available. Versi
 
 ## Items of note
 
-- Audio from the [January 18th](https://sync-recordings.ponylang.io/r/2022-01-18.m4a) Pony development sync is available:
+- Audio from the [January 18th](https://vimeo.com/916936076) Pony development sync is available:
 
-- Audio from the [January 25th](https://sync-recordings.ponylang.io/r/2022-01-25.m4a), Pony development sync is available.
+- Audio from the [January 25th](https://vimeo.com/916936279), Pony development sync is available.
 Lots of good discussion including discussion of an RFC for a change to collections iterators, discussions of ways to support optional features in the pony runtime, and if we should switch to LLD as linker built into ponyc.
 
 ## Releases
