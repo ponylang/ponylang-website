@@ -21,7 +21,7 @@ The headline news of the week, if you are using Pony 0.52.3 to 0.52.5, you shoul
 
 ### Maybe Don't Expect Instability
 
-Last week, we wrote that we [expected some instability](https://www.ponylang.io/blog/2023/01/last-week-in-pony---january-1-2023/#some-instability-expected) due to the removal of an unsafe garbage collection optimization and the discovery of a bug that started happening because of the optimization removal.
+Last week, we wrote that we [expected some instability](/blog/posts/last-week-in-pony-010123.md#some-instability-expected) due to the removal of an unsafe garbage collection optimization and the discovery of a bug that started happening because of the optimization removal.
 
 At the time we started investigating the bug, it looked like it existed prior to the change, but was in a little used code path that might have never been stumbled upon. This intuition was arrived at because the bug wasn't what we would have expected from the original change. However, that intuition was wrong.
 

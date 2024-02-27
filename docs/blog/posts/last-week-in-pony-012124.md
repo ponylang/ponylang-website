@@ -18,7 +18,7 @@ Update your HTTP library related dependencies.
 
 ### Update your "HTTP related" dependencies
 
-That week we discovered a [bug related to OpenSSL 3.2](https://www.ponylang.io/blog/2024/01/last-week-in-pony---january-14-2024/#openssl-3-2-related-bug).
+That week we discovered a [bug related to OpenSSL 3.2](/blog/posts/last-week-in-pony-011424.md#openssl-3-2-related-bug).
 
 This week, we released new versions of [ponylang/net_ssl](https://github.com/ponylang/net_ssl), [ponylang/http](https://github.com/ponylang/http), and [ponylang/http_server](https://github.com/ponylang/http_server) to fix the issue on the Pony side of things.
 
