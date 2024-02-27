@@ -22,7 +22,11 @@ The [recording](https://sync-recordings.ponylang.io/r/2024_02_27.mp4) of the Feb
 
 ### Office Hours
 
-<< content >>
+This week's Office Hours was in many ways, a recap of last week's. Adrian Boyko took Red Davies through the particulars of the "leaseable buffer" that was [discussed last week](/blog/posts/last-week-in-pony-022524.md#office-hours).
+
+Additionally, Adrian shared [a link](https://www.gnuradio.org/blog/2017-01-05-buffers/) to a very cool data structure from the [GNU Radio](https://www.gnuradio.org/) project emulates a ring buffer.
+
+While Red and Adrian were talking, I was working on getting [a pull request](https://github.com/manuzhang/mkdocs-htmlproofer-plugin/pull/75) in shape to fix a bug in [mkdocs-htmlproofer-plugin](https://github.com/manuzhang/mkdocs-htmlproofer-plugin) that was causing us to not be able to proof all our URLs in the Pony website. That pull request was a follow-on to [another pull request](https://github.com/manuzhang/mkdocs-htmlproofer-plugin/pull/72) that I opened last week.
 
 ## Releases
 
