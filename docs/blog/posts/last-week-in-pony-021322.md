@@ -19,7 +19,7 @@ It was also a busy week with RFCS. 3 RFCs were moved to "final comment period" a
 
 - [ponyup](https://github.com/ponylang/ponyup) is now available for Windows. This is a huge moment in making it easier to install Pony on Windows. You can now download ponyup and use it to install both [ponyc](https://github.com/ponylang/ponyc) and [corral](https://github.com/ponylang/corral).
 - Sean T. Allen held his third weekly "office hours" meeting. It was another good week of discussing many things Pony. Got Pony related questions or conversation? Join Sean every Friday at 15:00 Eastern US on [Zoom](https://us02web.zoom.us/j/77752669310?pwd=bSSyWWTduqMRfdvEpEBo9DICCDjxWA.1).
-- Audio from the [February 8th](https://sync-recordings.ponylang.io/r/2022_02_08.m4a) Pony development sync is available.
+- Audio from the [February 8th](https://vimeo.com/916936696) Pony development sync is available.
 
 ## Issue of the Week
 

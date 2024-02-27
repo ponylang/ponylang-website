@@ -15,7 +15,7 @@ We have 1 new RFC and 3 that are ready for vote. Corral 0.5.6 has been released.
 
 ## Items of note
 
-- Audio from the February 15th, 2022 Pony development sync is now available: [https://sync-recordings.ponylang.io/r/2022_02_15.m4a](https://sync-recordings.ponylang.io/r/2022_02_15.m4a). We covered a lot of ground including ponyc bugs [#3737](https://github.com/ponylang/ponyc/issues/3737), [#2150](https://github.com/ponylang/ponyc/issues/2150), and [#3997](https://github.com/ponylang/ponyc/issues/3997). If you listen along you might also learn a bit about how the Pony compiler handles field initialization checks for try/else, if/else, and other control structures.
+- Audio from the February 15th, 2022 Pony development sync is now available: [https://vimeo.com/916937017](https://vimeo.com/916937017). We covered a lot of ground including ponyc bugs [#3737](https://github.com/ponylang/ponyc/issues/3737), [#2150](https://github.com/ponylang/ponyc/issues/2150), and [#3997](https://github.com/ponylang/ponyc/issues/3997). If you listen along you might also learn a bit about how the Pony compiler handles field initialization checks for try/else, if/else, and other control structures.
 
 ## Issue of the Week
 

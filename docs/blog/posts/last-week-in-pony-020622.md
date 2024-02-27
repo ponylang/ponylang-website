@@ -18,7 +18,7 @@ It was also a busy week with RFCS. 3 new RFCs were opened, 1 was implemented, an
 ## Items of note
 
 - Sean T. Allen held his second weekly "office hours" meeting. It was another good week of discussing many things Pony including what needs to be done to the ["Change FFI to be disallowed by default" RFC](https://github.com/ponylang/rfcs/pull/195) to get it ready for review. Got Pony related questions or conversation? Join Sean every Friday at 15:00 Eastern US on [Zoom](https://us02web.zoom.us/j/77752669310?pwd=bSSyWWTduqMRfdvEpEBo9DICCDjxWA.1).
-- Audio from the [February 1st](https://sync-recordings.ponylang.io/r/2022_02_01.m4a) Pony development sync is available.
+- Audio from the [February 1st](https://vimeo.com/916936483) Pony development sync is available.
 
 ## Releases
 
