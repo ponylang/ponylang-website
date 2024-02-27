@@ -1,5 +1,5 @@
 git+https://${INSIDERS_PAT}@github.com/squidfunk/mkdocs-material-insiders.git
-git+https://github.com/seantallen/mkdocs-htmlproofer-plugin.git@intra-blog-links
+git+https://github.com/manuzhang/mkdocs-htmlproofer-plugin.git@5776fea0a38d552f8bb5d8e93df34e4e40c7c85f
 mkdocs-ezlinks-plugin>=0.1.8
 mkdocs-rss-plugin>=1.12.1
 tzdata>=2024.1
