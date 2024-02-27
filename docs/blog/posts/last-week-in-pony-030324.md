@@ -22,7 +22,7 @@ The [recording](https://sync-recordings.ponylang.io/r/2024_02_27.mp4) of the Feb
 
 ### Office Hours
 
-This week's Office Hours was in many ways, a recap of last week's. Adrian Boyko took Red Davies through the particulars of the "leaseable buffer" that was [discussed last week](/blog/posts/last-week-in-pony-022524.md#office-hours).
+This week's Office Hours was in many ways, a recap of last week's. Adrian Boyko took Red Davies through the particulars of the "leasable buffer" that was [discussed last week](/blog/posts/last-week-in-pony-022524.md#office-hours).
 
 Additionally, Adrian shared [a link](https://www.gnuradio.org/blog/2017-01-05-buffers/) to a very cool data structure from the [GNU Radio](https://www.gnuradio.org/) project emulates a ring buffer.
 
