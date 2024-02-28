@@ -20,7 +20,7 @@ The supported version of FreeBSD has switched to 13.0 for ponyc and corral. The 
 
 - @mfelsche writes:
 
-The Roaring pony folks did meet again and recorded their session: [https://sync-recordings.ponylang.io/roaring-bitmap/2021_04_13.mp4](https://sync-recordings.ponylang.io/roaring-bitmap/2021_04_13.mp4). This time we did some small code cleanup, detected a non-terminating ponycheck generator and we have been looking at ponybench, the benchmarking library from the pony stdlib.
+The Roaring pony folks did meet again and recorded their session: [https://vimeo.com/917360986](https://vimeo.com/917360986). This time we did some small code cleanup, detected a non-terminating ponycheck generator and we have been looking at ponybench, the benchmarking library from the pony stdlib.
 
 ---
 

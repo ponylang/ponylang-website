@@ -28,7 +28,7 @@ See the [release notes](https://github.com/ponylang/ponyup/releases/tag/0.6.3) f
 
 @mfelsche writes:
 
-We started our first session of implementing the [RoaringBitmap](https://www.roaringbitmap.org/) in Pony. We recorded the whole thing, where you can see me type. We didn't get much done, but covered quite a few pony basics: [The recording](https://sync-recordings.ponylang.io/roaring-bitmap/2021_03_18.mp4).
+We started our first session of implementing the [RoaringBitmap](https://www.roaringbitmap.org/) in Pony. We recorded the whole thing, where you can see me type. We didn't get much done, but covered quite a few pony basics: [The recording](https://vimeo.com/917360368).
 
 We are planning on doing another session next Thursday, March the 25th at 10 PM CET, where we lay some more groundwork and then branch out for working on it in parallel. So we gonna code and we gonna plan. Join our [Zulip Stream](https://ponylang.zulipchat.com/#narrow/stream/190363-projects/topic/RoaringBitmap) for more info!
 
