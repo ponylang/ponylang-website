@@ -49,7 +49,7 @@ See these previous LWIP entries for more information about the "new theme":
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2022_12_06.m4a) from the December 6th, 2022 sync is available.
+[Audio](https://vimeo.com/917344372) from the December 6th, 2022 sync is available.
 
 Aside from normal sync business, there was some interesting discussion towards the beginning of the call. It's a little hard to summarize, so, you'll just have to listen if you want to know more!
 

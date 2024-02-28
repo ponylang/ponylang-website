@@ -26,7 +26,7 @@ The release will be coming "soon" where "soon" is a product of Sean's heavy work
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_02_21.m4a) from the February 21st, 2023 sync is available.
+[Audio](https://vimeo.com/917346147) from the February 21st, 2023 sync is available.
 
 The February 21st development sync had only one ticket on the agenda to review, which was then followed by group discussion on a few topics related to the internals and build process of the Pony compiler and runtime. Among the major topics discussed were:
 

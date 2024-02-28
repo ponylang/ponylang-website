@@ -18,7 +18,7 @@ A long and extensive Office Hours.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_06_20.m4a) from the June 20th, 2023 sync is available.
+[Audio](https://vimeo.com/917348005) from the June 20th, 2023 sync is available.
 
 The sync this week was so short that this summary is almost as long. Seriously, check it out for yourself. It's about 5 minutes.
 

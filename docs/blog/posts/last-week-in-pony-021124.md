@@ -21,7 +21,7 @@ The 'Constrained Types' RFC was accepted.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2024_02_06.m4a) from the February 6th, 2024 sync is available.
+[Audio](https://vimeo.com/917352867) from the February 6th, 2024 sync is available.
 
 We had a fairly short agenda this week. The highlight was the approval of the [Constrained Types RFC](https://github.com/ponylang/rfcs/pull/213).
 

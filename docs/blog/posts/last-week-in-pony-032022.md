@@ -15,7 +15,7 @@ Version 0.49.1 of ponyc has been released! We also have 2 issues to highlight th
 
 ## Items of note
 
-- Audio from the March 15, 2022 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2022_03_15.m4a](https://sync-recordings.ponylang.io/r/2022_03_15.m4a)
+- Audio from the March 15, 2022 Pony development sync is available: [https://vimeo.com/917338873](https://vimeo.com/917338873)
 
 ## Issue of the Week
 

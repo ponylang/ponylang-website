@@ -18,7 +18,7 @@ You probably won't remember this 3rd of December.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_11_28.m4a) from the November 28th, 2023 sync is available.
+[Audio](https://vimeo.com/917351302) from the November 28th, 2023 sync is available.
 
 We had a short agenda that we ran through pretty quickly. It was almost entirely pull requests opened by Sean that closed "good first issues" posted to the [contribute to pony Zulip stream](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
 

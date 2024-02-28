@@ -15,7 +15,7 @@ Audio from the April 5th, 2022 Pony development sync is available.
 
 ## Items of note
 
-- Audio from the April 5th, 2022 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2022_04_05.m4a](https://sync-recordings.ponylang.io/r/2022_04_05.m4a)
+- Audio from the April 5th, 2022 Pony development sync is available: [https://vimeo.com/917339655](https://vimeo.com/917339655)
 
 ## Issue of the Week
 

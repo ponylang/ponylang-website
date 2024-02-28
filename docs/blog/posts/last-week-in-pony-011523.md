@@ -17,7 +17,7 @@ Most of the "above ground" Pony activity this week was our usual weekly developm
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_01_10.m4a) from the January 10th, 2023 sync is available.
+[Audio](https://vimeo.com/917345087) from the January 10th, 2023 sync is available.
 
 So here's the story, Sean is supposed to write up the summary of what happened, but he waited until Friday to do it and.... HE DOESN'T REMEMBER. So, no summary for you. You'll just have to listen and find out.
 

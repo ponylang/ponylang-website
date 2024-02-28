@@ -55,7 +55,7 @@ My take, if you are a Pony person and you were going to learn one of those, do I
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_06_06.m4a) from the June 6th, 2023 sync is available.
+[Audio](https://vimeo.com/917347732) from the June 6th, 2023 sync is available.
 
 There was no agenda for this week's meeting. We devoted the entire meeting to discussing how to integrate [mutation testing](https://en.wikipedia.org/wiki/Mutation_testing) "into the Pony compiler". Note this was for mutation testing that can be used by end users on their Pony code, not mutation testing *of* the Pony compiler.
 

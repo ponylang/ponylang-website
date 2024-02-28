@@ -15,7 +15,7 @@ Version 0.51.0 of ponylang/ponyc has been released! A new RFC has been opened fo
 
 ## Items of note
 
-- Audio from the May 24th, 2022 Pony Development Sync is available: [https://sync-recordings.ponylang.io/r/2022_05_24.m4a](https://sync-recordings.ponylang.io/r/2022_05_24.m4a)
+- Audio from the May 24th, 2022 Pony Development Sync is available: [https://vimeo.com/917340645](https://vimeo.com/917340645)
 
 ## Releases
 

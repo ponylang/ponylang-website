@@ -31,7 +31,7 @@ For those of us who came from languages that block, there's a section in the [po
 
 ## Items of note
 
-- Audio from the August 2nd Pony Development sync is available: [https://sync-recordings.ponylang.io/r/2022_08_02.m4a](https://sync-recordings.ponylang.io/r/2022_08_02.m4a)
+- Audio from the August 2nd Pony Development sync is available: [https://vimeo.com/917342351](https://vimeo.com/917342351)
 
 ---
 

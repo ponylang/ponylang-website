@@ -33,7 +33,7 @@ This week we merged support for FreeBSD 13.1 and moved our ponyc CI system to te
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2022_11_29.m4a) from the November 29th, 2022 sync is available.
+[Audio](https://vimeo.com/917344081) from the November 29th, 2022 sync is available.
 
 Our weekly sync call was primarily dominated by conversation about two topics. A discussion of issues around [the fix](https://github.com/ponylang/ponyc/pull/4256) for [issue #1118](https://github.com/ponylang/ponyc/issues/1118) and discussion of options for [alerting to errors from StdStream](https://github.com/ponylang/rfcs/issues/205).
 

@@ -18,7 +18,7 @@ Let's talk about "macros".
 
 ### Pony Development Sync
 
-[Audio & Video](https://sync-recordings.ponylang.io/r/2023_06_13.mp4) from the June 13th, 2023 sync is available.
+[Audio & Video](https://vimeo.com/917347889) from the June 13th, 2023 sync is available.
 
 In today's sync, we chatted through some rough ideas for macro systems, how it's done in other languages, how it might be done in Pony. Te concept of macros covers a very wide set of possible use cases (some of them potentially with conflicting requirements). We only talked through a few use case examples today, and also hinted at the need to gather more use cases together to start to coherently generalize the need.
 

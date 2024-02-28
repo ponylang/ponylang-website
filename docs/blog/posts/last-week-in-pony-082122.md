@@ -31,7 +31,7 @@ How does Pony achieve this?
 
 ## Items of note
 
-* Audio from the [August 16th](https://sync-recordings.ponylang.io/r/2022_08_16.m4a) Pony development sync is available.
+* Audio from the [August 16th](https://vimeo.com/917342502) Pony development sync is available.
 
 ## Issues of the Week
 

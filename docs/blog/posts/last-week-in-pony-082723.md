@@ -52,7 +52,7 @@ For whatever reason, we get a lot of weird TCP test errors running on the GitHub
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_08_22.m4a) from the August 22nd, 2023 sync is available.
+[Audio](https://vimeo.com/917349107) from the August 22nd, 2023 sync is available.
 
 We ran through a bunch of PRs. Most of them were related to our ongoing move from CirrusCI to GitHub Actions, but we had a few other things we covered including the infamous [issue #4369](https://github.com/ponylang/ponyc/issues/4369).
 

@@ -32,7 +32,7 @@ Until the next ponyc release, only nightly builds are available.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2024_01_30.m4a) from the January 30th, 2024 sync is available.
+[Audio](https://vimeo.com/917352703) from the January 30th, 2024 sync is available.
 
 Today's sync was a good one. Any sync that involves "live coding" where we go from triaged to fix for an issue is a good one. There's plenty of other content as well, but, the highlight is the working out of a fix for [ponyc issue #4479](https://github.com/ponylang/ponyc/issues/4479).
 

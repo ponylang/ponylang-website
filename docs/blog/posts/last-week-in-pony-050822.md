@@ -15,7 +15,7 @@ The May 6th Pony office hours featured Sean T. Allen doing an informal presentat
 
 ## Items of note
 
-- Audio from the May 3rd, 2022 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2022_05_03.m4a](https://sync-recordings.ponylang.io/r/2022_05_03.m4a) Lots and lots of type system talk.
+- Audio from the May 3rd, 2022 Pony development sync is available: [https://vimeo.com/917340277](https://vimeo.com/917340277) Lots and lots of type system talk.
 
 - The May 6th Pony office hours featured Sean T. Allen doing an informal presentation of the Pony runtime backpressure system. Video is available: [https://vimeo.com/707155973](https://vimeo.com/707155973).
 

@@ -18,7 +18,7 @@ A slow week in Pony.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_03_21.mp4) from the March 21th, 2023 sync is available.
+[Audio](https://vimeo.com/917346656) from the March 21th, 2023 sync is available.
 
 The call revolved around a single issue ticket: [ponyc #4329](https://github.com/ponylang/ponyc/issues/4329). And how to deal with the bug that arises from the implementation of `iftype` that results in the following code generating bad LLVM IR:
 

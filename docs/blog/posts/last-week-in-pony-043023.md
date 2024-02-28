@@ -62,7 +62,7 @@ The ponylang organization SSL builder Docker images are being updated this week.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_04_25.m4a) from the April 25th, 2023 sync is available.
+[Audio](https://vimeo.com/917347143) from the April 25th, 2023 sync is available.
 
 Phew! That was a long one. If you listen to this week's sync recording, strap in. It's 2 hours long. The breakdown is thus...
 

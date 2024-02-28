@@ -25,7 +25,7 @@ Next up in the development of the library, documentation and support for [extend
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_02_14.m4a) from the February 14th, 2023 sync is available.
+[Audio](https://vimeo.com/917345936) from the February 14th, 2023 sync is available.
 
 We had just about the shortest auto-generated agenda that we will probably ever have, so... mostly conversation about what Joe and Sean are going to be up to and how it won't generate a lot of agenda content for a while so Sync meetings might be a little light for a while.
 

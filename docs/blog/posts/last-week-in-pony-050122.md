@@ -15,7 +15,7 @@ Version 0.50.0 of ponylang/ponyc has been released!
 
 ## Items of note
 
-- Audio from the Pony development sync for April 26, 2022 is now available: [https://sync-recordings.ponylang.io/r/2022_04_26.m4a](https://sync-recordings.ponylang.io/r/2022_04_26.m4a).
+- Audio from the Pony development sync for April 26, 2022 is now available: [https://vimeo.com/917340053](https://vimeo.com/917340053).
 
 - A new LibreSSL pony builder image has been released that includes LibreSSL version 3.5.2. You can get it from DockerHub as `ponylang/shared-docker-ci-x86-64-unknown-linux-builder-with-libressl-3.5.2`. The 3.2.5 and 3.4.1 LibreSSL builders will stop being updated some time after June 1, 2022.
 

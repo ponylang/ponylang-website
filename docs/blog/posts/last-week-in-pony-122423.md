@@ -22,7 +22,7 @@ We are taking a break for the holidays. There will be no Office Hours or Pony De
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_12_19.m4a) from the December 19th, 2023 sync is available.
+[Audio](https://vimeo.com/917351838) from the December 19th, 2023 sync is available.
 
 It was a very short sync. We ran through the agenda which was one pull request and one issue.
 

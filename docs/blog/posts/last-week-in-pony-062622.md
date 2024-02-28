@@ -15,9 +15,9 @@ Audio for the June 14th and June 21st Pony Development Sync are available.
 
 ## Items of note
 
-- Audio from the June 14th, 2022 Pony Development Sync is available: [https://sync-recordings.ponylang.io/r/2022_06_14.m4a](https://sync-recordings.ponylang.io/r/2022_06_14.m4a)
+- Audio from the June 14th, 2022 Pony Development Sync is available: [https://vimeo.com/917340973](https://vimeo.com/917340973)
 
-- Audio from the June 21, 2022 Pony Development Sync is available: [https://sync-recordings.ponylang.io/r/2022_06_21.m4a](https://sync-recordings.ponylang.io/r/2022_06_21.m4a)
+- Audio from the June 21, 2022 Pony Development Sync is available: [https://vimeo.com/917341166](https://vimeo.com/917341166)
 
 ---
 

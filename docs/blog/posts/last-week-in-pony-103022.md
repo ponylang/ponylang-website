@@ -20,8 +20,8 @@ Welcome to the latest issue of the "mostly weekly" Pony newsletter "Last Week in
 We're a little behind reporting the news of the week so, we have not 1 but 2
 development syncs for you to catch up on:
 
-- [Audio](https://sync-recordings.ponylang.io/r/2022_10_25.m4a) from the  October 25th, 2022 sync is available.
-- [Audio](https://sync-recordings.ponylang.io/r/2022_10_18.m4a) from the October 18th, 2022 sync is available.
+- [Audio](https://vimeo.com/917343268) from the  October 25th, 2022 sync is available.
+- [Audio](https://vimeo.com/917342826) from the October 18th, 2022 sync is available.
 
 If you are interested in attending a Pony Development Sync, please do! We have it on Zoom specifically because Zoom is the friendliest platform that allows folks without an explicit invitation to join. Every week, [a development sync reminder](https://ponylang.zulipchat.com/#narrow/stream/189932-announce/topic/Sync.20Reminder) with full information about the sync is posted to the [announce stream](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) on the Ponylang Zulip. You can stay up-to-date with the sync schedule by subscribing to the [sync calendar](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics). We do our best to keep the calendar correctly updated.
 

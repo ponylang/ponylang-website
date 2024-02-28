@@ -35,7 +35,7 @@ Sean T. Allen has started working on replacing Pony's [centralized cycle detecto
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2022_11_22.m4a) from the November 22nd, 2022 sync is available.
+[Audio](https://vimeo.com/917343891) from the November 22nd, 2022 sync is available.
 
 This week's sync went from one where Sean was expecting to do a solo sync going over issues and record the process to a fairly "group-oriented sync". Attendees this week were: Sean T. Allen, Joe Eli McIlvain, Jason Carr, Red Davies, and Adrian Boyko.
 

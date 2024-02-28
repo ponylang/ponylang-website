@@ -18,7 +18,7 @@ A quiet week.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_09_19.m4a) from the September 19th, 2023 sync is available.
+[Audio](https://vimeo.com/917349906) from the September 19th, 2023 sync is available.
 
 We kept a tight 20 minutes on this week's sync. Bang bang bang. Not a lot that would be of interest to the casual listening public, but, it's only 20 minutes, so heck. Give it a listen.
 
