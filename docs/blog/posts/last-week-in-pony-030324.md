@@ -14,9 +14,13 @@ date: 2024-02-25T07:00:06-04:00
 
 ## Items of Note
 
+### Vimeo Transition Complete
+
+We've migrated all our Pony Development Sync recordings to Vimeo. You can find them all in the [Pony Development Sync channel](https://vimeo.com/channels/ponydevelopmentsync).
+
 ### Pony Development Sync
 
-The [recording](https://sync-recordings.ponylang.io/r/2024_02_27.mp4) of the February 27th, 2024 sync is available.
+The [recording](https://vimeo.com/917355285) of the February 27th, 2024 sync is available.
 
 ### Office Hours
 
