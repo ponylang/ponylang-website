@@ -48,7 +48,7 @@ We've stopped updating:
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_10_24.m4a) from the October 24th, 2023 sync is available.
+[Audio](https://vimeo.com/917350693) from the October 24th, 2023 sync is available.
 
 We briefly ran through some open pull requests. No special topics or extended discussions.
 

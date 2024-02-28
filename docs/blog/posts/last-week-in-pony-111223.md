@@ -17,7 +17,7 @@ Sometimes the volunteer driven project is active, sometimes it is more like this
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_11_07.m4a) from the November 7th, 2023 sync is available.
+[Audio](https://vimeo.com/917351092) from the November 7th, 2023 sync is available.
 
 We ran through our single item agenda pretty quick, but then there's some discussion after. All of it is about our new "bot" that posts "good first issue" items to Zulip.
 

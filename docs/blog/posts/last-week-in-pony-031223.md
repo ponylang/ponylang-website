@@ -19,7 +19,7 @@ Not a ton of above ground activity with Pony this last week, so this is a fairly
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_03_07.m4a) from the March 7th, 2023 sync is available.
+[Audio](https://vimeo.com/917346335) from the March 7th, 2023 sync is available.
 
 ### Office Hours
 

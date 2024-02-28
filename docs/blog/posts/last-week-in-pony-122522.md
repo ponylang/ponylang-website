@@ -17,7 +17,7 @@ It was a week dominated by conversations about distributed cycle detection. Both
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2022_12_20.mp4) from the December 20th, 2022 sync is available.
+[Audio](https://vimeo.com/917344648) from the December 20th, 2022 sync is available.
 
 And o my, what a long sync it was. So normally, sync runs up to an hour in length and then we end. This week the meeting ran for at least a couple hours.
 

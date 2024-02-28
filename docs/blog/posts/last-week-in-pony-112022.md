@@ -43,7 +43,7 @@ Note, in order to see the improvements, you might have to clear cached content f
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2022_11_15.m4a) from the November 15th, 2022 sync is available.
+[Audio](https://vimeo.com/917343762) from the November 15th, 2022 sync is available.
 
 We addressed a number of RFCS, issues, and PRs during the one hour of the sync call. A good amount of time went to Sean and Joe live triaging [ponyc issue #4240](https://github.com/ponylang/ponyc/issues/4240), which is now ready for work.
 

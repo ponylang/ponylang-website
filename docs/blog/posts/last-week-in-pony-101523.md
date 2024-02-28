@@ -22,7 +22,7 @@ Pony 0.57.0 was released this past week. It fixes a flaw in the implementation o
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_10_10.m4a) from the October 10th, 2023 sync is available.
+[Audio](https://vimeo.com/917350362) from the October 10th, 2023 sync is available.
 
 ## Releases
 

@@ -29,7 +29,7 @@ available as `ghcr.io/shared-docker-ci-x86-64-unknown-linux-builder-with-openssl
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2024_01_09.m4a) from the January 9th, 2023 sync is available.
+[Audio](https://vimeo.com/917352073) from the January 9th, 2023 sync is available.
 
 We had a short agenda. We ran through it. Pretty standard for a Pony Development Sync.
 

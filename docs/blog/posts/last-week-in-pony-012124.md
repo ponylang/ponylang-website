@@ -26,7 +26,7 @@ If you use any of those libraries, we advise updating as soon as possible.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2024_01_16.m4a) from the January 16th, 2023 sync is available.
+[Audio](https://vimeo.com/917352238) from the January 16th, 2023 sync is available.
 
 Today's sync featured a couple of interesting topics. We had a discussion about improvements that could be made to the [ponylang/http library](https://github.com/ponylang/http).
 

@@ -15,7 +15,7 @@ There's a new version of the Pony playground available. A new RFC has been creat
 
 ## Items of note
 
-- Audio from the March 1st, 2022 Pony development sync is available: [https://sync-recordings.ponylang.io/r/2022_03_01.m4a](https://sync-recordings.ponylang.io/r/2022_03_01.m4a)
+- Audio from the March 1st, 2022 Pony development sync is available: [https://vimeo.com/917338481](https://vimeo.com/917338481)
 
 - There's a new version of the [Pony playground available](https://playground.ponylang.io/). Go give it a spin and see if you can notice the new features. Thanks @mfelsche for your work!
 

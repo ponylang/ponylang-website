@@ -22,7 +22,7 @@ We're canceling our development sync meetings on the 26th of December and the 2n
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_12_12.m4a) from the December 12th, 2023 sync is available.
+[Audio](https://vimeo.com/917351678) from the December 12th, 2023 sync is available.
 
 We ran through our agenda of items marked as "discuss during sync". There was nothing ground-breaking in the content.
 

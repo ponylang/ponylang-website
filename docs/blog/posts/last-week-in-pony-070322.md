@@ -15,7 +15,7 @@ Version 0.51.1 of ponyc has been released! @nogginly has started a package, gith
 
 ## Items of note
 
-- Audio from the June 28th Pony Development sync is available: [https://sync-recordings.ponylang.io/r/2022_06_28.m4a](https://sync-recordings.ponylang.io/r/2022_06_28.m4a)
+- Audio from the June 28th Pony Development sync is available: [https://vimeo.com/917341379](https://vimeo.com/917341379)
 
 ## Releases
 

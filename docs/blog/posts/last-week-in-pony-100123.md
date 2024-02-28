@@ -17,7 +17,7 @@ It was another quiet week in Pony as Sync was fairly short, Office Hours has mov
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_09_26.m4a) from the September 26th, 2023 sync is available.
+[Audio](https://vimeo.com/917350063) from the September 26th, 2023 sync is available.
 
 We kept it fairly short. We reviewed some PRs, and spent some time talking through [a type system issue causing a compiler crash](https://github.com/ponylang/ponyc/issues/4451).
 

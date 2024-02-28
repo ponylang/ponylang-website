@@ -24,7 +24,7 @@ Tom's YouTube channel ["Context Free"](https://www.youtube.com/@contextfree) pos
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_03_14.m4a) from the March 14th, 2023 sync is available.
+[Audio](https://vimeo.com/917346486) from the March 14th, 2023 sync is available.
 
 After briefly running through the open items on the agenda, Joe, Adrian, and Red talked through FFI pain points and possible solutions.
 

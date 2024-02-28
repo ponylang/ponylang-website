@@ -35,7 +35,7 @@ We've updated [ponylang/net_ssl](https://github.com/ponylang/net_ssl), [ponylang
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_01_03.m4a) from the January 3rd, 2023 sync is available.
+[Audio](https://vimeo.com/917344880) from the January 3rd, 2023 sync is available.
 
 A decent amount of time at sync was spent discussing a couple of older RFCs. Sean had started up conversation on them again. We decided to move forward with [one](https://github.com/ponylang/rfcs/pull/174) and table [another](https://github.com/ponylang/rfcs/pull/173) due to a lack of consensus.
 

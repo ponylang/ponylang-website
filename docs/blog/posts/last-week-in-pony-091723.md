@@ -27,7 +27,7 @@ Starting Friday October 6th, Office Hours is moving to a 12:30 Eastern start tim
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_09_12.m4a) from the September 12th, 2023 sync is available.
+[Audio](https://vimeo.com/917349743) from the September 12th, 2023 sync is available.
 
 This week's sync was a reasonably short affair. We ran through some PRs. Merged two important "want to get these out as soon as possible changes". We also discussed the ongoing permissions lockdown we've been doing around GitHub Actions to harden up our attack surface.
 

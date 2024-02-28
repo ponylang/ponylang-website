@@ -17,7 +17,7 @@ Last week, we accepted two RFCs that will result in changes to Pony syntax and t
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_01_24.m4a) from the January 24th, 2023 sync is available.
+[Audio](https://vimeo.com/917345346) from the January 24th, 2023 sync is available.
 
 The January 24th development was a pretty brisk affair. We voted on two RFCs, both of which were accepted and we went through a few issues and PRs across a few repositories. The entire thing clocked in at around 30 minutes; quite a bit less than our usual hour.
 

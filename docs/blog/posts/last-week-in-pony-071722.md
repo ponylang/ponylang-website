@@ -21,9 +21,9 @@ We'll keep the seat warm for you Theo!
 
 - RISC-V support has [landed on main](https://github.com/ponylang/ponyc/pull/3435). It will go out in the [next release](https://github.com/ponylang/ponyc/issues/4154) targeted for early August.
 
-- Audio from the July 5th Pony Development sync is available: [https://sync-recordings.ponylang.io/r/2022_07_05.m4a](https://sync-recordings.ponylang.io/r/2022_07_05.m4a)
+- Audio from the July 5th Pony Development sync is available: [https://vimeo.com/917341618](https://vimeo.com/917341618)
 
-- Audio from the July 12th Pony Development sync is available: [https://sync-recordings.ponylang.io/r/2022_07_12.m4a](https://sync-recordings.ponylang.io/r/2022_07_12.m4a)
+- Audio from the July 12th Pony Development sync is available: [https://vimeo.com/917341765](https://vimeo.com/917341765)
 
 ## Releases
 

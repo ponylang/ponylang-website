@@ -26,7 +26,7 @@ Niclas [pointed out](https://ponylang.zulipchat.com/#narrow/stream/189934-genera
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_07_25.m4a) from the July 25th, 2023 sync is available.
+[Audio](https://vimeo.com/917348456) from the July 25th, 2023 sync is available.
 
 We discussed 1 PR from Dipin Hora ["Move heap ownership info from chunk to pagemap"](https://github.com/ponylang/ponyc/pull/4368). The PR when finished should improve performance of the Pony runtime at the cost of an additional bit of memory usage.
 

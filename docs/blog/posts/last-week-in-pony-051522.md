@@ -15,7 +15,7 @@ Audio from the May 10, 2022 Pony Development Sync is available.
 
 ## Items of note
 
-- Audio from the May 10, 2022 Pony Development Sync is available: [https://sync-recordings.ponylang.io/r/2022_05_10.m4a](https://sync-recordings.ponylang.io/r/2022_05_10.m4a)
+- Audio from the May 10, 2022 Pony Development Sync is available: [https://vimeo.com/917340452](https://vimeo.com/917340452)
 
 ---
 

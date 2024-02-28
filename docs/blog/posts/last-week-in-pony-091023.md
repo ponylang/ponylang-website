@@ -34,7 +34,7 @@ My personal take is to be wary of any talk about "the next programming language"
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_09_05.m4a) from the September 5th, 2023 sync is available.
+[Audio](https://vimeo.com/917349560) from the September 5th, 2023 sync is available.
 
 The primary topic of this week's sync was the Windows TCP test flakiness that Sean spent several days tracking down. Knowing that he was going to be starting a new job on the 5th and wouldn't have time to address any hard Pony issues for a while, he dug in and figured out the source of our Windows TCP test flakiness that was only showing up in GitHub Actions. Curious? Good. Now, go listen to the recording.
 

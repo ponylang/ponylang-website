@@ -24,7 +24,7 @@ We have a fix that needs testing but haven't been able to get the assistance of 
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_10_17.m4a) from the October 17th, 2023 sync is available.
+[Audio](https://vimeo.com/917350509) from the October 17th, 2023 sync is available.
 
 This week's sync was focused on issues and PRs in the ponyc repo. Some of the issues were new, some were old. And then we were on discussing GitHub's support for MacOS on Apple Silicon.
 

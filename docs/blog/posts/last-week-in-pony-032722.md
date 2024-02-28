@@ -15,7 +15,7 @@ The March 22nd Pony development sync recording is available, along with video si
 
 ## Items of note
 
-- The first 30 minutes of the Pony development sync on March 22nd was a fairly normal affair as the [full audio will show](https://sync-recordings.ponylang.io/r/2022_03_22.m4a). Around the 30 minute mark, a group debugging of an issue open by Red Davies ensued along with lots of "this will make for great radio jokes". Because there was a good amount of screen sharing, we've also made the [video available](https://sync-recordings.ponylang.io/r/2022_03_22.mp4) for those who want to get a feel for this particular ponyc compiler bug debugging session. Be forewarned, its a 431 meg download.
+- The first 30 minutes of the Pony development sync on March 22nd was a fairly normal affair. Around the 30 minute mark, a group debugging of an issue open by Red Davies ensued along with lots of "this will make for great radio jokes". Because there was a good amount of screen sharing, we've also made the [video available](https://vimeo.com/917339136) for those who want to get a feel for this particular ponyc compiler bug debugging session. Be forewarned, its a 431 meg download.
 
 ## Issue of the Week
 

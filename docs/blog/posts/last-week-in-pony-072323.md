@@ -18,7 +18,7 @@ Barrelling downhill towards death because we didn't attend Office Hours.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_07_18.m4a) from the July 18th, 2023 sync is available.
+[Audio](https://vimeo.com/917348274) from the July 18th, 2023 sync is available.
 
 We discussed and merged 2 PRs. It was a pretty quick call.
 

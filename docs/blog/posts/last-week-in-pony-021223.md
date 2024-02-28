@@ -34,7 +34,7 @@ We've added a topic on GitHub ["pony-core-team-library"](https://github.com/topi
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_02_07.mp4) from the February 7th, 2023 sync is available.
+[Audio](https://vimeo.com/917345668) from the February 7th, 2023 sync is available.
 
 Sync had a short agenda this week. Only a couple PRs and new issues to go over. Most of the time was spent going over an interesting Pony LLVM IR hacking problem that Nicolai Stawinoga joined the call to discuss. It's an interesting project he has going on and if LLVM IR spelunking is your thing, have a watch.
 

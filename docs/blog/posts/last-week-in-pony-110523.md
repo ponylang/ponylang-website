@@ -18,7 +18,7 @@ A not particularly scary week in the land of Pony.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_10_31.m4a) from the October 31st, 2023 sync is available.
+[Audio](https://vimeo.com/917350851) from the October 31st, 2023 sync is available.
 
 We had a short agenda that we ran through pretty quickly.
 

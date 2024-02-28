@@ -31,7 +31,7 @@ All of the content has been merged into the [Pony website](https://www.ponylang.
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2024_02_13.m4a) from the February 13th, 2024 sync is available.
+[Audio](https://vimeo.com/917353039) from the February 13th, 2024 sync is available.
 
 We had a quick agenda this week. It was about 15 minutes total. Have a listen.
 

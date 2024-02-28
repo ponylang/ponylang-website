@@ -21,7 +21,7 @@ And remember, Isaac pairs well with Pony so... be sure to program some Pony toda
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_05_09.m4a) from the May 9th, 2023 sync is available.
+[Audio](https://vimeo.com/917347351) from the May 9th, 2023 sync is available.
 
 The May 16th development sync has been cancelled as no core team members are available to host.
 

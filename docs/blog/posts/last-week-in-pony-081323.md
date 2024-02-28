@@ -18,7 +18,7 @@ Updates on the "Great CI Move of 2023".
 
 ### Pony Development Sync
 
-[Audio](https://sync-recordings.ponylang.io/r/2023_08_08.m4a) from the August 8th, 2023 sync is available.
+[Audio](https://vimeo.com/917348806) from the August 8th, 2023 sync is available.
 
 A large chunk of time during the sync call was spent discussing how we plan on responding to our need to [move our CI jobs off CirrusCI](https://www.ponylang.io/blog/2023/08/last-week-in-pony-august-6-2023/#a-great-and-mighty-ci-move-is-coming). Gordon, Joe, and Sean agreed on a general plan. We'll see how that plan holds up when it meets reality.
 

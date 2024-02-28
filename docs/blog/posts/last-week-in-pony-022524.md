@@ -41,7 +41,7 @@ The `actionlint` in the [shared-docker](https://github.com/ponylang/shared-docke
 
 ### Pony Development Sync
 
-The [recording](https://sync-recordings.ponylang.io/r/2024_02_20.mp4) of the February 20th, 2024 sync is available.
+The [recording](https://vimeo.com/917353303) of the February 20th, 2024 sync is available.
 
 We had a short, two issue agenda:
 
