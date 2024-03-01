@@ -18,6 +18,8 @@ date: 2024-02-25T07:00:06-04:00
 
 We've migrated all our Pony Development Sync recordings to Vimeo. You can find them all in the [Pony Development Sync channel](https://vimeo.com/channels/ponydevelopmentsync).
 
+We've also migrated the 3 Roaring Bitmap meeting recordings. You can find the, in the [Roaring Bitmap channel](https://vimeo.com/channels/roaringbitmap).
+
 ### Pony Development Sync
 
 The [recording](https://vimeo.com/917355285) of the February 27th, 2024 sync is available.
