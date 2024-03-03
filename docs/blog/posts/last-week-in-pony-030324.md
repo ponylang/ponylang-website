@@ -32,10 +32,6 @@ Additionally, Adrian shared [a link](https://www.gnuradio.org/blog/2017-01-05-bu
 
 While Red and Adrian were talking, I was working on getting [a pull request](https://github.com/manuzhang/mkdocs-htmlproofer-plugin/pull/75) in shape to fix a bug in [mkdocs-htmlproofer-plugin](https://github.com/manuzhang/mkdocs-htmlproofer-plugin) that was causing us to not be able to proof all our URLs in the Pony website. That pull request was a follow-on to [another pull request](https://github.com/manuzhang/mkdocs-htmlproofer-plugin/pull/72) that I opened last week.
 
-## Releases
-
-<< content >>
-
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
