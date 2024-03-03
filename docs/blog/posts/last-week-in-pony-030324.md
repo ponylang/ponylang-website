@@ -5,7 +5,7 @@ authors:
 categories:
   - "Last Week in Pony"
 title: "Last Week in Pony - March 3, 2024"
-date: 2024-02-25T07:00:06-04:00
+date: 2024-03-03T07:00:06-04:00
 ---
 
 This past week was a relatively slow week. We did manage to get the Vimeo migration completed. We also had a good Office Hours session.
