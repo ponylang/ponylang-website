@@ -22,7 +22,9 @@ The [recording](https://vimeo.com/<<id>>) of the March 5th, 2024 sync is availab
 
 ### Office Hours
 
-<< content >>
+Adrian, Red, and I had a good meeting that lasted about 90 minutes. We discussed memory allocation and garbage collection in Pony. We also discussed garbage collection "in general" and touched on compacting garbage collectors and why Pony doesn't relocate objects or any other form of compaction.
+
+We also discussed a few key points about designing good benchmarks. And discussed in some depth the `struct` keyword and how it's used in Pony.
 
 ---
 
