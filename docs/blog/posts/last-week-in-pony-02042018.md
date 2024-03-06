@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## Items of note
 
-- The folks over at Wallaroo Labs have a post about why they decided to write their own [Kafka client in Pony](https://github.com/WallarooLabs/pony-kafka) rather than simply wrapping the C library. While Wallaroo specific, the general thinking could apply to your Pony project as well: [https://blog.wallaroolabs.com/2018/01/why-we-wrote-our-kafka-client-in-pony/](https://blog.wallaroolabs.com/2018/01/why-we-wrote-our-kafka-client-in-pony/)
+- The folks over at Wallaroo Labs have a post about why they decided to write their own [Kafka client in Pony](https://github.com/WallarooLabs/pony-kafka) rather than simply wrapping the C library. While Wallaroo specific, the general thinking could apply to your Pony project as well. **Edit**: The link has since gone invalid so we've removed.
 
 - A new JSON parser for Pony has been announced on Reddit: [https://github.com/Krognol/ponyjson](https://github.com/Krognol/ponyjson)
 

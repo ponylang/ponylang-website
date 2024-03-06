@@ -21,7 +21,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- The folks over at Wallaroo Labs have published a [blog post](https://blog.wallaroolabs.com/2017/12/dynamic-tracing-a-pony---python-program-with-dtrace/) by Scott Fritchie (also a Pony committer!) about using DTrace to get observability into Wallaroo Python applications. It's got a ton of resources on DTrace and SystemTap. It's also the best resource out there right now for observing Pony programs using DTrace: [https://blog.wallaroolabs.com/2017/12/dynamic-tracing-a-pony---python-program-with-dtrace/](https://blog.wallaroolabs.com/2017/12/dynamic-tracing-a-pony---python-program-with-dtrace/)
+- The folks over at Wallaroo Labs have published a blog post by Scott Fritchie (also a Pony committer!) about using DTrace to get observability into Wallaroo Python applications. It's got a ton of resources on DTrace and SystemTap. It's also the best resource out there right now for observing Pony programs using DTrace: **Edit**: link removed as it has gone invalid.
 
 ## RFCs
 

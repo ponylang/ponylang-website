@@ -22,7 +22,7 @@ Version 0.11.4 has been released, with the full [release notes here](https://pon
 
 - [Pony Community Survey](https://docs.google.com/forms/d/e/1FAIpQLScBNr5dPPCVYchRukAm-sFR3wipndVJiua3xHr8CslohVFRlg/viewform?c=0&w=1&usp=send_form)
 
-- [Hello Wallaroo!](http://engineering.sendence.com/2017/03/hello-wallaroo/) A brief introduction to Sendence's Wallaroo, written in Pony.
+- Hello Wallaroo! A brief introduction to Sendence's Wallaroo, written in Pony. **Edit**: The link has since gone invalid so we've removed.
 
 - [Developer Sync Meeting](https://vimeo.com/915001289) This weeks developer sync meeting.
 

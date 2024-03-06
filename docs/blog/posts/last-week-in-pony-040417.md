@@ -36,7 +36,7 @@ There were several "point" releases last week. For a list of full releases see t
 
 - [New Website Layout](http://www.ponylang.io/) ponylang.io got an update, as well as an official place for the [Pony blog](http://www.ponylang.io/blog/)
 
-- [Pony Play Pen!](http://pony-playpen.lietar.net/) Pony now has a live, browser-accessible sandbox.
+- [Pony Play Pen!](https://playground.ponylang.io/) Pony now has a live, browser-accessible sandbox.
 
 - [Developer Sync Meeting](https://vimeo.com/915001704) Audio from the March 29th Pony developer sync meeting.
 

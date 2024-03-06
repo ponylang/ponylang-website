@@ -28,7 +28,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- "Funky Bob" aka Curtis Maloney has recently started learning Pony and has a [short blog post about his experience so far](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/).
+- "Funky Bob" aka Curtis Maloney has recently started learning Pony and has a short blog post about his experience so far. **Edit**: The link has since gone invalid so we've removed.
 
 ## RFCs
 

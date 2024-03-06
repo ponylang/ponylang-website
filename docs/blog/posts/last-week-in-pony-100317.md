@@ -21,9 +21,7 @@ On sunday Pony 0.19.2 has been released. It is a bug fix release which contains 
 
 The folks over at WallarooLabs have open sourced their *"ultrafast and elastic data processing engine"* Wallaroo. As many of you might have heard, Wallaroo is written in Pony. It's an excellent chance to explore a real world Pony codebase.
 
-The release announcement is here: [https://blog.wallaroolabs.com/2017/09/open-sourcing-wallaroo/](https://blog.wallaroolabs.com/2017/09/open-sourcing-wallaroo/)
-
-And the GitHub repo is here: [https://github.com/wallaroolabs/wallaroo](https://github.com/wallaroolabs/wallaroo)
+The GitHub repo is here: [https://github.com/wallaroolabs/wallaroo](https://github.com/wallaroolabs/wallaroo)
 
 ## Items of note
 

@@ -35,7 +35,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News and Blog Posts
 
-- Renato Athaydes wrote a little bit about Pony in his blog post: [Fearless concurrency: how Clojure, Rust, Pony, Erlang and Dart let you achieve that](https://sites.google.com/a/athaydes.com/renato-athaydes/posts/fearlessconcurrencyhowclojurerustponyerlanganddartletyouachievethat). Check out the associated [Hacker News](https://news.ycombinator.com/item?id=19241427) or [/r/programming](https://www.reddit.com/r/programming/comments/aucqq8/fearless_concurrency_how_clojure_rust_pony_erlang/) discussion if that's your thing.
+- Renato Athaydes wrote a little bit about Pony in his blog post: Fearless concurrency: how Clojure, Rust, Pony, Erlang and Dart let you achieve that. Check out the associated [Hacker News](https://news.ycombinator.com/item?id=19241427) or [/r/programming](https://www.reddit.com/r/programming/comments/aucqq8/fearless_concurrency_how_clojure_rust_pony_erlang/) discussion if that's your thing.
 
 ## RFCs
 

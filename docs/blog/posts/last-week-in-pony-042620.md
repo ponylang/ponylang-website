@@ -20,7 +20,7 @@ Nightly builds of ponyc for FreeBSD 12.1 are available. pony-semver has moved in
 
 - [pony-semver](https://github.com/ponylang/pony-semver), a project started by [@btab](https://github.com/btab/), has become an official Ponylang organization project. pony-semver is a semantic versioning library for Pony. It is being used in the [corral dependency manager](https://github.com/ponylang/corral) project.
 
-- Hydraconf is all online this July and they are looking for a Pony talk. Interested? Submit your talk today at: [https://speakers.hydraconf.com/](https://speakers.hydraconf.com/). The deadline to submit is May 1st, 2020.
+- Hydraconf is all online this July and they are looking for a Pony talk. Interested? Submit your talk today. The deadline to submit is May 1st, 2020.
 
 ## RFCs
 

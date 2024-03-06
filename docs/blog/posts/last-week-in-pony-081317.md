@@ -25,7 +25,7 @@ Yesterday we added the first revision of the [Pony Performance Cheat Sheet](http
 
 ## News and Blog Posts
 
-- Back in early July, Sean T. Allen travelled to Paris to talk Pony at [Polyconf 17](https://polyconf.com/). [Video](https://eventil.com/presentations/XrsemV) and [slides](https://speakerdeck.com/seantallen/why-pony) are now available for "Why Pony? Bleeding edge technology for your concurrency woes".
+- Back in early July, Sean T. Allen travelled to Paris to talk Pony at [Polyconf 17](https://polyconf.com/). [Slides](https://speakerdeck.com/seantallen/why-pony) are now available for "Why Pony? Bleeding edge technology for your concurrency woes".
 - Kevin Hoffman keeps rolling along with another Pony related blog post: ["Modeling Non-Blocking Interactions with Actors in Pony"](https://medium.com/@KevinHoffman/modeling-non-blocking-interactions-with-actors-in-pony-fae59151246a).
 - Brian Sletten gave a talk on Pony at No Fluff Just Stuff. It wasn't recorded but slides are available. Sadly, they were eventually taken down.
 

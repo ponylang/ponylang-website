@@ -28,7 +28,7 @@ We have quite a lot of exciting announcements this week. Releases for Ponyup and
 
 - On Wednesday January 8th, Pony core team member Sean T. Allen will be presenting Sylvan Clebsch paper ["Deny Capabilities for Safe, Fast Actors"](https://www.ponylang.io/media/papers/fast-cheap.pdf) at Papers We Love NYC. [RSVP](https://www.meetup.com/papers-we-love/events/267124284/) to confirm your spot.
 
-- The most well-known Pony project is [Wallaroo](https://github.com/wallaroolabs/wallaroo); a high-performance distributed stream processing framework written in Pony. AdExchanger recently published a [short case study](https://adexchanger.com/platforms/pubmatic-slashes-infrastructure-costs-with-wallaroo-labs/) about work that Wallaroo Labs did building a data processing system for Pubmatic based on Wallaroo. If you are looking to get a Pony project off the ground at work, the Pubmatic study could make for a nice pairing with the [Why we used Pony to write Wallaroo](https://blog.wallaroolabs.com/2017/10/why-we-used-pony-to-write-wallaroo/) blog post that Wallaroo Labs published a couple of years ago.
+- The most well-known Pony project is [Wallaroo](https://github.com/wallaroolabs/wallaroo); a high-performance distributed stream processing framework written in Pony. AdExchanger recently published a [short case study](https://adexchanger.com/platforms/pubmatic-slashes-infrastructure-costs-with-wallaroo-labs/) about work that Wallaroo Labs did building a data processing system for Pubmatic based on Wallaroo. If you are looking to get a Pony project off the ground at work, the Pubmatic study could make for a nice pairing with the Why we used Pony to write Wallaroo blog post that Wallaroo Labs published a couple of years ago.
 
 ---
 

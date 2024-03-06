@@ -15,7 +15,8 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News And Blog Posts
 
-* There is a brand new blog post from the folks at [WallarooLabs](http://www.wallaroolabs.com/) about how their Python API works with Pony: [https://blog.wallaroolabs.com/2018/04/the-snake-and-the-horse-how-wallaroos-python-api-works-with-pony/](https://blog.wallaroolabs.com/2018/04/the-snake-and-the-horse-how-wallaroos-python-api-works-with-pony/)
+* There is a brand new blog post from the folks at WallarooLabs about how their Python API works with Pony: **Edit**: The link has since gone invalid so we've removed.
+
 * A new package for *Linear Algebra in Pony* by GitHub user @dougmacdoug has been released: [linal](https://github.com/dougmacdoug/ponylang-linal) ([The original Announcement](https://pony.groups.io/g/user/topic/linal_linear_algebra/16887194?p=,,,20,0,0,0::recentpostdate%2Fsticky,,,20,2,0,16887194)).
 * Due to [GitHub removing anonymous gist creation](https://blog.github.com/2018-02-18-deprecation-notice-removing-anonymous-gist-creation/) it was not possible to create gists on the [Pony Playground](https://playground.ponylang.io/) for some days. But Paul stepped in and fixed that. Thank you!
 
