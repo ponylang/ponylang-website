@@ -57,7 +57,6 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [Pony: 714 Days Later (Curry On Barcelona)](https://www.youtube.com/watch?v=HGDSnOZaU7Y)
 * [What's Next for Our Programming Languages? (QCon London)](https://www.infoq.com/presentations/panel-languages-future)
 * [Pony: Co-designing a Type-system and a Runtime (QCon London)](https://www.infoq.com/presentations/pony-type-system)
-* [Learning Pony](http://musings.tinbrain.net/blog/2017/may/11/learning-pony/)
 * [An Early History of Pony](/blog/posts/early-history-of-pony.md)
 * [Pony VUG #8: Andrew Turley: Prime Cuts: The Best Pieces Of Pony](https://vimeo.com/202387915)
 * [Découverte du langage Pony](https://zestedesavoir.com/articles/1329/decouverte-du-langage-pony/)
