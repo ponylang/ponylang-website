@@ -43,6 +43,9 @@ plugins:
       validate_external_urls: !ENV [VALIDATE_EXTERNAL_URLS, True]
       raise_error_after_finish: True
       raise_error_excludes:
+        # These regularly give us 403 when we try to check, but they are fine.
+        # At least at the time we are writing this comment.
+        403: ["https://reddit.com/*", "https://vimeo.com/*", "https://www.raspberrypi.com/", "https://linux.die.net/" ]
         429: ["https://github.com/*", "https://medium.com/*", "https://*.medium.com/*" ]
         # only available to users that are logged in to GitHub and have
         # ponylang org access
