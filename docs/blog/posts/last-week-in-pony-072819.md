@@ -24,7 +24,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - [Pony-msgpack 0.2.1](https://github.com/SeanTAllen/pony-msgpack/releases/tag/0.2.1) has been released.
 
-- Do you ever visit the [Pony Reddit](https://reddit.com/r/ponylang)? Have you gotten annoyed by the "equestria" spam that pops up from time to time? Rejoice! Sean T. Allen put his Reddit learning cap on and setup Auto-Moderator to immediately remove the "equestria" spam as soon as it is posted.
+- Do you ever visit the [Pony Reddit](https://www.reddit.com/r/ponylang)? Have you gotten annoyed by the "equestria" spam that pops up from time to time? Rejoice! Sean T. Allen put his Reddit learning cap on and setup Auto-Moderator to immediately remove the "equestria" spam as soon as it is posted.
 
 ## News and Blog Posts
 
