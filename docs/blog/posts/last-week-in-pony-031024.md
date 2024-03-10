@@ -8,7 +8,7 @@ title: "Last Week in Pony - March 10, 2024"
 date: 2024-03-10T07:00:06-04:00
 ---
 
-<< overview >>
+It was a generally slow week in Pony. No major pull requests, releases or whatnot. Everyone is off mostly concentrating on the jobs that pay them. Perhaps you can pick up some items from [good first issues](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony) and fill the gap?
 
 <!-- more -->
 
