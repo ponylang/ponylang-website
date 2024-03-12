@@ -20,7 +20,7 @@ The [recording](https://vimeo.com/<<video-id>>) of the March 12th, 2024 sync is 
 
 ### Office Hours
 
-<< content >>
+Red and I met for 15 minutes before calling it a day as we had lots of "paying job" stuff to do.
 
 ---
 
