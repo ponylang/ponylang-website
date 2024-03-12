@@ -22,6 +22,10 @@ The [recording](https://vimeo.com/922568767) of the March 12th, 2024 sync is ava
 
 Red and I met for 15 minutes before calling it a day as we had lots of "paying job" stuff to do.
 
+## Releases
+
+- [ponylang/http_server 0.6.0](https://github.com/ponylang/http_server/releases/tag/0.6.0)
+
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
