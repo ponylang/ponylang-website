@@ -82,7 +82,7 @@ All bills for hosting are paid by Sean and reimbursed via our OpenCollective. Un
 
 ## Netlify
 
-Netlify hosts a number of our websites including [the pony website](https://ponylang.io), [the pony tutorial](https://tutorial.ponylang.io), and [the pony patterns book](https://patterns.ponylang.org).
+Netlify hosts a number of our websites including [the pony website](https://ponylang.io), [the pony tutorial](https://tutorial.ponylang.io), and [the pony patterns book](https://patterns.ponylang.io).
 
 Access is via individual accounts which can be granted various levels of access to different projects based on need.
 
