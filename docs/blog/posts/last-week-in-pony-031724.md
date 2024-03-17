@@ -8,7 +8,7 @@ title: "Last Week in Pony - March 17, 2024"
 date: 2024-03-17T07:00:06-04:00
 ---
 
-<< content >>
+It was another fairly quiet week in Pony. Once again, all our normal committers are quite busy with their day jobs. We did manage to get a new release of `ponylang/http_server` out the door. It would be nice to have more to report next week. Perhaps you can assist by taking a look at the "good first issues" in the [contribute to Pony stream](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony) and grab one to work on. Most take very little time to do.
 
 <!-- more -->
 
