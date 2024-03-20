@@ -16,11 +16,13 @@ date: 2024-03-24T07:00:06-04:00
 
 ### Pony Development Sync
 
-The [recording](https://vimeo.com/<<content>>) of the March 12th, 2024 sync is available.
+There was no sync meeting this week. Joe and I both had work commitments.
 
 ### Office Hours
 
-<< content >>
+There was no Office Hours this week that I am aware of. I got a migraine just a few minutes before it was supposed to start and had to cancel. I'm sorry for the late notice.
+
+Hopefully there was still an awesome get together.
 
 ---
 
