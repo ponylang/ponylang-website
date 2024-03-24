@@ -46,8 +46,9 @@ plugins:
         # These regularly give us 403 when we try to check, but they are fine.
         # At least at the time we are writing this comment.
         403: ["https://www.reddit.com/*", "https://vimeo.com/*", "https://www.raspberrypi.org/*", "https://linux.die.net/*", "https://ponylang101.splashthat.com/*", "https://www.researchgate.net/publication/221496370_Traits_Composable_Units_of_Behaviour", "https://www.gophercon-russia.ru/en" ]
-        429: ["https://github.com/*", "https://medium.com/*", "https://*.medium.com/*" ]
         404: ["https://github.com/organizations/ponylang/settings/repository-defaults", "https://twitter.com/bpdp/status/905653663913218050", "https://twitter.com/matthias_wahl/status/1002638819177435138"]
+        429: ["https://github.com/*", "https://medium.com/*", "https://*.medium.com/*" ]
+        504: ["https://opensource.com/*"]
 
   - rss:
       match_path: blog/posts/.*
