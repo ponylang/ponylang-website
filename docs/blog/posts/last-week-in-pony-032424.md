@@ -8,7 +8,9 @@ title: "Last Week in Pony - March 24, 2024"
 date: 2024-03-24T07:00:06-04:00
 ---
 
-<< content >>
+If anything happened related to Pony this past week, your friendly narrator didn't notice it. I'm sure there was something. I just didn't see it. I'm sorry. I'll do better next week. I promise.
+
+*wink*.
 
 <!-- more -->
 
