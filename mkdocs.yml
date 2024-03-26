@@ -88,7 +88,7 @@ theme:
       primary: brown
       accent: amber
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-4
         name: Switch to dark mode
 
     # Dark mode
@@ -96,7 +96,7 @@ theme:
       primary: brown
       accent: amber
       toggle:
-        icon: material/weather-night
+        icon: material/brightness-4
         name: Switch to light mode
 
   font:
