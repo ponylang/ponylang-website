@@ -5,7 +5,7 @@ authors:
 categories:
   - "Last Week in Pony"
 title: "Last Week in Pony - March 31, 2024"
-date: 2024-03-31
+date: 2024-03-31T07:00:06-04:00
 ---
 
 Pony 0.58.3 has been released. The only change is fix for a bug in documentation generation. Update at your leisure.
