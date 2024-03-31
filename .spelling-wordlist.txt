@@ -189,6 +189,7 @@ grrr
 GTK
 gz
 Hacktoberfest
+Hädrich
 Hagenson
 Hagenson's
 harken
@@ -525,6 +526,7 @@ ultrafast
 unary
 Uncategorized
 unforgeable
+unimportance
 unsession
 untracked
 upvote
