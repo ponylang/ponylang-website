@@ -4,7 +4,7 @@ authors:
   - seantallen
 categories:
   - "Last Week in Pony"
-title: "Last Week in Pony - March 31, 2024"
+title: "Last Week in Pony - April 7, 2024"
 date: 2024-04-07T07:00:06-04:00
 ---
 
