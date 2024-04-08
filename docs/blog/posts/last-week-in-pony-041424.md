@@ -20,7 +20,7 @@ The [recording](https://vimeo.com/<<content>>) of the April 9, 2024 sync is avai
 
 ### Office Hours
 
-<< content >>
+Adrian and I met for 15 minutes. We discussed a couple Pony issues related to the Zulip thread: ["Matching on `(Any iso | Any val | Any tag)`"](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help/topic/.E2.9C.94.20Matching.20on.20.60.28Any.20iso.20.7C.20Any.20val.20.7C.20Any.20tag.29.60).
 
 ---
 
