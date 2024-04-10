@@ -98,5 +98,5 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [Part two of "Actor-based programming in Pony" at Imperial Programming Lectures in London](https://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=2e47f3d3-95e1-45c9-97fd-a9e4f35c66b3)
 * [Part one of "Actor-based programming in Pony" at Imperial Programming Lectures in London](https://panopto.imperial.ac.uk/Panopto/Pages/Viewer.aspx?id=aba3f8f7-f050-447c-91c9-61e092d61e85)
 * [Video of CurryOn presentation on Pony at ECOOP 2015](https://www.youtube.com/watch?v=KvLjy8w1G_U)
-* [Video of Pony talk at TNG Big Tech Day 2015](http://www.techcast.com/events/bigtechday8/pranner-1450/?q=pranner-1450)
+* [Video of Pony talk at TNG Big Tech Day 2015](https://www.bigtechday.com/en/look-back/big-techday/8#3aykiSD5zpvRQ0DzSETrAy)
 * [Pony presentation by Prof. Sophia Drossopoulou at the IFIP WG 2.16 (Programming Language Design)](http://www.doc.ic.ac.uk/~scd/Pony-WG2.16.pdf)
