@@ -8,7 +8,7 @@ title: "Last Week in Pony - April 14, 2024"
 date: 2024-04-14T07:00:06-04:00
 ---
 
-<< content >>
+Another slow week in Pony. Core team members are all busy with other things. In my case, with things that pay me money. We'd love to see other folks stepping into the breach and contributing to Pony.
 
 <!-- more -->
 
