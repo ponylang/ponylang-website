@@ -33,6 +33,8 @@ We've deprecated 3 SSL builders. Effectively immediately, they will no longer be
 
 The [recording](https://vimeo.com/935667506) of the April 16, 2024 sync is available.
 
+There will be no development sync on April 23, 2024. The next sync currently scheduled is April 30, 2024.
+
 ### Office Hours
 
 As far as I know, there was no office hours this week. I had a migraine and didn't attend.
