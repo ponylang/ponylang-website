@@ -14,6 +14,21 @@ date: 2024-04-21T07:00:06-04:00
 
 ## Items of Note
 
+### New SSL Builders
+
+We've added new SSL builders that can be used for building SSL dependent Pony applications. `release` and `latest` versions are available for each. The `release` version contains the most recent ponyc release. The `latest` version is contains the most recent ponyc nightly version.
+
+- [LibreSSL 3.9.1](https://github.com/ponylang/shared-docker/tree/main/x86-64-unknown-linux-builder-with-libressl-3.9.1)
+- [OpenSSL 3.3.0](https://github.com/ponylang/shared-docker/tree/main/x86-64-unknown-linux-builder-with-openssl_3.3.0)
+
+### SSL Builders Deprecated
+
+We've deprecated 3 SSL builders. Effectively immediately, they will no longer be updated.
+
+- LibreSSL 3.7.2
+- OpenSSL 1.1.1t
+- OpenSSL 3.1.0
+
 ### Pony Development Sync
 
 The [recording](https://vimeo.com/935667506) of the April 16, 2024 sync is available.
