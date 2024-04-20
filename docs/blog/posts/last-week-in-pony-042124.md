@@ -39,6 +39,11 @@ There will be no development sync on April 23, 2024. The next sync currently sch
 
 As far as I know, there was no office hours this week. I had a migraine and didn't attend.
 
+## Releases
+
+- [ponylang/crypto](https://github.com/ponylang/crypto/releases/tag/1.2.3)
+- [ponylang/net_ssl](https://github.com/ponylang/net_ssl/releases/tag/1.3.3)
+
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io), our Twitter account [@ponylang](https://twitter.com/ponylang), or our [Zulip community](https://ponylang.zulipchat.com).
