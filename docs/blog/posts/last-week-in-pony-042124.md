@@ -42,6 +42,7 @@ As far as I know, there was no office hours this week. I had a migraine and didn
 ## Releases
 
 - [ponylang/crypto 1.2.3](https://github.com/ponylang/crypto/releases/tag/1.2.3)
+- [ponylang/github_rest_api 0.1.5](https://github.com/ponylang/github_rest_api/releases/tag/0.1.5)
 - [ponylang/http 0.6.1](https://github.com/ponylang/http/releases/tag/0.6.1)
 - [ponylang/http_server 0.6.2](https://github.com/ponylang/http_server/releases/tag/0.6.2)
 - [ponylang/net_ssl 1.3.3](https://github.com/ponylang/net_ssl/releases/tag/1.3.3)
