@@ -8,7 +8,7 @@ title: "Last Week in Pony - April 21, 2024"
 date: 2024-04-21T07:00:06-04:00
 ---
 
-<< content >>
+We've updated our SSL builders. And as we usually do, we also updated the LibreSSL version that various ponylang libraries use on Windows. You'll find a lot of releases related to the LibreSSL update happened this week.
 
 <!-- more -->
 
