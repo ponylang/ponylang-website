@@ -9,12 +9,9 @@ title: "Last Week in Pony - July 24, 2022"
 date: 2022-07-24T23:59:59-04:00
 ---
 
-Audio from the July 19th Pony Development sync is available: [https://vimeo.com/917341975](https://vimeo.com/917341975)
-<!-- more -->
-
 ## Items of note
 
-- Audio from the July 19th Pony Development sync is available: [https://vimeo.com/917341975](https://vimeo.com)
+- Audio from the July 19th Pony Development sync is available: [https://vimeo.com/917341975](https://vimeo.com/917341975)
 
 ---
 
