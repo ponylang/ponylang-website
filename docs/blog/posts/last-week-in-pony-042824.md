@@ -14,6 +14,12 @@ date: 2024-04-28T07:00:06-04:00
 
 ## Items of Note
 
+### Ubuntu 24.04 support is coming
+
+We are now creating prebuilt ponyc binaries for Ubuntu 24.04. Currently, nightly builds are available. The next release of ponyc will have a version built for Ubuntu 24.04.
+
+Ponyup has been updated to recognize and support Ubuntu 24.04. If you're using ponyup, you should be able to use it to install ponyc on Ubuntu 24.04. You'll need to update your ponyup installation to get the new Ubuntu 24.04 support.
+
 ### Blog post mentioning Pony
 
 Pony earned a couple of mentions in the blog post ["Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches"](https://verdagon.dev/grimoire/grimoire).
