@@ -14,9 +14,9 @@ date: 2024-04-28T07:00:06-04:00
 
 ## Items of Note
 
-### Office Hours
+### Blog post mentioning Pony
 
-<< content >>
+Pony earned a couple of mentions in the blog post ["Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches"](https://verdagon.dev/grimoire/grimoire).
 
 ---
 
