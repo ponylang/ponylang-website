@@ -21,8 +21,6 @@ Pony 0.13.0 released! It's a high priority release recommended for all Pony user
 
 ## News and Blog Posts
 
-- [Pony Community Survey](https://docs.google.com/forms/d/e/1FAIpQLScBNr5dPPCVYchRukAm-sFR3wipndVJiua3xHr8CslohVFRlg/viewform?c=0&w=1&usp=send_form)
-
 - [Pony LLDB Cheat Sheet](http://www.ponylang.io/reference/pony-lldb-cheatsheet/)
 
 Ever wondered, how do I debug my Pony program? Well, things just got a little easier with the Pony LLDB cheat sheet. We're hoping its a good way to get folks started with LLDB and Pony.
