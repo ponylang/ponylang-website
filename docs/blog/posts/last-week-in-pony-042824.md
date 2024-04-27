@@ -8,7 +8,7 @@ title: "Last Week in Pony - April 28, 2024"
 date: 2024-04-28T07:00:06-04:00
 ---
 
-<< content >>
+Ubuntu 24.04 support is arriving.
 
 <!-- more -->
 
@@ -23,6 +23,10 @@ Ponyup has been updated to recognize and support Ubuntu 24.04. If you're using p
 ### Blog post mentioning Pony
 
 Pony earned a couple of mentions in the blog post ["Borrow checking, RC, GC, and the Eleven (!) Other Memory Safety Approaches"](https://verdagon.dev/grimoire/grimoire).
+
+## Releases
+
+- [ponylang/ponyup 0.8.3](https://github.com/ponylang/ponyup/releases/tag/0.8.3)
 
 ---
 
