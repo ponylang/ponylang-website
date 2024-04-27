@@ -32,8 +32,6 @@ There were several "point" releases last week. For a list of full releases see t
 
 ## News and Blog Posts
 
-- [Pony Community Survey](https://docs.google.com/forms/d/e/1FAIpQLScBNr5dPPCVYchRukAm-sFR3wipndVJiua3xHr8CslohVFRlg/viewform?c=0&w=1&usp=send_form)
-
 - [New Website Layout](http://www.ponylang.io/) ponylang.io got an update, as well as an official place for the [Pony blog](http://www.ponylang.io/blog/)
 
 - [Pony Play Pen!](https://playground.ponylang.io/) Pony now has a live, browser-accessible sandbox.
