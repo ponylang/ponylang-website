@@ -20,9 +20,9 @@ The [recording](https://vimeo.com/<<content>>) of the April 30, 2024 sync is ava
 
 ### Office Hours
 
-<< content >>
+We spent an hour going over a variety of topics, one of which was Pony related. All of the Pony conversation was related to Adrian and I looking at the [parameter subtyping](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help/topic/parameter.20subtyping) topic in the [beginner help](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help) Zulip stream.
 
-I am unable to attend Office Hours on Monday May 6th. Everyone is welcome to hop on the Zoom and chat with each other. I will be back on Monday May 13th.
+A note for next week: I am unable to attend Office Hours on Monday May 6th. Everyone is welcome to hop on the Zoom and chat with each other. I will be back on Monday May 13th.
 
 ---
 
