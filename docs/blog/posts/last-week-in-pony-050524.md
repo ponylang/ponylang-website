@@ -16,7 +16,7 @@ date: 2024-05-05T07:00:06-04:00
 
 ### Pony Development Sync
 
-The [recording](https://vimeo.com/<<content>>) of the April 30, 2024 sync is available.
+The [recording](https://vimeo.com/941417912) of the April 30, 2024 sync is available.
 
 ### Office Hours
 
