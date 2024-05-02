@@ -67,6 +67,7 @@ theme:
     - content.action.edit
     - content.code.copy
     - content.code.select
+    - navigation.footer
     - navigation.indexes
     - navigation.instant
     - navigation.path
