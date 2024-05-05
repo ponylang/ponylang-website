@@ -6,7 +6,7 @@ The Pony Development Sync is a weekly meeting where Pony contributors discuss to
 
 Stay up-to-date with the schedule by [subscribing to the Development Sync calender](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics).
 
-Each meeting is recorded and all recordings are available on [sync recordings website](https://sync-recordings.ponylang.io/r/). Recordings are available dating back to 2016.
+Each meeting is recorded and all recordings are available on [Vimeo](https://vimeo.com/channels/ponydevelopmentsync). Recordings are available dating back to 2016.
 
 You can check out conversation related to the weekly meetings in the [sync stream](https://ponylang.zulipchat.com/#narrow/stream/190591-sync) in the [Pony Zulip](https://ponylang.zulipchat.com/).
 

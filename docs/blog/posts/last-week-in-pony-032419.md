@@ -19,7 +19,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - Audio for the March 19, 2019 Pony sync is [here](https://vimeo.com/915523946).
 
-- All recordings of Pony development sync meetings going back to the beginning are available without being behind a "paywall". Check them out at [https://sync-recordings.ponylang.io/r/](https://sync-recordings.ponylang.io/r/).
+- All recordings of Pony development sync meetings going back to the beginning are available without being behind a "paywall". Check them out at [https://vimeo.com/channels/ponydevelopmentsync](https://vimeo.com/channels/ponydevelopmentsync).
 
 - We're leaving Slack for the greener fields of permanent history on Zulip. Zulip is a lot like Slack so the adjustment should be fairly quick. The biggest difference, you have "streams" and "topics" rather than "channels". Learn more at [https://zulipchat.com/help/about-streams-and-topics](https://zulipchat.com/help/about-streams-and-topics) and then join us in the new [Ponylang Zulip](https://ponylang.zulipchat.com/).
 
