@@ -20,7 +20,7 @@ A while back, we finished moving all our [Pony Development Sync recordings](http
 
 ### Pony Development Sync
 
-The [recording](https://vimeo.com/<<content>>) of the May 6, 2024 sync is available.
+The [recording](https://vimeo.com/944032888) of the May 7, 2024 sync is available.
 
 ### Office Hours
 
