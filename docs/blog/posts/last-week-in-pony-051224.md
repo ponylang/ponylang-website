@@ -8,7 +8,7 @@ title: "Last Week in Pony - May 12, 2024"
 date: 2024-05-12T07:00:06-04:00
 ---
 
-<< content >>
+I was away for the week, so I don't really know what was going on. I'm sure there was something. I'll be back next week with a more informative post.
 
 <!-- more -->
 
