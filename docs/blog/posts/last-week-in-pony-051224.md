@@ -16,7 +16,7 @@ I was away for the week, so I don't really know what was going on. I'm sure ther
 
 ### The Sync Recordings Migration is Complete
 
-A while back, we finished moving all our [Pony Development Sync recordings](https://vimeo.com/channels/ponydevelopmentsync) to Vimeo. This past weekend, we finished the final step in the process. We shut down the old sub-domain that we were hosting them on. If you are used to accessing them at https://sync-recordings.ponylang.io/, that won't work anymore.
+A while back, we finished moving all our [Pony Development Sync recordings](https://vimeo.com/channels/ponydevelopmentsync) to Vimeo. This past weekend, we finished the final step in the process. We shut down the old sub-domain that we were hosting them on. If you are used to accessing them at [https://sync-recordings.ponylang.io/](https://sync-recordings.ponylang.io/), that won't work anymore.
 
 ### Pony Development Sync
 
