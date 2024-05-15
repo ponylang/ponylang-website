@@ -49,6 +49,8 @@ plugins:
         404: ["https://github.com/organizations/ponylang/settings/repository-defaults", "https://twitter.com/bpdp/status/905653663913218050", "https://twitter.com/matthias_wahl/status/1002638819177435138"]
         429: ["*"]
         504: ["https://arxiv.org/*", "https://opensource.com/*", "https://vimeo.com/*"]
+      ignore_urls:
+        - https://sync-recordings.ponylang.io/
 
   - rss:
       match_path: blog/posts/.*
