@@ -5,7 +5,7 @@ authors:
 categories:
   - "Last Week in Pony"
 title: "Last Week in Pony - May 19, 2024"
-date: 2024-05-12T07:00:06-04:00
+date: 2024-05-19T07:00:06-04:00
 ---
 
 Hey, we could use your assistance; assuming you want to get dirty with the Pony compiler.
