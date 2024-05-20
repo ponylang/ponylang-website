@@ -20,7 +20,9 @@ The [recording](https://vimeo.com/<< content >>) of the May 21, 2024 sync is ava
 
 ### Office Hours
 
-<< content >>
+Dan Plyukhin stopped by to discuss his work on distributed actor garbage collection and cycle detection. You can find information about Dan's work at [https://dplyukhin.github.io/](https://dplyukhin.github.io/).
+
+You should check it out. It's pretty cool.
 
 ---
 
