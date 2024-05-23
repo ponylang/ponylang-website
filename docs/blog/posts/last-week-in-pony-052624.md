@@ -16,7 +16,21 @@ date: 2024-05-26T07:00:06-04:00
 
 ### Pony Development Sync
 
-The [recording](https://vimeo.com/<< content >>) of the May 21, 2024 sync is available.
+The [recording](https://vimeo.com/949571597) of the May 21, 2024 sync is available.
+
+I wasn't able to attend. Adrian and Joe passed along the following information about a conversation that happened after the agenda that wasn't recorded:
+
+Adrian:
+
+> It's probably worth describing our not-recorded discussion for the sake of Last Week in Pony: Joe, Red, and Adrian talked for some time about additional and/or modified capabilities. We discussed:
+>
+>- A lin cap which is more restrictive than iso and would enable linear types.
+>- The idea of eliminating tag which would make iso as restrictive as lin and eliminate the need for the latter.
+>- Additional "borrow" capabilities which would make usage of iso simpler in certain very common scenarios.
+
+Joe:
+
+> I would rephrase "eliminating tag" as "eliminating tag aliases of iso as capable of and used for memory retention" (which happens to also be a requirement for if we want to eventually move Pony to the Verona runtime)
 
 ### Office Hours
 
