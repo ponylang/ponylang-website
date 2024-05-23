@@ -38,6 +38,8 @@ Dan Plyukhin stopped by to discuss his work on distributed actor garbage collect
 
 You should check it out. It's pretty cool.
 
+I won't be at Office Hours next week. I'm taking a nice 3-day weekend.
+
 ---
 
 _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for the Pony programming language. To learn more about Pony, check out [our website](https://ponylang.io) or our [Zulip community](https://ponylang.zulipchat.com).
