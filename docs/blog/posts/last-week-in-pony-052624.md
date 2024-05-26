@@ -8,7 +8,7 @@ title: "Last Week in Pony - May 19, 2024"
 date: 2024-05-26T07:00:06-04:00
 ---
 
-<< content >>
+We had an excellent Office Hours this week and from the sounds of it, an interesting Development Sync meeting.
 
 <!-- more -->
 
