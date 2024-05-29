@@ -1,4 +1,5 @@
 site_name: Pony
+site_description: "This is the website for the Pony programming language. Pony is an open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language."
 
 copyright: Copyright &copy; 2024 The Pony Developers
 edit_uri: edit/main/docs/
@@ -28,6 +29,7 @@ markdown_extensions:
   - smarty
   - toc:
       permalink: true
+  - meta
 
 plugins:
   - blog:
@@ -62,6 +64,7 @@ plugins:
 
 theme:
   name: material
+  custom_dir: overrides
 
   favicon: assets/logo.png
 
