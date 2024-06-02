@@ -26,6 +26,8 @@ Strangejune announced on the Zulip:
 
 > My first project! I made a logging library for Pony, using an actor to implement the interface and traits to allow formatting and logging backends. The repo is hosted [on GitHub](https://github.com/junetried/pony-logging). I haven't actually used it yet in another project but it seems to work great in every way I've been able to test.
 
+The announcement is [here](https://ponylang.zulipchat.com/#narrow/stream/190363-projects/topic/A.20logging.20library).
+
 ### Pony Development Sync
 
 Due to a bit of a miscommunication, we didn't have a sync meeting this week. We are planning on having one this coming week. Expect a lot of conversations around the various pull requests that Sebastian Hädrich has been working on. If you aren't aware, Sebastian has been working on adding the ability to run Pony snippets from the Pony Tutorial in the Pony Playground. It's pretty cool.
