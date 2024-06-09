@@ -8,7 +8,7 @@ title: "Last Week in Pony - June 9, 2024"
 date: 2024-06-09T07:00:06-04:00
 ---
 
-<< content >>
+We had an interesting "Pony 1.0" conversation this past week during the sync call.
 
 <!-- more -->
 
