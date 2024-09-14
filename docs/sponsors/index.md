@@ -34,7 +34,7 @@ The following companies kindly donate resources to Pony. We are incredibly grate
 
 ### Netlify
 
-[Netlify](https://www.netlify.com/) hosts our website. They are an amazing service for hosting static websites. We take advantage of some [their features](https://www.netlify.com/features/). After using Netlify, we're not sure we'd ever want to use anything else.
+[Netlify](https://www.netlify.com/) hosts our website.
 
 ### Zulip
 
