@@ -5,7 +5,7 @@ authors:
 categories:
   - "Last Week in Pony"
 title: "Last Week in Pony - August 11, 2024"
-date: 2024-08-1T07:00:06-04:00
+date: 2024-08-11T07:00:06-04:00
 ---
 
 Pretty quiet week in Pony-land.
