@@ -22,7 +22,7 @@ The recording of the October 29th development sync is [available on Vimeo]().
 
 ### Office Hours
 
-<< content >>
+I hung out for 15 minutes until someone (Red) arrived. We chatted for a few then decided that no one else was going to arrive so we ended early.
 
 ---
 
