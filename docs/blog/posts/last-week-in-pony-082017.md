@@ -21,10 +21,6 @@ Yesterday we released Pony 0.18.0. It includes a high-priority bug fix in the co
 
 - Audio from the [August 16, 2017, Pony development sync](https://vimeo.com/915149880) is available. Includes some interesting conversations including a live "wtf is up with [issue #1513](https://github.com/ponylang/ponyc/issues/1513)"; the result of which was our 0.18.0 release.
 
-## News and Blog Posts
-
-- "Charles" stopped by during the week with a few questions and happened to mention a game he just started developing. Read ["Stars take-off"](http://www.charlesetc.com/stars-game-1.html) to learn more.
-
 ## RFCs
 
 Interested in making a change, or keeping up with changes to Pony? Check out the [RFC repo](https://github.com/ponylang/rfcs). Contributors welcome!
