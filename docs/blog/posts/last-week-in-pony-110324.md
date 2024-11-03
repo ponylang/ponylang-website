@@ -8,17 +8,17 @@ title: "Last Week in Pony - November 3, 2024"
 date: 2024-11-03T07:00:06-04:00
 ---
 
-<< content>>
+Pony was the topic of the most recent [Developer Voices](https://pod.link/developer-voices/) podcast.
 
 <!-- more -->
 
 ## Items of Note
 
-<< content >>
+### Developer Voices Podcast
 
-### Pony Development Sync
+A couple weeks back, I recorded an episode of the [Developer Voices](https://pod.link/developer-voices/) podcast with Kris Jenkins. Over the course of an hour or so, we covered a variety of Pony related topics.
 
-The recording of the October 29th development sync is [available on Vimeo]().
+You can check out the episode on [YouTube](https://www.youtube.com/watch?v=u9da3UzEhEI) or on a [variety of other podcast platforms](https://pod.link/developer-voices/episode/89440d0d3be17217212d113cf6a31400).
 
 ### Office Hours
 
