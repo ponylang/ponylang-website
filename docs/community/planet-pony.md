@@ -2,6 +2,10 @@
 
 We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
+## 2024
+
+* [Developer Voices Interview- Pony: High-Performance, Memory-Safe Actors (with Sean Allen)](https://www.youtube.com/watch?v=u9da3UzEhEI)
+
 ## 2022
 
 * [Pony VUG #13: An informal tour of the Pony backpressure system](https://vimeo.com/707155973)
