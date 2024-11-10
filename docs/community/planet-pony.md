@@ -4,6 +4,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2024
 
+* [Pony Language - First Impression [Programming Languages Episode 34]](https://www.youtube.com/watch?v=LA9I6KiCIFA)
 * [Developer Voices Interview- Pony: High-Performance, Memory-Safe Actors (with Sean Allen)](https://www.youtube.com/watch?v=u9da3UzEhEI)
 
 ## 2022
