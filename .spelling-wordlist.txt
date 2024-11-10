@@ -236,6 +236,7 @@ isolcpus
 Iterable
 iteratively
 itertools
+jackassery
 Jairo
 Jairo's
 Jaroslaw
