@@ -25,9 +25,9 @@ I liked it enough to log into YouTube so I could leave a comment for Mike lettin
 A few quotes from Sylvan:
 
 > "I hope this guy is a professor somewhere. I think he'd be a legit good teacher."
-
+>
 > "I really like that he appreciates the docs."
-
+>
 > "I give that a '0% hot take' rating. This guy is great."
 
 There's a few bit of documentation that I wrote that are full of my own special form of jackassery. I'm really happy that Mike got a kick out of the [bureaucracy package documentation](https://stdlib.ponylang.io/bureaucracy--index/).
