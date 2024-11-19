@@ -27,7 +27,7 @@ It was a bit of a quiet week in terms of public activity but there's plenty brew
 
 ## News
 
-- Sylvan Clebsch, creator of Pony, will be giving a [talk](http://www.curry-on.org/2017/sessions/pony-714-days-later.html) at Curry On in Barcelona about how Pony has grown over the last two years. Once again, Curry On is looking like an [amazing conference](http://www.curry-on.org/2017/). If you get a chance, you should attend.
+- Sylvan Clebsch, creator of Pony, will be giving a talk at Curry On in Barcelona about how Pony has grown over the last two years. Once again, Curry On is looking like an amazing conference If you get a chance, you should attend.
 
 ## RFCs
 
