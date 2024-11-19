@@ -14,6 +14,10 @@ date: 2024-11-24T07:00:06-04:00
 
 ## Items of Note
 
+### Another "interview" might be on the way
+
+A couple weeks back, we became aware of a video ["Pony Language - First Impression [Programming Languages Episode 34]"](last-week-in-pony-111024.md#first-impressions-video) by Mike Shah. Sylvan and I both loved it. I reached out to Mike and the 3 of us are planning on having a chat next week. It might be recorded, in which case, you can expect to see it on YouTube and announced here at some point.
+
 ### Office Hours
 
 Office Hours this past week was myself, Adrian, and Red. This conversation was driven by Adrian and started from [a Zulip thread](https://ponylang.zulipchat.com/#narrow/channel/189934-general/topic/Office.20Hours.2011.2F18.2F2024).
