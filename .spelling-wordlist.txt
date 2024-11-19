@@ -175,6 +175,7 @@ GHCR
 gists
 GitHub
 GitLab
+GLFW
 glibc
 gmail
 Goetz
@@ -287,6 +288,7 @@ LSP
 LWIP
 Lystig
 macOS
+MacOS's
 Makefile
 malloc
 mallocs

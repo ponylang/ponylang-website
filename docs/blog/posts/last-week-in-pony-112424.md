@@ -30,7 +30,7 @@ Adrian summarized our discussion on Zulip with:
 >
 > The GLFW project assumes that users desire to creating maximally cross-platform applications but then there's mention of "pure GLFW" in the quote below. This might mean that the GLFW code doesn't actually enforce the rules, depending instead on people to do what the GLFW documentation tells them to. But even there is no enforcement of the rules, there could be GLFW code that does depend on users obeying the documented rules.
 
-As an aside, early in the conversation, Red said the most Red of all things: "I was in my 'woo hoo, i can bind to anything' phase."
+As an aside, early in the conversation, Red said the most Red of all things: "I was in my 'woohoo! i can bind to anything' phase."
 
 See ya next week!
 
