@@ -15,7 +15,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 ## News And Blog Posts
 
-* Paul did a great first blog post about Pony's reference capability system called *How To Train Your Pony*: [https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/](https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/). And it is just the start to an even greater series of posts!
+* Paul did a great first blog post about Pony's reference capability system called ["How To Train Your Pony"](https://web.archive.org/web/20241113083722/https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/). And it is just the start to an even greater series of posts!
 
 ## Last Week's Playground
 
