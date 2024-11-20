@@ -39,7 +39,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * Video: [Pony: How I learned to stop worrying and embrace an unproven technology](https://youtu.be/GigBhej1gfI) and [slides](https://speakerdeck.com/seantallen/pony-how-i-learned-to-stop-worrying-and-embrace-an-unproven-technology-oscon-2018)
 * [Generating Pony Coverage Reports](https://blog.m7w3.de/pony-coverage.html)
 * [Introduction to the Pony programming language](https://opensource.com/article/18/5/pony)
-* [How to train your Pony: Introduction](https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/)
+* [How to train your Pony: Introduction](https://web.archive.org/web/20241113083722/https://paul.lietar.net/2018/03/how-to-train-your-pony-introduction/)
 * Video: [The Wide World of Actors or, Can I Have an Erlang Pony?](https://www.youtube.com/watch?v=uv-3ptTD8hg&feature=youtu.be) and also the [talk's slides (PDF)](https://github.com/slfritchie/wide-world-of-actors)
 * Video: [Everyone gets a pony!](https://www.youtube.com/watch?v=e0197aoljGQ)
 
