@@ -8,7 +8,7 @@ title: "Last Week in Pony - November 24, 2024"
 date: 2024-11-24T07:00:06-04:00
 ---
 
-...
+A slower week in "Pony news"; expect a new Pony release next weekend.
 
 <!-- more -->
 
