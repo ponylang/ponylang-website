@@ -175,6 +175,7 @@ GHCR
 gists
 GitHub
 GitLab
+GLFW
 glibc
 gmail
 Goetz
@@ -201,6 +202,7 @@ HFPUG
 HighlightJS
 hoc
 homebrew
+hoo
 Horwitz
 Horwitz's
 HTTP
@@ -287,6 +289,7 @@ LSP
 LWIP
 Lystig
 macOS
+MacOS's
 Makefile
 malloc
 mallocs
