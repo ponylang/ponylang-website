@@ -556,6 +556,7 @@ Vyukov's
 Wahl
 Wallaroo
 WallarooLabs
+Wayland
 WebSocket
 WG
 WHEEEE
