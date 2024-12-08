@@ -57,6 +57,7 @@ Borja
 Bracey
 brainer
 breakpoint
+Bson
 bt
 btab
 buc
@@ -203,6 +204,7 @@ HighlightJS
 hoc
 homebrew
 hoo
+Hovsäter
 Horwitz
 Horwitz's
 HTTP
@@ -265,7 +267,9 @@ LDAP
 LDN
 leasable
 lexing
+LFS
 libatomic
+libc
 libponyc
 LibreSSL
 libs
@@ -278,6 +282,7 @@ LINQ
 linter
 Linux
 LLDB
+LLMs
 LLVM
 LLVM's
 Lobste
