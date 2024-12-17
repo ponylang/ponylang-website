@@ -104,6 +104,7 @@ CSV
 ctags
 CurryOn
 D'oh
+deallocated
 Darach
 Découverte
 dereference
