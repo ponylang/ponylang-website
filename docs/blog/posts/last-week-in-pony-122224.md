@@ -24,7 +24,7 @@ The recording of the December 17, 2024 Pony development sync is available. Check
 
 ### Office Hours the Next 2 Weeks
 
-We have Office Hours scheduled the next 2 weeks. I'm not sure if I will be in attendence. I will be playing it by ear each Monday based on what I have going on in my life while taking some time off from work.
+We have Office Hours scheduled the next 2 weeks. I'm not sure if I will be in attendance. I will be playing it by ear each Monday based on what I have going on in my life while taking some time off from work.
 
 ### Office Hours
 
