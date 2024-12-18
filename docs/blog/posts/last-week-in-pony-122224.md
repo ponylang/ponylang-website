@@ -16,7 +16,7 @@ date: 2024-12-22T07:00:06-04:00
 
 ### Pony Development Sync
 
-The recording of the December 17, 2024 Pony development sync is available. Check it out on [Vimeo]().
+The recording of the December 17, 2024 Pony development sync is available. Check it out on [Vimeo](https://vimeo.com/1040416322).
 
 ### Office Hours
 
