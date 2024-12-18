@@ -14,6 +14,10 @@ date: 2024-12-22T07:00:06-04:00
 
 ## Items of Note
 
+### No Development Syncs the Next 2 Weeks
+
+We are taking a break for the Holidays. See you in 2025!
+
 ### Pony Development Sync
 
 The recording of the December 17, 2024 Pony development sync is available. Check it out on [Vimeo](https://vimeo.com/1040416322).
