@@ -22,6 +22,10 @@ We are taking a break for the Holidays. See you in 2025!
 
 The recording of the December 17, 2024 Pony development sync is available. Check it out on [Vimeo](https://vimeo.com/1040416322).
 
+### Office Hours the Next 2 Weeks
+
+We have Office Hours scheduled the next 2 weeks. I'm not sure if I will be in attendence. I will be playing it by ear each Monday based on what I have going on in my life while taking some time off from work.
+
 ### Office Hours
 
 I wasn't at Office Hours this past week but Joe was. He provided the following summary:
