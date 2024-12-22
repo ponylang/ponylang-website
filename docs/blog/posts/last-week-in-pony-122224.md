@@ -14,6 +14,12 @@ date: 2024-12-22T07:00:06-04:00
 
 ## Items of Note
 
+### A Conversation About Pony (and more)
+
+A couple weeks ago, Sylvan and I did an interview/conversation with Mike Shah about Pony and other things computer. It was released on Friday. Both Sylvan and I had a great time and loved talking with Mike. We hope you enjoy it as well. Hopefully, we can chat with Mike again sometime.
+
+[Pony Programming Language with Sylvan Clebsch and Sean Allen -- Conversation #7](https://www.youtube.com/watch?v=_jhPREUmHJ4)
+
 ### No Development Syncs the Next 2 Weeks
 
 We are taking a break for the Holidays. See you in 2025!
