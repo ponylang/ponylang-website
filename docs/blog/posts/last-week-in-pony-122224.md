@@ -8,7 +8,7 @@ title: "Last Week in Pony - December 22, 2024"
 date: 2024-12-22T07:00:06-04:00
 ---
 
-<< content >>
+Other than the publishing of a conversation about Pony with myself, Mike Shah, and Sylvan Clebsch, it was a pretty average week in Pony.
 
 <!-- more -->
 
