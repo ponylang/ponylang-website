@@ -16,7 +16,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 ## Items of note
 
 - [Pony-kafka](https://github.com/WallarooLabs/pony-kafka) version [0.3.0](https://github.com/WallarooLabs/pony-kafka/releases/tag/0.3.0) has been released and is up to date with the latest changes on ponyc main.
-- [@johanneshoff](https://twitter.com/johanneshoff) did create a really helpful overview of Pony reference capability subtype relations: [pony subtypes.svg](https://johanneshoff.com/pony-subtypes/pony%20subtypes.svg)
+- Johannes Hoff did create a really helpful overview of Pony reference capability subtype relations: [pony subtypes.svg](https://johanneshoff.com/pony-subtypes/pony%20subtypes.svg)
 - On November 29, 2017 the weekly Pony Developer Sync Call took place. No worries, we tapped the mic, here is the [recorded audio](https://vimeo.com/915354995). But don't tell anyone. Tell everybody!
 
 ## RFCs
