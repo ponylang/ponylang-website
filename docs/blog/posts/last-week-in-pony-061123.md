@@ -47,7 +47,7 @@ And also remember, even if you've never used a step-wise debugger, they are incr
 
 ### Pony is mentioned in a blog post
 
-Adrian Boyko noted on Zulip that Pony was mentioned in a blog post called ["10 Lesser-Known Programming Languages Worth Exploring"](https://levelup.gitconnected.com/10-lesser-known-programming-languages-worth-exploring-fb2ef988e0d5).
+Adrian Boyko noted on Zulip that Pony was mentioned in a blog post called "10 Lesser-Known Programming Languages Worth Exploring".
 
 Pony was listed as position 1, followed by Nim, Julia, Elixir, Rust, Haxe, Agda, Idris, Gosu, and Kotlin.
 
