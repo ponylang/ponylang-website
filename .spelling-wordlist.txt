@@ -180,6 +180,8 @@ GitLab
 GLFW
 glibc
 gmail
+GObject
+GObjects
 Goetz
 golang
 goroutines
@@ -191,6 +193,8 @@ Grönlund's
 Groxio
 grrr
 GTK
+GtkBuilder
+GtkButton
 gz
 Hacktoberfest
 Hädrich
