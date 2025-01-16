@@ -26,7 +26,7 @@ With the release of Pony 0.58.8, we switched from supporting Fedora 39 to suppor
 
 ### New Pony Pattern
 
-We've added a new pattern ["FFI Global Initializer"](https://patterns.ponylang.io/creation/ffi-global-initializer) to the [Pony Patterns book](ttps://patterns.ponylang.io/).
+We've added a new pattern ["FFI Global Initializer"](https://patterns.ponylang.io/creation/ffi-global-initializer) to the [Pony Patterns book](https://patterns.ponylang.io/).
 
 ### Office Hours
 
