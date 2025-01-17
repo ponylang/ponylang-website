@@ -16,7 +16,7 @@ date: 2025-01-19T07:00:06-04:00
 
 ### Preventing data races with Pony
 
-A couple weeks back, LWN.net published an article titled ["Preventing data races with Pony"](https://lwn.net/Articles/1001224/). The article is a good introduction to Pony and its capabilities. If you are a current Pony user, or a regular reader of Last Week in Pony, you probably won't get much from it, but hey, it's news.
+A couple weeks back, LWN.net published an article titled ["Preventing data races with Pony"](https://lwn.net/Articles/1001224/). The article is a good introduction to Pony and its capabilities. If you are a current Pony user or a regular reader of Last Week in Pony, you probably won't get much from it, but hey, it's news.
 
 ### Pony Development Sync
 
