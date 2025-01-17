@@ -2,6 +2,10 @@
 
 We don't have a Pony blog aggregator at the moment, so in the meantime, we have this manually edited stand in. It's like the [early curated days of Yahoo!](https://www.youtube.com/watch?v=TRAl48Ucgmw)
 
+## 2025
+
+* [Preventing data races with Pony](https://lwn.net/Articles/1001224/)
+
 ## 2024
 
 * [Pony Programming Language with Sylvan Clebsch and Sean Allen -- Conversation #7](https://www.youtube.com/watch?v=_jhPREUmHJ4)
