@@ -8,7 +8,7 @@ title: "Last Week in Pony - January 19, 2025"
 date: 2025-01-19T07:00:06-04:00
 ---
 
-<< content >>
+A new week, a new article about Pony and a new RFC accepted. All this and more in this week's Last Week in Pony.
 
 <!-- more -->
 
