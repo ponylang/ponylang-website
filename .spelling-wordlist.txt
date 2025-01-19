@@ -297,6 +297,7 @@ lookups
 lori
 LSP
 LWIP
+LWN
 Lystig
 macOS
 MacOS's
