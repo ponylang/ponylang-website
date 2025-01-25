@@ -25,7 +25,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 - The Pony development sync audio from last week is available right [here](https://vimeo.com/915352960), right now! Amongst other stuff it features Sylvan sharing pretty exciting ideas about the future of the Pony GC and thus the type system itself.
 
-- George Steed's Thesis "A Principled Design of Capabilities in Pony" is now available in the Papers section of the Pony website as well: [https://www.ponylang.io/community/#papers](https://www.ponylang.io/community/#papers). Last year George did a Virtual Users' Group presentation on his thesis as well: [https://vimeo.com/178522513](https://vimeo.com/178522513)
+- George Steed's Thesis "A Principled Design of Capabilities in Pony" is now available in the Papers section of the Pony website as well: [https://www.ponylang.io/learn/papers/](https://www.ponylang.io/learn/papers/). Last year George did a Virtual Users' Group presentation on his thesis as well: [https://vimeo.com/178522513](https://vimeo.com/178522513)
 
 ## RFCs
 

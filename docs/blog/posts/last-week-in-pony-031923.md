@@ -44,7 +44,7 @@ And if it doesn't sound interesting, you can join and steer the conversation in 
 
 We like to take a moment in each Last Week in Pony to highlight a community resource. There are many community resources that can go unappreciated until _just the right time_ when someone hops into the Ponylang Zulip asking a question or facing a problem we have all had at one time or another. Well here in Last Week in Pony, we make it **just the right time** to highlight one of our excellent community resources.
 
-This week we are highlighting the [Papers](https://www.ponylang.io/community/#papers) portion of the Pony website! Specifically, we are going to look at [ORCA: GC and Type System Co-Design for Actor Languages](https://www.ponylang.io/media/papers/orca_gc_and_type_system_co-design_for_actor_languages.pdf). This 2017 paper discusses ORCA or Ownership and Reference Counting-based garbage collection in the Actor World -- it may be a bit of a force acronym, but it is a killer whale of a reason to use Pony!
+This week we are highlighting the [Papers](https://www.ponylang.io/learn/papers/) portion of the Pony website! Specifically, we are going to look at [ORCA: GC and Type System Co-Design for Actor Languages](https://www.ponylang.io/media/papers/orca_gc_and_type_system_co-design_for_actor_languages.pdf). This 2017 paper discusses ORCA or Ownership and Reference Counting-based garbage collection in the Actor World -- it may be a bit of a force acronym, but it is a killer whale of a reason to use Pony!
 
 The entire paper is worth a read, but here we want to highlight the invariants list from section 4.1 that ORCA maintains:
 
