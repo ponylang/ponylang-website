@@ -76,7 +76,15 @@ Do you know of someone who should be able to help diagnose the problem? @ them o
 
 ## For committers
 
-There's only one additional step that committers can perform to help move the triaging process forward. Provide the proper labels on the issue. Below, we discuss the important triaging related labels.
+There's only one additional step that committers can perform to help move the triaging process forward. Provide the proper labels and classificationon the issue. GitHub provides two basic means for categorizing issues: labels and types. There are 3 types, "bug", "feature", and "task". Labels are defined by each project. Below, we discuss the important triaging related labels (and classification).
+
+### Bug
+
+If it has been determined that the issue is, in fact, a bug. The "Bug" type should be applied. If the source of the bug isn't known, also add "needs investigation".
+
+### Feature
+
+The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It's important to explain why the enhancement requires an RFC. If the new functionality doesn't meet the RFC criteria, then the "Feature" type should be applied
 
 ### discuss during sync
 
@@ -108,14 +116,6 @@ Common reasons for removing the tag include:
 
 Applied to any issue that isn't ready for work because additional work is needed to get a full understanding of the issue in question.
 
-### bug
-
-If it has been determined that the issue is, in fact, a bug. The "bug" label should be applied. If the source of the bug isn't known, also add "needs investigation".
-
-### enhancement
-
-The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It's important to explain why the enhancement requires an RFC.
-
 ### triggers release
 
 Should be applied if the resolution of the issue triggers a Pony release. This label is generally only applied to severe bugs.
@@ -135,3 +135,4 @@ The correct label should be applied to any pull request that implements a user f
 ### documentation
 
 Added to issues that involve improvements to documentation. Documentation issues require a different set of skills from "code fixes" and labelled to make them easier to find.
+
