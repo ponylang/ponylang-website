@@ -76,7 +76,7 @@ Do you know of someone who should be able to help diagnose the problem? @ them o
 
 ## For committers
 
-There's only one additional step that committers can perform to help move the triaging process forward. Provide the proper labels and classificationon the issue. GitHub provides two basic means for categorizing issues: labels and types. There are 3 types, "bug", "feature", and "task". Labels are defined by each project. Below, we discuss the important triaging related labels (and classification).
+There's only one additional step that committers can perform to help move the triaging process forward. Provide the proper labels and classification for the issue. GitHub provides two basic means for categorizing issues: labels and types. There are 3 types, "bug", "feature", and "task". Labels are defined by each project. Below, we discuss the important triaging related labels (and classification).
 
 ### Bug
 
