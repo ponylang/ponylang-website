@@ -8,7 +8,7 @@ While details might vary from repository to repository, the general principles c
 
 ## For anyone
 
-The vast majority of the triaging process can be done by any member of the community, all of the following steps require no special commit access to the `ponyc` repository.
+The vast majority of the triaging process can be done by any member of the community, all the following steps require no special commit access to the `ponyc` repository.
 
 ### Request missing relevant information
 
@@ -134,5 +134,5 @@ The correct label should be applied to any pull request that implements a user f
 
 ### documentation
 
-Added to issues that involve improvements to documentation. Documentation issues require a different set of skills from "code fixes" and labelled to make them easier to find.
+Added to issues that involve improvements to documentation. Documentation issues require a different set of skills from "code fixes" and labeled to make them easier to find.
 
