@@ -4,8 +4,8 @@ authors:
   - seantallen
 categories:
   - "Last Week in Pony"
-title: "Last Week in Pony - January 26, 2025"
-date: 2025-01-26T07:00:06-04:00
+title: "Last Week in Pony - February 2, 2025"
+date: 2025-02-02T07:00:06-04:00
 ---
 
 A fix for a nasty bug in the implementation the Pony type system was released as part of Pony 0.58.10. We recommend everyone update as soon as possible.
