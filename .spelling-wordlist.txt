@@ -367,6 +367,7 @@ OSX
 OTP
 packethost
 Palka
+Pantazis
 param
 parameterization
 parter
@@ -568,6 +569,7 @@ Wahl
 Wallaroo
 WallarooLabs
 Wayland
+Webber
 WebSocket
 WG
 WHEEEE
