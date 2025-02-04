@@ -92,8 +92,8 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 * [Pony VUG #1: Writing Generic Code](https://vimeo.com/163871856)
 * [Closures in Pony](https://bluishcoder.co.nz/2016/03/15/closures-in-pony.html)
 * [Safely Sharing Data: Reference Capabilities in Pony](http://jtfmumm.com/blog/2016/03/06/safely-sharing-data-pony-reference-capabilities/)
-* [the morning paper: Ownership and Reference Counting Based Garbage Collection in the Actor World](http://blog.acolyer.org/2016/02/18/ownership-and-reference-counting-based-garbage-collection-in-the-actor-world/)
-* [the morning paper: Deny Capabilities for Safe, Fast Actors](http://blog.acolyer.org/2016/02/17/deny-capabilities/)
+* [the morning paper: Ownership and Reference Counting Based Garbage Collection in the Actor World](https://web.archive.org/web/20241203121617/https://blog.acolyer.org/2016/02/18/ownership-and-reference-counting-based-garbage-collection-in-the-actor-world/)
+* [the morning paper: Deny Capabilities for Safe, Fast Actors](https://web.archive.org/web/20241207181100/https://blog.acolyer.org/2016/02/17/deny-capabilities/)
 
 ## 2015
 
