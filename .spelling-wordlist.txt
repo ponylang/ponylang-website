@@ -583,6 +583,7 @@ www
 Wyndham
 Xcode
 YAAM
+yada
 Yaya
 Zapier
 Zulip
