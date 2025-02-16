@@ -104,8 +104,9 @@ CSV
 ctags
 CurryOn
 D'oh
-deallocated
 Darach
+Datalog
+deallocated
 Découverte
 dereference
 deserialization
