@@ -17,3 +17,7 @@ In order to debug programs in the Visual Studio Code debugger (either on Windows
 ## Tracking Memory Usage
 
 Interested in tracking Pony runtime memory consumption? Checkout ["Making Pony track memory usage"](debugging/track-memory-usage.md).
+
+## Tracing Pony Programs
+
+Interested in tracing the execution of a Pony program? Checkout ["Tracing Pony Programs"](debugging/tracing.md).
