@@ -1,0 +1,28 @@
+name: PR
+
+on: pull_request_target
+
+concurrency:
+  group: pr-target-${{ github.ref }}
+  cancel-in-progress: true
+
+permissions:
+  packages: read
+
+jobs:
+  validate-site:
+    name: mkdocs build
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source
+        uses: actions/checkout@v4.1.1
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+        env:
+          INSIDERS_PAT: ${{ secrets.MATERIAL_INSIDERS_ACCESS }}
+      - name: Build site
+        run: mkdocs build
+        env:
+          # turn off external url checking as it takes a long time and we
+          # do that on a schedule
+          VALIDATE_EXTERNAL_URLS: false
