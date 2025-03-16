@@ -18,6 +18,10 @@ A new ponyc was released. It fixes a race condition in the runtime. Update soon.
 
 We closed a race condition in the runtime. The bug is unlikely to occur, but you should upgrade as soon as possible.
 
+### Pony Development Sync
+
+The [recording](https://vimeo.com/922568767) of the March 11th, 2025 sync is available.
+
 ### Office Hours
 
 I attended Office Hours this week. No notes. Can't remember a thing. Totally spaced. I'm sure we all had a blast.
