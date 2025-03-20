@@ -377,6 +377,7 @@ Patiency
 patroclos
 PCRE
 Perelandric
+perfetto
 permalink
 petri
 PLISS
@@ -481,6 +482,9 @@ SHA
 sharable
 shellcheck
 Shyu
+SIGBUS
+SIGILL
+SIGSEGV
 Sivers
 Sletten
 SMTP
