@@ -16,7 +16,7 @@ Once a trace has been captured, it can be viewed with the [perfetto trace viewer
 
 Tracing is a costly affair and is not enabled by default. Pony runtime needs to be built separately to enable tracing.
 
-This is a two step process
+This is a two step process:
 
 - Configuring Pony
 
