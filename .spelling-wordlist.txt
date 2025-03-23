@@ -71,6 +71,7 @@ ChatGPT
 cheatsheet
 Cheeseman
 ChristopherBiscardi
+chilis
 cidr
 CircleCI
 CirrusCI
@@ -258,6 +259,7 @@ jQuery
 JS
 JSON
 JVM
+kagi
 Kallos
 kastiglione
 kcov
@@ -321,6 +323,7 @@ microbenchmarking
 microsd
 microservices
 Migda
+mirin
 mixin
 mixins
 MkDocs
@@ -483,6 +486,7 @@ shellcheck
 Shyu
 Sivers
 Sletten
+Smalltalk
 SMTP
 soonish
 SSL
