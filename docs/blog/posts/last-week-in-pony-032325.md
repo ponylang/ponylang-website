@@ -8,6 +8,8 @@ title: "Last Week in Pony - March 23, 2025"
 date: 2025-03-23T07:00:06-04:00
 ---
 
+[.](https://www.youtube.com/watch?v=oHbwOj0QzFw)
+
 <!-- more -->
 
 ## Items of Note
