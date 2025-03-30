@@ -297,6 +297,7 @@ Lobste
 lockdown
 Lockless
 lookups
+LordMZTE
 lori
 LSP
 LWIP
@@ -468,6 +469,7 @@ Sandro
 Sandro's
 scalable
 ScalaDays
+Schuppenpferd
 SDK
 SDKs
 SDR
@@ -595,4 +597,5 @@ YAAM
 yada
 Yaya
 Zapier
+Zig
 Zulip
