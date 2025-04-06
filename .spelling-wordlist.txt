@@ -13,6 +13,7 @@ Akka
 Akka's
 allen
 allocator
+allocators
 AmbientAuth
 Andreas
 anthony
@@ -189,6 +190,7 @@ golang
 goroutines
 Gosu
 Goulimis
+GPUs
 Grigorij
 Grönlund
 Grönlund's
@@ -382,6 +384,7 @@ patroclos
 PCRE
 Perelandric
 perfetto
+performant
 permalink
 petri
 PLISS
