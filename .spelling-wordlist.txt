@@ -110,6 +110,7 @@ Darach
 Datalog
 deallocated
 Découverte
+deprecations
 dereference
 deserialization
 desugared
@@ -433,6 +434,7 @@ QUIC
 quickstart
 Radisson
 Raspbian
+RDMA
 Reachability
 README
 READMEs
@@ -468,6 +470,7 @@ RSS
 Rubyists
 runtime
 runtime's
+runtimes
 Sandro
 Sandro's
 scalable
