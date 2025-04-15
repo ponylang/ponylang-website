@@ -2,6 +2,7 @@
 
 If reading academic papers is your thing, you're in luck. There are a number of papers that have been written about Pony. We host a number of them on this website. If you're interested in learning more about "deep Pony", these papers are a great place to start:
 
+* [Pony: Co-designing a Type System and a Runtime](/media/papers/codesigning.pdf)
 * [Deny Capabilities for Safe, Fast Actors](/media/papers/fast-cheap.pdf)
 * [Ownership and Reference Counting based Garbage Collection in the Actor World](/media/papers/OGC.pdf)
 * [Fully Concurrent Garbage Collection of Actors on Many-Core Machines](/media/papers/opsla237-clebsch.pdf)
