@@ -2,7 +2,6 @@
 draft: false
 authors:
   - seantallen
-  - red
 categories:
   - "Last Week in Pony"
 title: "Last Week in Pony - April 13, 2025"
