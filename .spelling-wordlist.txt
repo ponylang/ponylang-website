@@ -501,6 +501,7 @@ Sletten
 Smalltalk
 SMTP
 soonish
+SPECweb
 SSL
 stateful
 StatsD
@@ -574,6 +575,8 @@ vararg
 varargs
 Vassilvk
 VCPUs
+vendored
+vendoring
 Ventura
 Vey
 Vimeo
