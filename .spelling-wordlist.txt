@@ -205,6 +205,7 @@ Hacktoberfest
 Hädrich
 Hagenson
 Hagenson's
+hardcoded
 harken
 Hashable
 Haxe
