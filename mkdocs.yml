@@ -51,6 +51,7 @@ plugins:
         504: ["https://arxiv.org/*", "https://opensource.com/*", "https://vimeo.com/*"]
       ignore_urls:
         - https://sync-recordings.ponylang.io/
+        - https://news.ycombinator.com/
 
   - rss:
       match_path: blog/posts/.*
