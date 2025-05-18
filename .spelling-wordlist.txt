@@ -179,6 +179,7 @@ gencap
 Gentoo
 GHCR
 gists
+git's
 GitHub
 GitLab
 GLFW
@@ -240,6 +241,7 @@ IntelliSense
 intentioned
 interoperable
 interoperation
+intrinsics
 invariants
 IO
 IOCP
