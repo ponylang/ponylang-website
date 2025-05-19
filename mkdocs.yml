@@ -40,6 +40,7 @@ plugins:
   - ezlinks
   - htmlproofer:
       enabled: !ENV [ENABLED_HTMLPROOFER, True]
+      skip_downloads: True
       validate_external_urls: !ENV [VALIDATE_EXTERNAL_URLS, True]
       raise_error_after_finish: True
       raise_error_excludes:
