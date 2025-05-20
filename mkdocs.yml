@@ -53,6 +53,7 @@ plugins:
       ignore_urls:
         - https://sync-recordings.ponylang.io/*
         - https://news.ycombinator.com/*
+        - https://stackoverflow.com/*
 
   - rss:
       match_path: blog/posts/.*
