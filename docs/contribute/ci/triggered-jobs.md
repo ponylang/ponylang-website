@@ -37,7 +37,8 @@ The triggered jobs list was last updated September 14, 2021.
 
 ### Triggered workflows
 
-- [shared-docker: linux-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-builder-update.yml)
+- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
+- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
 - [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
 
 ## ponyc-musl-released
@@ -48,7 +49,8 @@ The triggered jobs list was last updated September 14, 2021.
 
 ### Triggered workflows
 
-- [shared-docker: linux-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-builder-update.yml)
+- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
+- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
 - [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
 
 ## ponyc-windows-nightly-released
