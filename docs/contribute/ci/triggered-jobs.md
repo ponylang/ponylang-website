@@ -70,7 +70,7 @@ Sent after our various linux builders hosted in the shared-docker repo have been
 
 ### Sending workflows
 
-- [shared-docker: linux-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-builder-update.yml)
+- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
 
 ### Triggered workflows
 
