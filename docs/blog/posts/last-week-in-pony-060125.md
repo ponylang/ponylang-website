@@ -8,7 +8,7 @@ title: "Last Week in Pony - June 1, 2025"
 date: 2025-06-01T07:00:06-04:00
 ---
 
-Time to update your copy of ponyup! And expect a new Pony release this week! The Pony 0.60.0 release is coming later this week, and it includes a lot of work on Arm64 binaries for Linux and Windows.
+Time to update your copy of ponyup! Pony 0.60.0 is coming later this week with significant work on Arm64 binaries for Linux and Windows.
 
 <!-- more -->
 
