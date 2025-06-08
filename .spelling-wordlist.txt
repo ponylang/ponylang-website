@@ -192,6 +192,7 @@ golang
 goroutines
 Gosu
 Goulimis
+GPIO
 GPUs
 Grigorij
 Grönlund
@@ -211,6 +212,7 @@ harken
 Hashable
 Haxe
 HeapToStack
+Hedhman
 HFPUG
 HighlightJS
 hoc
@@ -284,6 +286,7 @@ lexing
 LFS
 libatomic
 libc
+Libgpiod
 libponyc
 LibreSSL
 libs
