@@ -187,9 +187,8 @@ You can adjust the type (`long`) to appropriately print the types that correspon
 
 ### Method Name Mangling
 
-{{< warning title="Future breakage possible!" >}}
-While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static.
-{{< /warning >}}
+!!! warning "Future breakage possible!"
+    While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static.
 
 Method names get mangled by the compiler. The general format for the mangling is:
 
