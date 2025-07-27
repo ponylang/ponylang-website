@@ -309,6 +309,7 @@ lookups
 LordMZTE
 lori
 LSP
+Lucus
 LWIP
 LWN
 Lystig
@@ -409,6 +410,7 @@ PonyHub
 Ponyland
 ponylang
 ponyup
+Ponyup's
 PostgreS
 postmature
 powerscaling
