@@ -10,10 +10,6 @@ While the packages are maintained by us, we welcome contributions from the commu
 
 Package for getting platform-specific application directories e.g. directory for user-based config.
 
-### [crypto](https://github.com/ponylang/crypto)
-
-Package of common cryptographic algorithms and functions for Pony.
-
 ### [fork_join](https://github.com/ponylang/fork_join)
 
 Pony parallel processing package.
@@ -46,9 +42,9 @@ A simple logging package for Pony.
 
 Pony TCP classes reimagined.
 
-### [net_ssl](https://github.com/ponylang/net_ssl)
+### [ssl](https://github.com/ponylang/ssl)
 
-SSL package for Pony.
+Pony wrappers for OpenSSL and LibreSSL.
 
 ### [peg](https://github.com/ponylang/peg)
 
@@ -77,4 +73,3 @@ A template engine for Pony.
 ### [valbytes](https://github.com/ponylang/valbytes)
 
 Package to deal with multiple concatenated byte-arrays as if they were a single byte-array.
-
