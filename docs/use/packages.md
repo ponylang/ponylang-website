@@ -42,10 +42,6 @@ A simple logging package for Pony.
 
 Pony TCP classes reimagined.
 
-### [ssl](https://github.com/ponylang/ssl)
-
-Pony wrappers for OpenSSL and LibreSSL.
-
 ### [peg](https://github.com/ponylang/peg)
 
 A parsing expression grammar package for Pony.
@@ -65,6 +61,10 @@ Perl compatible regular expression support for Pony.
 ### [semver](https://github.com/ponylang/semver)
 
 A semantic versioning package for Ponylang.
+
+### [ssl](https://github.com/ponylang/ssl)
+
+Pony wrappers for OpenSSL and LibreSSL.
 
 ### [templates](https://github.com/ponylang/templates)
 
