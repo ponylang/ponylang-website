@@ -6,4 +6,4 @@ That would be yes and no. Package manager means different things to different pe
 
 ## Is there SSL support? {:id="ssl"}
 
-Yes! There used to be SSL support in the Pony standard library, but it's been moved out [into its own library](https://github.com/ponylang/net-ssl).
+Yes! There used to be SSL support in the Pony standard library, but it's been moved out [into its own library](https://github.com/ponylang/ssl).
