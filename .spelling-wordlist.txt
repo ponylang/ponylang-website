@@ -576,6 +576,7 @@ unimportance
 unsession
 untracked
 upvote
+UTF
 UX
 valbytes
 Valgrind
