@@ -30,5 +30,13 @@ jobs:
     steps:
       - name: Checkout source
         uses: actions/checkout@v4.1.1
+      - name: Find changed files
+        # version v46.0.5
+        uses: tj-actions/changed-files@ed68ef82c095e0d48ec87eccea555d944a631a4c
+        id: find-changed-files
       - name: Check spelling
-        uses: rojopolis/spellcheck-github-actions@e0dcc87bedf34ff10d6be443753f1c770bacbaa2
+        # version 0.51.0
+        uses: rojopolis/spellcheck-github-actions@35a02bae020e6999c5c37fabaf447f2eb8822ca7
+        with:
+          task_name: Changed
+          source_files: ${{ steps.find-changed-files.outputs.all_changed_files }}
