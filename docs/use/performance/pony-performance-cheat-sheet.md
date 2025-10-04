@@ -517,12 +517,7 @@ Now, warning aside, there's plenty you can learn about tuning your operating sys
 
 ### Build from source {#build-from-source}
 
-The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should build your compiler from source. By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try:
-
-- Building with [link time optimization on](https://github.com/ponylang/ponyc#building-with-link-time-optimisation-lto).
-- Building the [runtime as an LLVM bitcode file](https://github.com/ponylang/ponyc#building-the-runtime-as-an-llvm-bitcode-file).
-
-And last but not least, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
+The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should build your compiler from source. By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try building the [runtime as an LLVM bitcode file](https://github.com/ponylang/ponyc#building-the-runtime-as-an-llvm-bitcode-file). Finally, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
 
 ### Profile it! {#profiling}
 
