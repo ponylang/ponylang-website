@@ -4,6 +4,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## 2025
 
+* [Fast, Concurrent, Secure, Correct Actors… and a pony!](https://www.youtube.com/watch?v=Co2owHuadCM)
 * [Preventing data races with Pony](https://lwn.net/Articles/1001224/)
 
 ## 2024
