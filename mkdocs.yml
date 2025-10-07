@@ -112,6 +112,7 @@ theme:
 
 nav:
   - Home: "index.md"
+  - Install: "https://github.com/ponylang/ponyc/blob/main/INSTALL.md"
   - Discover:
       - What is Pony?: "discover/index.md"
       - What makes Pony different?: "discover/what-makes-pony-different.md"
