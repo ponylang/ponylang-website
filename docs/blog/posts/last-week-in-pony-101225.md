@@ -8,6 +8,8 @@ title: "Last Week in Pony - October 12, 2025"
 date: 2025-10-12T17:30:06-04:00
 ---
 
+We have exciting news this week! Pony 0.60.0 is scheduled for release soon, followed by several additional releases to implement related changes. These updates include significant changes to our container images (shifting to musl-based only), improved multi-architecture support for both AMD64 and ARM64, and the first official support for building Pony on ARM64 Windows machines. We're also renaming our "latest" image tag to the more accurate "nightly" designation. Read on for more details about these upcoming changes.
+
 <!-- more -->
 
 ## Expect Lots of Pony Releases
