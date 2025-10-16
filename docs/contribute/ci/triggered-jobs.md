@@ -41,11 +41,36 @@ The triggered jobs list was last updated September 14, 2021.
 - [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
 - [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
 
+## ponyc-nightly-image-pushed
+
+### Sending workflows
+
+- [ponyc: build-nightly-image](https://github.com/ponylang/ponyc/blob/main/.github/workflows/build-nightly-image.yml)
+
+### Triggered workflows
+
+- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
+- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
+- [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
+
 ## ponyc-musl-released
 
 ### Sending workflows
 
 - [ponyc: cloudsmith-package-synchronised](https://github.com/ponylang/ponyc/blob/main/.github/workflows/cloudsmith-package-sychronised.yml)
+
+### Triggered workflows
+
+- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
+- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
+- [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
+
+
+## ponyc-release-image-pushed
+
+### Sending workflows
+
+- [ponyc: build-release-image](https://github.com/ponylang/ponyc/blob/main/.github/workflowsbuild-release-image.yml)
 
 ### Triggered workflows
 
