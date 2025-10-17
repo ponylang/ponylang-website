@@ -70,7 +70,7 @@ The triggered jobs list was last updated September 14, 2021.
 
 ### Sending workflows
 
-- [ponyc: build-release-image](https://github.com/ponylang/ponyc/blob/main/.github/workflowsbuild-release-image.yml)
+- [ponyc: build-release-image](https://github.com/ponylang/ponyc/blob/main/.github/workflows/build-release-image.yml)
 
 ### Triggered workflows
 
