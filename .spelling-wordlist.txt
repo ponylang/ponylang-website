@@ -349,6 +349,7 @@ mshockwave
 MsQuic
 msvc
 mtune
+multiplatform
 multithreading
 Mumm
 Mumm's
