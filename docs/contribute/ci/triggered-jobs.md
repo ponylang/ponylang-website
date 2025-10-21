@@ -29,18 +29,6 @@ The triggered jobs list was last updated September 14, 2021.
 - [ponyup: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 - [ponyup: breakage-against-macos-x64-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-macos-x86-ponyc-latest.yml)
 
-## ponyc-musl-nightly-released
-
-### Sending workflows
-
-- [ponyc: cloudsmith-package-synchronised](https://github.com/ponylang/ponyc/blob/main/.github/workflows/cloudsmith-package-sychronised.yml)
-
-### Triggered workflows
-
-- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
-- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
-- [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
-
 ## ponyc-nightly-image-pushed
 
 ### Sending workflows
@@ -49,22 +37,8 @@ The triggered jobs list was last updated September 14, 2021.
 
 ### Triggered workflows
 
-- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
-- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
+- [shared-docker: Rebuild ponyc based images](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/rebuild-ponyc-based-images.yml)
 - [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
-
-## ponyc-musl-released
-
-### Sending workflows
-
-- [ponyc: cloudsmith-package-synchronised](https://github.com/ponylang/ponyc/blob/main/.github/workflows/cloudsmith-package-sychronised.yml)
-
-### Triggered workflows
-
-- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
-- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
-- [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
-
 
 ## ponyc-release-image-pushed
 
@@ -74,8 +48,7 @@ The triggered jobs list was last updated September 14, 2021.
 
 ### Triggered workflows
 
-- [shared-docker: linux-arm64-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-arm64-builder-update.yml)
-- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
+- [shared-docker: Rebuild ponyc based images](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/rebuild-ponyc-based-images.yml)
 - [shared-docker: release-a-library-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/release-a-library-update.yml)
 
 ## ponyc-windows-nightly-released
@@ -89,13 +62,13 @@ The triggered jobs list was last updated September 14, 2021.
 - [corral: breakage-against-windows-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [http: breakage-against-windows-ponyc-latest](https://github.com/ponylang/http/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 
-## shared-docker-linux-builders-updated
+## shared-docker-builders-updated
 
 Sent after our various linux builders hosted in the shared-docker repo have been rebuilt.
 
 ### Sending workflows
 
-- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
+- [shared-docker: Rebuild ponyc based images](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/rebuild-ponyc-based-images.yml)
 
 ### Triggered workflows
 
