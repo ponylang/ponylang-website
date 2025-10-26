@@ -371,6 +371,7 @@ NUMA
 numerics
 o'Cook
 observability
+ODBC
 ok
 OMG
 onesie
