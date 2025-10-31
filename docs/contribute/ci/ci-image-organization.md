@@ -36,12 +36,12 @@ Having the contents of a testing environment change out from under you without a
 
 We have some docker images that we want to keep up to date with the latest comings and going of other packages. That is, we have images that we always want to be use most recent `ponyc` or the most recently released `ponyc`. The same applies to ponyup, corral, and other programs that might be included in the image.
 
-Our nightly builders are an example of this, we want to use the most recent `ponyc` for latest and most recently released `ponyc`. For these, our tags are `latest` and `release`.
+Our nightly builders are an example of this, we want to use the most recent `ponyc` for latest and most recently released `ponyc`. For these, our tags are `nightly` and `release`.
 
-For example, the x86-64-unknown-linux-builder nightly builder with the latest and greatest of everything Pony is:
+For example, the standard-builder with the latest and greatest of everything Pony is:
 
-- `ponylang/shared-docker-ci-x86-64-unknown-linux-builder:latest`
+- `ponylang/shared-docker-ci-standard-builder:nightly`
 
-And x86-64-unknown-linux-builder nightly builder that relies on released versions of the Pony tools is:
+And the standard-builder that relies on released versions of the Pony tools is:
 
-- `ponylang/shared-docker-ci-x86-64-unknown-linux-builder:release`
+- `ponylang/shared-docker-ci-standard-builder:release`
