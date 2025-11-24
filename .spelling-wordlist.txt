@@ -212,6 +212,7 @@ Hagenson's
 hardcoded
 harken
 Hashable
+hashFiles
 Haxe
 HeapToStack
 Hedhman
@@ -560,6 +561,7 @@ TNG
 Tobias
 toc
 TOCTOU
+toolchain
 toolchains
 toolkits
 transphobia
