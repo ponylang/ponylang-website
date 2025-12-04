@@ -1,4 +1,4 @@
-git+https://${INSIDERS_PAT}@github.com/squidfunk/mkdocs-material-insiders.git
+mkdocs-material
 mkdocs-htmlproofer-plugin>=1.3.0
 mkdocs-ezlinks-plugin>=0.1.8
 mkdocs-rss-plugin>=1.12.1
