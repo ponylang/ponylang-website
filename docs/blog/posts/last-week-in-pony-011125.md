@@ -44,7 +44,7 @@ I have minimal notes from each, so nothing to report.
 ## Releases
 
 - [redvers/pony-libxml2 1.0.3](https://github.com/redvers/pony-libxml2/releases/tag/1.0.3)
-- [redvers/pony-libxml2 1.1.1](https://github.com/redvers/pony-libxml2/releases/tag/1.1.1)
+- [redvers/libxml2 1.1.1](https://github.com/redvers/libxml2/releases/tag/1.1.1)
 
 ---
 

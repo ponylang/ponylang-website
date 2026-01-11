@@ -295,6 +295,7 @@ libponyc
 LibreSSL
 libs
 LibXML
+libxml2
 Liétar
 Liétar's
 linkable
