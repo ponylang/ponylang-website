@@ -216,6 +216,7 @@ hashFiles
 Haxe
 HeapToStack
 Hedhman
+Herdsim
 HFPUG
 HighlightJS
 hoc
@@ -318,6 +319,7 @@ LWN
 Lystig
 macOS
 MacOS's
+Madgwick
 Makefile
 malloc
 mallocs
@@ -338,6 +340,7 @@ microsd
 microservices
 Migda
 mirin
+mirko
 mixin
 mixins
 MkDocs
@@ -382,6 +385,7 @@ OpenCollective
 OpenSSL
 ORCA
 Øredev
+Orien
 OSCON
 OSX
 OTP
