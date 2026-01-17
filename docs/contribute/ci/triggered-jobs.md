@@ -88,7 +88,7 @@ Sent after our various linux builders hosted in the shared-docker repo have been
 - [regex: breakage-against-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [rfc-tool: breakage-against-ponyc-latest](https://github.com/ponylang/rfc-tool/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [semver: breakage-against-ponyc-latest](https://github.com/ponylang/semver/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [shared-docker: linux-x86-builder-update](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/linux-x86-builder-update.yml)
+- [shared-docker: rebuild-ponyc-based-images](https://github.com/ponylang/shared-docker/blob/main/.github/workflows/rebuild-ponyc-based-images.yml)
 - [valbytes: breakage-against-ponyc-latest](https://github.com/ponylang/valbytes/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 
 <!-- markdownlint-restore -->
