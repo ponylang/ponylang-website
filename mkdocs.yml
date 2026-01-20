@@ -54,7 +54,9 @@ plugins:
         - https://sync-recordings.ponylang.io/*
         - https://news.ycombinator.com/*
         - https://stackoverflow.com/*
-
+        - https://www.gnuradio.org/*
+        - https://medium.com/*
+        
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
