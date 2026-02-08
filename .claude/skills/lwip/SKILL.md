@@ -42,3 +42,14 @@ Create a new "Last Week in Pony" blog post. Follow these steps:
 8. **Commit and PR**: Create a branch, commit the new post with the message
    `Last Week in Pony - Month Day, Year`, and open a PR. Report the PR URL
    to the user.
+
+9. **Post-merge issue rotation**: After the PR is merged, prompt the user:
+   "PR is merged. Want me to do the post-merge issue rotation?" On
+   confirmation:
+   a. Find the open issue with the `last-week-in-pony` label in
+      `ponylang/ponylang.github.io`.
+   b. Unpin it, remove the `last-week-in-pony` label, and close it.
+   c. Calculate the next Sunday from today's date.
+   d. Create a new empty issue titled
+      `Last Week in Pony - {next Sunday: Month Day, Year}`.
+   e. Add the `last-week-in-pony` label and pin the new issue.
