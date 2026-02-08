@@ -17,6 +17,9 @@ Study recent posts in `docs/blog/posts/` for voice calibration before writing.
   attended by..." not "Office Hours were attended by..."
 - The Pony Development Sync is sometimes called just "the sync" in casual
   context.
+- Refer to repositories as `owner/repo` (e.g., `seantallen-org/msgpack`, not
+  `msgpack`) — no one owns a name. This applies everywhere: section headings,
+  inline prose, not just the releases list. Link to the repo on first mention.
 
 ### Post Format
 
@@ -61,6 +64,21 @@ noteworthy content (bug fixes affecting users, new features, breaking changes),
 it also gets its own `##` section higher in the post with a short write-up.
 Read the release notes to determine if a release warrants its own section. Use
 judgment — routine releases with nothing interesting just go in the list.
+
+### Post-Merge Process
+
+After the LWIP PR is merged:
+
+1. Find the open issue with the `last-week-in-pony` label in
+   `ponylang/ponylang.github.io`.
+2. Unpin it, remove the `last-week-in-pony` label, and close it.
+3. Create a new empty issue titled
+   `Last Week in Pony - {next Sunday: Month Day, Year}`.
+4. Add the `last-week-in-pony` label and pin the new issue.
+
+"Next Sunday" means the next Sunday from today. The post usually goes out on
+Sunday, but occasionally slips to Monday — the issue title always uses the
+Sunday date regardless.
 
 ### Reviewer Prompt
 
