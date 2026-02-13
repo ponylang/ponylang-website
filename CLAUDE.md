@@ -65,20 +65,21 @@ it also gets its own `##` section higher in the post with a short write-up.
 Read the release notes to determine if a release warrants its own section. Use
 judgment — routine releases with nothing interesting just go in the list.
 
-### Post-Merge Process
+### Issue Rotation
 
-After the LWIP PR is merged:
+Issue rotation happens early in the LWIP workflow — right after reading the
+current issue — to avoid race conditions. The steps:
 
-1. Find the open issue with the `last-week-in-pony` label in
-   `ponylang/ponylang.github.io`.
-2. Unpin it, remove the `last-week-in-pony` label, and close it.
-3. Create a new empty issue titled
+1. Calculate the next Sunday from today. The post usually goes out on Sunday
+   but occasionally slips to Monday — the issue title always uses the Sunday
+   date regardless.
+2. Create a new empty issue in `ponylang/ponylang.github.io` titled
    `Last Week in Pony - {next Sunday: Month Day, Year}`.
-4. Add the `last-week-in-pony` label and pin the new issue.
+3. Add the `last-week-in-pony` label and pin the new issue.
+4. Remove the `last-week-in-pony` label from the current week's issue.
 
-"Next Sunday" means the next Sunday from today. The post usually goes out on
-Sunday, but occasionally slips to Monday — the issue title always uses the
-Sunday date regardless.
+After the LWIP PR is merged, the only remaining cleanup is to unpin and close
+the old issue.
 
 ### Reviewer Prompt
 
