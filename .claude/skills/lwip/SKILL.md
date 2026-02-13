@@ -16,18 +16,25 @@ Create a new "Last Week in Pony" blog post. Follow these steps:
    `gh issue list --repo ponylang/ponylang.github.io --label last-week-in-pony --state open`
    to find the current issue, then read it with all comments.
 
-4. **Read release notes**: For any release items in the issue, fetch the
+4. **Rotate the issue**: Calculate the next Sunday from today's date. Create
+   a new empty issue in `ponylang/ponylang.github.io` titled
+   `Last Week in Pony - {next Sunday: Month Day, Year}`, add the
+   `last-week-in-pony` label, and pin it. Then remove the
+   `last-week-in-pony` label from the current week's issue. This locks in
+   the issue identity before any time-consuming work begins.
+
+5. **Read release notes**: For any release items in the issue, fetch the
    release notes (e.g., `gh release view TAG --repo ORG/REPO`) and evaluate
    whether the release has noteworthy content deserving its own section.
 
-5. **Ask clarifying questions**: Ask the user about any items that are vague
+6. **Ask clarifying questions**: Ask the user about any items that are vague
    or need more context. Do this in a single round if possible — batch your
    questions.
 
-6. **Write the draft**: Create the post following the format in CLAUDE.md.
+7. **Write the draft**: Create the post following the format in CLAUDE.md.
    Use the date from the issue title for the filename and front matter.
 
-7. **Review loop**:
+8. **Review loop**:
    a. Spawn a reviewer subagent (using Task tool, subagent_type
       "general-purpose") with the copy-editing prompt from CLAUDE.md. Pass
       the full draft content. The reviewer has no conversation history — give
@@ -39,17 +46,11 @@ Create a new "Last Week in Pony" blog post. Follow these steps:
    e. If 3 rounds pass without a clean result, ask the user whether to
       continue. Check in every 3 rounds thereafter.
 
-8. **Commit and PR**: Create a branch, commit the new post with the message
+9. **Commit and PR**: Create a branch, commit the new post with the message
    `Last Week in Pony - Month Day, Year`, and open a PR. Report the PR URL
    to the user.
 
-9. **Post-merge issue rotation**: After the PR is merged, prompt the user:
-   "PR is merged. Want me to do the post-merge issue rotation?" On
-   confirmation:
-   a. Find the open issue with the `last-week-in-pony` label in
-      `ponylang/ponylang.github.io`.
-   b. Unpin it, remove the `last-week-in-pony` label, and close it.
-   c. Calculate the next Sunday from today's date.
-   d. Create a new empty issue titled
-      `Last Week in Pony - {next Sunday: Month Day, Year}`.
-   e. Add the `last-week-in-pony` label and pin the new issue.
+10. **Post-merge issue cleanup**: After the PR is merged, prompt the user:
+    "PR is merged. Want me to close and unpin the old issue?" On
+    confirmation, unpin and close the old issue (the label was already
+    removed and the new issue already created in step 4).
