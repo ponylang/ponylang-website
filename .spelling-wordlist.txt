@@ -17,10 +17,12 @@ allocators
 AmbientAuth
 Andreas
 anthony
+anthropomorphizing
 AOT
 APIs
 appdirs
 Appveyor
+arent
 Armv
 ASIO
 ASM
@@ -277,6 +279,7 @@ Kallos
 kastiglione
 kcov
 kevinhoffman
+klabnik
 Kqueue
 Kristoffer
 kulibali
@@ -511,6 +514,7 @@ sexualized
 SFML
 SHA
 sharable
+Sheeeeee
 shellcheck
 Shyu
 SIGBUS
