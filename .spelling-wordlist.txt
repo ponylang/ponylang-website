@@ -169,6 +169,7 @@ footguns
 formatter
 formatters
 ForwardMX
+FP
 FreeBSD
 Fritchie
 Fritchie's
@@ -304,6 +305,7 @@ LINQ
 linter
 Linux
 LLDB
+LLM
 LLMs
 LLVM
 LLVM's
@@ -520,6 +522,7 @@ Smalltalk
 SMTP
 soonish
 SPECweb
+spookily
 SSL
 stateful
 StatsD
@@ -538,6 +541,7 @@ StructA
 StructB
 structs
 Stührk
+subagent
 subcommand
 submenu
 submodule
@@ -584,6 +588,7 @@ unary
 Uncategorized
 unforgeable
 unimportance
+unrepresentable
 unsession
 untracked
 upvote
