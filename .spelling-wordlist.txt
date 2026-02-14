@@ -17,10 +17,12 @@ allocators
 AmbientAuth
 Andreas
 anthony
+anthropomorphizing
 AOT
 APIs
 appdirs
 Appveyor
+arent
 Armv
 ASIO
 ASM
@@ -169,6 +171,7 @@ footguns
 formatter
 formatters
 ForwardMX
+FP
 FreeBSD
 Fritchie
 Fritchie's
@@ -276,6 +279,7 @@ Kallos
 kastiglione
 kcov
 kevinhoffman
+klabnik
 Kqueue
 Kristoffer
 kulibali
@@ -304,6 +308,7 @@ LINQ
 linter
 Linux
 LLDB
+LLM
 LLMs
 LLVM
 LLVM's
@@ -509,6 +514,7 @@ sexualized
 SFML
 SHA
 sharable
+Sheeeeee
 shellcheck
 Shyu
 SIGBUS
@@ -520,6 +526,7 @@ Smalltalk
 SMTP
 soonish
 SPECweb
+spookily
 SSL
 stateful
 StatsD
@@ -538,6 +545,7 @@ StructA
 StructB
 structs
 Stührk
+subagent
 subcommand
 submenu
 submodule
@@ -584,6 +592,7 @@ unary
 Uncategorized
 unforgeable
 unimportance
+unrepresentable
 unsession
 untracked
 upvote
