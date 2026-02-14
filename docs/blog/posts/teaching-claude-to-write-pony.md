@@ -1,5 +1,5 @@
 ---
-date: 2026-02-16T07:00:00-04:00
+date: 2026-02-17T07:00:00-04:00
 title: "Teaching Claude to Write Pony"
 authors:
   - seantallen
@@ -107,9 +107,19 @@ If you want to try this with your language or your project: be patient. Be metho
 
 ## "The library is broken"
 
-One of my favorite moments from these two weeks: Claude was struggling with the types in PonyCheck, Pony's property-based testing library. After enough frustration, Claude declared that the library was broken and unusable and that it was going to open a bug report. That is a very frustrated junior engineer move. Blaming the tools. I've been spamming my engineering friends' group chat with moments like these. "Wow, that was amazing debugging." "This is spookily like a junior engineer." I've gotten a number of close friends excited about Claude Code from watching my process play out.
+One of my favorite moments from these two weeks: Claude was struggling with the types in PonyCheck, Pony's property-based testing library. After enough frustration, Claude declared that the library was broken and unusable and that it was going to open a bug report. That is a very frustrated junior engineer move. Blaming the tools. Even with moments like that, I'm excited by thoughts of what I can accomplish writing Pony code.
 
-But even that moment illustrates something important. This is not a story about replacement (at least not yet!). Claude needed me to explain why PonyCheck wasn't broken and how to use it correctly. I want to accomplish things. If I didn't have anything to do with it, I wouldn't be accomplishing things; I'd be watching things happen. My input is vital. There's only so much you can fit into a context window, and teaching taste in APIs and module boundaries is hard. It's especially hard when something else has [to get shoved out of the context to make room](https://www.youtube.com/watch?v=KMlRuM3r1O8).
+I've been spamming my engineering friends' group chat. Posting screenshots of "Claude thinking". Lots of "its uncanny". Lots of "I can see why people fall into anthropomorphizing". Lots of "Wow, that was amazing debugging." "This is spookily like a junior engineer." "Sheeeeee-it."
+
+I've gotten a number of close friends excited about Claude Code from watching my process play out. When I went up to one of the more expensive plans, I got a couple one week trials to hand out. I gave one to Sylvan because I'd gotten him interested enough. I have no idea if he is using it but I know he is playing around in the space more. At one point, I texted Steve Klabnik: "It feels weird to automate a better you that does everything you would do when you arent being a a lazy human engineer". He knew exactly what I meant.
+
+In the last couple weeks, I've accomplished more than I did in all of 2025 towards Pony project goals. I'm knocking off things I thought I should do X back in 2017. This is a boon to me. I never much cared for the particulars of coding. I care about module boundaries and APIs and writing code that is easy to replace. But the particulars that lead some people to argue about formatting and such? Never cared. For me this is a great tool.
+
+I'm not worried about being "replace by AI". I'm dreaming of all of the things I have wanted to do and might finally have a chance to do. There's a whole class of problems I haven't tried to solve yet, and I suspect Claude will fail miserably with some. I plan to iterate on trying to make it a more useful tool for those that I can. And I plan on remembering I know when to give up, start the problem myself and take the wheel.
+
+Now, before I get to a giant dump of stuff pulled from my CLAUDE.md as a final emphasis for what I've been saying, just in case you missed it earlier, here's that scene from Married With Children again. It's incredibly apropos to me and feels like a good place to end this on:
+
+[What Is the Memory Capacity of Kelly's Brain?](https://www.youtube.com/watch?v=KMlRuM3r1O8).
 
 ## The CLAUDE.md
 
