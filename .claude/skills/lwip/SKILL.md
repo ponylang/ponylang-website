@@ -4,7 +4,27 @@ description: Create a new "Last Week in Pony" blog post from the open GitHub iss
 disable-model-invocation: true
 ---
 
-Create a new "Last Week in Pony" blog post. Follow these steps:
+Create a new "Last Week in Pony" blog post.
+
+## Additional Notes
+
+- When referring to repos by short name in prose (not `owner/repo` format),
+  use lowercase to match the actual repo name: `ponyc`, `corral`, `ponyup`,
+  not `Ponyc`, `Corral`, `Ponyup`.
+- The post is authored by seantallen. Write in first person ("I", "my"), not
+  third person ("Sean", "his"). Third person is occasionally used as a joke
+  but is not the default.
+- Link targets should match what the link text describes. Don't link "Homebrew
+  formula" to a Zulip thread about the formula — either link to the formula
+  itself or use plain text.
+- `## RFCs` section (when applicable) goes after `## Releases`. Use `###`
+  subsections by status change (`### New`, `### Accepted`,
+  `### Final Comment Period`, `### Implemented`, etc.). Only include statuses
+  that have entries that week.
+
+## Steps
+
+Follow these steps:
 
 1. **Read editorial guidelines**: Read the "Last Week in Pony" section in
    this project's CLAUDE.md for format, tone, and domain-specific notes.
@@ -13,11 +33,11 @@ Create a new "Last Week in Pony" blog post. Follow these steps:
    `docs/blog/posts/last-week-in-pony-*.md` for voice calibration.
 
 3. **Find the open issue**: Run
-   `gh issue list --repo ponylang/ponylang.github.io --label last-week-in-pony --state open`
+   `gh issue list --repo ponylang/ponylang-website --label last-week-in-pony --state open`
    to find the current issue, then read it with all comments.
 
 4. **Rotate the issue**: Calculate the next Sunday from today's date. Create
-   a new empty issue in `ponylang/ponylang.github.io` titled
+   a new empty issue in `ponylang/ponylang-website` titled
    `Last Week in Pony - {next Sunday: Month Day, Year}`, add the
    `last-week-in-pony` label, and pin it. Then remove the
    `last-week-in-pony` label from the current week's issue. This locks in
