@@ -73,7 +73,7 @@ current issue — to avoid race conditions. The steps:
 1. Calculate the next Sunday from today. The post usually goes out on Sunday
    but occasionally slips to Monday — the issue title always uses the Sunday
    date regardless.
-2. Create a new empty issue in `ponylang/ponylang.github.io` titled
+2. Create a new empty issue in `ponylang/ponylang-website` titled
    `Last Week in Pony - {next Sunday: Month Day, Year}`.
 3. Add the `last-week-in-pony` label and pin the new issue.
 4. Remove the `last-week-in-pony` label from the current week's issue.

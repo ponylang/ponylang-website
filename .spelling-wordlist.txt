@@ -12,6 +12,7 @@ Agere
 Akka
 Akka's
 allen
+ALPN
 allocator
 allocators
 AmbientAuth
@@ -61,6 +62,7 @@ Bracey
 brainer
 breakpoint
 Bson
+bytea
 bt
 btab
 buc
@@ -156,6 +158,7 @@ Erlangers
 errr
 evented
 evolutions
+EVP
 facelift
 Fedor
 FFI
@@ -209,6 +212,7 @@ Hacktoberfest
 Hädrich
 Hagenson
 Hagenson's
+Haramati
 hardcoded
 harken
 Hashable
@@ -221,6 +225,7 @@ HFPUG
 HighlightJS
 hoc
 homebrew
+hostname
 hoo
 Hovsäter
 Horwitz
@@ -294,6 +299,7 @@ Libgpiod
 libponyc
 LibreSSL
 libs
+lifecycle
 LibXML
 libxml2
 Liétar
@@ -310,6 +316,7 @@ LLVM's
 Lobste
 lockdown
 Lockless
+Lookin
 lookups
 LordMZTE
 lori
@@ -361,6 +368,7 @@ Mumm's
 musl
 mwahl
 namespace
+ng
 natively
 nd
 NearlyFreeSpeech
@@ -373,6 +381,7 @@ Nikolaus
 Nim
 nogginly
 NUMA
+nullable
 numerics
 o'Cook
 observability
@@ -393,6 +402,7 @@ OTP
 packethost
 Palka
 Pantazis
+PBKDF
 param
 parameterization
 parter
@@ -404,6 +414,7 @@ Perelandric
 perfetto
 performant
 permalink
+plaintext
 petri
 PLISS
 PLT
@@ -518,6 +529,7 @@ Sivers
 Sletten
 Smalltalk
 SMTP
+STARTTLS
 soonish
 SPECweb
 SSL
@@ -526,6 +538,7 @@ StatsD
 Stawinoga
 stderr
 stdin
+str
 stdlib
 stdlib's
 stdout
@@ -562,6 +575,7 @@ theodus
 there'd
 tieing
 Tisher
+TLS
 TNG
 Tobias
 toc
