@@ -1,8 +1,7 @@
 site_name: Pony
 
 copyright: Copyright &copy; 2025 The Pony Developers
-edit_uri: edit/main/docs/
-repo_url: https://github.com/ponylang/ponylang-website/
+edit_uri: https://github.com/ponylang/ponylang-website/edit/main/docs/
 site_url: https://www.ponylang.io/
 use_directory_urls: !ENV [USE_DIRECTORY_URLS, true]
 
@@ -56,7 +55,7 @@ plugins:
         - https://stackoverflow.com/*
         - https://www.gnuradio.org/*
         - https://medium.com/*
-        
+
   - rss:
       match_path: blog/posts/.*
       date_from_meta:
