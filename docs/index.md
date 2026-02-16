@@ -12,7 +12,7 @@ An open-source, object-oriented, actor-model, capabilities-secure, high-performa
 [Try It in Your Browser](https://playground.ponylang.io/){ .md-button target=_blank }
 [Install](https://github.com/ponylang/ponyc/blob/main/INSTALL.md){ .md-button target=_blank }
 
-## What Pony Guarantees
+## Pony is...
 
 ### Type safe
 
