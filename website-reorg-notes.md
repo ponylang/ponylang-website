@@ -8,31 +8,41 @@ The site serves three audiences at different stages of the same journey:
 2. **Learn** — "I've decided to learn. Guide me."
 3. **Use** — "I'm a Pony programmer. What do I need day-to-day?"
 
-## Current Structure
+## What Shipped (PR #1151)
 
-Seven top-level tabs: Discover, Learn, Use, Contribute, Community, Blog, FAQ,
-plus Sponsors and a Home page that is mostly a flat list of quick links.
+### Homepage replaces the Discover tab
 
-### Current Discover section
+The old homepage was a flat list of links. The new one absorbs the Discover
+content directly:
 
-- What is Pony? (short intro, links to playground and history)
-- What makes Pony different? (type safe, memory safe, data-race free, etc.)
-- Why Pony? (deeper refcaps argument)
-- Why not Pony? (honest tradeoffs)
-- The Pony Philosophy (correctness > performance > simplicity hierarchy)
-- Guiding Principles (language design commitments)
+- **Hero** with tagline and three CTA buttons (Get Started, Try It in Your
+  Browser, Install)
+- **What Pony Guarantees** — the feature list (type safe, memory safe,
+  data-race free, deadlock-free, exception-safe, native code, C-compatible)
+- **Code sample** — party invitations (Option B) showing three actors
+  coordinating via message passing, with a link to run it in the Playground
+- **Pony's Design Philosophy** — condensed Philosophy and Guiding Principles,
+  reframed as promises to the user, with links to the full pages
+- **Why Pony / Why Not Pony** — teaser paragraphs with links to the full pages
+- **Start Learning** — focused call to action for someone who just finished
+  the Discover journey
 
-### Current Learn section
+The full Why Pony, Why Not Pony, Philosophy, and Guiding Principles pages
+still exist and are linked from the homepage.
 
-Mostly outbound links — Tutorial, Patterns, stdlib docs, a cheat sheet PDF. The
-only substantial content is the reference capabilities learning path. "Getting
-Help" and "Installing Pony" are logistical. "Getting Started" is a list of
-links. Thin for a section meant to guide people through learning.
+### Nav changes
 
-### Current Use section
+- **Discover** tab removed (content on homepage)
+- **Sponsors** tab removed (link in footer)
+- Current tabs: Home, Learn, Use, Contribute, Community, Blog, FAQ
 
-Debugging, performance, testing, dependency management, packages,
-infrastructure. Serves its intent fairly well as practitioner material.
+### Footer
+
+Structured Material theme footer via the `copyright` field in `mkdocs.yml`:
+
+- **Resources**: Blog, FAQ, Releases, Planet Pony
+- **Project**: Sponsors, Community Norms, Contributing
+- Social icons: GitHub, Twitter, Zulip
 
 ## Research: How Other Language Sites Handle This
 
@@ -49,12 +59,13 @@ Common homepage pattern:
 4. Use cases or social proof
 5. Community/getting started CTAs
 
-Two things Pony's site is missing that others do well:
+Two things Pony's site was missing that others do well:
 
 - **Code on the homepage.** Nearly every other language site shows actual code.
+  (Now addressed.)
 - **"What is this good for?"** Go has case studies, Rust has domain cards,
   Elixir has tagged case studies. Pony says what it *is* but not what you'd
-  *build with it*.
+  *build with it*. (Still a gap — see discussion #1152.)
 
 ## Decisions Made
 
@@ -68,58 +79,20 @@ Two things Pony's site is missing that others do well:
   story, not in Learn or Contribute.
 - **Not all Discover content belongs on the homepage.** The full Why Pony,
   Why Not Pony, Philosophy, and Guiding Principles pages are too much for a
-  single page. The homepage should have condensed/teaser versions with links to
-  the full pages.
-- **The Discover tab probably goes away.** Its deeper pages still exist but are
-  linked from the homepage rather than living behind their own tab. Not fully
-  decided yet.
-- **The current homepage quick links serve a real purpose** — people have
-  requested easy access to those destinations. The new homepage needs to
-  preserve that wayfinding, just organized by intent rather than listed flat.
-
-## Proposed Homepage Shape
-
-### Hero
-
-One-liner: what Pony is. Two buttons: `Get Started` | `Try It in Your Browser`
-
-### What Makes Pony Different
-
-(Absorbed from current page.) The punchy list — type safe, memory safe,
-data-race free, deadlock-free, exception-safe, native code, C-compatible. Short
-descriptions for each.
-
-### [Code Sample]
-
-A small, compelling Pony example showing actors and message passing.
-
-### How Pony Thinks
-
-(Drawn from Philosophy + Guiding Principles, reframed as promises to the user.)
-The correctness > performance > simplicity hierarchy. Key commitments: "no
-crashes," "fully defined semantics," "no ambiguity." Links to full Philosophy
-and Guiding Principles pages.
-
-### Why Pony / Why Not Pony
-
-(Teaser + links.) A short paragraph or two — the essence of the refcaps
-argument and the honest tradeoffs. Links to the full versions.
-
-### Get Going
-
-(Wayfinding, replaces current quick links.) Three clear paths, one per persona:
-
-**Learn Pony**: Tutorial, Getting Started, Reference Capabilities guide,
-Example applications
-
-**Use Pony**: Installation, Standard Library docs, Packages, Debugging /
-Performance / Testing guides
-
-**Join the Community**: Zulip, Getting Help, Office Hours, How to Contribute
-
-### Footer
-
-FAQ, Releases, Community Norms, Blog — findable but not prominently placed.
+  single page. The homepage has condensed/teaser versions with links to the
+  full pages.
+- **The Discover tab is removed.** Its deeper pages still exist and are linked
+  from the homepage.
+- **Sponsors tab is removed.** Linked from the footer instead.
+- **Section headings avoid uniqueness claims.** "What Makes Pony Different"
+  became "What Pony Guarantees" (many of those properties exist in other
+  languages — the heading shouldn't invite pedantic objections). "How Pony
+  Thinks" became "Pony's Design Philosophy" (direct and descriptive).
+- **Bottom of homepage focuses on Learn, not wayfinding.** An earlier draft had
+  a three-persona "Get Going" section (Learn / Use / Community). It felt like
+  "just a bunch of stuff." The person who's read the whole homepage has finished
+  Discover and is ready for Learn — so the bottom is a focused "Start Learning"
+  section instead.
 
 ## Homepage Code Sample
 
@@ -149,7 +122,7 @@ passing, but a newcomer might think "I could do this with a function call."
 The safety story is about what's *absent* — no locks, no mutexes, no
 synchronization — and that's hard to show in code alone.
 
-### Option A: Workers and Collector
+### Option A: Workers and Collector (not used)
 
 Custom-written. Three Worker actors each receive a reversed string, reverse it,
 and send the result to a Collector. The Collector streams results as they arrive
@@ -202,7 +175,7 @@ actor Main
 Verified to compile. Runs instantly (playground-compatible). Tasks read as
 gibberish in, english out ("Alice finished: analyze data").
 
-### Option B: Party Invitations
+### Option B: Party Invitations (shipped)
 
 Custom-written. Main creates a Party actor and sends it three `add_friend`
 messages. For each friend, Party creates a Friend actor inline and invites it.
@@ -212,75 +185,30 @@ to the Party. When all responses are in, Party prints the guest list.
 Shows: `val` (immutable strings passed between actors), actors with private
 mutable state (`_guests`, `_expected`, `_responded`), lightweight inline actor
 creation (`Friend(name).invite(this)`), three-hop message flow
-(Main → Party → Friend → Party), no locks/synchronization. Actor scheduling
+(Main -> Party -> Friend -> Party), no locks/synchronization. Actor scheduling
 means output order isn't guaranteed — demonstrates real concurrency.
-
-Source in `homepage-example/main.pony`.
-
-```pony
-actor Party
-  let _env: Env
-  var _guests: Array[String val] = _guests.create()
-  var _expected: USize = 0
-  var _responded: USize = 0
-
-  new create(env: Env) =>
-    _env = env
-
-  be add_friend(name: String val) =>
-    _expected = _expected + 1
-    Friend(name).invite(this)
-
-  be rsvp(name: String val, attending: Bool) =>
-    _responded = _responded + 1
-    if attending then
-      _guests.push(name)
-    end
-    if _responded == _expected then
-      _env.out.print("Party guest list:")
-      for guest in _guests.values() do
-        _env.out.print("  " + guest)
-      end
-    end
-
-actor Friend
-  let _name: String val
-
-  new create(name: String val) =>
-    _name = name
-
-  be invite(party: Party) =>
-    // friends with short names are too busy
-    let attending = _name.size() > 3
-    party.rsvp(_name, attending)
-
-actor Main
-  new create(env: Env) =>
-    let party = Party(env)
-
-    party.add_friend("Alice")
-    party.add_friend("Bob")
-    party.add_friend("Carol")
-```
-
-Verified to compile and run. Output (order may vary due to actor scheduling):
-
-```text
-Party guest list:
-  Carol
-  Alice
-```
 
 Advantages over Option A: more relatable metaphor (everyone understands party
 invitations), richer message flow (three hops vs two), Friend actors have
 autonomy (they decide), inline actor creation shows how lightweight actors are.
 Disadvantages: no visible `consume`/`iso` usage.
 
-## Still To Decide
+Playground gist: `https://playground.ponylang.io/?gist=965abaa0cb468c36d241582768265e29`
 
-- Whether a Discover tab exists or if the deeper pages are just linked from
-  the homepage.
-- What the Learn section should look like if it gets meatier.
-- Whether Contribute should split "how to help" from internal maintainer docs.
-- What happens to FAQ as a top-level section vs. content folded into other
-  sections.
+## Open Questions
+
+Remaining open questions are tracked in discussion #1152:
+
+- What should the Learn section look like?
+- Should Contribute split into contributor vs. maintainer tiers?
+- What happens to FAQ (keep as tab, fold into other sections, or demote to
+  footer)?
+- Should Blog stay as a top-level tab?
+- Community and Contribute have overlapping content (Development Sync, Getting
+  Help)
+
+Content gaps also tracked there:
+
+- "What is Pony good for?" — use cases / what people build with it
+- Learning path content beyond outbound links
+- Planet Pony staleness
