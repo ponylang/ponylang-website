@@ -1,6 +1,18 @@
 site_name: Pony
 
-copyright: Copyright &copy; 2025 The Pony Developers
+copyright: >-
+  <strong>Resources</strong>:
+  <a href="/blog/">Blog</a> |
+  <a href="/faq/">FAQ</a> |
+  <a href="https://github.com/ponylang/ponyc/releases">Releases</a> |
+  <a href="/community/planet-pony/">Planet Pony</a>
+  <br>
+  <strong>Project</strong>:
+  <a href="/sponsors/">Sponsors</a> |
+  <a href="/community/norms/">Community Norms</a> |
+  <a href="/contribute/">Contributing</a>
+  <br>
+  Copyright &copy; 2025 The Pony Developers
 edit_uri: edit/main/docs/
 repo_url: https://github.com/ponylang/ponylang-website/
 site_url: https://www.ponylang.io/
@@ -13,6 +25,9 @@ extra:
       link: https://github.com/ponylang
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ponylang
+    - icon: fontawesome/solid/comments
+      link: https://ponylang.zulipchat.com/
+      name: Zulip
 
 markdown_extensions:
   - admonition
@@ -114,13 +129,6 @@ theme:
 
 nav:
   - Home: "index.md"
-  - Discover:
-      - What is Pony?: "discover/index.md"
-      - What makes Pony different?: "discover/what-makes-pony-different.md"
-      - Why Pony?: "discover/why-pony.md"
-      - Why not Pony?: "discover/why-not-pony.md"
-      - The Pony Philosophy: "discover/pony-philosophy.md"
-      - Guiding Principles: "discover/guiding-principles.md"
   - Learn:
       - Getting Help: "learn/getting-help.md"
       - Installing Pony: "learn/installing-pony.md"
@@ -183,4 +191,3 @@ nav:
       - Ecosystem: "faq/ecosystem.md"
       - Linking: "faq/linking.md"
       - Runtime: "faq/runtime.md"
-  - Sponsors: "sponsors/index.md"
