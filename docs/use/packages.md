@@ -48,11 +48,15 @@ A parsing expression grammar package for Pony.
 
 ### [postgres](https://github.com/ponylang/postgres)
 
-Pure Pony Postgres driver.
+Pure Pony Postgres client.
 
 ### [reactive_streams](https://github.com/ponylang/reactive_streams)
 
 Pony implementation of [http://www.reactive-streams.org/](http://www.reactive-streams.org/).
+
+### [redis](https://github.com/ponylang/redis)
+
+Pure Pony Redis client.
 
 ### [regex](https://github.com/ponylang/regex)
 
