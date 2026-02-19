@@ -70,6 +70,10 @@ Pony wrappers for OpenSSL and LibreSSL.
 
 A template engine for Pony.
 
+### [uri](https://github.com/ponylang/uri)
+
+A library for parsing, manipulating, and expanding URIs.
+
 ### [valbytes](https://github.com/ponylang/valbytes)
 
 Package to deal with multiple concatenated byte-arrays as if they were a single byte-array.
