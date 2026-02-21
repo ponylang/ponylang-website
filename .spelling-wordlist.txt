@@ -69,6 +69,7 @@ bt
 btab
 buc
 bullard
+BWS
 Cantú
 CastXML
 CET
@@ -102,6 +103,8 @@ COVID
 Covo
 CPUs
 cquinn
+CRDT
+CRDTs
 creational
 Crockford
 crypto
@@ -261,6 +264,7 @@ IO
 IOCP
 ipaddr
 IRCd
+IRI
 ISC
 ish
 isolcpus
@@ -405,6 +409,7 @@ Orien
 OSCON
 OSX
 OTP
+OWS
 packethost
 Palka
 Pantazis
@@ -611,6 +616,7 @@ unrepresentable
 unsession
 untracked
 upvote
+URI
 UTF
 UX
 valbytes
