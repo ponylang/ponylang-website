@@ -10,6 +10,10 @@ While the packages are maintained by us, we welcome contributions from the commu
 
 Package for getting platform-specific application directories e.g. directory for user-based config.
 
+### [crdt](https://github.com/ponylang/crdt)
+
+Conflict-free replicated data types (CRDTs) for Pony, based on delta-state replication.
+
 ### [fork_join](https://github.com/ponylang/fork_join)
 
 Pony parallel processing package.
@@ -40,7 +44,14 @@ A simple logging package for Pony.
 
 ### [lori](https://github.com/ponylang/lori)
 
-Pony TCP classes reimagined.
+A TCP networking library for Pony. Lori separates connection logic from actor scheduling — the TCP state machine lives in a plain class (`TCPConnection`) that your actor delegates to, rather than baking everything into a single actor the way the standard library's net package does. This gives you control over how your actor is structured while lori handles the low-level I/O.
+
+Key features:
+
+- Fallible sends — `send()` returns `(SendToken | SendError)` instead of silently dropping data, so the application always knows whether data was accepted
+- Built-in SSL — switch from plain TCP to SSL by changing a single constructor call
+- Connection limits — cap the number of concurrent connections a listener will accept
+- Backpressure notifications — `_on_throttled` / `_on_unthrottled` callbacks let the application respond to socket pressure
 
 ### [peg](https://github.com/ponylang/peg)
 
@@ -76,8 +87,12 @@ A template engine for Pony.
 
 ### [uri](https://github.com/ponylang/uri)
 
-A library for parsing, manipulating, and expanding URIs.
+URI library for Pony. Implements [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986) parsing, reference resolution, and normalization; [RFC 3987](https://datatracker.ietf.org/doc/html/rfc3987) IRI/URI conversion and IRI-aware encoding; and [RFC 6570](https://datatracker.ietf.org/doc/html/rfc6570) URI template expansion at all four levels.
 
 ### [valbytes](https://github.com/ponylang/valbytes)
 
 Package to deal with multiple concatenated byte-arrays as if they were a single byte-array.
+
+### [web_link](https://github.com/ponylang/web_link)
+
+Parser for [RFC 8288](https://www.rfc-editor.org/rfc/rfc8288) (Web Linking) HTTP Link headers in Pony. Implements the link-value grammar from Section 3 including quoted-string parameters, OWS/BWS handling, and multi-link comma-separated headers.
