@@ -30,7 +30,7 @@ Raspbian downloads are available from the [Raspberry Pi downloads site](https://
 
 For 32-bit installs you want to download a .zip image of [raspios_lite_armhf](https://downloads.raspberrypi.org/raspios_armhf/).
 
-For 64-bit installs you want to download a .zip image of[raspbios_lite_arm64](https://downloads.raspberrypi.org/raspios_arm64/).
+For 64-bit installs you want to download a .zip image of [raspios_lite_arm64](https://downloads.raspberrypi.org/raspios_arm64/).
 
 ## Pre-boot Raspbian setup
 
