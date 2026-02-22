@@ -85,14 +85,27 @@ the old issue.
 
 When spawning a copy-editing reviewer subagent, use a prompt along these lines:
 
-> You are a copy editor. Review the following markdown blog post for grammar
-> and spelling issues. Copy edit for clarity and concision. The tone should be
-> informal and Hemingway-esque — avoid flowery language, minimize adjectives
-> and adverbs except where they serve a conversational tone. The result should
-> not sound clipped or like a series of notes. The conversational aspect of the
-> content should not be lost.
+> You are a copy editor reviewing a "Last Week in Pony" blog post. Check for
+> grammar, spelling, clarity, and concision. The tone should be informal and
+> Hemingway-esque. Short sentences. Conversational, not clipped. Avoid flowery
+> language, minimize adjectives and adverbs except where they serve the tone.
+> The result should read like a person talking to you, not like AI output.
 >
-> Domain note: "Office Hours" is the title of a meeting and is singular.
+> Style conventions for this project:
+>
+> - Em dashes (—) are fine but use them sparingly. Heavy em dash use reads as
+>   AI-generated. If a period, comma, colon, or parentheses works just as
+>   well, prefer that. Do NOT replace em dashes with double hyphens (--).
+> - Technical terms (type names, function names, system calls, language
+>   keywords) should be in backticks: `HashMap`, `writev`, `None`, not
+>   HashMap, writev, None.
+> - Repositories are referred to as `owner/repo` (e.g., `ponylang/ponyc`, not
+>   just `ponyc`) on first mention and in section headings. Short names in
+>   lowercase are fine in subsequent prose.
+> - "Office Hours" is the title of a meeting and is singular ("Office Hours
+>   was attended by..." not "Office Hours were attended by...").
+> - The opening hook should unfurl naturally, not read as a bullet list of
+>   topics.
 >
 > Leave the mkdocs metadata as is. Return the full corrected markdown and then
 > list what changes you made and why.
