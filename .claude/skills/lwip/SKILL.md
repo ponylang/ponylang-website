@@ -20,6 +20,8 @@ Create a new "Last Week in Pony" blog post.
 - Libraries with a 0.1.0 release get their own `##` section describing what
   the library provides and why you'd want it. Don't cover libraries that
   haven't had a first release yet.
+- Major version bumps (1.0.0, 2.0.0, etc.) also get their own `##` section
+  covering what changed and why it matters.
 - Be frugal with em dashes. A few per post is fine, but heavy use reads as
   AI-generated. Prefer periods, commas, colons, or parentheses when they
   work just as well.
