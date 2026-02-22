@@ -17,6 +17,8 @@ Create a new "Last Week in Pony" blog post.
 - Link targets should match what the link text describes. Don't link "Homebrew
   formula" to a Zulip thread about the formula — either link to the formula
   itself or use plain text.
+- Changes in Pony team membership (new committers, new core team members,
+  departures) always get prominent `##` sections near the top of the post.
 - Libraries with a 0.1.0 release get their own `##` section describing what
   the library provides and why you'd want it. Don't cover libraries that
   haven't had a first release yet.
