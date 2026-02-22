@@ -17,6 +17,9 @@ Create a new "Last Week in Pony" blog post.
 - Link targets should match what the link text describes. Don't link "Homebrew
   formula" to a Zulip thread about the formula — either link to the formula
   itself or use plain text.
+- Be frugal with em dashes. A few per post is fine, but heavy use reads as
+  AI-generated. Prefer periods, commas, colons, or parentheses when they
+  work just as well.
 - `## RFCs` section (when applicable) goes after `## Releases`. Use `###`
   subsections by status change (`### New`, `### Accepted`,
   `### Final Comment Period`, `### Implemented`, etc.). Only include statuses
