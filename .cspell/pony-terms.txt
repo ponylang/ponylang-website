@@ -232,7 +232,6 @@ Pygments
 QUIC
 quickstart
 Radisson
-raspbios
 raspios
 RDMA
 redvers
