@@ -216,6 +216,7 @@ GtkButton
 gz
 Hacktoberfest
 Hädrich
+HAMT
 Hagenson
 Hagenson's
 Haramati
@@ -282,6 +283,7 @@ jemc
 jQuery
 JS
 JSON
+JSONPath
 JVM
 kagi
 Kallos
@@ -388,6 +390,7 @@ Niclas
 Nicolai
 nightlies
 Nikolaus
+NixOS
 Nim
 nogginly
 NUMA
@@ -437,6 +440,7 @@ ponyc
 ponyc's
 ponycc
 Ponycheck
+PonyCheck's
 ponydoc
 PonyHub
 Ponyland
@@ -507,6 +511,7 @@ RoaringBitmap
 rollin
 RPG
 RSS
+Rubberbandits
 Rubyists
 runtime
 runtime's
