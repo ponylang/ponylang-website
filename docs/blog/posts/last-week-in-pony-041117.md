@@ -29,7 +29,7 @@ Ever wondered, how do I debug my Pony program? Well, things just got a little ea
 
 PR opened to add Pony syntax highlighting to Rouge, a pure Ruby syntax highlighter akin to Python's Pygments.
 
-- [Reference Capabiltiies - A Tutorial](http://www.ponylang.io/learn/#reference-capabilities)
+- [Reference Capabilities - A Tutorial](http://www.ponylang.io/learn/#reference-capabilities)
 
 Was recently added to the Ponylang website to help folks with learning reference capabilities. They are the biggest stumbling block for folks so we wanted to add a section to encourage folks and assist their learning:
 
