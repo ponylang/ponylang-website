@@ -31,7 +31,6 @@ Pony package provides the ability find all pathnames matching a given pattern ba
 Hobby is a simple HTTP web framework for Pony, powered by [Stallion](https://github.com/ponylang/stallion). It provides radix-tree routing with named and wildcard parameters, two-phase middleware (before/after), route groups with shared prefixes and middleware, and streaming responses via chunked transfer encoding. Routes are registered through method chaining and frozen into an immutable router when the server starts, giving you a mutable-friendly setup phase followed by a fully `val` runtime with no locking or coordination overhead.
 
 Hobby is designed to feel lightweight while taking full advantage of Pony's type system and reference capabilities. Handlers are `val` ΓÇö safe to share across concurrent connections without copying. The `Context` is `ref`, so middleware and handlers can read and mutate request state without juggling `iso` ownership. If you're building an HTTP service in Pony and want a familiar route/middleware/handler model without fighting the capability system, Hobby is a good place to start.
-```
 
 ### [http](https://github.com/ponylang/http)
 
