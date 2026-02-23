@@ -26,6 +26,13 @@ Pony package for working with GitHub's REST API.
 
 Pony package provides the ability find all pathnames matching a given pattern based on Unix shell rules.
 
+### [hobby](https://githbu.com/ponylang/hobby)
+
+Hobby is a simple HTTP web framework for Pony, powered by [Stallion](https://github.com/ponylang/stallion). It provides radix-tree routing with named and wildcard parameters, two-phase middleware (before/after), route groups with shared prefixes and middleware, and streaming responses via chunked transfer encoding. Routes are registered through method chaining and frozen into an immutable router when the server starts, giving you a mutable-friendly setup phase followed by a fully `val` runtime with no locking or coordination overhead.
+
+Hobby is designed to feel lightweight while taking full advantage of Pony's type system and reference capabilities. Handlers are `val` ΓÇö safe to share across concurrent connections without copying. The `Context` is `ref`, so middleware and handlers can read and mutate request state without juggling `iso` ownership. If you're building an HTTP service in Pony and want a familiar route/middleware/handler model without fighting the capability system, Hobby is a good place to start.
+```
+
 ### [http](https://github.com/ponylang/http)
 
 HTTP client package.
@@ -80,6 +87,12 @@ A semantic versioning package for Ponylang.
 ### [ssl](https://github.com/ponylang/ssl)
 
 Pony wrappers for OpenSSL and LibreSSL.
+
+### [stallion](https://github.com/ponylang/stallion)
+
+Stallion is an HTTP/1.x server library for Pony, built on [lori](https://github.com/ponylang/lori). Rather than hiding connections behind an opaque server object, Stallion asks you to write the connection actor yourself - your actor owns an `HTTPServer` instance and receives HTTP lifecycle callbacks directly. There are no hidden internal actors, no implicit concurrency, and no magic. You get a typed request with a pre-parsed URI, a `Responder` for sending replies, and a `ResponseBuilder` state machine for constructing well-formed responses. Pipelined requests are queued and responses are sent in order, even when your actor handles them out of sequence.
+
+Stallion supports both complete and streaming responses. Complete responses are pre-serialized via `ResponseBuilder` for efficient repeated use. Streaming responses use chunked transfer encoding with flow control - each chunk gets an asynchronous acknowledgement callback so producers can match their send rate to the network. Configuration is explicit: parser limits, idle timeouts, pipelining depth, and TLS are all opt-in via `ServerConfig`. If you want a minimal, transparent HTTP layer that fits naturally into Pony's actor model without imposing its own abstractions, Stallion is the foundation to build on.
 
 ### [templates](https://github.com/ponylang/templates)
 
