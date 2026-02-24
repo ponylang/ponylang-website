@@ -144,6 +144,7 @@ nav:
           - Trace Pony Programs: "use/debugging/tracing.md"
       - Dependency Management: "use/dependency-management.md"
       - Infrastructure: "use/infrastructure.md"
+      - Linting: "use/linting.md"
       - Packages: "use/packages.md"
       - Performance:
           - Overview: "use/performance.md"
