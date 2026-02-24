@@ -1,6 +1,6 @@
 # Linting
 
-pony-lint checks Pony source files for style violations and reports diagnostics with file, line, and column information.
+pony-lint checks Pony source files for style violations and reports diagnostics with file, line, and column information. It is part of the ponyc repository, built alongside the compiler, and distributed with it. Installing ponyc from source or via ponyup will include pony-lint.
 
 ## Usage
 
