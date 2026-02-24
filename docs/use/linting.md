@@ -1,6 +1,6 @@
 # Linting
 
-[pony-lint](https://github.com/ponylang/pony-lint) checks Pony source files for style violations and reports diagnostics with file, line, and column information.
+pony-lint checks Pony source files for style violations and reports diagnostics with file, line, and column information.
 
 ## Usage
 
