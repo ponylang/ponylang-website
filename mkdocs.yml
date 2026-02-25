@@ -142,6 +142,7 @@ nav:
           - Pony LLDB Cheat Sheet: "use/debugging/pony-lldb-cheat-sheet.md"
           - Track Memory Usage: "use/debugging/track-memory-usage.md"
           - Trace Pony Programs: "use/debugging/tracing.md"
+      - Documentation Generation: "use/documentation.md"
       - Dependency Management: "use/dependency-management.md"
       - Infrastructure: "use/infrastructure.md"
       - Linting: "use/linting.md"
