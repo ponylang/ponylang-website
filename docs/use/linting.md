@@ -32,12 +32,14 @@ pony-lint --version
 | `style/comment-spacing` | on | `//` not followed by exactly one space |
 | `style/file-naming` | on | File name should match principal type |
 | `style/hard-tabs` | on | Tab characters anywhere in source |
-| `style/line-length` | on | Lines exceeding 80 columns |
+| `style/line-length` | on | Lines exceeding 80 codepoints |
 | `style/member-naming` | on | Member names should be snake_case |
 | `style/package-naming` | off | Package directory name should be snake_case |
 | `style/public-docstring` | on | Public types and methods should have a docstring |
 | `style/trailing-whitespace` | on | Trailing spaces or tabs |
 | `style/type-naming` | on | Type names should be CamelCase |
+
+See the [Rule Reference](linting/rule-reference.md) for detailed explanations and code examples for each rule.
 
 ## Configuration
 
