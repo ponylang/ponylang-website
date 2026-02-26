@@ -24,6 +24,44 @@ class JSONParser
 primitive HTTPMethod
 ```
 
+## `style/blank-lines`
+
+**Default:** on
+
+Blank line conventions within and between entities.
+
+Within entities:
+
+- No blank line between the entity declaration and the first body content (docstring or first member).
+- No blank lines between consecutive fields.
+- Exactly one blank line before each method. Exception: when both the preceding method and the current method are one-liners, zero blank lines are also allowed.
+
+Between entities:
+
+- Exactly one blank line between consecutive entities. Exception: when both entities are one-liners, zero blank lines are also allowed.
+
+**Incorrect:**
+
+```pony
+class Foo
+
+  let x: U32 = 0
+
+  let y: U32 = 1
+
+  fun apply(): U32 => x + y
+```
+
+**Correct:**
+
+```pony
+class Foo
+  let x: U32 = 0
+  let y: U32 = 1
+
+  fun apply(): U32 => x + y
+```
+
 ## `style/comment-spacing`
 
 **Default:** on
@@ -44,6 +82,32 @@ Line comments (`//`) must be followed by exactly one space. An empty comment (`/
 //
 // Empty comment above is fine
 let url = "http://example.com" // inside strings is ignored
+```
+
+## `style/dot-spacing`
+
+**Default:** on
+
+`.` must have no spaces around it. `.>` must be spaced as an infix operator with spaces on both sides. Both operators skip the "before" check on continuation lines where the operator is the first non-whitespace character.
+
+**Incorrect:**
+
+```pony
+let x = foo .bar
+let y = foo. bar
+let z = foo.>bar
+```
+
+**Correct:**
+
+```pony
+let x = foo.bar
+let y = foo .> bar
+
+// Continuation lines are fine
+let z = foo
+  .bar
+  .> baz
 ```
 
 ## `style/file-naming`
@@ -113,6 +177,53 @@ let description =
   " across multiple lines"
 ```
 
+## `style/match-case-indent`
+
+**Default:** on
+
+The `|` introducing each match case must align with the `match` keyword's column. This makes the match structure visually clear regardless of nesting depth. Inline continuation pipes (e.g., `| "a" | "b"`) are not checked since only the leading `|` on each line needs alignment.
+
+**Incorrect:**
+
+```pony
+match x
+  | let s: String => s
+  | let n: U32 => n.string()
+end
+```
+
+**Correct:**
+
+```pony
+match x
+| let s: String => s
+| let n: U32 => n.string()
+end
+```
+
+## `style/match-no-single-line`
+
+**Default:** on
+
+Match expressions must span multiple lines. A single-line match is harder to scan and usually indicates the expression would be clearer as an `if`/`else` chain.
+
+**Incorrect:**
+
+```pony
+let y = match x | let s: String => s else "" end
+```
+
+**Correct:**
+
+```pony
+let y =
+  match x
+  | let s: String => s
+  else
+    ""
+  end
+```
+
 ## `style/member-naming`
 
 **Default:** on
@@ -164,6 +275,46 @@ my-package/
 ```text
 my_package/
   main.pony
+```
+
+## `style/partial-call-spacing`
+
+**Default:** on
+
+The `?` at partial call sites must immediately follow `)` with no space. This is the opposite convention from method declarations.
+
+**Incorrect:**
+
+```pony
+let x = foo() ?
+let y = bar(1, 2) ?
+```
+
+**Correct:**
+
+```pony
+let x = foo()?
+let y = bar(1, 2)?
+```
+
+## `style/partial-spacing`
+
+**Default:** on
+
+The `?` in partial method declarations must have surrounding spaces. A space is required before `?` and a space or end-of-line after it.
+
+**Incorrect:**
+
+```pony
+class Foo
+  fun bar()? => None
+```
+
+**Correct:**
+
+```pony
+class Foo
+  fun bar() ? => None
 ```
 
 ## `style/public-docstring`
