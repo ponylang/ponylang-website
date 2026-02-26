@@ -59,6 +59,10 @@ Key features:
 - Connection limits — cap the number of concurrent connections a listener will accept
 - Backpressure notifications — `_on_throttled` / `_on_unthrottled` callbacks let the application respond to socket pressure
 
+### [mare](https://github.com/ponylang/mare)
+
+Mare is a WebSocket server library for Pony, built on [lori](https://github.com/ponylang/lori). It implements RFC 6455 and provides a callback-driven API for handling WebSocket connections. You write an actor that implements `WebSocketServerActor` and responds to connection events — `on_open`, `on_text_message`, `on_binary_message`, and `on_closed` — and mare handles the protocol framing, upgrade handshake, and connection lifecycle. Configuration is explicit: bind address, port, and SSL are set through `WebSocketConfig`.
+
 ### [peg](https://github.com/ponylang/peg)
 
 A parsing expression grammar package for Pony.
