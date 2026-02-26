@@ -26,12 +26,18 @@ pony-lint --version
 
 ## Rules
 
-| Rule ID | Description |
-|---------|-------------|
-| `style/line-length` | Lines exceeding 80 columns |
-| `style/trailing-whitespace` | Trailing spaces or tabs |
-| `style/hard-tabs` | Tab characters anywhere in source |
-| `style/comment-spacing` | `//` not followed by exactly one space |
+| Rule ID | Default | Description |
+|---------|---------|-------------|
+| `style/acronym-casing` | on | Acronyms in type names should be fully uppercased |
+| `style/comment-spacing` | on | `//` not followed by exactly one space |
+| `style/file-naming` | on | File name should match principal type |
+| `style/hard-tabs` | on | Tab characters anywhere in source |
+| `style/line-length` | on | Lines exceeding 80 columns |
+| `style/member-naming` | on | Member names should be snake_case |
+| `style/package-naming` | off | Package directory name should be snake_case |
+| `style/public-docstring` | on | Public types and methods should have a docstring |
+| `style/trailing-whitespace` | on | Trailing spaces or tabs |
+| `style/type-naming` | on | Type names should be CamelCase |
 
 ## Configuration
 
@@ -52,7 +58,7 @@ Config file discovery order:
 
 1. `.pony-lint.json` in the current working directory
 2. Walk up to find `corral.json`, then `.pony-lint.json` in that directory
-3. Not found -- all rules use their defaults (enabled)
+3. Not found -- all rules use their defaults
 
 ## Suppression Comments
 
@@ -74,7 +80,7 @@ Directives:
 - `// pony-lint: allow <rule-or-category>` -- suppress next line only
 - Omit the rule/category to suppress all rules
 
-A rule-specific `on` overrides a category-level `off`. Unclosed `off` regions produce `lint/unclosed-suppression` diagnostics.
+A rule-specific `on` overrides a category-level `off`. Unclosed `off` regions produce `lint/unclosed-suppression` diagnostics. Malformed directives (missing space, unknown directive, empty directive, duplicate `off`) produce `lint/malformed-suppression` diagnostics.
 
 ## Exit Codes
 
