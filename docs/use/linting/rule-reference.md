@@ -84,6 +84,38 @@ Line comments (`//`) must be followed by exactly one space. An empty comment (`/
 let url = "http://example.com" // inside strings is ignored
 ```
 
+## `style/docstring-format`
+
+**Default:** on
+
+Docstring `"""` delimiters must each be on their own line. Single-line docstrings like `"""text"""` are flagged. Types and methods annotated with `\nodoc\` are exempt, as are methods inside `\nodoc\`-annotated entities.
+
+**Incorrect:**
+
+```pony
+class Foo
+  """Foo docstring."""
+
+  fun bar(): None =>
+    """Bar docstring."""
+    None
+```
+
+**Correct:**
+
+```pony
+class Foo
+  """
+  Foo docstring.
+  """
+
+  fun bar(): None =>
+    """
+    Bar docstring.
+    """
+    None
+```
+
 ## `style/dot-spacing`
 
 **Default:** on
@@ -154,6 +186,32 @@ A violation is a literal tab character in the source. Since tabs are invisible i
 actor Main
   new create(env: Env) =>
     env.out.print("spaces, not tabs")
+```
+
+## `style/indentation-size`
+
+**Default:** on
+
+Leading-space indentation must be a multiple of 2. Lines inside triple-quoted strings, blank lines, lines with zero indentation, and tab-indented lines are not checked. Tab indentation is handled by `style/hard-tabs`.
+
+**Incorrect:**
+
+```pony
+class Foo
+  fun apply(): None =>
+   let x = 1
+     let y = 2
+       None
+```
+
+**Correct:**
+
+```pony
+class Foo
+  fun apply(): None =>
+    let x = 1
+    let y = 2
+    None
 ```
 
 ## `style/line-length`
@@ -275,6 +333,35 @@ my-package/
 ```text
 my_package/
   main.pony
+```
+
+## `style/package-docstring`
+
+**Default:** on
+
+Each package should have a file named after the package (e.g., `my_package.pony` for a package in the `my_package/` directory) containing a package-level docstring as the first expression. Directory names with hyphens are normalized to underscores (e.g., `pony-lint/` expects `pony_lint.pony`).
+
+**Incorrect:**
+
+```text
+my_package/
+  main.pony         # no my_package.pony file
+```
+
+```pony
+// File: my_package/my_package.pony
+use "collections"   # no docstring before the first use statement
+```
+
+**Correct:**
+
+```pony
+// File: my_package/my_package.pony
+"""
+Provides utilities for working with packages.
+"""
+
+use "collections"
 ```
 
 ## `style/partial-call-spacing`
