@@ -44,6 +44,7 @@ pony-lint --version
 | `style/package-naming` | off | Package directory name should be snake_case |
 | `style/partial-call-spacing` | on | `?` at call site must immediately follow `)` |
 | `style/partial-spacing` | on | `?` in method declaration needs surrounding spaces |
+| `style/prefer-chaining` | on | Local variable can be replaced with `.>` chaining |
 | `style/public-docstring` | on | Public types and methods should have a docstring |
 | `style/trailing-whitespace` | on | Trailing spaces or tabs |
 | `style/type-naming` | on | Type names should be CamelCase |

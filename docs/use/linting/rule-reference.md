@@ -404,6 +404,35 @@ class Foo
   fun bar() ? => None
 ```
 
+## `style/prefer-chaining`
+
+**Default:** on
+
+Flags patterns where a value is bound to a local variable, methods are called on it repeatedly, and the variable is returned — when `.>` chaining would be cleaner. Triggers on both `let` and `var` bindings with 2 or more consecutive dot-calls followed by a trailing bare reference to the variable.
+
+**Incorrect:**
+
+```pony
+class Foo
+  fun make_list(): Array[U32] =>
+    let r = Array[U32]
+    r.push(1)
+    r.push(2)
+    r.push(3)
+    r
+```
+
+**Correct:**
+
+```pony
+class Foo
+  fun make_list(): Array[U32] =>
+    Array[U32]
+      .> push(1)
+      .> push(2)
+      .> push(3)
+```
+
 ## `style/public-docstring`
 
 **Default:** on
