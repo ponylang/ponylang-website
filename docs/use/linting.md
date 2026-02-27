@@ -31,13 +31,16 @@ pony-lint --version
 | `style/acronym-casing` | on | Acronyms in type names should be fully uppercased |
 | `style/blank-lines` | on | Blank line conventions within and between entities |
 | `style/comment-spacing` | on | `//` not followed by exactly one space |
+| `style/docstring-format` | on | Docstring `"""` tokens should be on their own lines |
 | `style/dot-spacing` | on | No spaces around `.`; `.>` spaced as infix operator |
 | `style/file-naming` | on | File name should match principal type |
 | `style/hard-tabs` | on | Tab characters anywhere in source |
+| `style/indentation-size` | on | Indentation should be a multiple of 2 spaces |
 | `style/line-length` | on | Lines exceeding 80 codepoints |
 | `style/match-case-indent` | on | Match case `\|` must align with `match` keyword |
 | `style/match-no-single-line` | on | Match expressions must span multiple lines |
 | `style/member-naming` | on | Member names should be snake_case |
+| `style/package-docstring` | on | Package should have a `<package>.pony` file with a docstring |
 | `style/package-naming` | off | Package directory name should be snake_case |
 | `style/partial-call-spacing` | on | `?` at call site must immediately follow `)` |
 | `style/partial-spacing` | on | `?` in method declaration needs surrounding spaces |
