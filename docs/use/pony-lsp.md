@@ -52,6 +52,20 @@ command = "pony-lsp"
 args = [""] 
 ```
 
+#### Project-Specific Defines
+
+Defines are almost always project-specific. Rather than adding them to your global `languages.toml`, create a `.helix/languages.toml` in the project root:
+
+```toml
+[language-server.pony-lsp.config]
+defines = [
+  "MY_DEFINE_ONE",
+  "MY_DEFINE_TWO",
+]
+```
+
+Replace the example values with the actual defines your project needs.
+
 ### Neovim
 
 Configuration details are coming. If you use Neovim with pony-lsp, consider contributing to this section.
