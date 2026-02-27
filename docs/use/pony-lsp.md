@@ -1,6 +1,6 @@
 # Pony Language Server
 
-pony-lsp is the Pony Language Server. It communicates with editors via stdout/stdin using the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/). It is part of the [ponylang/ponyc](https://github.com/ponylang/ponyc) repository, built alongside the compiler, and distributed with it. Installing ponyc from source or via ponyup will include pony-lsp.
+pony-lsp is the Pony Language Server. It communicates with editors via stdout/stdin using the [Language Server Protocol](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/). It is part of the [ponylang/ponyc](https://github.com/ponylang/ponyc) repository, built alongside the compiler, and distributed with it. Installing ponyc from source or via [ponyup](https://github.com/ponylang/ponyup) will include pony-lsp.
 
 Your editor launches the `pony-lsp` binary as a subprocess. See the [editor configuration](#editor-configuration) section for setup instructions.
 
