@@ -37,7 +37,13 @@ How to pass initialization options depends on your editor. See the editor config
 
 ### Helix
 
-Configuration details are coming. If you use Helix with pony-lsp, consider contributing to this section.
+Getting Helix set up with pony-lsp is very easy. Add the following to your [`languages.toml`](https://docs.helix-editor.com/languages.html).
+
+```toml
+[[language]]
+name = "ponylang"
+language-servers = [ "pony-lsp" ]  
+```
 
 ### Neovim
 
