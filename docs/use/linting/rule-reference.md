@@ -214,6 +214,47 @@ class Foo
     None
 ```
 
+## `style/lambda-spacing`
+
+**Default:** on
+
+Checks whitespace inside lambda braces per the style guide. Lambda expressions must have no space after `{`; a space before `}` is required only on single-line lambdas. Lambda types must have no space on either side (`{` or `}`). Bare lambdas (`@{`) follow the same rules.
+
+**Incorrect:**
+
+```pony
+// Space after {
+{ (a: USize, b: USize): USize => a + b }
+
+// No space before } on single-line
+{(a: USize, b: USize): USize => a + b}
+
+// Space before } on multi-line
+{(a: USize, b: USize): USize =>
+  a + b }
+
+// Space inside lambda type braces
+type Foo is { (USize, USize): USize } box
+```
+
+**Correct:**
+
+```pony
+// Single-line: no space after {, space before }
+{(a: USize, b: USize): USize => a + b }
+
+// Multi-line: no space after {, } on its own line
+{(a: USize, b: USize): USize =>
+  a + b
+}
+
+// Lambda type: no space on either side
+type Foo is {(USize, USize): USize} box
+
+// Bare lambda: same rules
+@{(a: USize, b: USize): USize => a + b }
+```
+
 ## `style/line-length`
 
 **Default:** on
@@ -310,6 +351,33 @@ class Foo
   fun do_something(): None =>
     let my_var: U32 = 1
     None
+```
+
+## `style/operator-spacing`
+
+**Default:** on
+
+Checks whitespace around operators per the style guide. Binary operators require a space before and after. The `not` keyword requires a space after; before `not`, either a space or a non-alphanumeric character (e.g., `(`) is acceptable. Unary minus must NOT have a space after the `-`. The "before" check is skipped on continuation lines where the operator is the first non-whitespace character.
+
+**Incorrect:**
+
+```pony
+let x = 1+2
+let y = a ==b
+if not(x) then -a end
+let z = - a
+```
+
+**Correct:**
+
+```pony
+let x = 1 + 2
+let y = a == b
+if not x then -a end
+
+// Continuation lines are fine
+let z =
+  + a
 ```
 
 ## `style/package-naming`

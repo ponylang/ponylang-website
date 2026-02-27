@@ -36,10 +36,12 @@ pony-lint --version
 | `style/file-naming` | on | File name should match principal type |
 | `style/hard-tabs` | on | Tab characters anywhere in source |
 | `style/indentation-size` | on | Indentation should be a multiple of 2 spaces |
+| `style/lambda-spacing` | on | No space after `{` in lambdas; space before `}` only on single-line |
 | `style/line-length` | on | Lines exceeding 80 codepoints |
 | `style/match-case-indent` | on | Match case `\|` must align with `match` keyword |
 | `style/match-no-single-line` | on | Match expressions must span multiple lines |
 | `style/member-naming` | on | Member names should be snake_case |
+| `style/operator-spacing` | on | Binary operators need surrounding spaces; no space after unary `-` |
 | `style/package-docstring` | on | Package should have a `<package>.pony` file with a docstring |
 | `style/package-naming` | off | Package directory name should be snake_case |
 | `style/partial-call-spacing` | on | `?` at call site must immediately follow `)` |
