@@ -44,7 +44,12 @@ Getting Helix set up with pony-lsp is very easy. Add the following to your [`lan
 ```toml
 [[language]]
 name = "ponylang"
-language-servers = [ "pony-lsp" ]  
+language-servers = [ "pony-lsp" ]
+indent = { tab-width = 2, unit = "  " }
+
+[language-server.pony-lsp]
+command = "pony-lsp"
+args = [""] 
 ```
 
 ### Neovim
