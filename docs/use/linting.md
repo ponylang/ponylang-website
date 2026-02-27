@@ -29,6 +29,7 @@ pony-lint --version
 | Rule ID | Default | Description |
 |---------|---------|-------------|
 | `style/acronym-casing` | on | Acronyms in type names should be fully uppercased |
+| `style/assignment-indent` | on | Multiline assignment RHS must start on the line after `=` |
 | `style/blank-lines` | on | Blank line conventions within and between entities |
 | `style/comment-spacing` | on | `//` not followed by exactly one space |
 | `style/docstring-format` | on | Docstring `"""` tokens should be on their own lines |

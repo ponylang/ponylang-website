@@ -24,6 +24,39 @@ class JSONParser
 primitive HTTPMethod
 ```
 
+## `style/assignment-indent`
+
+**Default:** on
+
+When an assignment's right-hand side spans multiple lines, the RHS must start on the line after the `=`, not on the same line. Single-line assignments are not checked.
+
+**Incorrect:**
+
+```pony
+class Foo
+  fun apply(x: U32): U32 =>
+    var y: U32 = if x > 0 then
+      x
+    else
+      U32(0)
+    end
+    y
+```
+
+**Correct:**
+
+```pony
+class Foo
+  fun apply(x: U32): U32 =>
+    var y: U32 =
+      if x > 0 then
+        x
+      else
+        U32(0)
+      end
+    y
+```
+
 ## `style/blank-lines`
 
 **Default:** on
