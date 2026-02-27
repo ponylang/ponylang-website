@@ -1,6 +1,6 @@
 # Documentation Generation
 
-pony-doc generates API documentation for Pony packages. It produces a complete [MkDocs](https://www.mkdocs.org/) site with the [Material](https://squidfundamentals.com/mkdocs-material/) theme, including type pages, method signatures, docstrings, and source code browsing. It is part of the [ponylang/ponyc](https://github.com/ponylang/ponyc) repository, built alongside the compiler, and distributed with it. Installing ponyc from source or via ponyup will include pony-doc.
+pony-doc generates API documentation for Pony packages. It produces a complete [MkDocs](https://www.mkdocs.org/) site with the [Material](https://squidfunk.github.io/mkdocs-material/) theme, including type pages, method signatures, docstrings, and source code browsing. It is part of the [ponylang/ponyc](https://github.com/ponylang/ponyc) repository, built alongside the compiler, and distributed with it. Installing ponyc from source or via ponyup will include pony-doc.
 
 ## Usage
 
