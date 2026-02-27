@@ -149,6 +149,7 @@ nav:
           - Overview: "use/linting.md"
           - Rule Reference: "use/linting/rule-reference.md"
       - Packages: "use/packages.md"
+      - Pony Language Server: "use/pony-lsp.md"
       - Performance:
           - Overview: "use/performance.md"
           - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"
