@@ -408,7 +408,7 @@ class Foo
 
 **Default:** on
 
-Flags patterns where a value is bound to a local variable, methods are called on it repeatedly, and the variable is returned — when `.>` chaining would be cleaner. Triggers on both `let` and `var` bindings with 2 or more consecutive dot-calls followed by a trailing bare reference to the variable.
+Flags patterns where a value is bound to a local variable and methods are called on it repeatedly — when `.>` chaining would be cleaner. Triggers on both `let` and `var` bindings with 2 or more consecutive dot-calls, whether or not the variable is returned after the calls.
 
 **Incorrect:**
 
@@ -431,6 +431,24 @@ class Foo
       .> push(1)
       .> push(2)
       .> push(3)
+```
+
+**Also incorrect:**
+
+```pony
+class Foo
+  fun apply(): None =>
+    let x = Bar
+    x.baz(1)
+    x.qux(2)
+```
+
+**Correct:**
+
+```pony
+class Foo
+  fun apply(): None =>
+    Bar .> baz(1) .> qux(2)
 ```
 
 ## `style/public-docstring`
