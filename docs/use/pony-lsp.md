@@ -15,23 +15,25 @@ Your editor launches the `pony-lsp` binary as a subprocess. See the [editor conf
 
 ## Settings
 
-pony-lsp accepts settings via the LSP `initializationOptions` field. Editors pass these during the server initialization handshake.
+pony-lsp supports settings via [`workspace/configuration`](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#workspace_configuration) request and [`workspace/didChangeConfiguration`](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#workspace_didChangeConfiguration) notification.
 
-| Setting | Type | Description |
-|---------|------|-------------|
-| `PONYPATH` | string | Colon-separated list of additional package search paths |
+| Setting | Type | Example | Description |
+|---------|------|---------|-------------|
+| `defines` | `Array[String]` | `["FOO", "BAR"]` | Defines active during compilation, equivalent to the `-D` flag in `ponyc` |
+| `ponypath` | `Array[String]` | `["/path/to/pony/package"]` | Additional package search paths for pony-lsp |
 
-`PONYPATH` works the same as the `ponyc` environment variable — it tells the server where to find packages beyond the standard library. The standard library is discovered automatically from the pony-lsp installation path, so you only need `PONYPATH` if your project depends on packages outside the standard search locations.
+The standard library is discovered automatically from the pony-lsp installation path. You only need `ponypath` if your project depends on packages outside the standard search locations.
 
-Example `initializationOptions`:
+Example settings:
 
 ```json
 {
-  "PONYPATH": "/home/user/pony-libs/lib1:/home/user/pony-libs/lib2"
+  "defines": ["FOO", "BAR"],
+  "ponypath": ["/path/to/pony/package", "/another/path"]
 }
 ```
 
-How to pass initialization options depends on your editor. See the editor configuration sections below.
+How to pass these settings depends on your editor. See the editor configuration sections below.
 
 ## Editor Configuration
 
