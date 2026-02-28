@@ -467,6 +467,87 @@ class Foo
     None
 ```
 
+## `style/method-declaration-format`
+
+**Default:** on
+
+Checks formatting of multiline method declarations. When a method's parameters span multiple lines, each parameter must be on its own line. When a method declaration spans multiple lines, the return type `:` must be indented one level (2 spaces) from the method keyword, and the `=>` must align with the method keyword. Single-line declarations are not checked.
+
+Applies to `fun`, `new`, and `be` declarations.
+
+**Incorrect:**
+
+```pony
+class Foo
+  fun find(
+    value: U32, offset: USize)
+    : USize
+  =>
+    offset
+```
+
+Two parameters share a line.
+
+```pony
+class Foo
+  fun find(
+    value: U32,
+    offset: USize)
+      : USize
+  =>
+    offset
+```
+
+The `:` is indented too far — it should be at the method keyword's column + 2.
+
+```pony
+class Foo
+  fun find(
+    value: U32,
+    offset: USize)
+    : USize
+    =>
+    offset
+```
+
+The `=>` is indented too far — it should align with `fun`.
+
+**Correct:**
+
+```pony
+class Foo
+  fun find(
+    value: U32,
+    offset: USize)
+    : USize
+  =>
+    offset
+```
+
+```pony
+// Constructor
+class Foo
+  let _x: U32
+  let _y: U32
+
+  new create(
+    x: U32,
+    y: U32)
+  =>
+    _x = x
+    _y = y
+```
+
+```pony
+// Behavior
+actor Foo
+  be apply(
+    x: U32,
+    y: U32)
+  =>
+    None
+```
+
 ## `style/operator-spacing`
 
 **Default:** on
@@ -804,4 +885,74 @@ class FooParser
 primitive _MyHelper
 
 actor SomeActor
+```
+
+## `style/type-parameter-format`
+
+**Default:** on
+
+Checks formatting of multiline type parameter lists. The opening `[` must always be on the same line as the entity or method name. When type parameters span multiple lines, each type parameter must be on its own line. For entities with a provides clause (`is`), the `is` keyword must be indented one level (2 spaces) from the entity keyword when it appears on its own line. Single-line type parameter lists are not checked (except for the `[` same-line requirement, which always applies).
+
+Applies to entities (`class`, `actor`, `primitive`, `struct`, `trait`, `interface`, `type`) and methods (`fun`, `new`, `be`).
+
+**Incorrect:**
+
+```pony
+class Foo
+  [A, B]
+```
+
+The `[` is on a different line than the name.
+
+```pony
+class Foo[
+  A, B,
+  C]
+```
+
+Two type parameters share a line.
+
+```pony
+interface Hashable
+
+class Foo[
+  A,
+  B]
+    is Hashable
+```
+
+The `is` keyword is indented too far — it should be at the entity keyword's column + 2.
+
+**Correct:**
+
+```pony
+// Single-line — not checked
+class Foo[A, B]
+```
+
+```pony
+// Multiline class
+class Foo[
+  A,
+  B]
+```
+
+```pony
+// Entity with provides clause
+interface Hashable
+
+trait Foo[
+  A,
+  B]
+  is Hashable
+```
+
+```pony
+// Method type parameters
+class Foo
+  fun bar[
+    A,
+    B](x: A)
+  =>
+    None
 ```
