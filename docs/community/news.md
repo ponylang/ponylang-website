@@ -13,7 +13,7 @@ Follow Pony on social media for announcements and community updates:
 
 ## RSS
 
-The site publishes an [RSS feed](https://www.ponylang.io/feed_rss_created.xml) that includes Last Week in Pony posts and other blog content.
+The site publishes an [RSS feed](https://www.ponylang.io/feed_rss_created.xml) covering all blog posts, including Last Week in Pony.
 
 ## Zulip Announcements
 
