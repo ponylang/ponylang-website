@@ -24,6 +24,51 @@ class JSONParser
 primitive HTTPMethod
 ```
 
+## `style/array-literal-format`
+
+**Default:** on
+
+Checks formatting of multiline array literals. For array literals that span multiple lines:
+
+- The opening `[` must be the first non-whitespace on its line (no hanging indent after `=` or other expression context).
+- A space is required after `[` when there is content on the same line.
+
+Single-line array literals are not checked.
+
+**Incorrect:**
+
+```pony
+actor Main
+  new create(env: Env) =>
+    let ns = [as USize:
+      1
+      2
+    ]
+```
+
+**Correct:**
+
+```pony
+actor Main
+  new create(env: Env) =>
+    let ns =
+      [ as USize:
+        1
+        2 ]
+```
+
+The closing `]` may also be on its own line:
+
+```pony
+actor Main
+  new create(env: Env) =>
+    let ns =
+      [ as USize:
+        1
+        2
+      ]
+```
+
 ## `style/assignment-indent`
 
 **Default:** on
@@ -668,6 +713,71 @@ class Foo
   fun apply(): None =>
     let x = 1
     None
+```
+
+## `style/type-alias-format`
+
+**Default:** on
+
+Checks formatting of multiline type alias declarations. For type aliases with a multiline union or intersection type:
+
+- The opening `(` must be the first non-whitespace on its line (no hanging indent after `is`).
+- A space is required after `(`.
+- For each `|` or `&` that is the first non-whitespace on its line, a space is required after it.
+- A space is required before the closing `)`.
+
+Single-line type aliases and simple aliases (no union/intersection) are not checked. Only `|`/`&` at line starts (first non-whitespace) are checked — mid-line separators in nested types are not.
+
+**Incorrect:**
+
+```pony
+// Hanging indent — ( must be on its own line
+type Signed is (I8
+  | I16
+  | I32 )
+
+// Missing space after (
+type Signed is
+  (I8
+  | I16
+  | I32 )
+
+// Missing space after |
+type Signed is
+  ( I8
+  |I16
+  | I32 )
+
+// Missing space before )
+type Signed is
+  ( I8
+  | I16
+  | I32)
+```
+
+**Correct:**
+
+```pony
+// Single-line — not checked
+type Signed is (I8 | I16 | I32)
+
+// Multiline with ) inline
+type Signed is
+  ( I8
+  | I16
+  | I32 )
+
+// Multiline with ) on its own line
+type Signed is
+  ( I8
+  | I16
+  | I32
+  )
+
+// Intersection type
+type Both is
+  ( Hashable
+  & Stringable )
 ```
 
 ## `style/type-naming`
