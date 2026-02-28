@@ -25,6 +25,8 @@ extra:
       link: https://github.com/ponylang
     - icon: fontawesome/brands/twitter
       link: https://twitter.com/ponylang
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/ponylang.bsky.social
     - icon: fontawesome/solid/comments
       link: https://ponylang.zulipchat.com/
       name: Zulip
@@ -182,13 +184,16 @@ nav:
         - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
   - Community:
       - Overview: "community/index.md"
-      - Zulip: "community/zulip.md"
-      - Office Hours: "community/office-hours.md"
-      - News: "community/news.md"
-      - Development Sync: "community/development-sync.md"
-      - Planet Pony: "community/planet-pony.md"
-      - Virtual Users' Group: "community/virtual-users-group.md"
-      - Norms: "community/norms.md"
+      - Connect:
+          - Zulip: "community/zulip.md"
+          - Norms: "community/norms.md"
+          - Governance: "community/governance.md"
+      - Events:
+          - Office Hours: "community/office-hours.md"
+          - Virtual Users' Group: "community/virtual-users-group.md"
+      - Stay Informed:
+          - News: "community/news.md"
+          - Planet Pony: "community/planet-pony.md"
   - Blog:
       - "blog/index.md"
   - FAQ:

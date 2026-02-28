@@ -174,3 +174,6 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 
 # renamed infrastructure to build and release tools
 /use/infrastructure/ /use/build-and-release-tools/ 301!
+
+# development sync moved from community to contribute
+/community/development-sync/ /contribute/sync/ 301!
