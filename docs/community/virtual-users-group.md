@@ -16,7 +16,7 @@ Have something you'd like to present? Post in the [#virtual users' group](https:
 
 ## Recordings
 
-Past VUG recordings are available on [Vimeo](https://vimeo.com/ponylang). A few highlights:
+Past VUG recordings are available on [Vimeo](https://vimeo.com/channels/ponyvug). A few highlights:
 
 - [An informal tour of the Pony backpressure system](https://vimeo.com/707155973)
 - [Pony vs Rust: How they both drive you mad at compile time](https://vimeo.com/574893226)
