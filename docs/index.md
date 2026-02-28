@@ -8,7 +8,7 @@ hide:
 
 An open-source, object-oriented, actor-model, capabilities-secure, high-performance programming language.
 
-[Get Started](learn/getting-started.md){ .md-button .md-button--primary }
+[Get Started](learn/index.md){ .md-button .md-button--primary }
 [Try It in Your Browser](https://playground.ponylang.io/){ .md-button target=_blank }
 [Install](https://github.com/ponylang/ponyc/blob/main/INSTALL.md){ .md-button target=_blank }
 
