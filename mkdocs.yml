@@ -130,10 +130,11 @@ theme:
 nav:
   - Home: "index.md"
   - Learn:
-      - Getting Help: "learn/getting-help.md"
+      - Overview: "learn/index.md"
       - Installing Pony: "learn/installing-pony.md"
-      - Getting Started: "learn/getting-started.md"
+      - Getting Help: "learn/getting-help.md"
       - Reference Capabilities: "learn/reference-capabilities.md"
+      - Watch: "learn/watch.md"
       - Papers: "learn/papers.md"
   - Use:
       - Overview: "use/index.md"
