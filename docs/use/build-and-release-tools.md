@@ -2,9 +2,9 @@
 
 The Pony Developers maintain a number of repositories that contain tools designed to make it easier to build and release projects associated with the Pony programming language. Each of the repositories is used extensively by us.
 
-We encourage the community to use and contribute to these repositories. If you'd like to discuss contributing to any of the repositories, please stop by the [contribute to Pony stream](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
+We encourage the community to use and contribute to these repositories. If you'd like to discuss contributing to any of the repositories, please stop by the [#contribute to Pony](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony) channel.
 
-To get assistance using any of the build and release tools, please stop by the [tooling stream](https://ponylang.zulipchat.com/#narrow/stream/190367-tooling).
+To get assistance using any of the build and release tools, please stop by the [#tooling](https://ponylang.zulipchat.com/#narrow/stream/190367-tooling) channel.
 
 ## Container Images
 

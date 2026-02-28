@@ -1,5 +1,19 @@
 # Releases
 
-Unto every project must come releases. Without a release, what even is a project? Nothing!
+All ponylang projects have automated release processes. The detailed steps for releasing any given project are in the `RELEASE_PROCESS.md` file in the root of that project's repository.
 
-Snark aside, there are a number of projects under the ponylang umbrella including ponyc, corral, ponyup, and several libraries. All ponylang project have an automated release process. You can learn about how to do a release for any given project by reading the "RELEASE_PROCESS.md" document in the root of the projects repository.
+A "triggers release" label marks bugs that affect runtime correctness — memory leaks, memory safety issues, crashes, or anything else that is degenerate for running programs. When a fix for one of these lands, a release happens as soon as safely possible rather than waiting for the next scheduled release.
+
+## ponyc
+
+The compiler is released roughly monthly. Versioning follows a `0.x.y` scheme where `x` increments for potentially breaking changes and `y` for non-breaking changes.
+
+## Libraries
+
+Pre-1.0 libraries follow the same `0.x.y` scheme as ponyc. Post-1.0 libraries use `x.y.z` with the same basic rules: the major version increments for breaking changes, minor for new features, and patch for bug fixes.
+
+Libraries are released more frequently than ponyc. Most releases go out shortly after changes are merged.
+
+## Tools
+
+Tools like corral and ponyup follow a similar spirit: your existing automations using them shouldn't break across releases. Like libraries, they have a quicker release cadence than ponyc.

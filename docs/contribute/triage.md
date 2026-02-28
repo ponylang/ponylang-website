@@ -84,7 +84,7 @@ If it has been determined that the issue is, in fact, a bug. The "Bug" type shou
 
 ### Feature
 
-The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the RFC process. It's important to explain why the enhancement requires an RFC. If the new functionality doesn't meet the RFC criteria, then the "Feature" type should be applied
+The issue isn't a bug but a request for new functionality. If the new functionality meets our RFC criteria then the issue should be politely closed and the user directed to the [RFC process](rfcs.md). It's important to explain why the enhancement requires an RFC. If the new functionality doesn't meet the RFC criteria, then the "Feature" type should be applied
 
 ### discuss during sync
 
@@ -135,4 +135,3 @@ The correct label should be applied to any pull request that implements a user f
 ### documentation
 
 Added to issues that involve improvements to documentation. Documentation issues require a different set of skills from "code fixes" and labeled to make them easier to find.
-

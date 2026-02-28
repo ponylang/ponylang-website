@@ -164,24 +164,31 @@ nav:
       - Build and Release Tools: "use/build-and-release-tools.md"
   - Contribute:
       - Overview: "contribute/index.md"
-      - Triage Issues: "contribute/triage.md"
-      - Project Documentation: "contribute/project-documentation.md"
-      - Good First Issues: "contribute/good-first-issues.md"
-      - CI:
-        - Overview: "contribute/ci.md"
-        - CI Image Organization: "contribute/ci/ci-image-organization.md"
-        - GitHub Actions and Security: "contribute/ci/gh-actions-security.md"
-        - Scheduled Jobs: "contribute/ci/scheduled-jobs.md"
-        - Triggered Jobs: "contribute/ci/triggered-jobs.md"
-      - Contributor Oriented Zulip Streams: "contribute/zulip-streams.md"
-      - Infrastructure Overview: "contribute/infrastructure.md"
-      - Issue and PR Labels: "contribute/labels.md"
-      - Last Week in Pony: "contribute/lwip.md"
-      - Pony Development Sync: "contribute/sync.md"
-      - Releases: "contribute/releases.md"
-      - Developer Resources:
-        - Arm Development with RPI 4: "contribute/developer-resources/arm-development-with-rpi-4.md"
-        - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
+      - Getting Started:
+          - Good First Issues: "contribute/good-first-issues.md"
+          - Project Documentation: "contribute/project-documentation.md"
+          - Triage Issues: "contribute/triage.md"
+          - Contributor Path: "contribute/contributor-path.md"
+      - Workflow:
+          - Submitting Pull Requests: "contribute/pull-requests.md"
+          - Issue and PR Labels: "contribute/labels.md"
+          - RFC Process: "contribute/rfcs.md"
+          - Releases: "contribute/releases.md"
+      - Project Operations:
+          - CI:
+              - Overview: "contribute/ci.md"
+              - CI Image Organization: "contribute/ci/ci-image-organization.md"
+              - GitHub Actions and Security: "contribute/ci/gh-actions-security.md"
+              - Scheduled Jobs: "contribute/ci/scheduled-jobs.md"
+              - Triggered Jobs: "contribute/ci/triggered-jobs.md"
+          - Infrastructure: "contribute/infrastructure.md"
+          - Pony Development Sync: "contribute/sync.md"
+          - Last Week in Pony: "contribute/lwip.md"
+      - Resources:
+          - Contributor Zulip Channels: "contribute/zulip-channels.md"
+          - Developer Resources:
+              - Arm Development with RPI 4: "contribute/developer-resources/arm-development-with-rpi-4.md"
+              - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
   - Community:
       - Overview: "community/index.md"
       - Connect:
@@ -190,6 +197,7 @@ nav:
           - Governance: "community/governance.md"
       - Events:
           - Office Hours: "community/office-hours.md"
+          - Pony Development Sync: "community/development-sync.md"
           - Virtual Users' Group: "community/virtual-users-group.md"
       - Stay Informed:
           - News: "community/news.md"

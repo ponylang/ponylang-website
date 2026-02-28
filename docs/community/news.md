@@ -2,7 +2,7 @@
 
 ## Last Week in Pony
 
-[Last Week in Pony](https://ponylang.io/blog/categories/last-week-in-pony/) is a weekly newsletter published on Sundays. It covers releases, community discussions, interesting projects, and anything else noteworthy that happened in the Pony world that week.
+[Last Week in Pony](https://ponylang.io/blog/categories/last-week-in-pony/) is a weekly newsletter published on Sundays. It covers releases, community discussions, interesting projects, and anything else noteworthy that happened in the Pony world that week. If you have something you'd like included, see [how to submit content](/contribute/lwip.md).
 
 ## Social Media
 

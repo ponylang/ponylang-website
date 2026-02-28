@@ -2,7 +2,7 @@
 
 The Pony Developers maintain a number of packages that exist outside of the standard library that you can utilize. Each of the packages is tested nightly to make sure it works with the latest Pony compiler builds.
 
-While the packages are maintained by us, we welcome contributions from the community at large. If you'd like to discuss contributing to any of the packages, please stop by the [contribute to Pony stream](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
+While the packages are maintained by us, we welcome contributions from the community at large. If you'd like to discuss contributing to any of the packages, please stop by the [#contribute to Pony](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony) channel.
 
 ## Networking
 

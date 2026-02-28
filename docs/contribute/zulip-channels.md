@@ -1,8 +1,10 @@
-# Contributor Zulip
+# Contributor Zulip Channels
 
-The [ponylang zulip](https://ponylang.zulipchat.com/) is the primary hub for asynchronous chat within the Pony community. If you are interested in contributing to Pony, you are strongly encouraged to join. When you do join, be sure to introduce yourself in the [#"new members" stream](https://ponylang.zulipchat.com/#narrow/stream/189935-new-members).
+For general community channels, see the [Zulip page](/community/zulip.md) in the Community section.
 
-Within the Zulip, there are a number of contributor oriented streams that you should consider joining. Please note that this list might be out of date with the most recent state of the Zulip, but should act as a good guide post.
+The [ponylang Zulip](https://ponylang.zulipchat.com/) is the primary hub for asynchronous chat within the Pony community. If you are interested in contributing to Pony, you are strongly encouraged to join. When you do join, be sure to introduce yourself in the [#new members](https://ponylang.zulipchat.com/#narrow/stream/189935-new-members) channel.
+
+Within the Zulip, there are a number of contributor-oriented channels that you should consider joining. Please note that this list might be out of date with the most recent state of the Zulip, but should act as a good guidepost.
 
 ## administrative
 
@@ -23,6 +25,10 @@ A place for folks to get advice on how they can contribute to Pony. Also include
 ## LLVM
 
 Discussion of LLVM related issues for ponyc
+
+## pony-lsp
+
+Discussion of work on the [Pony Language Server](https://github.com/ponylang/pony-lsp). Broken out from the tooling channel to give the project its own space.
 
 ## release
 

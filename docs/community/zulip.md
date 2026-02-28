@@ -12,7 +12,7 @@ When you join, you'll be subscribed to several channels by default. Here are the
 - **[#virtual users' group](https://ponylang.zulipchat.com/#narrow/stream/426066-virtual-users'-group)** -- coordination for VUG meetings and talk proposals.
 - **[#contribute to Pony](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to.20Pony)** -- if you're interested in contributing to the project.
 
-There are also contributor-oriented channels for specific areas like the compiler, runtime, and CI. See [Contributor Zulip Streams](/contribute/zulip-streams.md) for the full list.
+There are also contributor-oriented channels for specific areas like the compiler, runtime, and CI. See [Contributor Zulip Channels](/contribute/zulip-channels.md) for the full list.
 
 ## Tips
 
