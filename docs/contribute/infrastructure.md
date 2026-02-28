@@ -18,9 +18,9 @@ Access is via individual accounts which can then be granted various levels of ac
 
 All our docker images that are used across various CI and release jobs are stored in the GitHub Container Registry.
 
-## ForwardMX
+## MailWip
 
-We have a paid account with [ForwardMX](https://forwardmx.io/). All `@ponylang.io` email addresses are set up with ForwardMX that then forwards them on to a set of aliases.
+We have a paid account with [MailWip](https://mailwip.com/). All `@ponylang.io` email addresses are set up with MailWip that then forwards them on to a set of aliases.
 
 Access information is in the 1Password account.
 
@@ -72,13 +72,17 @@ The pony emacs mode, [ponylang-mode](https://github.com/ponylang/ponylang-mode) 
 
 There's no access to Melpa. All updates are done by Melpa monitoring the ponylang-mode GitHub repo. There's nothing to administer.
 
-## NearlyFreeSpeech.net
+## Google Calendar
 
-The [recordings of our weekly developers' sync](https://vimeo.com/channels/ponydevelopmentsync) are currently hosted on [Vimeo](https://vimeo.com).
+We use Google Calendar to schedule recurring events: Office Hours, Development Sync, and Virtual Users' Group. Zapier triggers automations based on calendar events (e.g., posting the sync agenda to Zulip).
 
-The "admin" account is owned by Sean T. Allen. Joe McIlvain has an account with upload access. Sean can grant upload access to others as needed.
+The calendars are owned by the `ponylang.main@gmail.com` account. Calendar feeds are published on the [Community page](/community/index.md#calendar) for anyone to subscribe to.
 
-All bills for hosting are paid by Sean and reimbursed via our OpenCollective. Unlike most other bills, the low balance/balance due notices are **not** sent to the ponylang.main gmail account.
+## Vimeo
+
+The [recordings of our weekly developers' sync](https://vimeo.com/channels/ponydevelopmentsync) are hosted on [Vimeo](https://vimeo.com).
+
+The account is owned by Sean T. Allen. Joe McIlvain has an account with upload access. Sean can grant upload access to others as needed.
 
 ## Netlify
 
@@ -92,15 +96,9 @@ We have an account with [Open Collective](https://opencollective.com/ponyc) by w
 
 Access is via individual accounts that can be granted access by a user who already has administrative access.
 
-## PyPI
+## Social Media
 
-We have a [PyPI](https://pypi.org) account, used to upload packaged releases of our [Mkdocs theme](https://github.com/ponylang/mkdocs-theme).
-
-Access information is stored in the 1Password account.
-
-## Twitter
-
-We maintain a [ponylang Twitter account](https://twitter.com/ponylang).
+We maintain accounts on Twitter ([@ponylang](https://twitter.com/ponylang)) and Bluesky ([ponylang.bsky.social](https://bsky.app/profile/ponylang.bsky.social)). Both accounts are active.
 
 Access information is stored in the 1Password account.
 

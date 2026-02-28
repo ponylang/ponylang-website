@@ -16,7 +16,7 @@ Anyone can contribute code, report bugs, or participate in discussions. The role
 
 Significant changes to the language, standard library, or project processes go through the [RFC process](https://github.com/ponylang/rfcs). An RFC is a written proposal that the community can review and discuss before a decision is made.
 
-Day-to-day decisions about issues and pull requests happen at the weekly [Development Sync](/contribute/sync.md), which is open to anyone.
+Day-to-day decisions about issues and pull requests happen at the weekly [Development Sync](development-sync.md), which is open to anyone.
 
 ## Financial Support
 

@@ -6,7 +6,7 @@ If you run into trouble while you are learning Pony, don't worry, we've got you 
 - Be clear whether you are asking if something already exists in Pony (eg. "does Pony have X?"), or if you are requesting new functionality. We've received several messages asking about libraries or features present in other languages, by new users who weren't familiarized with Pony's philosophy or programming style well enough. Make sure that you understand what is your problem and if it makes sense in Pony's ecosystem, and clarify your intention of proposing a change. Baseless suggestions will be ignored.
 - Don't rush experienced users for immediate answers. This is an all-volunteer project, and folks will help whenever they are available. Also, Zulip makes it easy to keep conversations of the same topic in one place, so you can check later to see if someone has answered your questions.
 
-The [beginner help](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help) stream is a good starting point for basic questions. If you need more information on what is considered appropriate or inappropriate behaviour, check out our [Code of Conduct](https://github.com/ponylang/ponyc/blob/main/CODE_OF_CONDUCT.md).
+The [#beginner help](https://ponylang.zulipchat.com/#narrow/stream/189985-beginner-help) channel is a good starting point for basic questions. If you need more information on what is considered appropriate or inappropriate behaviour, check out our [Code of Conduct](https://github.com/ponylang/ponyc/blob/main/CODE_OF_CONDUCT.md).
 
 Many folks encounter the same issues or have the same questions, be sure to give the [frequently asked questions](/faq/index.md) section of this website a read.
 

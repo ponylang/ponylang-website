@@ -4,7 +4,7 @@ We advertise Pony as a high-performance language. And Pony can definitely be fas
 
 Writing fast code isn't easy. Some languages make it easier than others. Some languages make it harder than others. But, you can write slow code in any language. Trust us, we know. We've done it. All this it to let you know, you can write very fast code with Pony, but it will require some effort. There is no language that you can use that will make your code fast without effort.
 
-We've collected together some resources to help you write fast Pony code. In addition to these resources, we have a [performance help stream](https://ponylang.zulipchat.com/#narrow/stream/190362-performance-help) on Zulip. If you have questions about performance, drop by and ping us.
+We've collected together some resources to help you write fast Pony code. In addition to these resources, we have a [#performance help](https://ponylang.zulipchat.com/#narrow/stream/190362-performance-help) channel on Zulip. If you have questions about performance, drop by and ping us.
 
 ## Microbenchmarking
 
