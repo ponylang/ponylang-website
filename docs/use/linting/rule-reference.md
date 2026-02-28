@@ -140,6 +140,68 @@ class Foo
   fun apply(): U32 => x + y
 ```
 
+## `style/call-argument-format`
+
+**Default:** on
+
+Checks formatting of multiline function call arguments. For calls with two or more positional arguments that span multiple lines:
+
+- No arguments start on the `(` line — arguments should begin on the next line.
+- Arguments are either all on one continuation line, or each on its own line.
+
+Single-line calls, single-argument calls, and named-argument-only calls are not checked. The `where` clause is allowed on its own line and is not subject to layout checks. These rules apply to both regular calls and FFI calls.
+
+**Incorrect:**
+
+```pony
+// Arguments start on the ( line
+foo.bar(U32(1),
+  U32(2), U32(3))
+```
+
+```pony
+// Mixed layout — some args share a line, others don't
+foo.bar(
+  U32(1), U32(2),
+  U32(3))
+```
+
+**Correct:**
+
+```pony
+// Single-line — not checked
+foo.bar(U32(1), U32(2), U32(3))
+```
+
+```pony
+// All on one continuation line
+foo.bar(
+  U32(1), U32(2), U32(3))
+```
+
+```pony
+// Each on its own line
+foo.bar(
+  U32(1),
+  U32(2),
+  U32(3))
+```
+
+```pony
+// Where clause on its own line
+foo.bar(
+  U32(1),
+  U32(2)
+  where y = U32(3))
+```
+
+```pony
+// FFI call — same rules
+@pony_os_errno(
+  U32(1),
+  U32(2))
+```
+
 ## `style/comment-spacing`
 
 **Default:** on

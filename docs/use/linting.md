@@ -32,6 +32,7 @@ pony-lint --version
 | `style/array-literal-format` | on | Multiline array literal formatting (bracket placement and spacing) |
 | `style/assignment-indent` | on | Multiline assignment RHS must start on the line after `=` |
 | `style/blank-lines` | on | Blank line conventions within and between entities |
+| `style/call-argument-format` | on | Multiline call argument formatting (argument layout and placement) |
 | `style/comment-spacing` | on | `//` not followed by exactly one space |
 | `style/control-structure-alignment` | on | Control structure keywords must be vertically aligned |
 | `style/docstring-format` | on | Docstring `"""` tokens should be on their own lines |
