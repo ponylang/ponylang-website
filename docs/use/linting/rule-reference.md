@@ -509,9 +509,9 @@ class Foo
 
 **Default:** on
 
-Flags patterns where a value is bound to a local variable and methods are called on it repeatedly — when `.>` chaining would be cleaner. Triggers on both `let` and `var` bindings with 2 or more consecutive dot-calls, whether or not the variable is returned after the calls.
+Flags patterns where a value is bound to a local variable and methods are called on it — when `.>` chaining would be cleaner. Triggers on both `let` and `var` bindings. Fires with 2 or more consecutive dot-calls (whether or not the variable is returned), or with a single call followed by a bare reference to return the variable.
 
-**Incorrect:**
+**Incorrect** — multiple calls with trailing reference:
 
 ```pony
 class Foo
@@ -534,7 +534,25 @@ class Foo
       .> push(3)
 ```
 
-**Also incorrect:**
+**Incorrect** — single call with trailing reference:
+
+```pony
+class Foo
+  fun make_set(): Set[String] =>
+    let s = Set[String]
+    s.set("foo")
+    s
+```
+
+**Correct:**
+
+```pony
+class Foo
+  fun make_set(): Set[String] =>
+    Set[String] .> set("foo")
+```
+
+**Also incorrect** — multiple calls without trailing reference:
 
 ```pony
 class Foo
