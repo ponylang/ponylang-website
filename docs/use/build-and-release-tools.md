@@ -1,10 +1,10 @@
-# Infrastructure
+# Build and Release Tools
 
-The Pony Developers maintain a number of repositories that contain tools designed to make it easier to manage and run projects associated with the Pony programming language. Each of the repositories is used extensively by us.
+The Pony Developers maintain a number of repositories that contain tools designed to make it easier to build and release projects associated with the Pony programming language. Each of the repositories is used extensively by us.
 
 We encourage the community to use and contribute to these repositories. If you'd like to discuss contributing to any of the repositories, please stop by the [contribute to Pony stream](https://ponylang.zulipchat.com/#narrow/stream/192795-contribute-to-Pony).
 
-To get assistance using any of the infrastructure tools, please stop by the [tooling stream](https://ponylang.zulipchat.com/#narrow/stream/190367-tooling).
+To get assistance using any of the build and release tools, please stop by the [tooling stream](https://ponylang.zulipchat.com/#narrow/stream/190367-tooling).
 
 ## Container Images
 

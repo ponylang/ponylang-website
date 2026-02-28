@@ -137,25 +137,28 @@ nav:
       - Papers: "learn/papers.md"
   - Use:
       - Overview: "use/index.md"
-      - Debugging:
-          - Overview: "use/debugging.md"
-          - Pony LLDB Cheat Sheet: "use/debugging/pony-lldb-cheat-sheet.md"
-          - Track Memory Usage: "use/debugging/track-memory-usage.md"
-          - Trace Pony Programs: "use/debugging/tracing.md"
-      - Documentation Generation: "use/documentation.md"
-      - Dependency Management: "use/dependency-management.md"
-      - Infrastructure: "use/infrastructure.md"
-      - Linting:
-          - Overview: "use/linting.md"
-          - Rule Reference: "use/linting/rule-reference.md"
-      - Packages: "use/packages.md"
-      - Pony Language Server: "use/pony-lsp.md"
-      - Performance:
-          - Overview: "use/performance.md"
-          - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"
-      - Testing:
-          - Overview: "use/testing.md"
-          - Coverage Reports: "use/testing/coverage-reports.md"
+      - Development Environment:
+          - Dependency Management: "use/dependency-management.md"
+          - Pony Language Server: "use/pony-lsp.md"
+          - Linting:
+              - Overview: "use/linting.md"
+              - Rule Reference: "use/linting/rule-reference.md"
+          - Documentation Generation: "use/documentation.md"
+      - Development:
+          - Testing:
+              - Overview: "use/testing.md"
+              - Coverage Reports: "use/testing/coverage-reports.md"
+          - Debugging:
+              - Overview: "use/debugging.md"
+              - Pony LLDB Cheat Sheet: "use/debugging/pony-lldb-cheat-sheet.md"
+              - Track Memory Usage: "use/debugging/track-memory-usage.md"
+              - Trace Pony Programs: "use/debugging/tracing.md"
+          - Performance:
+              - Overview: "use/performance.md"
+              - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"
+      - Ecosystem:
+          - Packages: "use/packages.md"
+      - Build and Release Tools: "use/build-and-release-tools.md"
   - Contribute:
       - Overview: "contribute/index.md"
       - Triage Issues: "contribute/triage.md"
