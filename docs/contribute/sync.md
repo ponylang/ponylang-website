@@ -4,7 +4,7 @@ The Pony Development Sync is a weekly meeting where Pony contributors discuss to
 
 ## Attending the Pony Development Sync
 
-Stay up-to-date with the schedule by [subscribing to the Development Sync calender](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics).
+Stay up-to-date with the schedule by [subscribing to the Development Sync calendar](https://calendar.google.com/calendar/u/0?cid=NTlqY3J1NmY1MG1ycHFibTdlbTRpY2xua2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
 
 Each meeting is recorded and all recordings are available on [Vimeo](https://vimeo.com/channels/ponydevelopmentsync). Recordings are available dating back to 2016.
 
