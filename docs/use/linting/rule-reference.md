@@ -117,6 +117,42 @@ Line comments (`//`) must be followed by exactly one space. An empty comment (`/
 let url = "http://example.com" // inside strings is ignored
 ```
 
+## `style/control-structure-alignment`
+
+**Default:** on
+
+Control structure keywords must be vertically aligned. Each keyword in a control structure must start at the same column as the opening keyword. Single-line structures are exempt. The `do` keyword is not checked because it always appears on the same line as its opening keyword.
+
+The following keyword groups are checked:
+
+- `if` / `elseif` / `else` / `end`
+- `ifdef` / `elseif` / `else` / `end`
+- `while` / `else` / `end`
+- `for` / `else` / `end`
+- `try` / `else` / `then` / `end`
+- `repeat` / `until` / `else` / `end`
+- `with` / `end`
+
+**Incorrect:**
+
+```pony
+if condition then
+  do_something()
+    else
+  do_other()
+      end
+```
+
+**Correct:**
+
+```pony
+if condition then
+  do_something()
+else
+  do_other()
+end
+```
+
 ## `style/docstring-format`
 
 **Default:** on

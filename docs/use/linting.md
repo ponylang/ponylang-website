@@ -32,6 +32,7 @@ pony-lint --version
 | `style/assignment-indent` | on | Multiline assignment RHS must start on the line after `=` |
 | `style/blank-lines` | on | Blank line conventions within and between entities |
 | `style/comment-spacing` | on | `//` not followed by exactly one space |
+| `style/control-structure-alignment` | on | Control structure keywords must be vertically aligned |
 | `style/docstring-format` | on | Docstring `"""` tokens should be on their own lines |
 | `style/dot-spacing` | on | No spaces around `.`; `.>` spaced as infix operator |
 | `style/file-naming` | on | File name should match principal type |
