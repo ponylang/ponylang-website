@@ -14,8 +14,8 @@ This section is organized into three groups.
 
 All recurring Pony events have Google Calendar feeds you can subscribe to:
 
-- [Office Hours](https://calendar.google.com/calendar/ical/4465e68ae24131ae00461a40893f2637a2c9ac510e311a44ff78680e2f183ce3%40group.calendar.google.com/public/basic.ics)
-- [Development Sync](https://calendar.google.com/calendar/ical/59jcru6f50mrpqbm7em4iclnkk%40group.calendar.google.com/public/basic.ics)
-- [Virtual Users' Group](https://calendar.google.com/calendar/ical/042ceam97bfg4eseqt3sagq1rk%40group.calendar.google.com/public/basic.ics)
+- [Office Hours](https://calendar.google.com/calendar/u/0?cid=NDQ2NWU2OGFlMjQxMzFhZTAwNDYxYTQwODkzZjI2MzdhMmM5YWM1MTBlMzExYTQ0ZmY3ODY4MGUyZjE4M2NlM0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t)
+- [Development Sync](https://calendar.google.com/calendar/u/0?cid=NTlqY3J1NmY1MG1ycHFibTdlbTRpY2xua2tAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
+- [Virtual Users' Group](https://calendar.google.com/calendar/u/0?cid=MDQyY2VhbTk3YmZnNGVzZXF0M3NhZ3ExcmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ)
 
 The Development Sync is a weekly meeting where committers review open issues and PRs. It's open to anyone. See the [Contribute section](/contribute/sync.md) for details.

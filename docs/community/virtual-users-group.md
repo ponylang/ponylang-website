@@ -8,7 +8,7 @@ VUG meetings feature presentations on Pony-related topics, followed by discussio
 
 Join the [#virtual users' group](https://ponylang.zulipchat.com/#narrow/stream/426066-virtual-users'-group) stream on Zulip. We use that stream to coordinate meetings and discuss topics.
 
-To keep up with meeting times, subscribe to the [VUG calendar](https://calendar.google.com/calendar/ical/042ceam97bfg4eseqt3sagq1rk%40group.calendar.google.com/public/basic.ics).
+To keep up with meeting times, subscribe to the [VUG calendar](https://calendar.google.com/calendar/u/0?cid=MDQyY2VhbTk3YmZnNGVzZXF0M3NhZ3ExcmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
 
 ## Giving a Talk
 
