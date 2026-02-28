@@ -80,7 +80,10 @@ The calendars are owned by the `ponylang.main@gmail.com` account. Calendar feeds
 
 ## Vimeo
 
-The [recordings of our weekly developers' sync](https://vimeo.com/channels/ponydevelopmentsync) are hosted on [Vimeo](https://vimeo.com).
+We use [Vimeo](https://vimeo.com) to host recordings. There are two channels:
+
+- [Pony Development Sync](https://vimeo.com/channels/ponydevelopmentsync) -- weekly sync meeting recordings
+- [Pony Virtual Users' Group](https://vimeo.com/channels/ponyvug) -- VUG talk recordings
 
 The account is owned by Sean T. Allen. Joe McIlvain has an account with upload access. Sean can grant upload access to others as needed.
 
