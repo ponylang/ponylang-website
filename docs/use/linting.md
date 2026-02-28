@@ -29,6 +29,7 @@ pony-lint --version
 | Rule ID | Default | Description |
 |---------|---------|-------------|
 | `style/acronym-casing` | on | Acronyms in type names should be fully uppercased |
+| `style/array-literal-format` | on | Multiline array literal formatting (bracket placement and spacing) |
 | `style/assignment-indent` | on | Multiline assignment RHS must start on the line after `=` |
 | `style/blank-lines` | on | Blank line conventions within and between entities |
 | `style/comment-spacing` | on | `//` not followed by exactly one space |
@@ -51,6 +52,7 @@ pony-lint --version
 | `style/prefer-chaining` | on | Local variable can be replaced with `.>` chaining |
 | `style/public-docstring` | on | Public types and methods should have a docstring |
 | `style/trailing-whitespace` | on | Trailing spaces or tabs |
+| `style/type-alias-format` | on | Multiline type alias formatting (paren placement and spacing) |
 | `style/type-naming` | on | Type names should be CamelCase |
 
 See the [Rule Reference](linting/rule-reference.md) for detailed explanations and code examples for each rule.
