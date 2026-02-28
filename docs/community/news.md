@@ -17,7 +17,7 @@ The site publishes an [RSS feed](https://www.ponylang.io/feed_rss_created.xml) t
 
 ## Zulip Announcements
 
-The [#announce](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) stream on [Zulip](https://ponylang.zulipchat.com) carries:
+The [#announce](https://ponylang.zulipchat.com/#narrow/stream/189932-announce) channel on [Zulip](https://ponylang.zulipchat.com) carries:
 
 - Release announcements
 - Development Sync reminders

@@ -6,13 +6,13 @@ VUG meetings feature presentations on Pony-related topics, followed by discussio
 
 ## Participating
 
-Join the [#virtual users' group](https://ponylang.zulipchat.com/#narrow/stream/426066-virtual-users'-group) stream on Zulip. We use that stream to coordinate meetings and discuss topics.
+Join the [#virtual users' group](https://ponylang.zulipchat.com/#narrow/stream/426066-virtual-users'-group) channel on Zulip. We use that channel to coordinate meetings and discuss topics.
 
 To keep up with meeting times, subscribe to the [VUG calendar](https://calendar.google.com/calendar/u/0?cid=MDQyY2VhbTk3YmZnNGVzZXF0M3NhZ3ExcmtAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ).
 
 ## Giving a Talk
 
-Have something you'd like to present? Post in the [#virtual users' group](https://ponylang.zulipchat.com/#narrow/stream/426066-virtual-users'-group) stream on Zulip. Talks don't need to be polished or formal. If you've built something with Pony, solved an interesting problem, or explored a corner of the language, that's a talk.
+Have something you'd like to present? Post in the [#virtual users' group](https://ponylang.zulipchat.com/#narrow/stream/426066-virtual-users'-group) channel on Zulip. Talks don't need to be polished or formal. If you've built something with Pony, solved an interesting problem, or explored a corner of the language, that's a talk.
 
 ## Recordings
 
