@@ -315,6 +315,7 @@ varargs
 vassilvk
 VCPUs
 Vernons
+Vecs
 Vinoski's
 Vinju
 Vyukov's
