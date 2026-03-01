@@ -75,6 +75,7 @@ Drossopoulou's
 dssim
 ECOOP
 Eleskin
+emscripten
 epoll
 equestria
 Erdman
@@ -116,7 +117,10 @@ Hovsäter
 htmlproofer
 httprouter
 Hydraconf
+hyperthreaded
+Hyperthreaded
 hyperthreading
+Hyperthreads
 ibara
 ICFP
 Idris
