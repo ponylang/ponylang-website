@@ -37,4 +37,3 @@ Yes! Here's a few projects we regularly point people towards:
 - [Wallaroo](https://github.com/seantallen/wallaroo) - Distributed Stream Processor written in Pony
 
 Note, we can't promise that any of the projects have been updated recently or that they compile with the most recent versions of the Pony compiler.
-
