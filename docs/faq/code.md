@@ -116,3 +116,11 @@ Primitives can't have fields, so they can't hold mutable state. That's intention
 If you need shared read-only data that's expensive to construct, a large lookup table say, create it once and pass it to whatever needs it via constructors.
 
 For more on primitives, see the [Primitives](https://tutorial.ponylang.io/types/primitives.html) section of the tutorial and the [Global Function](https://patterns.ponylang.io/code-sharing/global-function.html) pattern.
+
+## How do I debug Pony programs? {:id="debugging"}
+
+Most people start with printf-style debugging, and the standard library's `Debug` primitive makes that easy. `Debug` output only appears when you compile with `ponyc --debug`. In a release build, `Debug` calls compile out entirely. Zero cost.
+
+When you need a step debugger, Pony compiles to native code with standard DWARF symbols, so LLDB and GDB work directly. We have a [Pony LLDB Cheat Sheet](/use/debugging/pony-lldb-cheat-sheet/) to get you started and a set of [Pony LLDB Extensions](https://github.com/ponylang/pony-lldb-extensions) that make inspecting Pony values easier.
+
+There's more in the [Debugging](/use/debugging/) section of this website.
