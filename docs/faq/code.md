@@ -148,3 +148,11 @@ It's more code than a blocking read in most languages. That's the tradeoff for n
 No. There is no runtime reflection in Pony. You can't inspect an object's fields or methods at runtime the way you would in Java or C#.
 
 If you need to serialize objects, build string representations, or do anything else that reflection typically handles, you write it by hand. There is an [open RFC issue](https://github.com/ponylang/rfcs/issues/57) for adding reflection, but designing reflection that doesn't violate Pony's safety guarantees is hard. No one has taken it on yet.
+
+## Why can't I use `env` outside of `Main`? {:id="env-outside-main"}
+
+Because that would be ambient authority. Pony is a capability-secure language. Access to the network, the filesystem, `stdout` — these are capabilities that have to be explicitly passed to whoever needs them. Nothing gets them for free.
+
+If an actor or class needs to print, pass it an `OutStream`. If it needs file access, pass it a `FileAuth`. You decide exactly who gets what authority. That's the point.
+
+For more on this design, see the [Object Capabilities](https://tutorial.ponylang.io/object-capabilities/object-capabilities.html) section of the tutorial.
