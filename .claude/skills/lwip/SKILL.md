@@ -22,11 +22,24 @@ Create a new "Last Week in Pony" blog post.
 - Libraries with a 0.1.0 release get their own `##` section describing what
   the library provides and why you'd want it. Don't cover libraries that
   haven't had a first release yet.
+- New library sections should be feature overviews, not per-version
+  changelogs. When a library has multiple releases in one week, describe
+  what it does as a whole. Don't enumerate what changed in each version.
+- Describe libraries from the user's perspective. Focus on what it does for
+  them (features, protocol support, API surface), not project-internal
+  motivations (why it was built, what larger effort it's part of).
 - Major version bumps (1.0.0, 2.0.0, etc.) also get their own `##` section
   covering what changed and why it matters.
 - Be frugal with em dashes. A few per post is fine, but heavy use reads as
   AI-generated. Prefer periods, commas, colons, or parentheses when they
   work just as well.
+- Issue comments are raw material, not copy. Turn them into flowing
+  narrative. Avoid choppy sequences of disconnected sentences.
+- Keep voice consistent between adjacent sections. When two sections cover
+  similar content (two new tools, two related libraries), they should read
+  the same way.
+- Use "ponyc" not "ponylang/ponyc" in prose and section headings. Only use
+  `ponylang/ponyc` in the releases list.
 - `## RFCs` section (when applicable) goes after `## Releases`. Use `###`
   subsections by status change (`### New`, `### Accepted`,
   `### Final Comment Period`, `### Implemented`, etc.). Only include statuses
@@ -39,8 +52,18 @@ Follow these steps:
 1. **Read editorial guidelines**: Read the "Last Week in Pony" section in
    this project's CLAUDE.md for format, tone, and domain-specific notes.
 
-2. **Study recent posts**: Read the 2-3 most recent posts in
-   `docs/blog/posts/last-week-in-pony-*.md` for voice calibration.
+2. **Study recent posts and voice calibration**: Read the 2-3 most recent
+   posts in `docs/blog/posts/last-week-in-pony-*.md`. Also read 2-3 posts
+   from `~/code/seantallen/seantallen.com/content/posts/` to calibrate on
+   Sean's personal writing voice. Key traits: he connects ideas into
+   flowing narrative (not choppy fact sequences), tells you *why* things
+   matter (not just what they are), shares opinions freely, uses natural
+   asides and humor, and varies sentence length. The language is
+   hyperbolic but the facts aren't — the flair is in *how* things are
+   said ("gracing you with," "the whole thing"), not in inflating what
+   they are. Don't write feature checklists ("X is supported. Y is
+   supported.") — describe things the way you'd tell someone about them
+   in conversation.
 
 3. **Find the open issue**: Run
    `gh issue list --repo ponylang/ponylang-website --label last-week-in-pony --state open`
