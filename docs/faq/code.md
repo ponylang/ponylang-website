@@ -124,3 +124,13 @@ Most people start with printf-style debugging, and the standard library's `Debug
 When you need a step debugger, Pony compiles to native code with standard DWARF symbols, so LLDB and GDB work directly. We have a [Pony LLDB Cheat Sheet](/use/debugging/pony-lldb-cheat-sheet/) to get you started and a set of [Pony LLDB Extensions](https://github.com/ponylang/pony-lldb-extensions) that make inspecting Pony values easier.
 
 There's more in the [Debugging](/use/debugging/) section of this website.
+
+## How do I wait for an actor to finish? {:id="wait-for-actor"}
+
+You don't. Pony is asynchronous. There is no way to block one actor while waiting for another.
+
+This question usually comes from people accustomed to synchronous calls in other languages. In Pony, you flip it around. Instead of "wait for the result," you define what happens when the result arrives. Pass a reference to the calling actor to the worker. When the worker is done, it sends a message back.
+
+The [`counter`](https://github.com/ponylang/ponyc/tree/main/examples/counter) example in `ponylang/ponyc` shows this pattern. `Main` passes `this` to a `Counter` actor, and `Counter` calls `main.display()` with the result.
+
+If you need to coordinate across many actors, the [`ponylang/fork_join`](https://github.com/ponylang/fork_join) library provides a fork-join coordination pattern. For more on asynchronous coordination patterns in general, see the [Actor Promise](https://patterns.ponylang.io/async/actorpromise.html) section of the Pony Patterns book.
