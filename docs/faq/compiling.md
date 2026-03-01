@@ -86,3 +86,9 @@ The path ending in `link.exe` is the linker that the pony compiler is currently 
 To add options to the link command, I would compile my program as something like:
 
 `ponyc --linker="C:\OtherPath\link.exe /LIBPATH:C:\Foo"`
+
+## Does Pony support WebAssembly? {:id="wasm-support"}
+
+Not in any practical sense. Very simple programs have been compiled to WASM via emscripten, but no one is actively working on full support. Significant blockers remain around the runtime's IO subsystem, memory allocation, and browser interaction.
+
+If you're interested in pushing this forward, come talk to us on the [Zulip](https://ponylang.zulipchat.com). We'd welcome the help.
