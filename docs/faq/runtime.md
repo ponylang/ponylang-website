@@ -66,3 +66,11 @@ Yes. Behaviors are always asynchronous. When a behavior calls itself, it sends a
 This is actually useful. A behavior that loops with `while` or `for` can't be interrupted — it holds the scheduler thread until it returns. A behavior that "loops" by calling itself gives other messages a chance to be processed between iterations. The [`yield`](https://github.com/ponylang/ponyc/tree/main/examples/yield) example in `ponylang/ponyc` demonstrates this pattern.
 
 If you need synchronous recursion inside an actor, use a private function instead. Functions are always synchronous.
+
+## Why does Pony only use physical cores, not hyperthreaded cores? {:id="physical-cores"}
+
+Cache lines. Hyperthreaded cores share cache with their physical sibling. The Pony runtime optimizes for cache-line locality, and hyperthreading actively defeats that. Testing with real-world Pony applications showed measurable performance drops with hyperthreading enabled.
+
+By default, Pony starts one scheduler thread per physical core and pins each thread to its core (on Linux; macOS doesn't support thread pinning). If you notice "only half your CPU being used", that's expected. Those aren't all real CPUs. Hyperthreads as CPUs is a beautiful lie.
+
+For more, see the [Performance Cheat Sheet](/use/performance/pony-performance-cheat-sheet/).
