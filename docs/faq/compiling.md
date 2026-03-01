@@ -92,3 +92,7 @@ To add options to the link command, I would compile my program as something like
 Not in any practical sense. Very simple programs have been compiled to WASM via emscripten, but no one is actively working on full support. Significant blockers remain around the runtime's IO subsystem, memory allocation, and browser interaction.
 
 If you're interested in pushing this forward, come talk to us on the [Zulip](https://ponylang.zulipchat.com). We'd welcome the help.
+
+## Does Pony do incremental compilation? {:id="incremental-compilation"}
+
+No. Pony does whole-program compilation. The compiler analyzes your entire program together, which is what allows it to guarantee data-race freedom and other safety properties. The tradeoff is that compile times grow with program size.
