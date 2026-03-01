@@ -96,3 +96,23 @@ primitive OneForAllCombined
 ```
 
 **Nice!**
+
+## How do I create global constants or singletons? {:id="global-constants"}
+
+Use primitives. A primitive in Pony is a named singleton with no fields. It's always `val`, meaning it's globally readable and immutable.
+
+```pony
+primitive Pi
+  fun apply(): F64 => 3.14159265358979323846
+
+primitive Colours
+  fun red(): (U8, U8, U8) => (255, 0, 0)
+  fun green(): (U8, U8, U8) => (0, 255, 0)
+  fun blue(): (U8, U8, U8) => (0, 0, 255)
+```
+
+Because primitives can't have fields, they can't hold mutable state. That's by design. Mutable global state would be ambient authority, which Pony's capability-secure design prevents.
+
+If you need shared read-only data that's expensive to construct (a large lookup table, for example), create it once and pass it to the actors and classes that need it via their constructors.
+
+For more on primitives, see the [Primitives](https://tutorial.ponylang.io/types/primitives.html) section of the tutorial and the [Global Function](https://patterns.ponylang.io/code-sharing/global-function.html) pattern.
