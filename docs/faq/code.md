@@ -172,3 +172,9 @@ Use `dispose()` when you need timely cleanup — closing file handles, releasing
 Because the object isn't fully initialized yet. If you could pass `this` as a `ref` during construction, you'd hand out a reference to an object whose fields aren't all set. That's a safety hole.
 
 The compiler tracks field initialization. Before all fields are set, `this` is `tag` when used as a value. You can read and write fields on it, but you can't pass it to something that expects a `ref`. Once every field has been initialized, `this` becomes `ref` for the rest of the constructor body.
+
+## Is there something like `sleep` or delayed execution? {:id="delayed-execution"}
+
+There's no `sleep` in Pony. Blocking a scheduler thread would prevent other actors from running.
+
+Instead, use `Timer` and `Timers` from the standard library's `time` package. You create a timer with a notifier, an initial delay, and an optional repeat interval. When the timer fires, it calls your notifier's `apply` method. The [`timers`](https://github.com/ponylang/ponyc/tree/main/examples/timers) example in `ponylang/ponyc` shows the setup, and the [Waiting](https://patterns.ponylang.io/async/waiting.html) pattern in the Pony Patterns book walks through the approach in detail.
