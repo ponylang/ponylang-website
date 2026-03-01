@@ -142,3 +142,9 @@ There's no blocking `readLine()` call in Pony. All IO is asynchronous. You set u
 The standard library's `term` package provides `Readline` and `ReadlineNotify` for interactive line-oriented input, complete with tab completion and history. The [`readline`](https://github.com/ponylang/ponyc/tree/main/examples/readline) example in `ponylang/ponyc` shows the full pattern.
 
 It's more code than a blocking read in most languages. That's the tradeoff for non-blocking IO.
+
+## Does Pony have reflection? {:id="reflection"}
+
+No. There is no runtime reflection in Pony. You can't inspect an object's fields or methods at runtime the way you would in Java or C#.
+
+If you need to serialize objects, build string representations, or do anything else that reflection typically handles, you write it by hand. There is an [open RFC issue](https://github.com/ponylang/rfcs/issues/57) for adding reflection, but designing reflection that doesn't violate Pony's safety guarantees is hard. No one has taken it on yet.
