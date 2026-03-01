@@ -166,3 +166,9 @@ Timing.
 `_final()` is non-deterministic. The garbage collector calls it when it collects the object. You don't control when that happens, and on some code paths it might not run at all before the program exits.
 
 Use `dispose()` when you need timely cleanup — closing file handles, releasing locks, shutting down connections. Use `_final()` as a safety net for resources that must eventually be released even if someone forgets to call `dispose()`.
+
+## Why is `this` a `tag` in a constructor? {:id="this-tag-in-constructor"}
+
+Because the object isn't fully initialized yet. If you could pass `this` as a `ref` during construction, you'd hand out a reference to an object whose fields aren't all set. That's a safety hole.
+
+The compiler tracks field initialization. Before all fields are set, `this` is `tag` when used as a value. You can read and write fields on it, but you can't pass it to something that expects a `ref`. Once every field has been initialized, `this` becomes `ref` for the rest of the constructor body.
