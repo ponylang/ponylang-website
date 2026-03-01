@@ -117,18 +117,18 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /faq/#how-is-pony-different /faq/about-pony/#how-is-pony-different 301!
 /faq/#why-pony-instead-of-x /faq/about-pony/#why-pony-instead-of-x 301!
 /faq/#roadmap /faq/about-pony/#roadmap 301!
-/faq/#data-race /faq/about-pony/#data-race 301!
+/faq/#data-race /faq/runtime/#data-race 301!
 /faq/#real-world-pony-codebases /faq/about-pony/#real-world-pony-codebases 301!
-/faq/#code-formatter /faq/about-pony/#code-formatter 301!
+/faq/#code-formatter /faq/ecosystem/#code-formatter 301!
 
 /faq/#code /faq/code/ 301!
 /faq/#ref-to-val /faq/code/#ref-to-val 301!
 /faq/#Foo()-create-apply /faq/code/#Foo()-create-apply 301!
 /faq/#code-for-all-numbers /faq/code/#code-for-all-numbers 301!
 
-/faq/#comparisons /faq/comparisons/ 301!
-/faq/#erlang-elixir-comparison /faq/comparisons/#erlang-elixir-comparison 301!
-/faq/#pony-actors-lightweight /faq/comparisons/#pony-actors-lightweight 301!
+/faq/#comparisons /faq/about-pony/#erlang-elixir-comparison 301!
+/faq/#erlang-elixir-comparison /faq/about-pony/#erlang-elixir-comparison 301!
+/faq/#pony-actors-lightweight /faq/runtime/#pony-actors-lightweight 301!
 
 /faq/#compiling /faq/compiling/ 301!
 /faq/#supported-CPUs /faq/compiling/#supported-CPUs 301!
@@ -139,13 +139,23 @@ https://ponylang.org/* https://www.ponylang.io/:splat 301!
 /faq/#ssl /faq/ecosystem/#ssl 301!
 /faq/#package-manager /faq/ecosystem/#package-manager 301!
 
-/faq/#linking /faq/linking/ 301!
-/faq/#custom-linker-parameters /faq/linking/#custom-linker-parameters 301!
+/faq/#linking /faq/compiling/#custom-linker-parameters 301!
+/faq/#custom-linker-parameters /faq/compiling/#custom-linker-parameters 301!
 
 /faq/#runtime /faq/runtime/ 301!
 /faq/#green-threads /faq/runtime/#green-threads 301!
 /faq/#causal-messaging /faq/runtime/#causal-messaging 301!
 /faq/#program-exit /faq/runtime/#program-exit 301!
+
+# FAQ reorganization: merged linking into compiling, comparisons into about-pony/runtime,
+# moved data-race to runtime, moved code-formatter to ecosystem
+/faq/linking/ /faq/compiling/#custom-linker-parameters 301!
+/faq/linking/#custom-linker-parameters /faq/compiling/#custom-linker-parameters 301!
+/faq/comparisons/ /faq/about-pony/#erlang-elixir-comparison 301!
+/faq/comparisons/#erlang-elixir-comparison /faq/about-pony/#erlang-elixir-comparison 301!
+/faq/comparisons/#pony-actors-lightweight /faq/runtime/#pony-actors-lightweight 301!
+/faq/about-pony/#data-race /faq/runtime/#data-race 301!
+/faq/about-pony/#code-formatter /faq/ecosystem/#code-formatter 301!
 
 # we moved "papers" to learn as it fit better
 /community/papers /learn/papers/ 301!
