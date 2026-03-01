@@ -19,6 +19,8 @@ Aturley
 aturley's
 backpressure
 Bailis
+Bagwell
+Bagwell's
 Bambang
 Benoit
 binfmt
@@ -42,6 +44,8 @@ Cantú
 castxml
 cbor
 chalcolith
+CHAMP
+CHAMP's
 Cheatsheet
 Cheeseman
 Cheeseman's
@@ -198,6 +202,7 @@ nogginly
 Nuklear
 NUMA
 ODBC
+OOPSLA
 Øredev
 Orien
 OSCON
@@ -281,6 +286,7 @@ Stawinoga
 stdlib
 stdlib's
 stefandd
+Steindorfer
 Strangecode
 Strangejune
 Struct
@@ -310,6 +316,7 @@ vassilvk
 VCPUs
 Vernons
 Vinoski's
+Vinju
 Vyukov's
 Wahl
 WHEEEE
