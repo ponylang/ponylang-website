@@ -58,3 +58,11 @@ Network IO is fully asynchronous. It uses epoll on Linux and kqueue on macOS and
 File IO and DNS resolution are blocking. When you read from or write to a file, that operation blocks the scheduler thread running your actor. This is a pragmatic choice. Cross-platform async file IO support is poor. POSIX async IO APIs are unreliable and the alternatives are platform-specific.
 
 In practice, short file operations are fine. If you need to do heavy file IO without tying up a scheduler thread, break the work into smaller chunks across multiple behavior calls.
+
+## Is recursion within a behavior asynchronous? {:id="behavior-recursion"}
+
+Yes. Behaviors are always asynchronous. When a behavior calls itself, it sends a new message to the actor's own queue. The current behavior finishes, and the recursive call runs later when the actor picks that message up.
+
+This is actually useful. A behavior that loops with `while` or `for` can't be interrupted — it holds the scheduler thread until it returns. A behavior that "loops" by calling itself gives other messages a chance to be processed between iterations. The [`yield`](https://github.com/ponylang/ponyc/tree/main/examples/yield) example in `ponylang/ponyc` demonstrates this pattern.
+
+If you need synchronous recursion inside an actor, use a private function instead. Functions are always synchronous.
