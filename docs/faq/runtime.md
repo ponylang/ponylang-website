@@ -73,4 +73,4 @@ Cache lines. Hyperthreaded cores share cache with their physical sibling. The Po
 
 By default, Pony starts one scheduler thread per physical core and pins each thread to its core (on Linux; macOS doesn't support thread pinning). If you notice "only half your CPU being used", that's expected. Those aren't all real CPUs. Hyperthreads as CPUs is a beautiful lie.
 
-For more, see the [Performance Cheat Sheet](/use/performance/pony-performance-cheat-sheet/).
+For more, see the [Performance Cheat Sheet](../use/performance/pony-performance-cheat-sheet.md).

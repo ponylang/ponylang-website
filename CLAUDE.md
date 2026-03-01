@@ -1,5 +1,13 @@
 # Ponylang Website
 
+## Internal Links
+
+When linking to other pages within this site, use relative markdown paths with
+`.md` extensions (e.g., `../use/debugging/pony-lldb-cheat-sheet.md`), not
+URL-style paths (e.g., `/use/debugging/pony-lldb-cheat-sheet/`). The
+`htmlproofer` plugin validates relative markdown paths; URL-style paths fail
+validation.
+
 ## Last Week in Pony
 
 ### Editorial Guidelines

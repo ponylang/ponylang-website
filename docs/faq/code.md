@@ -121,9 +121,9 @@ For more on primitives, see the [Primitives](https://tutorial.ponylang.io/types/
 
 Most people start with printf-style debugging, and the standard library's `Debug` primitive makes that easy. `Debug` output only appears when you compile with `ponyc --debug`. In a release build, `Debug` calls compile out entirely. Zero cost.
 
-When you need a step debugger, Pony compiles to native code with standard DWARF symbols, so LLDB and GDB work directly. We have a [Pony LLDB Cheat Sheet](/use/debugging/pony-lldb-cheat-sheet/) to get you started and a set of [Pony LLDB Extensions](https://github.com/ponylang/pony-lldb-extensions) that make inspecting Pony values easier.
+When you need a step debugger, Pony compiles to native code with standard DWARF symbols, so LLDB and GDB work directly. We have a [Pony LLDB Cheat Sheet](../use/debugging/pony-lldb-cheat-sheet.md) to get you started and a set of [Pony LLDB Extensions](https://github.com/ponylang/pony-lldb-extensions) that make inspecting Pony values easier.
 
-There's more in the [Debugging](/use/debugging/) section of this website.
+There's more in the [Debugging](../use/debugging.md) section of this website.
 
 ## How do I wait for an actor to finish? {:id="wait-for-actor"}
 
