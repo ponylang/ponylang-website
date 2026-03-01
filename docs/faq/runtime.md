@@ -6,6 +6,20 @@ The short answer is no. Pony doesn't have green threads. By default, the Pony sc
 
 The longer answer is "it depends". Actors are Pony's unit of concurrency and many people when asking if Pony has green threads really are asking about how concurrency is modeled. You, as a Pony programmer, never interact with scheduler threads directly, you never interact with any sort of thread. You worry about actors and sending messages between them.
 
+## Are pony actors lightweight like Elixir/Erlang's actors, or Go's goroutines? {:id="pony-actors-lightweight"}
+
+Yes! In Pony, the overhead of an empty actor on a 64-bit system is roughly 240 bytes -- depending on your system's `size_t` and alignment. Complete actor overhead includes a message queue, per-actor heap, and GC bookkeeping; therefore, memory use increases as an actor accumulates messages and grows its heap. Actors do not have individual stacks, rather they use the stack of the OS thread they are scheduled on.
+
+Relatively, Elixir/Erlang actors use ~5x more memory and goroutines use ~8x more memory, but critically Elixir/Erlang and Go handle memory far differently than Pony. The memory management approach that is "best" is project-dependent -- Pony offers one more option you can consider for your particular needs.
+
+## Does Pony really prevent data races? {:id="data-race"}
+
+So, this question usually comes in many different forms. And the question usually arises from a misunderstanding of the difference between a "data race" and a "race condition".
+
+Pony prevents data races. It can't stop you from writing race conditions into your program.
+
+To learn more about the differences between race conditions and data races, check out ["Race Condition vs. Data Race"](https://blog.regehr.org/archives/490) by John Regehr.
+
 ## What is causal messaging? {:id="causal-messaging"}
 
 When we say that Pony has causal **messaging**, we mean that the Pony runtime provides certain guarantees about message delivery order. Given two actors, actor A and actor B. All messages sent from actor A will arrive at actor B in the order they were sent by Actor A and will be processed by Actor B in the same order. The causal ordering between messages will be preserved as an invariant by the runtime.
