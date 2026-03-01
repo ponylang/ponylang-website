@@ -134,3 +134,11 @@ This question usually comes from people accustomed to synchronous calls in other
 The [`counter`](https://github.com/ponylang/ponyc/tree/main/examples/counter) example in `ponylang/ponyc` shows this pattern. `Main` passes `this` to a `Counter` actor, and `Counter` calls `main.display()` with the result.
 
 If you need to coordinate across many actors, the [`ponylang/fork_join`](https://github.com/ponylang/fork_join) library provides a fork-join coordination pattern. For more on asynchronous coordination patterns in general, see the [Actor Promise](https://patterns.ponylang.io/async/actorpromise.html) section of the Pony Patterns book.
+
+## How do I read console input? {:id="console-input"}
+
+There's no blocking `readLine()` call in Pony. All IO is asynchronous. You set up a notifier that gets called when input arrives rather than blocking a thread to wait for it.
+
+The standard library's `term` package provides `Readline` and `ReadlineNotify` for interactive line-oriented input, complete with tab completion and history. The [`readline`](https://github.com/ponylang/ponyc/tree/main/examples/readline) example in `ponylang/ponyc` shows the full pattern.
+
+It's more code than a blocking read in most languages. That's the tradeoff for non-blocking IO.
