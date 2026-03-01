@@ -189,6 +189,7 @@ MZTE
 nearlyfreespeech
 Niclas
 Nikolaus
+Nixpkgs
 nogginly
 Nuklear
 NUMA
