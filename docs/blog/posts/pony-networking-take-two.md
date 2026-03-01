@@ -211,4 +211,3 @@ Work continues. If you want to follow along, the [lori discussions](https://gith
 The name "Lori" is an in-joke with an audience of "me". And because I like in-jokes with an audience of "me", I've got one for you.
 
 If you can trace the logic from the problem I started with to the name "lori" and explain the chain, I'll mail you Pony stickers. Real, physical stickers. DM me in the [ponylang Zulip](https://ponylang.zulipchat.com) with your answer so more than one person can win. Not that I think anyone will get it. But if you do, I've got stickers.
-
