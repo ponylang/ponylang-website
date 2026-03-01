@@ -178,3 +178,11 @@ The compiler tracks field initialization. Before all fields are set, `this` is `
 There's no `sleep` in Pony. Blocking a scheduler thread would prevent other actors from running.
 
 Instead, use `Timer` and `Timers` from the standard library's `time` package. You create a timer with a notifier, an initial delay, and an optional repeat interval. When the timer fires, it calls your notifier's `apply` method. The [`timers`](https://github.com/ponylang/ponyc/tree/main/examples/timers) example in `ponylang/ponyc` shows the setup, and the [Waiting](https://patterns.ponylang.io/async/waiting.html) pattern in the Pony Patterns book walks through the approach in detail.
+
+## Why doesn't Pony have typed errors? {:id="typed-errors"}
+
+This question usually means "typed exceptions," and the first thing to understand is that Pony doesn't have exceptions at all. Pony's `error` is not an exception. It doesn't carry a value and there's no hierarchy of error types to match against. A partial function either produces a value or it errors. That's it.
+
+If you need to communicate what went wrong, use a union return type. A function that returns `(MyResult | ParseError | ValidationError)` gives the caller exhaustive match coverage over every failure mode. That's the same affordance that typed exceptions provide in other languages, but it's handled through the type system rather than a separate exception mechanism.
+
+For more on how Pony's error model works, see the [Errors](https://tutorial.ponylang.io/expressions/errors.html) section of the tutorial.
