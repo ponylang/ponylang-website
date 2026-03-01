@@ -48,3 +48,13 @@ An individual actor is quiescent when:
 - it is not registered for events from the runtime via the ASIO subsystem
 
 Once all actors are quiescent, the program will terminate.
+
+## Is Pony's file IO blocking or non-blocking? {:id="file-io-blocking"}
+
+Both, depending on what kind of IO you mean.
+
+Network IO is fully asynchronous. It uses epoll on Linux and kqueue on macOS and BSDs. Your actors get notified when data arrives. No threads block waiting for packets.
+
+File IO and DNS resolution are blocking. When you read from or write to a file, that operation blocks the scheduler thread running your actor. This is a pragmatic choice. Cross-platform async file IO support is poor. POSIX async IO APIs are unreliable and the alternatives are platform-specific.
+
+In practice, short file operations are fine. If you need to do heavy file IO without tying up a scheduler thread, break the work into smaller chunks across multiple behavior calls.
