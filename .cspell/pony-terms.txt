@@ -167,6 +167,7 @@ linal
 LINQ
 LLDB
 Lobste
+lori
 Lookin
 Lucus
 Lystig
@@ -315,6 +316,7 @@ Wahl
 WHEEEE
 Wojciech
 Wrigstad
+Wallaroo
 Wufoo
 YAAM
 yada
