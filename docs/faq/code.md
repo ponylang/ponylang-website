@@ -156,3 +156,13 @@ Because that would be ambient authority. Pony is a capability-secure language. A
 If an actor or class needs to print, pass it an `OutStream`. If it needs file access, pass it a `FileAuth`. You decide exactly who gets what authority. That's the point.
 
 For more on this design, see the [Object Capabilities](https://tutorial.ponylang.io/object-capabilities/object-capabilities.html) section of the tutorial.
+
+## What's the difference between `_final()` and `dispose()`? {:id="final-vs-dispose"}
+
+Timing.
+
+`dispose()` is deterministic. You call it when you decide you're done with a resource, typically via a `with` block. You control when it runs.
+
+`_final()` is non-deterministic. The garbage collector calls it when it collects the object. You don't control when that happens, and on some code paths it might not run at all before the program exits.
+
+Use `dispose()` when you need timely cleanup — closing file handles, releasing locks, shutting down connections. Use `_final()` as a safety net for resources that must eventually be released even if someone forgets to call `dispose()`.
