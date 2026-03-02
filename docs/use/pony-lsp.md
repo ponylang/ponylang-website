@@ -76,4 +76,35 @@ Configuration details are coming. If you use Visual Studio Code with pony-lsp, c
 
 ### Zed
 
-Configuration details are coming. If you use Zed with pony-lsp, consider contributing to this section.
+To get `pony-lsp` working with the [Zed](https://zed.dev/) editor, first install the Pony Zed extension:
+
+1. Open Zed
+2. Press cmd-shift-x (macOS) or ctrl-shift-x (Linux/Windows)
+3. Search for "Pony"
+4. Click Install
+
+Next, open your Zed settings to configure `pony-lsp`:
+
+```json
+{
+  "lsp": {
+    "pony-lsp": {
+      "settings": {
+        "executable": "/pony/bin/pony-lsp"
+      },
+      "initialization_options": {
+        "ponypath": [
+          "/path/to/project-a/packages",
+          "/path/to/project-b/packages"
+        ],
+        "defines": [
+          "MY_DEFINE_ONE",
+          "MY_DEFINE_TWO",
+        ]
+      }
+    }
+  }
+}
+```
+
+For more detail, see the [Pony Zed extension project documentation](https://github.com/orien/pony-zed).
