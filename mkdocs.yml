@@ -81,6 +81,23 @@ plugins:
       categories:
         - categories
         - tags
+  - llmstxt:
+      markdown_description: |
+        Pony is an open-source, object-oriented, actor-model, capabilities-secure,
+        high-performance programming language. This documentation covers learning
+        Pony, using the ecosystem, frequently asked questions, and the philosophy
+        behind the language.
+      full_output: llms-full.txt
+      sections:
+        Learn:
+          - learn/*.md
+        Use:
+          - use/*.md
+          - use/*/*.md
+        FAQ:
+          - faq/*.md
+        Discover:
+          - discover/*.md
 
 theme:
   name: material
