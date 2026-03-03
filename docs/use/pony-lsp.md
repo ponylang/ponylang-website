@@ -83,23 +83,21 @@ To get `pony-lsp` working with the [Zed](https://zed.dev/) editor, first install
 3. Search for "Pony"
 4. Click Install
 
-Next, open your Zed settings to configure `pony-lsp`:
+Next, open your Zed settings to configure `pony-lsp` (all options are optional):
 
 ```json
 {
   "lsp": {
     "pony-lsp": {
       "settings": {
-        "executable": "/pony/bin/pony-lsp"
-      },
-      "initialization_options": {
+        "executable": "/pony/bin/pony-lsp",
         "ponypath": [
           "/path/to/project-a/packages",
           "/path/to/project-b/packages"
         ],
         "defines": [
           "MY_DEFINE_ONE",
-          "MY_DEFINE_TWO",
+          "MY_DEFINE_TWO"
         ]
       }
     }
