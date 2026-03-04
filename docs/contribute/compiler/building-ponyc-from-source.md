@@ -107,7 +107,7 @@ The available options:
 | `pooltrack` | Pool memory tracking |
 | `pool_memalign` | Pool allocator with memalign |
 
-For detailed usage of valgrind, sanitizers, DTrace, and systematic testing, see [Custom ponyc Builds](../../use/debugging/custom-ponyc-builds.md).
+For detailed usage of valgrind, sanitizers, DTrace, and systematic testing, see [Custom ponyc Builds](../../use/compiler/custom-ponyc-builds.md).
 
 ## IDE Integration
 

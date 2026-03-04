@@ -36,7 +36,7 @@ make configure use=address_sanitizer,undefined_behavior_sanitizer
 
 Not all combinations are valid — see the individual sections below for compatibility notes.
 
-For full source build instructions (including platform-specific prerequisites), see [Building ponyc from Source](../../contribute/developer-resources/building-ponyc-from-source.md).
+For full source build instructions (including platform-specific prerequisites), see [Building ponyc from Source](../../contribute/compiler/building-ponyc-from-source.md).
 
 ## Valgrind
 
@@ -140,7 +140,7 @@ make configure use=runtimestats,runtimestats_messages
 make build
 ```
 
-For details on the available tracking functions and how to call them from Pony code, see [Tracking Memory Usage at Runtime](track-memory-usage.md).
+For details on the available tracking functions and how to call them from Pony code, see [Tracking Memory Usage at Runtime](../debugging/track-memory-usage.md).
 
 ## Runtime Tracing
 
@@ -151,7 +151,7 @@ make configure use=runtime_tracing
 make build
 ```
 
-For details on tracing options and usage, see [Tracing Pony Programs](tracing.md).
+For details on tracing options and usage, see [Tracing Pony Programs](../debugging/tracing.md).
 
 ## Systematic Testing
 

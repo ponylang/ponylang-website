@@ -173,11 +173,13 @@ nav:
               - Pony LLDB Cheat Sheet: "use/debugging/pony-lldb-cheat-sheet.md"
               - Track Memory Usage: "use/debugging/track-memory-usage.md"
               - Trace Pony Programs: "use/debugging/tracing.md"
-              - Custom ponyc Builds: "use/debugging/custom-ponyc-builds.md"
           - Performance:
               - Overview: "use/performance.md"
               - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"
-              - Runtime Options: "use/performance/runtime-options.md"
+      - Working with the Compiler:
+          - Overview: "use/compiler.md"
+          - Runtime Options: "use/compiler/runtime-options.md"
+          - Custom ponyc Builds: "use/compiler/custom-ponyc-builds.md"
       - Ecosystem:
           - Packages: "use/packages.md"
       - Build and Release Tools: "use/build-and-release-tools.md"
@@ -193,6 +195,8 @@ nav:
           - Issue and PR Labels: "contribute/labels.md"
           - RFC Process: "contribute/rfcs.md"
           - Releases: "contribute/releases.md"
+      - Working with the Compiler:
+          - Building ponyc from Source: "contribute/compiler/building-ponyc-from-source.md"
       - Project Operations:
           - CI:
               - Overview: "contribute/ci.md"
@@ -206,7 +210,6 @@ nav:
       - Resources:
           - Contributor Zulip Channels: "contribute/zulip-channels.md"
           - Developer Resources:
-              - Building ponyc from Source: "contribute/developer-resources/building-ponyc-from-source.md"
               - Arm Development with RPI 4: "contribute/developer-resources/arm-development-with-rpi-4.md"
               - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
   - Community:
