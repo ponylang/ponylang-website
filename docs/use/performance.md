@@ -21,6 +21,12 @@ It covers a ton of topics. Some are related to how to design programs for speed.
 
 - [Pony Performance Cheat Sheet](performance/pony-performance-cheat-sheet.md)
 
+## Runtime Options
+
+Compiled Pony programs accept `--pony*` runtime flags for tuning scheduler threads, garbage collection, the cycle detector, and other runtime behavior. These flags are passed to the compiled binary at runtime, not to `ponyc`.
+
+- [Runtime Options](performance/runtime-options.md)
+
 ## Performance Testing
 
 Performance testing is very hard to get right. Most people do it poorly. That's just a fact. The environment you use to test is very important, we suggest you take a look at the documentation we've put together for [testing Pony runtime changes](/contribute/developer-resources/performance-testing-setup.md). It might give you some inspiration for doing better testing of your own programs.
