@@ -64,20 +64,13 @@ or,
 
 ### Building ponyc to track memory usage
 
-Tracking memory is a costly affair and is not enabled by default. Pony runtime needs to be built separately to track memory usage.
+Memory tracking is not enabled by default. You need to build ponyc from source with the `runtimestats` and `runtimestats_messages` options:
 
-This is a two step process
+```bash
+make configure use=runtimestats,runtimestats_messages
+make build
+```
 
-- Configuring Pony
+The resulting `ponyc` binary is in `build/release/`. Use it in place of your system `ponyc` to compile programs with memory tracking enabled.
 
-   We need to ensure that at the time of configure step, `-DPONY_USE_MEMTRACK=true -DPONY_USE_MEMTRACK_MESSAGES=true` are passed to the cmake at the configure step.
-
-    - For windows, this implies adding the `-DPONY_USE_MEMTRACK=true -DPONY_USE_MEMTRACK_MESSAGES=true` in the [configure](https://github.com/ponylang/ponyc/blob/make.ps1) section of make.ps1
-
-    - For Makefile based builds, passing appropriate arguments to the make [invocation](https://github.com/ponylang/ponyc/blob/Makefile)
-
-   There after, we run the [configure command as usual](../../contribute/developer-resources/building-ponyc-from-source.md)
-
-- Build
-
-  After the `configure` step we build pony from source as per the platform. We get `ponyc` enabled with tracking memory in the folder `build/release-memtrack_messages` folder.
+For full source build instructions, see [Custom ponyc Builds for Debugging](custom-ponyc-builds.md).
