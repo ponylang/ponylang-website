@@ -177,6 +177,7 @@ nav:
           - Performance:
               - Overview: "use/performance.md"
               - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"
+              - Runtime Options: "use/performance/runtime-options.md"
       - Ecosystem:
           - Packages: "use/packages.md"
       - Build and Release Tools: "use/build-and-release-tools.md"
