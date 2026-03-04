@@ -23,4 +23,4 @@ make build
 
 The resulting `ponyc` binary is in `build/release/`. Use it in place of your system `ponyc` to compile programs with tracing enabled.
 
-For full source build instructions, see [Custom ponyc Builds for Debugging](custom-ponyc-builds.md).
+For full source build instructions, see [Custom ponyc Builds for Debugging](../compiler/custom-ponyc-builds.md).

@@ -10,7 +10,7 @@ Run any compiled Pony program with `--ponyhelp` to see the full list of availabl
 
 Use N scheduler threads. Defaults to the number of physical cores (not hyperthreads) available. This can't be larger than the number of cores available.
 
-See the [thread count](pony-performance-cheat-sheet.md#ponythreads) and [thread pinning](pony-performance-cheat-sheet.md#pin-your-threads) sections of the Performance Cheat Sheet for guidance on tuning this value.
+See the [thread count](../performance/pony-performance-cheat-sheet.md#ponythreads) and [thread pinning](../performance/pony-performance-cheat-sheet.md#pin-your-threads) sections of the Performance Cheat Sheet for guidance on tuning this value.
 
 ### `--ponyminthreads`
 
@@ -38,7 +38,7 @@ Do not yield the CPU when no work is available.
 
 Defer garbage collection until an actor is using at least 2^N bytes. Defaults to 2^14 (16 KB).
 
-See the [garbage collector](pony-performance-cheat-sheet.md#garbage-collector) section of the Performance Cheat Sheet for more on GC tuning.
+See the [garbage collector](../performance/pony-performance-cheat-sheet.md#garbage-collector) section of the Performance Cheat Sheet for more on GC tuning.
 
 ### `--ponygcfactor`
 
@@ -54,11 +54,11 @@ Run cycle detection every N milliseconds. Defaults to 100 ms. Min 10 ms, max 100
 
 Do not send block messages to the cycle detector. Setting this to true disables the cycle detector entirely.
 
-See the [cycle detector](pony-performance-cheat-sheet.md#the-dead-actor-collector-ie-cycle-detector) section of the Performance Cheat Sheet for when and why you might want to disable the cycle detector.
+See the [cycle detector](../performance/pony-performance-cheat-sheet.md#the-dead-actor-collector-ie-cycle-detector) section of the Performance Cheat Sheet for when and why you might want to disable the cycle detector.
 
 ## CPU Pinning Options
 
-See the [thread pinning](pony-performance-cheat-sheet.md#pin-your-threads) section of the Performance Cheat Sheet for a detailed walkthrough of CPU pinning with `cset` and `numactl`.
+See the [thread pinning](../performance/pony-performance-cheat-sheet.md#pin-your-threads) section of the Performance Cheat Sheet for a detailed walkthrough of CPU pinning with `cset` and `numactl`.
 
 ### `--ponypin`
 

@@ -25,7 +25,7 @@ It covers a ton of topics. Some are related to how to design programs for speed.
 
 Compiled Pony programs accept `--pony*` runtime flags for tuning scheduler threads, garbage collection, the cycle detector, and other runtime behavior. These flags are passed to the compiled binary at runtime, not to `ponyc`.
 
-- [Runtime Options](performance/runtime-options.md)
+- [Runtime Options](compiler/runtime-options.md)
 
 ## Performance Testing
 

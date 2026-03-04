@@ -87,4 +87,4 @@ note, this will probably take about 3 hours. make sure you aren't logged out of 
 - `make build -mtune=native`
 - `make test`
 
-See [Building ponyc from Source](building-ponyc-from-source.md) for more information about building ponyc.
+See [Building ponyc from Source](../compiler/building-ponyc-from-source.md) for more information about building ponyc.
