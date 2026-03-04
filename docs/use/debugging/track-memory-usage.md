@@ -24,7 +24,7 @@ returns the total memory allocated by a scheduler thread.
 
 - `ponyint_actor_mem_size`
 
-returns the size of the given actor.given an actor, this function returns the size of the actor.
+returns the size of the given actor.
 
 - `ponyint_actor_alloc_size`
 
