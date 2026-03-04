@@ -173,6 +173,7 @@ nav:
               - Pony LLDB Cheat Sheet: "use/debugging/pony-lldb-cheat-sheet.md"
               - Track Memory Usage: "use/debugging/track-memory-usage.md"
               - Trace Pony Programs: "use/debugging/tracing.md"
+              - Custom ponyc Builds: "use/debugging/custom-ponyc-builds.md"
           - Performance:
               - Overview: "use/performance.md"
               - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"

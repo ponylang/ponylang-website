@@ -21,3 +21,7 @@ Interested in tracking Pony runtime memory consumption? Checkout ["Making Pony t
 ## Tracing Pony Programs
 
 Interested in tracing the execution of a Pony program? Checkout ["Tracing Pony Programs"](debugging/tracing.md).
+
+## Custom ponyc Builds
+
+ponyc can be built from source with instrumentation options for debugging: Valgrind annotations, sanitizers (address, thread, undefined behavior), DTrace/SystemTap probes, and systematic testing for concurrency bugs. See [Custom ponyc Builds for Debugging](debugging/custom-ponyc-builds.md).
