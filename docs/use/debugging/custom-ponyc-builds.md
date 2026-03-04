@@ -124,6 +124,35 @@ The probes are defined under the `pony` provider and cover:
 
 For the full list of probes with parameter types and descriptions, see [`src/common/dtrace_probes.d`](https://github.com/ponylang/ponyc/blob/main/src/common/dtrace_probes.d) in the ponyc source.
 
+## Runtime Statistics
+
+Runtime statistics tracking instruments the Pony runtime to report memory usage per actor and per scheduler thread. This is useful for understanding where memory is going in a running program.
+
+Two options are available:
+
+- `runtimestats` — enables basic runtime statistics
+- `runtimestats_messages` — adds per-message tracking on top of `runtimestats`
+
+For most debugging scenarios, enable both:
+
+```bash
+make configure use=runtimestats,runtimestats_messages
+make build
+```
+
+For details on the available tracking functions and how to call them from Pony code, see [Tracking Memory Usage at Runtime](track-memory-usage.md).
+
+## Runtime Tracing
+
+Runtime tracing records events from the Pony scheduler, actor lifecycle, and message passing. Events can be written to a trace file in the background, or stored in in-memory circular buffers that dump to stderr on abnormal termination (SIGILL, SIGSEGV, SIGBUS). Trace files use Chromium JSON format and can be viewed with [Perfetto](https://perfetto.dev/).
+
+```bash
+make configure use=runtime_tracing
+make build
+```
+
+For details on tracing options and usage, see [Tracing Pony Programs](tracing.md).
+
 ## Systematic Testing
 
 Systematic testing replaces the Pony scheduler with a deterministic, single-threaded scheduler that explores different actor interleaving orders. This is useful for reproducing concurrency bugs that are otherwise non-deterministic.

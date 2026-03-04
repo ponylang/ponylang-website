@@ -14,20 +14,13 @@ Once a trace has been captured, it can be viewed with the [perfetto trace viewer
 
 ## Building ponyc to enable tracing
 
-Tracing is a costly affair and is not enabled by default. Pony runtime needs to be built separately to enable tracing.
+Tracing is not enabled by default. You need to build ponyc from source with the `runtime_tracing` option:
 
-This is a two step process:
+```bash
+make configure use=runtime_tracing
+make build
+```
 
-- Configuring Pony
+The resulting `ponyc` binary is in `build/release/`. Use it in place of your system `ponyc` to compile programs with tracing enabled.
 
-   We need to ensure that at the time of configure step, `-DUSE_RUNTIME_TRACING=true` are passed to the cmake at the configure step.
-
-    - For windows, this implies adding the `-DUSE_RUNTIME_TRACING=true` in the [configure](https://github.com/ponylang/ponyc/blob/make.ps1) section of make.ps1
-
-    - For Makefile based builds, passing appropriate arguments to the make [invocation](https://github.com/ponylang/ponyc/blob/Makefile)
-
-   There after, we run the [configure command as usual](../../contribute/developer-resources/building-ponyc-from-source.md)
-
-- Build
-
-  After the `configure` step we build pony from source as per the platform. We get `ponyc` enabled with tracing in the folder `build/release-runtime_tracing` folder.
+For full source build instructions, see [Custom ponyc Builds for Debugging](custom-ponyc-builds.md).
