@@ -36,7 +36,7 @@ make configure use=address_sanitizer,undefined_behavior_sanitizer
 
 Not all combinations are valid — see the individual sections below for compatibility notes.
 
-For full source build instructions (including platform-specific prerequisites), see the [ponyc BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
+For full source build instructions (including platform-specific prerequisites), see [Building ponyc from Source](../../contribute/developer-resources/building-ponyc-from-source.md).
 
 ## Valgrind
 

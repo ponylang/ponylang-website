@@ -205,6 +205,7 @@ nav:
       - Resources:
           - Contributor Zulip Channels: "contribute/zulip-channels.md"
           - Developer Resources:
+              - Building ponyc from Source: "contribute/developer-resources/building-ponyc-from-source.md"
               - Arm Development with RPI 4: "contribute/developer-resources/arm-development-with-rpi-4.md"
               - Performance Testing Setup: "contribute/developer-resources/performance-testing-setup.md"
   - Community:
