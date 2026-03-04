@@ -72,7 +72,22 @@ Configuration details are coming. If you use Neovim with pony-lsp, consider cont
 
 ### Visual Studio Code
 
-Configuration details are coming. If you use Visual Studio Code with pony-lsp, consider contributing to this section.
+To get `pony-lsp` working with Visual Studio Code, first install the [Pony VS Code extension](https://github.com/ponylang/vscode-extension). Ensure `pony-lsp` is on your `PATH` — the extension will show an error if it isn't found.
+
+Open your VS Code settings to configure the extension (all options are optional):
+
+```json
+{
+  "pony.lsp.executable": "/usr/local/bin/pony-lsp",
+  "pony.trace.server": "off",
+  "pony-lsp.defines": ["FOO", "BAR"],
+  "pony-lsp.ponypath": ["/path/to/pony/package1", "/path/to/pony/package2"]
+}
+```
+
+`pony.lsp.executable` sets the path to `pony-lsp` if it isn't on your `PATH`. `pony.trace.server` traces communication between VS Code and the language server (`"off"`, `"messages"`, or `"verbose"`). `pony-lsp.defines` and `pony-lsp.ponypath` are passed directly to `pony-lsp`.
+
+For more details, see the [Pony VS Code extension project documentation](https://github.com/ponylang/vscode-extension).
 
 ### Zed
 
@@ -105,4 +120,4 @@ Next, open your Zed settings to configure `pony-lsp` (all options are optional):
 }
 ```
 
-For more detail, see the [Pony Zed extension project documentation](https://github.com/orien/pony-zed).
+For more details, see the [Pony Zed extension project documentation](https://github.com/orien/pony-zed).
