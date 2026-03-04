@@ -76,7 +76,7 @@ This is a two step process
 
     - For Makefile based builds, passing appropriate arguments to the make [invocation](https://github.com/ponylang/ponyc/blob/Makefile)
 
-   There after, we run the [configure command as usual](https://github.com/ponylang/ponyc/blob/main/BUILD.md)
+   There after, we run the [configure command as usual](../../contribute/developer-resources/building-ponyc-from-source.md)
 
 - Build
 
