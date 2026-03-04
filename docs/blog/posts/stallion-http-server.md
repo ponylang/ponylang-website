@@ -10,7 +10,7 @@ draft: false
 
 Last week I wrote about [lori](pony-networking-take-two.md) and the architecture behind Pony's new networking stack. The short version: your actor is the connection, the protocol machinery is a class you own, no hidden internal actors between you and the socket. If you haven't read that post, go do that first. Everything here builds on it.
 
-[Stallion](https://github.com/ponylang/stallion) is an HTTP/1.1 server built on lori. Red has been running benchmarks comparing it against the old `http_server` package. Here's what he found, using 50 concurrent connections over 1 minute:
+[Stallion](https://github.com/ponylang/stallion) is an HTTP/1.1 server built on lori. Red has been running benchmarks comparing it against the old `http_server` package. Here's what he found, using 50 concurrent connections:
 
 **16-byte response body:**
 
@@ -34,9 +34,9 @@ Last week I wrote about [lori](pony-networking-take-two.md) and the architecture
 | 99% Latency | 3.07ms      | 2.69ms   |
 | Transfer/s  | 15.27GB/s   | 18.33GB/s|
 
-A few caveats. These numbers only mean something relative to each other. The server and the wrk client were running on the same machine over localhost with keep-alive enabled, so don't go comparing them to your favorite web framework's benchmarks. And this is actually the best-case matchup for the old stack. The benchmark is dead simple. Turn off keep-alive and most of the difference disappears because socket open/close overhead dominates everything else. Stallion's architectural advantage starts to show in more complicated applications where the old stack's extra actors and message hops actually cost you something.
+A few caveats. These numbers only mean something relative to each other. The server and the wrk client were running on the same machine over localhost with keep-alive enabled, so don't go comparing them to your favorite web framework's benchmarks. And this is actually the best-case matchup for the old stack. The benchmark is dead simple. Turn off keep-alive and most of the difference disappears because socket open/close overhead dominates everything else. <!-- more -->
 
-<!-- more -->
+Stallion's architectural advantage starts to show in more complicated applications where the old stack's extra actors and message hops actually cost you something.
 
 Those numbers aren't the result of optimization heroics. They're what falls out of the architecture. If you want to dig into why design matters more than optimization, we wrote about that in the [Performance Cheat Sheet](../../use/performance/pony-performance-cheat-sheet.md#design-for-performance).
 
