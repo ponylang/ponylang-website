@@ -115,7 +115,7 @@ I've gotten a number of close friends excited about Claude Code from watching my
 
 In the last couple weeks, I've accomplished more than I did in all of 2025 towards Pony project goals. I'm knocking off things I thought "I should do X" back in 2017. This is a boon to me. I never much cared for the particulars of coding. I care about module boundaries and APIs and writing code that is easy to replace. But the particulars that lead some people to argue about formatting and such? Never cared. For me this is a great tool.
 
-I'm not worried about being "replace by AI". I'm dreaming of all of the things I have wanted to do and might finally have a chance to do. There's a whole class of problems I haven't tried to solve yet, and I suspect Claude will fail miserably with some. I plan to iterate on trying to make it a more useful tool for those that I can. And I plan on remembering I know when to give up, start the problem myself and take the wheel.
+I'm not worried about being "replaced by AI". I'm dreaming of all of the things I have wanted to do and might finally have a chance to do. There's a whole class of problems I haven't tried to solve yet, and I suspect Claude will fail miserably with some. I plan to iterate on trying to make it a more useful tool for those that I can. And I plan on remembering I know when to give up, start the problem myself and take the wheel.
 
 Now, before I get to a giant dump of stuff pulled from my CLAUDE.md as a final emphasis for what I've been saying, just in case you missed it earlier, here's that scene from Married With Children again. It's incredibly apropos to me and feels like a good place to end this on:
 
