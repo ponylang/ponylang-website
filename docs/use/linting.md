@@ -24,6 +24,16 @@ pony-lint --config .pony-lint.json
 pony-lint --version
 ```
 
+## Using with Corral
+
+For projects that use [corral](https://github.com/ponylang/corral) for dependency management, run pony-lint through `corral run` so that dependencies are on the package search path:
+
+```bash
+corral run -- pony-lint
+
+corral run -- pony-lint src/ test/
+```
+
 ## Rules
 
 | Rule ID | Default | Description |
