@@ -13,6 +13,16 @@ Your editor launches the `pony-lsp` binary as a subprocess. See the [editor conf
 | Go To Definition | Jump to the definition of a symbol |
 | Document Symbols | List of symbols in the current file |
 
+## Workspace Detection
+
+pony-lsp needs to know the root of your project so it can resolve packages correctly. It determines this by scanning parent directories for a workspace root marker. The following are recognised as markers:
+
+- `corral.json` (Pony's dependency manager)
+- `bundle.json`
+- `.git`, `.hg`, `.bzr`, or `.svn` directories
+
+Most Pony projects will have at least one of these already. If yours doesn't, create an empty `corral.json` in the project root or initialise a Git repository there.
+
 ## Settings
 
 pony-lsp supports settings via [`workspace/configuration`](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#workspace_configuration) request and [`workspace/didChangeConfiguration`](https://microsoft.github.io/language-server-protocol/specifications/lsp/3.17/specification/#workspace_didChangeConfiguration) notification.
