@@ -97,9 +97,11 @@ The library is organized into three sub-packages. `semver/version` handles parsi
 
 ### [templates](https://github.com/ponylang/templates)
 
-A template engine for Pony.
+A template engine for Pony with optional HTML-aware contextual auto-escaping.
 
-Templates uses `{{ ... }}` delimiters and supports variable substitution, dot-notation property access, `for` loops over sequences, `if` and `ifnotempty` conditionals, and single-argument function calls. Templates are compiled into an immutable `val` representation that can be shared across actors and rendered repeatedly with different values. Custom functions (e.g., for escaping or formatting) are registered at parse time via `TemplateContext`. The engine is intentionally minimal — there is no template inheritance, includes, or `else` clauses.
+Templates uses `{{ ... }}` delimiters and supports variable substitution, dot-notation property access, `for` loops over sequences, conditionals (`if`, `ifnot`, `else`, `elseif`), filter pipes (`{{ name | upper | trim }}`), includes, template inheritance, comments, raw blocks, and whitespace trimming. Built-in filters cover common operations — `upper`, `lower`, `trim`, `capitalize`, `title`, `default("fallback")`, and `replace("old", "new")` — and custom filters can be registered via `TemplateContext`. Templates are compiled into an immutable `val` representation that can be shared across actors and rendered repeatedly with different values.
+
+`HtmlTemplate` adds automatic context-aware escaping — text content gets entity escaping, URL attributes get scheme filtering and percent-encoding, and script contexts get JS string escaping. Trusted content can bypass escaping via `TemplateValue.unescaped`. Template inheritance lets child templates extend a base with `{{ extends "base" }}` and override named `{{ block }}` sections, with multi-level chains supported. Partials are registered and resolved through `TemplateContext`, which also handles circular dependency detection at parse time.
 
 ### [valbytes](https://github.com/ponylang/valbytes)
 
