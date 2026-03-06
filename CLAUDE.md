@@ -1,5 +1,9 @@
 # Ponylang Website
 
+## llms.txt
+
+The `llmstxt` MkDocs plugin (configured in `mkdocs.yml`) auto-generates `llms.txt` and `llms-full.txt` during build. When making changes to docs content or nav structure, verify that the llms.txt output is updated accordingly.
+
 ## Internal Links
 
 When linking to other pages within this site, use relative markdown paths with
