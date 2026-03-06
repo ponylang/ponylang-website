@@ -4,6 +4,8 @@
 
 The `llmstxt` MkDocs plugin (configured in `mkdocs.yml`) auto-generates `llms.txt` and `llms-full.txt` during build. When making changes to docs content or nav structure, verify that the llms.txt output is updated accordingly.
 
+The Contribute, Community, and Blog sections are intentionally excluded from llmstxt. They're operational and community content that would drown out the language-focused material (Learn, Use, FAQ, Discover) that LLMs actually need.
+
 ## Internal Links
 
 When linking to other pages within this site, use relative markdown paths with
