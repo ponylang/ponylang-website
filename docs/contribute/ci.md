@@ -16,5 +16,6 @@ All our CI for Linux is done in Docker images. See [CI image organization](ci/ci
 
 - [CI Image Organization](ci/ci-image-organization.md)
 - [GitHub Actions and Security](ci/gh-actions-security.md)
+- [ponyc CI Tiers](ci/ponyc-ci-tiers.md)
 - [Scheduled Jobs](ci/scheduled-jobs.md)
 - [Triggered Jobs](ci/triggered-jobs.md)

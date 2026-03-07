@@ -2,7 +2,7 @@
 
 Across a variety of repositories, we have a number of scheduled CI jobs. This document is an attempt to give a broad overview of what exists and when they run. Please note, this list is not guaranteed to be up-to-date and you should check various repos for final confirmation.
 
-The scheduled jobs list was last updated February 28, 2026.
+The scheduled jobs list was last updated March 7, 2026.
 
 <!-- markdownlint-disable -->
 
@@ -11,6 +11,7 @@ The scheduled jobs list was last updated February 28, 2026.
 | changelog-tool: nightly build | 00:00 | [ponylang/changelog-tool](https://github.com/ponylang/changelog-tool) |
 | corral: nightly build | 00:00 | [ponylang/corral](https://github.com/ponylang/corral) |
 | ponyc: nightly build | 00:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: Tier 2 CI | 01:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyup: nightly build | 00:00 | [ponylang/ponyup](https://github.com/ponylang/ponyup) |
 | rfc-tool: nightly build | 00:00 | [ponylang/rfc-tool](https://github.com/ponylang/rfc-tool) |
 | ponylang-website: verify site builds | 02:00 | [ponylang/ponylang-website](https://github.com/ponylang/ponylang-website) |

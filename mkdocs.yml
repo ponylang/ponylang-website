@@ -206,6 +206,7 @@ nav:
               - Overview: "contribute/ci.md"
               - CI Image Organization: "contribute/ci/ci-image-organization.md"
               - GitHub Actions and Security: "contribute/ci/gh-actions-security.md"
+              - ponyc CI Tiers: "contribute/ci/ponyc-ci-tiers.md"
               - Scheduled Jobs: "contribute/ci/scheduled-jobs.md"
               - Triggered Jobs: "contribute/ci/triggered-jobs.md"
           - Infrastructure: "contribute/infrastructure.md"
