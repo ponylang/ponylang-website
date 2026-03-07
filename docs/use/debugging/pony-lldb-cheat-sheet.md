@@ -188,7 +188,7 @@ You can adjust the type (`long`) to appropriately print the types that correspon
 ### Method Name Mangling
 
 !!! warning "Future breakage possible!"
-    While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static.
+    While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static. The information below is accurate as of March 11, 2026.
 
 Method names get mangled by the compiler. The general format for the mangling is:
 
