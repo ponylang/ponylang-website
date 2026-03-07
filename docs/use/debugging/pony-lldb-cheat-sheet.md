@@ -212,7 +212,9 @@ In the above:
 : the name of the method
 
 `mangling`
-: a mangling string where each character indicates the type of each method parameter and the method’s return type according to the following conversion:
+: a mangling string encoding the types of each method parameter and the return type. For functions, each parameter contributes a single type character. For behaviors and constructors, each parameter is preceded by a trace-kind character indicating how the ORCA garbage collector traces it. The return type always contributes a single type character with no trace-kind prefix.
+
+**Type characters:**
 
 Type | Mangling
 ---|---
@@ -234,6 +236,18 @@ Type | Mangling
 `USize` | Z
 `F32` | f
 `F64` | d
+
+**Trace-kind characters (behaviors and constructors only):**
+
+Trace Kind | Character | Applies to
+---|---|---
+mutable | m | iso, trn, ref, box parameters
+immutable | i | val parameters
+opaque | t | tag parameters, actor parameters
+primitive | p | primitive parameters
+compound/unknown | x | union, intersection, tuple parameters
+
+For example, a behavior `be foo(s: String iso)` on type `Bar` would mangle to `Bar_tag_foo_moo` — the `m` is the trace-kind (mutable, for `iso`) and the `o` is the type (object). A function `fun ref bar(s: String iso): None` on the same type would mangle to `Bar_ref_bar_oo` — no trace-kind prefix, just the type characters for the parameter and return type.
 
 These rules can be used to determine the name of function in order to specify that you would like to place a breakpoint on it. You can also type `b <characters><tab>` to see a tab-complete list of all the available functions that start with `<characters>`. To set a breakpoint on a function:
 
