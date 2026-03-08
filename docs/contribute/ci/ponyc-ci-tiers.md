@@ -8,7 +8,6 @@ Tier 1 jobs run on every non-draft PR. These are the primary platforms that most
 
 - x86-64 Linux (glibc and musl)
 - arm64 Linux (glibc and musl)
-- x86-64 macOS
 - arm64 macOS
 - x86-64 Windows
 - arm64 Windows
@@ -19,6 +18,7 @@ Tier 1 jobs are defined in the [pr-ponyc](https://github.com/ponylang/ponyc/blob
 
 Tier 2 jobs are expensive and rarely catch issues that Tier 1 misses. They run on a daily schedule (1 AM UTC) rather than on every PR, gated on whether there were commits in the last 24 hours.
 
+- x86-64 macOS
 - `riscv64` Linux (cross-compiled)
 - arm Linux (cross-compiled)
 - armhf Linux (cross-compiled)
