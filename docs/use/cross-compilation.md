@@ -18,7 +18,7 @@ If you do pass `--linker`, ponyc falls back to the legacy path and invokes that 
 
 Cross-compiling a Pony program requires three things:
 
-- **A ponyc with embedded LLD.** Any ponyc built from source since the LLD integration or installed via ponyup from a recent release has this.
+- **A ponyc with embedded LLD.** Any ponyc built from source since the LLD integration or installed via ponyup from a nightly release as of March 8, 2026 has this.
 
 - **A cross-compiled Pony runtime.** The Pony runtime library (`libponyrt`) and CRT objects must be compiled for the target architecture. These are not yet included in ponyc distributions, so you currently need to build them from the ponyc source tree. We plan to include pre-built cross-compiled runtimes in future ponyc releases ([ponylang/ponyc#4968](https://github.com/ponylang/ponyc/issues/4968)) to eliminate this step.
 
