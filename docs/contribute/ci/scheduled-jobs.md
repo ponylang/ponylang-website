@@ -13,6 +13,7 @@ The scheduled jobs list was last updated March 7, 2026.
 | ponyc: nightly build | 00:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: Tier 2 CI | 01:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: Tier 3 CI | 03:00 Sat | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: Weekly Checks | 03:00 Sun | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyup: nightly build | 00:00 | [ponylang/ponyup](https://github.com/ponylang/ponyup) |
 | rfc-tool: nightly build | 00:00 | [ponylang/rfc-tool](https://github.com/ponylang/rfc-tool) |
 | ponylang-website: verify site builds | 02:00 | [ponylang/ponylang-website](https://github.com/ponylang/ponylang-website) |
