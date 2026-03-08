@@ -69,7 +69,7 @@ qemu-riscv64 -L /usr/riscv64-linux-gnu/lib/ ./hello
 
 You should see:
 
-```
+```text
 Hello from RISC-V!
 ```
 

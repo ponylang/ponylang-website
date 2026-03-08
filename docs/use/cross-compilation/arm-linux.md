@@ -64,7 +64,7 @@ qemu-arm -cpu cortex-a9 -L /usr/arm-linux-gnueabi/ ./hello
 
 You should see:
 
-```
+```text
 Hello from ARM!
 ```
 

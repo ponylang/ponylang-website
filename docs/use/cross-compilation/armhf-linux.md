@@ -66,7 +66,7 @@ qemu-arm -cpu cortex-a9 -L /usr/arm-linux-gnueabihf/ ./hello
 
 You should see:
 
-```
+```text
 Hello from ARM hard-float!
 ```
 
