@@ -184,6 +184,11 @@ nav:
           - Overview: "use/compiler.md"
           - Runtime Options: "use/compiler/runtime-options.md"
           - Custom ponyc Builds: "use/compiler/custom-ponyc-builds.md"
+      - Cross-Compilation:
+          - Overview: "use/cross-compilation.md"
+          - RISC-V 64-bit Linux: "use/cross-compilation/riscv64-linux.md"
+          - ARM Linux (Soft-Float): "use/cross-compilation/arm-linux.md"
+          - ARM Linux (Hard-Float): "use/cross-compilation/armhf-linux.md"
       - Ecosystem:
           - Packages: "use/packages.md"
       - Build and Release Tools: "use/build-and-release-tools.md"
