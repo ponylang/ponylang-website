@@ -2,15 +2,14 @@
 
 Cross-compilation is building a program on one platform that runs on a different one. You compile on your x86-64 Linux workstation, and the resulting binary runs on a RISC-V board or an ARM device. The compiler does all the work on your machine; the target hardware only needs to run the result.
 
-ponyc has built-in support for cross-compiling to Linux targets. The compiler embeds the [LLD](https://lld.llvm.org/) linker, so it can produce binaries for a different architecture without needing an external cross-linker installed. You still need a few things from the target platform (its C library and runtime objects), but ponyc handles the linking itself.
+ponyc has built-in support for cross-compiling to Linux targets. The compiler embeds the [LLD](https://lld.llvm.org/) linker, which it uses for all Linux linking — both native and cross-compilation. You don't need an external cross-linker installed. For cross-compilation, you still need a few things from the target platform (its C library and runtime objects), but ponyc handles the linking itself.
 
 ## How It Works
 
-When you tell ponyc to compile for a different Linux target, it detects the cross-compilation scenario automatically and uses its embedded LLD linker. Three conditions trigger this:
+ponyc uses its embedded LLD linker for all Linux targets. Two conditions trigger this:
 
 1. No `--linker` flag is set.
 2. The target is Linux.
-3. The target triple differs from the host.
 
 If you do pass `--linker`, ponyc falls back to the legacy path and invokes that linker externally. This serves as an escape hatch if embedded LLD doesn't work for your situation.
 
