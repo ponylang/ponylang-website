@@ -127,9 +127,9 @@ Replace `build_release` with `build_debug` if you're using a debug configuration
 
 ## Platform-Specific Notes
 
-### FreeBSD and DragonFly BSD
+### FreeBSD, OpenBSD, and DragonFly BSD
 
-Use `gmake` instead of `make` for all build commands.
+Use `gmake` instead of `make` for all build commands. On OpenBSD, use `doas` instead of `sudo` for installation.
 
 ### 32-bit Raspbian
 
