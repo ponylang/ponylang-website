@@ -2,6 +2,54 @@
 
 Each rule is listed with its default status, a description of what it checks, and examples of incorrect and correct code.
 
+## `safety/exhaustive-match`
+
+**Default:** on
+
+Flags `match` expressions where the compiler has determined all cases are covered but the `\exhaustive\` annotation is missing. Without `\exhaustive\`, adding a new variant to a union type compiles silently — the compiler injects `else None` for the missing case instead of raising an error. Adding the annotation makes the compiler error when a case is missing.
+
+This rule requires type information, so pony-lint compiles the source through `PassExpr` before checking.
+
+**Incorrect:**
+
+```pony
+type Color is (Red | Green | Blue)
+
+primitive Red
+primitive Green
+primitive Blue
+
+class Foo
+  fun name(color: Color): String =>
+    match color
+    | Red => "red"
+    | Green => "green"
+    | Blue => "blue"
+    end
+```
+
+All cases are handled, but without `\exhaustive\`, adding a `Yellow` variant to `Color` would compile silently with an implicit `else None`.
+
+**Correct:**
+
+```pony
+type Color is (Red | Green | Blue)
+
+primitive Red
+primitive Green
+primitive Blue
+
+class Foo
+  fun name(color: Color): String =>
+    match \exhaustive\ color
+    | Red => "red"
+    | Green => "green"
+    | Blue => "blue"
+    end
+```
+
+With `\exhaustive\`, adding a `Yellow` variant to `Color` without adding a corresponding case produces a compiler error.
+
 ## `style/acronym-casing`
 
 **Default:** on

@@ -38,6 +38,7 @@ corral run -- pony-lint src/ test/
 
 | Rule ID | Default | Description |
 |---------|---------|-------------|
+| `safety/exhaustive-match` | on | Exhaustive `match` should use `\exhaustive\` annotation |
 | `style/acronym-casing` | on | Acronyms in type names should be fully uppercased |
 | `style/array-literal-format` | on | Multiline array literal formatting (bracket placement and spacing) |
 | `style/assignment-indent` | on | Multiline assignment RHS must start on the line after `=` |
