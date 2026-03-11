@@ -131,6 +131,8 @@ Replace `build_release` with `build_debug` if you're using a debug configuration
 
 Use `gmake` instead of `make` for all build commands. On OpenBSD, use `doas` instead of `sudo` for installation.
 
+On DragonFly BSD, the base compiler (GCC 8.3) cannot build the vendored LLVM. Install `gcc13` from packages and pass `CC=/usr/local/bin/gcc13 CXX=/usr/local/bin/g++13` to all `gmake` commands. See ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md#dragonfly) for full instructions.
+
 ### 32-bit Raspbian
 
 Only GCC works on 32-bit Raspbian — clang is not supported. You also need to override the `tune` option:
