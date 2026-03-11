@@ -32,6 +32,7 @@ Tier 3 jobs test platforms where ponyc support is maintained on a best-effort ba
 - x86-64 FreeBSD 14.3
 - x86-64 FreeBSD 15.0
 - x86-64 OpenBSD 7.8
+- x86-64 DragonFly BSD 6.4.2
 
 Tier 3 jobs are defined in the [ponyc-tier3](https://github.com/ponylang/ponyc/blob/main/.github/workflows/ponyc-tier3.yml) workflow. They can also be triggered manually via workflow dispatch with a `ref` input to test a specific branch, tag, or SHA on demand.
 
