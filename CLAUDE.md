@@ -10,9 +10,7 @@ The Contribute, Community, and Blog sections are intentionally excluded from llm
 
 When linking to other pages within this site, use relative markdown paths with
 `.md` extensions (e.g., `../use/debugging/pony-lldb-cheat-sheet.md`), not
-URL-style paths (e.g., `/use/debugging/pony-lldb-cheat-sheet/`). The
-`htmlproofer` plugin validates relative markdown paths; URL-style paths fail
-validation.
+URL-style paths (e.g., `/use/debugging/pony-lldb-cheat-sheet/`).
 
 ## Last Week in Pony
 

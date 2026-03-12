@@ -59,25 +59,6 @@ plugins:
       categories_url_format: "categories/{slug}"
   - search
   - ezlinks
-  - htmlproofer:
-      enabled: !ENV [ENABLED_HTMLPROOFER, True]
-      skip_downloads: True
-      validate_external_urls: !ENV [VALIDATE_EXTERNAL_URLS, True]
-      raise_error_after_finish: True
-      raise_error_excludes:
-        # These regularly give us 403 when we try to check, but they are fine.
-        # At least at the time we are writing this comment.
-        403: ["https://www.reddit.com/*", "https://vimeo.com/*", "https://www.raspberrypi.org/*", "https://linux.die.net/*", "https://ponylang101.splashthat.com/*", "https://www.researchgate.net/publication/221496370_Traits_Composable_Units_of_Behaviour", "https://www.gophercon-russia.ru/en", "https://www.redbubble.com/people/jdhorwitz/works/*", "https://adexchanger.com/platforms/pubmatic-slashes-infrastructure-costs-with-wallaroo-labs/" ]
-        404: ["https://github.com/organizations/ponylang/settings/repository-defaults", "https://twitter.com/bpdp/status/905653663913218050", "https://twitter.com/matthias_wahl/status/1002638819177435138"]
-        429: ["*"]
-        504: ["https://arxiv.org/*", "https://opensource.com/*", "https://vimeo.com/*", "https://www.gnuradio.org/*"]
-      ignore_urls:
-        - https://sync-recordings.ponylang.io/*
-        - https://news.ycombinator.com/*
-        - https://stackoverflow.com/*
-        - https://www.gnuradio.org/*
-        - https://medium.com/*
-
   - rss:
       match_path: blog/posts/.*
       date_from_meta:

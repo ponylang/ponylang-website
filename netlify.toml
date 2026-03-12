@@ -12,4 +12,3 @@ ID = "Your_Site_ID"
 
 [build.environment]
   PYTHON_VERSION = "3.12"
-  ENABLED_HTMLPROOFER="false"
