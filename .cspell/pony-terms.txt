@@ -114,6 +114,7 @@ HFPUG
 Horwitz
 Horwitz's
 Hovsäter
+htmlproofer
 httprouter
 Hydraconf
 hyperthreaded
