@@ -71,12 +71,6 @@ The client is built on [lori](https://github.com/ponylang/lori) and supports str
 
 ## Data Formats and Parsing
 
-### [json](https://github.com/ponylang/json)
-
-A JSON package for Pony.
-
-The package provides `JsonDoc` for parsing and serializing JSON, with `JsonObject`, `JsonArray`, and the `JsonType` union covering all JSON value types. JSON integers (no decimal point) become `I64`; numbers with a fractional part or exponent become `F64`. Building JSON is done by mutating `JsonObject.data` and `JsonArray.data` directly, then calling `string()` to serialize. A `JsonExtractor` class offers chainable navigation for drilling into parsed structures — convenient for reading, though not recommended in hot paths. To send parsed JSON between actors, wrap the parse call in a `recover` block to produce a `val` or `iso` reference.
-
 ### [peg](https://github.com/ponylang/peg)
 
 A parsing expression grammar package for Pony.

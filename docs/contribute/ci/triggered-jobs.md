@@ -92,7 +92,6 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 - [hobby: breakage-against-ponyc-latest](https://github.com/ponylang/hobby/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [http: breakage-against-linux-ponyc-latest](https://github.com/ponylang/http/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [http_server: breakage-against-ponyc-latest](https://github.com/ponylang/http_server/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [json: breakage-against-ponyc-latest](https://github.com/ponylang/json/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [json-ng: breakage-against-ponyc-latest](https://github.com/ponylang/json-ng/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [lori: breakage-against-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [mare: breakage-against-ponyc-latest](https://github.com/ponylang/mare/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
