@@ -228,6 +228,7 @@ ponygame
 ponyhub
 Ponyland
 ponylang
+pyrois
 ponytest
 ponyup
 Ponyup's
@@ -264,6 +265,7 @@ Sandro
 Sandro's
 Schuppenpferd
 seantallen
+SEGV
 segfaulting
 Sendence
 Sendence's
