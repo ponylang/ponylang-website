@@ -31,6 +31,12 @@ Key features:
 - Connection limits — cap the number of concurrent connections a listener will accept
 - Backpressure notifications — `_on_throttled` / `_on_unthrottled` callbacks let the application respond to socket pressure
 
+### [livery](https://github.com/ponylang/livery)
+
+Livery is a server-side library for building interactive LiveView UIs over WebSocket in Pony. You implement the `LiveView` trait — `mount` initializes state, `handle_event` responds to client interactions, `handle_info` receives server-push messages, and `render` produces HTML from current assigns. The JavaScript client connects over WebSocket, patches the DOM with [morphdom](https://github.com/patrick-steele-iber/morphdom) on each render, and delegates UI events back to the server. No client-side application code is needed beyond including the script.
+
+Livery supports stateful `LiveComponent` instances for composing UIs from independent pieces, each with its own assigns, lifecycle, and event handling. `PubSub` enables topic-based server push across connections. Split rendering sends static template parts once and only changed dynamic values on subsequent renders, minimizing wire traffic for large templates. `PageRenderer` renders a view to HTML without a WebSocket connection for server-rendered first paint, eliminating the empty-page flash on initial load. The library is built on [mare](https://github.com/ponylang/mare) for WebSocket transport and [templates](https://github.com/ponylang/templates) for HTML rendering with contextual auto-escaping.
+
 ### [mare](https://github.com/ponylang/mare)
 
 Mare is a WebSocket server library for Pony, built on [lori](https://github.com/ponylang/lori). It implements RFC 6455 and provides a callback-driven API for handling WebSocket connections. You write an actor that implements `WebSocketServerActor` and responds to connection events — `on_open`, `on_text_message`, `on_binary_message`, and `on_closed` — and mare handles the protocol framing, upgrade handshake, and connection lifecycle. Configuration is explicit: bind address, port, and SSL are set through `WebSocketConfig`.
