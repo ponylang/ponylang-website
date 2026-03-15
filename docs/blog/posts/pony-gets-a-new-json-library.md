@@ -4,7 +4,7 @@ title: "Pony Gets a New JSON Library"
 authors:
   - seantallen
 categories:
-  - Development
+  - Libraries
 draft: false
 ---
 

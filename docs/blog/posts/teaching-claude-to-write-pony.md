@@ -4,7 +4,7 @@ title: "Teaching Claude to Write Pony"
 authors:
   - seantallen
 categories:
-  - Development
+  - Engineering
 draft: false
 ---
 

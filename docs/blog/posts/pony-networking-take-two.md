@@ -4,7 +4,7 @@ title: "Pony Networking, Take Two"
 authors:
   - seantallen
 categories:
-  - Development
+  - Libraries
 draft: false
 ---
 

@@ -4,7 +4,7 @@ title: "Stallion: An HTTP Server Built Different"
 authors:
   - seantallen
 categories:
-  - Development
+  - Libraries
 draft: false
 ---
 
