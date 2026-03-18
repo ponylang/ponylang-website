@@ -77,6 +77,14 @@ The client is built on [lori](https://github.com/ponylang/lori) and supports str
 
 ## Data Formats and Parsing
 
+### [multipart_mime](https://github.com/ponylang/multipart_mime)
+
+A streaming multipart MIME parser for Pony, implementing RFC 2046.
+
+The parser delivers data through a callback interface (`MultipartNotify`) as it encounters boundaries, headers, and body chunks — there is no buffering of entire parts unless you opt into it. For simple cases, `CollectParts` buffers all parts in memory and delivers them as an array. For large uploads or streaming use cases, implement `MultipartNotify` directly to handle body data incrementally. `FormData` provides helpers for extracting `Content-Disposition` field names and filenames from part headers.
+
+The parser enforces configurable size limits on part headers, part bodies, preamble length, and total part count. Transport padding after boundaries is capped at 256 bytes. Header parsing follows RFC 7230 rather than the RFC 822 rules referenced by RFC 2046 — obsolete header folding and whitespace before the colon are rejected.
+
 ### [peg](https://github.com/ponylang/peg)
 
 A parsing expression grammar package for Pony.
