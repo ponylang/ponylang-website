@@ -6,6 +6,13 @@ The `llmstxt` MkDocs plugin (configured in `mkdocs.yml`) auto-generates `llms.tx
 
 The Contribute, Community, and Blog sections are intentionally excluded from llmstxt. They're operational and community content that would drown out the language-focused material (Learn, Use, FAQ, Discover) that LLMs actually need.
 
+## External PDFs
+
+All external, non-Pony PDFs linked from the site must be stored locally in
+`docs/media/other-papers/` with a meaningful name (e.g.,
+`champ-steindorfer-vinju-2015.pdf`, not `oopsla15.pdf`). Link to the local
+copy instead of the external URL to avoid broken links.
+
 ## Internal Links
 
 When linking to other pages within this site, use relative markdown paths with
