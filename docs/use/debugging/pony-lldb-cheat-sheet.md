@@ -188,7 +188,7 @@ You can adjust the type (`long`) to appropriately print the types that correspon
 ### Method Name Mangling
 
 !!! warning "Future breakage possible!"
-    While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static. The information below is accurate as of March 11, 2026.
+    While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static. The information below is accurate as of March 18, 2026.
 
 Method names get mangled by the compiler. The general format for the mangling is:
 
@@ -245,7 +245,9 @@ mutable | m | iso, trn, ref, box parameters
 immutable | i | val parameters
 opaque | t | tag parameters, actor parameters
 primitive | p | primitive parameters
-compound/unknown | x | union, intersection, tuple parameters
+unknown | x | fallback for unrecognized type kinds
+
+Compound types (unions, intersections, tuples) don't produce a single trace-kind character. Each element is expanded recursively, so a tuple parameter `(B iso, B iso)` produces trace-kind `mm` (one `m` per element), while `(B val, B val)` produces `ii`.
 
 For example, a behavior `be foo(s: String iso)` on type `Bar` would mangle to `Bar_tag_foo_moo` — the `m` is the trace-kind (mutable, for `iso`) and the `o` is the type (object). A function `fun ref bar(s: String iso): None` on the same type would mangle to `Bar_ref_bar_oo` — no trace-kind prefix, just the type characters for the parameter and return type.
 
