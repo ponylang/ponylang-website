@@ -186,3 +186,19 @@ This question usually means "typed exceptions," and the first thing to understan
 If you need to communicate what went wrong, use a union return type. A function that returns `(MyResult | ParseError | ValidationError)` gives the caller exhaustive match coverage over every failure mode. That's the same affordance that typed exceptions provide in other languages, but it's handled through the type system rather than a separate exception mechanism.
 
 For more on how Pony's error model works, see the [Errors](https://tutorial.ponylang.io/expressions/errors.html) section of the tutorial.
+
+## Why doesn't `Array` implement `Equatable`? {:id="array-equatable"}
+
+Because then everything you put in an array would have to implement `Equatable` too.
+
+`Array` is generic. `Array[A]` can hold any type `A`. For `Array` to implement `Equatable`, it would need to compare elements, which means `A` itself would need to be `Equatable`. But Pony doesn't have conditional conformance. There's no way to say "Array has `eq` when its elements do." The constraint would have to go on `Array` itself, locking out any element type that doesn't implement `Equatable`.
+
+We think that's a bad tradeoff. You put things in arrays constantly. You rarely need to compare two arrays for equality. Java went the other direction and gave every object a default `equals`. It's great for ergonomics, but it has also been the source of many bugs. Like much of engineering, there's no right answer. We prefer the route Pony has taken.
+
+If you need to compare arrays in tests, `TestHelper` provides `assert_array_eq`. It sidesteps the problem by putting the `Equatable` constraint on its own type parameter rather than on `Array`:
+
+```pony
+h.assert_array_eq[U8](a, b)
+```
+
+For production code, write a function that takes two `ReadSeq` arguments and compares their elements. It's a few lines, and you only write it when you actually need it.
