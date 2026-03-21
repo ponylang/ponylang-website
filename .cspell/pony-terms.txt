@@ -270,6 +270,7 @@ Rubberbandits
 Rubyists
 Sandro
 Sandro's
+Savi
 Schuppenpferd
 seantallen
 SEGV
@@ -299,7 +300,9 @@ Struct
 structs
 Stührk
 subtyping
+Sylvan
 sylvanc
+sysroot
 tada
 termax
 theobutler
