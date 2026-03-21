@@ -11,6 +11,7 @@ alloca
 ALPN
 appdirs
 arent
+arities
 armhf
 Armv
 ASIO
@@ -151,6 +152,7 @@ Kallos
 kastiglione
 kcov
 kevinhoffman
+knowably
 Klabnik
 kqueue
 Kristoffer
@@ -250,6 +252,7 @@ QUIC
 quickstart
 Radisson
 raspios
+RCDATA
 RDMA
 redvers
 refcap
