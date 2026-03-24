@@ -52,7 +52,9 @@ The triggered jobs list was last updated March 24, 2026.
 - [corral: breakage-against-windows-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [http: breakage-against-windows-ponyc-latest](https://github.com/ponylang/http/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [lori: breakage-against-windows-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
+- [ponyup: breakage-against-windows-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [regex: breakage-against-windows-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
+- [ssl: breakage-against-windows-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 
 ## ponyc-nightly-image-pushed
 
@@ -109,7 +111,7 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 - [regex: breakage-against-linux-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [rfc-tool: breakage-against-ponyc-latest](https://github.com/ponylang/rfc-tool/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [semver: breakage-against-ponyc-latest](https://github.com/ponylang/semver/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [ssl: breakage-against-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
+- [ssl: breakage-against-linux-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [stallion: breakage-against-ponyc-latest](https://github.com/ponylang/stallion/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [uri: breakage-against-ponyc-latest](https://github.com/ponylang/uri/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [valbytes: breakage-against-ponyc-latest](https://github.com/ponylang/valbytes/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
