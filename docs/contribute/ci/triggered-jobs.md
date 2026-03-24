@@ -50,6 +50,7 @@ The triggered jobs list was last updated March 24, 2026.
 
 - [appdirs: breakage-against-windows-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [corral: breakage-against-windows-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
+- [http: breakage-against-windows-ponyc-latest](https://github.com/ponylang/http/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [lori: breakage-against-windows-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [regex: breakage-against-windows-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 
