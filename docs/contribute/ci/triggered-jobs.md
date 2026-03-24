@@ -24,7 +24,9 @@ The triggered jobs list was last updated March 24, 2026.
 
 ### Triggered workflows
 
+- [appdirs: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 - [corral: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
+- [lori: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 - [ponyup: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 
 ## ponyc-x86_64-macos-nightly-released
