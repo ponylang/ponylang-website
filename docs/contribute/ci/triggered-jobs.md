@@ -2,7 +2,7 @@
 
 Across a variety of repositories, we have a number of CI jobs that get triggered based on events in other repositories. This document is an attempt to give a broad overview of what exists and causes them to run. Please note, this list is not guaranteed to be up-to-date and you should check various repos for final confirmation.
 
-The triggered jobs list was last updated February 28, 2026.
+The triggered jobs list was last updated March 24, 2026.
 
 <!-- markdownlint-disable -->
 
@@ -46,7 +46,10 @@ The triggered jobs list was last updated February 28, 2026.
 
 ### Triggered workflows
 
+- [appdirs: breakage-against-windows-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [corral: breakage-against-windows-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
+- [lori: breakage-against-windows-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
+- [regex: breakage-against-windows-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 
 ## ponyc-nightly-image-pushed
 
@@ -83,7 +86,7 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 
 ### Triggered workflows
 
-- [appdirs: breakage-against-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
+- [appdirs: breakage-against-linux-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [changelog-tool: breakage-against-ponyc-latest](https://github.com/ponylang/changelog-tool/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [corral: breakage-against-linux-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [crdt: breakage-against-ponyc-latest](https://github.com/ponylang/crdt/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
@@ -93,13 +96,14 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 - [http: breakage-against-linux-ponyc-latest](https://github.com/ponylang/http/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [http_server: breakage-against-ponyc-latest](https://github.com/ponylang/http_server/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [livery: breakage-against-ponyc-latest](https://github.com/ponylang/livery/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [lori: breakage-against-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
+- [lori: breakage-against-linux-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [mare: breakage-against-ponyc-latest](https://github.com/ponylang/mare/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [peg: breakage-against-ponyc-latest](https://github.com/ponylang/peg/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [ponyup: breakage-against-linux-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [postgres: breakage-against-ponyc-latest](https://github.com/ponylang/postgres/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [reactive_streams: breakage-against-ponyc-latest](https://github.com/ponylang/reactive_streams/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [redis: breakage-against-ponyc-latest](https://github.com/ponylang/redis/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
+- [regex: breakage-against-linux-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [rfc-tool: breakage-against-ponyc-latest](https://github.com/ponylang/rfc-tool/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [semver: breakage-against-ponyc-latest](https://github.com/ponylang/semver/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [ssl: breakage-against-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
