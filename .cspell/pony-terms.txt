@@ -55,6 +55,7 @@ chilis
 Clebsch
 Cloudsmith
 codecabc
+codegen
 colinobrien
 Colyer
 COPR
@@ -156,6 +157,7 @@ knowably
 Klabnik
 kqueue
 Kristoffer
+Krylls
 kulibali
 Kwok
 Lamda
@@ -317,6 +319,7 @@ treecheck
 Turley
 Turley's
 ubench
+unaliased
 Uncategorized
 unrepresentable
 Unsession
