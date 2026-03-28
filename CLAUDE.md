@@ -62,9 +62,11 @@ date: YYYY-MM-DDTHH:MM:SS-04:00
 
 1. Opening hook — 1-2 sentences, conversational, teasing what's in the post
 2. `<!-- more -->` marker
-3. `##` sections for noteworthy items (important releases, announcements, etc.)
-4. `## Items of Note` with `###` subsections (Office Hours, Pony Development
-   Sync, community items)
+3. `##` sections for highlighted items only (see the lwip skill for what
+   qualifies — most items do not)
+4. `## Items of Note` with `###` subsections — the default home for most
+   content (community items, routine releases, Office Hours, Pony Development
+   Sync, etc.)
 5. `## Releases` — bullet list of all releases with links, format:
    `- [org/repo version](release-url)`
 6. `---` separator
@@ -80,9 +82,12 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Releases always appear in the `## Releases` bullet list. When a release has
 noteworthy content (bug fixes affecting users, new features, breaking changes),
-it also gets its own `##` section higher in the post with a short write-up.
-Read the release notes to determine if a release warrants its own section. Use
-judgment — routine releases with nothing interesting just go in the list.
+it also gets a `###` subsection under `## Items of Note` with a short
+write-up. Only releases that meet the highlighting criteria (first release,
+major version bump, or explicitly flagged in the issue) get promoted to a
+top-level `##` section. Read the release notes to determine what treatment a
+release warrants. Routine releases with nothing interesting just go in the
+list.
 
 ### Issue Rotation
 
