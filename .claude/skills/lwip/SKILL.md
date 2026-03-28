@@ -8,6 +8,24 @@ Create a new "Last Week in Pony" blog post.
 
 ## Additional Notes
 
+- **Most items go under `## Items of Note`** as `###` subsections. Top-level
+  `##` sections are reserved for highlighted items only. The default home for
+  any item is Items of Note — only promote to `##` when there's a specific
+  reason. Things that warrant highlighting:
+  - Changes in Pony team membership (new committers, new core team members,
+    departures).
+  - Libraries with a 0.1.0 release — describe what the library provides and
+    why you'd want it. Don't cover libraries that haven't had a first release
+    yet.
+  - Major version bumps (1.0.0, 2.0.0, etc.) — cover what changed and why it
+    matters.
+  - Items explicitly flagged for highlighting in the issue comments.
+- New library sections should be feature overviews, not per-version
+  changelogs. When a library has multiple releases in one week, describe
+  what it does as a whole. Don't enumerate what changed in each version.
+- Describe libraries from the user's perspective. Focus on what it does for
+  them (features, protocol support, API surface), not project-internal
+  motivations (why it was built, what larger effort it's part of).
 - When referring to repos by short name in prose (not `owner/repo` format),
   use lowercase to match the actual repo name: `ponyc`, `corral`, `ponyup`,
   not `Ponyc`, `Corral`, `Ponyup`.
@@ -17,19 +35,6 @@ Create a new "Last Week in Pony" blog post.
 - Link targets should match what the link text describes. Don't link "Homebrew
   formula" to a Zulip thread about the formula — either link to the formula
   itself or use plain text.
-- Changes in Pony team membership (new committers, new core team members,
-  departures) always get prominent `##` sections near the top of the post.
-- Libraries with a 0.1.0 release get their own `##` section describing what
-  the library provides and why you'd want it. Don't cover libraries that
-  haven't had a first release yet.
-- New library sections should be feature overviews, not per-version
-  changelogs. When a library has multiple releases in one week, describe
-  what it does as a whole. Don't enumerate what changed in each version.
-- Describe libraries from the user's perspective. Focus on what it does for
-  them (features, protocol support, API surface), not project-internal
-  motivations (why it was built, what larger effort it's part of).
-- Major version bumps (1.0.0, 2.0.0, etc.) also get their own `##` section
-  covering what changed and why it matters.
 - Be frugal with em dashes. A few per post is fine, but heavy use reads as
   AI-generated. Prefer periods, commas, colons, or parentheses when they
   work just as well.
