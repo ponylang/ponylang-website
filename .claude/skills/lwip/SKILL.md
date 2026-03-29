@@ -20,6 +20,12 @@ Create a new "Last Week in Pony" blog post.
   - Major version bumps (1.0.0, 2.0.0, etc.) — cover what changed and why it
     matters.
   - Items explicitly flagged for highlighting in the issue comments.
+- **Every release goes in the `## Releases` bullet list.** When a release
+  has noteworthy content (bug fixes affecting users, new features, breaking
+  changes), it also gets a `###` subsection under `## Items of Note` with a
+  short write-up. Read the release notes to determine what treatment a
+  release warrants. Routine releases with nothing interesting just go in the
+  list.
 - New library sections should be feature overviews, not per-version
   changelogs. When a library has multiple releases in one week, describe
   what it does as a whole. Don't enumerate what changed in each version.
@@ -78,8 +84,8 @@ Follow these steps:
    a new empty issue in `ponylang/ponylang-website` titled
    `Last Week in Pony - {next Sunday: Month Day, Year}`, add the
    `last-week-in-pony` label, and pin it. Then remove the
-   `last-week-in-pony` label from the current week's issue. This locks in
-   the issue identity before any time-consuming work begins.
+   `last-week-in-pony` label from the current week's issue, unpin it, and
+   close it. The old issue is done once we've read it.
 
 5. **Read release notes**: For any release items in the issue, fetch the
    release notes (e.g., `gh release view TAG --repo ORG/REPO`) and evaluate
@@ -108,7 +114,3 @@ Follow these steps:
    `Last Week in Pony - Month Day, Year`, and open a PR. Report the PR URL
    to the user.
 
-10. **Post-merge issue cleanup**: After the PR is merged, prompt the user:
-    "PR is merged. Want me to close and unpin the old issue?" On
-    confirmation, unpin and close the old issue (the label was already
-    removed and the new issue already created in step 4).

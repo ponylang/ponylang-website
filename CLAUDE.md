@@ -78,33 +78,6 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 ```
 
-### Releases in Posts
-
-Releases always appear in the `## Releases` bullet list. When a release has
-noteworthy content (bug fixes affecting users, new features, breaking changes),
-it also gets a `###` subsection under `## Items of Note` with a short
-write-up. Only releases that meet the highlighting criteria (first release,
-major version bump, or explicitly flagged in the issue) get promoted to a
-top-level `##` section. Read the release notes to determine what treatment a
-release warrants. Routine releases with nothing interesting just go in the
-list.
-
-### Issue Rotation
-
-Issue rotation happens early in the LWIP workflow — right after reading the
-current issue — to avoid race conditions. The steps:
-
-1. Calculate the next Sunday from today. The post usually goes out on Sunday
-   but occasionally slips to Monday — the issue title always uses the Sunday
-   date regardless.
-2. Create a new empty issue in `ponylang/ponylang-website` titled
-   `Last Week in Pony - {next Sunday: Month Day, Year}`.
-3. Add the `last-week-in-pony` label and pin the new issue.
-4. Remove the `last-week-in-pony` label from the current week's issue.
-
-After the LWIP PR is merged, the only remaining cleanup is to unpin and close
-the old issue.
-
 ### Reviewer Prompt
 
 When spawning a copy-editing reviewer subagent, use a prompt along these lines:
