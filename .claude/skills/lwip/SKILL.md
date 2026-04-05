@@ -29,9 +29,19 @@ Create a new "Last Week in Pony" blog post.
 - New library sections should be feature overviews, not per-version
   changelogs. When a library has multiple releases in one week, describe
   what it does as a whole. Don't enumerate what changed in each version.
-- Describe libraries from the user's perspective. Focus on what it does for
-  them (features, protocol support, API surface), not project-internal
-  motivations (why it was built, what larger effort it's part of).
+- Describe libraries and tools by what happens when you use them, not by
+  listing their contents. "Load it and Claude has the actual capability
+  rules in context instead of guessing" tells the reader more than
+  "capabilities, subtyping rules, common gotchas." Lead with the
+  experience of using it, not the inventory. Focus on what it does for
+  the user, not project-internal motivations (why it was built, what
+  larger effort it's part of).
+- **Re-establish context for libraries that evolve between posts.** When
+  covering a new release of something that appeared in a previous LWIP,
+  bring forward the context the reader needs. Don't assume they remember
+  last week's post. If hobby introduced actor-per-request handlers in
+  0.4.0 and this week's 0.5.0 adds interceptors that run before the
+  handler actor is spawned, explain the model before referencing it.
 - When referring to repos by short name in prose (not `owner/repo` format),
   use lowercase to match the actual repo name: `ponyc`, `corral`, `ponyup`,
   not `Ponyc`, `Corral`, `Ponyup`.
@@ -45,12 +55,31 @@ Create a new "Last Week in Pony" blog post.
   AI-generated. Prefer periods, commas, colons, or parentheses when they
   work just as well.
 - Issue comments are raw material, not copy. Turn them into flowing
-  narrative. Avoid choppy sequences of disconnected sentences.
+  narrative. Avoid choppy sequences of disconnected sentences. But when
+  the raw material has personality — colorful phrasing, genuine
+  enthusiasm, humor — preserve and amplify it. Don't grind human voice
+  down into flat declarative prose. Adapt it to fit the post's flow,
+  but keep the energy.
+- **Every section should be narrative, not a topic inventory.** A paragraph
+  of independent facts separated by periods is just a bullet list without
+  the bullets. Connect ideas: cause and effect, contrast, significance,
+  what ties them together. The reader should feel a thread pulling them
+  through, not a checklist they're being walked down. This applies
+  everywhere — opening hooks, Items of Note subsections, release
+  write-ups. If you could turn the paragraph into bullets and lose
+  nothing, it needs rewriting.
 - Keep voice consistent between adjacent sections. When two sections cover
   similar content (two new tools, two related libraries), they should read
   the same way.
 - Use "ponyc" not "ponylang/ponyc" in prose and section headings. Only use
   `ponylang/ponyc` in the releases list.
+- **The opening should match the energy of the week.** LWIP is community
+  outreach and a hypefest. Not sales — genuine excitement. When there's
+  a lot going on, the opening should convey that. Let the reader know
+  whether it was a big week or a quiet one. Gab with them a little
+  before diving in. If there are three big things happening, be excited
+  about three big things happening. A flat "Let's get into it" after a
+  stacked week undersells the content and the community behind it.
 - `## RFCs` section (when applicable) goes after `## Releases`. Use `###`
   subsections by status change (`### New`, `### Accepted`,
   `### Final Comment Period`, `### Implemented`, etc.). Only include statuses
