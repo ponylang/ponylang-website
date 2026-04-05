@@ -47,6 +47,7 @@ corral run -- pony-lint src/ test/
 | `style/comment-spacing` | on | `//` not followed by exactly one space |
 | `style/control-structure-alignment` | on | Control structure keywords must be vertically aligned |
 | `style/docstring-format` | on | Docstring `"""` tokens should be on their own lines |
+| `style/docstring-leading-blank` | on | No blank line after opening `"""` |
 | `style/dot-spacing` | on | No spaces around `.`; `.>` spaced as infix operator |
 | `style/file-naming` | on | File name should match principal type |
 | `style/hard-tabs` | on | Tab characters anywhere in source |

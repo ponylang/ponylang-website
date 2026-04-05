@@ -340,6 +340,31 @@ class Foo
     None
 ```
 
+## `style/docstring-leading-blank`
+
+**Default:** on
+
+The first line of docstring content must begin on the line immediately after the opening `"""` — no blank line in between. Types and methods annotated with `\nodoc\` are exempt, as are methods inside `\nodoc\`-annotated entities.
+
+**Incorrect:**
+
+```pony
+class Foo
+  """
+
+  Foo docstring.
+  """
+```
+
+**Correct:**
+
+```pony
+class Foo
+  """
+  Foo docstring.
+  """
+```
+
 ## `style/dot-spacing`
 
 **Default:** on
