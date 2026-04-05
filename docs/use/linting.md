@@ -85,13 +85,33 @@ Create a `.pony-lint.json` file in your project root (next to `corral.json`) to 
 }
 ```
 
-Rule-specific entries take precedence over category entries. CLI `--disable` flags take precedence over file configuration.
+Rule-specific entries take precedence over category entries. CLI `--disable` flags take precedence over all config files, including subdirectory overrides.
 
 Config file discovery order:
 
 1. `.pony-lint.json` in the current working directory
 2. Walk up to find `corral.json`, then `.pony-lint.json` in that directory
 3. Not found -- all rules use their defaults
+
+### Subdirectory Overrides
+
+`.pony-lint.json` files in subdirectories override the root config for all files in that subtree. The format is the same as the root config.
+
+For example, to turn off `style/package-docstring` for everything under `examples/`, add an `examples/.pony-lint.json`:
+
+```json
+{
+  "rules": {
+    "style/package-docstring": "off"
+  }
+}
+```
+
+Precedence follows proximity -- the nearest directory with a setting wins. Rules omitted from a subdirectory config defer to the parent, not the default.
+
+Category entries in a subdirectory config override parent rule-specific entries in that category. A subdirectory config with `"style": "off"` overrides a root config's `"style/line-length": "on"`. A subdirectory config can combine both: `"style": "off"` with `"style/line-length": "on"` turns off all style rules except `style/line-length`.
+
+Malformed subdirectory configs produce a `lint/config-error` diagnostic and fall through to the parent config -- the subtree is still linted with the parent's rules.
 
 ## Suppression Comments
 
@@ -121,4 +141,4 @@ A rule-specific `on` overrides a category-level `off`. Unclosed `off` regions pr
 |------|---------|
 | 0 | No violations found |
 | 1 | One or more violations found |
-| 2 | Operational error (unreadable file, malformed suppression) |
+| 2 | Operational error (unreadable file, malformed config, malformed suppression) |
