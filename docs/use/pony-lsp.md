@@ -10,12 +10,15 @@ Your editor launches the `pony-lsp` binary as a subprocess. See the [editor conf
 
 ## Feature Support
 
-| Feature | Description |
-|---------|-------------|
-| Diagnostics | Compiler errors and warnings published on file open and save |
-| Hover | Type information and documentation on hover |
-| Go To Definition | Jump to the definition of a symbol |
-| Document Symbols | List of symbols in the current file |
+| Feature | Description | Supported since version |
+|---------|-------------|-----------------|
+| Diagnostics | Compiler errors and warnings published on file open and save | >= 0.60.5 |
+| Hover | Type information and documentation on hover | >= 0.60.5 |
+| Go To Definition | Jump to the definition of a symbol | >= 0.60.5 |
+| Document Symbols | List of symbols in the current file | >= 0.60.5 |
+| Document Highlight | All occurrences of the symbol under the cursor are highlighted simultaneously across the document | > 0.63.0 |
+| Find References | Show all references to the thing under the cursor | > 0.63.0 |
+| Inlay Hints | Display helpful hints in between the code. Mostly resolved types for expressions and variables. | > 0.63.0 |
 
 ## Workspace Detection
 
@@ -86,7 +89,7 @@ Configuration details are coming. If you use Neovim with pony-lsp, consider cont
 
 ### Visual Studio Code
 
-To get `pony-lsp` working with Visual Studio Code, first install the [Pony VS Code extension](https://github.com/ponylang/vscode-extension). Ensure `pony-lsp` is on your `PATH` — the extension will show an error if it isn't found.
+To get `pony-lsp` working with Visual Studio Code, first install the [Pony VS Code extension](https://marketplace.visualstudio.com/items?itemName=ponylang.ponylang-vscode-extension). Ensure `pony-lsp` is on your `PATH` — the extension will show an error if it isn't found.
 
 Open your VS Code settings to configure the extension (all options are optional):
 
