@@ -97,7 +97,7 @@ Fixed instructions for the ensemble synthesizer — integrates multiple agent ou
 
 Type the skill name as a slash command in your session:
 
-```
+```text
 /pony-ref
 ```
 
