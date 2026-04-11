@@ -149,6 +149,7 @@ nav:
               - Overview: "use/linting.md"
               - Rule Reference: "use/linting/rule-reference.md"
           - Documentation Generation: "use/documentation.md"
+          - LLM Skills: "use/llm-skills.md"
       - Development:
           - Testing:
               - Overview: "use/testing.md"
