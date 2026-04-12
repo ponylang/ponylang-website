@@ -73,6 +73,7 @@ Deligiannis
 desugared
 Devoxx
 Dipin
+discriminee
 Dockerfiles
 docset
 Docstrings
@@ -85,6 +86,7 @@ Eleskin
 emscripten
 epoll
 equestria
+equestuia
 Erdman
 ergl
 Erlangers
