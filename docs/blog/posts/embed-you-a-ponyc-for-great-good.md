@@ -4,7 +4,7 @@ title: "Embed You a ponyc for Great Good"
 authors:
   - seantallen
 categories:
-  - Engineering
+  - ponyc
 draft: false
 ---
 
