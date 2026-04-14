@@ -38,6 +38,7 @@ extra:
 markdown_extensions:
   - admonition
   - attr_list
+  - footnotes
   - pymdownx.details
   - pymdownx.highlight
   - pymdownx.smartsymbols
