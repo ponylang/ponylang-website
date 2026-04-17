@@ -4,6 +4,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## Talks & Presentations
 
+* [GC Made Fast](https://www.seantallen.com/talks/gc-made-fast/) (2026)
 * [Fast, Concurrent, Secure, Correct Actors… and a pony!](https://www.youtube.com/watch?v=Co2owHuadCM) (2025)
 * [Pony Language - First Impression [Programming Languages Episode 34]](https://www.youtube.com/watch?v=LA9I6KiCIFA) (2024)
 * [Pony VUG #13: An informal tour of the Pony backpressure system](https://vimeo.com/707155973) (2022)
