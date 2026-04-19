@@ -212,6 +212,7 @@ notcurses
 Nuklear
 NUMA
 ODBC
+OMFG
 OOPSLA
 Øredev
 Orien
@@ -266,6 +267,7 @@ Regehr
 Rego
 Reini
 Renatus
+renameable
 repojacking
 rfind
 rhagenson

@@ -18,7 +18,7 @@ Big week. ponyc 0.63.2 is out with a pile of pony-lsp work that makes your edito
 
 [ponyc](https://github.com/ponylang/ponyc) 0.63.2 is all about pony-lsp. If you're using pony-lsp in your editor, this release is a big step up.
 
-Rename Symbol now works. Put your cursor on a field, method, behaviour, local variable, parameter, type parameter, class, actor, struct, primitive, trait, or interface, and your editor can rename every occurrence across the whole workspace. `textDocument/prepareRename` is there too, so editors can validate a symbol is renameable before prompting you for a new name. Attempts to rename something defined outside the workspace (stdlib, external packages) get rejected with a proper error, as do invalid Pony identifiers. No more hand-editing every callsite.
+Rename Symbol now works. Put your cursor on a field, method, behaviour, local variable, parameter, type parameter, class, actor, struct, primitive, trait, or interface, and your editor can rename every occurrence across the whole workspace. `textDocument/prepareRename` is there too, so editors can validate a symbol is renameable before prompting you for a new name. Attempts to rename something defined outside the workspace (stdlib, external packages) get rejected with a proper error, as do invalid Pony identifiers. No more hand-editing every call site.
 
 Go to Type Definition works. Put your cursor on a local, parameter, or field and your editor jumps to the declaration of the type, not the symbol itself. Explicit annotations and inferred types both work.
 
@@ -36,7 +36,7 @@ See the [release notes](https://github.com/ponylang/ponyc/releases/tag/0.63.2) f
 
 SCRAM-SHA-256 is now required by default. The driver used to accept whatever authentication method the server offered, which meant a malicious or compromised server could downgrade the exchange to MD5, cleartext, or trust. None of those prove the server knows your password. SCRAM does. The driver now refuses anything else unless you explicitly opt in via `AllowAnyAuth` on `ServerConnectInfo`. If you're connecting to a server that doesn't support SCRAM, you'll see `AuthenticationMethodRejected` until you tell the driver that's fine.
 
-The SCRAM exchange itself had a mutual-authentication bypass. A server could skip, duplicate, or malform SCRAM messages and the driver would authenticate the session without verifying the server's signature. That's fixed. Protocol violations during SCRAM now fail the connection with `ServerVerificationFailed` instead of quietly authenticating or silently closing.
+The SCRAM exchange itself had a mutual-authentication bypass. A server could skip, duplicate, or mangle SCRAM messages and the driver would authenticate the session without verifying the server's signature. That's fixed. Protocol violations during SCRAM now fail the connection with `ServerVerificationFailed` instead of quietly authenticating or silently closing.
 
 Everything that can go wrong during startup now reaches your application through `pg_session_connection_failed`. Authentication failures used to go to a separate callback. Server rejections during startup crashed the process through an unreachable-state panic. Peer-initiated TCP close hung the driver indefinitely. Various parser errors silently shut the session down. All of that now routes through the same error path. `ConnectionFailureReason` picked up new variants: `TooManyConnections`, `InvalidDatabaseName`, `ServerRejected`, `ConnectionClosedByServer`, `ProtocolViolation`, and `AuthenticationMethodRejected`. If you match exhaustively, you'll need new arms.
 
@@ -48,7 +48,7 @@ This release requires ponyc 0.63.1 or later. See the [release notes](https://git
 
 [contact-red/sensitive](https://github.com/contact-red/sensitive) shipped its first release. It's a small library doing a specific, useful thing: tagging sensitive variables so they don't leak into your log files.
 
-The idea is simple. Wrap a value in `Sensitive[T]` and calling `.string()` returns `"[REDACTED]"` instead of the actual contents. To get at the real value, you have to call `.expose()`, which makes reading the data a deliberate act instead of a silent side effect of logging. Red says this pattern (the "oops we logged the password" class of bug) comes up constantly in security audits. Now Pony has a type-level answer.
+Wrap a value in `Sensitive[T]` and calling `.string()` returns `"[REDACTED]"` instead of the actual contents. To get at the real value, you have to call `.expose()`, which makes reading the data a deliberate act instead of a silent side effect of logging. Red says this pattern (the "oops we logged the password" class of bug) comes up constantly in security audits. Now Pony has a type-level answer.
 
 There's a convenience constructor, `Sensitive[String].from_env(env.vars, "USER")`, that reads a value out of an environment variable straight into a `Sensitive[String]`. That's a common place for secrets to enter a program, so it's a common place to want the tagging.
 
@@ -64,7 +64,7 @@ Last week brought `ASIO_ERROR` to the Pony runtime and wired it through the stdl
 
 [ponylang/courier](https://github.com/ponylang/courier) 0.2.1 adds the same `on_timer_failure` callback on `HTTPClientLifecycleEventReceiver`.
 
-If your application needs tight control over timer behavior in any of these libraries, you now have it.
+If you care when your timers fall over in any of these libraries, you now have the hooks to find out.
 
 ## Items of Note
 
