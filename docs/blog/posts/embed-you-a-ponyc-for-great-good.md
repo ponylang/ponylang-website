@@ -30,7 +30,7 @@ What we wrote it in was Pony.
 
 libponyc-standalone is technically just the `.a`. The interesting part is what's on top of it. Call it the other half of libponyc-standalone: a Pony wrapper that gives you a real API to the compiler's internals.
 
-The wrapper is Mathias's pony-ast. I'd started something similar years ago and never got it over the line. His was better.
+The wrapper is Matthias's pony-ast. I'd started something similar years ago and never got it over the line. His was better.
 
 It lives in the ponyc repo at [`tools/lib/ponylang/pony_compiler/`](https://github.com/ponylang/ponyc/tree/main/tools/lib/ponylang/pony_compiler). The basic shape looks like this:
 
