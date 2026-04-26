@@ -8,7 +8,7 @@ title: "Last Week in Pony - June 30, 2024"
 date: 2024-06-30T07:00:06-04:00
 ---
 
-The big news from this past week is that Mathias has released "the first" version of Pony Language Server.
+The big news from this past week is that Matthias has released "the first" version of Pony Language Server.
 
 <!-- more -->
 
