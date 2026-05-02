@@ -6,6 +6,32 @@ disable-model-invocation: true
 
 Create a new "Last Week in Pony" blog post.
 
+## Critical: don't fabricate
+
+Every factual claim in the post must come from a verifiable source: the
+issue or its comments, linked PRs/releases, git/gh history, or the user.
+This applies especially to *characterizations* — how long something
+existed, how widely it affected users, the history behind a fix, the
+severity of a bug. Don't invent backstory to make a routine item sound
+dramatic. Duration, impact, and history are factual claims; if you can't
+substantiate them, don't write them.
+
+When you're tempted to add color about history, severity, or impact:
+
+1. **Verify first.** Use `gh issue view`, `gh pr view`, `gh release view`,
+   `git log`, release notes. The actual history is usually one command
+   away.
+2. **Ask the user** if you can't verify and the characterization adds
+   value.
+3. **If neither, drop the characterization.** A flat description of what
+   happened beats a fabricated dramatic one. The hyperbolic-language rule
+   ("flair in *how* things are said, not in inflating what they are")
+   applies to phrasing. This rule applies to facts.
+
+Turn it into an interview session if needed. The goal is correctness and
+narrative interestingness, not speed to getting a draft up. Multiple
+rounds of questions are fine.
+
 ## Additional Notes
 
 - **Most items go under `## Items of Note`** as `###` subsections. Top-level
@@ -120,9 +146,13 @@ Follow these steps:
    release notes (e.g., `gh release view TAG --repo ORG/REPO`) and evaluate
    whether the release has noteworthy content deserving its own section.
 
-6. **Ask clarifying questions**: Ask the user about any items that are vague
-   or need more context. Do this in a single round if possible — batch your
-   questions.
+6. **Verify and ask clarifying questions**: Before writing, list every
+   characterization you intend to make about history, severity, duration,
+   or impact. For each, verify it from sources (issue/PR/release notes,
+   `git log`, `gh`) or ask the user. Also ask about anything vague or
+   missing context. Batching into one round is fine when everything is
+   straightforward, but turn it into an interview session if you need to
+   — correctness and narrative interestingness beat draft speed.
 
 7. **Write the draft**: Create the post following the format in CLAUDE.md.
    Use the date from the issue title for the filename and front matter.
