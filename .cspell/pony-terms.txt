@@ -93,6 +93,8 @@ Erlangers
 errr
 evented
 Finalisers
+finalizer
+finalizers
 flycheck
 footguns
 Fritchie
@@ -202,6 +204,7 @@ MPMC
 msgpack
 mshockwave
 msvc
+multilib
 mwahl
 MZTE
 nearlyfreespeech
@@ -310,6 +313,8 @@ Struct
 structs
 Stührk
 subtyping
+supertype
+supertypes
 Sylvan
 sylvanc
 sysroot
