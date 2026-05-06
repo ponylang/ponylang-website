@@ -96,6 +96,7 @@ Finalisers
 finalizer
 finalizers
 flycheck
+footgun
 footguns
 Fritchie
 Fritchie's
