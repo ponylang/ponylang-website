@@ -190,6 +190,7 @@ mailinglist
 malloc
 mallocs
 Malthe
+manpages
 Mehl
 MELPA
 mfelsche
