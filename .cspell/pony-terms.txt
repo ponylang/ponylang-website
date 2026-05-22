@@ -314,6 +314,7 @@ Strangejune
 Struct
 structs
 Stührk
+subgoals
 subtyping
 supertype
 supertypes
@@ -321,6 +322,7 @@ Sylvan
 sylvanc
 sysroot
 tada
+Tarjan
 Tarjan's
 termax
 theobutler
