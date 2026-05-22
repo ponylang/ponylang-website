@@ -2,19 +2,21 @@
 
 [ponylang/llm-skills](https://github.com/ponylang/llm-skills) is a collection of skills for working with Pony in LLM coding harnesses. Each skill is a self-contained reference that your LLM loads on demand during coding sessions. Some skills provide Pony-specific knowledge (language reference, testing patterns). Others provide language-agnostic methodology (code review, debugging protocols, software design). All skills use a `pony-` prefix as an org namespace to avoid collisions with skills from other sources — the prefix is about where they come from, not what languages they apply to.
 
-The skills require a harness that supports sub-agents. The installer currently targets [Claude Code](https://docs.anthropic.com/en/docs/claude-code). If your harness supports sub-agents and can load skill files, the skills themselves are harness-agnostic.
+The skills require a harness that supports sub-agents. They're tested with [Claude Code](https://docs.anthropic.com/en/docs/claude-code) and compatible with [OpenAI Codex](https://developers.openai.com/codex), which loads the same `SKILL.md` format. If your harness supports sub-agents and can load skill files, the skills themselves are harness-agnostic.
 
-If you're just getting started, `pony-ref` is the one to load every session. The rest are available when you need them.
+If you're just getting started, load `pony-skills`. It's a routing index — it points you to the right skill for the task at hand, so it's the single trigger that covers all the others. For Pony coding sessions, `pony-ref` is the one to load every time. The rest are available when you need them.
 
 ## Installation
 
-Clone the repo and run the install script. It symlinks each skill into your harness's skills directory so they stay up to date when you pull.
+Clone the repo and run the install script. It detects which harnesses you have installed and symlinks each skill into their skills directory, so the skills stay up to date when you pull.
 
 ```bash
 git clone https://github.com/ponylang/llm-skills.git
 cd llm-skills
 python install.py
 ```
+
+With no arguments, `install.py` installs for every harness it detects: Claude Code (into `~/.claude/skills/`) and Codex (into `~/.agents/skills/`). To target a specific harness regardless of what's detected, pass `--claude` and/or `--codex`.
 
 Start a new session and the skills are available.
 
@@ -33,13 +35,21 @@ To uninstall:
 python install.py --uninstall
 ```
 
+This removes the symlinks from your detected harnesses, or just the one you name with `--claude`/`--codex`. Your clone stays put.
+
 ## Skills
+
+### Routing
+
+#### pony-skills
+
+A routing index for the other skills. Load it — or reference it from a project's `CLAUDE.md` or `AGENTS.md` — and it tells you which `pony-` skill to load for each task. It's the single-trigger alternative to wiring up every skill's trigger by hand, and a good place to start.
 
 ### Pony Language
 
 #### pony-ref
 
-The Pony language reference. Covers the capabilities table, subtyping rules, viewpoint adaptation, common gotchas, PonyCheck property-based testing patterns, and standard library pitfalls. Behind the quick reference, deeper documents — academic papers on the type system, runtime and GC synopses, tutorial and patterns content — are available for the LLM to read on demand.
+The Pony language reference. Covers the capabilities table, subtyping rules, viewpoint adaptation, common gotchas, PonyCheck property-based testing patterns, and standard library pitfalls. Behind the quick reference, deeper documents are available for the LLM to read on demand: the full text of the nine Pony papers as PDFs, type-system and runtime/GC synopses distilled from them, and snapshots of the tutorial, patterns cookbook, and main website.
 
 The reference documentation updates nightly from the Pony website and tutorial. Pull the repo often.
 
@@ -67,13 +77,17 @@ Disciplines for software design work — APIs, type systems, features, system bo
 
 Ensemble code review with specialized reviewer personas. Personas cover correctness, security, performance, API design, test quality, adversarial scenarios, design principles, and wildcard concerns. Has full (8-persona, iterative re-review) and lightweight (3-persona, single pass) modes.
 
+#### pony-docs-review
+
+Ensemble documentation review — the prose counterpart to `pony-code-review`, for documentation-only changes like tutorials, READMEs, and reference pages. Personas cover accuracy, completeness, clarity, structure, consistency, reader experience, design principles, and wildcard concerns. Has full (8-persona, iterative re-review) and lightweight (3-persona, single pass) modes.
+
 #### pony-test-design
 
 Two-stage ensemble for planning meaningful tests. Counters the tendency to write tests that exercise the stdlib instead of your code. Has full (8-persona) and lightweight (5-persona) modes.
 
 #### pony-pbt-patterns
 
-Property-based and generative testing patterns. Covers the valid/invalid/mixed generator triad, compositional generator hierarchies, deriving generators from validation rules, and coverage strategies. Maps directly onto PonyCheck.
+Property-based and generative testing patterns, built on one idea: chance is not coverage, so a generator has to bias toward where bugs live. Covers biasing toward important values, swarm testing (varying which operations are enabled so emergent state reaches the extremes), the valid/invalid/mixed boundary triad, compositional generators, and multi-angle oracles. Maps directly onto PonyCheck.
 
 #### pony-debug
 
@@ -95,24 +109,32 @@ Fixed instructions for the ensemble synthesizer — integrates multiple agent ou
 
 ### Manual invocation
 
-Type the skill name as a slash command in your session:
+Load a skill on demand when you need it for the current task but don't want it loaded every session. In Claude Code, type the skill name as a slash command:
 
 ```text
 /pony-ref
 ```
 
-The LLM loads the skill's reference material into context. Use this when you need the skill for the current task but don't want it loaded every session.
+In Codex, skills load automatically based on their description, or you can name one explicitly with `$pony-ref`. Either way, the LLM loads the skill's reference material into context.
 
-### CLAUDE.md triggers
+### CLAUDE.md and AGENTS.md triggers
 
-Claude Code reads `CLAUDE.md` files at the start of every session — one global (`~/.claude/CLAUDE.md`) and one per project. You can add instructions to these files that tell the LLM when to load skills automatically. Each trigger is a sentence or two describing the condition and the action.
+Claude Code reads `CLAUDE.md` files at the start of every session — one global (`~/.claude/CLAUDE.md`) and one per project; Codex reads `AGENTS.md` the same way. You can add instructions to these files that tell the LLM when to load skills automatically. Each trigger is a sentence or two describing the condition and the action.
 
-For example, to load the language reference at the start of every Pony coding session:
+The simplest setup is a single trigger that loads `pony-skills`, the routing index, which then points to whatever the task needs:
 
 ```markdown
-**Load `/pony-ref` proactively when working on Pony code**: At the start of
+**Load `pony-skills` at the start of Pony work**: At the start of work in a
+Pony project, load the `pony-skills` skill — a routing index that tells you
+which `pony-` skill to load for each task.
+```
+
+Prefer to wire up skills individually? For example, to load the language reference at the start of every Pony coding session:
+
+```markdown
+**Load `pony-ref` proactively when working on Pony code**: At the start of
 any conversation where the working directory is a Pony project (contains
-`corral.json` or `*.pony` files), load `/pony-ref` before doing any work.
+`corral.json` or `*.pony` files), load `pony-ref` before doing any work.
 Also load it mid-conversation when hitting capabilities, type system, runtime,
 or testing questions.
 ```
@@ -120,15 +142,15 @@ or testing questions.
 To load the debugging protocol when needed:
 
 ```markdown
-**Load `/pony-debug` when you start debugging**: Before forming any hypothesis
-about the cause of a non-trivial issue, load `/pony-debug`.
+**Load `pony-debug` when you start debugging**: Before forming any hypothesis
+about the cause of a non-trivial issue, load `pony-debug`.
 ```
 
 To load code review for PRs:
 
 ```markdown
-**Load `/pony-code-review` for code reviews**: When conducting a code review
-of a PR, branch, or local changes, load `/pony-code-review`.
+**Load `pony-code-review` for code reviews**: When conducting a code review
+of a PR, branch, or local changes, load `pony-code-review`.
 ```
 
 The trigger text is natural language. Write it so the LLM can match the condition to the current situation. The [ponylang/llm-skills README](https://github.com/ponylang/llm-skills#suggested-triggers) has suggested triggers for every skill.
