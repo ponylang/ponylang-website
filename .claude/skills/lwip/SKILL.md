@@ -116,7 +116,7 @@ rounds of questions are fine.
 Follow these steps:
 
 1. **Read editorial guidelines**: Read the "Last Week in Pony" section in
-   this project's CLAUDE.md for format, tone, and domain-specific notes.
+   this project's AGENTS.md for format, tone, and domain-specific notes.
 
 2. **Study recent posts and voice calibration**: Read the 2-3 most recent
    posts in `docs/blog/posts/last-week-in-pony-*.md`. Also read 2-3 posts
@@ -154,12 +154,12 @@ Follow these steps:
    straightforward, but turn it into an interview session if you need to
    — correctness and narrative interestingness beat draft speed.
 
-7. **Write the draft**: Create the post following the format in CLAUDE.md.
+7. **Write the draft**: Create the post following the format in AGENTS.md.
    Use the date from the issue title for the filename and front matter.
 
 8. **Review loop**:
    a. Spawn a reviewer subagent (using Task tool, subagent_type
-      "general-purpose") with the copy-editing prompt from CLAUDE.md. Pass
+      "general-purpose") with the copy-editing prompt from AGENTS.md. Pass
       the full draft content. The reviewer has no conversation history — give
       it everything it needs in the prompt.
    b. For each finding: incorporate changes you agree with; if you disagree,
