@@ -58,6 +58,7 @@ codecabc
 codegen
 colinobrien
 Colyer
+comptime
 COPR
 CORBA
 Covo
@@ -160,6 +161,7 @@ kcov
 kevinhoffman
 knowably
 Klabnik
+Konicki
 kqueue
 Kristoffer
 Krylls
@@ -311,6 +313,7 @@ stefandd
 Steindorfer
 Strangecode
 Strangejune
+stringable
 Struct
 structs
 Stührk
