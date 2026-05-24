@@ -109,6 +109,7 @@ goroutines
 Gosu
 Goulimis
 GPIO
+Grigore
 Grigorij
 Grönlund's
 Groxio
