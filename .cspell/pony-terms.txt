@@ -179,6 +179,7 @@ libponyc
 libponyrt
 libpq
 libressl
+libunwind
 Liétar
 linal
 LINQ
@@ -186,6 +187,7 @@ LLDB
 Lobste
 lori
 Lookin
+LSDA
 Lucus
 Lystig
 Madgwick
