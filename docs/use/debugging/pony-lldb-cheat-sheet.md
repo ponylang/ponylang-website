@@ -188,11 +188,11 @@ You can adjust the type (`long`) to appropriately print the types that correspon
 ### Method Name Mangling
 
 !!! warning "Future breakage possible!"
-    While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static. The information below is accurate as of March 18, 2026.
+    While currently necessary for some debugging, you should know that name mangling might change in the future. Do not depend on this remaining static. The information below is accurate as of May 30, 2026.
 
 Method names get mangled by the compiler. The general format for the mangling is:
 
-`<package_>type<_typearg1_typearg2>_rcap_methodname_mangling`
+`<package_>type<_typearg1_typearg2>_rcap_methodname_mangling<_p>`
 
 In the above:
 
@@ -213,6 +213,9 @@ In the above:
 
 `mangling`
 : a mangling string encoding the types of each method parameter and the return type. For functions, each parameter contributes a single type character. For behaviors and constructors, each parameter is preceded by a trace-kind character indicating how the ORCA garbage collector traces it. The return type always contributes a single type character with no trace-kind prefix.
+
+`_p`
+: a literal `_p` appended when the method is partial (declared with a trailing `?`). This gives partial methods their own mangled name so they don't share one with an otherwise-identical non-partial method. Bare functions (declared with `@`) are the exception: a partial bare function aborts on an error instead of returning an error flag, so it is never marked.
 
 **Type characters:**
 
@@ -249,7 +252,7 @@ unknown | x | fallback for unrecognized type kinds
 
 Compound types (unions, intersections, tuples) don't produce a single trace-kind character. Each element is expanded recursively, so a tuple parameter `(B iso, B iso)` produces trace-kind `mm` (one `m` per element), while `(B val, B val)` produces `ii`.
 
-For example, a behavior `be foo(s: String iso)` on type `Bar` would mangle to `Bar_tag_foo_moo` — the `m` is the trace-kind (mutable, for `iso`) and the `o` is the type (object). A function `fun ref bar(s: String iso): None` on the same type would mangle to `Bar_ref_bar_oo` — no trace-kind prefix, just the type characters for the parameter and return type.
+For example, a behavior `be foo(s: String iso)` on type `Bar` would mangle to `Bar_tag_foo_moo` — the `m` is the trace-kind (mutable, for `iso`) and the `o` is the type (object). A function `fun ref bar(s: String iso): None` on the same type would mangle to `Bar_ref_bar_oo` — no trace-kind prefix, just the type characters for the parameter and return type. The partial version `fun ref bar(s: String iso): None ?` would mangle to `Bar_ref_bar_oo_p` — the same name plus the `_p` partial marker.
 
 These rules can be used to determine the name of function in order to specify that you would like to place a breakpoint on it. You can also type `b <characters><tab>` to see a tab-complete list of all the available functions that start with `<characters>`. To set a breakpoint on a function:
 
