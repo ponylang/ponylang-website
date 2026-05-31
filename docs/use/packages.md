@@ -12,14 +12,6 @@ Hobby is a simple HTTP web framework for Pony, powered by [Stallion](https://git
 
 Hobby is designed to feel lightweight while taking full advantage of Pony's type system and reference capabilities. Handlers are `val` - safe to share across concurrent connections without copying. The `Context` is `ref`, so middleware and handlers can read and mutate request state without juggling `iso` ownership. If you're building an HTTP service in Pony and want a familiar route/middleware/handler model without fighting the capability system, Hobby is a good place to start.
 
-### [http](https://github.com/ponylang/http)
-
-HTTP client package.
-
-### [http_server](https://github.com/ponylang/http_server)
-
-Pony package for building HTTP server applications.
-
 ### [lori](https://github.com/ponylang/lori)
 
 A TCP networking library for Pony. Lori separates connection logic from actor scheduling — the TCP state machine lives in a plain class (`TCPConnection`) that your actor delegates to, rather than baking everything into a single actor the way the standard library's net package does. This gives you control over how your actor is structured while lori handles the low-level I/O.
