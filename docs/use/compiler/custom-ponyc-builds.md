@@ -124,6 +124,9 @@ The probes are defined under the `pony` provider and cover:
 
 For the full list of probes with parameter types and descriptions, see [`src/common/dtrace_probes.d`](https://github.com/ponylang/ponyc/blob/main/src/common/dtrace_probes.d) in the ponyc source.
 
+!!! warning "Static linking on FreeBSD"
+    Statically linked programs (`ponyc --static`) build and run but do not expose their probes to DTrace. FreeBSD registers USDT probes through the runtime linker, which a static binary doesn't use; trace a dynamically linked build instead.
+
 ## Runtime Statistics
 
 Runtime statistics tracking instruments the Pony runtime to report memory usage per actor and per scheduler thread. This is useful for understanding where memory is going in a running program.
