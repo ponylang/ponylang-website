@@ -102,7 +102,7 @@ Can be combined with `address_sanitizer` or `thread_sanitizer`.
 
 ## DTrace / SystemTap
 
-The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes that can be consumed by DTrace on BSD systems (not macOS — Apple removed DTrace support) or SystemTap on Linux.
+The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes. They're consumed by SystemTap on Linux and by DTrace on FreeBSD. No other platform is supported: macOS removed DTrace, and neither DragonFly BSD nor OpenBSD ships a DTrace-compatible probe-generation tool (OpenBSD's `btrace` is a separate tracer with no USDT support).
 
 Building requires a `dtrace`-compatible tool on your `PATH`:
 
