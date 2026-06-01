@@ -81,6 +81,9 @@ Then compile programs with:
 ponyc --runtimebc
 ```
 
+!!! note
+    `--runtimebc` cannot be used with a compiler built for [DTrace/SystemTap probes](../../use/compiler/custom-ponyc-builds.md#dtrace-systemtap); ponyc rejects the combination with an error.
+
 ## Instrumentation
 
 The `use=` option enables various instrumentation features. It is only valid with `make configure`. Multiple options can be combined with commas:

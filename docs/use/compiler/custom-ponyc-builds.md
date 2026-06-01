@@ -127,6 +127,9 @@ For the full list of probes with parameter types and descriptions, see [`src/com
 !!! warning "Static linking on FreeBSD"
     Statically linked programs (`ponyc --static`) build and run but do not expose their probes to DTrace. FreeBSD registers USDT probes through the runtime linker, which a static binary doesn't use; trace a dynamically linked build instead.
 
+!!! warning "Runtime bitcode is incompatible with DTrace"
+    A ponyc built with `use=dtrace` cannot compile programs with `--runtimebc`, and rejects the combination with an error. Probe generation operates on native object files, not LLVM bitcode, so the bitcode runtime carries no probes — a `--runtimebc` binary would have none. Use the default static runtime to trace your program.
+
 ## Runtime Statistics
 
 Runtime statistics tracking instruments the Pony runtime to report memory usage per actor and per scheduler thread. This is useful for understanding where memory is going in a running program.
