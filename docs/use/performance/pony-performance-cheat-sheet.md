@@ -193,6 +193,36 @@ type Cents is U8
 type Money is (Dollars, Cents)
 ```
 
+If, however, your program deals with multiple currencies that use dollars and cents, and you want the Pony type system to enforce this at compile-time, you can use a primitive to distinguish them:
+
+```pony
+type Dollars is U64
+type Cents is U8
+
+primitive USD
+primitive CAD
+
+type USMoney is (USD, Dollars, Cents)
+type CAMoney is (CAD, Dollars, Cents)
+```
+
+A primitive is a singleton with no fields: there's exactly one instance, and it lives in static memory. Constructing a value like `(USD, 100, 0)` doesn't allocate — the tag is just a pointer to that single static instance. If `USD` and `CAD` were classes instead, every value you created would trigger a heap allocation.
+
+The tag isn't completely free, though. ponyc represents the primitive element as a pointer to its singleton, so `USMoney` is one machine word wider than `(Dollars, Cents)` — that extra word gets passed around with the tuple. You pay it in registers and on the stack, not on the heap, so there's nothing to garbage collect, but in a hot path it's still a cost worth knowing about.
+
+The tag earns its keep at compile-time. Because `USMoney` and `CAMoney` are distinct types, the compiler won't let you mix them up:
+
+```pony
+fun spend(money: USMoney) =>
+  // ...
+
+let us: USMoney = (USD, 100, 0)
+let ca: CAMoney = (CAD, 200, 0)
+
+spend(us) // fine
+spend(ca) // compile error: CAMoney is not a USMoney
+```
+
 ### Avoid boxing machine words {#boxing-machine-words}
 
 Machine words like U8, U16, U32, U64, etc. are going to be better for performance than classes. Machine words have less overhead than classes. However, if we aren't careful, we can end up "boxing" machine words and add cost. In hot path code, that boxing can have a large impact.
