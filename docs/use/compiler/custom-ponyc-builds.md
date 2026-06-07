@@ -61,6 +61,9 @@ Compile your program with the instrumented ponyc, then run it under Valgrind:
 valgrind ./my-program
 ```
 
+!!! warning "Not available on OpenBSD"
+    Valgrind has no OpenBSD port, so its development headers aren't available and `use=valgrind` can't be built there. `gmake configure use=valgrind` is rejected on OpenBSD with an error.
+
 ## Address Sanitizer
 
 [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) (ASan) detects memory errors at runtime: buffer overflows, use-after-free, double-free, and stack buffer overflows.
@@ -73,6 +76,9 @@ make build
 Compile your program with the instrumented ponyc and run it normally. ASan reports errors to stderr as they occur.
 
 Cannot be combined with `thread_sanitizer`.
+
+!!! warning "Not available on OpenBSD"
+    OpenBSD's base toolchain ships no AddressSanitizer runtime, so `use=address_sanitizer` can't be built there. `gmake configure use=address_sanitizer` is rejected on OpenBSD with an error.
 
 ## Thread Sanitizer
 
@@ -87,6 +93,9 @@ Compile your program with the instrumented ponyc and run it normally. TSan repor
 
 Cannot be combined with `address_sanitizer`.
 
+!!! warning "Not available on OpenBSD"
+    OpenBSD's base toolchain ships no ThreadSanitizer runtime, so `use=thread_sanitizer` can't be built there. `gmake configure use=thread_sanitizer` is rejected on OpenBSD with an error.
+
 ## Undefined Behavior Sanitizer
 
 [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) (UBSan) detects undefined behavior at runtime: signed integer overflow, null pointer dereference, misaligned memory access, and other categories.
@@ -99,6 +108,9 @@ make build
 Compile your program with the instrumented ponyc and run it normally. UBSan reports violations to stderr.
 
 Can be combined with `address_sanitizer` or `thread_sanitizer`.
+
+!!! warning "Not available on OpenBSD"
+    OpenBSD ships only the minimal UndefinedBehaviorSanitizer runtime, not the standalone runtime ponyc links against, so `use=undefined_behavior_sanitizer` can't be built there. `gmake configure use=undefined_behavior_sanitizer` is rejected on OpenBSD with an error.
 
 ## DTrace / SystemTap
 
