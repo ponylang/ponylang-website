@@ -112,6 +112,9 @@ The available options:
 
 For detailed usage of valgrind, sanitizers, DTrace, and systematic testing, see [Custom ponyc Builds](../../use/compiler/custom-ponyc-builds.md).
 
+!!! warning "Some options aren't available on OpenBSD"
+    `valgrind`, `address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`, `coverage`, and `dtrace` depend on a runtime, headers, or tooling that OpenBSD doesn't ship, so they can't be built there. `gmake configure` rejects them on OpenBSD with an explanatory error instead of failing partway through the build. See ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md#unsupported-build-options) for the details.
+
 ## IDE Integration
 
 To generate a `compile_commands.json` for clangd and other LSP tools:
