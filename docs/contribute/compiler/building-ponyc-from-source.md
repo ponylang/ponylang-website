@@ -113,7 +113,7 @@ The available options:
 For detailed usage of valgrind, sanitizers, DTrace, and systematic testing, see [Custom ponyc Builds](../../use/compiler/custom-ponyc-builds.md).
 
 !!! warning "Some options aren't available on OpenBSD or DragonFly BSD"
-    On OpenBSD, `valgrind`, `address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`, `coverage`, and `dtrace` depend on a runtime, headers, or tooling that OpenBSD doesn't ship, so they can't be built there; `gmake configure` rejects them with an explanatory error instead of failing partway through the build. On DragonFly BSD, the three sanitizers (`address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`) can't be built because its `gcc13` toolchain ships no sanitizer runtime; `coverage` and `valgrind` do work there. See ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md#unsupported-build-options) for the details.
+    On OpenBSD, `valgrind`, `address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`, `coverage`, and `dtrace` depend on a runtime, headers, or tooling that OpenBSD doesn't ship, so they can't be built there; `gmake configure` rejects them with an explanatory error instead of failing partway through the build. On DragonFly BSD, the three sanitizers (`address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`) can't be built because its `gcc13` toolchain ships no sanitizer runtime; `coverage` and `valgrind` do work there. See ponyc's BUILD.md for the details.
 
 ## IDE Integration
 
