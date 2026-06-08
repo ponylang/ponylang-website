@@ -64,6 +64,9 @@ valgrind ./my-program
 !!! warning "Not available on OpenBSD"
     Valgrind has no OpenBSD port, so its development headers aren't available and `use=valgrind` can't be built there. `gmake configure use=valgrind` is rejected on OpenBSD with an error.
 
+!!! warning "Doesn't run on DragonFly BSD"
+    `use=valgrind` builds on DragonFly and the Pony programs it compiles link, but DragonFly ships Valgrind 3.15, which is too old to run a Pony program; it hangs on the runtime's memory arena. See [ponyc#5435](https://github.com/ponylang/ponyc/issues/5435).
+
 ## Address Sanitizer
 
 [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) (ASan) detects memory errors at runtime: buffer overflows, use-after-free, double-free, and stack buffer overflows.
