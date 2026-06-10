@@ -6,12 +6,7 @@ ponyc has built-in support for cross-compiling to Linux targets. The compiler em
 
 ## How It Works
 
-ponyc uses its embedded LLD linker for all Linux targets. Two conditions trigger this:
-
-1. No `--linker` flag is set.
-2. The target is Linux.
-
-If you do pass `--linker`, ponyc falls back to the legacy path and invokes that linker externally. This serves as an escape hatch if embedded LLD doesn't work for your situation.
+ponyc uses its embedded LLD linker for all Linux targets, both native and cross-compilation. There's nothing to enable. Linking happens in-process, with no external linker involved.
 
 ## What You Need
 
@@ -63,7 +58,6 @@ These flags control cross-compilation. Most are "rarely needed" in normal use, b
 | `--abi` | Target ABI (e.g., `lp64d`). Defaults to the host ABI. |
 | `--link-arch` | Linking architecture (e.g., `rv64gc`, `armv7-a`). |
 | `--sysroot` | Path to the target system root. Auto-detected from common cross-toolchain locations if not specified. |
-| `--linker` | Override the linker command. Bypasses embedded LLD and uses the specified external linker instead. |
 
 The `--sysroot` flag tells ponyc where to find the target's libc CRT objects and system libraries. If you don't specify it, ponyc searches these locations in order:
 
