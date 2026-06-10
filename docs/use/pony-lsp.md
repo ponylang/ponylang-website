@@ -85,7 +85,28 @@ Replace the example values with the actual defines your project needs.
 
 ### Neovim
 
-Configuration details are coming. If you use Neovim with pony-lsp, consider contributing to this section.
+If you have [nvim-lspconfig](https://github.com/neovim/nvim-lspconfig/tree/master) installed, add this to your `init.lua`:
+
+```lua
+vim.lsp.enable('pony_lsp')
+```
+
+and for project specific defines you can add the following to your `init.lua`:
+
+```lua
+    vim.lsp.config["pony_lsp"].settings = {
+        defines = {"FOO", "BAR"},
+        ponypath = {"/path/to/pony/package1", "/path/to/pony/package2"}
+    }
+```
+
+or
+
+if you dont want to install the `nvim-lspconfig` package you could copy this [file](https://github.com/neovim/nvim-lspconfig/blob/master/lsp/pony_lsp.lua) and place it in your nvim config directory `lsp/pony_lsp.lua` and then add this your `init.lua`:
+
+```lua
+vim.lsp.enable('pony_lsp')
+```
 
 ### Visual Studio Code
 
