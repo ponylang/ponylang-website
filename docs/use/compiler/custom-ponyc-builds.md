@@ -115,6 +115,23 @@ Can be combined with `address_sanitizer` or `thread_sanitizer`.
 !!! warning "Not available on OpenBSD or DragonFly BSD"
     OpenBSD ships only the minimal UndefinedBehaviorSanitizer runtime, not the standalone runtime ponyc links against; DragonFly BSD's `gcc13` toolchain doesn't build the UBSan runtime at all. Either way, `use=undefined_behavior_sanitizer` can't be built there. `gmake configure use=undefined_behavior_sanitizer` is rejected on OpenBSD with an error.
 
+## Coverage
+
+Instruments ponyc and the Pony runtime for source-level code coverage. It's built for working on ponyc itself: running the instrumented compiler records which parts of the compiler each invocation exercises, and running a program built with it records which parts of the runtime that program exercises. To measure coverage of your own Pony code instead, you don't need a custom build — see [Coverage Reports](../testing/coverage-reports.md).
+
+```bash
+make configure use=coverage
+make build
+```
+
+The instrumentation comes from the host toolchain's coverage support — `-fprofile-instr-generate -fcoverage-mapping` under Clang, `-fprofile-arcs -ftest-coverage` under GCC. A Clang build writes an LLVM profile (`default.profraw`) that you turn into a report with `llvm-profdata` and `llvm-cov`; a GCC build writes `.gcda` files for `gcov` or `lcov`. These report tools aren't part of the ponyc build — install them separately. For the full workflow, see [Clang's source-based coverage guide](https://clang.llvm.org/docs/SourceBasedCodeCoverage.html) or the [gcov documentation](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html).
+
+!!! warning "Not available on OpenBSD"
+    OpenBSD's base toolchain ships an incomplete profiling runtime, so a coverage-instrumented ponyc can't be linked there. `gmake configure use=coverage` is rejected on OpenBSD with an error.
+
+!!! warning "Doesn't link on DragonFly BSD"
+    DragonFly builds ponyc only with GCC, and GCC's `-fprofile-arcs` stamps a `__gcov_init`/`__gcov_exit` pair into every object — including libponyrt, which every Pony program statically links. ponyc's embedded linker never puts `libgcov` on the link line, so those symbols stay unresolved and the link fails. The ponyc build itself dies the same way once it reaches its bundled tools. See [ponyc#5434](https://github.com/ponylang/ponyc/issues/5434); when that's fixed this note flips to "works."
+
 ## DTrace / SystemTap
 
 The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes. They're consumed by SystemTap on Linux and by DTrace on FreeBSD. No other platform is supported: macOS removed DTrace, and neither DragonFly BSD nor OpenBSD ships a DTrace-compatible probe-generation tool (OpenBSD's `btrace` is a separate tracer with no USDT support).
