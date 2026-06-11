@@ -24,7 +24,8 @@ Every factual claim in the comment must come from a verifiable source: the raw
 summary itself, a linked PR/issue/RFC confirmed with `gh`, git history, or the
 user. This applies to more than the obvious facts. It applies to PR and RFC
 numbers, to their titles, to *the relationships between items* ("fixes the same
-bug as", "the opposite of", "stacked on"), to who attended or said what, and to
+bug as", "the opposite of", "stacked on"), to who attended or said what
+(including who was driving the "Main Pony" host identity — see Inputs), and to
 every characterization — "intermittent", "crash", "long-standing", "minor",
 "affects everyone". Duration, severity, history, and impact are factual claims.
 If you cannot substantiate one, do not write it.
@@ -54,6 +55,13 @@ You need three things from the user:
 If any are missing, ask before proceeding. If the recording is not posted yet,
 do not invent or guess a URL — ask whether to wait for it, omit the `Recording:`
 line, or use a placeholder the user gives you.
+
+**Always ask who hosted as "Main Pony."** "Main Pony" (often just "Main") is the
+shared host identity for the sync — usually Joe, but sometimes Sean or someone
+else. It is a role, not a fixed person, so never assume who it was, and never
+render the literal "Main Pony" as if it were a name. Ask every time. You only
+need their real name in the comment when you attribute something specific that
+Main said or did, but ask up front so the name is on hand and you never guess.
 
 ## Voice and format
 
@@ -87,7 +95,8 @@ requests** — check which before you link. (In the worked example below, "RFC
 ## Steps
 
 1. **Gather inputs.** Confirm you have the summary, the date, and the recording
-   URL. Ask for anything missing (see Inputs).
+   URL, and ask who hosted as "Main Pony" this meeting (see Inputs). Ask for
+   anything missing.
 
 2. **Extract and verify every reference.** Pull every PR/issue/RFC number out of
    the summary. For each, confirm it with `gh`:
@@ -111,7 +120,8 @@ requests** — check which before you link. (In the worked example below, "RFC
 5. **Write the narrative.** Team "we", Sean's prose style. Open with a sentence
    that frames the shape of the sync, then walk the items with connective
    tissue between them. Cite each reference as `owner/repo NNNN` linked to its
-   URL.
+   URL. When you attribute something to "Main", use the real name from step 1,
+   never "Main Pony" or "Main".
 
 6. **Find the open issue.** Run:
 
