@@ -18,6 +18,8 @@ Access is via individual accounts which can then be granted various levels of ac
 
 All our docker images that are used across various CI and release jobs are stored in the GitHub Container Registry.
 
+We also use it as the cache for the compiler's vendored LLVM build. CI stores the prebuilt LLVM libraries there as OCI artifacts so jobs don't rebuild LLVM from scratch on every run.
+
 ## MailWip
 
 We have a paid account with [MailWip](https://mailwip.com/). All `@ponylang.io` email addresses are set up with MailWip that then forwards them on to a set of aliases.
