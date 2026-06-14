@@ -2,7 +2,7 @@
 
 Across a variety of repositories, we have a number of scheduled CI jobs. This document is an attempt to give a broad overview of what exists and when they run. Please note, this list is not guaranteed to be up-to-date and you should check various repos for final confirmation.
 
-The scheduled jobs list was last updated March 7, 2026.
+The scheduled jobs list was last updated June 14, 2026.
 
 <!-- markdownlint-disable -->
 
@@ -12,8 +12,10 @@ The scheduled jobs list was last updated March 7, 2026.
 | corral: nightly build | 00:00 | [ponylang/corral](https://github.com/ponylang/corral) |
 | ponyc: nightly build | 00:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: Tier 2 CI | 01:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: Tier 3 CI | 03:00 Sat | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: Weekly Checks | 03:00 Sun | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: Tier 3 CI | 02:00 Mon/Wed/Fri | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: Weekly Checks | 03:00 Thu | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: prune branch libs cache | 04:37 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: verify nightly image freshness | 06:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyup: nightly build | 00:00 | [ponylang/ponyup](https://github.com/ponylang/ponyup) |
 | rfc-tool: nightly build | 00:00 | [ponylang/rfc-tool](https://github.com/ponylang/rfc-tool) |
 | ponylang-website: verify site builds | 02:00 | [ponylang/ponylang-website](https://github.com/ponylang/ponylang-website) |
