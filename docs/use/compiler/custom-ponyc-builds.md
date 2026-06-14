@@ -81,7 +81,7 @@ Compile your program with the instrumented ponyc and run it normally. ASan repor
 Cannot be combined with `thread_sanitizer`.
 
 !!! warning "Not available on OpenBSD or DragonFly BSD"
-    OpenBSD's base toolchain ships no AddressSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `use=address_sanitizer` can't be built on either. `gmake configure use=address_sanitizer` is rejected on OpenBSD with an error.
+    OpenBSD's base toolchain ships no AddressSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `use=address_sanitizer` can't be built on either. `gmake configure use=address_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
 
 ## Thread Sanitizer
 
@@ -97,7 +97,7 @@ Compile your program with the instrumented ponyc and run it normally. TSan repor
 Cannot be combined with `address_sanitizer`.
 
 !!! warning "Not available on OpenBSD or DragonFly BSD"
-    OpenBSD's base toolchain ships no ThreadSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `use=thread_sanitizer` can't be built on either. `gmake configure use=thread_sanitizer` is rejected on OpenBSD with an error.
+    OpenBSD's base toolchain ships no ThreadSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `use=thread_sanitizer` can't be built on either. `gmake configure use=thread_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
 
 ## Undefined Behavior Sanitizer
 
@@ -113,7 +113,7 @@ Compile your program with the instrumented ponyc and run it normally. UBSan repo
 Can be combined with `address_sanitizer` or `thread_sanitizer`.
 
 !!! warning "Not available on OpenBSD or DragonFly BSD"
-    OpenBSD ships only the minimal UndefinedBehaviorSanitizer runtime, not the standalone runtime ponyc links against; DragonFly BSD's `gcc13` toolchain doesn't build the UBSan runtime at all. Either way, `use=undefined_behavior_sanitizer` can't be built there. `gmake configure use=undefined_behavior_sanitizer` is rejected on OpenBSD with an error.
+    OpenBSD ships only the minimal UndefinedBehaviorSanitizer runtime, not the standalone runtime ponyc links against; DragonFly BSD's `gcc13` toolchain doesn't build the UBSan runtime at all. Either way, `use=undefined_behavior_sanitizer` can't be built there. `gmake configure use=undefined_behavior_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
 
 ## Coverage
 
@@ -134,7 +134,7 @@ The instrumentation comes from the host toolchain's coverage support — `-fprof
 
 ## DTrace / SystemTap
 
-The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes. They're consumed by SystemTap on Linux and by DTrace on FreeBSD. No other platform is supported: macOS removed DTrace, and neither DragonFly BSD nor OpenBSD ships a DTrace-compatible probe-generation tool (OpenBSD's `btrace` is a separate tracer with no USDT support).
+The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes. They're consumed by SystemTap on Linux and by DTrace on FreeBSD. No other platform is supported: macOS removed DTrace, and neither DragonFly BSD nor OpenBSD ships a DTrace-compatible probe-generation tool (OpenBSD's `btrace` is a separate tracer with no USDT support). On DragonFly BSD and OpenBSD, `gmake configure use=dtrace` is rejected with an error rather than failing later in the build.
 
 Building requires a `dtrace`-compatible tool on your `PATH`:
 
