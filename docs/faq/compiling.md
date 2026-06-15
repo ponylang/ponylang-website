@@ -2,7 +2,7 @@
 
 ## What are Pony's supported CPU platforms? {:id="supported-CPUs"}
 
-See [supported platforms](https://github.com/ponylang/ponyc?tab=readme-ov-file#supported-platforms) in the [ponyc](https://github.com/ponylang/ponyc) [README](https://github.com/ponylang/ponyc?tab=readme-ov-file).
+See [supported platforms](../learn/installing-pony.md#supported-platforms).
 
 ## I get a "requires dynamic" error when compiling, how do I solve it? {:id="pic-compile-error"}
 
