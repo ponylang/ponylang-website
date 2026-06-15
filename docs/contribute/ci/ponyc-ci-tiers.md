@@ -1,6 +1,6 @@
 # ponyc CI Tiers
 
-ponyc organizes its CI into three tiers to balance fast feedback against comprehensive coverage. Tier 1 runs on every PR for fast feedback. Beyond that, the split tracks release-target status: Tier 2 holds the platforms we ship release binaries for, and Tier 3 holds platforms we test but don't ship. There's also a set of weekly checks that exist outside the tier system.
+ponyc organizes its CI into three tiers to balance fast feedback against comprehensive coverage. The split tracks release-target status: Tier 1 and Tier 2 are both platforms we ship release binaries for — Tier 1 is the subset gated on every PR for fast feedback, and Tier 2 holds the rest, run on a schedule. Tier 3 holds platforms we test but don't ship release binaries for. There's also a set of weekly checks that exist outside the tier system.
 
 ## Tier 1
 
@@ -27,7 +27,7 @@ Tier 2 jobs are defined in the [ponyc-tier2](https://github.com/ponylang/ponyc/b
 
 ## Tier 3
 
-Tier 3 covers platforms we test but don't ship release binaries for; support is best-effort. They run on a three-day-a-week schedule (Monday, Wednesday, and Friday at 2 AM UTC), gated on whether there were commits in the last 3 days.
+Tier 3 covers platforms we test but don't ship release binaries for. They run on a three-day-a-week schedule (Monday, Wednesday, and Friday at 2 AM UTC), gated on whether there were commits in the last 3 days.
 
 - `riscv64` Linux (cross-compiled)
 - arm Linux (cross-compiled)
