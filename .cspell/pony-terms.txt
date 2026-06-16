@@ -272,6 +272,7 @@ raspios
 RCDATA
 RDMA
 redvers
+redzones
 refcap
 refcaps
 Regehr
