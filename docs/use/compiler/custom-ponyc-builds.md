@@ -26,7 +26,7 @@ Every option follows the same pattern:
     make build
     ```
 
-The resulting `ponyc` binary is in `build/release/`. Use it in place of your system `ponyc` to compile programs with the instrumentation enabled.
+The resulting `ponyc` binary is in `build/release/` — or, when you pass `use=` options, a suffixed directory like `build/release-address_sanitizer` that lists the enabled options. Use it in place of your system `ponyc` to compile programs with the instrumentation enabled.
 
 To combine multiple options, separate them with commas:
 
@@ -79,6 +79,26 @@ make build
 Compile your program with the instrumented ponyc and run it normally. ASan reports errors to stderr as they occur.
 
 Cannot be combined with `thread_sanitizer`.
+
+To catch errors in the Pony runtime's own allocations, pair it with `pool_memalign`, which routes every runtime allocation through `posix_memalign`/`free` so ASan can surround each one with redzones:
+
+```bash
+make configure use=pool_memalign,address_sanitizer
+make build
+```
+
+The instrumented `ponyc` isn't LeakSanitizer-clean, so running it — during its own build, and whenever you use it to compile a program — needs `ASAN_OPTIONS` set in the environment. Without it the compiler reports its own leaks at exit, and on libc++ platforms aborts on false container overflows:
+
+- **Linux**: `ASAN_OPTIONS=detect_leaks=0`
+- **FreeBSD and macOS**: `ASAN_OPTIONS=detect_leaks=0:detect_container_overflow=0` — the extra flag suppresses false positives from libc++ container annotations when the instrumented compiler shares `std::vector`/`std::string` with the non-instrumented vendored LLVM.
+
+A `use=pool_memalign,address_sanitizer` build's `ponyc` lands in `build/release-address_sanitizer-pool_memalign`, not `build/release`. For example, to compile a program on Linux:
+
+```bash
+ASAN_OPTIONS=detect_leaks=0 ./build/release-address_sanitizer-pool_memalign/ponyc path/to/your/program
+```
+
+Both options concern `ponyc` itself, not the programs it compiles. A correct Pony program is LeakSanitizer-clean at exit, so run a program you compiled with LeakSanitizer left on — it will report genuine leaks in your own code, such as memory you allocate through FFI and never free.
 
 !!! warning "Not available on OpenBSD or DragonFly BSD"
     OpenBSD's base toolchain ships no AddressSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `use=address_sanitizer` can't be built on either. `gmake configure use=address_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
