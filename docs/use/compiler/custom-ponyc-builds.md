@@ -137,7 +137,7 @@ Can be combined with `address_sanitizer` or `thread_sanitizer`.
 
 ## Coverage
 
-Instruments ponyc and the Pony runtime for source-level code coverage. It's built for working on ponyc itself: running the instrumented compiler records which parts of the compiler each invocation exercises, and running a program built with it records which parts of the runtime that program exercises. To measure coverage of your own Pony code instead, you don't need a custom build — see [Coverage Reports](../testing/coverage-reports.md).
+Instruments ponyc and the Pony runtime for source-level code coverage. It's built for working on ponyc itself: run a coverage-instrumented ponyc and its test suite to see which parts of the compiler and runtime C code each run exercises. To measure coverage of your own Pony code instead, you don't need a custom build — see [Coverage Reports](../testing/coverage-reports.md).
 
 ```bash
 make configure use=coverage
@@ -148,9 +148,6 @@ The instrumentation comes from the host toolchain's coverage support — `-fprof
 
 !!! warning "Not available on OpenBSD"
     OpenBSD's base toolchain ships an incomplete profiling runtime, so a coverage-instrumented ponyc can't be linked there. `gmake configure use=coverage` is rejected on OpenBSD with an error.
-
-!!! warning "Doesn't link on DragonFly BSD"
-    DragonFly builds ponyc only with GCC, and GCC's `-fprofile-arcs` stamps a `__gcov_init`/`__gcov_exit` pair into every object — including libponyrt, which every Pony program statically links. ponyc's embedded linker never puts `libgcov` on the link line, so those symbols stay unresolved and the link fails. The ponyc build itself dies the same way once it reaches its bundled tools. See [ponyc#5434](https://github.com/ponylang/ponyc/issues/5434); when that's fixed this note flips to "works."
 
 ## DTrace / SystemTap
 
