@@ -131,20 +131,29 @@ Follow these steps:
    supported.") — describe things the way you'd tell someone about them
    in conversation.
 
-3. **Find the open issue**: Run
+3. **Rotate the issue first**: Run
    `gh issue list --repo ponylang/ponylang-website --label last-week-in-pony --state open`
-   to find the current issue, then read it with all comments.
-
-4. **Rotate the issue**: Calculate the next Sunday from today's date. Create
-   a new empty issue in `ponylang/ponylang-website` titled
+   to identify the current issue. Calculate the next Sunday from today's
+   date. Create a new empty issue in `ponylang/ponylang-website` titled
    `Last Week in Pony - {next Sunday: Month Day, Year}`, add the
    `last-week-in-pony` label, and pin it. Then remove the
    `last-week-in-pony` label from the current week's issue, unpin it, and
-   close it. The old issue is done once we've read it.
+   close it.
 
-5. **Read release notes**: For any release items in the issue, fetch the
-   release notes (e.g., `gh release view TAG --repo ORG/REPO`) and evaluate
-   whether the release has noteworthy content deserving its own section.
+   Why first: until you rotate, the current issue is still the live,
+   pinned target. If you collect the week's items and *then* rotate,
+   anything posted in between lands on an issue you've already read and
+   closed — lost from both this post and next week's. Rotating first
+   moves the live target to the new issue, freezing this week's set
+   before you read it.
+
+4. **Read the rotated-out issue**: Read the now-closed issue with all its
+   comments. This is the frozen set of items for the post.
+
+5. **Read release notes**: For any release items in the rotated-out
+   issue, fetch the release notes (e.g.,
+   `gh release view TAG --repo ORG/REPO`) and evaluate whether the
+   release has noteworthy content deserving its own section.
 
 6. **Verify and ask clarifying questions**: Before writing, list every
    characterization you intend to make about history, severity, duration,
