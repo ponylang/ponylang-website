@@ -71,9 +71,9 @@ recap of a group meeting, so "we" is the subject. Do **not** write it in the
 first person "I"; that voice belongs to the finished post, which `lwip` frames
 itself.
 
-Load the `seans-voice` skill for the voice. From this project's AGENTS.md, take
-only two things: the tone notes (Hemingway-esque, conversational, not clipped)
-and the `owner/repo` reference convention. Ignore the blog-post format in
+For the voice, follow the inline guidance above. From this project's AGENTS.md,
+take only two things: the tone notes (Hemingway-esque, conversational, not
+clipped) and the `owner/repo` reference convention. Ignore the blog-post format in
 AGENTS.md (front matter, `## Items of Note`, footer) — that is for the published
 post, not for a comment. AGENTS.md is already in context via the project
 CLAUDE.md, so reference it; do not copy it in.
@@ -142,9 +142,8 @@ requests** — check which before you link. (In the worked example below, "RFC
    - **Fabrication audit.** Re-read the draft. Every number, title, link,
      relationship, and characterization must trace to a source you verified this
      session. Anything that does not — verify it or cut it.
-   - **Voice self-review.** One anti-pattern at a time, per the `seans-voice`
-     skill: anthropomorphizing, unclear antecedents, AI tells, inflated claims,
-     choppy fact sequences.
+   - **Voice self-review.** One anti-pattern at a time: anthropomorphizing,
+     unclear antecedents, AI tells, inflated claims, choppy fact sequences.
 
 9. **Post the comment.** Write the body to a temp file under `~/tmp` (create the
    directory first with `mkdir -p ~/tmp` if it is missing) and post a new

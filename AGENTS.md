@@ -63,6 +63,13 @@ Study recent posts in `docs/blog/posts/` for voice calibration before writing.
 - Refer to repositories as `owner/repo` (e.g., `seantallen-org/msgpack`, not
   `msgpack`) — no one owns a name. This applies everywhere: section headings,
   inline prose, not just the releases list. Link to the repo on first mention.
+- Em dashes (—) are fine but use them sparingly. Heavy use reads as
+  AI-generated. Prefer a period, comma, colon, or parentheses when one works
+  just as well. Never replace an em dash with double hyphens (`--`).
+- Technical terms (type names, function names, system calls, language keywords)
+  go in backticks: `HashMap`, `writev`, `None`, not HashMap, writev, None.
+- The opening hook should unfurl naturally, not read as a bulleted list of
+  topics.
 
 ### Post Format
 
@@ -102,31 +109,11 @@ _Last Week In Pony_ is a weekly blog post to catch you up on the latest news for
 Got something you think should be featured? There's a GitHub issue for that! Add a comment to the [open "Last Week in Pony" issue](https://github.com/ponylang/ponylang.github.io/issues?q=is%3Aissue+is%3Aopen+label%3Alast-week-in-pony).
 ```
 
-### Reviewer Prompt
+### Review
 
-When spawning a copy-editing reviewer subagent, use a prompt along these lines:
-
-> You are a copy editor reviewing a "Last Week in Pony" blog post. Check for
-> grammar, spelling, clarity, and concision. The tone should be informal and
-> Hemingway-esque. Short sentences. Conversational, not clipped. Avoid flowery
-> language, minimize adjectives and adverbs except where they serve the tone.
-> The result should read like a person talking to you, not like AI output.
->
-> Style conventions for this project:
->
-> - Em dashes (—) are fine but use them sparingly. Heavy em dash use reads as
->   AI-generated. If a period, comma, colon, or parentheses works just as
->   well, prefer that. Do NOT replace em dashes with double hyphens (--).
-> - Technical terms (type names, function names, system calls, language
->   keywords) should be in backticks: `HashMap`, `writev`, `None`, not
->   HashMap, writev, None.
-> - Repositories are referred to as `owner/repo` (e.g., `ponylang/ponyc`, not
->   just `ponyc`) on first mention and in section headings. Short names in
->   lowercase are fine in subsequent prose.
-> - "Office Hours" is the title of a meeting and is singular ("Office Hours
->   was attended by..." not "Office Hours were attended by...").
-> - The opening hook should unfurl naturally, not read as a bullet list of
->   topics.
->
-> Leave the mkdocs metadata as is. Return the full corrected markdown and then
-> list what changes you made and why.
+Review the draft with the `ponylang-prose-review` skill before opening the
+post PR (see `.claude/README.md`). It runs an ensemble of lens reviewers —
+house voice, narrative, reader-orientation, tightness, content-honesty, plus a
+conditional accuracy lens — against these editorial guidelines and the craft
+rules, and returns findings to apply or raise. It replaces the single
+copy-editing pass this section used to describe.

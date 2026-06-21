@@ -166,17 +166,18 @@ Follow these steps:
 7. **Write the draft**: Create the post following the format in AGENTS.md.
    Use the date from the issue title for the filename and front matter.
 
-8. **Review loop**:
-   a. Spawn a reviewer subagent (using Task tool, subagent_type
-      "general-purpose") with the copy-editing prompt from AGENTS.md. Pass
-      the full draft content. The reviewer has no conversation history — give
-      it everything it needs in the prompt.
-   b. For each finding: incorporate changes you agree with; if you disagree,
-      present the dispute to the user for a ruling.
-   c. If any changes were made, spawn a new reviewer on the updated content.
-   d. Repeat until a reviewer comes back clean.
-   e. If 3 rounds pass without a clean result, ask the user whether to
-      continue. Check in every 3 rounds thereafter.
+8. **Review**: Run the `ponylang-prose-review` skill on the draft (full
+   mode — a post is always more than two paragraphs). It runs the house-voice,
+   narrative, reader-orientation, tightness, and content-honesty lenses as
+   parallel reviewers (plus a conditional accuracy lens when the post has code
+   or technical claims), checks the draft against the AGENTS.md editorial
+   guidelines and the craft rules with the week's source bundle (the rotated
+   issue and its comments, linked posts, release notes, cited PRs/issues) in
+   hand, and runs the mechanical pre-check (cspell, `mkdocs build --strict`,
+   em-dash count, link sanity). Apply its Fix findings; for each Park finding,
+   incorporate it if you agree, or present the dispute to the user for a
+   ruling. The ensemble synthesizes in one pass — there's no per-round
+   re-spawn loop.
 
 9. **Commit and PR**: Create a branch, commit the new post with the message
    `Last Week in Pony - Month Day, Year`, and open a PR. Report the PR URL
