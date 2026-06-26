@@ -2,7 +2,7 @@
 
 Across a variety of repositories, we have a number of scheduled CI jobs. This document is an attempt to give a broad overview of what exists and when they run. Please note, this list is not guaranteed to be up-to-date and you should check various repos for final confirmation.
 
-The scheduled jobs list was last updated June 25, 2026.
+The scheduled jobs list was last updated June 26, 2026.
 
 <!-- markdownlint-disable -->
 
@@ -24,11 +24,11 @@ The scheduled jobs list was last updated June 25, 2026.
 | ponyc: stress test (Linux TCP open/close) | 07:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: stress test (macOS TCP open/close) | 13:30 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: stress test (Windows TCP open/close) | 17:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: stress test (Linux ubench) | 18:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: stress test (macOS ubench) | 21:30 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: stress test (Windows ubench) | 23:15 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: stress test (macOS generative) | 08:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: stress test (Linux musl generative) | 14:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (macOS generative, systematic) | 08:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (Linux musl generative, systematic) | 14:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (Linux musl generative, normal) | 18:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (macOS generative, normal) | 21:30 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (Windows generative, normal) | 23:15 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | lori: stress tests | 06:30 | [ponylang/lori](https://github.com/ponylang/lori) |
 | ponyc: test with latest tools | 12:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | pony-sync-helper: post good first issues | 14:00 Mon | [ponylang/pony-sync-helper](https://github.com/ponylang/pony-sync-helper) |
