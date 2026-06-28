@@ -20,6 +20,8 @@ The easiest way to install Pony is through [ponyup](https://github.com/ponylang/
 * ✗ **Unsupported** — no support
 * — **Not applicable** — combination doesn't exist
 
+On Windows, the minimum supported version is **Windows 11 / Windows Server 2022** (build 20348). Pony's networking uses an OS readiness API introduced in that build; earlier versions, including Windows 10, are unsupported.
+
 Platforms marked 🧪 Tested have no prebuilt binary; you'll need to [build ponyc from source](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
 
 ## Install ponyup
