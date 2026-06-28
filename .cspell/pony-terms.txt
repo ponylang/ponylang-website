@@ -300,6 +300,7 @@ Sendence
 Sendence's
 SFML
 sform
+Shallaras
 Sheeeeee
 shellcheck
 Shyu
