@@ -34,7 +34,7 @@ Tier 3 covers platforms we test but don't ship release binaries for. They run on
 - arm Linux (cross-compiled)
 - armhf Linux (cross-compiled)
 - x86-64 FreeBSD 14.3
-- x86-64 FreeBSD 15.0
+- x86-64 FreeBSD 15.1
 - x86-64 OpenBSD 7.9
 - x86-64 DragonFly BSD 6.4.2
 
