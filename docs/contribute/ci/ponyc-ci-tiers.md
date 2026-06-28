@@ -6,11 +6,11 @@ ponyc organizes its CI into three tiers to balance fast feedback against compreh
 
 Tier 1 jobs run on every non-draft PR. These are the primary platforms where we want fast feedback and where regressions are most likely to be caught. A PR must pass all Tier 1 jobs before merging.
 
-- x86-64 Linux (musl)
+- x86-64 Linux (glibc)
 - arm64 macOS
 - x86-64 Windows
 
-For x86-64 Linux, the per-PR job builds against musl; the glibc build runs in Tier 2.
+For x86-64 Linux, the per-PR job builds against glibc; the musl build runs in Tier 2.
 
 Tier 1 jobs are defined in the [pr](https://github.com/ponylang/ponyc/blob/main/.github/workflows/pr.yml) workflow.
 
@@ -18,7 +18,8 @@ Tier 1 jobs are defined in the [pr](https://github.com/ponylang/ponyc/blob/main/
 
 Tier 2 covers the platforms we ship release binaries for that aren't already gated on every PR by Tier 1. They run on a daily schedule (1 AM UTC) rather than on every PR, gated on whether there were commits in the last 24 hours.
 
-- x86-64 Linux glibc (deb and rpm)
+- x86-64 Linux musl
+- x86-64 Linux glibc (rpm)
 - arm64 Linux (glibc and musl)
 - x86-64 macOS
 - arm64 Windows
