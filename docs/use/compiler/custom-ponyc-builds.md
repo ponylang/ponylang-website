@@ -212,6 +212,9 @@ For details on tracing options and usage, see [Tracing Pony Programs](../debuggi
 
 Systematic testing replaces the Pony scheduler with a deterministic, single-threaded scheduler that explores different actor interleaving orders. This is useful for reproducing concurrency bugs that are otherwise non-deterministic.
 
+!!! warning "Not for I/O-driven bugs"
+    Systematic testing can't reproduce bugs that depend on timers, sockets, signals, or standard input. It debugs how your actors interleave with each other, not how they interact with the outside world. See the "I/O Is Not Available" section below.
+
 Systematic testing requires two options together:
 
 ```bash
@@ -235,3 +238,18 @@ A typical workflow:
 2. Note the seed from the failing run.
 3. Replay with `--ponysystematictestingseed` to reproduce the bug deterministically.
 4. Fix the bug and verify with the same seed that the fix holds.
+
+### I/O Is Not Available
+
+Systematic testing does not run the ASIO thread, the runtime thread that handles sockets, standard input, process I/O, signals, and timers. That thread does external work whose timing a seed can't control, so running it would make your run only partly deterministic.
+
+Ordinary output still works: printing with `env.out.print`, writing to stderr, and synchronous file I/O don't go through the ASIO thread. But registering an asynchronous I/O event, such as opening a socket, reading standard input, spawning a process, installing a signal handler, or arming a timer (including anything using `time.Timers`, which is built on the same I/O), aborts your program with:
+
+```text
+systematic testing: this program tried to register an I/O event (socket,
+stdin, process, signal, or timer), but I/O is not available under systematic
+testing. The ASIO thread is not run so that execution stays deterministic.
+Remove the I/O or build without use=systematic_testing.
+```
+
+So if your bug depends on timers, sockets, signals, or spawned processes, systematic testing can't reproduce it: those depend on the outside world, which a seed can't replay. Removing the ASIO thread makes the runtime itself deterministic, but your own code can still introduce non-determinism by other means.
