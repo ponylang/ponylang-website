@@ -10,7 +10,7 @@ Compiled Pony programs accept `--pony*` command-line flags for tuning scheduler 
 
 ## Custom ponyc Builds
 
-ponyc can be built from source with instrumentation options for debugging: Valgrind annotations, sanitizers (address, thread, undefined behavior), DTrace/SystemTap probes, and systematic testing for concurrency bugs.
+ponyc can be built from source with instrumentation options for debugging: Valgrind annotations, sanitizers (address, thread, undefined behavior), DTrace/SystemTap probes, and systematic testing for the runtime's own concurrency bugs.
 
 - [Custom ponyc Builds for Debugging](compiler/custom-ponyc-builds.md)
 

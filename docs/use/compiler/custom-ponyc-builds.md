@@ -210,7 +210,9 @@ For details on tracing options and usage, see [Tracing Pony Programs](../debuggi
 
 ## Systematic Testing
 
-Systematic testing replaces the Pony scheduler with a deterministic, single-threaded scheduler that explores different actor interleaving orders. This is useful for reproducing concurrency bugs that are otherwise non-deterministic.
+Systematic testing replaces the Pony scheduler with a deterministic, single-threaded scheduler that explores different actor interleaving orders. It's a tool for working on the runtime itself: when a runtime change has a bug that only shows up under some scheduler interleaving, systematic testing lets you replay that interleaving from a seed.
+
+A program run under systematic testing has to be deterministic, and keeping it that way is on you. The runtime removes its own source of nondeterminism: it turns off the ASIO thread entirely, the thread that does asynchronous I/O whose timing a seed can't control. So any asynchronous I/O — a socket, standard input, a spawned process, a signal handler, a timer — aborts the program. Ordinary output and synchronous file I/O still work. But that's only the runtime's nondeterminism. Your own code can still make a run you can't replay — reading the wall clock, say — and unlike I/O, that won't abort.
 
 Systematic testing requires two options together:
 
@@ -223,7 +225,7 @@ The `scheduler_scaling_pthreads` option is required because systematic testing n
 
 ### Seed-Based Replay
 
-When a systematic testing build runs, it uses a random seed to determine the interleaving order. If a run triggers a bug, the runtime prints the seed and a rerun command to stderr. You can replay the exact same interleaving:
+When a systematic testing build runs, it uses a random seed to determine the interleaving order. The runtime prints the seed and a rerun command to stderr at the start of every run. When a run triggers a bug, replay that seed to reproduce the exact same interleaving:
 
 ```bash
 ./my-program --ponysystematictestingseed 12345
