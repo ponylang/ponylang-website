@@ -21,9 +21,11 @@ The scheduled jobs list was last updated June 28, 2026.
 | ponylang-website: verify site builds | 02:00 | [ponylang/ponylang-website](https://github.com/ponylang/ponylang-website) |
 | pony-patterns: verify site builds | 02:00 | [ponylang/pony-patterns](https://github.com/ponylang/pony-patterns) |
 | pony-tutorial: verify site builds | 02:00 | [ponylang/pony-tutorial](https://github.com/ponylang/pony-tutorial) |
-| ponyc: stress test (Linux TCP open/close) | 07:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: stress test (macOS TCP open/close) | 13:30 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| ponyc: stress test (Windows TCP open/close) | 17:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (Linux glibc TCP swarm) | 06:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (macOS TCP swarm) | 09:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (Linux glibc TCP swarm) | 12:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (macOS TCP swarm) | 15:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
+| ponyc: stress test (Windows TCP swarm) | 16:30 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: stress test (macOS generative, systematic) | 08:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: stress test (Linux glibc generative, systematic) | 14:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: stress test (Windows generative, systematic) | 11:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
