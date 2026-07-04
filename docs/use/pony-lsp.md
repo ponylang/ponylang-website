@@ -66,7 +66,7 @@ indent = { tab-width = 2, unit = "  " }
 
 [language-server.pony-lsp]
 command = "pony-lsp"
-args = [""]
+args = []
 ```
 
 #### Project-Specific Defines
