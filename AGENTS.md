@@ -113,7 +113,7 @@ Got something you think should be featured? There's a GitHub issue for that! Add
 
 Review the draft with the `ponylang-prose-review` skill before opening the
 post PR (see `.claude/README.md`). It runs an ensemble of lens reviewers —
-house voice, narrative, reader-orientation, tightness, content-honesty, plus a
+house voice, agency, narrative, reader-orientation, tightness, content-honesty, plus a
 conditional accuracy lens — against these editorial guidelines and the craft
 rules, and returns findings to apply or raise. It replaces the single
 copy-editing pass this section used to describe.
