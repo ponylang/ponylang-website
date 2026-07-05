@@ -144,6 +144,7 @@ Infosec
 Inktober
 IOCP
 ipaddr
+IPFS
 isolcpus
 itertools
 jackassery
@@ -215,6 +216,7 @@ multilib
 mwahl
 MZTE
 nearlyfreespeech
+Neovim
 Niclas
 Nikolaus
 Nixpkgs
@@ -348,6 +350,7 @@ ubench
 unaliased
 Uncategorized
 Uncloudy
+unmute
 unrepresentable
 Unsession
 valbytes
