@@ -1,6 +1,6 @@
 ---
 name: ponylang-prose-review
-description: Ensemble review of ponylang blog and Last Week in Pony prose. Runs lens personas in parallel — house voice, narrative, reader-orientation, tightness, content-honesty, plus a conditional accuracy lens — checks the draft against the AGENTS.md editorial guidelines and the craft rules, and returns Fix/Park findings. Self-contained: no dependency on any other skill. Load after a draft exists, before the post PR.
+description: Ensemble review of ponylang blog and Last Week in Pony prose. Runs lens personas in parallel — house voice, agency, narrative, reader-orientation, tightness, content-honesty, plus a conditional accuracy lens — checks the draft against the AGENTS.md editorial guidelines and the craft rules, and returns Fix/Park findings. Self-contained: no dependency on any other skill. Load after a draft exists, before the post PR.
 disable-model-invocation: false
 ---
 
@@ -44,7 +44,7 @@ count fenced code blocks, YAML front matter, headings, or list items.
 PARAGRAPH_THRESHOLD = 2
 ```
 
-- **> 2 prose paragraphs → full review.** The five-lens ensemble below — six when the draft
+- **> 2 prose paragraphs → full review.** The six-lens ensemble below — seven when the draft
   has code or technical claims, where the conditional Accuracy lens joins. A post is always
   full.
 - **≤ 2 prose paragraphs → cheap inline pass.** No subagents. The orchestrator reads the
@@ -90,15 +90,17 @@ For a dev-sync issue comment (not a repo file): em-dash count + link sanity only
 3. **Make an evidence dir:** `~/tmp/prose-review-<timestamp>/`. Each persona writes its
    detailed evidence to a file there; pass the path in the prompt.
 4. **Spawn the lens personas in parallel**, each a fresh-context subagent on your most capable
-   model. Five always run: House-voice, Narrative, Orientation, Tightness, Content-honesty. A
-   sixth, **Accuracy**, joins **only when the draft has code or makes technical/behavioral
-   claims about a system** (compiler internals, an API, a release); skip it otherwise. Each
-   prompt includes:
+   model. Six always run: House-voice, Agency, Narrative, Orientation, Tightness,
+   Content-honesty. A seventh, **Accuracy**, joins **only when the draft has code or makes
+   technical/behavioral claims about a system** (compiler internals, an API, a release); skip
+   it otherwise. Each prompt includes:
    - The persona document, read from `personas/<lens>.md`.
    - Its rulebook slice: the **House-voice** persona gets the AGENTS.md "Last Week in Pony"
      section and 2–3 recent posts from `docs/blog/posts/` for calibration; the Narrative,
      Orientation, Tightness, and Content-honesty personas get the relevant sections of
-     `references/craft-rules.md`. The **Accuracy** persona reads the actual source instead.
+     `references/craft-rules.md`. The **Agency** persona needs no rulebook slice — its rule is
+     self-contained in its persona doc, and it works from the draft alone. The **Accuracy**
+     persona reads the actual source instead.
    - The draft in full.
    - For the **Content-honesty** and **Tightness** personas: the full source bundle.
    - For the **Accuracy** persona: the source the draft describes (the repo/files, release
@@ -107,7 +109,11 @@ For a dev-sync issue comment (not a repo file): em-dash count + link sanity only
    - "You are an ensemble agent — return findings to the orchestrator, take no external
      actions, edit nothing."
 5. **Triage persona outputs** — confirm each addressed the actual draft and stayed on its
-   lens. Drop nothing silently.
+   lens. Drop nothing silently. Hold the **enumerative lenses to a higher bar**: the Agency
+   lens must return its subject–verb table for the whole draft, and the Narrative lens the
+   numbered idea-sequence for each section. A holistic verdict from either — "no
+   anthropomorphizing," "reads fine" — with no enumeration behind it is not a pass; it is a
+   lens that skipped the work. Re-run it and demand the enumeration.
 6. **Synthesize** (inlined below).
 7. **Triage into Fix / Park** and act (below).
 
@@ -128,6 +134,12 @@ from the draft, what's wrong, the rule it violates, and the concrete rewrite.
     (Park)? With the suggested rewrite (Fix) or the question (Park).
 - **Passes**: key things checked that read true. Brief.
 - **Uncertainties**: anything the persona couldn't judge without the author or more source.
+
+**Enumerative lenses must show their work.** Agency and Narrative are enumeration lenses,
+not judgment lenses. Their summary carries the enumeration itself — Agency's subject–verb
+table for the whole draft, Narrative's numbered idea-sequence for each section — even when
+the verdict is clean. "None found" is credible only with the enumeration that proves every
+subject, and every section's order, was actually looked at. A summary without it goes back.
 
 ## Synthesis (inlined)
 
@@ -190,7 +202,8 @@ and proceed. When run standalone: return both lists.
 | Persona | Catches |
 |---|---|
 | `house-voice.md` | ponylang LWIP house style: tone (Hemingway, conversational not clipped), em-dash frugality, backtick technical terms, Office Hours singular, `owner/repo` naming, AI tells, clipped-imperative cadence. Reads the AGENTS.md guidelines; calibrates on recent posts. |
-| `narrative.md` | enumeration vs story, at section **and** prop level (a snippet/line-count/parenthetical can be dead cargo inside a good section). |
+| `agency.md` | the enumerative anthropomorphizing pass: every clause whose subject is not a person, tabled and judged person / literal-op / AGENCY. Catches a library, release, change, or version given an action it can't take, and a machine given cognition. Deliverable is the table, not a verdict. |
+| `narrative.md` | enumeration vs story, at section **and** prop level (a snippet/line-count/parenthetical can be dead cargo inside a good section); **and idea-order within each section** — a conclusion before its setup, a paragraph doubling back, a stranded sentence. Deliverable includes each section's numbered idea-sequence. |
 | `orientation.md` | concept-before-use, unclear antecedents, missing on-ramps, offloaded context, compressed recaps that strip framing, missing prerequisites. |
 | `tightness.md` | reproduced linked source, props that don't earn their place, filler, wrong altitude for the artifact. **Gets the source bundle.** |
 | `content-honesty.md` | unsourced or fabricated claims, invented framing, invented quantitative characterizations, unearned promises, flattened source personality, lifted wording from unvetted sources, authorship/tense honesty. **Gets the source bundle.** |
