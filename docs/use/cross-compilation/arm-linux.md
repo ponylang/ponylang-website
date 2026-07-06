@@ -19,12 +19,16 @@ The Pony runtime needs to be compiled for ARM. This requires the ponyc source tr
 From the ponyc source directory:
 
 ```bash
-make cross-libponyrt config=release \
-  CC=arm-linux-gnueabi-gcc \
-  CXX=arm-linux-gnueabi-g++ \
-  arch=armv7-a \
-  cross_cflags="-march=armv7-a -mtune=cortex-a9" \
-  cross_lflags="-O3;-march=arm"
+cmake -B build/armv7-a/build_release -S . \
+  -DCMAKE_CROSSCOMPILING=true -DCMAKE_SYSTEM_NAME=Linux \
+  -DCMAKE_SYSTEM_PROCESSOR=armv7-a \
+  -DCMAKE_C_COMPILER=arm-linux-gnueabi-gcc \
+  -DCMAKE_CXX_COMPILER=arm-linux-gnueabi-g++ \
+  -DPONY_CROSS_LIBPONYRT=true -DCMAKE_BUILD_TYPE=release \
+  -DCMAKE_C_FLAGS="-march=armv7-a -mtune=cortex-a9" \
+  -DCMAKE_CXX_FLAGS="-march=armv7-a -mtune=cortex-a9" \
+  -DPONY_ARCH=armv7-a -DLL_FLAGS="-O3;-march=arm"
+cmake --build build/armv7-a/build_release --config release --target libponyrt crt_objects
 ```
 
 The output lands in `build/armv7-a/release/`.

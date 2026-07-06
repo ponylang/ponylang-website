@@ -20,27 +20,28 @@ Cross-compiling a Pony program requires three things:
 
 ## Building the Cross-Compiled Runtime
 
-Until pre-built runtimes ship with ponyc releases, you need to build the runtime from the ponyc source. This requires a full build environment including LLVM (built via `make libs`).
+Until pre-built runtimes ship with ponyc releases, you need to build the runtime from the ponyc source. This needs the LLVM libraries built, but not a full native ponyc — you compile your program with your host `ponyc` (a ponyup install or a from-source build, as covered in [What You Need](#what-you-need) above).
 
 ```bash
 git clone https://github.com/ponylang/ponyc.git
 cd ponyc
-make libs build_flags=-j8
-make configure config=release
-make build config=release
+cmake -DJOBS=8 -P lib/build-libs.cmake
 ```
 
-Then build the cross-compiled runtime for your target:
+Then build the cross-compiled runtime for your target. There's no preset for cross-builds, so configure a target-specific build directory directly, then build only the `libponyrt` and `crt_objects` targets:
 
 ```bash
-make cross-libponyrt config=release \
-  CC=<cross-compiler> CXX=<cross-c++> \
-  arch=<arch> \
-  cross_cflags="<target-cflags>" \
-  cross_lflags="<target-lflags>"
+cmake -B build/<arch>/build_release -S . \
+  -DCMAKE_CROSSCOMPILING=true -DCMAKE_SYSTEM_NAME=Linux \
+  -DCMAKE_SYSTEM_PROCESSOR=<arch> \
+  -DCMAKE_C_COMPILER=<cross-compiler> -DCMAKE_CXX_COMPILER=<cross-c++> \
+  -DPONY_CROSS_LIBPONYRT=true -DCMAKE_BUILD_TYPE=release \
+  -DCMAKE_C_FLAGS="<target-cflags>" -DCMAKE_CXX_FLAGS="<target-cflags>" \
+  -DPONY_ARCH=<arch> -DLL_FLAGS="<target-llc-flags>"
+cmake --build build/<arch>/build_release --config release --target libponyrt crt_objects
 ```
 
-The output goes into a directory named after the architecture (e.g., `build/rv64gc/release/`). You point `PONYPATH` at this directory when compiling your program.
+The build tree goes in `build/<arch>/build_release` and the compiled runtime in `build/<arch>/release` (for example, `build/rv64gc/release/`). To compile a program, run your host `ponyc` with `PONYPATH` pointed at that output directory.
 
 See the target-specific guides below for the exact commands for each supported target.
 

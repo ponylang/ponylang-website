@@ -77,14 +77,16 @@ Things you might want to do that are left to an exercise to the user:
 
 ## Building pony
 
-To build pony after you've cloned the source code, you'll follow the directions below. Note, because building with clang isn't currently supported, if you install `clang` you'll need to modify all the command below to build using `gcc` as the Pony build system defaults to using `clang` if it is available. To use `gcc`, you'd prepend `CC=/usr/bin/gcc CXX=/usr/bin/g++` to all the command below.
+These steps are for a 32-bit Raspbian. On a 64-bit Raspbian, follow the [64-bit Raspbian](../compiler/building-ponyc-from-source.md#64-bit-raspbian) section instead — clang works there and you build for the `armv8-a` architecture.
 
-- `make libs build_flags="-j4"`
+To build pony after you've cloned the source code, you'll follow the directions below. Building with `clang` isn't currently supported on 32-bit Arm, and the CMake presets default to `clang`, so you need to point the build at `gcc`. That means `-DCC=/usr/bin/gcc -DCXX=/usr/bin/g++` at the libs step and `-DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++` at the configure step.
+
+- `cmake -DCC=/usr/bin/gcc -DCXX=/usr/bin/g++ -DJOBS=4 -P lib/build-libs.cmake`
 
 note, this will probably take about 3 hours. make sure you aren't logged out of ssh.
 
-- `make configure`
-- `make build -mtune=native`
-- `make test`
+- `cmake --preset release -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_C_FLAGS="-march=native -mtune=native" -DCMAKE_CXX_FLAGS="-march=native -mtune=native"`
+- `cmake --build --preset release`
+- `ctest --preset release -L ci-core`
 
 See [Building ponyc from Source](../compiler/building-ponyc-from-source.md) for more information about building ponyc.
