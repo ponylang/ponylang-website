@@ -17,10 +17,10 @@ Once a trace has been captured, it can be viewed with the [perfetto trace viewer
 Tracing is not enabled by default. You need to build ponyc from source with the `runtime_tracing` option:
 
 ```bash
-make configure use=runtime_tracing
-make build
+cmake --preset release -DPONY_USES=runtime_tracing
+cmake --build --preset release
 ```
 
-The resulting `ponyc` binary is in `build/release/`. Use it in place of your system `ponyc` to compile programs with tracing enabled.
+The resulting `ponyc` binary is in `build/release-runtime_tracing/` — enabling an option suffixes the output directory with the option name. Use it in place of your system `ponyc` to compile programs with tracing enabled.
 
 For full source build instructions, see [Custom ponyc Builds for Debugging](../compiler/custom-ponyc-builds.md).

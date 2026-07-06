@@ -20,11 +20,7 @@ For example:
 ponyc --pic examples/helloworld
 ```
 
-As of Pony 0.17.0, if you are building `ponyc` from source, you can have `--pic` automatically set for you. When building `ponyc`, run the following `make` command and your generated `ponyc` binary will always supply `--pic` without you having to set it.
-
-```bash
-make default_pic=true
-```
+A `ponyc` built from source applies `--pic` by default, so you don't need to set it yourself when using such a compiler.
 
 ## On Windows I get `fatal error LNK1112: module machine type 'x86' conflicts with target machine type 'x64'` {:id="lnk1112"}
 

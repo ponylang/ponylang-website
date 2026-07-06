@@ -1,6 +1,6 @@
 # Custom ponyc Builds for Debugging
 
-ponyc supports several build-time options that instrument the compiler and runtime for debugging. These require building ponyc from source with specific flags. All options described here use the Unix/Makefile build system.
+ponyc supports several build-time options that instrument the compiler and runtime for debugging. These require building ponyc from source with specific options. All commands here are for the Unix build.
 
 ## Build Workflow
 
@@ -11,27 +11,27 @@ Every option follows the same pattern:
     ```bash
     git clone https://github.com/ponylang/ponyc.git
     cd ponyc
-    make libs
+    cmake -P lib/build-libs.cmake
     ```
 
 2. Configure with the desired option:
 
     ```bash
-    make configure use=<option>
+    cmake --preset release -DPONY_USES=<option>
     ```
 
 3. Build:
 
     ```bash
-    make build
+    cmake --build --preset release
     ```
 
-The resulting `ponyc` binary is in `build/release/` — or, when you pass `use=` options, a suffixed directory like `build/release-address_sanitizer` that lists the enabled options. Use it in place of your system `ponyc` to compile programs with the instrumentation enabled.
+The resulting `ponyc` binary is in `build/release/` — or, when you enable options with `PONY_USES`, a suffixed directory like `build/release-address_sanitizer` that lists the enabled options. The suffix always lists them in a fixed order set by the build, independent of the order you pass them, so the directory name may not match what you typed. Use it in place of your system `ponyc` to compile programs with the instrumentation enabled.
 
 To combine multiple options, separate them with commas:
 
 ```bash
-make configure use=address_sanitizer,undefined_behavior_sanitizer
+cmake --preset release -DPONY_USES=address_sanitizer,undefined_behavior_sanitizer
 ```
 
 Not all combinations are valid — see the individual sections below for compatibility notes.
@@ -51,8 +51,8 @@ apt-get install valgrind
 Build ponyc with Valgrind support:
 
 ```bash
-make configure use=valgrind
-make build
+cmake --preset release -DPONY_USES=valgrind
+cmake --build --preset release
 ```
 
 Compile your program with the instrumented ponyc, then run it under Valgrind:
@@ -62,18 +62,18 @@ valgrind ./my-program
 ```
 
 !!! warning "Not available on OpenBSD"
-    Valgrind has no OpenBSD port, so its development headers aren't available and `use=valgrind` can't be built there. `gmake configure use=valgrind` is rejected on OpenBSD with an error.
+    Valgrind has no OpenBSD port, so its development headers aren't available and `valgrind` can't be built there. Configuring with `-DPONY_USES=valgrind` is rejected on OpenBSD with an error.
 
 !!! warning "Doesn't run on DragonFly BSD"
-    `use=valgrind` builds on DragonFly and the Pony programs it compiles link, but DragonFly ships Valgrind 3.15, which is too old to run a Pony program; it hangs on the runtime's memory arena. See [ponyc#5435](https://github.com/ponylang/ponyc/issues/5435).
+    `valgrind` builds on DragonFly and the Pony programs it compiles link, but DragonFly ships Valgrind 3.15, which is too old to run a Pony program; it hangs on the runtime's memory arena. See [ponyc#5435](https://github.com/ponylang/ponyc/issues/5435).
 
 ## Address Sanitizer
 
 [AddressSanitizer](https://clang.llvm.org/docs/AddressSanitizer.html) (ASan) detects memory errors at runtime: buffer overflows, use-after-free, double-free, and stack buffer overflows.
 
 ```bash
-make configure use=address_sanitizer
-make build
+cmake --preset release -DPONY_USES=address_sanitizer
+cmake --build --preset release
 ```
 
 Compile your program with the instrumented ponyc and run it normally. ASan reports errors to stderr as they occur.
@@ -83,8 +83,8 @@ Cannot be combined with `thread_sanitizer`.
 To catch errors in the Pony runtime's own allocations, pair it with `pool_memalign`, which routes every runtime allocation through `posix_memalign`/`free` so ASan can surround each one with redzones:
 
 ```bash
-make configure use=pool_memalign,address_sanitizer
-make build
+cmake --preset release -DPONY_USES=pool_memalign,address_sanitizer
+cmake --build --preset release
 ```
 
 The instrumented `ponyc` isn't LeakSanitizer-clean, so running it — during its own build, and whenever you use it to compile a program — needs `ASAN_OPTIONS` set in the environment. Without it the compiler reports its own leaks at exit, and on libc++ platforms aborts on false container overflows:
@@ -92,7 +92,7 @@ The instrumented `ponyc` isn't LeakSanitizer-clean, so running it — during its
 - **Linux**: `ASAN_OPTIONS=detect_leaks=0`
 - **FreeBSD and macOS**: `ASAN_OPTIONS=detect_leaks=0:detect_container_overflow=0` — the extra flag suppresses false positives from libc++ container annotations when the instrumented compiler shares `std::vector`/`std::string` with the non-instrumented vendored LLVM.
 
-A `use=pool_memalign,address_sanitizer` build's `ponyc` lands in `build/release-address_sanitizer-pool_memalign`, not `build/release`. For example, to compile a program on Linux:
+A `pool_memalign,address_sanitizer` build's `ponyc` lands in `build/release-address_sanitizer-pool_memalign`, not `build/release`. For example, to compile a program on Linux:
 
 ```bash
 ASAN_OPTIONS=detect_leaks=0 ./build/release-address_sanitizer-pool_memalign/ponyc path/to/your/program
@@ -101,15 +101,15 @@ ASAN_OPTIONS=detect_leaks=0 ./build/release-address_sanitizer-pool_memalign/pony
 Both options concern `ponyc` itself, not the programs it compiles. A correct Pony program is LeakSanitizer-clean at exit, so run a program you compiled with LeakSanitizer left on — it will report genuine leaks in your own code, such as memory you allocate through FFI and never free.
 
 !!! warning "Not available on OpenBSD or DragonFly BSD"
-    OpenBSD's base toolchain ships no AddressSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `use=address_sanitizer` can't be built on either. `gmake configure use=address_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
+    OpenBSD's base toolchain ships no AddressSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `address_sanitizer` can't be built on either. Configuring with `-DPONY_USES=address_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
 
 ## Thread Sanitizer
 
 [ThreadSanitizer](https://clang.llvm.org/docs/ThreadSanitizer.html) (TSan) detects data races at runtime.
 
 ```bash
-make configure use=thread_sanitizer
-make build
+cmake --preset release -DPONY_USES=thread_sanitizer
+cmake --build --preset release
 ```
 
 Compile your program with the instrumented ponyc and run it normally. TSan reports data races to stderr.
@@ -117,15 +117,15 @@ Compile your program with the instrumented ponyc and run it normally. TSan repor
 Cannot be combined with `address_sanitizer`.
 
 !!! warning "Not available on OpenBSD or DragonFly BSD"
-    OpenBSD's base toolchain ships no ThreadSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `use=thread_sanitizer` can't be built on either. `gmake configure use=thread_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
+    OpenBSD's base toolchain ships no ThreadSanitizer runtime, and DragonFly BSD's `gcc13` toolchain doesn't build one either, so `thread_sanitizer` can't be built on either. Configuring with `-DPONY_USES=thread_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
 
 ## Undefined Behavior Sanitizer
 
 [UndefinedBehaviorSanitizer](https://clang.llvm.org/docs/UndefinedBehaviorSanitizer.html) (UBSan) detects undefined behavior at runtime: signed integer overflow, null pointer dereference, misaligned memory access, and other categories.
 
 ```bash
-make configure use=undefined_behavior_sanitizer
-make build
+cmake --preset release -DPONY_USES=undefined_behavior_sanitizer
+cmake --build --preset release
 ```
 
 Compile your program with the instrumented ponyc and run it normally. UBSan reports violations to stderr.
@@ -133,31 +133,31 @@ Compile your program with the instrumented ponyc and run it normally. UBSan repo
 Can be combined with `address_sanitizer` or `thread_sanitizer`.
 
 !!! warning "Not available on OpenBSD or DragonFly BSD"
-    OpenBSD ships only the minimal UndefinedBehaviorSanitizer runtime, not the standalone runtime ponyc links against; DragonFly BSD's `gcc13` toolchain doesn't build the UBSan runtime at all. Either way, `use=undefined_behavior_sanitizer` can't be built there. `gmake configure use=undefined_behavior_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
+    OpenBSD ships only the minimal UndefinedBehaviorSanitizer runtime, not the standalone runtime ponyc links against; DragonFly BSD's `gcc13` toolchain doesn't build the UBSan runtime at all. Either way, `undefined_behavior_sanitizer` can't be built there. Configuring with `-DPONY_USES=undefined_behavior_sanitizer` is rejected on both OpenBSD and DragonFly with an error.
 
 ## Coverage
 
 Instruments ponyc and the Pony runtime for source-level code coverage. It's built for working on ponyc itself: run a coverage-instrumented ponyc and its test suite to see which parts of the compiler and runtime C code each run exercises. To measure coverage of your own Pony code instead, you don't need a custom build — see [Coverage Reports](../testing/coverage-reports.md).
 
 ```bash
-make configure use=coverage
-make build
+cmake --preset release -DPONY_USES=coverage
+cmake --build --preset release
 ```
 
 The instrumentation comes from the host toolchain's coverage support — `-fprofile-instr-generate -fcoverage-mapping` under Clang, `-fprofile-arcs -ftest-coverage` under GCC. A Clang build writes an LLVM profile (`default.profraw`) that you turn into a report with `llvm-profdata` and `llvm-cov`; a GCC build writes `.gcda` files for `gcov` or `lcov`. These report tools aren't part of the ponyc build — install them separately. For the full workflow, see [Clang's source-based coverage guide](https://clang.llvm.org/docs/SourceBasedCodeCoverage.html) or the [gcov documentation](https://gcc.gnu.org/onlinedocs/gcc/Gcov.html).
 
 !!! warning "Not available on OpenBSD"
-    OpenBSD's base toolchain ships an incomplete profiling runtime, so a coverage-instrumented ponyc can't be linked there. `gmake configure use=coverage` is rejected on OpenBSD with an error.
+    OpenBSD's base toolchain ships an incomplete profiling runtime, so a coverage-instrumented ponyc can't be linked there. Configuring with `-DPONY_USES=coverage` is rejected on OpenBSD with an error.
 
 ## DTrace / SystemTap
 
-The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes. They're consumed by SystemTap on Linux and by DTrace on FreeBSD. No other platform is supported: macOS removed DTrace, and neither DragonFly BSD nor OpenBSD ships a DTrace-compatible probe-generation tool (OpenBSD's `btrace` is a separate tracer with no USDT support). On DragonFly BSD and OpenBSD, `gmake configure use=dtrace` is rejected with an error rather than failing later in the build.
+The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes. They're consumed by SystemTap on Linux and by DTrace on FreeBSD. No other platform is supported: macOS removed DTrace, and neither DragonFly BSD nor OpenBSD ships a DTrace-compatible probe-generation tool (OpenBSD's `btrace` is a separate tracer with no USDT support). On DragonFly BSD and OpenBSD, configuring with `-DPONY_USES=dtrace` is rejected with an error rather than failing later in the build.
 
 Building requires a `dtrace`-compatible tool on your `PATH`:
 
 ```bash
-make configure use=dtrace
-make build
+cmake --preset release -DPONY_USES=dtrace
+cmake --build --preset release
 ```
 
 The probes are defined under the `pony` provider and cover:
@@ -177,7 +177,7 @@ For the full list of probes with parameter types and descriptions, see [`src/com
     Statically linked programs (`ponyc --static`) build and run but do not expose their probes to DTrace. FreeBSD registers USDT probes through the runtime linker, which a static binary doesn't use; trace a dynamically linked build instead.
 
 !!! warning "Runtime bitcode is incompatible with DTrace"
-    A ponyc built with `use=dtrace` cannot compile programs with `--runtimebc`, and rejects the combination with an error. Probe generation operates on native object files, not LLVM bitcode, so the bitcode runtime carries no probes — a `--runtimebc` binary would have none. Use the default static runtime to trace your program.
+    A ponyc built with `dtrace` cannot compile programs with `--runtimebc`, and rejects the combination with an error. Probe generation operates on native object files, not LLVM bitcode, so the bitcode runtime carries no probes — a `--runtimebc` binary would have none. Use the default static runtime to trace your program.
 
 ## Runtime Statistics
 
@@ -191,8 +191,8 @@ Two options are available:
 For most debugging scenarios, enable both:
 
 ```bash
-make configure use=runtimestats,runtimestats_messages
-make build
+cmake --preset release -DPONY_USES=runtimestats,runtimestats_messages
+cmake --build --preset release
 ```
 
 For details on the available tracking functions and how to call them from Pony code, see [Tracking Memory Usage at Runtime](../debugging/track-memory-usage.md).
@@ -202,8 +202,8 @@ For details on the available tracking functions and how to call them from Pony c
 Runtime tracing records events from the Pony scheduler, actor lifecycle, and message passing. Events can be written to a trace file in the background, or stored in in-memory circular buffers that dump to stderr on abnormal termination (SIGILL, SIGSEGV, SIGBUS). Trace files use Chromium JSON format and can be viewed with [Perfetto](https://perfetto.dev/).
 
 ```bash
-make configure use=runtime_tracing
-make build
+cmake --preset release -DPONY_USES=runtime_tracing
+cmake --build --preset release
 ```
 
 For details on tracing options and usage, see [Tracing Pony Programs](../debugging/tracing.md).
@@ -217,8 +217,8 @@ A program run under systematic testing has to be deterministic, and keeping it t
 Systematic testing requires two options together:
 
 ```bash
-make configure use=scheduler_scaling_pthreads,systematic_testing
-make build
+cmake --preset release -DPONY_USES=scheduler_scaling_pthreads,systematic_testing
+cmake --build --preset release
 ```
 
 The `scheduler_scaling_pthreads` option is required because systematic testing needs pthread-based scheduler scaling rather than the default implementation.

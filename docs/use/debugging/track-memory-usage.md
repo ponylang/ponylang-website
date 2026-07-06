@@ -67,10 +67,10 @@ or,
 Memory tracking is not enabled by default. You need to build ponyc from source with the `runtimestats` and `runtimestats_messages` options:
 
 ```bash
-make configure use=runtimestats,runtimestats_messages
-make build
+cmake --preset release -DPONY_USES=runtimestats,runtimestats_messages
+cmake --build --preset release
 ```
 
-The resulting `ponyc` binary is in `build/release/`. Use it in place of your system `ponyc` to compile programs with memory tracking enabled.
+The resulting `ponyc` binary is in `build/release-runtimestats-runtimestats_messages/` — enabling options suffixes the output directory with the option names. Use it in place of your system `ponyc` to compile programs with memory tracking enabled.
 
 For full source build instructions, see [Custom ponyc Builds for Debugging](../compiler/custom-ponyc-builds.md).

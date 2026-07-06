@@ -22,12 +22,16 @@ The Pony runtime needs to be compiled for RISC-V. This requires the ponyc source
 From the ponyc source directory:
 
 ```bash
-make cross-libponyrt config=release \
-  CC=riscv64-linux-gnu-gcc-10 \
-  CXX=riscv64-linux-gnu-g++-10 \
-  arch=rv64gc \
-  cross_cflags="-march=rv64gc -mtune=rocket" \
-  cross_lflags="-march=riscv64"
+cmake -B build/rv64gc/build_release -S . \
+  -DCMAKE_CROSSCOMPILING=true -DCMAKE_SYSTEM_NAME=Linux \
+  -DCMAKE_SYSTEM_PROCESSOR=rv64gc \
+  -DCMAKE_C_COMPILER=riscv64-linux-gnu-gcc-10 \
+  -DCMAKE_CXX_COMPILER=riscv64-linux-gnu-g++-10 \
+  -DPONY_CROSS_LIBPONYRT=true -DCMAKE_BUILD_TYPE=release \
+  -DCMAKE_C_FLAGS="-march=rv64gc -mtune=rocket" \
+  -DCMAKE_CXX_FLAGS="-march=rv64gc -mtune=rocket" \
+  -DPONY_ARCH=rv64gc -DLL_FLAGS="-march=riscv64"
+cmake --build build/rv64gc/build_release --config release --target libponyrt crt_objects
 ```
 
 The output lands in `build/rv64gc/release/`.
