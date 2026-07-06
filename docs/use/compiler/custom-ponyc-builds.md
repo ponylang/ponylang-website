@@ -199,7 +199,7 @@ For details on the available tracking functions and how to call them from Pony c
 
 ## Runtime Tracing
 
-Runtime tracing records events from the Pony scheduler, actor lifecycle, and message passing. Events can be written to a trace file in the background, or stored in in-memory circular buffers that dump to stderr on abnormal termination (SIGILL, SIGSEGV, SIGBUS). Trace files use Chromium JSON format and can be viewed with [Perfetto](https://perfetto.dev/).
+Runtime tracing records events from the Pony scheduler, actor lifecycle, and message passing. Events can be written to a trace file in the background, or stored in in-memory circular buffers that dump to stderr when the program crashes — a fatal signal such as SIGSEGV or SIGILL on Linux and macOS, or a fault such as an access violation on Windows. Trace files use Chromium JSON format and can be viewed with [Perfetto](https://perfetto.dev/).
 
 ```bash
 make configure use=runtime_tracing
