@@ -79,9 +79,9 @@ Things you might want to do that are left to an exercise to the user:
 
 These steps are for a 32-bit Raspbian. On a 64-bit Raspbian, follow the [64-bit Raspbian](../compiler/building-ponyc-from-source.md#64-bit-raspbian) section instead — clang works there and you build for the `armv8-a` architecture.
 
-To build pony after you've cloned the source code, you'll follow the directions below. Building with `clang` isn't currently supported on 32-bit Arm, and the CMake presets default to `clang`, so you need to point the build at `gcc`. That means `-DCC=/usr/bin/gcc -DCXX=/usr/bin/g++` at the libs step and `-DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++` at the configure step.
+To build pony after you've cloned the source code, you'll follow the directions below. Building with `clang` isn't currently supported on 32-bit Arm, and the CMake presets default to `clang`, so you need to point the build at `gcc`. That means `-DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++` at both the libs step and the configure step.
 
-- `cmake -DCC=/usr/bin/gcc -DCXX=/usr/bin/g++ -DJOBS=4 -P lib/build-libs.cmake`
+- `cmake -DCMAKE_C_COMPILER=/usr/bin/gcc -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DJOBS=4 -P lib/build-libs.cmake`
 
 note, this will probably take about 3 hours. make sure you aren't logged out of ssh.
 

@@ -151,14 +151,14 @@ Replace `build_release` with `build_debug` if you're using a debug configuration
 
 On OpenBSD, use `doas` instead of `sudo` for installation. All three BSDs need `gmake` installed as a package (CMake and the LLVM build shell out to it), but you drive the build with `cmake` and `ctest` directly, the same as everywhere else.
 
-On DragonFly BSD, the base compiler (GCC 8.3) cannot build the vendored LLVM. Install `gcc13` from packages and pass `-DCC=/usr/local/bin/gcc13 -DCXX=/usr/local/bin/g++13` to `cmake -P lib/build-libs.cmake`, and `-DCMAKE_C_COMPILER=/usr/local/bin/gcc13 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++13` to the configure step. See ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md#dragonfly) for full instructions.
+On DragonFly BSD, the base compiler (GCC 8.3) cannot build the vendored LLVM. Install `gcc13` from packages and pass `-DCMAKE_C_COMPILER=/usr/local/bin/gcc13 -DCMAKE_CXX_COMPILER=/usr/local/bin/g++13` to both `cmake -P lib/build-libs.cmake` and the configure step. See ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md#dragonfly) for full instructions.
 
 ### 32-bit Raspbian
 
 Only GCC works on 32-bit Raspbian — clang is not supported. You also need to build for native CPU tuning:
 
 ```bash
-cmake -DCC=gcc -DCXX=g++ -P lib/build-libs.cmake
+cmake -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -P lib/build-libs.cmake
 cmake --preset release -DCMAKE_C_COMPILER=gcc -DCMAKE_CXX_COMPILER=g++ -DCMAKE_C_FLAGS="-march=native -mtune=native" -DCMAKE_CXX_FLAGS="-march=native -mtune=native"
 cmake --build --preset release
 sudo cmake --install build/build_release
@@ -166,10 +166,10 @@ sudo cmake --install build/build_release
 
 ### 64-bit Raspbian
 
-Build for the `armv8-a` architecture, and pass the position-independent-code flag to both the libs step (`-DPIC`) and the configure step (`-DPONY_PIC_FLAG`). The install reads the arch-specific build directory:
+Build for the `armv8-a` architecture, and pass the position-independent-code flag (`-DPONY_PIC_FLAG`) to both the libs step and the configure step. The install reads the arch-specific build directory:
 
 ```bash
-cmake -DPIC=-fPIC -P lib/build-libs.cmake
+cmake -DPONY_PIC_FLAG=-fPIC -P lib/build-libs.cmake
 cmake --preset armv8-a-release -DPONY_PIC_FLAG=-fPIC
 cmake --build --preset armv8-a-release
 sudo cmake --install build/build_armv8-a-release
