@@ -1,6 +1,6 @@
 # Tracing Pony Programs
 
-The Pony runtime can be built to be able to either write a trace to file in the background or work in a "flight recorder" mode where events are stored into in memory circular buffers and written to stderr in case of abnormal program behavior (SIGILL, SIGSEGV, SIGBUS, etc).
+The Pony runtime can be built to be able to either write a trace to file in the background or work in a "flight recorder" mode where events are stored into in memory circular buffers and written to stderr when the program crashes — a fatal signal such as SIGSEGV or SIGILL on Linux and macOS, or a fault such as an access violation on Windows.
 
 Runtime tracing is helpful in understanding how the runtime works and for debugging issues with the runtime.
 
@@ -22,5 +22,7 @@ cmake --build --preset release
 ```
 
 The resulting `ponyc` binary is in `build/release-runtime_tracing/` — enabling an option suffixes the output directory with the option name. Use it in place of your system `ponyc` to compile programs with tracing enabled.
+
+The commands above are for the Unix Makefile build. To enable `runtime_tracing` on Windows, build ponyc from source following ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
 
 For full source build instructions, see [Custom ponyc Builds for Debugging](../compiler/custom-ponyc-builds.md).

@@ -45,7 +45,8 @@ Tier 3 jobs are defined in the [ponyc-tier3](https://github.com/ponylang/ponyc/b
 
 Weekly checks build and test with non-default compiler directives and sanitizers. They're valuable for catching breakage in code paths that don't get exercised during normal builds, but they rarely surface issues beyond confirming that nothing has been broken. They run on a weekly schedule (Thursday 3 AM UTC), gated on whether there were commits in the last 7 days.
 
-- Use directive variants (`dtrace`, `pool_memalign`, `pool_retain`, `runtimestats`, `runtime_tracing`)
+- Use directive variants on Linux (`dtrace`, `pool_memalign`, `pool_retain`, `runtimestats`, `runtime_tracing`)
+- Use directive variants on Windows (`runtime_tracing`)
 - Sanitizers (address sanitizer, undefined behavior sanitizer)
 - macOS sanitizer and `dtrace` smoke tests (arm64 and x86-64)
 
