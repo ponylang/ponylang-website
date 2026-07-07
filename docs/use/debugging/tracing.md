@@ -23,6 +23,6 @@ cmake --build --preset release
 
 The resulting `ponyc` binary is in `build/release-runtime_tracing/` — enabling an option suffixes the output directory with the option name. Use it in place of your system `ponyc` to compile programs with tracing enabled.
 
-The commands above are for the Unix Makefile build. To enable `runtime_tracing` on Windows, build ponyc from source following ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
+The commands above are for the Unix build. To enable `runtime_tracing` on Windows, build ponyc from source following ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
 
 For full source build instructions, see [Custom ponyc Builds for Debugging](../compiler/custom-ponyc-builds.md).
