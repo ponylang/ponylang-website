@@ -6,6 +6,28 @@ disable-model-invocation: true
 
 Create a new "Last Week in Pony" blog post.
 
+## Who reads this
+
+People who write Pony, and people following the language. Not people who work
+on whatever subsystem an item happens to be about.
+
+**What they know.** They know Pony and they write Pony programs. They don't
+know the internals of ponyc, of lori, or of whatever library an item covers,
+and they have not read the changelogs, the PRs, or the design docs you read to
+write the post. A fact that only lands for someone who has read what you read
+buries the item, however true and however well sourced it is.
+
+**Why they are reading.** Some of them write Pony and want the practical news:
+what will break their code, what to upgrade for, what fixes a problem they
+might have hit. A lot of them are lookie-loos who don't use Pony and never will
+act on any of it. They read because it's interesting to watch a language get
+built. Both halves matter. An item that's useful but dull serves half the
+audience, and detail only a maintainer could care about serves neither.
+
+The job is to give the major news and entertain people who want to know what's
+going on with Pony. It is not to account for everything that happened. Leaving
+things out is part of the work.
+
 ## Critical: don't fabricate
 
 Every factual claim in the post must come from a verifiable source: the
