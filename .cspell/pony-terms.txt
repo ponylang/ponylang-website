@@ -12,6 +12,7 @@ ALPN
 appdirs
 arent
 arities
+arkh
 armhf
 Armv
 ASIO
@@ -221,6 +222,7 @@ Niclas
 Nikolaus
 Nixpkgs
 nogginly
+nondeterministically
 notcurses
 Nuklear
 NUMA
@@ -351,6 +353,7 @@ unaliased
 Uncategorized
 Uncloudy
 unmute
+unmutes
 unrepresentable
 Unsession
 valbytes
