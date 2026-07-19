@@ -28,6 +28,29 @@ The job is to give the major news and entertain people who want to know what's
 going on with Pony. It is not to account for everything that happened. Leaving
 things out is part of the work.
 
+## What state is the work in
+
+How much an item gets depends on what a reader can do with it.
+
+**Released.** They can go get it. Say what it does for them. The release notes
+carry the full detail, so don't reproduce them — a post that re-explains every
+fix does the release notes' job twice and buries its own news doing it.
+
+**Merged but not released.** They can't get it yet, so per-fix detail helps
+nobody. Say what's coming, when, and why it's worth knowing about now.
+
+**Not merged.** Say what's coming, why, whatever is genuinely settled — that
+it's a breaking change, roughly when — and link to where they can follow along.
+Nothing else. The design docs and PRs behind unfinished work contradict each
+other and use provisional names, because that's what unfinished work looks
+like. Mining them for mechanism produces detail that's wrong as often as it's
+right, and the links carry it for anyone who wants it.
+
+**Real but far off.** A plan that won't be real for a long time is a
+distraction rather than news. Every fact about it can be true and sourced and
+it still costs the reader more than it gives them. Wait until there's something
+to do about it.
+
 ## Critical: don't fabricate
 
 Every factual claim in the post must come from a verifiable source: the
