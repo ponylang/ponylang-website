@@ -73,9 +73,9 @@ When you're tempted to add color about history, severity, or impact:
    ("flair in *how* things are said, not in inflating what they are")
    applies to phrasing. This rule applies to facts.
 
-Turn it into an interview session if needed. The goal is correctness and
-narrative interestingness, not speed to getting a draft up. Multiple
-rounds of questions are fine.
+The interview in step 6 is where most of this gets settled. The goal is
+correctness and narrative interestingness, not speed to getting a draft
+up. Multiple rounds of questions are fine.
 
 ## Additional Notes
 
@@ -200,13 +200,24 @@ Follow these steps:
    `gh release view TAG --repo ORG/REPO`) and evaluate whether the
    release has noteworthy content deserving its own section.
 
-6. **Verify and ask clarifying questions**: Before writing, list every
-   characterization you intend to make about history, severity, duration,
-   or impact. For each, verify it from sources (issue/PR/release notes,
-   `git log`, `gh`) or ask the user. Also ask about anything vague or
-   missing context. Batching into one round is fine when everything is
-   straightforward, but turn it into an interview session if you need to
-   — correctness and narrative interestingness beat draft speed.
+6. **Interview the author, then verify**: Interview before you draft.
+   Always, not only when something looks like it's missing — you can't
+   tell that it is. The answers that matter most are in the author's head
+   and appear in no issue, PR, or release note, so no amount of reading
+   surfaces them and a pile of verified facts feels like coverage while
+   the gaps stay invisible.
+
+   Ask what they've been working on that isn't in the issue, what they
+   think matters most this week, what's coming that people should know
+   about, and what's actually shipped versus still sitting on a branch.
+   Those work because none of them require you to have spotted a gap
+   first. Follow the answers rather than the list, and go more than one
+   round.
+
+   Then verify: list every characterization you intend to make about
+   history, severity, duration, or impact, and confirm each from sources
+   (issue/PR/release notes, `git log`, `gh`) or from the author.
+   Correctness and narrative interestingness beat draft speed.
 
 7. **Write the draft**: Create the post following the format in AGENTS.md.
    Use the date from the issue title for the filename and front matter.
