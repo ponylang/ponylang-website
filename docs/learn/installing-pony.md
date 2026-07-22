@@ -8,7 +8,7 @@ The easiest way to install Pony is through [ponyup](https://github.com/ponylang/
 
 | OS \ CPU | `amd64` | `arm64` | `arm32` | `riscv64` |
 |---|---|---|---|---|
-| **Linux** | ✅ Released | ✅ Released | 🧪 Tested | 🧪 Tested |
+| **Linux** | ✅ Released | ✅ Released | 🔧 Best-effort | 🧪 Tested |
 | **macOS** | ✅ Released | ✅ Released | — | — |
 | **Windows** | ✅ Released | ✅ Released | — | — |
 | **FreeBSD** | 🧪 Tested | ✗ Unsupported | — | — |
@@ -17,12 +17,13 @@ The easiest way to install Pony is through [ponyup](https://github.com/ponylang/
 
 * ✅ **Released** — official prebuilt binaries; also tested in CI
 * 🧪 **Tested** — tested in CI; build from source (no prebuilt binary)
+* 🔧 **Best-effort** — not in CI; built from source and tested periodically on real hardware
 * ✗ **Unsupported** — no support
 * — **Not applicable** — combination doesn't exist
 
 On Windows, the minimum supported version is **Windows 11 / Windows Server 2022** (build 20348). Pony's networking uses an OS readiness API introduced in that build; earlier versions, including Windows 10, are unsupported.
 
-Platforms marked 🧪 Tested have no prebuilt binary; you'll need to [build ponyc from source](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
+Platforms marked 🧪 Tested or 🔧 Best-effort have no prebuilt binary; you'll need to [build ponyc from source](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
 
 ## Install ponyup
 

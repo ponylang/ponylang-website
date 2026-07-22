@@ -4,6 +4,8 @@ This guide covers cross-compiling Pony programs from an x86-64 Linux host to 32-
 
 If your target doesn't have an FPU or uses software floating point, see [ARM Linux (Soft-Float)](arm-linux.md) instead.
 
+32-bit ARM is a best-effort target: it is not tested in CI, but is built and tested periodically on real hardware. A change can break it between those checks.
+
 ## Install the Cross-Toolchain
 
 On Debian/Ubuntu, install the ARM hard-float cross-compiler and QEMU for testing:
