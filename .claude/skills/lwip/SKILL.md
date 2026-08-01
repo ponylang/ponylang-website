@@ -91,12 +91,13 @@ up. Multiple rounds of questions are fine.
   - Major version bumps (1.0.0, 2.0.0, etc.) — cover what changed and why it
     matters.
   - Items explicitly flagged for highlighting in the issue comments.
-- **Every release goes in the `## Releases` bullet list.** When a release
-  has noteworthy content (bug fixes affecting users, new features, breaking
-  changes), it also gets a `###` subsection under `## Items of Note` with a
-  short write-up. Read the release notes to determine what treatment a
-  release warrants. Routine releases with nothing interesting just go in the
-  list.
+- **Every release goes in the `## Releases` bullet list.** Not every release
+  earns an Items of Note writeup. A version bump that pulls in upstream
+  dependency fixes, or a release whose changes are routine, belongs in the
+  Releases list and nowhere else. Read the release notes and ask: is there a
+  story a reader would care about? Bug fixes that affect users, new features,
+  breaking changes — those warrant a `###` subsection under Items of Note.
+  "There were changes" does not.
 - New library sections should be feature overviews, not per-version
   changelogs. When a library has multiple releases in one week, describe
   what it does as a whole. Don't enumerate what changed in each version.
@@ -139,6 +140,19 @@ up. Multiple rounds of questions are fine.
   everywhere — opening hooks, Items of Note subsections, release
   write-ups. If you could turn the paragraph into bullets and lose
   nothing, it needs rewriting.
+- **Match section depth to the story, not to the release notes.** A
+  release with a long changelog can have a short story. Twelve entries
+  in the release notes does not mean twelve things to cover — it means
+  finding the two or three the reader cares about and telling those
+  well. Conversely, a single change with real consequences for users
+  can warrant a full section. The release notes' length is not the
+  section's length.
+- **Items of Note altitude: what broke and what to do.** Tell the reader
+  what was broken and what to do about it. Not how the bug worked. The
+  reader is a Pony user, not a maintainer — "signal handling had enough
+  edge-case bugs that anyone using it seriously would hit one" is the
+  right altitude; enumerating each edge case and its mechanism is not.
+  Save the mechanism for the release notes link.
 - Keep voice consistent between adjacent sections. When two sections cover
   similar content (two new tools, two related libraries), they should read
   the same way.

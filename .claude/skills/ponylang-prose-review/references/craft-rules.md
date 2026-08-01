@@ -85,6 +85,12 @@ is done by the thing you linked.
 a paragraph, not the linked post. Cut filler. Every prop earns its place (see Narrative, prop
 level).
 
+**Match depth to the story, not the source.** A release with twelve changelog entries does not
+need twelve things covered. Find the two or three the reader cares about and tell those well.
+The source material's length is not the section's length. An Items of Note section tells the
+reader what was broken and what to do about it — not how the bug worked. The reader is a user,
+not a maintainer; mechanism belongs behind the release notes link.
+
 ---
 
 ## Content honesty and source fidelity
