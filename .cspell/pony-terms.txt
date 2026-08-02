@@ -5,6 +5,7 @@ Adeel
 adri
 Agda
 Agere
+ahwayakchih
 Akka
 Akka's
 alloca
@@ -184,6 +185,7 @@ libressl
 libunwind
 Liétar
 linal
+Linaro
 LINQ
 LLDB
 Lobste
@@ -205,6 +207,7 @@ mfelsche's
 microbenchmark
 microbenchmarking
 Migda
+Minghan
 Mirko
 mkdocs
 movingtogitlab
