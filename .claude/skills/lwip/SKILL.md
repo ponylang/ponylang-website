@@ -1,7 +1,7 @@
 ---
 name: lwip
 description: Create a new "Last Week in Pony" blog post from the open GitHub issue
-disable-model-invocation: true
+disable-model-invocation: false
 ---
 
 Create a new "Last Week in Pony" blog post.
