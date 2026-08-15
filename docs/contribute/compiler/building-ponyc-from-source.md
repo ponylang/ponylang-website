@@ -123,6 +123,7 @@ The available options:
 | `runtime_tracing` | Runtime tracing/profiling |
 | `pooltrack` | Pool memory tracking |
 | `pool_memalign` | Pool allocator with memalign |
+| `pool_retain` | Pool allocator retains freed pages instead of returning them to the OS |
 
 For detailed usage of valgrind, sanitizers, DTrace, and systematic testing, see [Custom ponyc Builds](../../use/compiler/custom-ponyc-builds.md).
 
