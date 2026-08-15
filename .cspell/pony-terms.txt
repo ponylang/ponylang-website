@@ -310,6 +310,7 @@ sform
 Shallaras
 Sheeeeee
 shellcheck
+snmalloc
 Shyu
 SIGBUS
 SIGILL
@@ -355,6 +356,8 @@ ubench
 unaliased
 Uncategorized
 Uncloudy
+unmapped
+unmapping
 unmute
 unmutes
 unrepresentable
