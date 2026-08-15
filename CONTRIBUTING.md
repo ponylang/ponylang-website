@@ -30,7 +30,7 @@ We don't owe anyone our time. We choose to give it. Don't waste it.
 
 ## mkdocs
 
-The Pony website is generated using [mkdocs], a static website generator. If you are making larger changes to the site, you will need to install `mkdocs` locally to verify your changes are working.
+The Pony website is generated using [mkdocs], a static website generator. If you are making larger changes to the site, you will need to install `mkdocs` and its plugins locally to verify your changes are working.
 
 ## Ponylang.io hosting
 
@@ -46,16 +46,21 @@ To see the preview, on the PR page select `Show all checks` and then click `Deta
 
 ## Developing locally with mkdocs
 
-To do larger changes, you'll want to install mkdocs locally so you can test your changes. For detailed instructions on using [mkdocs], please refer to its website.
-
-For simpler tasks, once you have mkdocs installed, you should be able to:
+To do larger changes, you'll want to build the site locally so you can test your changes. The site depends on several mkdocs plugins pinned in `requirements.txt`. Install them in a virtualenv:
 
 ```bash
-cd ponylang-website
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+```
+
+Then start the local dev server:
+
+```bash
 mkdocs serve
 ```
 
-Which will start up a local webserver that will serve the Ponylang website on `http://localhost:8000`.
+This starts a local webserver at `http://localhost:8000` that rebuilds pages as you edit them.
 
 Once you are happy with your changes, commit them and submit a PR. Before doing that, please read the following 'How to submit a pull request' section.
 
