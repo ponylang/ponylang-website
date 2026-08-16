@@ -44,6 +44,9 @@ branchs
 Bson
 btab
 bytea
+Cachegrind
+Callgrind
+KCachegrind
 Cantú
 castxml
 cbor
@@ -272,6 +275,7 @@ Pruhs
 Pubmatic
 Purnomosidi
 Pygments
+QCachegrind
 QUIC
 quickstart
 Radisson

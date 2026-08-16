@@ -162,6 +162,7 @@ nav:
               - Trace Pony Programs: "use/debugging/tracing.md"
           - Performance:
               - Overview: "use/performance.md"
+              - Profiling: "use/performance/profiling.md"
               - Performance Cheat Sheet: "use/performance/pony-performance-cheat-sheet.md"
       - Working with the Compiler:
           - Overview: "use/compiler.md"

@@ -14,6 +14,12 @@ It won't help you make your entire application fast, but it can help you make sm
 
 - [Pony Bench](https://stdlib.ponylang.io/pony_bench--index/)
 
+## Profiling
+
+The performance cheat sheet covers what to fix; a profiler shows you where to look. Pony compiles to native code, so standard tools like `perf` and Instruments work on Pony binaries. Our profiling guide covers the compiler flags you need, what Pony-specific symbols mean in a profile, and how to use each tool.
+
+- [Profiling Pony Programs](performance/profiling.md)
+
 ## Performance Cheat Sheet
 
 We've collected together a ton of information about making Pony programs fast.
