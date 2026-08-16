@@ -26,3 +26,7 @@ The resulting `ponyc` binary is in `build/release-runtime_tracing/` — enabling
 The commands above are for the Unix build. To enable `runtime_tracing` on Windows, build ponyc from source following ponyc's [BUILD.md](https://github.com/ponylang/ponyc/blob/main/BUILD.md).
 
 For full source build instructions, see [Custom ponyc Builds for Debugging](../compiler/custom-ponyc-builds.md).
+
+## See also
+
+- [Profiling Pony Programs](../performance/profiling.md) — CPU profiling with `perf`, Instruments, and Callgrind. Different from runtime tracing: profiling shows where CPU time went, while tracing records runtime events like actor scheduling and GC.
