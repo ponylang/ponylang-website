@@ -75,6 +75,7 @@ Cuda
 Darach
 Datalog
 Découverte
+derpy
 Deligiannis
 desugared
 Devoxx
@@ -130,6 +131,7 @@ HMAC
 Hedhman
 Herdsim
 HFPUG
+Hoogland
 Horwitz
 Horwitz's
 Hovsäter

@@ -212,6 +212,7 @@ nav:
           - Zulip: "community/zulip.md"
           - Norms: "community/norms.md"
           - Governance: "community/governance.md"
+          - Artwork: "community/artwork.md"
       - Events:
           - Office Hours: "community/office-hours.md"
           - Pony Development Sync: "community/development-sync.md"
