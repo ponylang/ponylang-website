@@ -40,7 +40,7 @@ For full source build instructions (including platform-specific prerequisites), 
 
 ## Valgrind
 
-Annotates the Pony runtime so [Valgrind](https://valgrind.org/) tools like Memcheck and Helgrind can understand Pony's custom memory allocator.
+Annotates the Pony runtime so [Valgrind](https://valgrind.org/) tools like Memcheck, Helgrind, and Callgrind can understand Pony's custom memory allocator.
 
 Valgrind development headers must be installed before building. On Debian/Ubuntu:
 
