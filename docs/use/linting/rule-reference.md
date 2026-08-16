@@ -914,6 +914,38 @@ class Foo
     x + y
 ```
 
+## `style/testlist-nodoc`
+
+**Default:** on
+
+Types that provide `TestList` must have a `\nodoc\` annotation. `TestList` implementations exist only to register tests with PonyTest and don't belong in generated documentation. The rule checks `class`, `actor`, `primitive`, and `struct` declarations for a provides clause that names `TestList`, including through intersection types.
+
+**Incorrect:**
+
+```pony
+primitive _MyTests is TestList
+  new make() => None
+  fun tag tests(test: PonyTest) => None
+```
+
+**Correct:**
+
+```pony
+primitive \nodoc\ _MyTests is TestList
+  new make() => None
+  fun tag tests(test: PonyTest) => None
+```
+
+Intersection types are also checked:
+
+```pony
+// Flagged
+primitive _MyTests is (TestList & OtherTrait)
+
+// Clean
+primitive \nodoc\ _MyTests is (TestList & OtherTrait)
+```
+
 ## `style/trailing-whitespace`
 
 **Default:** on
