@@ -48,7 +48,7 @@ Members have [owner level](https://docs.github.com/en/github/setting-up-and-mana
 
 #### [ponylang-main](https://github.com/ponylang-main)
 
-Our standard "bot account". Personal access tokens for our various GitHub action powered bots are from this account; as such, it shows up as a contributor on a variety of Pony projects.
+Our standard "bot account". Personal access tokens for our various GitHub action powered bots are from this account; as such, it shows up as a contributor on a variety of Pony projects. See [tokens and secrets](ci/tokens-and-secrets.md) for what each token does.
 
 #### [ponylang-gists](https://github.com/ponylang-gists)
 

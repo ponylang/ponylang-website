@@ -193,6 +193,12 @@ nav:
       - Project Operations:
           - CI:
               - Overview: "contribute/ci.md"
+              - Tokens and Secrets: "contribute/ci/tokens-and-secrets.md"
+              - Standard Workflows: "contribute/ci/standard-workflows.md"
+              - Release Pipeline: "contribute/ci/release-pipeline.md"
+              - Nightly and Breakage Pipeline: "contribute/ci/nightly-and-breakage-pipeline.md"
+              - Bot Actions: "contribute/ci/bot-actions.md"
+              - Setting Up a New Repo: "contribute/ci/setting-up-a-new-repo.md"
               - CI Image Organization: "contribute/ci/ci-image-organization.md"
               - GitHub Actions and Security: "contribute/ci/gh-actions-security.md"
               - ponyc CI Tiers: "contribute/ci/ponyc-ci-tiers.md"

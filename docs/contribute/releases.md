@@ -1,6 +1,6 @@
 # Releases
 
-All ponylang projects have automated release processes. The detailed steps for releasing any given project are in the `RELEASE_PROCESS.md` file in the root of that project's repository.
+All ponylang projects have automated release processes. A human pushes a tag; the rest is automated. See [release pipeline](ci/release-pipeline.md) for how the three-tag chain works. The detailed steps for releasing any given project are in the `RELEASE_PROCESS.md` file in the root of that project's repository.
 
 A "triggers release" label marks bugs that affect runtime correctness — memory leaks, memory safety issues, crashes, or anything else that is degenerate for running programs. When a fix for one of these lands, a release happens as soon as safely possible rather than waiting for the next scheduled release.
 
