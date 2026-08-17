@@ -510,6 +510,10 @@ type Foo is {(USize, USize): USize} box
 
 Lines must not exceed 80 codepoints. Multi-byte UTF-8 characters count as one codepoint each. A line of exactly 80 codepoints is acceptable; 81 or more triggers a violation.
 
+Lines containing a string literal with no spaces that crosses column 80 are exempt. Such strings (URLs, file paths, identifiers) cannot be meaningfully split.
+
+Lines inside triple-quoted string literals (non-docstring `"""` blocks) are exempt from the 80-column check. Triple-quoted strings used as data (JSON, inline test fixtures, etc.) exist for readability; forcing them to wrap defeats their purpose. Lines inside docstrings are not exempt — docstring prose should be wrapped at 80 columns.
+
 **Incorrect:**
 
 ```pony
@@ -523,6 +527,18 @@ let description = "This string is far too long to fit within the eighty codepoin
 let description =
   "This string has been split" +
   " across multiple lines"
+```
+
+Triple-quoted string literal content is exempt:
+
+```pony
+class Foo
+  fun json_template(): String =>
+    let template: String =
+      """
+      {"name": "some very long value that exceeds eighty columns but is fine because it is inside a string literal"}
+      """
+    template
 ```
 
 ## `style/match-case-indent`
