@@ -510,9 +510,9 @@ type Foo is {(USize, USize): USize} box
 
 Lines must not exceed 80 codepoints. Multi-byte UTF-8 characters count as one codepoint each. A line of exactly 80 codepoints is acceptable; 81 or more triggers a violation.
 
-Lines containing a string literal with no spaces that crosses column 80 are exempt. Such strings (URLs, file paths, identifiers) cannot be meaningfully split.
+Lines where one of the first two space-delimited words crosses column 80 are exempt. A word crosses column 80 when it starts at or before column 80 and extends past it. Breaking the line cannot bring such a word under 80 columns. A long word deeper in the line (position 3+) is flagged, because the content before it can go on a separate line where the long word would then be exempt. URLs, long identifiers, and file paths in code, comments, and docstrings all qualify when they appear as one of the first two words.
 
-Lines inside triple-quoted string literals (non-docstring `"""` blocks) are exempt from the 80-column check. Triple-quoted strings used as data (JSON, inline test fixtures, etc.) exist for readability; forcing them to wrap defeats their purpose. Lines inside docstrings are not exempt — docstring prose should be wrapped at 80 columns.
+Lines inside triple-quoted string literals (non-docstring `"""` blocks) are exempt from the 80-column check. Triple-quoted strings used as data (JSON, inline test fixtures, etc.) exist for readability; forcing them to wrap defeats their purpose. Lines inside docstrings are not exempt — docstring prose should be wrapped at 80 columns, though the word rule above still applies.
 
 **Incorrect:**
 
