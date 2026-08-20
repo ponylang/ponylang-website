@@ -703,7 +703,7 @@ actor Foo
 
 **Default:** on
 
-Checks whitespace around operators per the style guide. Binary operators require a space before and after. The `not` keyword requires a space after; before `not`, either a space or a non-alphanumeric character (e.g., `(`) is acceptable. Unary minus must NOT have a space after the `-`. The "before" check is skipped on continuation lines where the operator is the first non-whitespace character.
+Checks whitespace and placement of operators per the style guide. Binary operators require a space before and after, and belong at the end of a line when an expression spans multiple lines. A binary operator at the start of a continuation line is flagged. The `not` keyword requires a space after; before `not`, either a space or a non-alphanumeric character (e.g., `(`) is acceptable. Unary minus must not have a space after the `-`. At the start of a line, `- expr` with a space is flagged because the Pony parser treats `-` there as negation, not subtraction.
 
 **Incorrect:**
 
@@ -712,6 +712,10 @@ let x = 1+2
 let y = a ==b
 if not(x) then -a end
 let z = - a
+
+// Binary operator at start of continuation line
+let w = a
+  + b
 ```
 
 **Correct:**
@@ -721,9 +725,9 @@ let x = 1 + 2
 let y = a == b
 if not x then -a end
 
-// Continuation lines are fine
-let z =
-  + a
+// Operator at end of line
+let w = a +
+  b
 ```
 
 ## `style/package-naming`

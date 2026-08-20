@@ -58,7 +58,7 @@ corral run -- pony-lint src/ test/
 | `style/match-no-single-line` | on | Match expressions must span multiple lines |
 | `style/member-naming` | on | Member names should be snake_case |
 | `style/method-declaration-format` | on | Multiline method declaration formatting (parameter layout, return type and `=>` alignment) |
-| `style/operator-spacing` | on | Binary operators need surrounding spaces; no space after unary `-` |
+| `style/operator-spacing` | on | Binary operators need surrounding spaces and belong at line end; no space after unary `-` |
 | `style/package-docstring` | on | Package should have a `<package>.pony` file with a docstring |
 | `style/package-naming` | off | Package directory name should be snake_case |
 | `style/partial-call-spacing` | on | `?` at call site must immediately follow `)` |
