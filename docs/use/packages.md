@@ -69,6 +69,14 @@ The client is built on [lori](https://github.com/ponylang/lori) and supports str
 
 ## Data Formats and Parsing
 
+### [msgpack](https://github.com/ponylang/msgpack)
+
+A pure Pony implementation of the [MessagePack](https://msgpack.org/) serialization format.
+
+`MessagePackEncoder` provides compact methods that automatically select the smallest wire format for a given value — a small integer encodes as a single-byte `positive_fixint`, a short string as a `fixstr`, and so on. `MessagePackDecoder` provides matching compact methods that accept any wire format within a family. When you need explicit control, format-specific methods on the encoder (`uint_8`, `uint_32`, `fixstr`, `str_8`, `bin_8`, `fixext_1`, `ext_8`, etc.) and corresponding methods on the decoder target exactly one wire format. Both styles work through the standard library's `Writer` and `Reader` buffers.
+
+`MessagePackStreamingDecoder` handles data that arrives incrementally. It peeks at format bytes and length fields before consuming anything; if insufficient data is available, it returns `NotEnoughData` with zero bytes consumed so the caller can append more and retry. The decoder produces typed values — including integers, floats, strings, booleans, binary data, timestamps, extension types, array headers, and map headers — via a single `next()` call. Configurable size limits via `MessagePackDecodeLimits` protect against oversized payloads from untrusted sources; the batch `MessagePackDecoder` does not enforce limits.
+
 ### [multipart_mime](https://github.com/ponylang/multipart_mime)
 
 A streaming multipart MIME parser for Pony, implementing RFC 2046.
