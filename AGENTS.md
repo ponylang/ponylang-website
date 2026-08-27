@@ -64,7 +64,7 @@ Study recent posts in `docs/blog/posts/` for voice calibration before writing.
   attended by..." not "Office Hours were attended by..."
 - The Pony Development Sync is sometimes called just "the sync" in casual
   context.
-- Refer to repositories as `owner/repo` (e.g., `seantallen-org/msgpack`, not
+- Refer to repositories as `owner/repo` (e.g., `ponylang/msgpack`, not
   `msgpack`) — no one owns a name. This applies everywhere: section headings,
   inline prose, not just the releases list. Link to the repo on first mention.
 - Em dashes (—) are fine but use them sparingly. Heavy use reads as
