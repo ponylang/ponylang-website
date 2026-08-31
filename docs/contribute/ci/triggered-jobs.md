@@ -106,7 +106,6 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 - [reactive_streams: breakage-against-ponyc-latest](https://github.com/ponylang/reactive_streams/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [redis: breakage-against-ponyc-latest](https://github.com/ponylang/redis/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [regex: breakage-against-linux-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
-- [rfc-tool: breakage-against-ponyc-latest](https://github.com/ponylang/rfc-tool/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [semver: breakage-against-ponyc-latest](https://github.com/ponylang/semver/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [ssl: breakage-against-linux-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [stallion: breakage-against-ponyc-latest](https://github.com/ponylang/stallion/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
