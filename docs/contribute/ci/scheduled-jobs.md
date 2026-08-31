@@ -17,7 +17,6 @@ The scheduled jobs list was last updated June 28, 2026.
 | ponyc: prune branch libs cache | 04:37 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: verify nightly image freshness | 06:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyup: nightly build | 00:00 | [ponylang/ponyup](https://github.com/ponylang/ponyup) |
-| rfc-tool: nightly build | 00:00 | [ponylang/rfc-tool](https://github.com/ponylang/rfc-tool) |
 | ponylang-website: verify site builds | 02:00 | [ponylang/ponylang-website](https://github.com/ponylang/ponylang-website) |
 | pony-patterns: verify site builds | 02:00 | [ponylang/pony-patterns](https://github.com/ponylang/pony-patterns) |
 | pony-tutorial: verify site builds | 02:00 | [ponylang/pony-tutorial](https://github.com/ponylang/pony-tutorial) |
