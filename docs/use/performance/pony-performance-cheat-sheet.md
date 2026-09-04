@@ -197,6 +197,8 @@ type Money is (Dollars, Cents)
 
 Machine words like U8, U16, U32, U64, etc. are going to be better for performance than classes. Machine words have less overhead than classes. However, if we aren't careful, we can end up "boxing" machine words and add cost. In hot path code, that boxing can have a large impact.
 
+On 64-bit platforms, machine words that fit in 32 bits or fewer — Bool, U8, I8, U16, I16, U32, I32, and F32 — are encoded directly in the pointer value when they appear in a union type, so no heap allocation happens. On Windows (LLP64), ILong and ULong are also 32-bit and get the same treatment. The boxing cost described below applies to the remaining types: U64, I64, U128, I128, USize, F64, and on LP64 platforms (Linux, macOS) ILong and ULong.
+
 The easiest way to end up boxing a machine word is by including it in a union type. Take a look at the following code:
 
 ```pony
