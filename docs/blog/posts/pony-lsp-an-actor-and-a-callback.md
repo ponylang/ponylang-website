@@ -8,15 +8,15 @@ categories:
 draft: false
 ---
 
-[Embed You a ponyc for Great Good](/blog/posts/embed-you-a-ponyc-for-great-good.md) introduced libponyc-standalone, a static compiler library you can link your tools against, and a Pony wrapper called pony-ast that exposes the compiler as a callable function. This post is about the Pony language server we built on top of it.
+[Embed You a ponyc for Great Good](/blog/posts/embed-you-a-ponyc-for-great-good.md) introduced libponyc-standalone, a static compiler library you can link your tools against, and a Pony wrapper called pony-ast that exposes the compiler as a callable function. We built a language server on top of it.
 
 A quick disclaimer before I get going. Almost none of pony-lsp is my work. Matthias Wahl built it from scratch. He wrote the actor architecture, the message dispatch, and the original feature set. He also wrote pony-ast. Orien Madgwick has been pushing it forward; most of the new features over the past several months are his. My contribution is mostly fixing things that broke when I imported the project into ponyc, plus a small feature here and there. The clever stuff is theirs.
 
 <!-- more -->
 
-## A compiler is a function. An LSP is a service.
+## Wrapping the compiler in an actor
 
-pony-ast hands you the compiler as a function:
+pony-ast gives you the compiler as a function:
 
 ```pony
 match Compiler.compile(source_dir, [pony_path] where limit = PassFinaliser)
@@ -25,15 +25,13 @@ match Compiler.compile(source_dir, [pony_path] where limit = PassFinaliser)
 end
 ```
 
-Call it. Get a result. Done.
+Call it, get a result, move on.
 
-A language server is a different shape entirely. The editor opens a file. The user types. The user saves. The user opens another file. Each event might want a fresh look from the compiler. The compiler doesn't care that ten requests are queued behind it; it only knows how to compile once, return, and get out of the way.
+A language server is a different shape. The editor opens a file. The user types. The user saves. The user opens another file. Each event might need a fresh compile. But `Compiler.compile` runs once and returns — no queuing, no scheduling.
 
-There's also a less obvious problem. libponyc isn't fully thread-safe. So if a language server tried to call `Compiler.compile` from two threads at the same time, you'd get a sad afternoon and possibly a very interesting core dump.
+There's also a less obvious problem. libponyc isn't fully thread-safe. Two threads calling `Compiler.compile` at the same time is a race, and the result is a core dump you'll spend the afternoon reading.
 
 The bridge between "function" and "service" in pony-lsp is an actor.
-
-## The compiler as an actor
 
 The actor lives at [`tools/pony-lsp/compiler_notify.pony`](https://github.com/ponylang/ponyc/blob/main/tools/pony-lsp/compiler_notify.pony). Here's the heart of it:
 
@@ -53,15 +51,15 @@ actor PonyCompiler is LspCompiler
     notify.done_compiling(package, result, run_id)
 ```
 
-`PonyCompiler` is the actor. `CompilerNotify` is the callback interface the language server implements to receive results. Behaviors are asynchronous, so instead of "call the compiler and block until it answers," the language server says "please compile this" and goes back to handling editor messages. The compiler delivers the result by calling `notify.done_compiling(...)` when it's done.
+`PonyCompiler` is the actor. `CompilerNotify` is the callback interface the language server implements to receive results. Behaviors are asynchronous — the language server sends a compile request and goes back to handling editor messages. When the compile finishes, `notify.done_compiling(...)` pushes the result back.
 
-The actor model gets you the threading story for free. Behaviors on the same actor run one at a time. If two `compile` requests arrive back-to-back, the second one waits in the mailbox while the first one runs. No locks. No mutex around libponyc. Pony's runtime serializes calls because that's just what actors do. The same property that makes Pony nice for distributed systems makes it nice for wrapping a compiler that's allergic to concurrency.
+Behaviors on the same actor run one at a time. If two `compile` requests arrive back-to-back, the second one waits in the mailbox while the first one runs. No locks. No mutex around libponyc. The runtime serializes the calls. The same property that makes Pony useful for distributed systems makes it useful for wrapping a single-threaded compiler.
 
-Even with threading sorted, you don't want to run codegen on every keystroke. That's what `limit = PassFinaliser` is for. The compiler is a pipeline of passes: parse, typecheck, finalize, codegen. A language server doesn't want codegen. It wants to know whether the program is well-formed and what the types are. The wrapper lets you stop where you want, so the LSP stops at finalize and pays for what it uses.
+Even with the threading sorted, you don't want to run codegen on every keystroke. That's what `limit = PassFinaliser` is for. The compiler is a pipeline of passes: parse, typecheck, finalize, codegen. A language server doesn't need codegen. All it needs from the compiler is whether the program is well-formed and what the types are. The wrapper lets you stop at any pass, so the LSP stops at finalize and only pays for what it uses.
 
 ## Yesterday's news
 
-One more detail from the snippet matters: `run_id`. Each compile gets a fresh one:
+One more detail from the snippet: `run_id`. Each compile gets a fresh one:
 
 ```pony
 let run_id = _run_id_gen = _run_id_gen + 1
@@ -70,9 +68,9 @@ notify.done_compiling(package, result, run_id)
 
 The user types fast. By the time a compile finishes, the file might have changed three times and another compile is already queued. Diagnostics from the old compile are wrong. Inlay hints from the old compile are wrong. Anything calculated from a stale `Program` is wrong.
 
-The run id tells the language server which compile a result came from. The language server tracks the latest id it dispatched and ignores any earlier results that come back. It doesn't get faster, but it stops showing you yesterday's news.
+The run id tells the language server which compile a result came from. The language server tracks the latest id it dispatched and ignores anything older. The compile doesn't get faster, but the user stops seeing stale diagnostics.
 
-## Errors come back as data
+## Errors as data
 
 When a compile fails:
 
@@ -86,14 +84,12 @@ match result
 end
 ```
 
-Errors come back as data, not strings. The LSP layer is where that matters. Each `Error` already has a file, a position, and a message. The translation to an LSP `Diagnostic` is a few lines of mapping code. No regex over compiler output. No grep for "error:" prefixes. The shape was already what we needed.
+Errors come back as structured data, not strings. Each `Error` already has a file, a position, and a message. Translating that to an LSP `Diagnostic` is a few lines of mapping code. No regex over compiler output. No grep for "error:" prefixes.
 
-Hover, go-to-definition, all the rest. They run on that same `Program` tree. The AST is the substrate.
+Hover, go-to-definition, and the rest all run on the same `Program` tree. Each feature is a different walk over the AST.
 
 ## What's next
 
-pony-lsp has to deal with the LSP protocol and editors and clients that disagree about what year it is.
+pony-lsp also has to deal with the LSP protocol itself and with editors that each implement it a little differently.
 
-Next time, pony-lint. Take the same wrapper, throw away most of the machinery, walk the AST looking for things you don't want to see.
-
-Same wrapper. Different tool. Smaller surface. Smaller post.
+Next up: pony-lint. Same compiler wrapper, no protocol machinery. Just walking the AST looking for things you don't want to see.
