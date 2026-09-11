@@ -106,7 +106,6 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 - [semver: breakage-against-ponyc-latest](https://github.com/ponylang/semver/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [ssl: breakage-against-linux-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [stallion: breakage-against-ponyc-latest](https://github.com/ponylang/stallion/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [uri: breakage-against-ponyc-latest](https://github.com/ponylang/uri/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [valbytes: breakage-against-ponyc-latest](https://github.com/ponylang/valbytes/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [web_link: breakage-against-ponyc-latest](https://github.com/ponylang/web_link/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 
