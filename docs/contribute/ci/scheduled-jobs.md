@@ -31,7 +31,6 @@ The scheduled jobs list was last updated June 28, 2026.
 | ponyc: stress test (Linux glibc generative, normal) | 18:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: stress test (macOS generative, normal) | 22:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 | ponyc: stress test (Windows generative, normal) | 02:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
-| lori: stress tests | 06:30 | [ponylang/lori](https://github.com/ponylang/lori) |
 | ponyc: test with latest tools | 12:00 | [ponylang/ponyc](https://github.com/ponylang/ponyc) |
 
 <!-- markdownlint-restore -->

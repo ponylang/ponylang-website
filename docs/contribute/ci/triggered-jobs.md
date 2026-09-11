@@ -26,7 +26,6 @@ The triggered jobs list was last updated May 30, 2026.
 
 - [appdirs: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 - [corral: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
-- [lori: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 - [ponyup: breakage-against-macos-arm64-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-macos-arm64-ponyc-latest.yml)
 
 ## ponyc-x86_64-macos-nightly-released
@@ -50,7 +49,6 @@ The triggered jobs list was last updated May 30, 2026.
 
 - [appdirs: breakage-against-windows-ponyc-latest](https://github.com/ponylang/appdirs/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [corral: breakage-against-windows-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
-- [lori: breakage-against-windows-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [ponyup: breakage-against-windows-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [regex: breakage-against-windows-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [ssl: breakage-against-windows-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
@@ -98,7 +96,6 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 - [github_rest_api: breakage-against-ponyc-latest](https://github.com/ponylang/github_rest_api/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [hobby: breakage-against-ponyc-latest](https://github.com/ponylang/hobby/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [livery: breakage-against-ponyc-latest](https://github.com/ponylang/livery/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [lori: breakage-against-linux-ponyc-latest](https://github.com/ponylang/lori/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [mare: breakage-against-ponyc-latest](https://github.com/ponylang/mare/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [peg: breakage-against-ponyc-latest](https://github.com/ponylang/peg/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [ponyup: breakage-against-linux-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)

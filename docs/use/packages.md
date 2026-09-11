@@ -12,17 +12,6 @@ Hobby is a simple HTTP web framework for Pony, powered by [Stallion](https://git
 
 Hobby is designed to feel lightweight while taking full advantage of Pony's type system and reference capabilities. Handlers are `val` - safe to share across concurrent connections without copying. The `Context` is `ref`, so middleware and handlers can read and mutate request state without juggling `iso` ownership. If you're building an HTTP service in Pony and want a familiar route/middleware/handler model without fighting the capability system, Hobby is a good place to start.
 
-### [lori](https://github.com/ponylang/lori)
-
-A TCP networking library for Pony. Lori separates connection logic from actor scheduling — the TCP state machine lives in a plain class (`TCPConnection`) that your actor delegates to, rather than baking everything into a single actor the way the standard library's net package does. This gives you control over how your actor is structured while lori handles the low-level I/O.
-
-Key features:
-
-- Fallible sends — `send()` returns `(SendToken | SendError)` instead of silently dropping data, so the application always knows whether data was accepted
-- Built-in SSL — switch from plain TCP to SSL by changing a single constructor call
-- Connection limits — cap the number of concurrent connections a listener will accept
-- Backpressure notifications — `_on_throttled` / `_on_unthrottled` callbacks let the application respond to socket pressure
-
 ### [livery](https://github.com/ponylang/livery)
 
 Livery is a server-side library for building interactive LiveView UIs over WebSocket in Pony. You implement the `LiveView` trait — `mount` initializes state, `handle_event` responds to client interactions, `handle_info` receives server-push messages, and `render` produces HTML from current assigns. The JavaScript client connects over WebSocket, patches the DOM with [morphdom](https://github.com/patrick-steele-iber/morphdom) on each render, and delegates UI events back to the server. No client-side application code is needed beyond including the script.
@@ -31,17 +20,17 @@ Livery supports stateful `LiveComponent` instances for composing UIs from indepe
 
 ### [mare](https://github.com/ponylang/mare)
 
-Mare is a WebSocket server library for Pony, built on [lori](https://github.com/ponylang/lori). It implements RFC 6455 and provides a callback-driven API for handling WebSocket connections. You write an actor that implements `WebSocketServerActor` and responds to connection events — `on_open`, `on_text_message`, `on_binary_message`, and `on_closed` — and mare handles the protocol framing, upgrade handshake, and connection lifecycle. Configuration is explicit: bind address, port, and SSL are set through `WebSocketConfig`.
+Mare is a WebSocket server library for Pony. It implements RFC 6455 and provides a callback-driven API for handling WebSocket connections. You write an actor that implements `WebSocketServerActor` and responds to connection events — `on_open`, `on_text_message`, `on_binary_message`, and `on_closed` — and mare handles the protocol framing, upgrade handshake, and connection lifecycle. Configuration is explicit: bind address, port, and SSL are set through `WebSocketConfig`.
 
 ### [ssl](https://github.com/ponylang/ssl)
 
 Pony wrappers for OpenSSL and LibreSSL.
 
-The package is organized into two sub-packages. `ssl/crypto` provides one-shot hash functions (MD5, SHA-1, SHA-256, SHA-512, and others), streaming digests, HMAC-SHA-256, PBKDF2-SHA-256 key derivation, cryptographic random bytes, and constant-time comparison. `ssl/net` provides `SSLContext` for TLS configuration, `SSL` for transport-agnostic encryption/decryption via memory BIOs, and `SSLConnection` — a `TCPConnectionNotify` wrapper that adds TLS to any existing TCP connection transparently. ALPN negotiation and X.509 hostname verification are supported. Compile with `-Dopenssl_1.1.x`, `-Dopenssl_3.0.x`, or `-Dlibressl` to select the underlying library.
+The package provides one-shot hash functions (MD5, SHA-1, SHA-256, SHA-512, and others), streaming digests, HMAC-SHA-256, PBKDF2-SHA-256 key derivation, cryptographic random bytes, and constant-time comparison. Compile with `-Dopenssl_1.1.x`, `-Dopenssl_3.0.x`, or `-Dlibressl` to select the underlying library.
 
 ### [stallion](https://github.com/ponylang/stallion)
 
-Stallion is an HTTP/1.x server library for Pony, built on [lori](https://github.com/ponylang/lori). Rather than hiding connections behind an opaque server object, Stallion asks you to write the connection actor yourself - your actor owns an `HTTPServer` instance and receives HTTP lifecycle callbacks directly. There are no hidden internal actors, no implicit concurrency, and no magic. You get a typed request with a pre-parsed URI, a `Responder` for sending replies, and a `ResponseBuilder` state machine for constructing well-formed responses. Pipelined requests are queued and responses are sent in order, even when your actor handles them out of sequence.
+Stallion is an HTTP/1.x server library for Pony. Rather than hiding connections behind an opaque server object, Stallion asks you to write the connection actor yourself - your actor owns an `HTTPServer` instance and receives HTTP lifecycle callbacks directly. There are no hidden internal actors, no implicit concurrency, and no magic. You get a typed request with a pre-parsed URI, a `Responder` for sending replies, and a `ResponseBuilder` state machine for constructing well-formed responses. Pipelined requests are queued and responses are sent in order, even when your actor handles them out of sequence.
 
 Stallion supports both complete and streaming responses. Complete responses are pre-serialized via `ResponseBuilder` for efficient repeated use. Streaming responses use chunked transfer encoding with flow control - each chunk gets an asynchronous acknowledgement callback so producers can match their send rate to the network. Configuration is explicit: parser limits, idle timeouts, pipelining depth, and TLS are all opt-in via `ServerConfig`. If you want a minimal, transparent HTTP layer that fits naturally into Pony's actor model without imposing its own abstractions, Stallion is the foundation to build on.
 
@@ -65,7 +54,7 @@ Postgres is a pure Pony PostgreSQL driver with no libpq dependency — it implem
 
 Pure Pony Redis client.
 
-The client is built on [lori](https://github.com/ponylang/lori) and supports strings, keys, hashes, lists, sets, and pub/sub, with builder primitives for type-safe command construction. Any Redis command not covered by a builder can be sent as a raw byte array. Commands are pipelined by default — each `execute()` sends immediately without waiting for prior responses. The client supports both RESP2 and RESP3 protocols, SSL/TLS, and Redis 6.0+ ACL authentication. Backpressure is bounded: a configurable send buffer rejects commands when full rather than growing without limit. Note that this package has not yet had a formal release.
+The client supports strings, keys, hashes, lists, sets, and pub/sub, with builder primitives for type-safe command construction. Any Redis command not covered by a builder can be sent as a raw byte array. Commands are pipelined by default — each `execute()` sends immediately without waiting for prior responses. The client supports both RESP2 and RESP3 protocols, SSL/TLS, and Redis 6.0+ ACL authentication. Backpressure is bounded: a configurable send buffer rejects commands when full rather than growing without limit. Note that this package has not yet had a formal release.
 
 ## Data Formats and Parsing
 
