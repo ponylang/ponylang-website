@@ -37,7 +37,7 @@ Keep an eye on future Last Week in Pony issues to see if anything is discovered.
 
 ### Help Adding Additional Stress Tests Is Sought
 
-We are looking to add additional stress tests. Our existing stress test is to run the [message-ubench](https://github.com/ponylang/ponyc/tree/main/examples/message-ubench) for an extended period of time. Ubench has been instrumental over the years in helping us find a variety of runtime issues, but it has its limits. We are looking to add additional stress tests and we are asking for assistance in the writing of those tests. If you are interested in helping, please contact Sean T. Allen on Zulip.
+We are looking to add additional stress tests. Our existing stress test is to run the [message-ubench](https://github.com/ponylang/ponyc/tree/main/examples/actors/message-ubench) for an extended period of time. Ubench has been instrumental over the years in helping us find a variety of runtime issues, but it has its limits. We are looking to add additional stress tests and we are asking for assistance in the writing of those tests. If you are interested in helping, please contact Sean T. Allen on Zulip.
 
 There was some initial conversation in the ["gc stress test"](https://ponylang.zulipchat.com/#narrow/stream/190359-ci/topic/GC.20stress.20test) topic on Zulip that can you give an idea of what sort of things we are looking to do.
 

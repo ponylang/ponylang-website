@@ -63,7 +63,7 @@ In practice, short file operations are fine. If you need to do heavy file IO wit
 
 Yes. Behaviors are always asynchronous. When a behavior calls itself, it sends a new message to the actor's own queue. The current behavior finishes, and the recursive call runs later when the actor picks that message up.
 
-This is actually useful. A behavior that loops with `while` or `for` can't be interrupted — it holds the scheduler thread until it returns. A behavior that "loops" by calling itself gives other messages a chance to be processed between iterations. The [`yield`](https://github.com/ponylang/ponyc/tree/main/examples/yield) example in `ponylang/ponyc` demonstrates this pattern.
+This is actually useful. A behavior that loops with `while` or `for` can't be interrupted — it holds the scheduler thread until it returns. A behavior that "loops" by calling itself gives other messages a chance to be processed between iterations. The [`yield`](https://github.com/ponylang/ponyc/tree/main/examples/actors/yield) example in `ponylang/ponyc` demonstrates this pattern.
 
 If you need synchronous recursion inside an actor, use a private function instead. Functions are always synchronous.
 
