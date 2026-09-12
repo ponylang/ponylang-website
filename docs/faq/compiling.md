@@ -17,7 +17,7 @@ try running `ponyc` with the `--pic` flag.
 For example:
 
 ```bash
-ponyc --pic examples/helloworld
+ponyc --pic examples/getting-started/helloworld
 ```
 
 A `ponyc` built from source applies `--pic` by default, so you don't need to set it yourself when using such a compiler.
