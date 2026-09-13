@@ -34,10 +34,6 @@ Stallion is an HTTP/1.x server library for Pony. Rather than hiding connections 
 
 Stallion supports both complete and streaming responses. Complete responses are pre-serialized via `ResponseBuilder` for efficient repeated use. Streaming responses use chunked transfer encoding with flow control - each chunk gets an asynchronous acknowledgement callback so producers can match their send rate to the network. Configuration is explicit: parser limits, idle timeouts, pipelining depth, and TLS are all opt-in via `ServerConfig`. If you want a minimal, transparent HTTP layer that fits naturally into Pony's actor model without imposing its own abstractions, Stallion is the foundation to build on.
 
-### [uri](https://github.com/ponylang/uri)
-
-URI library for Pony. Implements [RFC 3986](https://datatracker.ietf.org/doc/html/rfc3986) parsing, reference resolution, and normalization; [RFC 3987](https://datatracker.ietf.org/doc/html/rfc3987) IRI/URI conversion and IRI-aware encoding; and [RFC 6570](https://datatracker.ietf.org/doc/html/rfc6570) URI template expansion at all four levels.
-
 ### [web_link](https://github.com/ponylang/web_link)
 
 Parser for [RFC 8288](https://www.rfc-editor.org/rfc/rfc8288) (Web Linking) HTTP Link headers in Pony. Implements the link-value grammar from Section 3 including quoted-string parameters, OWS/BWS handling, and multi-link comma-separated headers.
