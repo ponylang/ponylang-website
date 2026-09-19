@@ -22,12 +22,6 @@ Livery supports stateful `LiveComponent` instances for composing UIs from indepe
 
 Mare is a WebSocket server library for Pony. It implements RFC 6455 and provides a callback-driven API for handling WebSocket connections. You write an actor that implements `WebSocketServerActor` and responds to connection events — `on_open`, `on_text_message`, `on_binary_message`, and `on_closed` — and mare handles the protocol framing, upgrade handshake, and connection lifecycle. Configuration is explicit: bind address, port, and SSL are set through `WebSocketConfig`.
 
-### [ssl](https://github.com/ponylang/ssl)
-
-Pony wrappers for OpenSSL and LibreSSL.
-
-The package provides one-shot hash functions (MD5, SHA-1, SHA-256, SHA-512, and others), streaming digests, HMAC-SHA-256, PBKDF2-SHA-256 key derivation, cryptographic random bytes, and constant-time comparison. Compile with `-Dopenssl_1.1.x`, `-Dopenssl_3.0.x`, or `-Dlibressl` to select the underlying library.
-
 ### [stallion](https://github.com/ponylang/stallion)
 
 Stallion is an HTTP/1.x server library for Pony. Rather than hiding connections behind an opaque server object, Stallion asks you to write the connection actor yourself - your actor owns an `HTTPServer` instance and receives HTTP lifecycle callbacks directly. There are no hidden internal actors, no implicit concurrency, and no magic. You get a typed request with a pre-parsed URI, a `Responder` for sending replies, and a `ResponseBuilder` state machine for constructing well-formed responses. Pipelined requests are queued and responses are sent in order, even when your actor handles them out of sequence.

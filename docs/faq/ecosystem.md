@@ -12,4 +12,4 @@ An easy to maintain code formatter would share parsing code with the compiler. A
 
 ## Is there SSL support? {:id="ssl"}
 
-Yes! There used to be SSL support in the Pony standard library, but it's been moved out [into its own library](https://github.com/ponylang/ssl).
+Yes! The standard library's `crypto` package provides cryptographic primitives (hash functions, HMAC, PBKDF2, random bytes) backed by OpenSSL's libcrypto. The standard library's `net` package provides SSL/TLS connections via OpenSSL's libssl.
