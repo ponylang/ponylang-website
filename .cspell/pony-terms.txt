@@ -101,6 +101,7 @@ ergl
 Erlangers
 errr
 evented
+finaliser
 Finalisers
 finalizer
 finalizers
@@ -243,6 +244,7 @@ Nuklear
 NUMA
 ODBC
 OMFG
+ooey
 Ooops
 OOPSLA
 Øredev
