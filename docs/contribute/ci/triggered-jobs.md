@@ -51,7 +51,6 @@ The triggered jobs list was last updated May 30, 2026.
 - [corral: breakage-against-windows-ponyc-latest](https://github.com/ponylang/corral/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [ponyup: breakage-against-windows-ponyc-latest](https://github.com/ponylang/ponyup/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 - [regex: breakage-against-windows-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
-- [ssl: breakage-against-windows-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-windows-ponyc-latest.yml)
 
 ## ponyc-nightly-image-pushed
 
@@ -104,7 +103,6 @@ Sent after our various Linux builders hosted in the shared-docker repo have been
 - [redis: breakage-against-ponyc-latest](https://github.com/ponylang/redis/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [regex: breakage-against-linux-ponyc-latest](https://github.com/ponylang/regex/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [semver: breakage-against-ponyc-latest](https://github.com/ponylang/semver/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
-- [ssl: breakage-against-linux-ponyc-latest](https://github.com/ponylang/ssl/blob/main/.github/workflows/breakage-against-linux-ponyc-latest.yml)
 - [stallion: breakage-against-ponyc-latest](https://github.com/ponylang/stallion/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [valbytes: breakage-against-ponyc-latest](https://github.com/ponylang/valbytes/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
 - [web_link: breakage-against-ponyc-latest](https://github.com/ponylang/web_link/blob/main/.github/workflows/breakage-against-ponyc-latest.yml)
