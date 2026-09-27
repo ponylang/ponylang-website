@@ -187,11 +187,13 @@ langage
 Lasauskas
 libatomic
 libc
+libcrypto
 libei
 Libgpiod
 libponyc
 libponyrt
 libpq
+libssl
 libressl
 libunwind
 Liétar
