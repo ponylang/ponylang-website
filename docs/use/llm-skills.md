@@ -49,7 +49,7 @@ A routing index for the other skills. Load it — or reference it from a project
 
 #### pony-ref
 
-The Pony language reference. Covers the capabilities table, subtyping rules, viewpoint adaptation, common gotchas, PonyCheck property-based testing patterns, and standard library pitfalls. Behind the quick reference, deeper documents are available for the LLM to read on demand: the full text of the nine Pony papers as PDFs, type-system and runtime/GC synopses distilled from them, and snapshots of the tutorial, patterns cookbook, and main website.
+The Pony language reference. Covers the capabilities table, subtyping rules, viewpoint adaptation, common gotchas, property-based testing patterns, and standard library pitfalls. Behind the quick reference, deeper documents are available for the LLM to read on demand: the full text of the nine Pony papers as PDFs, type-system and runtime/GC synopses distilled from them, and snapshots of the tutorial, patterns cookbook, and main website.
 
 The reference documentation updates nightly from the Pony website and tutorial. Pull the repo often.
 
@@ -87,7 +87,7 @@ Two-stage ensemble for planning meaningful tests. Counters the tendency to write
 
 #### pony-pbt-patterns
 
-Property-based and generative testing patterns, built on one idea: chance is not coverage, so a generator has to bias toward where bugs live. Covers biasing toward important values, swarm testing (varying which operations are enabled so emergent state reaches the extremes), the valid/invalid/mixed boundary triad, compositional generators, and multi-angle oracles. Maps directly onto PonyCheck.
+Property-based and generative testing patterns, built on one idea: chance is not coverage, so a generator has to bias toward where bugs live. Covers biasing toward important values, swarm testing (varying which operations are enabled so emergent state reaches the extremes), the valid/invalid/mixed boundary triad, compositional generators, and multi-angle oracles. Maps directly onto PonyTest's property-based testing support.
 
 #### pony-debug
 
