@@ -44,6 +44,12 @@ See the [garbage collector](../performance/pony-performance-cheat-sheet.md#garba
 
 After GC, an actor will next be GC'd at a heap memory usage N times its current value. This is a floating point value. Defaults to 2.0.
 
+## Allocator Options
+
+### `--ponymemoryprofile`
+
+Trade the allocator's resident memory against throughput on a scale from 1 to 10: 1 returns freed memory quickly for the smallest footprint, 10 holds it for the most throughput. Defaults to 3 — the scale has little room below it for less memory and much more above it for throughput, so the balanced default sits low on it.
+
 ## Cycle Detector Options
 
 ### `--ponycdinterval`
