@@ -149,36 +149,6 @@ The instrumentation comes from the host toolchain's coverage support — `-fprof
 !!! warning "Not available on OpenBSD"
     OpenBSD's base toolchain ships an incomplete profiling runtime, so a coverage-instrumented ponyc can't be linked there. Configuring with `-DPONY_USES=coverage` is rejected on OpenBSD with an error.
 
-## DTrace / SystemTap
-
-The Pony runtime includes [USDT](https://illumos.org/books/dtrace/chp-usdt.html) (Userland Statically Defined Tracing) probes. They're consumed by SystemTap on Linux and by DTrace on FreeBSD. No other platform is supported: macOS removed DTrace, and neither DragonFly BSD nor OpenBSD ships a DTrace-compatible probe-generation tool (OpenBSD's `btrace` is a separate tracer with no USDT support). On DragonFly BSD and OpenBSD, configuring with `-DPONY_USES=dtrace` is rejected with an error rather than failing later in the build.
-
-Building requires a `dtrace`-compatible tool on your `PATH`:
-
-```bash
-cmake --preset release -DPONY_USES=dtrace
-cmake --build --preset release
-```
-
-The probes are defined under the `pony` provider and cover:
-
-- **Actor lifecycle** — creation, scheduling, descheduling
-- **Message passing** — actor-to-actor and thread message send/receive/push/pop
-- **Backpressure** — overload, mute/unmute, pressure state changes
-- **Garbage collection** — GC start/end, send/receive phases, threshold changes
-- **Memory** — heap allocation
-- **Runtime lifecycle** — init, start, end
-- **Work stealing** — steal success/failure
-- **Thread state** — suspend, resume, nanosleep
-
-For the full list of probes with parameter types and descriptions, see [`src/common/dtrace_probes.d`](https://github.com/ponylang/ponyc/blob/main/src/common/dtrace_probes.d) in the ponyc source.
-
-!!! warning "Static linking on FreeBSD"
-    Statically linked programs (`ponyc --static`) build and run but do not expose their probes to DTrace. FreeBSD registers USDT probes through the runtime linker, which a static binary doesn't use; trace a dynamically linked build instead.
-
-!!! warning "Runtime bitcode is incompatible with DTrace"
-    A ponyc built with `dtrace` cannot compile programs with `--runtimebc`, and rejects the combination with an error. Probe generation operates on native object files, not LLVM bitcode, so the bitcode runtime carries no probes — a `--runtimebc` binary would have none. Use the default static runtime to trace your program.
-
 ## Runtime Statistics
 
 Runtime statistics tracking instruments the Pony runtime to report memory usage per actor and per scheduler thread. This is useful for understanding where memory is going in a running program.

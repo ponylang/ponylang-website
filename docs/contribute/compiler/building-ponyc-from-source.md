@@ -94,9 +94,6 @@ Then compile programs with:
 ponyc --runtimebc
 ```
 
-!!! note
-    `--runtimebc` cannot be used with a compiler built for [DTrace/SystemTap probes](../../use/compiler/custom-ponyc-builds.md#dtrace-systemtap); ponyc rejects the combination with an error.
-
 ## Instrumentation
 
 The `PONY_USES` option enables various instrumentation features. It is set at the configure step. Multiple options can be combined with commas:
@@ -114,7 +111,6 @@ The available options:
 | `address_sanitizer` | Detect buffer overflows, use-after-free |
 | `thread_sanitizer` | Detect data races |
 | `undefined_behavior_sanitizer` | Detect undefined behavior |
-| `dtrace` | USDT probes for DTrace/SystemTap |
 | `systematic_testing` | Deterministic scheduler (requires `scheduler_scaling_pthreads`) |
 | `scheduler_scaling_pthreads` | Pthread-based scheduler scaling |
 | `coverage` | Code coverage instrumentation |
@@ -125,10 +121,10 @@ The available options:
 | `pool_memalign` | Pool allocator with memalign |
 | `pool_retain` | Pool allocator retains freed pages instead of returning them to the OS |
 
-For detailed usage of valgrind, sanitizers, DTrace, and systematic testing, see [Custom ponyc Builds](../../use/compiler/custom-ponyc-builds.md).
+For detailed usage of valgrind, sanitizers, and systematic testing, see [Custom ponyc Builds](../../use/compiler/custom-ponyc-builds.md).
 
 !!! warning "Some options aren't available on OpenBSD or DragonFly BSD"
-    On OpenBSD, `valgrind`, `address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`, `coverage`, and `dtrace` depend on a runtime, headers, or tooling that OpenBSD doesn't ship, so they can't be built there; configuring rejects them with an explanatory error instead of failing partway through the build. On DragonFly BSD, the three sanitizers (`address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`) can't be built because its `gcc13` toolchain ships no sanitizer runtime, and `dtrace` can't be built because DragonFly ships no DTrace-compatible probe-generation tool; as on OpenBSD, configuring rejects these four with an explanatory error instead of failing partway through the build. `valgrind` doesn't work there either: it builds, but DragonFly ships a Valgrind too old to run a Pony program ([ponyc#5435](https://github.com/ponylang/ponyc/issues/5435)). See ponyc's BUILD.md for the details.
+    On OpenBSD, `valgrind`, `address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`, and `coverage` depend on a runtime or headers that OpenBSD doesn't ship, so they can't be built there; configuring rejects them with an explanatory error instead of failing partway through the build. On DragonFly BSD, the three sanitizers (`address_sanitizer`, `thread_sanitizer`, `undefined_behavior_sanitizer`) can't be built because its `gcc13` toolchain ships no sanitizer runtime; configuring rejects them with an explanatory error instead of failing partway through the build. `valgrind` doesn't work there either: it builds, but DragonFly ships a Valgrind too old to run a Pony program ([ponyc#5435](https://github.com/ponylang/ponyc/issues/5435)). See ponyc's BUILD.md for the details.
 
 ## IDE Integration
 
