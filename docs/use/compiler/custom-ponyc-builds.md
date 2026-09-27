@@ -167,17 +167,6 @@ cmake --build --preset release
 
 For details on the available tracking functions and how to call them from Pony code, see [Tracking Memory Usage at Runtime](../debugging/track-memory-usage.md).
 
-## Runtime Tracing
-
-Runtime tracing records events from the Pony scheduler, actor lifecycle, and message passing. Events can be written to a trace file in the background, or stored in in-memory circular buffers that dump to stderr when the program crashes — a fatal signal such as SIGSEGV or SIGILL on Linux and macOS, or a fault such as an access violation on Windows. Trace files use Chromium JSON format and can be viewed with [Perfetto](https://perfetto.dev/).
-
-```bash
-cmake --preset release -DPONY_USES=runtime_tracing
-cmake --build --preset release
-```
-
-For details on tracing options and usage, see [Tracing Pony Programs](../debugging/tracing.md).
-
 ## Systematic Testing
 
 Systematic testing replaces the Pony scheduler with a deterministic, single-threaded scheduler that explores different actor interleaving orders. It's a tool for working on the runtime itself: when a runtime change has a bug that only shows up under some scheduler interleaving, systematic testing lets you replay that interleaving from a seed.
