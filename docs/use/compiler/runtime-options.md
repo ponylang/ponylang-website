@@ -96,7 +96,71 @@ Print the runtime usage options and exit.
 
 ## Tracing Options
 
-When `ponyc` is built with runtime tracing enabled, additional `--ponytracing*` options become available for tracing actor, scheduler, and GC events. See [Trace Pony Programs](../debugging/tracing.md) for details.
+These options control the runtime's built-in tracing system for recording actor, scheduler, and GC events. When no tracing flags are passed, the runtime checks a single boolean at each trace point and skips the call — the overhead is not measurable. See [Tracing Pony Programs](../debugging/tracing.md) for usage details.
+
+### `--ponytracingmode`
+
+Mode for tracing. Valid options:
+
+- `file` — write trace events to a file
+- `flight_recorder` — save events to a per-thread in-memory circular buffer; events are written to stderr when the program crashes (a fatal signal such as SIGSEGV, SIGILL, SIGBUS, or SIGFPE on Linux and macOS, or a fault such as an access violation on Windows)
+
+Defaults to `file`.
+
+### `--ponytracingformat`
+
+Output format for tracing in file mode. Valid options:
+
+- `json` — Chromium trace JSON format (viewable with [Perfetto](https://perfetto.dev/))
+
+Defaults to `json`.
+
+### `--ponytracingoutput`
+
+Output file for tracing in file mode. Valid options:
+
+- `-` — stdout
+- `~` — stderr
+- any string — filename/path to write to
+
+Defaults to `ponytrace.json`.
+
+### `--ponytracingcategories`
+
+Tracing categories to enable, as comma-separated glob patterns. Valid categories:
+
+- `actor` — basic actor events
+- `actor_behavior` — actor behavior run events
+- `actor_gc` — actor garbage collection events
+- `actor_state_change` — actor state change events
+- `scheduler` — basic scheduler events
+- `scheduler_messaging` — inter-scheduler messaging events
+- `systematic_testing` — systematic testing events
+- `systematic_testing_details` — detailed systematic testing events
+
+Defaults to all categories disabled.
+
+### `--ponytracingforceactortracing`
+
+Force tracing for actors. Valid options:
+
+- `all` — force tracing for all actors
+- `cd_only` — only force tracing for the cycle detector
+- `none` — do not force tracing for any actors
+
+Defaults to `none`.
+
+### `--ponytracingflightrecorderbuffer`
+
+Number of events to buffer per-thread in flight recorder mode. The value is rounded up to the nearest power of 2; the minimum allowed is 1. Defaults to 16384.
+
+### `--ponytracingflightrecorderhandletermint`
+
+Also trap on SIGINT (Ctrl-C) and SIGTERM in flight recorder mode.
+
+### `--ponypintracingthread`
+
+Pin the tracing thread to a CPU the way scheduler threads are pinned to CPUs. Requires `--ponypin` to be set to have any effect.
 
 ## Programmatic Overrides
 
