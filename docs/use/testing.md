@@ -1,10 +1,10 @@
 # Testing
 
-Pony ships two testing packages in its standard library: PonyTest for unit testing and PonyCheck for property-based testing. Both run inside the same test harness.
+Pony's standard library includes PonyTest, which provides both unit testing and property-based testing.
 
 ## Unit Testing
 
-[PonyTest](https://stdlib.ponylang.io/pony_test--index/) is Pony's unit testing framework. Each test is a class that implements `UnitTest`. You provide a `name()` and an `apply(h: TestHelper)` function that contains your assertions.
+[PonyTest](https://stdlib.ponylang.io/pony_test--index/) is Pony's testing framework. Each unit test is a class that implements `UnitTest`. You provide a `name()` and an `apply(h: TestHelper)` function that contains your assertions.
 
 ```pony
 use "pony_test"
@@ -22,45 +22,44 @@ Tests can optionally define `set_up(h: TestHelper)?` and `tear_down(h: TestHelpe
 
 ## Property-Based Testing
 
-[PonyCheck](https://stdlib.ponylang.io/pony_check--index/) is Pony's property-based testing library. Instead of specifying individual examples, you define a property that should hold for all inputs and let PonyCheck generate random test data. This is effective at finding edge cases you wouldn't write by hand.
+Instead of specifying individual examples, you define a property that should hold for all inputs and let the framework generate random test data. This is effective at finding edge cases you wouldn't write by hand.
 
-A property test implements `Property1`. You provide a `name()`, a `gen()` that returns a `Generator` for your input type, and a `property()` function that asserts the property.
+A property test implements `Property`. You provide a `name()`, a `gen()` that returns a `Generator` for your input type, and a `property()` function that asserts the property.
 
 ```pony
 use "collections"
-use "pony_check"
+use "pony_test"
 
-class iso _ListReverseProperty is Property1[List[USize]]
+class iso _ListReverseProperty is Property[List[USize]]
   fun name(): String => "list/reverse"
 
   fun gen(): Generator[List[USize]] =>
     Generators.list_of[USize](Generators.usize())
 
-  fun property(arg1: List[USize], ph: PropertyHelper) =>
+  fun ref property(arg1: List[USize], ph: PropertyHelper) =>
     ph.assert_array_eq[USize](arg1, arg1.reverse().reverse())
 ```
 
-When a property fails, PonyCheck shrinks the failing input to find the smallest counterexample, making failures easier to diagnose.
+When a property fails, PonyTest shrinks the failing input to find the smallest counterexample, making failures easier to diagnose.
 
-You can also run properties inline within a `UnitTest` using `PonyCheck.for_all`:
+You can also run properties inline within a `UnitTest` using `h.for_all`:
 
 ```pony
 use "collections"
-use "pony_check"
 use "pony_test"
 
 class iso _TestListReverse is UnitTest
   fun name(): String => "list/reverse/inline"
 
-  fun apply(h: TestHelper) =>
+  fun apply(h: TestHelper) ? =>
     let gen = recover val Generators.list_of[USize](Generators.usize()) end
-    PonyCheck.for_all[List[USize]](gen, h)(
+    h.for_all[List[USize]](gen)(
       {(sample, ph) =>
         ph.assert_array_eq[USize](sample, sample.reverse().reverse())
-      })
+      })?
 ```
 
-See the [PonyCheck stdlib docs](https://stdlib.ponylang.io/pony_check--index/) for the full set of generators and configuration options.
+See the [PonyTest stdlib docs](https://stdlib.ponylang.io/pony_test--index/) for the full set of generators and configuration options.
 
 ## Testing Async Code
 
