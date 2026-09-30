@@ -333,6 +333,7 @@ Sheeeeee
 shellcheck
 Shyu
 SIGBUS
+SIGFPE
 SIGILL
 SIGSEGV
 Sivers
