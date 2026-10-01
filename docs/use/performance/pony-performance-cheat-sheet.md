@@ -457,3 +457,13 @@ The pre-built Pony packages are quite conservative with the optimizations they a
 ### Profile it! {#profiling}
 
 Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hot spots. You can use standard profiling tools like `perf`, Instruments, VTune, and Callgrind on your Pony application. Our [profiling guide](profiling.md) covers `perf`, Instruments, and Callgrind, plus the compiler flags you need and how to read the Pony-specific parts of a profile.
+
+### Control inlining {#control-inlining}
+
+The compiler normally decides which functions to inline. When profiling shows that a particular call site matters, three annotations let you override that decision on `fun` methods:
+
+- `\inline\` — always inline the function
+- `\inline(N)\` — raise the function's inline cost threshold to `N`, making the compiler more willing to inline it
+- `\noinline\` — never inline the function
+
+These are blunt instruments. Use them after profiling confirms that inlining (or the lack of it) is the bottleneck — not as a substitute for profiling.
