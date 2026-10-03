@@ -12,6 +12,7 @@ alloca
 ALPN
 appdirs
 arent
+awesomer
 arities
 arkh
 armhf
@@ -160,6 +161,8 @@ IPFS
 isolcpus
 itertools
 jackassery
+jank
+janky
 Jairo
 Jairo's
 Jaroslaw
