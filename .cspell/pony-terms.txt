@@ -78,6 +78,7 @@ Découverte
 Deligiannis
 derpy
 desugared
+devirtualization
 Devoxx
 Dipin
 discriminee
@@ -151,6 +152,7 @@ Hyperthreads
 ibara
 ICFP
 Idris
+iftype
 IFIP
 Ilvain
 Infosec
@@ -209,6 +211,7 @@ Lookin
 lori
 LSDA
 Lucus
+Lydon
 Lystig
 Madgwick
 mailinglist
@@ -232,6 +235,7 @@ movingtogitlab
 MPMC
 msgpack
 mshockwave
+muckity
 msvc
 multilib
 mwahl
@@ -249,6 +253,7 @@ Nuklear
 NUMA
 ODBC
 OMFG
+ONNX
 ooey
 Ooops
 OOPSLA
