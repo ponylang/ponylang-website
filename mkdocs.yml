@@ -151,6 +151,7 @@ nav:
               - Rule Reference: "use/linting/rule-reference.md"
           - Documentation Generation: "use/documentation.md"
           - LLM Skills: "use/llm-skills.md"
+          - Pony Agent Server: "use/pony-agent-server.md"
       - Development:
           - Testing:
               - Overview: "use/testing.md"
