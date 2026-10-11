@@ -46,7 +46,7 @@ Arguments after `--` are passed through to the command. For example, to build in
 corral run -- ponyc --debug
 ```
 
-In your Pony source, import the dependency by module name:
+In your Pony source, import the dependency by package name:
 
 ```pony
 use "valbytes"
