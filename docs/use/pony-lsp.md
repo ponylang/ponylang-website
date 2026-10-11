@@ -22,7 +22,7 @@ Your editor launches the `pony-lsp` binary as a subprocess. See the [editor conf
 
 ## Workspace Detection
 
-pony-lsp needs to know the root of your project so it can resolve packages correctly. It determines this by scanning parent directories for a workspace root marker. The following are recognised as markers:
+pony-lsp needs to know the root of your project so it can resolve modules correctly. It determines this by scanning parent directories for a workspace root marker. The following are recognised as markers:
 
 - `corral.json` (Pony's dependency manager)
 - `bundle.json`
@@ -37,16 +37,16 @@ pony-lsp supports settings via [`workspace/configuration`](https://microsoft.git
 | Setting | Type | Example | Description |
 |---------|------|---------|-------------|
 | `defines` | `Array[String]` | `["FOO", "BAR"]` | Defines active during compilation, equivalent to the `-D` flag in `ponyc` |
-| `ponypath` | `Array[String]` | `["/path/to/pony/package"]` | Additional package search paths for pony-lsp |
+| `ponypath` | `Array[String]` | `["/path/to/pony/module"]` | Additional module search paths for pony-lsp |
 
-The standard library is discovered automatically from the pony-lsp installation path. You only need `ponypath` if your project depends on packages outside the standard search locations.
+The standard library is discovered automatically from the pony-lsp installation path. You only need `ponypath` if your project depends on modules outside the standard search locations.
 
 Example settings:
 
 ```json
 {
   "defines": ["FOO", "BAR"],
-  "ponypath": ["/path/to/pony/package", "/another/path"]
+  "ponypath": ["/path/to/pony/module", "/another/path"]
 }
 ```
 
@@ -145,8 +145,8 @@ Next, open your Zed settings to configure `pony-lsp` (all options are optional):
       "settings": {
         "executable": "/pony/bin/pony-lsp",
         "ponypath": [
-          "/path/to/project-a/packages",
-          "/path/to/project-b/packages"
+          "/path/to/project-a/modules",
+          "/path/to/project-b/modules"
         ],
         "defines": [
           "MY_DEFINE_ONE",

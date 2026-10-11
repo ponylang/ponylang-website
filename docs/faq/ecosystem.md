@@ -12,4 +12,4 @@ An easy to maintain code formatter would share parsing code with the compiler. A
 
 ## Is there SSL support? {:id="ssl"}
 
-Yes! The standard library's `crypto` package provides cryptographic primitives (hash functions, HMAC, PBKDF2, random bytes) backed by OpenSSL's libcrypto. The standard library's `net` package provides SSL/TLS connections via OpenSSL's libssl.
+Yes! The standard library's `crypto` module provides cryptographic primitives (hash functions, HMAC, PBKDF2, random bytes) backed by OpenSSL's libcrypto. The standard library's `net` module provides SSL/TLS connections via OpenSSL's libssl.
