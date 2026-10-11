@@ -2,7 +2,7 @@
 
 The Use section collects practical information for developing with Pony.
 
-**Development Environment** covers tools for setting up and managing your project: dependency management with corral, the Pony language server for editor integration, linting with pony-lint, documentation generation with pony-doc, and LLM skills for AI-assisted development.
+**Development Environment** covers tools for setting up and managing your project: dependency management with corral, the Pony language server for editor integration, linting with pony-lint, documentation generation with pony-doc, LLM skills for AI-assisted development, and a query server for AI coding agents.
 
 **Development** covers writing, testing, debugging, and optimizing Pony code. You'll find guides on unit testing and property-based testing with the standard library, step debugging with LLDB, memory tracking, tracing, and performance tuning.
 
