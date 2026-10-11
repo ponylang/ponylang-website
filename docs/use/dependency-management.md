@@ -1,6 +1,6 @@
 # Dependency Management
 
-[Corral](https://github.com/ponylang/corral) is the dependency manager for Pony. It handles fetching dependencies, managing versions, and setting up the `PONYPATH` so the compiler can find your packages. Corral is currently in beta.
+[Corral](https://github.com/ponylang/corral) is the dependency manager for Pony. It handles fetching dependencies, managing versions, and setting up the `PONYPATH` so the compiler can find your modules. Corral is currently in beta.
 
 ## Installation
 
@@ -46,7 +46,7 @@ Arguments after `--` are passed through to the command. For example, to build in
 corral run -- ponyc --debug
 ```
 
-In your Pony source, import the dependency by package name:
+In your Pony source, import the dependency by module name:
 
 ```pony
 use "valbytes"

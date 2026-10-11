@@ -80,7 +80,7 @@ The library wraps PCRE2 (the 8-bit variant) via FFI, with JIT compilation enable
 
 A semantic versioning package for Pony.
 
-The library is organized into three sub-packages. `semver/version` handles parsing, validation, comparison, and stringification of semver 2.0.0 version strings, including pre-release fields and build metadata. `semver/range` provides interval-based version ranges with inclusive/exclusive bounds. `semver/solver` is a constraint-based dependency resolver that takes a set of available artifacts with their version-constrained dependencies and finds a compatible combination using a backtracking search. Parsing never throws — `ParseVersion` always returns a `Version` object, and `is_valid()` plus the `errors` field indicate whether parsing succeeded.
+The library is organized into three sub-modules. `semver/version` handles parsing, validation, comparison, and stringification of semver 2.0.0 version strings, including pre-release fields and build metadata. `semver/range` provides interval-based version ranges with inclusive/exclusive bounds. `semver/solver` is a constraint-based dependency resolver that takes a set of available artifacts with their version-constrained dependencies and finds a compatible combination using a backtracking search. Parsing never throws — `ParseVersion` always returns a `Version` object, and `is_valid()` plus the `errors` field indicate whether parsing succeeded.
 
 ### [templates](https://github.com/ponylang/templates)
 

@@ -26,7 +26,7 @@ pony-lint --version
 
 ## Using with Corral
 
-For projects that use [corral](https://github.com/ponylang/corral) for dependency management, run pony-lint through `corral run` so that dependencies are on the package search path:
+For projects that use [corral](https://github.com/ponylang/corral) for dependency management, run pony-lint through `corral run` so that dependencies are on the module search path:
 
 ```bash
 corral run -- pony-lint
@@ -59,8 +59,8 @@ corral run -- pony-lint src/ test/
 | `style/member-naming` | on | Member names should be snake_case |
 | `style/method-declaration-format` | on | Multiline method declaration formatting (parameter layout, return type and `=>` alignment) |
 | `style/operator-spacing` | on | Binary operators need surrounding spaces and belong at line end; no space after unary `-` |
-| `style/package-docstring` | on | Package should have a `<package>.pony` file with a docstring |
-| `style/package-naming` | off | Package directory name should be snake_case |
+| `style/module-docstring` | on | Module should have a `<module>.pony` file with a docstring |
+| `style/module-naming` | off | Module directory name should be snake_case |
 | `style/partial-call-spacing` | on | `?` at call site must immediately follow `)` |
 | `style/partial-spacing` | on | `?` in method declaration needs surrounding spaces |
 | `style/prefer-chaining` | on | Local variable can be replaced with `.>` chaining |
@@ -97,12 +97,12 @@ Config file discovery order:
 
 `.pony-lint.json` files in subdirectories override the root config for all files in that subtree. The format is the same as the root config.
 
-For example, to turn off `style/package-docstring` for everything under `examples/`, add an `examples/.pony-lint.json`:
+For example, to turn off `style/module-docstring` for everything under `examples/`, add an `examples/.pony-lint.json`:
 
 ```json
 {
   "rules": {
-    "style/package-docstring": "off"
+    "style/module-docstring": "off"
   }
 }
 ```
