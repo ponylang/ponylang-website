@@ -197,7 +197,7 @@ Method names get mangled by the compiler. The general format for the mangling is
 In the above:
 
 `package`
-: the name of the package (for methods brought in through use expressions)
+: the name of the module (for methods brought in through use expressions)
 
 `type`
 : the name of the type to which the method belongs

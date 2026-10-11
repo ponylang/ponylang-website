@@ -730,11 +730,11 @@ let w = a +
   b
 ```
 
-## `style/package-naming`
+## `style/module-naming`
 
 **Default:** off
 
-The package directory name must be snake_case, containing only lowercase letters, digits, and underscores. This rule is off by default because application packages often use hyphens to match CLI naming conventions.
+The module directory name must be snake_case, containing only lowercase letters, digits, and underscores. This rule is off by default because application modules often use hyphens to match CLI naming conventions.
 
 **Incorrect (if enabled):**
 
@@ -753,11 +753,11 @@ my_package/
   main.pony
 ```
 
-## `style/package-docstring`
+## `style/module-docstring`
 
 **Default:** on
 
-Each package should have a file named after the package (e.g., `my_package.pony` for a package in the `my_package/` directory) containing a package-level docstring as the first expression. Directory names with hyphens are normalized to underscores (e.g., `pony-lint/` expects `pony_lint.pony`).
+Each module should have a file named after the module (e.g., `my_package.pony` for a module in the `my_package/` directory) containing a module-level docstring as the first expression. Directory names with hyphens are normalized to underscores (e.g., `pony-lint/` expects `pony_lint.pony`).
 
 **Incorrect:**
 
@@ -776,7 +776,7 @@ use "collections"   # no docstring before the first use statement
 ```pony
 // File: my_package/my_package.pony
 """
-Provides utilities for working with packages.
+Provides utilities for working with modules.
 """
 
 use "collections"

@@ -5,7 +5,7 @@ Documentation is the lifeblood of an Open Source project. It makes it easier to 
 ## Standard Library Documentation Improvements
 
 * Add documentation in the form of docstrings to the standard libraries
-* Add examples of usage to package level docstrings
+* Add examples of usage to module level docstrings
 
 ## Ponylang Packages Documentation Improvements
 

@@ -8,7 +8,7 @@ We've collected together some resources to help you write fast Pony code. In add
 
 ## Microbenchmarking
 
-The Pony standard library contains a microbenchmarking package called `pony_bench`. Microbenchmarking is the process of measuring the performance of small pieces of code. It's a useful tool for understanding the performance characteristics of small sections code.
+The Pony standard library contains a microbenchmarking module called `pony_bench`. Microbenchmarking is the process of measuring the performance of small pieces of code. It's a useful tool for understanding the performance characteristics of small sections code.
 
 It won't help you make your entire application fast, but it can help you make small sections of your code fast. We recommend only spending time using Pony Bench on code that will be used in a "hot path". That is, code that will executed many times. And by "many times", we mean "millions" or "billions".
 

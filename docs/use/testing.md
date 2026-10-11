@@ -73,12 +73,12 @@ Tests that create TCP listeners, connections, timers, or other I/O resources mus
 
 ## Test Project Structure
 
-Pony projects use a single top-level `_test.pony` whose `Main` actor orchestrates all tests. Each subpackage has its own `_test.pony` with a `Main is TestList` actor that provides two constructors:
+Pony projects use a single top-level `_test.pony` whose `Main` actor orchestrates all tests. Each submodule has its own `_test.pony` with a `Main is TestList` actor that provides two constructors:
 
-- `create(env: Env)` — for running the subpackage's tests directly
+- `create(env: Env)` — for running the submodule's tests directly
 - `make()` — for aggregation into the top-level runner
 
-The top-level `_test.pony` imports subpackages via aliased `use` statements and delegates to their test lists:
+The top-level `_test.pony` imports submodules via aliased `use` statements and delegates to their test lists:
 
 ```pony
 use "pony_test"
@@ -97,7 +97,7 @@ actor Main is TestList
     bar.Main.make().tests(test)
 ```
 
-Only the top-level package gets compiled and run. The `ponyc/packages/stdlib/` directory in the Pony compiler source is a good example of this pattern in practice.
+Only the top-level module gets compiled and run. The `ponyc/packages/stdlib/` directory in the Pony compiler source is a good example of this pattern in practice.
 
 ## Coverage Reports
 

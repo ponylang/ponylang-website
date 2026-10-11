@@ -29,7 +29,7 @@ Bot to update a Pony format changelogs with new entries.
 
 ### [library-documentation-action-v2](https://github.com/ponylang/library-documentation-action-v2)
 
-Generates documentation for Pony packages.
+Generates documentation for Pony modules.
 
 ### [release-bot-action](https://github.com/ponylang/release-bot-action)
 
