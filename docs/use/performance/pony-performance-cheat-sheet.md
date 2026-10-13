@@ -452,7 +452,11 @@ Now, warning aside, there's plenty you can learn about tuning your operating sys
 
 ### Build from source {#build-from-source}
 
-The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should [build your compiler from source](../../contribute/compiler/building-ponyc-from-source.md). By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Additionally, you should try building the [runtime as an LLVM bitcode file](../../contribute/compiler/building-ponyc-from-source.md#runtime-bitcode). Finally, make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
+The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should [build your compiler from source](../../contribute/compiler/building-ponyc-from-source.md). By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
+
+#### Use clang, not gcc {#use-clang}
+
+When you build ponyc with clang, the runtime is automatically compiled as LLVM bitcode. This enables cross-module optimizations between your Pony code and the runtime — the LLVM optimizer can inline and optimize across that boundary instead of treating the runtime as an opaque library. The result is faster code. GCC can't produce LLVM bitcode, so this optimization is only available with clang. If you're building from source for performance, use clang.
 
 ### Profile it! {#profiling}
 
