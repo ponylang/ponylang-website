@@ -18,6 +18,10 @@ If you get stuck, fear not, we have a [welcoming community](https://www.ponylang
 
 ## Pony performance tips
 
+### Check your compiler flags {#compiler-flags}
+
+Pony defaults to `--release` and `--fat-lto`, which give you optimal runtime performance. If you've overridden either of these, you're leaving performance on the table. Don't compile with `--debug` — it disables optimizations. Don't use `--thin-lto` in place of `--fat-lto` — fat LTO gives the optimizer full visibility across modules, which produces better code at the cost of longer compile times.
+
 ### It's probably your design {#design-for-performance}
 
 A poor design can kill your performance before you ever write a line of code. One of the fastest ways to hurt your performance is by inserting bottlenecks. As an example, imagine a system where you have X number of "processing actors" and 1 "aggregating actor." Work is farmed out to each of the processing actors to undertake which in turn send their results to the aggregating actor. Can you spot the possible bottleneck? Our performance is going to be bound by the performance of the single aggregating actor. We haven't written a line of code yet, and we already have a performance problem.
@@ -452,7 +456,7 @@ Now, warning aside, there's plenty you can learn about tuning your operating sys
 
 ### Build from source {#build-from-source}
 
-The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should [build your compiler from source](../../contribute/compiler/building-ponyc-from-source.md). By default, Pony will then take advantage of any features of your CPU like AVX/AVX2. Make sure you build a `release` version of the compiler and that your pony binary wasn't compiled with `--debug`.
+The pre-built Pony packages are quite conservative with the optimizations they apply. To get the best performance, you should [build your compiler from source](../../contribute/compiler/building-ponyc-from-source.md). By default, Pony will then take advantage of any features of your CPU like AVX/AVX2.
 
 #### Use clang, not gcc {#use-clang}
 
