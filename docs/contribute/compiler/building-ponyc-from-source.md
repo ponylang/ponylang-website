@@ -79,21 +79,6 @@ cmake --preset release -DPONY_USE_LTO=true
 cmake --build --preset release
 ```
 
-### Runtime Bitcode
-
-With clang, you can build the Pony runtime as LLVM bitcode. This enables cross-module optimizations between your Pony code and the runtime — essentially "super LTO" for the runtime. Optimization times can be significantly longer.
-
-```bash
-cmake --preset release -DPONY_RUNTIME_BITCODE=true
-cmake --build --preset release
-```
-
-Then compile programs with:
-
-```bash
-ponyc --runtimebc
-```
-
 ## Instrumentation
 
 The `PONY_USES` option enables various instrumentation features. It is set at the configure step. Multiple options can be combined with commas:
