@@ -101,9 +101,7 @@ The available options:
 | `coverage` | Code coverage instrumentation |
 | `runtimestats` | Runtime statistics collection |
 | `runtimestats_messages` | Runtime statistics with message tracking |
-| `pooltrack` | Pool memory tracking |
 | `pool_memalign` | Pool allocator with memalign |
-| `pool_retain` | Pool allocator retains freed pages instead of returning them to the OS |
 
 For detailed usage of valgrind, sanitizers, and systematic testing, see [Custom ponyc Builds](../../use/compiler/custom-ponyc-builds.md).
 
