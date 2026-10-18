@@ -127,6 +127,7 @@ Grönlund's
 Groxio
 grrr
 Hädrich
+Hacktober
 hafermotor
 Hagenson
 Hagenson's
@@ -136,6 +137,7 @@ Hashable
 Haxe
 Hedhman
 Herdsim
+herky
 HFPUG
 HMAC
 Hoogland
@@ -225,6 +227,7 @@ mfelsche
 mfelsche's
 microbenchmark
 microbenchmarking
+mudville
 Migda
 Minghan
 Mirko
