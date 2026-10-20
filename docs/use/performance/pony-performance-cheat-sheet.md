@@ -462,10 +462,6 @@ The pre-built Pony packages are quite conservative with the optimizations they a
 
 When you build ponyc with clang, the runtime is automatically compiled as LLVM bitcode. This enables cross-module optimizations between your Pony code and the runtime — the LLVM optimizer can inline and optimize across that boundary instead of treating the runtime as an opaque library. The result is faster code. GCC can't produce LLVM bitcode, so this optimization is only available with clang. If you're building from source for performance, use clang.
 
-### Profile it! {#profiling}
-
-Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hot spots. You can use standard profiling tools like `perf`, Instruments, VTune, and Callgrind on your Pony application. Our [profiling guide](profiling.md) covers `perf`, Instruments, and Callgrind, plus the compiler flags you need and how to read the Pony-specific parts of a profile.
-
 ### Control inlining {#control-inlining}
 
 The compiler normally decides which functions to inline. When profiling shows that a particular call site matters, three annotations let you override that decision on `fun` methods:
@@ -475,3 +471,7 @@ The compiler normally decides which functions to inline. When profiling shows th
 - `\noinline\` — never inline the function
 
 These are blunt instruments. Use them after profiling confirms that inlining (or the lack of it) is the bottleneck — not as a substitute for profiling.
+
+### Profile it! {#profiling}
+
+Intuitions about program performance are often wrong. The only way to find out for sure is to measure. You are going to need to profile your code. It will help you find hot spots. You can use standard profiling tools like `perf`, Instruments, VTune, and Callgrind on your Pony application. Our [profiling guide](profiling.md) covers `perf`, Instruments, and Callgrind, plus the compiler flags you need and how to read the Pony-specific parts of a profile.
