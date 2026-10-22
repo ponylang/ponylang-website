@@ -1,6 +1,8 @@
 # Documentation Generation
 
-pony-doc generates API documentation for Pony modules. It produces a complete [MkDocs](https://www.mkdocs.org/) site with the [Material](https://squidfunk.github.io/mkdocs-material/) theme, including type pages, method signatures, docstrings, and source code browsing. It is part of the [ponylang/ponyc](https://github.com/ponylang/ponyc) repository, built alongside the compiler, and distributed with it. Installing ponyc from source or via ponyup will include pony-doc.
+pony-doc generates API documentation for Pony modules. It is part of the [ponylang/ponyc](https://github.com/ponylang/ponyc) repository, built alongside the compiler, and distributed with it. Installing ponyc from source or via ponyup will include pony-doc.
+
+The default backend produces a complete [MkDocs](https://www.mkdocs.org/) site with the [Material](https://squidfunk.github.io/mkdocs-material/) theme, including type pages, method signatures, docstrings, and source code browsing. An Info backend produces a single `.info` file readable by any GNU Info viewer.
 
 ## Usage
 
@@ -21,11 +23,13 @@ pony-doc --include-private
 pony-doc --version
 ```
 
-pony-doc compiles the module through the type-checking pass, extracts type information from the AST, and writes MkDocs-compatible markdown. The output lands in a directory named `<module>-docs/` inside the output directory (current directory by default).
+pony-doc compiles the module through the type-checking pass, extracts type information from the AST, and writes the output in the selected format. The default backend is `mkdocs`.
 
 ## Output
 
-The generated site includes:
+### MkDocs (default)
+
+The MkDocs backend writes a directory named `<module>-docs/` inside the output directory (current directory by default). The generated site includes:
 
 - A home page listing all modules
 - A page per module with its public (and optionally private) types
@@ -35,9 +39,7 @@ The generated site includes:
 
 By default, only public types and methods are included. Use `--include-private` to include private types and methods as well.
 
-## Viewing the Output
-
-The generated output is a MkDocs project. To view it locally:
+To view the output locally:
 
 ```bash
 pip install mkdocs-material
@@ -46,6 +48,10 @@ mkdocs serve
 ```
 
 Then open `http://127.0.0.1:8000` in a browser.
+
+### Info
+
+The Info backend writes a single `<module>.info` file into the output directory. The output includes cross-reference links between types, the same type and method information as the MkDocs backend, and a tag table for navigation.
 
 ## Using with Corral
 
