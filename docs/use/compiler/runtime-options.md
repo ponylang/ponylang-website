@@ -132,7 +132,7 @@ Tracing categories to enable, as comma-separated glob patterns. Valid categories
 - `actor` — actor lifecycle and scheduling events
 - `actor_behavior` — actor behavior run events
 - `actor_gc` — actor garbage collection events
-- `actor_state_change` — actor state change events
+- `actor_state_change` — actor state change and batch size change events
 - `scheduler` — basic scheduler events
 - `scheduler_messaging` — inter-scheduler messaging events
 - `scheduler_stealing` — scheduler work-stealing events
