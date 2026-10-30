@@ -343,10 +343,12 @@ Shallaras
 Sheeeeee
 shellcheck
 Shyu
+SIGABRT
 SIGBUS
 SIGFPE
 SIGILL
 SIGSEGV
+SIGSYS
 Sivers
 Sletten
 snmalloc

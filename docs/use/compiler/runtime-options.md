@@ -96,14 +96,14 @@ Print the runtime usage options and exit.
 
 ## Tracing Options
 
-These options control the runtime's built-in tracing system for recording actor, scheduler, and GC events. When no tracing flags are passed, the runtime checks a single boolean at each trace point and skips the call — the overhead is not measurable. See [Tracing Pony Programs](../debugging/tracing.md) for usage details.
+These options control the runtime's built-in tracing system for recording actor, scheduler, and GC events. When no tracing flags are passed, the runtime checks a single boolean at each trace point and skips the call — the overhead is not measurable. Categories and actor tracing mode can also be toggled at runtime via the `runtime_tracing` standard library package. The tracing fields are available in `RuntimeOptions` for programmatic defaults via `@runtime_override_defaults`. See [Tracing Pony Programs](../debugging/tracing.md) for usage details and a programmatic example.
 
 ### `--ponytracingmode`
 
 Mode for tracing. Valid options:
 
 - `file` — write trace events to a file
-- `flight_recorder` — save events to a per-thread in-memory circular buffer; events are written to stderr when the program crashes (a fatal signal such as SIGSEGV, SIGILL, SIGBUS, or SIGFPE on Linux and macOS, or a fault such as an access violation on Windows)
+- `flight_recorder` — save events to a per-thread in-memory circular buffer; events are written to stderr when the program crashes (SIGABRT, SIGBUS, SIGFPE, SIGILL, SIGSEGV, or SIGSYS on Linux and macOS; access violations, illegal instructions, and other faults on Windows)
 
 Defaults to `file`.
 
@@ -111,7 +111,7 @@ Defaults to `file`.
 
 Output format for tracing in file mode. Valid options:
 
-- `json` — Chromium trace JSON format (viewable with [Perfetto](https://perfetto.dev/))
+- `json` — Chromium trace JSON format, viewable with [Perfetto](https://perfetto.dev/)
 
 Defaults to `json`.
 
@@ -136,21 +136,21 @@ Tracing categories to enable, as comma-separated glob patterns. Valid categories
 - `scheduler` — basic scheduler events
 - `scheduler_messaging` — inter-scheduler messaging events
 - `scheduler_stealing` — scheduler work-stealing events
-- `systematic_testing` — systematic testing events
 - `runtime` — runtime lifecycle events (init, start, shutdown)
+- `systematic_testing` — systematic testing events
 - `systematic_testing_details` — detailed systematic testing events
 
-Defaults to all categories disabled.
+Defaults to all categories disabled. Categories can also be toggled at runtime via the `runtime_tracing` package; see [Controlling tracing from code](../debugging/tracing.md#controlling-tracing-from-code).
 
-### `--ponytracingforceactortracing`
+### `--ponytracingactors`
 
-Force tracing for actors. Valid options:
+Actor tracing mode. Controls which actors emit actor-level trace events. Valid options:
 
-- `all` — force tracing for all actors
-- `cd_only` — only force tracing for the cycle detector
-- `none` — do not force tracing for any actors
+- `none` — no actors emit actor-level events
+- `all` — all actors emit actor-level events
+- `cd_only` — only the cycle detector emits actor-level events
 
-Defaults to `none`.
+Defaults to `none`. The mode can also be changed at runtime via the `runtime_tracing` package; see [Controlling tracing from code](../debugging/tracing.md#controlling-tracing-from-code).
 
 ### `--ponytracingflightrecorderbuffer`
 
