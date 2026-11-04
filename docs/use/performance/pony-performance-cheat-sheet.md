@@ -159,6 +159,8 @@ Just remember, if you want to maximise performance:
 
 Some of you probably looked at the `String` performance enhancement above and thought, "doesn't the JVM do that for you?" You'd be right. That's a standard optimization in many languages. It's an optimization we are adding to Pony. However, the basic pattern applies. Be aware of triggering extra allocations that you don't need to. Your compiler and runtime can add many optimizations to avoid allocations, but it's not going to do everything for you. You still need to understand your allocations. They're called "your allocations" because in the end, you end up owning them and they end up owning your performance.
 
+If you've done the work to get allocations out of a hot path, the `\noalloc\` annotation keeps it that way. Mark the method, and the compiler checks everything it calls in release builds. If anything in the call tree allocates, the build fails. When someone changes a helper three files away and adds an allocation, you find out at compile time instead of in production. The [Program Annotations](https://tutorial.ponylang.io/appendices/annotations#noalloc) page in the tutorial covers how it works.
+
 ### Give in to your "primitive obsession" {#primitive-obsession}
 
 Many collections of programming "best practices" teach you to avoid ["primitive obsession"](https://refactoring.guru/smells/primitive-obsession). This is great advice, normally. It's not such great advice if you are worried about performance. Let's take two ways you can represent a short form American zip code:
