@@ -124,4 +124,4 @@ Or open the output in KCachegrind (Linux) or QCachegrind (macOS) for a visual ca
 
 ## See also
 
-- [Tracing Pony Programs](../debugging/tracing.md) — runtime event tracing (actor scheduling, GC, message sends) via a custom `ponyc` build. Different from CPU profiling: tracing records what the runtime did and when, while profiling shows where CPU time went.
+- [Tracing Pony Programs](../debugging/tracing.md) — runtime event tracing (actor scheduling, GC, message sends). Different from CPU profiling: tracing records what the runtime did and when, while profiling shows where CPU time went.
