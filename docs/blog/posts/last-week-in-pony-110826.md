@@ -8,7 +8,7 @@ title: "Last Week in Pony - November 8, 2026"
 date: 2026-11-08T07:00:00-04:00
 ---
 
-We are doing a double issue this week as I was away last weekend. And as I am clearly a creature of tradition, that means we need 2 theme songs. This week, let's do 2 from Gogol Bordello. Of course, that means we need to lead off with the classic [Stop Wearing Purple](https://www.youtube.com/watch?v=SkkIwO_X4i4) and pair that with the incredible [Not A Crime](https://www.youtube.com/watch?v=u9v1-1Op9bQ).
+We are doing a double issue this week as I was away last weekend. And as I am clearly a creature of tradition, that means we need 2 theme songs. This week, let's do 2 from Gogol Bordello. Of course, that means we need to lead off with the classic [Start Wearing Purple](https://www.youtube.com/watch?v=SkkIwO_X4i4) and pair that with the incredible [Not A Crime](https://www.youtube.com/watch?v=u9v1-1Op9bQ).
 
 I don't know. I feel like, if you like Pony then assuredly you will like Gogol Bordello as well.
 
