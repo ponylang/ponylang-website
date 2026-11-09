@@ -6,14 +6,14 @@ The easiest way to install Pony is through [ponyup](https://github.com/ponylang/
 
 <!-- Keep this matrix in sync with the copy in the ponyc repo: README.md -->
 
-| OS \ CPU | `amd64` | `arm64` | `arm32` | `riscv64` |
-|---|---|---|---|---|
-| **Linux** | ✅ Released | ✅ Released | 🔧 Best-effort | 🧪 Tested |
-| **macOS** | ✅ Released | ✅ Released | — | — |
-| **Windows** | ✅ Released | ✅ Released | — | — |
-| **FreeBSD** | 🧪 Tested | ✗ Unsupported | — | — |
-| **OpenBSD** | 🧪 Tested | ✗ Unsupported | — | — |
-| **DragonFly BSD** | 🧪 Tested | — | — | — |
+| OS \ CPU | `amd64` | `arm64` | `i386` | `arm32` | `riscv64` |
+|---|---|---|---|---|---|
+| **Linux** | ✅ Released | ✅ Released | 🧪 Tested | 🔧 Best-effort | 🧪 Tested |
+| **macOS** | ✅ Released | ✅ Released | — | — | — |
+| **Windows** | ✅ Released | ✅ Released | — | — | — |
+| **FreeBSD** | 🧪 Tested | ✗ Unsupported | — | — | — |
+| **OpenBSD** | 🧪 Tested | ✗ Unsupported | — | — | — |
+| **DragonFly BSD** | 🧪 Tested | — | — | — | — |
 
 * ✅ **Released** — official prebuilt binaries; also tested in CI
 * 🧪 **Tested** — tested in CI; build from source (no prebuilt binary)
