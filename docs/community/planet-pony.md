@@ -84,6 +84,7 @@ We don't have a Pony blog aggregator at the moment, so in the meantime, we have 
 
 ## Interviews & Podcasts
 
+* [Software correctness and programming languages with Sean Allen](https://www.youtube.com/watch?v=OrXKvOjR-vI) (2026)
 * [Pony Programming Language with Sylvan Clebsch and Sean Allen -- Conversation #7](https://www.youtube.com/watch?v=_jhPREUmHJ4) (2024)
 * [Developer Voices Interview- Pony: High-Performance, Memory-Safe Actors (with Sean Allen)](https://www.youtube.com/watch?v=u9da3UzEhEI) (2024)
 * [InfoQ podcast interview with Sylvan Clebsch - Pony Language Designer Sylvan Clebsch on Pony's Design, Garbage Collection, and Formal Verification](https://www.infoq.com/podcasts/sylvan-clebsch-pony-formal-verification) (2017)
