@@ -177,18 +177,7 @@ Follow these steps:
 1. **Read editorial guidelines**: Read the "Last Week in Pony" section in
    this project's AGENTS.md for format, tone, and domain-specific notes.
 
-2. **Study recent posts and voice calibration**: Read the 2-3 most recent
-   posts in `docs/blog/posts/last-week-in-pony-*.md`. Also read 2-3 posts
-   from `~/code/seantallen/seantallen.com/content/posts/` to calibrate on
-   Sean's personal writing voice. Key traits: he connects ideas into
-   flowing narrative (not choppy fact sequences), tells you *why* things
-   matter (not just what they are), shares opinions freely, uses natural
-   asides and humor, and varies sentence length. The language is
-   hyperbolic but the facts aren't — the flair is in *how* things are
-   said ("gracing you with," "the whole thing"), not in inflating what
-   they are. Don't write feature checklists ("X is supported. Y is
-   supported.") — describe things the way you'd tell someone about them
-   in conversation.
+2. **Study recent posts and voice calibration**: Read the 2-3 most recent posts in `docs/blog/posts/last-week-in-pony-*.md` to calibrate on the voice of recent LWIPs. Key traits: flowing narrative (not choppy fact sequences), explanations of *why* things matter (not just what they are), freely shared opinions, natural asides and humor, and varied sentence length. The language is hyperbolic but the facts aren't — the flair is in *how* things are said ("gracing you with," "the whole thing"), not in inflating what they are. Don't write feature checklists ("X is supported. Y is supported.") — describe things the way you'd tell someone about them in conversation.
 
 3. **Rotate the issue first**: Run
    `gh issue list --repo ponylang/ponylang-website --label last-week-in-pony --state open`
