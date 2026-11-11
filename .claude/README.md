@@ -1,8 +1,8 @@
-# `.claude/skills`
+# Repository skills
 
-Skills for working on the ponylang website with an AI assistant. Each lives in its own
-directory with a `SKILL.md`. They are self-contained — they don't depend on any personal or
-external skill, so a contributor with just this repo can use them.
+Skills for working on the ponylang website with an AI assistant. Each lives in its own directory under `.agents/skills/` with a `SKILL.md`. They are self-contained — they don't depend on any personal or external skill, so a contributor with just this repo can use them.
+
+Codex discovers the skills in `.agents/skills/`; invoke one with `$name` or browse `/skills`. Claude Code discovers relative directory symlinks in `.claude/skills/` that point to the same files; invoke one with `/name`. Edit the canonical files in `.agents/skills/`. The `dev-sync-summary` skill requires explicit invocation in both clients.
 
 ## Skills
 
