@@ -1,6 +1,6 @@
 ---
 name: ponylang-prose-review
-description: Ensemble review of ponylang blog and Last Week in Pony prose. Runs lens personas in parallel — house voice, agency, narrative, reader-orientation, tightness, content-honesty, plus a conditional accuracy lens — checks the draft against the AGENTS.md editorial guidelines and the craft rules, and returns Fix/Park findings. Self-contained: no dependency on any other skill. Load after a draft exists, before the post PR.
+description: "Ensemble review of ponylang blog and Last Week in Pony prose. Runs lens personas in parallel — house voice, agency, narrative, reader-orientation, tightness, content-honesty, plus a conditional accuracy lens — checks the draft against the AGENTS.md editorial guidelines and the craft rules, and returns Fix/Park findings. Self-contained: no dependency on any other skill. Load after a draft exists, before the post PR."
 disable-model-invocation: false
 ---
 
@@ -13,9 +13,7 @@ narrative, prose reproduced from a linked source, an invented framing, an unearn
 fabricated characterization, a wrong technical claim. This decomposes the review so each gets
 its own lens.
 
-This skill is **self-contained** — it loads no other skill. All the ensemble mechanics it
-needs are inlined below; nothing comes from `pony-ensemble` / `pony-synthesize` or any
-personal skill. A contributor with only this repo's `.claude/` can run it.
+This skill is **self-contained** — it loads no other skill. All the ensemble mechanics it needs are inlined below; nothing comes from `pony-ensemble` / `pony-synthesize` or any personal skill. A contributor with this repo's `.agents/skills/` resources can run it in Codex or through the `.claude/skills/` links in Claude Code.
 
 ## When to run
 
