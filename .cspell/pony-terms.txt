@@ -58,6 +58,7 @@ Cheeseman
 Cheeseman's
 chilis
 Clebsch
+Coen
 Cloudsmith
 codecabc
 codegen
@@ -113,6 +114,7 @@ footguns
 Fritchie
 Fritchie's
 Gebbie
+Gergely
 gefingerpoken
 gencap
 Glfw
@@ -262,6 +264,7 @@ Ooops
 OOPSLA
 Øredev
 Orien
+Orosz
 OSCON
 overallocating
 packethost
@@ -379,11 +382,13 @@ Tarjan's
 termax
 theobutler
 Theodus
+timey
 Timebomb
 Tisher
 TOCTOU
 Toolkits
 treecheck
+Tubb's
 Turley
 Turley's
 typearg
