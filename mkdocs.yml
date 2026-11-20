@@ -155,6 +155,7 @@ nav:
       - Development:
           - Testing:
               - Overview: "use/testing.md"
+              - Mutation Testing: "use/testing/mutation-testing.md"
               - Coverage Reports: "use/testing/coverage-reports.md"
           - Debugging:
               - Overview: "use/debugging.md"
