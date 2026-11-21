@@ -32,7 +32,7 @@ We invite you to join our small but growing community and help push Pony forward
 
 Not before late 2027 at the earliest. We're actively developing a number of features that need to stabilize first, and we want real-world usage time with those features before committing to 1.0. Minting a stable release means breaking changes become a much bigger deal — we'd rather get it right than get it early.
 
-You can follow development progress in [Last Week in Pony](/blog/categories/last-week-in-pony/) or ask questions on our [Zulip community](https://ponylang.zulipchat.com).
+You can follow development progress in [Last Week in Pony](https://www.ponylang.io/blog/categories/last-week-in-pony/) or ask questions on our [Zulip community](https://ponylang.zulipchat.com).
 
 ## Are there any examples of something complex built in Pony? {:id="real-world-pony-codebases"}
 
