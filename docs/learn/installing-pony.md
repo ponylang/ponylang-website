@@ -33,6 +33,8 @@ On Linux or macOS, run:
 sh -c "$(curl --proto '=https' --tlsv1.2 -sSf https://raw.githubusercontent.com/ponylang/ponyup/latest-release/ponyup-init.sh)"
 ```
 
+If the latest ponyup release lacks the archive or checksum for your platform, the Linux and macOS installer uses `python3` to find an older release with both files. You also need `python3` on your `PATH` to install a nightly build of ponyup. On Windows, the [PowerShell installer](https://github.com/ponylang/ponyup#install-ponyup) handles both cases without Python.
+
 ## Install the Pony compiler
 
 Once ponyup is installed, install the latest release of the Pony compiler:
@@ -42,6 +44,27 @@ ponyup update ponyc release
 ```
 
 Prebuilt packages are only available for certain platforms. Check the [ponyc INSTALL.md](https://github.com/ponylang/ponyc/blob/main/INSTALL.md) for the current list of supported distributions. If yours isn't listed, you'll need to build from source.
+
+### Sign in to GitHub for release lookups
+
+An HTTP 403 or 429 from `api.github.com` during a release lookup can mean you've reached GitHub's rate limit. To use your account's higher limit, install the [GitHub CLI](https://cli.github.com/), then run `gh auth login --hostname github.com` and follow the prompts.
+
+On Linux or macOS, pass your GitHub CLI token to each ponyup command. The first command lists available compiler releases. The second installs the latest one.
+
+```sh
+GITHUB_TOKEN="$(gh auth token --hostname github.com)" ponyup find ponyc release
+GITHUB_TOKEN="$(gh auth token --hostname github.com)" ponyup update ponyc release
+```
+
+On Windows, set the token for your current PowerShell session:
+
+```powershell
+$env:GITHUB_TOKEN = gh auth token --hostname github.com
+ponyup find ponyc release
+ponyup update ponyc release
+```
+
+The ponyup installers also use `GITHUB_TOKEN` for GitHub release lookups when it is set. Nightly lookups use anonymous access.
 
 ## Additional dependencies
 
