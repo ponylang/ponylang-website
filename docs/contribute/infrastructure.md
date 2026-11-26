@@ -10,7 +10,7 @@ Access is via individual accounts that are granted access by an existing adminis
 
 ## Cloudsmith
 
-All our nightly and release artifacts are stored in [Cloudsmith](https://cloudsmith.io/).
+We publish toolchain releases and nightly builds to [Cloudsmith](https://cloudsmith.io/). Cloudsmith is still available as a fallback. Pass `--source=cloudsmith` for the ponyup command that should use it.
 
 Access is via individual accounts which can then be granted various levels of access. There's a "ponylang" account that can be used for some administrative tasks. Information for the ponylang account is stored in 1Password.
 
@@ -18,7 +18,9 @@ Access is via individual accounts which can then be granted various levels of ac
 
 All our docker images that are used across various CI and release jobs are stored in the GitHub Container Registry.
 
-We also use it as the cache for the compiler's vendored LLVM build. CI stores the prebuilt LLVM libraries there as OCI artifacts so jobs don't rebuild LLVM from scratch on every run.
+Ponyup downloads nightly toolchain builds from the GitHub Container Registry by default. Each tool has a separate registry repository for each platform.
+
+We also use the registry as the cache for the compiler's vendored LLVM build. CI stores the prebuilt LLVM libraries there as OCI artifacts so jobs don't rebuild LLVM from scratch on every run.
 
 ## MailWip
 
@@ -29,6 +31,8 @@ Access information is in the 1Password account.
 ## GitHub
 
 All our code is stored on GitHub. All our CI is done via [GitHub actions](https://github.com/features/actions). You'll need a GitHub account to participate in almost all aspects of the Pony project.
+
+Ponyup downloads released toolchain binaries from each tool's GitHub Releases page by default.
 
 ### Access to GitHub is divided into three different teams.
 
