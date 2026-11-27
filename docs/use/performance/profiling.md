@@ -44,13 +44,18 @@ You'll see these functions from the Pony runtime in your profiles:
 | `ponyint_actor_run` | The scheduler running an actor's behavior. Your code appears in the call stack under this function. |
 | `pony_sendv` | Sending a message to an actor. Time here means message-passing overhead. |
 | `pony_create` | Creating a new actor. |
-| `ponyint_gc_mark`, `ponyint_gc_sweep` | Garbage collection mark and sweep phases. Time here means GC pressure. |
+| `collect_at_boundary` | Collects garbage between behaviors. |
+| `ponyint_gc_mark` | Sets up tracing callbacks for collection between behaviors. |
+| `ponyint_gc_sweep` | Cleans up reference-tracking maps during collection between behaviors. |
+| `ponyint_gc_poll` | Checks whether the actor can collect during a behavior and whether the heap has reached the collection threshold. Can return without starting collection. |
+| `begin_mark` | Starts tracing live references during a behavior. |
+| `ponyint_gc_finish` | Completes marking during a behavior and may reclaim memory on the actor's heap. |
 | `ponyint_sched_*` | Scheduler internals — work stealing, thread coordination. |
 
 How to read the results:
 
 - Most time in your own functions under `ponyint_actor_run` — normal. Optimize your code directly.
-- A lot of time in `ponyint_gc_mark` or `ponyint_gc_sweep` — GC pressure. See the [garbage collector](pony-performance-cheat-sheet.md#garbage-collector) section of the performance cheat sheet.
+- Time under `collect_at_boundary` shows collection work between behaviors. Time under `begin_mark` or `ponyint_gc_finish` shows collection work during a behavior. Self time in `ponyint_gc_poll` includes checks that can return without marking. If collection accounts for a large share of the profile, see the [garbage collector](pony-performance-cheat-sheet.md#garbage-collector) section of the performance cheat sheet.
 - A lot of time in `pony_sendv` or `pony_create` — too many actors or too many messages. See the [design](pony-performance-cheat-sheet.md#design-for-performance) and [allocations](pony-performance-cheat-sheet.md#avoid-allocations) sections of the cheat sheet.
 
 ## Linux: perf

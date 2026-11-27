@@ -295,7 +295,6 @@ In addition to the queue costs you pay with a message send, depending on the con
 #### Things you should know about the Pony garbage collector
 
 - Each actor has its own heap
-- Actors might GC after each behavior call (never during one)
 - Effectively, Pony programs are constantly, concurrently collecting garbage
 - Garbage collection for an actor's heap uses a mark and don't sweep algorithm
 - There are no garbage collection generations
