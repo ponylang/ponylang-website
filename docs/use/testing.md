@@ -99,6 +99,10 @@ actor Main is TestList
 
 Only the top-level module gets compiled and run. The `ponyc/packages/stdlib/` directory in the Pony compiler source is a good example of this pattern in practice.
 
+## Mutation Testing
+
+The compiler can instrument your program for mutation testing — inserting small changes into the compiled code to measure whether your tests detect them. See [Mutation Testing](testing/mutation-testing.md) for compiler flags, the `pony-mutate` runner, and how to read results.
+
 ## Coverage Reports
 
 Pony supports generating test coverage reports through LLVM's source-based code coverage tooling. See [Coverage Reports](testing/coverage-reports.md) for setup instructions.
